@@ -1,0 +1,39 @@
+{
+  "title": "MobiControl Competitor Update — week ending 14 Sep 2026",
+  "periodStart": "2026-09-08",
+  "periodEnd": "2026-09-14",
+  "generatedAt": "2026-09-14",
+  "execSummary": [
+    "Intune's Week of September 7 release adds two Windows management capabilities; one overlaps a MobiControl differentiator.",
+    "Hexnode continues its Windows push (Windows Server management, file deployment) — third consecutive month of Windows-first releases.",
+    "No movement from Miradore, 42Gears or Scalefusion this week."
+  ],
+  "topSignals": [
+    { "headline": "Intune expands Windows enrollment-time controls", "vendor": "Microsoft Intune", "whyItMatters": "Closes a gap MobiControl sales currently leads with in regulated-industry deals.", "urgency": "respond" },
+    { "headline": "Hexnode adds Windows Server management", "vendor": "Hexnode", "whyItMatters": "Signals mid-market UEMs treating servers as endpoints; watch for customer asks.", "urgency": "watch" }
+  ],
+  "vendors": [
+    { "vendor": "Microsoft Intune", "summary": "Service release 2609 focused on Windows enrollment and compliance.", "items": [
+      { "title": "Example: Enrollment-time device restrictions", "date": "2026-09-10", "url": "https://learn.microsoft.com/en-us/intune/whats-new/", "platforms": ["Windows"], "windowsRelevance": "high",
+        "whatChanged": "Administrators can now block enrollment by device model and OS build at the time of enrollment.",
+        "soWhatForMobiControl": "MobiControl offers this via enrollment rules; the differentiator narrows. Positioning should shift to policy depth and rugged-device coverage." }
+    ] },
+    { "vendor": "Hexnode", "items": [
+      { "title": "Windows Server Management", "date": "2026-07-20", "url": "https://www.hexnode.com/forums/topic/windows-server-management/", "platforms": ["Windows"], "windowsRelevance": "medium",
+        "whatChanged": "Enroll and manage Windows Servers alongside desktops for patching, remote actions and security policies.",
+        "soWhatForMobiControl": "No direct parity gap for MobiControl's core segments; note as a mid-market trend." }
+    ] },
+    { "vendor": "Miradore", "items": [] }
+  ],
+  "crossPlatformSignals": [
+    { "vendor": "Jamf", "signal": "Jamf Pro 11.32 adds inventory attributes for enrollment type and supervision without MDM queries.", "implication": "Vendors are reducing MDM-query reliance for inventory; a pattern MobiControl's Windows agent already avoids." }
+  ],
+  "noChange": ["42Gears", "Scalefusion"],
+  "sourceStatus": [
+    { "source": "intune-whats-new", "status": "ok", "note": "1 new weekly section" },
+    { "source": "hexnode-whats-new", "status": "ok" },
+    { "source": "miradore-releases", "status": "no-change" },
+    { "source": "ivanti-releases", "status": "error", "note": "HTTP 503 on two attempts" }
+  ],
+  "methodology": "Twelve public vendor sources fetched on 14 Sep 2026 and compared against the previous week's snapshots. New feed items, new release pages and changed release-note sections were extracted; the analysis covers only those deltas."
+}

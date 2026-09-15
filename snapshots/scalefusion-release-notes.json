@@ -1,0 +1,230 @@
+{
+ "id": "scalefusion-release-notes",
+ "vendor": "Scalefusion",
+ "kind": "d360-index",
+ "fetchedAt": "2026-09-15T07:45:49.506Z",
+ "meta": {
+  "url": "https://help.scalefusion.com/docs/latest-release-notes-year-2026",
+  "articleModifiedAt": "2026-09-15T07:45:48.4821334Z",
+  "articleTitle": "Latest Release Notes: Year 2026",
+  "fetched": 1
+ },
+ "items": [
+  {
+   "key": "Scalefusion September 4th, 2026 Release Notes",
+   "title": "Scalefusion September 4th, 2026 Release Notes",
+   "date": "2026-09-07",
+   "url": "https://help.scalefusion.com/docs/scalefusion-september-4th-2026-release-notes",
+   "text": "Version Information\nScalefusion Dashboard: v67.6.0\nScalefusion Windows MDM Agent: v17.0.15\nScalefusion macOS MDM Agent: v6.5.6\nScalefusion Windows Remote Support Agent: v4.15.0.0\nRelease Notes\nSimplified Platform SSO for macOS\nSimplified Platform SSO (S-PSSO) allows users to sign in with their IdP credentials during Automated Device Enrollment (ADE). This enables unattended enrollment and binding the device to an IdP account at first use.\nIT Administrators can configure Simplified PSSO from ADE Settings → macOS Prestage Setup, including fallback options for devices running older macOS versions. Simplified PSSO supports Okta and Microsoft Entra.\nmacOS MDM Agent Enhancements\nDMG and ZIP Application Deployment: The Enterprise Store now supports deploying DMG- and ZIP-based applications using the Scalefusion macOS MDM Agent. IT Administrators can configure:\na. Installation Method: Use standard installation or custom script-based installation.\nb. Installation Behavior: Configure the application to always remain installed and choose whether to ignore or respect DND options.\nc. Installation Notifications: Display alerts when installation starts and show progress during installations or updates.\nd. Installation Detection: Detect application installation or updates based on bundle, file, folder existence, or script-based detection.\ne. Pre- and Post-Installation Scripts: Configure scripts to run before and after installation.\nCustom Script-Based Installation for PKG Files: PKG application deployment now supports a script-based installation method in addition to the standard installation method.\nWindows MDM Agent Enhancements\nEnhanced installed application detection logic to prevent the Scalefusion MDM Agent from consuming CPU or memory cycles during application evaluation.\nWindows Remote Support Enhancements\nImproved Connection Speeds: Connection speeds have been improved by using device location and IP information to determine the best server for the connection.\nWindows SmartScreen Compatibility: The Remote Support tool has been updated to prevent it from being marked as dangerous by Windows SmartScreen.\nCheck Now for Pending Terminal Sessions: The Check Now button in the Remote Support UI on the device polls for pending terminal sessions and starts a session when required. This helps in environments where push channels may be blocked.\nUpdated Setup Guidance for Intune Partner Compliance\nThe Intune Partner Compliance setup flow has been updated with additional guidance following Microsoft's changes to the evaluation criteria for Baseline Scopes, which impact Conditional Access Policies.\nGeneral Fixes and Enhancements\nmacOS\nFixed an issue that prevented application block analytics from synchronizing with the backend.\nKeycard\nFixed an issue where a permission dialog was displayed when turning Wi-Fi on or off from the Keycard screen.\nTeam:\nTeam Scalefusion",
+   "hash": "dadd5674c549ba53dc3da3221123afa775bbf30bafdb614ed0bbc4e9f08b9a5e",
+   "windows": "high"
+  },
+  {
+   "key": "Scalefusion August 25th, 2026 Release Notes",
+   "title": "Scalefusion August 25th, 2026 Release Notes",
+   "date": "2026-08-25",
+   "url": "https://help.scalefusion.com/docs/scalefusion-august-25th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v67.3.0 Scalefusion Windows MDM Agent: v17.0.8 Veltar VPN Server: v3.0.1 Release Notes: Custom Declarations for macOS Scalefusion continues to expand its support for Apple’s Decla...",
+   "hash": "048da0311c5860ef1a18edcc11dea364ba60f03de84b9ca0fff20e6a9bc5e9e3",
+   "windows": "medium"
+  },
+  {
+   "key": "Scalefusion August 14th, 2026 Release Notes",
+   "title": "Scalefusion August 14th, 2026 Release Notes",
+   "date": "2026-08-17",
+   "url": "https://help.scalefusion.com/docs/scalefusion-august-14th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v67.1.0 Scalefusion Windows MDM Agent: v17.0.2 Scalefusion macOS MDM Agent: v6.4.4 Scalefusion Linux MDM Agent: v5.0.0 Release Notes: Linux Improved Agent Performance and Stabil...",
+   "hash": "0e8cfd84966faecf8cfc7d1f9165ca1f251f7d961607824c731fec1d1712c7de",
+   "windows": "medium"
+  },
+  {
+   "key": "Scalefusion August 4th, 2026 Release Notes",
+   "title": "Scalefusion August 4th, 2026 Release Notes",
+   "date": "2026-08-05",
+   "url": "https://help.scalefusion.com/docs/scalefusion-august-4th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v67.0.0 Scalefusion Android MDM Agent: v22.0.1 Scalefusion FileDock Agent: v5.0.0 Scalefusion Windows MDM Agent: v16.14.9 Scalefusion macOS MDM Agent: v6.2.4 Release Notes: Sca...",
+   "hash": "a8c4cf6d50a3d598efd16f923fb7597974d309d5d3fd5bd0d9ffe4dfb94dabf9",
+   "windows": "medium"
+  },
+  {
+   "key": "Scalefusion July 31st, 2026 Release Notes",
+   "title": "Scalefusion July 31st, 2026 Release Notes",
+   "date": "2026-08-04",
+   "url": "https://help.scalefusion.com/docs/scalefusion-july-31st-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v66.5.0 Scalefusion Remote Cast for Android: v5.1.0 Scalefusion Windows MDM Agent: v16.14.0 Release Notes: Remote Control for Android 2.0 The next-generation Remote Control for Andr...",
+   "hash": "79c3321657e3e1891bfa4d4135db83450fdda55a29fe6e439f0f34ba5e06b0bb",
+   "windows": "medium"
+  },
+  {
+   "key": "Scalefusion July 29th, 2026 Release Notes",
+   "title": "Scalefusion July 29th, 2026 Release Notes",
+   "date": "2026-07-30",
+   "url": "https://help.scalefusion.com/docs/scalefusion-july-29th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v66.5.0 Release Notes: Keycard Enhancements Keycard now provides greater flexibility when configuring user access across different operating systems. Platform-specific Keycard enforcemen...",
+   "hash": "5172b471445b64caf11fbc60326f8abdcd46d4f7c9436bddb547c1d5e6d0ef50",
+   "windows": "none"
+  },
+  {
+   "key": "Scalefusion July 17th, 2026 Release Notes",
+   "title": "Scalefusion July 17th, 2026 Release Notes",
+   "date": "2026-07-21",
+   "url": "https://help.scalefusion.com/docs/scalefusion-july-17th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v66.4.0 Scalefusion macOS MDM Agent: v5.14.23 Scalefusion Veltar VPN Server for Ubuntu: v3.0.0 Release Notes: Multiple VPP Token Management Managing apps across multiple Apple Bus...",
+   "hash": "ab4d1128420e50422e35819ff4ad4be1ea1da6d244309783533690f86cc709bf",
+   "windows": "none"
+  },
+  {
+   "key": "Scalefusion July 6th, 2026 Release Notes",
+   "title": "Scalefusion July 6th, 2026 Release Notes",
+   "date": "2026-07-08",
+   "url": "https://help.scalefusion.com/docs/scalefusion-july-6th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v66.4.0 Scalefusion macOS MDM Agent: v5.14.18 Release Notes: Associated Users Introducing Associated Users , a new capability that allows a user to be part of multiple user groups whi...",
+   "hash": "11649b629e54e7218c35e2837d3833420e2a3abd427bd88cb40a147339d869bd",
+   "windows": "none"
+  },
+  {
+   "key": "Scalefusion June 25th, 2026 Release Notes",
+   "title": "Scalefusion June 25th, 2026 Release Notes",
+   "date": "2026-06-26",
+   "url": "https://help.scalefusion.com/docs/scalefusion-june-25th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v66.2.0 Scalefusion Windows MDM Agent: v16.13.0 Scalefusion macOS MDM Agent: v5.14.14 Released on June 27th Release Notes: Windows Agent-Driven Password Policy IT admi...",
+   "hash": "c7487e6ed8576b928df495899fb4908292746e8969b4fb296eb3c345f7780323",
+   "windows": "medium"
+  },
+  {
+   "key": "Scalefusion June 23rd, 2026 Release Notes",
+   "title": "Scalefusion June 23rd, 2026 Release Notes",
+   "date": "2026-06-24",
+   "url": "https://help.scalefusion.com/docs/scalefusion-june-23rd-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v66.1.0 Release Notes: macOS Enhancements Activation Lock Management IT administrators can now manage Activation Lock settings for macOS devices, providing greater flexibility and co...",
+   "hash": "4610c293e62f517505ca9e1c77724d44389ff1548ee63f7d8557900f859fe3ba",
+   "windows": "none"
+  },
+  {
+   "key": "Scalefusion June 12th, 2026 Release Notes",
+   "title": "Scalefusion June 12th, 2026 Release Notes",
+   "date": "2026-06-15",
+   "url": "https://help.scalefusion.com/docs/scalefusion-june-12th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v66.0.0 Scalefusion macOS MDM Agent: v5.14.8 Scalefusion iOS MDM Agent: v4.20.0 Scalefusion Android MDM Agent: v20.0.1 Scalefusion Windows MDM Agent: v16.12.7 Release Notes: m...",
+   "hash": "234b0fb9e6f5ca6ccc9be770610511015d129b6726b2e720d845558abb5358c5",
+   "windows": "medium"
+  },
+  {
+   "key": "Scalefusion June 5th, 2026 Release Notes",
+   "title": "Scalefusion June 5th, 2026 Release Notes",
+   "date": "2026-06-08",
+   "url": "https://help.scalefusion.com/docs/scalefusion-june-5th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v65.1.0 Scalefusion Linux MDM Agent: v4.3.0 Release Notes: Linux MDM Enhancements App Inventory: Admins can now view the applications installed on Linux devices from the following lo...",
+   "hash": "1b4835d23cb60a05073b1a7b5de5bdb12b23cd2ab753b436542a7b1de5a49b64",
+   "windows": "none"
+  },
+  {
+   "key": "Scalefusion May 27th, 2026 Release Notes",
+   "title": "Scalefusion May 27th, 2026 Release Notes",
+   "date": "2026-05-28",
+   "url": "https://help.scalefusion.com/docs/scalefusion-may-27th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v65.0.0 Scalefusion macOS MDM Agent: v5.11.14 Scalefusion Android MDM Agent: v20.4.1 Release Notes: macOS Enterprise App &amp; Script Management Enhancements Added suppo...",
+   "hash": "026d1bee8962443c2a5b57a56f265bbaeee4fcf9b77411bbac047def817cac98",
+   "windows": "none"
+  },
+  {
+   "key": "Scalefusion May 8th, 2026 Release Notes",
+   "title": "Scalefusion May 8th, 2026 Release Notes",
+   "date": "2026-05-12",
+   "url": "https://help.scalefusion.com/docs/scalefusion-may-8th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v64.11.0 Scalefusion Android Agent: v20.4.0 Release Notes: Holiday Calendar Support for Lock/Unlock Workflows Organizations can now create and manage Holiday Calendars from the Organiz...",
+   "hash": "70b94fa529113a818acb4068e97b790dfb21fabd9769e176238beaaa08f1a64b",
+   "windows": "none"
+  },
+  {
+   "key": "Scalefusion May 5th, 2026 Release Notes",
+   "title": "Scalefusion May 5th, 2026 Release Notes",
+   "date": "2026-05-12",
+   "url": "https://help.scalefusion.com/docs/scalefusion-may-5th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v64.9.0 Scalefusion On-Prem Connector: v2.4.12 Scalefusion Linux MDM Agent: v4.2.0 Release Notes: On-Prem Connector Enhancements Multi-Node Deployment Support for High Availabili...",
+   "hash": "182c7cb15c1c5e160ea9348fd78b8d48a0b4c4a7bf9167bf384bacd5acf36115",
+   "windows": "none"
+  },
+  {
+   "key": "Scalefusion April 29th, 2026 Release Notes",
+   "title": "Scalefusion April 29th, 2026 Release Notes",
+   "date": "2026-05-05",
+   "url": "https://help.scalefusion.com/docs/scalefusion-april-29th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v64.8.0 Scalefusion Windows RemoteSupport Agent: v4.13.0.0 Release Notes: Windows Remote Support Agent Enhancements Added support to run the application as a different user using Sh...",
+   "hash": "cc4f0c2d34ae5e4ee13c384d0e13b605d889b20cb63b7923f4bfe3cc12b8eb34",
+   "windows": "medium"
+  },
+  {
+   "key": "Scalefusion April 10th, 2026 Release Notes",
+   "title": "Scalefusion April 10th, 2026 Release Notes",
+   "date": "2026-04-13",
+   "url": "https://help.scalefusion.com/docs/scalefusion-april-10th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v64.7.0 Linux MDM Agent : v4.1.0 Windows MDM Agent: v16.10.0 Release Notes: App Locker for Linux Admins can now configure an allowlist of applications on managed Linux devices. The...",
+   "hash": "5837063dcbfbc90484ef56bc85ef49bf084372a591026aff53907b1386a128c6",
+   "windows": "medium"
+  },
+  {
+   "key": "Scalefusion April 3rd, 2026 Release Notes",
+   "title": "Scalefusion April 3rd, 2026 Release Notes",
+   "date": "2026-04-07",
+   "url": "https://help.scalefusion.com/docs/scalefusion-april-3rd-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v64.7.0 Scalefusion Android Agent: v20.3.0 Scalefusion macOS Agent: v5.10.2 Scalefusion iOS MDM Agent: v4.18.0 Release Notes: Intune Partner Compliance Management Enhancements ...",
+   "hash": "16f284fb10fc4fa8ade630918ee3a2fdd81609da5f32d7c1e7f8cf3645e5ac16",
+   "windows": "none"
+  },
+  {
+   "key": "Scalefusion March 26th, 2026 Release Notes",
+   "title": "Scalefusion March 26th, 2026 Release Notes",
+   "date": "2026-03-27",
+   "url": "https://help.scalefusion.com/docs/scalefusion-march-26th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v64.7.0 Scalefusion Android Agent: v20.2.1 Scalefusion macOS Agent: v5.8.10 Scalefusion Windows MDM Agent: v16.9.0 Scalefusion Linux MDM Agent: v4.0.1 Release Notes: Retur...",
+   "hash": "14085a8283add4251c289abce06b67bed02c8883076ce1295a037632286e4836",
+   "windows": "medium"
+  },
+  {
+   "key": "Scalefusion February 20th, 2026 Release Notes",
+   "title": "Scalefusion February 20th, 2026 Release Notes",
+   "date": "2026-02-20",
+   "url": "https://help.scalefusion.com/docs/scalefusion-february-20th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v64.3.0 Scalefusion Windows Remote Support Agent: v4.12.0.0 Scalefusion macOS MDM Agent: v5.6.16 Release Notes: 1. Windows Live Terminal The latest version of Remote Support intro...",
+   "hash": "d27726df4442f29e1947eef740b6bdfe5a6cf93b9c745c5a3671af038cef2977",
+   "windows": "medium"
+  },
+  {
+   "key": "Scalefusion February 13th, 2026 Release Notes",
+   "title": "Scalefusion February 13th, 2026 Release Notes",
+   "date": "2026-02-13",
+   "url": "https://help.scalefusion.com/docs/scalefusion-february-13th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v64.1.0 Android MDM Agent: v20.1.7 Release Notes: Apple tvOS Support Scalefusion now supports management of Apple tvOS devices, enabling organizations to enroll and manage Apple TV dev...",
+   "hash": "f2b6f00b8580c7e0f63a61c0c915b498021c198b4125fb96de653e66e0ad5d48",
+   "windows": "none"
+  },
+  {
+   "key": "Scalefusion February 2nd, 2026 Release Notes",
+   "title": "Scalefusion February 2nd, 2026 Release Notes",
+   "date": "2026-02-05",
+   "url": "https://help.scalefusion.com/docs/scalefusion-february-2nd-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v62.8.0 Scalefusion Windows MDM Agent: v16.8.0 Release Notes: Advanced Inventory &amp; Change Alerts for Windows Scalefusion now uses OSQuery on Windows devices to collect 19 additiona...",
+   "hash": "b3da01d5fdc96eb348ff8c9fd6bec1bcfadd3b44c957c93886a7b404e1bea74d",
+   "windows": "medium"
+  },
+  {
+   "key": "Scalefusion January 19th, 2026 Release Notes",
+   "title": "Scalefusion January 19th, 2026 Release Notes",
+   "date": "2026-01-23",
+   "url": "https://help.scalefusion.com/docs/scalefusion-january-19th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v62.2.0 Scalefusion ADFS Configuration Manager: v1.0.2.0 Scalefusion On-Prem Connector: v2.3.7 Release Notes: Return to Service Return to Service simplifies the device reset proce...",
+   "hash": "5d16652c8b0405d0b5695043abe4ce97558a5cfc564370020599cbee813a6a04",
+   "windows": "none"
+  },
+  {
+   "key": "Scalefusion February 27th, 2026 Release Notes",
+   "title": "Scalefusion February 27th, 2026 Release Notes",
+   "date": "2026-02-27",
+   "url": "https://help.scalefusion.com/docs/scalefusion-february-27th-2026-release-notes",
+   "text": "Version Information: Scalefusion Dashboard: v64.4.0 Scalefusion iOS Agent: v4.17.0 Scalefusion Android Agent: v20.1.7 Scalefusion macOS Agent: v5.6.16 Release Notes: Intune Partner Compliance Integration with Scalefusion ...",
+   "hash": "bb1c036b52f1598293d4bf1f87afb3a498e4f00dcad0d807c329044930a82fba",
+   "windows": "none"
+  }
+ ]
+}

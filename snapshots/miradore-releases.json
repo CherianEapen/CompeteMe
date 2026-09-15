@@ -1,0 +1,3298 @@
+{
+ "id": "miradore-releases",
+ "vendor": "Miradore",
+ "kind": "link-list",
+ "fetchedAt": "2026-09-15T07:45:51.834Z",
+ "meta": {
+  "url": "https://www.miradore.com/knowledge/releases/",
+  "links": 365,
+  "fetched": 5
+ },
+ "items": [
+  {
+   "key": "https://www.miradore.com/knowledge/releases/organization-linked-activation-lock-for-ios-configuration-profile-deployment-wizard-and-wallpaper-image-size-improvement-android-kiosk-mode-bug-fix/",
+   "title": "Organization-linked Activation Lock for iOS, configuration profile deployment wizard and wallpaper image size improvement, Android kiosk mode bug fix",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/organization-linked-activation-lock-for-ios-configuration-profile-deployment-wizard-and-wallpaper-image-size-improvement-android-kiosk-mode-bug-fix/",
+   "text": "In this article\nToggle\nOrganization-linked Activation Lock for iOS\nWe implemented support for organization-linked Activation Lock for iPhone and iPad devices. You can now enable and disable organization-linked Activation lock remotely using Miradore.\nFor detailed information on organization-linked Activation Lock, see Activation Lock for iOS devices.\nConfiguration profile deployment wizard improvement\nWe replaced the step-by-step wizard for the Deploy configuration profile action available from the Management > Devices page and individual device pages with a modern dialog. The new dialog only appears on the Management > Devices page if a single device is selected. If multiple devices are selected, the previous wizard is used.\nWallpaper image size increase for iOS and Android\nWe increased the image file size limit from 1 MB to 2 MB for the Set wallpaper action for iOS and Android devices.\nFor instructions on setting a wallpaper on your devices remotely, see Set or change wallpaper on Android devices and Set a custom wallpaper on iOS devices.\nBug fix for exiting kiosk mode on Android devices during remote sessions\nWe fixed a bug where remotely viewing the screen of an Android device in kiosk mode showed a black screen when trying to enter the security code to exit kiosk mode. With the fix, the security code input field remains masked to hide the characters, but the screen is no longer entirely hidden.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
+   "hash": "8539c3517ba41ba2e7959fe9aa5c3c7557ffcac80d918dcbf055a9ae7a5a089e",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/start-patch-installation-now-and-retry-client-installation-action-improvements/",
+   "title": "Start patch installation now and Retry client installation action improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/start-patch-installation-now-and-retry-client-installation-action-improvements/",
+   "text": "The Actions > Start patch installation now and Actions > Retry client installation options, available on Mac and Windows device pages, now use modern dialogs instead of step-by-step wizards, streamlining the experience.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
+   "hash": "ef62bf3ac5e509f00bf705e298b3521963fc5bcfd4d01fa24dab22fae832e009",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/credential-manager-policy-configuration-profile-for-android-set-wallpaper-and-merge-devices-dialog-improvement-bug-fix-for-wi-fi-configuration-profile-for-ios-and-macos/",
+   "title": "Credential manager policy configuration profile for Android, Set wallpaper and Merge devices dialog improvement, bug fix for Wi-Fi configuration profile for iOS and macOS",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/credential-manager-policy-configuration-profile-for-android-set-wallpaper-and-merge-devices-dialog-improvement-bug-fix-for-wi-fi-configuration-profile-for-ios-and-macos/",
+   "text": "In this article\nToggle\nCredential manager policy configuration profile for Android\nWe added a new Credential manager policy configuration profile for Android devices. This configuration profile allows you to control which credential provider apps device users can use. For detailed information and instructions, see Create a Credential manager policy configuration profile for Android devices.\nSet wallpaper and Merge devices dialog improvement\nWe replaced the step-by-step wizards of the Set wallpaper (iOS and Android) and Merge devices (Android and Windows) actions with modern dialogs.\nBug fix for Wi-Fi configuration profile for iOS and macOS\nWe fixed a bug where defining a Minimum TLS version and Maximum TLS version for the WPA/WPA2 (Enterprise) and WPA3 (Enterprise) security modes for the iOS and macOS Wi-Fi configuration profile resulted in the TLS version values not being saved. With the fix, the configuration profile correctly saves and loads the minimum and maximum TLS version settings and applies them to the devices.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
+   "hash": "206ccbef2946269fb401dbf770134a4c2b0ec6b795f85f95e809e8c4e214b39b",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ui-theme-selector-in-the-msp-portal/",
+   "title": "UI theme selector in the MSP Portal",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/ui-theme-selector-in-the-msp-portal/",
+   "text": "We added a new Theme selector to the MSP Portal to allow you to customize the design of the UI. The Theme selector, available in the top-right corner, offers the following settings:\nLight: The UI appears with a light-colored background and dark-colored text and icons.\nDark: The UI appears with a dark-colored background and light-colored text and icons.\nSystem: The UI follows the light or dark theme setting of your device or your browser if device settings are overwritten by browser settings.\nSites page using Light theme\nSites page using Dark theme\nAdditionally, you can change the website theme on the login screen by choosing an option in the top-right corner.\nTheme selector on the login screen\nNote: If you experience any visual issues following this update, we recommend clearing your browser's cookies and cache.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
+   "hash": "4d03cadc7a184edcba7dfbd0e0b3c8306ede951d77bd3fb774e8e094f56105ae",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-client-update-for-android-bulk-selection-for-allow-managed-google-play-application-installation-dialog/",
+   "title": "Miradore client update for Android, bulk selection for Allow managed Google Play application installation dialog",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-client-update-for-android-bulk-selection-for-allow-managed-google-play-application-installation-dialog/",
+   "text": "In this article\nToggle\nMiradore client update for Android\nWe updated the Miradore client for Android devices to version 2.18.9 (Build 469). This update does not introduce any new functionality, but is needed to support Android 16 and future updates. As always, we recommend you update the Miradore client app on your managed devices to version 2.18.9 (Build 469).\nBulk selection for Allow managed Google Play application installation dialog\nWe updated the Allow managed Google Play application installation dialog available from the Managed Google Play menu on the device details pages of Android devices to include a checkbox to select all apps. This way, you can conveniently select all available apps to be allowed to be installed on your managed Android devices with a single click. For more information on allowing managed Google Play app installation, see Allow application installation and configure user access to the managed Google Play store.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
+   "hash": "9a1e2f1e2b65834426b49e0308487eb711cd62161b7567b2fb4f1676ab3fef21",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ui-theme-selector/",
+   "title": "UI theme selector",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/ui-theme-selector/",
+   "text": "",
+   "hash": "71a3156f6c1228c4667aee433be5eee1b23961156ea3a2cc61be3affe8256717",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/remote-action-wizard-updates-android-enrollment-device-user-allocation-flow-improvement/",
+   "title": "Remote action wizard updates, Android enrollment device user allocation flow improvement",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/remote-action-wizard-updates-android-enrollment-device-user-allocation-flow-improvement/",
+   "text": "",
+   "hash": "86e0b61e985e7497c50d16fed3ccc0c5da53b433b78aac6f64bf44a52c9a1a61",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ios-support-changes-static-security-code-for-kiosk-mode-and-other-improvements/",
+   "title": "iOS support changes, static security code for kiosk mode, and other improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/ios-support-changes-static-security-code-for-kiosk-mode-and-other-improvements/",
+   "text": "",
+   "hash": "bd7b86694a2ec5cc47a03d3ef4d8e92e42ab76580c05f78663781560927105a5",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/end-of-support-for-devices-running-ios-versions-below-ios-13/",
+   "title": "End of support for devices running iOS versions below iOS 13",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/end-of-support-for-devices-running-ios-versions-below-ios-13/",
+   "text": "",
+   "hash": "27457edf18ac35f2460d6632e5920da504393aa7c7d320a365f2ee7a8c75538d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-on-may-1-2/",
+   "title": "Miradore support on May 1",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-on-may-1-2/",
+   "text": "",
+   "hash": "cf483fd6829a19cbcef8b0a9e35908d712610416f8af04fc13cb6e9e33120451",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-during-the-holiday-season-2/",
+   "title": "Miradore Support during the holiday season",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-during-the-holiday-season-2/",
+   "text": "",
+   "hash": "aaa3b6b00712ce269cd779a32716aca11efc2b48747faed4947b4d8656eecc2e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/updated-publisher-name-for-the-miradore-client-on-mac/",
+   "title": "Updated publisher name for the Miradore client on Mac",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/updated-publisher-name-for-the-miradore-client-on-mac/",
+   "text": "",
+   "hash": "c2ba9e78006a77694339af987d86c9e78c7dd7df910375d2e649ccd01377e029",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-during-the-holidays/",
+   "title": "Miradore Support during the holidays",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-during-the-holidays/",
+   "text": "",
+   "hash": "c6894171ba3cad2992133e3e0171410646193e6de7c466685cb84e5d87b90cbb",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-on-may-29/",
+   "title": "Miradore support on May 29",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-on-may-29/",
+   "text": "",
+   "hash": "911f1433b3af8c921ea87844fa50d7c67812406b3a284bc58ffd4aec4f09f56d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-on-may-1/",
+   "title": "Miradore support on May 1",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-on-may-1/",
+   "text": "",
+   "hash": "cf483fd6829a19cbcef8b0a9e35908d712610416f8af04fc13cb6e9e33120451",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-during-the-holiday-season/",
+   "title": "Miradore Support during the holiday season",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-during-the-holiday-season/",
+   "text": "",
+   "hash": "aaa3b6b00712ce269cd779a32716aca11efc2b48747faed4947b4d8656eecc2e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-and-holiday-season-2024/",
+   "title": "Miradore Support and Holiday Season",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-and-holiday-season-2024/",
+   "text": "",
+   "hash": "b62fe9f2578fe3251ba8d7722fb60c913b44770102f67160a276ed37e4f1b29f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-on-week-47-2024/",
+   "title": "Miradore Support on week 47, 2024",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-on-week-47-2024/",
+   "text": "",
+   "hash": "e181703d3069c5405508b4532a9f61ec148f114ea86af697b87de148e2ca4403",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/changes-to-miradores-free-plan-device-limit/",
+   "title": "Changes to Miradore's Free plan device limit",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/changes-to-miradores-free-plan-device-limit/",
+   "text": "",
+   "hash": "26e2f4bfdf020c0988ba5011a5dd4567e3471f8d0d01bd648b18d836179a4cda",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ending-support-for-android-6-enrollment/",
+   "title": "Ending support for Android 6 enrollment",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/ending-support-for-android-6-enrollment/",
+   "text": "",
+   "hash": "4e997a7890842ecda66870f08ccc71f42bb4e63fe17b3443471cf40b67f53d11",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-and-holiday-easter2024/",
+   "title": "Miradore Support and holiday season",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-and-holiday-easter2024/",
+   "text": "",
+   "hash": "0707d6cef33fbe00f78b44ccf46b161e29303da64cf6a349425a626e89dc8749",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-and-holiday-season-2/",
+   "title": "Miradore Support and Holiday Season",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-and-holiday-season-2/",
+   "text": "",
+   "hash": "b62fe9f2578fe3251ba8d7722fb60c913b44770102f67160a276ed37e4f1b29f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/some-configurations-permanently-applied-on-android-14-devices/",
+   "title": "Some configurations permanently applied on Android 14 devices",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/some-configurations-permanently-applied-on-android-14-devices/",
+   "text": "",
+   "hash": "db1fa364a12ab3cba5511db735f7c48068f67f7267190aaa916cca8288294262",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/moving-miradore-to-single-domain-url-structure/",
+   "title": "Moving Miradore to single domain URL structure",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/moving-miradore-to-single-domain-url-structure/",
+   "text": "",
+   "hash": "efe8bb77e044ab37348d4aacbd48c268aa486c3165565cd41e10bcd1a4beef19",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-on-the-1st-of-june/",
+   "title": "Miradore support on the 1st of June",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-on-the-1st-of-june/",
+   "text": "",
+   "hash": "67636d824b5133a8e6e3446f234fd03fd3adc3b693b4235377421cc38d8d9491",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-on-18th-of-may/",
+   "title": "Miradore support on the 18th of May",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-on-18th-of-may/",
+   "text": "",
+   "hash": "249eb123fe1559e0c0a9c5813afa0e448b1a16df133999a4a407411d27b58acd",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-on-the-1st-of-may/",
+   "title": "Miradore support on the 1st of May",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-on-the-1st-of-may/",
+   "text": "",
+   "hash": "9ebb151f707cc38d669a2e38c7341485fdc4626b46cee650880f4bd9a3ad700c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-and-holiday-season/",
+   "title": "Miradore Support and holiday season",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-and-holiday-season/",
+   "text": "",
+   "hash": "0707d6cef33fbe00f78b44ccf46b161e29303da64cf6a349425a626e89dc8749",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/changes-to-the-firewall-settings-of-our-services/",
+   "title": "Changes to the firewall settings of our services",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/changes-to-the-firewall-settings-of-our-services/",
+   "text": "",
+   "hash": "ade8d2f636a59640d2738f82b650cd1ca01fd2035bb79df303aac0d5d4702c50",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/new-application-api-requirements-might-cause-issues-with-android-application-deployment/",
+   "title": "New application API requirements might cause issues with Android application deployment",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/new-application-api-requirements-might-cause-issues-with-android-application-deployment/",
+   "text": "",
+   "hash": "6729d2e91a49e7cdf0e8f3248f598a35f0e5572388b92d86888625a5cad708a6",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/christmas-support-break-on-boxing-day-26th-of-december/",
+   "title": "Christmas support break on Boxing Day (26th of December)",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/christmas-support-break-on-boxing-day-26th-of-december/",
+   "text": "",
+   "hash": "0fea03ed20f513903d1b8f2ff3156fb39e2e1950384e2e0089a460c88b556d3c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-support-and-holiday-time-2021/",
+   "title": "Miradore Support and Holiday Time 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-support-and-holiday-time-2021/",
+   "text": "",
+   "hash": "c3c3a582985e89944f6b74705f537d500021809846372cb08e1c4a6cea92b2ea",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradores-response-to-log4j-vulnerability/",
+   "title": "Miradore's response to Log4j vulnerability",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradores-response-to-log4j-vulnerability/",
+   "text": "",
+   "hash": "f09448560ee8a8d7b9e035f3c844e45309e5cb1e70f153d37d6723efd3fdfa0b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/contacts-are-not-showing-in-samsung-contacts-app/",
+   "title": "Contacts are not showing in the Samsung Contacts app",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/contacts-are-not-showing-in-samsung-contacts-app/",
+   "text": "",
+   "hash": "493219cf3c5fc9e1f440213c3af4970b5bf1c7aa14dce6a600fbe1c4c83c69ff",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ending-support-for-android-4-windows-phone-and-android-5-enrollment/",
+   "title": "Ending support for Android 4, Windows Phone, and Android 5 enrollment",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/ending-support-for-android-4-windows-phone-and-android-5-enrollment/",
+   "text": "",
+   "hash": "4b8f954ab437a468366f02ec8c4c3372a1119a8238392d3aba4159987d49a7b9",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/migration-to-azure-germany-updated-31-05-2017/",
+   "title": "Migration to Azure Germany Update on May 23rd, 2017",
+   "date": "2017-05-31",
+   "url": "https://www.miradore.com/knowledge/releases/migration-to-azure-germany-updated-31-05-2017/",
+   "text": "",
+   "hash": "0a74a9a6e00f76e59843ae6a4ed78dc68a620d2d6812fd242a8791879a7c7eba",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/apple-dep-terms-conditions-updated/",
+   "title": "Apple DEP Terms and Conditions Updated on September 14th, 2016",
+   "date": "2016-09-14",
+   "url": "https://www.miradore.com/knowledge/releases/apple-dep-terms-conditions-updated/",
+   "text": "",
+   "hash": "d40281224edb488cf8fa1dde6f61297605a20d0a234e928cc2862e74ede6cfdb",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/feature-changes-in-pricing-plans/",
+   "title": "Feature Changes in Pricing Plans on September 7th, 2016",
+   "date": "2016-09-07",
+   "url": "https://www.miradore.com/knowledge/releases/feature-changes-in-pricing-plans/",
+   "text": "",
+   "hash": "9577160396f026060187d059d1c07af23c9399bdf65afecd11d044378027017d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/samsung-smart-manager-blocks-android-device-management/",
+   "title": "Samsung Smart Manager Blocking Android Device Management on February 17th, 2016",
+   "date": "2016-02-17",
+   "url": "https://www.miradore.com/knowledge/releases/samsung-smart-manager-blocks-android-device-management/",
+   "text": "",
+   "hash": "c4897a094116e5b279fae52f98fd4ce68eb29c870b2fd26275ca617143c3268d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/apns-certificate-creation-and-renewal-disabled/",
+   "title": "APNS Certificate Creation and Renewal Disabled on February 8th, 2016",
+   "date": "2016-02-08",
+   "url": "https://www.miradore.com/knowledge/releases/apns-certificate-creation-and-renewal-disabled/",
+   "text": "",
+   "hash": "9d73d23e0bea62f11e88b3b1670f40f63e94539bd25093dd9f82a401a10eaf85",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/reconnection-issue-with-user-sync-integrations/",
+   "title": "Solved: Reconnection issue with User sync integrations",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/reconnection-issue-with-user-sync-integrations/",
+   "text": "",
+   "hash": "e667c0fe7f7baa962f85ff9353e8635a4a18daab6c3d00912c08ebaddc23bb59",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issues-with-microsoft-azure-affecting-miradore-2/",
+   "title": "Solved: Issues with Microsoft Azure affecting Miradore",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/issues-with-microsoft-azure-affecting-miradore-2/",
+   "text": "",
+   "hash": "e99c7428f8a52e99c33e5cdba06bc79870c4f73bcd9c83ccd3ee7609bbcc63c5",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-service-not-available/",
+   "title": "Solved: Miradore service not available",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-service-not-available/",
+   "text": "",
+   "hash": "2f6801b8b86572b80a2b13a9d59e611d5113dddcb0186c9c80a58e104c7ceb8f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/setting-up-android-work-profile-with-apk-file/",
+   "title": "Setting up Android Work profile with APK file",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/setting-up-android-work-profile-with-apk-file/",
+   "text": "",
+   "hash": "4bd2c1e822beba4110106d55a18f0e84db04ce47e00d698f0c6bb4a49b06e67c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/missing-mdm-profiles-cause-management-issues-with-macs/",
+   "title": "Missing MDM profiles cause management issues with Macs",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/missing-mdm-profiles-cause-management-issues-with-macs/",
+   "text": "",
+   "hash": "782c033518b5a2fa19abf0c5cfafd01d6c4926b130157e065fe771f3fe946cd6",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issues-with-microsoft-azure-affecting-miradore/",
+   "title": "Solved: Issues with Microsoft Azure affecting Miradore",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/issues-with-microsoft-azure-affecting-miradore/",
+   "text": "",
+   "hash": "e99c7428f8a52e99c33e5cdba06bc79870c4f73bcd9c83ccd3ee7609bbcc63c5",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issues-with-wipe-device-on-macos-devices/",
+   "title": "Issues with wipe device on MacOS devices",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/issues-with-wipe-device-on-macos-devices/",
+   "text": "",
+   "hash": "eb5ef330e02eeb803df84cc9f373d5ebb399749358bbe5a782ad31370540439f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-service-unavailable/",
+   "title": "Resolved: Miradore service unavailable",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-service-unavailable/",
+   "text": "",
+   "hash": "8fe5a83079099d1113b3a97cada7cf61c6861cbaa27b8b3da6ca7d70c7511a05",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/fixed-miradore-password-recovery-error-and-ios-app-deployment-issue/",
+   "title": "Fixed Miradore password recovery error and iOS app deployment issue",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/fixed-miradore-password-recovery-error-and-ios-app-deployment-issue/",
+   "text": "",
+   "hash": "b3e3bd6eb8de5730fb75a24b011bf03ae2cf362c302a3b6c6890c095d810e76d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issue-with-deploying-multi-platform-apps-to-macs/",
+   "title": "Issue with deploying multi-platform apps to Macs",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/issue-with-deploying-multi-platform-apps-to-macs/",
+   "text": "",
+   "hash": "6f3ef9ce520338181fff840a0f3b676e1b53af34e4d0bd45f65a6118db67542f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/known-issues-of-the-google-emm-api-update/",
+   "title": "Known issues of the Google EMM API update",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/known-issues-of-the-google-emm-api-update/",
+   "text": "",
+   "hash": "c986a30fbe42eb1d31be8f98c16e0a96f0f6cc17c1b84a0d44a75ad1a95ee9b5",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/unable-to-login-to-some-miradore-sites/",
+   "title": "Solved: Some users unable to login to their Miradore sites on 20th of December, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/unable-to-login-to-some-miradore-sites/",
+   "text": "",
+   "hash": "d2bd254ef69693754b08895e66b54617c5763a27c1636d8b9b20da9d61712d69",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/problems-with-device-enrollments-syncs-and-deployments/",
+   "title": "Solved: Problems with Device enrollments, syncs, and deployments",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/problems-with-device-enrollments-syncs-and-deployments/",
+   "text": "",
+   "hash": "cc31069733506f26f9fec80c7b080cf49b96f46efc3ee7cdff702d985e3c5be7",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/unenrollment-does-not-really-remove-the-android-work-profile/",
+   "title": "Solved: Unenrollment does not really remove the Android work profile",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/unenrollment-does-not-really-remove-the-android-work-profile/",
+   "text": "",
+   "hash": "3db6764f65b2642b99123ff3aba0df03bfd2369450a220f6b63e737e1e9f227f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/update-caused-issues-app-config-deployment/",
+   "title": "Solved: Miradore update caused issues with deploying app configurations with business policies",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/update-caused-issues-app-config-deployment/",
+   "text": "",
+   "hash": "30d29c11a21f64c909ad8ab0b579e0814d2d3934c83884bf03f450306b82dfbb",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/solved-macs-with-macos-big-sur-incorrectly-identified-as-ios-devices/",
+   "title": "Solved: Macs with macOS Big Sur Incorrectly Identified as iOS Devices",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/solved-macs-with-macos-big-sur-incorrectly-identified-as-ios-devices/",
+   "text": "",
+   "hash": "a20ade26e62ca91457dc84864ef6988fb483024a09feac9ca284de87baba75dc",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/google-deprecated-blacklist-and-whitelist-chrome-configurations/",
+   "title": "Google has renamed the managed configurations for blacklisting and whitelisting URLs on Chrome version 86",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/google-deprecated-blacklist-and-whitelist-chrome-configurations/",
+   "text": "",
+   "hash": "676f11e2688fa93b5cfe541c63b03fee4c002a79604afe70d90840423cbe39a1",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issues-in-android-enrollment/",
+   "title": "Solved: Miradore Client was removed from Play Store causing issues for Android enrollments",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/issues-in-android-enrollment/",
+   "text": "",
+   "hash": "91bf7632e3be2ba684cc05ecf618f948269283e8f37b5e5abc5c08d4ac3a5384",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/page-loading-errors/",
+   "title": "Solved: Page loading errors on October 1st, 2020",
+   "date": "2020-10-01",
+   "url": "https://www.miradore.com/knowledge/releases/page-loading-errors/",
+   "text": "",
+   "hash": "02569a7dffcca0587038d67365986a0fec2706837c19153ccfbcdc97c1400ec5",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/suspended-device-issue/",
+   "title": "Suspended device issue on September 28th, 2020",
+   "date": "2020-09-28",
+   "url": "https://www.miradore.com/knowledge/releases/suspended-device-issue/",
+   "text": "",
+   "hash": "32b9f8d7fd78526559db2d7a167d8d39fda7186dda14537a9260e02a17a4e675",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-location-notification/",
+   "title": "Miradore Online client got your location in the background on September 8th, 2020",
+   "date": "2020-09-08",
+   "url": "https://www.miradore.com/knowledge/releases/android-location-notification/",
+   "text": "",
+   "hash": "6b46ca0c3313c0d356d9c983de102b4392be4512a15138c2ba90093fe181e59d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issues-with-ios-and-macos-management-and-enrollment/",
+   "title": "Solved: Issues with iOS and macOS Management and Enrollment on July 16th, 2020",
+   "date": "2020-07-16",
+   "url": "https://www.miradore.com/knowledge/releases/issues-with-ios-and-macos-management-and-enrollment/",
+   "text": "",
+   "hash": "251cc317848ff0f6292a3328cec910a9b33357204e04b0b5161563251735eb56",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issue-with-location-tracking-on-android-10-devices/",
+   "title": "Solved: Issue with location tracking on Android 10 devices",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/issue-with-location-tracking-on-android-10-devices/",
+   "text": "",
+   "hash": "2705681c2a10b38c577e9b9d71ceaa11a6403b07908e21fc3aef755ec795b896",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issue-with-adding-apps-through-managed-google-play-dialog/",
+   "title": "Issue with Adding Apps Through Managed Google Play Dialog on February 26th, 2020",
+   "date": "2020-02-26",
+   "url": "https://www.miradore.com/knowledge/releases/issue-with-adding-apps-through-managed-google-play-dialog/",
+   "text": "",
+   "hash": "e09b623e692da7abe35e0057b522554bda169d4fdc09409992a543731258d474",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issues-with-ios-management-and-enrollment/",
+   "title": "Issues with iOS Management and Enrollment on February 25th, 2020",
+   "date": "2020-02-25",
+   "url": "https://www.miradore.com/knowledge/releases/issues-with-ios-management-and-enrollment/",
+   "text": "",
+   "hash": "1084b01535b68ebf24fe449908ac02e2d166228323cd1e9957ddb7fca855428a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/vpp-application-issues/",
+   "title": "VPP Application Issues Update on October 3rd, 2019",
+   "date": "2019-10-03",
+   "url": "https://www.miradore.com/knowledge/releases/vpp-application-issues/",
+   "text": "",
+   "hash": "56e3d211bdaaaa495c24798ad918984f4068eacd3dcdfbde5bcd9fd7fb3b2fe8",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issue-warranty-expire-date-not-shown-correctly/",
+   "title": "Issue with Warranty Expire Date Not Shown Correctly on March 26th, 2019",
+   "date": "2019-03-26",
+   "url": "https://www.miradore.com/knowledge/releases/issue-warranty-expire-date-not-shown-correctly/",
+   "text": "",
+   "hash": "1c32a7fd4870ef2e65ed1a0b681f43576a323df614ab0b868f9ab97bf9724526",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issue-apple-enrollments-emails-sms-and-wakeups-broken/",
+   "title": "Issue with Apple Enrollments, Emails, SMS and Wakeups Broken on February 25th, 2019",
+   "date": "2019-02-25",
+   "url": "https://www.miradore.com/knowledge/releases/issue-apple-enrollments-emails-sms-and-wakeups-broken/",
+   "text": "",
+   "hash": "1238b40fb05cd93ff382d21b9f7f111928da94c23dd42e7a6cfae41974d5f61a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issue-android-client-not-available-from-google-play/",
+   "title": "Issue with Android Client Not Available from Google Play on February 6th, 2019",
+   "date": "2019-02-06",
+   "url": "https://www.miradore.com/knowledge/releases/issue-android-client-not-available-from-google-play/",
+   "text": "",
+   "hash": "8d829d098cbd5cc5773bd0ba0b3211c7649cf4d62fe5c13ae35e6a14cef3ef79",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issue-with-credit-card-invoices-attachments/",
+   "title": "Issue with Credit Card Invoices (Attachments) on January 21st, 2019",
+   "date": "2019-01-21",
+   "url": "https://www.miradore.com/knowledge/releases/issue-with-credit-card-invoices-attachments/",
+   "text": "",
+   "hash": "347106edfd57589b80ed12d63829faa3cb3b5359ce0efa04615b1c9bcf157ffb",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issues-with-ios-and-windows-enrollment/",
+   "title": "Issues with iOS and Windows Enrollment (Fixed) on November 24th, 2017",
+   "date": "2017-11-24",
+   "url": "https://www.miradore.com/knowledge/releases/issues-with-ios-and-windows-enrollment/",
+   "text": "",
+   "hash": "c9fc0ffba7c88d569bff27cdfcfe7415b8bc1de79023378722cceb394a12626c",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issue-with-ios-and-windows-device-enrollment-fixed/",
+   "title": "Fixed Issue with iOS and Windows Device Enrollment",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/issue-with-ios-and-windows-device-enrollment-fixed/",
+   "text": "",
+   "hash": "4769bc0350d61c853d2f25f6bcdb9a0d7557ad29f7349d21dfd1198c7e0c7620",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/sms-delivery-issues-resolved/",
+   "title": "SMS Delivery Issues (Resolved) on December 5th, 2016",
+   "date": "2016-12-05",
+   "url": "https://www.miradore.com/knowledge/releases/sms-delivery-issues-resolved/",
+   "text": "",
+   "hash": "939abcd76dd53eb6938a26e99ea48a79e58c8acd9855eb42d510d7e9b4898535",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issue-samsung-phone-ringtone-includes-workaround/",
+   "title": "Samsung Phone Ringtone Issue, Including Workaround on November 29th, 2016",
+   "date": "2016-11-29",
+   "url": "https://www.miradore.com/knowledge/releases/issue-samsung-phone-ringtone-includes-workaround/",
+   "text": "",
+   "hash": "ea5128b87723b84441df54e59eafa1b279a6299552a28e70fc9354c8c14e059b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issues-with-vpp-license-update-updated-05-09-2016-09-05/",
+   "title": "Issues with VPP License Update on September 2nd, 2016 (Fixed on September 5th)",
+   "date": "2016-09-05",
+   "url": "https://www.miradore.com/knowledge/releases/issues-with-vpp-license-update-updated-05-09-2016-09-05/",
+   "text": "",
+   "hash": "3406e46b68c2b060876cdd37ef636a5d4ad6ab5fa17254fc4b9df761dadd68c4",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ios-9-3-2-9-3-3-app-installation-bug-workaround-updated/",
+   "title": "iOS 9.3.2 and 9.3.3 App Installation Bug Workaround",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/ios-9-3-2-9-3-3-app-installation-bug-workaround-updated/",
+   "text": "",
+   "hash": "f04e8d974d9c6411443d3546304ec539dc98bd921c11537931bbe338db4fa689",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issues-in-site-creation/",
+   "title": "Issues in Site Creation on July 6th, 2015",
+   "date": "2015-07-06",
+   "url": "https://www.miradore.com/knowledge/releases/issues-in-site-creation/",
+   "text": "",
+   "hash": "bcddcf8ef71aa0b7f469cd2ac59efd933eb7e0763fea73091f5deffd30212de3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/network-connectivity-problems-05-06-2015/",
+   "title": "Network Connectivity Problems on June 5th, 2015",
+   "date": "2015-06-05",
+   "url": "https://www.miradore.com/knowledge/releases/network-connectivity-problems-05-06-2015/",
+   "text": "",
+   "hash": "4808669c075cb8b98e3d3e06da6b5b047c1ff93da63eb2b333cd3ac345fddc47",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issues-with-network-connection/",
+   "title": "Issues with Network Connection on April 8th, 2015",
+   "date": "2015-04-08",
+   "url": "https://www.miradore.com/knowledge/releases/issues-with-network-connection/",
+   "text": "",
+   "hash": "2fdf172a76a0907ece153f75c56486c291e433d5b0bd37b30bf8d1234befbe28",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issue-with-site-creation-and-device-inventory-updates/",
+   "title": "Issue with Site Creation and Device Inventory on March 15th, 2015",
+   "date": "2015-03-15",
+   "url": "https://www.miradore.com/knowledge/releases/issue-with-site-creation-and-device-inventory-updates/",
+   "text": "",
+   "hash": "9ba5e814b04d2ace4cd69f2a1e1b4bb7025342b044ace8bd0a1b57a76a92f370",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/network-connectivity-problems-03-03-2015/",
+   "title": "Network Connectivity Problems on March 3rd, 2015",
+   "date": "2015-03-03",
+   "url": "https://www.miradore.com/knowledge/releases/network-connectivity-problems-03-03-2015/",
+   "text": "",
+   "hash": "9a9084781d4336bb3c9f857dd925687189c753163c7b2ed30002a9ae44b57f1a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/problems-in-android-client-connectivity/",
+   "title": "Problems in Android Client Connectivity on February 10th, 2015",
+   "date": "2015-02-10",
+   "url": "https://www.miradore.com/knowledge/releases/problems-in-android-client-connectivity/",
+   "text": "",
+   "hash": "3d60c291cd4c8f598bb0a8f0ee35330869126fd17fc00e4748ff844bb21ab981",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/problems-with-email-and-text-message-delivery/",
+   "title": "Problems with Email and Text Message Delivery on February 6th, 2015",
+   "date": "2015-02-06",
+   "url": "https://www.miradore.com/knowledge/releases/problems-with-email-and-text-message-delivery/",
+   "text": "",
+   "hash": "756054bceb87bce265c6727df2e56fd6bd89361f8cc2672b7399fedda3878d7c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ios-device-management-problem/",
+   "title": "iOS Device Management Problem on January 13th, 2015",
+   "date": "2015-01-13",
+   "url": "https://www.miradore.com/knowledge/releases/ios-device-management-problem/",
+   "text": "",
+   "hash": "4252521bdca2868166d6b5465f763524920c730482bf58df419e6b307051651f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ios-device-enrollment-problem/",
+   "title": "iOS Device Enrollment Problem on November 26th, 2014",
+   "date": "2014-11-26",
+   "url": "https://www.miradore.com/knowledge/releases/ios-device-enrollment-problem/",
+   "text": "",
+   "hash": "e3abb80f93d3d3807adb8b8760c0607caccae8fe3e8901522b7ba518ad767a20",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/network-connectivity-problems-26-11-2014/",
+   "title": "Network Connectivity Problems on November 26th, 2014",
+   "date": "2014-11-26",
+   "url": "https://www.miradore.com/knowledge/releases/network-connectivity-problems-26-11-2014/",
+   "text": "",
+   "hash": "9fbe2fef0c407981c43b122b305043b7ef712e9de19eb7039df615b53eacc794",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-api-error-21-11-2014/",
+   "title": "Miradore API Error on November 21st, 2014",
+   "date": "2014-11-21",
+   "url": "https://www.miradore.com/knowledge/releases/miradore-api-error-21-11-2014/",
+   "text": "",
+   "hash": "c338dd1f5879caa59350a5eaddec806a2092008cc5cd03ec5025a79406388029",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issue-with-device-inventory-and-enrollment/",
+   "title": "Issue with Device Inventory and Enrollment on October 2nd, 2014",
+   "date": "2014-10-02",
+   "url": "https://www.miradore.com/knowledge/releases/issue-with-device-inventory-and-enrollment/",
+   "text": "",
+   "hash": "d8c09d94316e0e9199687dad7106c77d12b96c82a52e5a055724f342dedc9355",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issues-with-device-enrollments-06-08-2014-and-08-09-2014/",
+   "title": "Issues with Device Enrollments Between September 6th and 8th, 2014",
+   "date": "2014-08-06",
+   "url": "https://www.miradore.com/knowledge/releases/issues-with-device-enrollments-06-08-2014-and-08-09-2014/",
+   "text": "",
+   "hash": "fb5ee3edafa95653c14be00121c96ffa5312eb2fcb7928a58bd067df64fd71b0",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/maintenance-break-august-30-2022/",
+   "title": "Maintenance Break on August 30, 2022 (maintenance break is over)",
+   "date": "2022-08-30",
+   "url": "https://www.miradore.com/knowledge/releases/maintenance-break-august-30-2022/",
+   "text": "",
+   "hash": "cd2d212e2f96451cf4c00422f3aa8f7d41d6eb0dbaabf94ad629ebfe75f701a8",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/maintenance-break-march-1-2021/",
+   "title": "Maintenance Break on March 1, 2021 (maintenance break is over)",
+   "date": "2021-03-01",
+   "url": "https://www.miradore.com/knowledge/releases/maintenance-break-march-1-2021/",
+   "text": "",
+   "hash": "8b01373459077ddbc5cd161b3f79c5f9c58bdcdaa6bd0307baf07b508ac66c50",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/0400-utc-complete-0422-utc/",
+   "title": "Maintenance Break on April 8th, 2019 (04:00 - 04:22 UTC)",
+   "date": "2019-04-08",
+   "url": "https://www.miradore.com/knowledge/releases/0400-utc-complete-0422-utc/",
+   "text": "",
+   "hash": "96276aff8c7e4f3590b252772133cd8659e17c9cdde1f7b9866b52ba405c788a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/19-03-2018-0600-0700-utc/",
+   "title": "Maintenance Break on March 19th, 2018 (06:00 - 07:00 UTC)",
+   "date": "2018-03-19",
+   "url": "https://www.miradore.com/knowledge/releases/19-03-2018-0600-0700-utc/",
+   "text": "",
+   "hash": "8e9725a2ed4f7b349e11e38867da819963e79a187518336612db6c32c4c147e8",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/17-01-2018-0700-1300-utc/",
+   "title": "Maintenance Break on Jan 17th, 2018 (07:00 - 13:00 UTC)",
+   "date": "2018-01-17",
+   "url": "https://www.miradore.com/knowledge/releases/17-01-2018-0700-1300-utc/",
+   "text": "",
+   "hash": "37a0ec3825f2d55106588a27ff4af5a29bfab5a8f388ad2478e7ac7aa472aa3a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/unplanned-maintenance-break-04-01-2018/",
+   "title": "Unplanned Maintenance Break on January 4th, 2018",
+   "date": "2018-01-04",
+   "url": "https://www.miradore.com/knowledge/releases/unplanned-maintenance-break-04-01-2018/",
+   "text": "",
+   "hash": "c251c774c411589d224d1b73dca3048f815e380e5025819446aa431eb7af3436",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/23-01-2017-and-25-01-2017-0830-0930-eet/",
+   "title": "Maintenance Breaks on January 23rd and 25th, 2017 (08:30-09:30 EET)",
+   "date": "2017-01-23",
+   "url": "https://www.miradore.com/knowledge/releases/23-01-2017-and-25-01-2017-0830-0930-eet/",
+   "text": "",
+   "hash": "89fb74711e10933dede52391079dabcb56a46471dc8fa4fe31df4c77b494f213",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/08-12-2016-1800-2100-eet/",
+   "title": "Maintenance Break on December 8th, 2016 (18.00-21.00 EET)",
+   "date": "2016-12-08",
+   "url": "https://www.miradore.com/knowledge/releases/08-12-2016-1800-2100-eet/",
+   "text": "",
+   "hash": "80238df7b2dd7546da817de8b6bb0ee29bac18104463513a39d2d0ddbef294a9",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/28-05-2015-0900-1200-eet/",
+   "title": "Maintenance Break on May 28th, 2015 (09:00 - 12:00 EET)",
+   "date": "2015-05-28",
+   "url": "https://www.miradore.com/knowledge/releases/28-05-2015-0900-1200-eet/",
+   "text": "",
+   "hash": "eb19c3507d6dc435ddada31c93c63db253049cbb030999d0e0d9f3f35f5d973d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/15-05-2015-1100-1130-eet/",
+   "title": "Maintenance Break on May 15th, 2015 (11:00 - 11:30 EET)",
+   "date": "2015-05-15",
+   "url": "https://www.miradore.com/knowledge/releases/15-05-2015-1100-1130-eet/",
+   "text": "",
+   "hash": "64d10d324d067fbde58a0c03fb254e06842fd22b11ceb3038f1471bf7c673a3e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/unplanned-maintenance-break-in-api-17-04-2015/",
+   "title": "Unplanned Maintenance Break in Miradore API on April 17th, 2015",
+   "date": "2015-04-17",
+   "url": "https://www.miradore.com/knowledge/releases/unplanned-maintenance-break-in-api-17-04-2015/",
+   "text": "",
+   "hash": "f5ac17c54815785862f91f804b8b965e50f26c2e69963337d2eb1306b3399e80",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/06-03-2015-0900-0930-eet/",
+   "title": "Maintenance Break on March 6th, 2015 (09:00 - 09:30 EET)",
+   "date": "2015-03-06",
+   "url": "https://www.miradore.com/knowledge/releases/06-03-2015-0900-0930-eet/",
+   "text": "",
+   "hash": "ba4b653d5199cd4f396e0d58e0e272381c86d30cedc917d7f3fb77d02d86f9f7",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/26-02-2015-0900-0930-eet/",
+   "title": "Maintenance Break on February 26th, 2015 (09:00 - 09:30 EET)",
+   "date": "2015-02-26",
+   "url": "https://www.miradore.com/knowledge/releases/26-02-2015-0900-0930-eet/",
+   "text": "",
+   "hash": "1b56130122f41b661f78f3e9d115df808350e52ee072fc8d4eec8bcc957d05f9",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/19-02-2015-0000-0500-eet/",
+   "title": "Maintenance Break on February 19th, 2015 (00:00 - 05:00 EET)",
+   "date": "2015-02-19",
+   "url": "https://www.miradore.com/knowledge/releases/19-02-2015-0000-0500-eet/",
+   "text": "",
+   "hash": "bdc06580de8eac8866592e8ca238d5690f883033c1f518112df4c34db8f08eaa",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/unplanned-maintenance-break-20-10-2014/",
+   "title": "Unplanned Maintenance Break on October 20th, 2014",
+   "date": "2014-10-20",
+   "url": "https://www.miradore.com/knowledge/releases/unplanned-maintenance-break-20-10-2014/",
+   "text": "",
+   "hash": "7700bf42ed59317907dabede725e5eb1e80a46e912243fc2148d2c3fe5bd8d79",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/03-09-2014/",
+   "title": "Maintenance Break on September 3rd, 2014",
+   "date": "2014-09-03",
+   "url": "https://www.miradore.com/knowledge/releases/03-09-2014/",
+   "text": "",
+   "hash": "3b97b3f23c45075628e8c9640dd0a59788445a1bd4dc47cdd5556fb425aa6403",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/09-07-1600-1800-eet/",
+   "title": "Maintenance Break on July 9th (16:00 to 18:00 EET)",
+   "date": "1600-07-09",
+   "url": "https://www.miradore.com/knowledge/releases/09-07-1600-1800-eet/",
+   "text": "",
+   "hash": "f9f4edef61abee85fb0c623eb95ed11b72b0a9c37504794c4ddf6b7c3b02ba4d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/26-06-2014/",
+   "title": "Unplanned Maintenance Break on June 26th, 2014",
+   "date": "2014-06-26",
+   "url": "https://www.miradore.com/knowledge/releases/26-06-2014/",
+   "text": "",
+   "hash": "d146f46b04d07d452fd9dc3c9ab141a2cf93391e3dd82196288f51515275d913",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/increased-ios-version-requirement-for-location-tracking-ui-and-usability-improvements-premium-and-premium-subscriptions-no-longer-available-in-quebec/",
+   "title": "Increased iOS version requirement for location tracking, UI and usability improvements, Premium and Premium+ subscriptions no longer available in Quebec",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/increased-ios-version-requirement-for-location-tracking-ui-and-usability-improvements-premium-and-premium-subscriptions-no-longer-available-in-quebec/",
+   "text": "",
+   "hash": "5cda2d13401cd2e4de2f683c9685d01a1ee4a9978428c3f8f37fe5ae60290bd7",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/reboot-device-request-client-logs-send-message-and-software-update-wizard-improvements/",
+   "title": "Reboot device, Request client logs, Send message, and Software update wizard improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/reboot-device-request-client-logs-send-message-and-software-update-wizard-improvements/",
+   "text": "",
+   "hash": "2894d1144e02cb0f8f38fef92d1ea6eaed6445be8a3d0562835d62ef9a2d2bea",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-client-update-on-android-2/",
+   "title": "Miradore client update on Android",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-client-update-on-android-2/",
+   "text": "",
+   "hash": "2669e31c5d1d281b4385839cb14083a92853e3b5a7f4a32da0187800f3b1ed5f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/bug-fix-windows-custom-script-deployment-failure/",
+   "title": "Bug fix: Windows custom script deployment failure",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/bug-fix-windows-custom-script-deployment-failure/",
+   "text": "",
+   "hash": "8838b5d6619cf442dc1714f25fe2f026691ca0d54c9b2a8f80d473b4e9dc321c",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/direct-link-to-user-details-from-device-pages-apple-dep-menu-update-api-v1-updates/",
+   "title": "Direct link to user details from device pages, Apple DEP menu update, API v1 updates",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/direct-link-to-user-details-from-device-pages-apple-dep-menu-update-api-v1-updates/",
+   "text": "",
+   "hash": "7c2333a9cc9626235057e048f107f8b89950c3fdd31589d34a30166e01eaefd6",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/apple-business-related-updates-bug-fixes/",
+   "title": "Apple Business-related updates, bug fixes",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/apple-business-related-updates-bug-fixes/",
+   "text": "",
+   "hash": "50547a0ae6813a65fe51eb03ae18e9e49b0655f6b4682f0d05eab0b2ce85045b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/increased-visibility-of-license-data-for-direct-invoice-customers-and-updating-apple-devices-enrolled-through-automated-device-enrollment-via-api-v2/",
+   "title": "Increased visibility of license data for direct invoice customers and updating Apple devices enrolled through Automated Device Enrollment via API v2",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/increased-visibility-of-license-data-for-direct-invoice-customers-and-updating-apple-devices-enrolled-through-automated-device-enrollment-via-api-v2/",
+   "text": "",
+   "hash": "e6b87799a830e5481efbf626302276fa76c858ac83ff07cce1c17a2c361cb50a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/device-id-and-tag-assignment-via-api-v2/",
+   "title": "Device ID and tag assignment via API v2",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/device-id-and-tag-assignment-via-api-v2/",
+   "text": "",
+   "hash": "e7018edff6f246fffb8ba14f83e0addca9c3106beb4563647eb82c041b265282",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/background-managed-google-play-account-creation-ai-session-notes-for-remote-support-and-map-bug-fix/",
+   "title": "Background managed Google Play account creation, AI session notes for Remote support, and map bug fix",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/background-managed-google-play-account-creation-ai-session-notes-for-remote-support-and-map-bug-fix/",
+   "text": "",
+   "hash": "f32f676d0a63f0f1d29c67c9b2483597bff83ef86817cf6362aca774b0ba783a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/bitlocker-recovery-key-history/",
+   "title": "BitLocker recovery key history",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/bitlocker-recovery-key-history/",
+   "text": "",
+   "hash": "3bc44e80b14e0f43d91334d30ce1c2f6934480f59a2830742a6e9dfdab02b5f0",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-client-bug-fix-on-android/",
+   "title": "Miradore client bug fix on Android",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-client-bug-fix-on-android/",
+   "text": "",
+   "hash": "ea1b793cf46fdb4f82797c7dc5ff2fe006b0d678b4fa39ebd6852e0dfa7953ff",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-client-update-on-android-enabling-widgets-for-work-apps-bug-fixes-and-improvements/",
+   "title": "Miradore client update on Android, enabling widgets for work apps, bug fixes and improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-client-update-on-android-enabling-widgets-for-work-apps-bug-fixes-and-improvements/",
+   "text": "",
+   "hash": "4bb49f24987ab08d26dc27cdb1078d9dd3e7a9710589f324ecd2acc835a6c706",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ui-improvements-msp-portal-license-shortfall-indicator-and-bug-fix/",
+   "title": "UI improvements, MSP Portal license shortfall indicator and bug fix",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/ui-improvements-msp-portal-license-shortfall-indicator-and-bug-fix/",
+   "text": "",
+   "hash": "5a1af2e264be55d36fc2ddac99541cdf72df495609eb3e33da4cdd89449730a9",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/windows-light-enrollment-now-requires-activation/",
+   "title": "Windows Light enrollment now requires activation",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/windows-light-enrollment-now-requires-activation/",
+   "text": "",
+   "hash": "1e33f0b48db20d7f27e9e024cc2544d85a836b4bc1e34c6e7bb05ac5a58c05f2",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/msp-portal-automatic-license-top-up-improved-vpp-license-handling-in-miradore/",
+   "title": "MSP Portal: automatic license top-up; improved VPP license handling in Miradore",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/msp-portal-automatic-license-top-up-improved-vpp-license-handling-in-miradore/",
+   "text": "",
+   "hash": "a34ca674476930e51d0c530456935c64e033d243031ef159bb01a345009b5217",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-wi-fi-configuration-profile-update/",
+   "title": "Android Wi-Fi configuration profile update",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/android-wi-fi-configuration-profile-update/",
+   "text": "",
+   "hash": "a3cc7a328df33ad279d3afb3f63cce2887f2a189b9eac3504ee9248355e11893",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/migrating-apple-devices-to-miradore-without-factory-reset/",
+   "title": "Migrating Apple devices to Miradore without factory reset",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/migrating-apple-devices-to-miradore-without-factory-reset/",
+   "text": "",
+   "hash": "b6f971907d5aeb5afe90fcb763bc85ef0348847c6bf795c5a1fc98732de1328e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/msp-portal-updates-manual-license-purchasing-and-decreasing/",
+   "title": "MSP Portal updates: manual license purchasing and decreasing",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/msp-portal-updates-manual-license-purchasing-and-decreasing/",
+   "text": "",
+   "hash": "4de82a76d79e5938653ffd9209c94bd2df535b6e97cdd3bed808e8c2df8fe072",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-client-update-for-android-msp-portal-update/",
+   "title": "Miradore client update for Android, MSP Portal update",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-client-update-for-android-msp-portal-update/",
+   "text": "",
+   "hash": "a4a05253635205ab3cead08f39f3b86af184e450aea5e518c5cad24018779da4",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/time-zone-configuration-profile-for-ios/",
+   "title": "Time zone configuration profile for iOS",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/time-zone-configuration-profile-for-ios/",
+   "text": "",
+   "hash": "c2152deb24bd5be5c43dd6888ce70d55a8795c71bd3051f366939cf57364b4f1",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/wpa3-enterprise-security-mode-for-ios-and-mac-wi-fi-configuration-profile-possibility-to-unlock-a-local-mac-user-account/",
+   "title": "WPA3-Enterprise security mode for iOS and Mac Wi-Fi configuration profile, possibility to unlock a local Mac user account",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/wpa3-enterprise-security-mode-for-ios-and-mac-wi-fi-configuration-profile-possibility-to-unlock-a-local-mac-user-account/",
+   "text": "",
+   "hash": "863a1047cc8c171d7987af289966e0be80da5d71812850c0945a9f2292be9a11",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/better-control-and-management-of-licenses-in-the-msp-portal/",
+   "title": "Better control and management of licenses in the MSP Portal",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/better-control-and-management-of-licenses-in-the-msp-portal/",
+   "text": "",
+   "hash": "2da4fa5d3e0041c4dbd29df41345c468a5b7a49b941ebdd4ca52aae0e4f23a86",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/msp-portal-improvements/",
+   "title": "MSP Portal improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/msp-portal-improvements/",
+   "text": "",
+   "hash": "594d7fb6ba1d5c22b47c333a5f9f86adfc94d62888fd638dfa399d91189e560d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/updated-restrictions-configuration-profile-for-ios-and-macos-updated-miradore-client-on-macos-ui-updates/",
+   "title": "Updated Restrictions configuration profile for iOS and macOS, updated Miradore client on macOS, UI updates",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/updated-restrictions-configuration-profile-for-ios-and-macos-updated-miradore-client-on-macos-ui-updates/",
+   "text": "",
+   "hash": "b77494af81fc32e8ddc101416b3e64a133b00ce3f17026c41ebce6b1343ed46d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/msp-portal-updates/",
+   "title": "MSP Portal updates",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/msp-portal-updates/",
+   "text": "",
+   "hash": "8b33eb016da8f1327d0953257c86ba3f6042257f30601c9da28a346fda672a1c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-client-update-on-android/",
+   "title": "Miradore client update on Android",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-client-update-on-android/",
+   "text": "",
+   "hash": "2669e31c5d1d281b4385839cb14083a92853e3b5a7f4a32da0187800f3b1ed5f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-client-fix-on-android-eid-for-ios/",
+   "title": "Miradore client fix on Android, EID available for eSIMs on iOS and iPadOS",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-client-fix-on-android-eid-for-ios/",
+   "text": "",
+   "hash": "4758be5429e9ac6190348d3d2d6620c917d299b387833c0ec0d1bf152578ac96",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/msp-portal-enhancements/",
+   "title": "MSP Portal enhancements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/msp-portal-enhancements/",
+   "text": "",
+   "hash": "0cda68b90d947e4de3814ac1c566fb0349404f7d7ea932c6af5c3ed65e3c4ac0",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/wifi-configuration-profile-for-macos/",
+   "title": "Wi-Fi configuration profile for macOS and Android application deployment loop fix",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/wifi-configuration-profile-for-macos/",
+   "text": "",
+   "hash": "f80ca39554442a8c17e5efd8ca35d60a009f9b9b802287cc73cdf8602fb00f42",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/improved-permissions-view-and-wpa3-security-mode-for-ios/",
+   "title": "Improved Permissions view and WPA3 security mode for iOS",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/improved-permissions-view-and-wpa3-security-mode-for-ios/",
+   "text": "",
+   "hash": "8d54137820ede25b2f9b580ad8eafcceeaa18eb10c8f260a98042a2699814671",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/protected-wipe-for-windows/",
+   "title": "Protected wipe for Windows",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/protected-wipe-for-windows/",
+   "text": "",
+   "hash": "10bfc546784a87c2ed8fd14e5f2df7c2705b86bef7829e64fdb044ce728edc83",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/windows-enrollment-wizard-changes/",
+   "title": "Windows enrollment wizard changes",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/windows-enrollment-wizard-changes/",
+   "text": "",
+   "hash": "bdb75632d8b29ebc603495a800a2eeb240c60f479ab9f064378fac9fcc56eecd",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-custom-launcher-enhancements-and-configuration-profile-wizard-improvements/",
+   "title": "Android Custom Launcher enhancements and configuration profile wizard improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/android-custom-launcher-enhancements-and-configuration-profile-wizard-improvements/",
+   "text": "",
+   "hash": "c31ba2e8f1d7e38af453de19680b7ea7ed39b5575499aab1ec207ae7e2ec7c31",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-custom-launcher-2/",
+   "title": "Android Custom Launcher",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/android-custom-launcher-2/",
+   "text": "",
+   "hash": "f540bed592618c7dd3b4fcc31283fda6a41cad54d7a7f86c024eadb0912c6e05",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/customer-driven-improvements-for-android-and-windows-management/",
+   "title": "Customer-driven improvements for Android and Windows management",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/customer-driven-improvements-for-android-and-windows-management/",
+   "text": "",
+   "hash": "368923af732f4b2f77298362e3444a012ac779eb252bec26a5b90e9d91d0327a",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/fixes-to-mps-portal-and-inventory-handling/",
+   "title": "Fixes to MSP Portal and inventory handling",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/fixes-to-mps-portal-and-inventory-handling/",
+   "text": "",
+   "hash": "65a6561178c8eff234001d1660e8ffd42fa58f8e4da176d87c46183bd9b504d1",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/new-windows-client-version/",
+   "title": "New Windows client version",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/new-windows-client-version/",
+   "text": "",
+   "hash": "b639b83c4657080bd4bd89837dc6a50757852cb80bfdf75d39cc6d74b906bfe3",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-direct-boot-reset-passcode-msp-portal-update-and-other-updates/",
+   "title": "Android Direct Boot - reset passcode, MSP Portal update, and other updates",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/android-direct-boot-reset-passcode-msp-portal-update-and-other-updates/",
+   "text": "",
+   "hash": "d481a10448d5a9e490f98200c9470a986bf59860dcdc9e8c2c341f75b8c1db37",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/fixes-and-improvements/",
+   "title": "Fixes and improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/fixes-and-improvements/",
+   "text": "",
+   "hash": "1280170b077275178eff9e7d36a4f3ea1b4e2a2e2372780c854880b7533b58e8",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/return-to-service-for-ios-ipados-and-update-to-the-report-builder-and-api/",
+   "title": "Return to Service for iOS/iPadOS and update to the Report Builder and API",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/return-to-service-for-ios-ipados-and-update-to-the-report-builder-and-api/",
+   "text": "",
+   "hash": "c4ded9603dd5510dec37867a966db24423e52231f272eaf48a8d42fcecae2f82",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/enhanced-registration-experience-for-new-users-and-maintenance-improvements/",
+   "title": "Enhanced registration experience for new users and maintenance improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/enhanced-registration-experience-for-new-users-and-maintenance-improvements/",
+   "text": "",
+   "hash": "3e68e9cdf2789a59d298f1226259ad88727a3ebc31895efc3cc2cc8078b66223",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/password-complexity-additions-and-some-under-the-hood-modifications/",
+   "title": "Password complexity additions and some under-the-hood modifications",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/password-complexity-additions-and-some-under-the-hood-modifications/",
+   "text": "",
+   "hash": "8dcb1e5835072381dfd9e81fde2e6a2c09ebdc850e45217adcdf3d1942f0bf66",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-kiosk-mode-improvement-and-adjustment-to-the-ios-marketplace-restriction/",
+   "title": "Android kiosk mode improvement and adjustment to the iOS marketplace restriction",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/android-kiosk-mode-improvement-and-adjustment-to-the-ios-marketplace-restriction/",
+   "text": "",
+   "hash": "b3f08a9586ff87a5064f536aab8d4d26948a8e2f72ae766a4b881d67380d075c",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/updated-password-complexity-requirements/",
+   "title": "Updated password complexity requirements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/updated-password-complexity-requirements/",
+   "text": "",
+   "hash": "2147d571c72ea56eea126e37f041f336a64cd14d84029eb82b4f3e1af2e668e7",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/improvements-and-fixes-2/",
+   "title": "Improvements and fixes",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/improvements-and-fixes-2/",
+   "text": "",
+   "hash": "32cbeea8627950df53aad143c928d2b299f71c9caf5a0ded5fd922eb11b1b38f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/integration-to-google-workspace-group-filtering-for-user-sync-and-other-enhancements/",
+   "title": "Integration to Google Workspace, group filtering for user sync and other enhancements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/integration-to-google-workspace-group-filtering-for-user-sync-and-other-enhancements/",
+   "text": "",
+   "hash": "7c33879d88caba52a7692c791ca1b7ebaad29d5dc283da7af6492506f088eb0b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/premium-plus-trial-and-changes-to-the-free-plan/",
+   "title": "Premium+ trial and changes to the Free plan",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/premium-plus-trial-and-changes-to-the-free-plan/",
+   "text": "",
+   "hash": "6c02403665753507a3fd4f46909ccb7c0f6af68066c9411311637f1a9c99b6fb",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/web-distribution-restriction-for-ios/",
+   "title": "Web Distribution restriction for iOS",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/web-distribution-restriction-for-ios/",
+   "text": "",
+   "hash": "9f753bdcc336724f6191c6d2969902f000fbdeb31005501551a3c1fab6c96f17",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/integrations-feature-finetuning/",
+   "title": "Integrations feature finetuning",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/integrations-feature-finetuning/",
+   "text": "",
+   "hash": "729ece27a93aa929796283becc59500e09c244fbb3660ab1a61697aa1f8c9983",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/fix-for-the-azure-ad-enrollment-issue-and-maintenance-improvements/",
+   "title": "Fix for the Azure AD enrollment issue and maintenance improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/fix-for-the-azure-ad-enrollment-issue-and-maintenance-improvements/",
+   "text": "",
+   "hash": "8b212b902e487a5cc32c9817b9d308e2ffaec3c212f5764cbaf3f5f78ecf0c66",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/change-to-the-file-and-app-upload-limit-and-enhancements-to-the-remote-support/",
+   "title": "Change to the file and app upload limit and enhancements to the Remote support",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/change-to-the-file-and-app-upload-limit-and-enhancements-to-the-remote-support/",
+   "text": "",
+   "hash": "b4e39a1bbfad7829b9ea0b0407b0642a31bc5885076656580daf614fc5ce44d5",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/new-miradore-subscription-plan-with-integrations-and-remote-support-features/",
+   "title": "New Miradore subscription plan with Integrations and Remote support features",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/new-miradore-subscription-plan-with-integrations-and-remote-support-features/",
+   "text": "",
+   "hash": "46635578f6c2514b14b806a69309da54b9158e072c4748f87e6640c47315587e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/alternative-marketplace-restriction-for-ios-and-fix-to-patch-management-issue-on-mac-devices/",
+   "title": "Alternative marketplace restriction for iOS (EU only) and fix to patch management issue on Mac devices",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/alternative-marketplace-restriction-for-ios-and-fix-to-patch-management-issue-on-mac-devices/",
+   "text": "",
+   "hash": "bf794221cec2935b0cf78d60b1c42ed0212b1478655884a8112135befedef5b8",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/the-new-version-for-android-client-and-improvement-to-custom-configurations/",
+   "title": "New version for Android client and improvement to Custom configurations",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/the-new-version-for-android-client-and-improvement-to-custom-configurations/",
+   "text": "",
+   "hash": "6a0daa8af7d5f84563b9a3b6c663fcbf0709dabc48d29440f6eb016085d93a51",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/knox-service-plugin-premium-features-and-other-changes/",
+   "title": "Knox Service Plugin Premium features and other changes",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/knox-service-plugin-premium-features-and-other-changes/",
+   "text": "",
+   "hash": "b6da4765304b149d3d94ad46673db77a105504ccf99300e5084616241b3d28e9",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/performance-issues-affecting-mdm-services-corrected/",
+   "title": "Performance issues affecting MDM services corrected",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/performance-issues-affecting-mdm-services-corrected/",
+   "text": "",
+   "hash": "92d83e5a793a86ef642dab1228216801bb92db2d2e995276dd9e0d6c3391214f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/user-deployment-through-rest-api-v2/",
+   "title": "User management through REST API v2 and other enhancements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/user-deployment-through-rest-api-v2/",
+   "text": "",
+   "hash": "a003cbfdafe94117ebb14d3c143878938e64bd01f2e12e62ff67202ff33db163",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/filevault-recovery-key-escrowing/",
+   "title": "FileVault personal recovery key escrowing and other enhancements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/filevault-recovery-key-escrowing/",
+   "text": "",
+   "hash": "f047ec00b609e354a4e7b0a2221ded6cd9b85d84cf8e42524aa6c4ac9e8f6ed6",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-client-2-10-0/",
+   "title": "Android client 2.10.0 and other enhancements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/android-client-2-10-0/",
+   "text": "",
+   "hash": "848bab167e0b43ef80a988776174b42d77e75675788adfd469f8cc7720c141cf",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/windows-enrollment-beta-improvements/",
+   "title": "Windows enrollment beta improvements and other enhancements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/windows-enrollment-beta-improvements/",
+   "text": "",
+   "hash": "9570a3a57435ac1d1158e25c9cd8b06d5770d70035fb7f95173cdc886129f99b",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/bug-fixes-and-usability-improvements/",
+   "title": "Bug fixes and usability improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/bug-fixes-and-usability-improvements/",
+   "text": "",
+   "hash": "d96f432b9e86350936d643452dde9c28a060d9498e5c51c5d6c17a4fe248fd93",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-moved-to-single-domain-url-structure-and-other-enhancements/",
+   "title": "Miradore moved to single domain URL structure and other enhancements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-moved-to-single-domain-url-structure-and-other-enhancements/",
+   "text": "",
+   "hash": "500b2ebce595f41d52ab43183691357413d091aa32765afea8976d106d3bdd14",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/improved-windows-enrollment-experience-and-other-enhancements/",
+   "title": "Improved Windows enrollment experience and other enhancements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/improved-windows-enrollment-experience-and-other-enhancements/",
+   "text": "",
+   "hash": "2cabe1d61621c05da7f12a24ff6645c09dab611457fefa699ac894d4bf381258",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/macos-patch-management/",
+   "title": "Mac patch management and other enhancements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/macos-patch-management/",
+   "text": "",
+   "hash": "78c6e39c3e477482410b57b3f7a7e68f40be31597d97b9bd08d7e889e2d77e50",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/apple-device-enrollment-improvements-and-updated-multi-sim-support-for-ios/",
+   "title": "Apple device enrollment improvements and updated multi-SIM support for iOS",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/apple-device-enrollment-improvements-and-updated-multi-sim-support-for-ios/",
+   "text": "",
+   "hash": "add15e1816bf52f5ffa5a2c1be307c4626d7a0c19b511a2a1948930594013be9",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/performance-improvement-and-other-enhancements/",
+   "title": "Performance improvement and other enhancements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/performance-improvement-and-other-enhancements/",
+   "text": "",
+   "hash": "9998f598ae9df5287e2751d6e7be892cd2bf342f24c78341cffcd6c11c4eed6b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/additional-configuration-for-wipe-on-ios-devices-and-other-improvements/",
+   "title": "Additional configuration for wipe on iOS devices and other improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/additional-configuration-for-wipe-on-ios-devices-and-other-improvements/",
+   "text": "",
+   "hash": "8da76c4654e71c06ccda40dc0e22ba804ee8991a682afa094b3a14fc4c781cb3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/fix-to-macos-custom-configuration-and-other-improvements/",
+   "title": "Fix to macOS custom configuration and other improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/fix-to-macos-custom-configuration-and-other-improvements/",
+   "text": "",
+   "hash": "9a665295dab22e29abfdfb1e6a5c4f2e4c97ec852ac20dcd7a59cf75a9d510d8",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ui-element-fine-tuning-and-bug-fixes/",
+   "title": "UI element fine-tuning and bug fixes",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/ui-element-fine-tuning-and-bug-fixes/",
+   "text": "",
+   "hash": "0e5db0d68c2dad15698e8f17f8102941699927f0309850cdfb93cb3adf5dff66",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/security-ui-and-back-end-improvements/",
+   "title": "Changes to the free trial, and improvements to security, UI, and backend",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/security-ui-and-back-end-improvements/",
+   "text": "",
+   "hash": "13dd43f3e5e4ae1110924d09732212a31c27de8c2bdb61efda1eeae1eae08000",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-device-admin-mode-deprecation-and-updates-to-the-look-and-feel/",
+   "title": "Android Device Admin mode deprecation and updates to the look and feel",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/android-device-admin-mode-deprecation-and-updates-to-the-look-and-feel/",
+   "text": "",
+   "hash": "589082af2a8adb3f61af13a9b4955202d1bb0e52f993fd631a7e588b91d1ac3e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/device-self-service-enrollment-changes-and-new-action-for-shared-ipad/",
+   "title": "Device self-service enrollment changes and new action for Shared iPad",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/device-self-service-enrollment-changes-and-new-action-for-shared-ipad/",
+   "text": "",
+   "hash": "2a00c8ff1d9202e58b72887bf23162527de83e394757e1c4bccf71f3dcad9e1c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/management-for-company-owned-personally-enabled-cope-android-devices/",
+   "title": "Management for company-owned personally enabled (COPE) Android devices",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/management-for-company-owned-personally-enabled-cope-android-devices/",
+   "text": "",
+   "hash": "4a800706c8f0b96939518266403bcd78a2df35162edac9a606e8bb27deb98e2d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/shared-ipad-for-multi-user-ios-devices/",
+   "title": "Shared iPad for multi-user iOS devices",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/shared-ipad-for-multi-user-ios-devices/",
+   "text": "",
+   "hash": "68bb6306515c2d3d5d4e5c4029c275fae48a27592711f13c35803f49301fee3d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-showroom-is-now-available/",
+   "title": "Miradore Showroom is now available",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-showroom-is-now-available/",
+   "text": "",
+   "hash": "99a8b8b262992f003e203395a4590db0d597d6b17e1e4e61f252380fb86ec461",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/security-improvements/",
+   "title": "Security improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/security-improvements/",
+   "text": "",
+   "hash": "cbdf724e83839d8f51f322930e664614826abcd188d847a94024f612de8c2988",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/improvements-and-fixes/",
+   "title": "Improvements and fixes",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/improvements-and-fixes/",
+   "text": "",
+   "hash": "32cbeea8627950df53aad143c928d2b299f71c9caf5a0ded5fd922eb11b1b38f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/small-improvements-and-billing-procedure-changes/",
+   "title": "Small improvements and billing procedure changes",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/small-improvements-and-billing-procedure-changes/",
+   "text": "",
+   "hash": "636418bdb70f0eb6a9502669cd92ffdb0d4509d48d91dc7bf948cae120b3bd3b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/support-for-apple-apps-books-vpp-multiplatform-apps-and-other-improvements/",
+   "title": "Support for Apple Apps & Books (VPP) multiplatform apps and other improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/support-for-apple-apps-books-vpp-multiplatform-apps-and-other-improvements/",
+   "text": "",
+   "hash": "12c19a56c70790d9d37cbcb0bd31cc1aecffd67cde9e0e47da1e4a629ca24a31",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/scripting-for-macs-available-in-miradore/",
+   "title": "Scripting for Macs available in Miradore",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/scripting-for-macs-available-in-miradore/",
+   "text": "",
+   "hash": "c8a68b2cfc16d87cefec058ee9dceb34f4479f32614c6f8a2b95d89c5a864ada",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/improvements-to-ade-integration/",
+   "title": "Improvements to the integration with Apple's Automated Device Enrollment",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/improvements-to-ade-integration/",
+   "text": "",
+   "hash": "461640868ebed993408a243c4cb97b534082b4f56aac7daf0bbcc594312266ba",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/eas-configuration-to-support-oauth/",
+   "title": "iOS Mail for Exchange profile now supports modern authentication, 27th of September, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/eas-configuration-to-support-oauth/",
+   "text": "",
+   "hash": "c999a6df4b69be3fc66a74bc0a53a8f1e8575086ad9a0e52311b65069b2fc2c1",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/improvements-and-fixes-to-android-application-management-bugs/",
+   "title": "New welcome page and fixes to Android application management issues on 22nd of September, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/improvements-and-fixes-to-android-application-management-bugs/",
+   "text": "",
+   "hash": "8bd86d4923767547c02d09e4997e9f216b2faef23fad46c7d49e7f770dfa7519",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/fixed-android-issues/",
+   "title": "Bug fixes to Android issues on the 13th of September, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/fixed-android-issues/",
+   "text": "",
+   "hash": "8dfca5a8772c0ee99db676c6871ca8a15f5817bd37d18f1ca7cf540ceb382b26",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/bug-fixes-and-small-usability-improvements/",
+   "title": "Bug fixes and small usability improvements released on the 6th of September, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/bug-fixes-and-small-usability-improvements/",
+   "text": "",
+   "hash": "ddfc4459290d3ed44e419cccad1b4f654cd59c4ba72b4254ab6dbad766dd9b7a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/updated-the-latest-version-of-the-google-emm-api/",
+   "title": "Updated the latest version of the Google EMM API on the 30th of August, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/updated-the-latest-version-of-the-google-emm-api/",
+   "text": "",
+   "hash": "bfc9827dd96fc702574e9af5a9287ce023909f9617963c9d7038b3dd748668bf",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/miradore-release-on-august-2022/",
+   "title": "Improvements in Miradore release on 16th of August, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/miradore-release-on-august-2022/",
+   "text": "",
+   "hash": "113684a65d9b9548bcaad5ed8586c7d2cda5a2a1c2e8d6abe9ee90c477516929",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-apk-deployment-update-with-the-release/",
+   "title": "Android APK deployment update with the release on 18th of July, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/android-apk-deployment-update-with-the-release/",
+   "text": "",
+   "hash": "62f7f6307ce2e8d18b313dc594919e5e85b12b1014adf4f9885aaff23680ff17",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/improvements-released-on-july-2022/",
+   "title": "Improvements released on 6th of July, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/improvements-released-on-july-2022/",
+   "text": "",
+   "hash": "dca85927e484fb50b31233f1b58ab570a1b1940b9a2d130e0f169eeccec264d0",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/updates-to-look-and-feel-on-22nd-of-june-2022/",
+   "title": "Updates to look and feel on 22nd of June, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/updates-to-look-and-feel-on-22nd-of-june-2022/",
+   "text": "",
+   "hash": "021459e085008f3a32f7e7b12c987e168a2c4791008007acd3e99ec59813c950",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/new-version-of-the-windows-client-released/",
+   "title": "The new version of the Windows Client released on 14th of June, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/new-version-of-the-windows-client-released/",
+   "text": "",
+   "hash": "28d6a128b98e6e408a2dc48ec06149e9ebbf0e1a2100421b5dedd502ff92ba46",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/improvements-released-on-the-1st-of-june-2022/",
+   "title": "Improvements released on the 1st of June, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/improvements-released-on-the-1st-of-june-2022/",
+   "text": "",
+   "hash": "6920b902b43187f2d825c50a4f6dfe64b248cbba82dde02f1f2a1777f5d17901",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/support-for-multi-sim-android-devices/",
+   "title": "Support for multi-SIM Android devices on the 17th of May, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/support-for-multi-sim-android-devices/",
+   "text": "",
+   "hash": "1e20b3483682172520468c626cb60fd0864522ed2e825cc4d87baa2f73bba0ec",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/refreshed-look/",
+   "title": "Refreshed look and feel on the 10th of May, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/refreshed-look/",
+   "text": "",
+   "hash": "0e49482bcbb8205f096505f76ab540543e0b16127d8204ec79c2b441e9cbb44b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/new-features-to-free-and-premium-users/",
+   "title": "New features available to Free and Premium users on the 27th of April, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/new-features-to-free-and-premium-users/",
+   "text": "",
+   "hash": "fe0d35ae070a277526fbf3444efb498541532b6aadb9bf99a4104ca3521d5d15",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/update-to-miradore-client-for-android-on-10th-of-march-2022/",
+   "title": "Update to Miradore client for Android on 10th of March, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/update-to-miradore-client-for-android-on-10th-of-march-2022/",
+   "text": "",
+   "hash": "4df880ba44ab5c8f67209d55432dba36bb5a459d855535123ea5eef0203b7072",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/resolved-issues-with-the-release-on-2nd-of-march-2022/",
+   "title": "Improvements and bug fixes on 2nd of March, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/resolved-issues-with-the-release-on-2nd-of-march-2022/",
+   "text": "",
+   "hash": "72ac607e4d0cfade7be71b2aa9abc9289ce51a23a7b25fd73255abb156d96f3c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/release-on-17th-of-february-2022/",
+   "title": "Improvements to payment method and other changes released on 17th of February, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/release-on-17th-of-february-2022/",
+   "text": "",
+   "hash": "5578dcee3032a1a8a69c2552f58bda5e4126f2d8ba991e84ff4447b61039b013",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/release-on-26th-of-january-2022/",
+   "title": "New UI technology and other improvements released on 26th of January, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/release-on-26th-of-january-2022/",
+   "text": "",
+   "hash": "16d336beaf11665c686159c53e68a81adba3c91beec7ca2c78bce730040523e3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/improved-android-qr-nfc-enrollment-and-other-updates/",
+   "title": "Improved Android QR/NFC enrollment and other updates on the 4th of January, 2022",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/improved-android-qr-nfc-enrollment-and-other-updates/",
+   "text": "",
+   "hash": "2f8d9497ca2968ca0e7193e063cd73647b60d572913c775c02a2befc183d115c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/support-for-file-management-on-devices-with-android-12-released-on-the-3rd-of-december-2021/",
+   "title": "Support for file management on devices with Android 12 released on the 3rd of December, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/support-for-file-management-on-devices-with-android-12-released-on-the-3rd-of-december-2021/",
+   "text": "",
+   "hash": "3d4c50567aaf24968c946b7d7b9358e5ac835a2df1dd591291beb2a074567c5c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/improvements-to-android-qr-enrollment-and-fix-for-the-issue-of-hidden-additional-wifi-with-the-release-on-1st-of-december-2021/",
+   "title": "Improvements to Android QR enrollment and fix for the issue of hidden additional wifi with the release on 1st of December, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/improvements-to-android-qr-enrollment-and-fix-for-the-issue-of-hidden-additional-wifi-with-the-release-on-1st-of-december-2021/",
+   "text": "",
+   "hash": "2d96804398ec910de517af427b489c806b334254ed66deef8cb0f8932c337ff2",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-12-support-and-bug-fixes/",
+   "title": "Android 12 support and bug fixes on 9th of November, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/android-12-support-and-bug-fixes/",
+   "text": "",
+   "hash": "8b46983deb763676f35a3ac7ba52affadea8eddc1c9eae71b8859770da00f64d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/support-for-managing-windows11-macos12-and-ios15/",
+   "title": "Support for Windows 11, iOS 15 and macOS 12 released on 25th of October, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/support-for-managing-windows11-macos12-and-ios15/",
+   "text": "",
+   "hash": "35bbc30be82159886d8126a4eb5ee41752fc64c3a0fd7f40ca2e8363ffdfc140",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/custom-windows10-policies-and-android-system-update-management/",
+   "title": "Windows CSP policy builder and Android system update management released on 21st of September, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/custom-windows10-policies-and-android-system-update-management/",
+   "text": "",
+   "hash": "338f8cce5de8818f3da4cd3b7bfe042984ea18305d30cf054291e7846ef37a78",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/improvements-and-resolved-issues-on-2nd-of-september-2021/",
+   "title": "Improvements and resolved issues on 2nd of September, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/improvements-and-resolved-issues-on-2nd-of-september-2021/",
+   "text": "",
+   "hash": "364b6d56ee9ca2429f97c530f02f17c7f8ea57dc26b7fe7bd2ae6328437c2822",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/support-for-updating-knox-kiosk-apps/",
+   "title": "Android client update | Support for updating Knox kiosk mode apps on 26th of August, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/support-for-updating-knox-kiosk-apps/",
+   "text": "",
+   "hash": "52a4582099e80f87c6bd773455064cd8eabf0c432a7dccc7aefa98756014a708",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/small-improvements-and-bug-fixes/",
+   "title": "Small improvements and bug fixes on 19th of August, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/small-improvements-and-bug-fixes/",
+   "text": "",
+   "hash": "de4791b22ad1e86ee1ea76b268e7bb6733cfe965eb384844479ceaac1479f779",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/multi-app-android-kiosk-mode-and-other-improvements/",
+   "title": "Multi-app kiosk mode for Android and other improvements on 3rd of August, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/multi-app-android-kiosk-mode-and-other-improvements/",
+   "text": "",
+   "hash": "82f63e9b06a8ac299667f25b428c866ca3e7c070dfe05a396b5c91e0ba613506",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/win10-bulk-enrollment-and-apple-custom-profiles/",
+   "title": "Windows 10 bulk enrollment and custom configuration profiles for Apple devices on 7th of July, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/win10-bulk-enrollment-and-apple-custom-profiles/",
+   "text": "",
+   "hash": "0ad808a42ec5f9f62314f6f1baba8131f21227689118e43c3a4880c5c2c16763",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/automatic-app-updates-available-for-android-ios-and-macos/",
+   "title": "Automatic app updates available for Android, iOS and macOS devices on 17th of June, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/automatic-app-updates-available-for-android-ios-and-macos/",
+   "text": "",
+   "hash": "02b3f5e8ead28a7099c8efb158c0e7d5f81575479c672be483663fe795798268",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/improvements-to-business-policies-and-android-management/",
+   "title": "Improvements to business policies and Android management on 8th of June, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/improvements-to-business-policies-and-android-management/",
+   "text": "",
+   "hash": "9a0e1f65d5b6ee7d3bfc6122e553a31aa470415883ff1743622fa181e5add809",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/skiplist-for-ios-setup-and-other-improvements/",
+   "title": "More options for skipping iOS setup screens and other improvements on 27th of May, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/skiplist-for-ios-setup-and-other-improvements/",
+   "text": "",
+   "hash": "f374c87c19393235ea53860a148e92693a1e8528ed87ffb31c2efb39509168b0",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/new-name-for-miradore-enterprise-plan-and-other-improvements-on-3rd-of-may-2021/",
+   "title": "New name for Miradore Enterprise plan and other improvements on the 3rd of May, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/new-name-for-miradore-enterprise-plan-and-other-improvements-on-3rd-of-may-2021/",
+   "text": "",
+   "hash": "68c47d74bd0220b864fe3f1466d402f2448ab38426bc4ab52286a8dcc9abf2f9",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/teamviewer-integration-released-on-21st-of-april-2021/",
+   "title": "TeamViewer integration released on 21st of April, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/teamviewer-integration-released-on-21st-of-april-2021/",
+   "text": "",
+   "hash": "92e9bbd7a5965389e98ea53dab5ccedc7a02ee6ca9e4c740f4677ced1137d2f5",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/new-configuration-for-windows-10-and-macos-password-policy-on-12th-of-april-2021/",
+   "title": "New configuration for Windows 10 and macOS password policy on 12th of April, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/new-configuration-for-windows-10-and-macos-password-policy-on-12th-of-april-2021/",
+   "text": "",
+   "hash": "2b90356950114074b3c9c394199775783f38ed4e815f586907ee5edcbf9b9d14",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/application-management-improvements/",
+   "title": "Major improvements to application management on 1st of March, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/application-management-improvements/",
+   "text": "",
+   "hash": "6944dc509445fa33431abba6d0e330afcb3dedda9fc2925c891dd93e07be4fd4",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/windows-patch-management-improvements-update-on-february-24th-2021/",
+   "title": "Windows Patch management improvements update on February 24th, 2021",
+   "date": "2021-02-24",
+   "url": "https://www.miradore.com/knowledge/releases/windows-patch-management-improvements-update-on-february-24th-2021/",
+   "text": "",
+   "hash": "274c5345bf8894a8b02f81c07f6637ed6015f39eff8b5a952f4bcb293424be59",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/strong-customer-authentication-for-payments/",
+   "title": "Strong Customer Authentication (SCA) for payments on 12th of January, 2021",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/strong-customer-authentication-for-payments/",
+   "text": "",
+   "hash": "955c9cbc74dbb569d312cbd259f4f935824e1eb95e5e26a13b01a1371de9f527",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/release-note-on-5th-january-2021/",
+   "title": "Release note on 5th January, 2021",
+   "date": "2021-01-05",
+   "url": "https://www.miradore.com/knowledge/releases/release-note-on-5th-january-2021/",
+   "text": "",
+   "hash": "1648664b81fce6b4437c1c7a876be4c35b871d524bb2f7ebc4facefd2816ac8f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/androids-contacts-profile-now-supports-secondary-phone-number/",
+   "title": "Android's Contacts profile now supports secondary phone number",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/androids-contacts-profile-now-supports-secondary-phone-number/",
+   "text": "",
+   "hash": "d75e85344e100bd9780d4162aa5e0cab2bed52c609b24f7a8d343995211c38b0",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/improvements-and-bug-fixes-on-25th-of-november-2020/",
+   "title": "Improvements and bug fixes on 25th of November, 2020",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/improvements-and-bug-fixes-on-25th-of-november-2020/",
+   "text": "",
+   "hash": "f7de1be51ec87c4f9c7832c5ba53db9bd6ff26c5af83c5e8cb87c2dd38bfa4d1",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/improvements-and-bug-fixes-on-november-3rd-2020/",
+   "title": "Improvements and bug fixes on November 3rd, 2020",
+   "date": "2020-11-03",
+   "url": "https://www.miradore.com/knowledge/releases/improvements-and-bug-fixes-on-november-3rd-2020/",
+   "text": "",
+   "hash": "6b8876027f63bc23cb2c9464c5fc5afe6ce47c9441194ab48b927ba8349d7533",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/additional-configuration-options-for-ios-web-clips/",
+   "title": "Additional Configuration Options for iOS Web Clips on The Release October 20th, 2020",
+   "date": "2020-10-20",
+   "url": "https://www.miradore.com/knowledge/releases/additional-configuration-options-for-ios-web-clips/",
+   "text": "",
+   "hash": "bb19ae07864860ca11e595af46644be1859a7330b44e255c1452f86f48292fff",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/enterprise-wifi-configuration-for-android/",
+   "title": "Certificate deployment and enterprise WiFi configuration for Android and other updates on September 15th, 2020",
+   "date": "2020-09-15",
+   "url": "https://www.miradore.com/knowledge/releases/enterprise-wifi-configuration-for-android/",
+   "text": "",
+   "hash": "e2a03eaa91c099b81498a023ef0f0c7d1555497a99e4d0cec1644c8ff6cdc46c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/pkg-deployment-to-macos-patch-management-improvements-and-other-updates/",
+   "title": "PKG deployment to macOS, Patch management improvements and other updates on August 12th, 2020",
+   "date": "2020-08-12",
+   "url": "https://www.miradore.com/knowledge/releases/pkg-deployment-to-macos-patch-management-improvements-and-other-updates/",
+   "text": "",
+   "hash": "79ec6d8e0d27346eb4c48170ce132be80b44fcfb3ecd92a8cfbb00c91914ce81",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-client-version-2-8-3-update/",
+   "title": "Android Client Version 2.8.3 Update on August 6th, 2020",
+   "date": "2020-08-06",
+   "url": "https://www.miradore.com/knowledge/releases/android-client-version-2-8-3-update/",
+   "text": "",
+   "hash": "4e1fc8937070fc5158dda78c4cbf70fa8575489e3c9bd598d1f25b0706f5073e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/bitlocker-enforcement-for-windows-devices/",
+   "title": "BitLocker enforcement for Windows devices Update on 20th of July, 2020",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/bitlocker-enforcement-for-windows-devices/",
+   "text": "",
+   "hash": "8230b98f04f6448add7e0434b76d129ec50494f9e3d01332031ab109e6d5ceb0",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/minor-improvements-and-bug-fixes-on-july-8th-2020/",
+   "title": "Minor improvements and bug fixes on July 8th, 2020",
+   "date": "2020-07-08",
+   "url": "https://www.miradore.com/knowledge/releases/minor-improvements-and-bug-fixes-on-july-8th-2020/",
+   "text": "",
+   "hash": "aaa9d70140992c2cc43cb8861a09dab4f313d00428fe32889c0cd952bf007efe",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/annual-payment-option-for-miradore-enterprise-plan/",
+   "title": "Annual payment option for Miradore Enterprise Plan on 23rd June, 2020",
+   "date": "2020-06-23",
+   "url": "https://www.miradore.com/knowledge/releases/annual-payment-option-for-miradore-enterprise-plan/",
+   "text": "",
+   "hash": "0c41b1e30104a27f1ea94deda8f39bc4e1dd009d5e3c583ce08c975a7341cb9f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/wallpaper-configuration-profile-for-android/",
+   "title": "Wallpaper configuration profile for Android Update on May 27th, 2020",
+   "date": "2020-05-27",
+   "url": "https://www.miradore.com/knowledge/releases/wallpaper-configuration-profile-for-android/",
+   "text": "",
+   "hash": "e2b8451add1509b5e0d1257c1091d24fe02ae4fd0b86b1bb39dbc313491fad55",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/kiosk-mode-for-android-devices/",
+   "title": "Kiosk mode for Android devices Update on April 21st, 2020",
+   "date": "2020-04-21",
+   "url": "https://www.miradore.com/knowledge/releases/kiosk-mode-for-android-devices/",
+   "text": "",
+   "hash": "89b481cec3cdaececbe50e99a0ce98e65e929bdacf386bd6e9b0403bb230f200",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/drive-encryption-capabilities/",
+   "title": "Drive Encryption Capabilities Update on March 26th, 2020",
+   "date": "2020-03-26",
+   "url": "https://www.miradore.com/knowledge/releases/drive-encryption-capabilities/",
+   "text": "",
+   "hash": "e92e455c9e0f33bb673cde78e4debd730a89269293becdc4ab54b8bf24504d39",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/issue-affecting-names-of-in-house-ios-applications-resolved/",
+   "title": "Issue Affecting the Names of In-House iOS Applications on March 5th, 2020 (Resolved)",
+   "date": "2020-03-05",
+   "url": "https://www.miradore.com/knowledge/releases/issue-affecting-names-of-in-house-ios-applications-resolved/",
+   "text": "",
+   "hash": "821c3df3ce9ce1145dc83f5e27f29c3f9027e5e5d38614cb08b41bde142a7c68",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/sign-in-with-microsoft-work-or-school-accounts/",
+   "title": "Sign in with Microsoft Work or School Accounts Update on March 17th, 2020",
+   "date": "2020-03-17",
+   "url": "https://www.miradore.com/knowledge/releases/sign-in-with-microsoft-work-or-school-accounts/",
+   "text": "",
+   "hash": "494ac8ebffa04cfd3e657f05fca71961d3789b3309827664f912d2d0c600fd2f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/software-distribution-improvements-and-bug-fixes/",
+   "title": "Software Distribution Improvements and Bug Fixes on February 24th, 2020",
+   "date": "2020-02-24",
+   "url": "https://www.miradore.com/knowledge/releases/software-distribution-improvements-and-bug-fixes/",
+   "text": "",
+   "hash": "26122dc93fd835d3cfbda75e0eac3794a60013f678249bcd142ccd0eed45916b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/software-distribution/",
+   "title": "Software Distribution Update on February 3rd, 2020",
+   "date": "2020-02-03",
+   "url": "https://www.miradore.com/knowledge/releases/software-distribution/",
+   "text": "",
+   "hash": "61331199b97057bd5e1c95eadcc9bdf4e715d23c2c39864d1912bfc06c9a5291",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/minor-improvements-and-bug-fixes-14-01-2020/",
+   "title": "Minor Improvements and Bug Fixes on January 14th, 2020",
+   "date": "2020-01-14",
+   "url": "https://www.miradore.com/knowledge/releases/minor-improvements-and-bug-fixes-14-01-2020/",
+   "text": "",
+   "hash": "9135db95ab04fc107b850e57e7ba83c76a02cd77496f66a3bd39a6a3493d5335",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-enrollment-improvements/",
+   "title": "Android Enrollment Improvements on December 2nd, 2019",
+   "date": "2019-12-02",
+   "url": "https://www.miradore.com/knowledge/releases/android-enrollment-improvements/",
+   "text": "",
+   "hash": "5f018207a7410cd349970bf385ad7048e58546de9d36f87ff7ececd02c817da2",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/patch-management-for-windows/",
+   "title": "Patch Management for Windows Update on November 4th, 2019",
+   "date": "2019-11-04",
+   "url": "https://www.miradore.com/knowledge/releases/patch-management-for-windows/",
+   "text": "",
+   "hash": "c3fb8b55126b4d265f574c8af72d5fa64b8bc585840e94d49ab691b7ec11b294",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/service-updates/",
+   "title": "Service Updates on October 16th, 2019",
+   "date": "2019-10-16",
+   "url": "https://www.miradore.com/knowledge/releases/service-updates/",
+   "text": "",
+   "hash": "d3b2cdc5ba78d3cf14e23cadda1dd79e73f65ba1a5563dbb29bcf307f47782da",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/26-09-2019/",
+   "title": "Release Notes on September 26th, 2019",
+   "date": "2019-09-26",
+   "url": "https://www.miradore.com/knowledge/releases/26-09-2019/",
+   "text": "",
+   "hash": "2198314f6cbd1614a371dbc014b85ce49e5b795849ce6830759059683f1a3a19",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/customizable-dashboards/",
+   "title": "Customizable Dashboards Update on August 22nd, 2019",
+   "date": "2019-08-22",
+   "url": "https://www.miradore.com/knowledge/releases/customizable-dashboards/",
+   "text": "",
+   "hash": "6a0bde23a4dde1a7064667344e8e48263da63304266a36d1ace5f6564f77b18c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/2019-07-11-release-notes/",
+   "title": "2019-07-11 Release notes",
+   "date": "2019-07-11",
+   "url": "https://www.miradore.com/knowledge/releases/2019-07-11-release-notes/",
+   "text": "",
+   "hash": "6bddb9c1768d8234b277d6eab0f6070d4cea3b13ddc8e571409b651014333c31",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/03-07-2019/",
+   "title": "Release Notes on July 3rd, 2019",
+   "date": "2019-07-03",
+   "url": "https://www.miradore.com/knowledge/releases/03-07-2019/",
+   "text": "",
+   "hash": "6125ff1eb45543e3a6b234af38ec61c45a9fe100b0ab81efd73d46c26a484faf",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/30-04-2019/",
+   "title": "Release Notes on April 30th, 2019",
+   "date": "2019-04-30",
+   "url": "https://www.miradore.com/knowledge/releases/30-04-2019/",
+   "text": "",
+   "hash": "0bdb4cfc0570043627201daa7bfde3e83f94c78d7182e72d6857dfe827bd3449",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/22-03-2019/",
+   "title": "Release Notes on March 22nd, 2019",
+   "date": "2019-03-22",
+   "url": "https://www.miradore.com/knowledge/releases/22-03-2019/",
+   "text": "",
+   "hash": "ad8b35c7b75b98275b2adf95ed24dfb225ee21d0f26e7adde42b57c905d70619",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/macos-support/",
+   "title": "macOS Support Update on January 17th, 2019",
+   "date": "2019-01-17",
+   "url": "https://www.miradore.com/knowledge/releases/macos-support/",
+   "text": "",
+   "hash": "4efb516634325dff9bc818be77e102d9a2c4e1f596fa4de3a1097cda9a6d0d30",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/dep-automation-and-other-improvements/",
+   "title": "DEP Automation and Other Improvements on December 14th, 2018",
+   "date": "2018-12-14",
+   "url": "https://www.miradore.com/knowledge/releases/dep-automation-and-other-improvements/",
+   "text": "",
+   "hash": "212964e27cca1b31bdeae08eb982e9b810c29132565ea09856a82a03ff986c1b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/welcome-guide-and-possibility-to-change-site/",
+   "title": "Welcome Guide and Possibility to Change Site Update on November 13th, 2018",
+   "date": "2018-11-13",
+   "url": "https://www.miradore.com/knowledge/releases/welcome-guide-and-possibility-to-change-site/",
+   "text": "",
+   "hash": "3e3b2b65e866d97fc3c1d14b77f75d499acdb406e4d2bd4ea818b01b25216d7d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/minor-improvements-and-bug-fixes-31-10-2018/",
+   "title": "Minor Improvements and Bug Fixes on October 31st, 2018",
+   "date": "2018-10-31",
+   "url": "https://www.miradore.com/knowledge/releases/minor-improvements-and-bug-fixes-31-10-2018/",
+   "text": "",
+   "hash": "2656a7b79408273b2cc67ae275fc2e2fc888502136ebfd8fbdf95d57c140ec8b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-improvements/",
+   "title": "Android Improvements on October 19th, 2018",
+   "date": "2018-10-19",
+   "url": "https://www.miradore.com/knowledge/releases/android-improvements/",
+   "text": "",
+   "hash": "1ce60152de36e30acb7fe1518087b12a2be2009f57581d17fa1368b100bab3ee",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/29-08-2018/",
+   "title": "Release Notes on August 29th, 2018",
+   "date": "2018-08-29",
+   "url": "https://www.miradore.com/knowledge/releases/29-08-2018/",
+   "text": "",
+   "hash": "27a4133a3e428aaffce79d303f9ee52c50b010ae9c64d41d31029932d236e543",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/dep-ios-setup-screen-skip-list-update/",
+   "title": "DEP iOS Setup Screen Skip List Update on July 3rd, 2018",
+   "date": "2018-07-03",
+   "url": "https://www.miradore.com/knowledge/releases/dep-ios-setup-screen-skip-list-update/",
+   "text": "",
+   "hash": "5055edbad6195667bf994d28a003c7b495a4a7530b43afb84841f534a33d7c21",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/release-notes-possibility-to-remove-apple-dep-integration/",
+   "title": "Possibility to Remove Apple DEP Integration Update on June 21st, 2018",
+   "date": "2018-06-21",
+   "url": "https://www.miradore.com/knowledge/releases/release-notes-possibility-to-remove-apple-dep-integration/",
+   "text": "",
+   "hash": "6b84745f25c40859115100d9dbdd549c223803a04d4b3a546144729d34f8d015",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/wi-fi-eap-configuration-for-ios/",
+   "title": "Wi-Fi EAP Configuration for iOS Update on May 31st, 2018",
+   "date": "2018-05-31",
+   "url": "https://www.miradore.com/knowledge/releases/wi-fi-eap-configuration-for-ios/",
+   "text": "",
+   "hash": "eeedc4d7adbd3c91acc16fc89ff6f00e5ead1f9492bbcde30279bbd20d1dbd16",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/certificate-deployment-for-ios/",
+   "title": "Certificate Deployment for iOS Update on April 26th, 2018",
+   "date": "2018-04-26",
+   "url": "https://www.miradore.com/knowledge/releases/certificate-deployment-for-ios/",
+   "text": "",
+   "hash": "ab03e51bcc05f317409fe6398c1cf1896fd4c83f0faf9b79e134478135c8d4e3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/unknown-sources-for-work-managed-devices/",
+   "title": "Unknown Sources for Work Managed Devices Update on April 11th, 2018",
+   "date": "2018-04-11",
+   "url": "https://www.miradore.com/knowledge/releases/unknown-sources-for-work-managed-devices/",
+   "text": "",
+   "hash": "430bb2b840cd10d6f38a78f88284ca9cd94a8192e0ae8f0897cf4d05c369c95a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-minor-improvements/",
+   "title": "Android Minor Improvements on March 22nd, 2018",
+   "date": "2018-03-22",
+   "url": "https://www.miradore.com/knowledge/releases/android-minor-improvements/",
+   "text": "",
+   "hash": "adc8947b8255c7b3d49f9ba4b7014eb7d21c6428f68152622f1fc71c754d01da",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/19-03-2018/",
+   "title": "Release Notes on March 19th, 2018",
+   "date": "2018-03-19",
+   "url": "https://www.miradore.com/knowledge/releases/19-03-2018/",
+   "text": "",
+   "hash": "209136b5ce55bb875c31da612e0f4a4a0455bb8eaab6c88e41fcbe24ed4ae1c3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/mostly-android-improvements/",
+   "title": "(Mostly) Android Improvements on December 19th, 2017",
+   "date": "2017-12-19",
+   "url": "https://www.miradore.com/knowledge/releases/mostly-android-improvements/",
+   "text": "",
+   "hash": "2b7f0f4066ee496c68359ced727ce4c58f3e458efb140624538ab8e3af37a36b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ios-mass-enrollment-changes/",
+   "title": "iOS Mass Enrollment Changes Update on November 30th, 2017",
+   "date": "2017-11-30",
+   "url": "https://www.miradore.com/knowledge/releases/ios-mass-enrollment-changes/",
+   "text": "",
+   "hash": "f4a4fc43081404986254052a6ee91ccad6014819a05ab1c3aa8969300feec11f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/system-app-blacklisting-for-android-device-owner/",
+   "title": "System App Blacklisting for Android Device Owner Update on November 21st, 2017",
+   "date": "2017-11-21",
+   "url": "https://www.miradore.com/knowledge/releases/system-app-blacklisting-for-android-device-owner/",
+   "text": "",
+   "hash": "1d50e890358be84b69dd47a2a1b645b2a7e005b24abe87f9e2bb9521f7d9b275",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/azure-ad-enrollment-for-windows-10/",
+   "title": "Azure AD Enrollment for Windows 10 Update on November 15th, 2017",
+   "date": "2017-11-15",
+   "url": "https://www.miradore.com/knowledge/releases/azure-ad-enrollment-for-windows-10/",
+   "text": "",
+   "hash": "3180d1eb400b29c96741f9380510a92f077c6ed975404bd36c205cb7a063b2ed",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/release-notes-for-miradore-online-client-for-android/",
+   "title": "Release Notes for Miradore Online Client for Android",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/release-notes-for-miradore-online-client-for-android/",
+   "text": "",
+   "hash": "0de93ba8a497f12d223d1a1069fe16c4a76c8ac8503e043df87549428624f9f1",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-client-version-2-6-3/",
+   "title": "Android Client Version 2.6.3 Update on November 7th, 2017",
+   "date": "2017-11-07",
+   "url": "https://www.miradore.com/knowledge/releases/android-client-version-2-6-3/",
+   "text": "",
+   "hash": "16d28b857a3569955334b3b97c9d572913b50830ef2776befd7718a631a48233",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/release-notes-windows-10-application-deployment/",
+   "title": "Windows 10 Application Deployment Update on November 2nd, 2017",
+   "date": "2017-11-02",
+   "url": "https://www.miradore.com/knowledge/releases/release-notes-windows-10-application-deployment/",
+   "text": "",
+   "hash": "b5fbbff415452c35460618c63fda763aa69dca2ff6085f3c7a089f8c43a6078b",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-client-version-2-6-2/",
+   "title": "Android Client Version 2.6.2 Update on October 24th, 2017",
+   "date": "2017-10-24",
+   "url": "https://www.miradore.com/knowledge/releases/android-client-version-2-6-2/",
+   "text": "",
+   "hash": "c9077ac9b053dd8db97f7eedcaca39bc864b7b2b37ef90b971e38c31dae72e12",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-client-version-2-6-0/",
+   "title": "Android Client Version 2.6.0 Update on October 4th, 2017",
+   "date": "2017-10-04",
+   "url": "https://www.miradore.com/knowledge/releases/android-client-version-2-6-0/",
+   "text": "",
+   "hash": "dc7eb6a16d1598e5e128994c25b2cf2a62594fe5b349c840ee122cb1d6507364",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/release-notes-windows-10-desktop-management-beta/",
+   "title": "Windows 10 Desktop Management (Beta) Update on September 29th, 2017",
+   "date": "2017-09-29",
+   "url": "https://www.miradore.com/knowledge/releases/release-notes-windows-10-desktop-management-beta/",
+   "text": "",
+   "hash": "006bf0e835b497f9b068fd16eeca04beba2a7d2334337cc5933df750b6efb707",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ios-app-managed-configuration/",
+   "title": "iOS App Managed Configuration Update on August 8th, 2017",
+   "date": "2017-08-08",
+   "url": "https://www.miradore.com/knowledge/releases/ios-app-managed-configuration/",
+   "text": "",
+   "hash": "ddd3df91eaaa497d7e47cbceb28fd4d4ddcc9f93d6f60d1a37db66dfd4a66215",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-client-version-2-5-6/",
+   "title": "Android Client Version 2.5.6 Update on June 21st, 2017",
+   "date": "2017-06-21",
+   "url": "https://www.miradore.com/knowledge/releases/android-client-version-2-5-6/",
+   "text": "",
+   "hash": "af2782360184717d9d76378add59892eaf39ba527a7ab18fb0e2dbb564abf6d0",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/11-05-2017/",
+   "title": "Release Notes on May 11th, 2017",
+   "date": "2017-05-11",
+   "url": "https://www.miradore.com/knowledge/releases/11-05-2017/",
+   "text": "",
+   "hash": "4696b05cd5f87f4720051eaeadeaf76c527b2e895e13c303171feb0fd998726d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/20-04-2017/",
+   "title": "Release Notes on April 20th, 2017",
+   "date": "2017-04-20",
+   "url": "https://www.miradore.com/knowledge/releases/20-04-2017/",
+   "text": "",
+   "hash": "536919c760d98f52cbfc9271d9eb4ebde22565e8fa6bc110e8e400d25fee5b0d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/31-03-2017/",
+   "title": "Release Notes on March 31st, 2017",
+   "date": "2017-03-31",
+   "url": "https://www.miradore.com/knowledge/releases/31-03-2017/",
+   "text": "",
+   "hash": "9eb0836c6a889e2e6361868698b9fac7e6d7f34a97c9ace87e79d334f913cac8",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-enterprise-work-managed-device/",
+   "title": "Android Enterprise: Work Managed Device Update on March 13th, 2017",
+   "date": "2017-03-13",
+   "url": "https://www.miradore.com/knowledge/releases/android-enterprise-work-managed-device/",
+   "text": "",
+   "hash": "5172f16a30fab90015c0f742ecbe5c22873018f794cac03dc66cbaac361b2f64",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/28-02-2017/",
+   "title": "Release Notes on February 28th, 2017",
+   "date": "2017-02-28",
+   "url": "https://www.miradore.com/knowledge/releases/28-02-2017/",
+   "text": "",
+   "hash": "d846dfe737cd4df7374cebc2aa762f164a91408d863a41b8f26aac484e078f9f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-enterprise/",
+   "title": "Android Enteprise Update on January 25th, 2017",
+   "date": "2017-01-25",
+   "url": "https://www.miradore.com/knowledge/releases/android-enterprise/",
+   "text": "",
+   "hash": "f57345eabfdc4a64a3908db66a6c951eeb2cf3a867fcf7a1b89dde40e17a70b8",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/14-12-2016/",
+   "title": "Release Notes on December 14th, 2016",
+   "date": "2016-12-14",
+   "url": "https://www.miradore.com/knowledge/releases/14-12-2016/",
+   "text": "",
+   "hash": "cab1bb0a1e959c112331e87cc69b315d723a484596f981f218a9c69a0f961676",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/23-11-2016/",
+   "title": "Release Notes on November 23rd, 2016",
+   "date": "2016-11-23",
+   "url": "https://www.miradore.com/knowledge/releases/23-11-2016/",
+   "text": "",
+   "hash": "2180139e319279b9d323ee3e00376bd0b7b89989016df6e276fe0566304280bc",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/18-11-2016/",
+   "title": "Release Notes on November 18th, 2016",
+   "date": "2016-11-18",
+   "url": "https://www.miradore.com/knowledge/releases/18-11-2016/",
+   "text": "",
+   "hash": "0ee001859b250d49821ad9c8fb189a79dabbe70e71cbb652f107e812224420cf",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/release-notes-ios-lost-mode/",
+   "title": "iOS Lost Mode Update on November 1st, 2016",
+   "date": "2016-11-01",
+   "url": "https://www.miradore.com/knowledge/releases/release-notes-ios-lost-mode/",
+   "text": "",
+   "hash": "96bbe3fe5be6c9fc0742f5366023bcbed3400b2630d4b85e9457ae4e8f29f478",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/26-10-2016/",
+   "title": "Release Notes on October 26th, 2016",
+   "date": "2016-10-26",
+   "url": "https://www.miradore.com/knowledge/releases/26-10-2016/",
+   "text": "",
+   "hash": "8440710a3c2c066358fa4144102c08a4b074917c4cfab988c99df244c403053b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/14-10-2016/",
+   "title": "Release Notes on October 14th, 2016",
+   "date": "2016-10-14",
+   "url": "https://www.miradore.com/knowledge/releases/14-10-2016/",
+   "text": "",
+   "hash": "6f835ef87fb010aeccdf4e9cdb615a147113a3ce3f970699153ebb7fa96a2f26",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/20-09-2016/",
+   "title": "Release Notes on September 20th, 2016",
+   "date": "2016-09-20",
+   "url": "https://www.miradore.com/knowledge/releases/20-09-2016/",
+   "text": "",
+   "hash": "61f3ab19cbc7698da2c7dc3b356a8877c25f9d185182126b8d757ac8f526d559",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/16-09-2016/",
+   "title": "Release Notes on September 16th, 2016",
+   "date": "2016-09-16",
+   "url": "https://www.miradore.com/knowledge/releases/16-09-2016/",
+   "text": "",
+   "hash": "9274270ac38d06b0e7db110ab6cf7bdd0385fe018c463e39db9bc338eb2865c3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/09-08-2016/",
+   "title": "Release Notes on August 9th, 2016",
+   "date": "2016-08-09",
+   "url": "https://www.miradore.com/knowledge/releases/09-08-2016/",
+   "text": "",
+   "hash": "3d77aab0a97e650cc9ffffe95d568329d18a157bd3e218e4f955bde4ba4ba725",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/01-07-2016/",
+   "title": "Release Notes on July 1st, 2016",
+   "date": "2016-07-01",
+   "url": "https://www.miradore.com/knowledge/releases/01-07-2016/",
+   "text": "",
+   "hash": "448715525a715945facbc66b4dc6b761b2427a3e477cb6898a9cb61ece2264f4",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/29-06-2016/",
+   "title": "Release Notes on June 29th, 2016",
+   "date": "2016-06-29",
+   "url": "https://www.miradore.com/knowledge/releases/29-06-2016/",
+   "text": "",
+   "hash": "493da59ff4a07bf65d777a223a0c05c64a526da8da88da3c2f9b1f5087d3b4a9",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/17-06-2016/",
+   "title": "Release Notes on June 17th, 2016",
+   "date": "2016-06-17",
+   "url": "https://www.miradore.com/knowledge/releases/17-06-2016/",
+   "text": "",
+   "hash": "2143239816524ef265b91b9227c7fa4380893d9fb77cd2fea6344b910c811696",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/02-06-2016/",
+   "title": "Release Notes on June 2nd, 2016",
+   "date": "2016-06-02",
+   "url": "https://www.miradore.com/knowledge/releases/02-06-2016/",
+   "text": "",
+   "hash": "4c8f32b8fb0d7d022b9d64b1ce9d750dd81b1e3c5c1a4ab886cc3979c8a87b4a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/19-05-2016/",
+   "title": "Release Notes on May 19th, 2016",
+   "date": "2016-05-19",
+   "url": "https://www.miradore.com/knowledge/releases/19-05-2016/",
+   "text": "",
+   "hash": "2e09ec77bdb5f981b2f800ec67f39e6046c9bd65c89e5bb81fa951608aa00500",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/10-05-2016/",
+   "title": "Release Notes on May 10th, 2016",
+   "date": "2016-05-10",
+   "url": "https://www.miradore.com/knowledge/releases/10-05-2016/",
+   "text": "",
+   "hash": "c6e8ea60d2c645485881b16ee3cb00640176636b0adee203646ab307fbda9cc3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/03-05-2016/",
+   "title": "Release Notes on May 3rd, 2016",
+   "date": "2016-05-03",
+   "url": "https://www.miradore.com/knowledge/releases/03-05-2016/",
+   "text": "",
+   "hash": "fc583908e438443480168630f99a500d8709cd0852213b0a2cfe26e9f43e71d3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/26-04-2016/",
+   "title": "Release Notes on April 26th, 2016",
+   "date": "2016-04-26",
+   "url": "https://www.miradore.com/knowledge/releases/26-04-2016/",
+   "text": "",
+   "hash": "a0b529ed0ce184c3e4f163ce871283c50224b45337496fdcd23c78b3f577c7e3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/14-04-2016/",
+   "title": "Release Notes on April 14th, 2016",
+   "date": "2016-04-14",
+   "url": "https://www.miradore.com/knowledge/releases/14-04-2016/",
+   "text": "",
+   "hash": "7a69094d85ce5bb30bcbb2c8b8118f11fa71e8164a34bb1e20cac19378e82e91",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ios-available-os-updates-inventory/",
+   "title": "iOS Available OS Updates Inventory on April 8th, 2016",
+   "date": "2016-04-08",
+   "url": "https://www.miradore.com/knowledge/releases/ios-available-os-updates-inventory/",
+   "text": "",
+   "hash": "7a83a53e47102ce9e574440ad4a334262fb8766bb28d197ee5e1822711d4dcd1",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/06-04-2016/",
+   "title": "Release Notes on April 6th, 2016",
+   "date": "2016-04-06",
+   "url": "https://www.miradore.com/knowledge/releases/06-04-2016/",
+   "text": "",
+   "hash": "4ef36d0d62a0a93604d1915ab44f08353c0eb5260de4aa00e003abc64ccae03e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/22-03-2016/",
+   "title": "Release Notes on March 22nd, 2016",
+   "date": "2016-03-22",
+   "url": "https://www.miradore.com/knowledge/releases/22-03-2016/",
+   "text": "",
+   "hash": "ee43c7ad59ee8b6616973dab3dfac26d581331338244648e9b84e564f7332adf",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ios-email-configuration-profile-bug-fix/",
+   "title": "iOS Email Configuration Profile Bug Fix on March 18th, 2016",
+   "date": "2016-03-18",
+   "url": "https://www.miradore.com/knowledge/releases/ios-email-configuration-profile-bug-fix/",
+   "text": "",
+   "hash": "b8629665a7d066577bb338a32ea26a0d4def276fb6901ce8686c3be15792b3ad",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ios-application-black-whitelisting/",
+   "title": "iOS Application Black/Whitelisting Update on March 17th, 2016",
+   "date": "2016-03-17",
+   "url": "https://www.miradore.com/knowledge/releases/ios-application-black-whitelisting/",
+   "text": "",
+   "hash": "2ad45d2ad7f012c3601e0402c8df1d935b3d95400a7dda2ed766b51b6741aa39",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/11-03-2016/",
+   "title": "Release Notes on March 11th, 2016",
+   "date": "2016-03-11",
+   "url": "https://www.miradore.com/knowledge/releases/11-03-2016/",
+   "text": "",
+   "hash": "03590ab545e19445c89b6d8b458197d6a40e41a83bcc290afa3d30daf720b129",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/apple-vpp/",
+   "title": "Apple VPP Update on February 19th, 2016",
+   "date": "2016-02-19",
+   "url": "https://www.miradore.com/knowledge/releases/apple-vpp/",
+   "text": "",
+   "hash": "8812b5157e3a86667cbf70afab9d415b7a53e435bf757633a7dc8f38455231b9",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/22-12-2015/",
+   "title": "Release Notes on December 22nd, 2015",
+   "date": "2015-12-22",
+   "url": "https://www.miradore.com/knowledge/releases/22-12-2015/",
+   "text": "",
+   "hash": "622c6ef53a81329491844687b6cbcd1f3e050ce23edd051fe100562a3f5e9f5c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/03-12-2015/",
+   "title": "Release Notes on December 3rd, 2015",
+   "date": "2015-12-03",
+   "url": "https://www.miradore.com/knowledge/releases/03-12-2015/",
+   "text": "",
+   "hash": "66d9d15d2f0b77fadc16eac9fb7c2db543367d712505d79c51653409967735f7",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/12-11-2015/",
+   "title": "Release Notes on November 12th, 2015",
+   "date": "2015-11-12",
+   "url": "https://www.miradore.com/knowledge/releases/12-11-2015/",
+   "text": "",
+   "hash": "2250f3cb66b836fc11960ae3b91ebe461b7e4de168b745bb065b645ba59e39e3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/05-11-2015/",
+   "title": "Release Notes on November 5th, 2015",
+   "date": "2015-11-05",
+   "url": "https://www.miradore.com/knowledge/releases/05-11-2015/",
+   "text": "",
+   "hash": "f7a0a647a47e160b445cecb976665d4917af30d1bd06387bb0b3379157596565",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/27-10-2015/",
+   "title": "Release Notes on October 27th, 2015",
+   "date": "2015-10-27",
+   "url": "https://www.miradore.com/knowledge/releases/27-10-2015/",
+   "text": "",
+   "hash": "4f4d76fc9c393e9a5a33481f4791c2d74ecd04f24c316904af5f1db8964a4ffd",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/09-10-2015/",
+   "title": "Release Notes on October 9th, 2015",
+   "date": "2015-10-09",
+   "url": "https://www.miradore.com/knowledge/releases/09-10-2015/",
+   "text": "",
+   "hash": "3f88a5872ac068604af781728d5dbada714a2689ed0c4a15d4e911d04cc65419",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/28-09-2015/",
+   "title": "Release Notes on September 28th, 2015",
+   "date": "2015-09-28",
+   "url": "https://www.miradore.com/knowledge/releases/28-09-2015/",
+   "text": "",
+   "hash": "821f338d072c44e6fdb5619fdce1afd2732b91a75a390b30710d2cc74e81e06e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/17-09-2015/",
+   "title": "Release Notes on September 17th, 2015",
+   "date": "2015-09-17",
+   "url": "https://www.miradore.com/knowledge/releases/17-09-2015/",
+   "text": "",
+   "hash": "51fd038e85ab905faf0d326504c1a2059883bf154e21cdcb6e0e0b4082eebdc7",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/11-09-2015/",
+   "title": "Release Notes on September 11th, 2015",
+   "date": "2015-09-11",
+   "url": "https://www.miradore.com/knowledge/releases/11-09-2015/",
+   "text": "",
+   "hash": "83dff7d59362564d0e7d1024cb8bad67817b1888266dbc170a9ffbc42adb5759",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/31-08-2015/",
+   "title": "Release Notes on August 31st, 2015",
+   "date": "2015-08-31",
+   "url": "https://www.miradore.com/knowledge/releases/31-08-2015/",
+   "text": "",
+   "hash": "f9492a69a13d7c238a16899da2bd6d1e36f3f2cf43209246a295642243419234",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/20-08-2015/",
+   "title": "Release Notes on August 20th, 2015",
+   "date": "2015-08-20",
+   "url": "https://www.miradore.com/knowledge/releases/20-08-2015/",
+   "text": "",
+   "hash": "9156c166668dcaa7d125cfb391bba7fc7de9a35ad046387007338a7c51e6c0b1",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/13-08-2015/",
+   "title": "Release Notes on August 13th, 2015",
+   "date": "2015-08-13",
+   "url": "https://www.miradore.com/knowledge/releases/13-08-2015/",
+   "text": "",
+   "hash": "5a68aaff9ff77d2d6a98d3262299e06a9c831da2e4487a4b90d157714ef3d8d6",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/android-silent-application-install-for-samsung/",
+   "title": "Silent Application Install for Samsung Update on July 9th, 2015",
+   "date": "2015-07-09",
+   "url": "https://www.miradore.com/knowledge/releases/android-silent-application-install-for-samsung/",
+   "text": "",
+   "hash": "5faf8ab875223b95bbe67b4808848dba98b92932f3a43a6cbc9f4c157325a4a6",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/update-for-miradore-online-client-for-android/",
+   "title": "Update to Miradore Online Client for Android on June 24th, 2015",
+   "date": "2015-06-24",
+   "url": "https://www.miradore.com/knowledge/releases/update-for-miradore-online-client-for-android/",
+   "text": "",
+   "hash": "70f8ff9685d84010cd532bee798f6e9beae256609b89f4ec898ea25299482d53",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/23-06-2015/",
+   "title": "Release Notes on June 23rd, 2015",
+   "date": "2015-06-23",
+   "url": "https://www.miradore.com/knowledge/releases/23-06-2015/",
+   "text": "",
+   "hash": "0d826d6affc58de8f5932ef1e3b028020edfd6c51d3342226c90232b79c1ce96",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/16-06-2015/",
+   "title": "Release Notes on June 16th, 2015",
+   "date": "2015-06-16",
+   "url": "https://www.miradore.com/knowledge/releases/16-06-2015/",
+   "text": "",
+   "hash": "45469eddeb2f973aec431ffd3b2051c6a113467040bb2a9e63e2517c35c30d25",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/28-05-2015/",
+   "title": "Release Notes on May 28th, 2015",
+   "date": "2015-05-28",
+   "url": "https://www.miradore.com/knowledge/releases/28-05-2015/",
+   "text": "",
+   "hash": "b111993cf9b987b4fcbb143c876a2369285fa545dc36716e1e8dc97bf330b0d4",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/29-04-2015/",
+   "title": "Release Notes on April 29th, 2015",
+   "date": "2015-04-29",
+   "url": "https://www.miradore.com/knowledge/releases/29-04-2015/",
+   "text": "",
+   "hash": "55f9932920e065f731e9b754eb9f9891449208caf2fd4a14f6a35858d5831cde",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/01-04-2015/",
+   "title": "Release Notes on April 1st, 2015",
+   "date": "2015-04-01",
+   "url": "https://www.miradore.com/knowledge/releases/01-04-2015/",
+   "text": "",
+   "hash": "838e6ffb49830f0b80817c3fe2cf0855306b9f238f36e0a485c100d4a39a2e9d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/23-03-2015/",
+   "title": "Release Notes on March 23rd, 2015",
+   "date": "2015-03-23",
+   "url": "https://www.miradore.com/knowledge/releases/23-03-2015/",
+   "text": "",
+   "hash": "fac55603abd0bb40d92d9e32f7a740dbc3ac6cbbc61550bb35b7a69b0cb4630f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/18-03-2015/",
+   "title": "Release Notes on March 18th, 2015",
+   "date": "2015-03-18",
+   "url": "https://www.miradore.com/knowledge/releases/18-03-2015/",
+   "text": "",
+   "hash": "23ae567e8a86f964191c75e574ebddeae8139354b01d51ec3c931b3d4598c4c3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/06-03-2015/",
+   "title": "Release Notes on March 6th, 2015",
+   "date": "2015-03-06",
+   "url": "https://www.miradore.com/knowledge/releases/06-03-2015/",
+   "text": "",
+   "hash": "10e80b1ca9331ba4072c5f8524cb9169bbf64575825cc3f040b5cfda970c3b60",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/26-02-2015/",
+   "title": "Release Notes on February 26th, 2015",
+   "date": "2015-02-26",
+   "url": "https://www.miradore.com/knowledge/releases/26-02-2015/",
+   "text": "",
+   "hash": "b64a42cac21e3206c1ec37fa4b5af9e7cc916be6404a09ca13c29b27ff96c909",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/10-02-2015/",
+   "title": "Release Notes on February 10th, 2015",
+   "date": "2015-02-10",
+   "url": "https://www.miradore.com/knowledge/releases/10-02-2015/",
+   "text": "",
+   "hash": "6ad472ec3613f5f4747c215c2fefc0dc73c6bbabf864d73745be69d01c840548",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/20-01-2015/",
+   "title": "Release Notes on January 20th, 2015",
+   "date": "2015-01-20",
+   "url": "https://www.miradore.com/knowledge/releases/20-01-2015/",
+   "text": "",
+   "hash": "153e132936b40583b6258218a17d03596b726654050a4c580110adf10f24859f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/29-12-2014/",
+   "title": "Release Notes on December 29th, 2014",
+   "date": "2014-12-29",
+   "url": "https://www.miradore.com/knowledge/releases/29-12-2014/",
+   "text": "",
+   "hash": "8baa4fd04479b157fb5e5853933c6d5ce47a46c13bb2a85fd7cac358ea89307a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/09-12-2014/",
+   "title": "Release Notes on December 9th, 2014",
+   "date": "2014-12-09",
+   "url": "https://www.miradore.com/knowledge/releases/09-12-2014/",
+   "text": "",
+   "hash": "8daff629195194557e6a737eba26d846e0810102bbc9aedc878826e1d548e8f3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/21-11-2014/",
+   "title": "Release Notes on November 21st, 2014",
+   "date": "2014-11-21",
+   "url": "https://www.miradore.com/knowledge/releases/21-11-2014/",
+   "text": "",
+   "hash": "6c5ac3ad4e32d09147d16f0635247a4585cf8ef3e0c2efdc3230d990eafcf9e1",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/13-11-2014/",
+   "title": "Release Notes on November 13th, 2014",
+   "date": "2014-11-13",
+   "url": "https://www.miradore.com/knowledge/releases/13-11-2014/",
+   "text": "",
+   "hash": "6a54bfa684571e925cb1bd11f7347a30ebc7247ab29914a9f6d9f568dc8e6c69",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/05-11-2014/",
+   "title": "Release Notes on November 5th, 2014",
+   "date": "2014-11-05",
+   "url": "https://www.miradore.com/knowledge/releases/05-11-2014/",
+   "text": "",
+   "hash": "21034d2335d54ea34bdb365de9a6283f7846d2893a2d5e3ee6a16145cf1b45b2",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/04-11-2014/",
+   "title": "Release Notes on November 4th, 2014",
+   "date": "2014-11-04",
+   "url": "https://www.miradore.com/knowledge/releases/04-11-2014/",
+   "text": "",
+   "hash": "b63d26b9bf7274a29ef4ab1c9a762916575bf5ecb548d60f617a4e37f42a9d1d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/28-10-2014/",
+   "title": "Release Notes on October 28th, 2014",
+   "date": "2014-10-28",
+   "url": "https://www.miradore.com/knowledge/releases/28-10-2014/",
+   "text": "",
+   "hash": "e378195d7a03848fca0de8cfbd46f99c867dee32cb0ad2ed740c2784b6f08fd1",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/24-10-2014/",
+   "title": "Release Notes on October 24th, 2014",
+   "date": "2014-10-24",
+   "url": "https://www.miradore.com/knowledge/releases/24-10-2014/",
+   "text": "",
+   "hash": "2c90c22a668e2b752dec58fc4b12558510fe8e3f14abdf42cfc96e5f54ebeb14",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/16-10-2014/",
+   "title": "Release Notes on October 16th, 2014",
+   "date": "2014-10-16",
+   "url": "https://www.miradore.com/knowledge/releases/16-10-2014/",
+   "text": "",
+   "hash": "d1c8581343a0b2b4607eb4aaac5643faf731a7fb24cea3143a154f13ae0bc23c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/14-10-2014/",
+   "title": "Release Notes on October 14th, 2014",
+   "date": "2014-10-14",
+   "url": "https://www.miradore.com/knowledge/releases/14-10-2014/",
+   "text": "",
+   "hash": "bb0a6f6f6b2fd0386ac9181b4a7a72e25aa6fa3b9b971d166a05efd74b64db82",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/13-10-2014/",
+   "title": "Release Notes on October 13th, 2014",
+   "date": "2014-10-13",
+   "url": "https://www.miradore.com/knowledge/releases/13-10-2014/",
+   "text": "",
+   "hash": "0933a2846054f9028d3c42d3fa059256e0d5df526d21135eec77ba0ef6d8be94",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/07-10-2014/",
+   "title": "Release Notes on October 7th, 2014",
+   "date": "2014-10-07",
+   "url": "https://www.miradore.com/knowledge/releases/07-10-2014/",
+   "text": "",
+   "hash": "67d71b03c32271f3057b97bf3fd334fbe67e8a675b3b92e508916d84e93049a6",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/06-10-2014/",
+   "title": "Release Notes on October 6th, 2014",
+   "date": "2014-10-06",
+   "url": "https://www.miradore.com/knowledge/releases/06-10-2014/",
+   "text": "",
+   "hash": "a8fe17bef4d4cfd815e3b3a20e2386c8c76ca93008420b6497e9d1ff54ad5e16",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/01-10-2014/",
+   "title": "Release Notes on October 1st, 2014",
+   "date": "2014-10-01",
+   "url": "https://www.miradore.com/knowledge/releases/01-10-2014/",
+   "text": "",
+   "hash": "2a613b9399059288638bcf2284b9b3a2ab131d8cb470d39ee154e1f14bf05c96",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/30-09-2014/",
+   "title": "Release Notes on September 30th, 2014",
+   "date": "2014-09-30",
+   "url": "https://www.miradore.com/knowledge/releases/30-09-2014/",
+   "text": "",
+   "hash": "b0938be150bc04721c251349f3547f34667a863b4320d5691e762c5703687a3f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/23-09-2014/",
+   "title": "Release Notes on September 23rd, 2014",
+   "date": "2014-09-23",
+   "url": "https://www.miradore.com/knowledge/releases/23-09-2014/",
+   "text": "",
+   "hash": "718de565b2e477bda452af51ec18f404f61d6b3f0bf20b80d5fa6a35ea9b7cca",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/17-09-2014/",
+   "title": "Release Notes on September 17th, 2014",
+   "date": "2014-09-17",
+   "url": "https://www.miradore.com/knowledge/releases/17-09-2014/",
+   "text": "",
+   "hash": "4ffbe464d891d6eb50607931914dc5d424ae93615c8999351887311ad294a716",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/16-09-2014/",
+   "title": "Release Notes on September 16th, 2014",
+   "date": "2014-09-16",
+   "url": "https://www.miradore.com/knowledge/releases/16-09-2014/",
+   "text": "",
+   "hash": "5fdecedcb88d6e7c25d42e2c857a55423d4300befb1349409651060d9858141a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/05-09-2014/",
+   "title": "Release Notes on September 5th, 2014",
+   "date": "2014-09-05",
+   "url": "https://www.miradore.com/knowledge/releases/05-09-2014/",
+   "text": "",
+   "hash": "dd43dfffe89e2001b75a67e4662698cc27fcb708b7225b099e1cdc819752ffbf",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/29-08-2014/",
+   "title": "Release Notes on August 29th, 2014",
+   "date": "2014-08-29",
+   "url": "https://www.miradore.com/knowledge/releases/29-08-2014/",
+   "text": "",
+   "hash": "e5b529b7294281a99b2dd9becf631e833557efbd84c473982c7d0a4352954223",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/25-08-2014/",
+   "title": "Release Notes on August 25th, 2014",
+   "date": "2014-08-25",
+   "url": "https://www.miradore.com/knowledge/releases/25-08-2014/",
+   "text": "",
+   "hash": "01e1d3ebc2524adbff75370d9f23103de9c51f6753bca0f8a483ce625a7fbcd7",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/api/",
+   "title": "Release Notes for API on July 14th, 2014",
+   "date": "2014-07-14",
+   "url": "https://www.miradore.com/knowledge/releases/api/",
+   "text": "",
+   "hash": "17133e5bcb102d76c1725769b866818d75375f80d61feae4ffecc5b7e7636c4c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/02-07-2014/",
+   "title": "Release Notes on July 2nd, 2014",
+   "date": "2014-07-02",
+   "url": "https://www.miradore.com/knowledge/releases/02-07-2014/",
+   "text": "",
+   "hash": "3812ecceaf26d865cf75d396ababbb60a93141eb383341c75e74c29a066839a7",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/25-06-2014/",
+   "title": "Release Notes on June 25th, 2014",
+   "date": "2014-06-25",
+   "url": "https://www.miradore.com/knowledge/releases/25-06-2014/",
+   "text": "",
+   "hash": "49ddf5a6e139e07a897457cc4cf299b896c3f6241f84d70825597281a880d145",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/12-06-2014/",
+   "title": "Release Notes on June 12th, 2014",
+   "date": "2014-06-12",
+   "url": "https://www.miradore.com/knowledge/releases/12-06-2014/",
+   "text": "",
+   "hash": "f0cc09b9ebb30b9947542840371be5863c88f89fe329e6487db98ef913234fd0",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/27-05-2014/",
+   "title": "Release Notes on May 27th, 2014",
+   "date": "2014-05-27",
+   "url": "https://www.miradore.com/knowledge/releases/27-05-2014/",
+   "text": "",
+   "hash": "439b08941f1785e74795ed8176af86d1f9db73fe9448dbd9e693ae4034c99262",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/15-05-2014/",
+   "title": "Release Notes on May 15th, 2014",
+   "date": "2014-05-15",
+   "url": "https://www.miradore.com/knowledge/releases/15-05-2014/",
+   "text": "",
+   "hash": "ea841d47b781e8509c67f80cad3354a94356d578787fb39d32bf13000a20a032",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/08-05-2014/",
+   "title": "Release Notes on May 8th, 2014",
+   "date": "2014-05-08",
+   "url": "https://www.miradore.com/knowledge/releases/08-05-2014/",
+   "text": "",
+   "hash": "26da334e0a8fc4e7fbe3794eae5ca695a71d2defb27183ff80e821d86c6318ea",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/27-03-2014/",
+   "title": "Release Notes on March 27th, 2014",
+   "date": "2014-03-27",
+   "url": "https://www.miradore.com/knowledge/releases/27-03-2014/",
+   "text": "",
+   "hash": "cfc4969bc6076fe02f4c34cef057b87594137111fee9a3de0137b308f38acd51",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/23-04-2014/",
+   "title": "Release Notes on April 23rd, 2014",
+   "date": "2014-04-23",
+   "url": "https://www.miradore.com/knowledge/releases/23-04-2014/",
+   "text": "",
+   "hash": "3c47e7f5155eddb608a6d9b5e1b2407e747d4b613edb057ccf58f0be9d7a31a3",
+   "windows": "none"
+  }
+ ]
+}

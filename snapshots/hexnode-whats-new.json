@@ -1,0 +1,219 @@
+{
+ "id": "hexnode-whats-new",
+ "vendor": "Hexnode",
+ "kind": "next-data",
+ "fetchedAt": "2026-09-15T07:45:47.467Z",
+ "meta": {
+  "url": "https://www.hexnode.com/whats-new/",
+  "found": 23
+ },
+ "items": [
+  {
+   "key": "Windows Server Management|2026-07-20",
+   "title": "Windows Server Management",
+   "date": "2026-07-20",
+   "url": "https://www.hexnode.com/forums/topic/windows-server-management/",
+   "text": "Enroll and manage Windows Servers alongside desktops to centralize patching, remote actions, and security from a single console.\nBadge: New Feature\nPlatforms: Windows",
+   "hash": "7e72b1b8e3e5cfa57468727480bd8e70fa9f2c4c76e98a3e72aead7a63614d73",
+   "windows": "high"
+  },
+  {
+   "key": "File Deployment for Windows|2026-07-07",
+   "title": "File Deployment for Windows",
+   "date": "2026-07-07",
+   "url": "https://www.hexnode.com/forums/topic/stop-waiting-and-start-deploying-remote-file-deployment-for-windows-is-live/",
+   "text": "Securely push files from the Hexnode repository to Windows devices and deploy them directly to the desired location.\nBadge: New Feature\nPlatforms: Windows",
+   "hash": "a6144edb9ded378d9b5d463ebbbb5ac11ceccbc1e969b7eb48621268e9a2b1f7",
+   "windows": "high"
+  },
+  {
+   "key": "ServiceNow integration|2026-06-25",
+   "title": "ServiceNow integration",
+   "date": "2026-06-25",
+   "url": "https://www.hexnode.com/forums/topic/hexnode-joins-forces-with-servicenow/",
+   "text": "Sync device data bi-directionally to track inventory and trigger remote actions like lock or wipe right from your service desk!\nBadge: New Feature",
+   "hash": "0bd6fb07567087c8ccdf53e2a1461f27098e268a78d7dd63a4a2c8b6c89b0218",
+   "windows": "none"
+  },
+  {
+   "key": "Return to Service|2026-06-21",
+   "title": "Return to Service",
+   "date": "2026-06-21",
+   "url": "https://www.hexnode.com/forums/topic/wipe-reboot-ready-apples-return-to-service-is-here/",
+   "text": "Remotely wipe Apple devices and have them automatically reconnect, skip setup, and re-enroll into Hexnode instantly!\nBadge: New Feature\nPlatforms: iOS, visionOS",
+   "hash": "ee081a0c077c60ff050cbd53f53a152e139b09babedae6276767772efdc53ad1",
+   "windows": "none"
+  },
+  {
+   "key": "Deploy root certificates|2026-05-12",
+   "title": "Deploy root certificates",
+   "date": "2026-05-12",
+   "url": "https://www.hexnode.com/forums/topic/seamless-certificate-deployment-for-windows-devices/",
+   "text": "Easily deploy root and intermediate certificates to Windows devices for secure, automated Wi-Fi and VPN authentication.\nBadge: New Feature\nPlatforms: Windows",
+   "hash": "a3cd4589e50f509328e5ed89d99a4aac5eb5875d577756d8c96d6bc83a57134c",
+   "windows": "medium"
+  },
+  {
+   "key": "Incident Filters for Dynamic Device Groups|2026-04-17",
+   "title": "Incident Filters for Dynamic Device Groups",
+   "date": "2026-04-17",
+   "url": "https://www.hexnode.com/forums/topic/incident-filters-for-dynamic-device-groups/",
+   "text": "Automatically group and manage devices based on real-time data, including unresolved incident counts, severity levels, and specific app or security failures.\nBadge: New Feature\nPlatforms: macOS, iOS, Android, Windows, ChromeOS, Linux, Apple TV, Android TV, visionOS",
+   "hash": "5b3b9a4a98b2ad279251f89bda9023c63dcdc5a06b6189ad4fa94a6632ffc5d1",
+   "windows": "medium"
+  },
+  {
+   "key": "Execute Custom Scripts on Android|2026-03-26",
+   "title": "Execute Custom Scripts on Android",
+   "date": "2026-03-26",
+   "url": "https://www.hexnode.com/forums/topic/execute-custom-script-comes-to-android/",
+   "text": "This new remote action allows you to run Shell or Hexnode custom scripts directly from the portal, enabling faster troubleshooting and immediate task automation at the device level.\nBadge: New Feature\nPlatforms: Android",
+   "hash": "c43714f7ec239cbabee52c176093fb600c886aa31f1138a7334f5bd8bc501295",
+   "windows": "none"
+  },
+  {
+   "key": "Enhanced App Uninstallation|2026-03-19",
+   "title": "Enhanced App Uninstallation",
+   "date": "2026-03-19",
+   "url": "https://www.hexnode.com/mobile-device-management/help/automate-app-distribution-windows/",
+   "text": "Cleanly remove software and residual files with this redesigned uninstallation flow. You can also track success or failure with native OS return codes for deeper insights into every removal.\nBadge: New Feature\nPlatforms: Windows",
+   "hash": "700f5ab263f2c4859a10669499405e99467f585101fbee2b89ecf96b726fb893",
+   "windows": "medium"
+  },
+  {
+   "key": "Hexnode LAPS for macOS|2026-02-10",
+   "title": "Hexnode LAPS for macOS",
+   "date": "2026-02-10",
+   "url": "https://www.hexnode.com/forums/topic/laps-isnt-just-for-windows-anymore/",
+   "text": "Secure local administrator accounts by automatically rotating unique passwords for every Mac and storing them in an encrypted escrow to eliminate risks from password reuse.\nBadge: New Feature\nPlatforms: macOS",
+   "hash": "5750cc57cb317afc58a44b883cd28a2ba3968c794976a4988153cbbcda7ffe6e",
+   "windows": "none"
+  },
+  {
+   "key": "Lost Mode for macOS|2026-02-07",
+   "title": "Lost Mode for macOS",
+   "date": "2026-02-07",
+   "url": "https://www.hexnode.com/forums/topic/say-hello-to-lost-mode-for-macos-devices/",
+   "text": "Ensure your devices are always findable with mandatory location tracking policies that use GPS for precision or Reverse IP as a reliable backup when GPS is unavailable.\nBadge: New Feature\nPlatforms: macOS",
+   "hash": "8c069eb7862d17afed1841239ba7484130687f0edee9f93d76b63642b71aa8b8",
+   "windows": "none"
+  },
+  {
+   "key": "Android Device Owner Conversion|2026-01-24",
+   "title": "Android Device Owner Conversion",
+   "date": "2026-01-24",
+   "url": "https://www.hexnode.com/forums/topic/elevate-your-rom-devices-to-device-owner-status-in-a-single-click/",
+   "text": "Remotely upgrade rooted Android devices to full administrative status over the air, eliminating the need for manual setup or physical device recalls.\nBadge: New Feature\nPlatforms: Android",
+   "hash": "3c226a77c6d95b63e0e28dd931687db5347b54be609162d4e32090983730e13e",
+   "windows": "none"
+  },
+  {
+   "key": "Hexnode Genie AI enhancements|2026-01-09",
+   "title": "Hexnode Genie AI enhancements",
+   "date": "2026-01-09",
+   "url": "https://www.hexnode.com/forums/topic/whats-new-with-hexnode-genie/",
+   "text": "Experience a smarter workflow with full-screen search shortcuts, instant analysis of failed actions, and the ability to export generated data lists for easy reporting.\nBadge: New Feature\nPlatforms: macOS, iOS, Android, Windows, ChromeOS, Linux, Apple TV, Android TV, visionOS",
+   "hash": "6e4e136332d5529d6219d867a66d28d01ff5cfd90d7a163ec78b2199a64bc5a1",
+   "windows": "medium"
+  },
+  {
+   "key": "⁠Custom attributes|2025-12-15",
+   "title": "⁠Custom attributes",
+   "date": "2025-12-15",
+   "url": "https://www.hexnode.com/forums/topic/more-flexibility-less-hassle-meet-custom-attributes/",
+   "text": "Create and store unique data points for your devices, users, and groups by defining your own specialized fields. Use these attributes as dynamic wildcards across the portal to personalize configurations and automate your workflows with ease.\nBadge: New Feature\nPlatforms: macOS, iOS, Android, Windows, ChromeOS, Linux, Apple TV, Android TV, visionOS",
+   "hash": "a9691c4bdde0210f5bba2ca08e79d55f3dac96c4711d574f61ee879e2afc877e",
+   "windows": "medium"
+  },
+  {
+   "key": "Support for Zebra printers|2025-12-12",
+   "title": "Support for Zebra printers",
+   "date": "2025-12-12",
+   "url": "https://www.hexnode.com/forums/topic/zebra-printer-support-is-now-live-in-hexnode-uem/",
+   "text": "Remotely manage and configure Zebra printers by enrolling them directly into Hexnode. Easily push printer profiles to deploy essential settings, fonts, and templates across your fleet, ensuring consistent performance without manual setup.\nBadge: New Feature",
+   "hash": "fcfcce8327423e73739f91c4531479896fbc245b3c33bc5d044d90043656ff68",
+   "windows": "none"
+  },
+  {
+   "key": "⁠One login support for Hexnode Access|2025-11-27",
+   "title": "⁠One login support for Hexnode Access",
+   "date": "2025-11-27",
+   "url": "https://www.hexnode.com/forums/topic/hexnode-access-expands-onelogin-support-now-available-for-windows/",
+   "text": "Hexnode Access now supports OneLogin, enabling users to sign in to Windows devices with their OneLogin credentials. This update expands our identity provider options alongside Microsoft Entra ID, Google Workspace, and Okta for a more unified login experience.\nBadge: New Feature\nPlatforms: Windows",
+   "hash": "18a303b0c40de6196339d73950bd67a8d304946dc459f33232007fa3821c5582",
+   "windows": "medium"
+  },
+  {
+   "key": "Execute intent on Android devices|2025-11-02",
+   "title": "Execute intent on Android devices",
+   "date": "2025-11-02",
+   "url": "https://www.hexnode.com/mobile-device-management/help/deploy-android-custom-intents/",
+   "text": "Remotely trigger specific app functions or system tasks on Android devices using custom intents. This allows IT admins to execute targeted actions across the fleet instantly without manual intervention.\nBadge: New Feature\nPlatforms: Android",
+   "hash": "dc8f1a9ad02c649d12ff08cca04a06cc24e1d047023d591dac85363954b2efc4",
+   "windows": "none"
+  },
+  {
+   "key": "Registry editor|2025-10-30",
+   "title": "Registry editor",
+   "date": "2025-10-30",
+   "url": "https://www.hexnode.com/mobile-device-management/help/hexnode-registry-automation/",
+   "text": "Deploy Registry keys and values directly via policies, eliminating the need for manual edits or complex PowerShell scripts. This streamlined approach lets you manage system configurations across your Windows fleet with just a few clicks.\nBadge: New Feature\nPlatforms: Windows",
+   "hash": "6e5a1a8c8d70417878f667b3c49e75d32cbafbd480672df98b45b529daa66908",
+   "windows": "medium"
+  },
+  {
+   "key": "CIS compliance|2025-10-13",
+   "title": "CIS compliance",
+   "date": "2025-10-13",
+   "url": "https://www.hexnode.com/mobile-device-management/help/how-to-use-pre-configured-policy-templates-in-hexnode-for-easy-policy-deployment/#:~:text=Standard%20DLP%20Policy-,CIS%20Benchmark%20Compliance%20Level%201%20%E2%80%93%20macOS,-CIS%20Benchmark%20Compliance",
+   "text": "Quickly align macOS and Windows devices with CIS benchmarks using Hexnode’s pre-configured policy templates. These templates ensure your fleet meets essential security standards without disrupting user productivity.\nBadge: New Feature\nPlatforms: macOS, Windows",
+   "hash": "1d64717fec663909cf780e8a4d57e2b86fc09a75dea96461e7f071333f1e7d95",
+   "windows": "medium"
+  },
+  {
+   "key": "Okta Device Trust|2025-10-10",
+   "title": "Okta Device Trust",
+   "date": "2025-10-10",
+   "url": "https://www.hexnode.com/forums/topic/strengthen-access-control-with-okta-device-trust-integration/",
+   "text": "Ensure secure access by allowing only trusted devices that meet your organization’s conditions, even when correct credentials are used.\nBadge: New Feature\nPlatforms: macOS, iOS, Android, Windows, ChromeOS, Linux, Apple TV, Android TV, visionOS",
+   "hash": "fc94f40c05bf99a87fa91d129ff88cda7806d9b8f4c249361e40fe55ea4212d1",
+   "windows": "medium"
+  },
+  {
+   "key": "Laps – Windows|2025-10-07",
+   "title": "Laps – Windows",
+   "date": "2025-10-07",
+   "url": "https://www.hexnode.com/forums/topic/introducing-hexnode-laps-and-local-admin-password-rotation/",
+   "text": "Automatically rotate local admin passwords on Windows devices to prevent unauthorized access and strengthen endpoint security.\nBadge: New Feature\nPlatforms: Windows",
+   "hash": "b4e74bfb4740b781a6c76e0655966ba57f7819dbd475f1e50bafe5881459e24d",
+   "windows": "high"
+  },
+  {
+   "key": "Enrollment profiles for Windows|2025-10-03",
+   "title": "Enrollment profiles for Windows",
+   "date": "2025-10-03",
+   "url": "https://www.hexnode.com/forums/topic/windows-onboarding-made-effortless-with-enrollment-profiles/",
+   "text": "Simplify and standardize device onboarding with customizable enrollment\nprofiles tailored for Windows platforms.\nBadge: New Feature\nPlatforms: Windows",
+   "hash": "d0fa7c61e302dd8fbefd128391d038f8abd9ec4f93b550816bdac6dffbfb212a",
+   "windows": "high"
+  },
+  {
+   "key": "Alert Profile|2025-08-18",
+   "title": "Alert Profile",
+   "date": "2025-08-18",
+   "url": "https://www.hexnode.com/forums/topic/notifications-redefined-say-hello-to-alert-profiles/",
+   "text": "Receive critical alerts for apps, patches, and reports, and instantly notify designated technicians to enable faster response to policy violations and device issues.\nBadge: New Feature\nPlatforms: macOS, iOS, Android, Windows, ChromeOS, Linux, Apple TV, Android TV, visionOS",
+   "hash": "31bbff59f3dd56280fe367e2f9b89864f94769cd28ababf29c446d90fe9b0d8c",
+   "windows": "medium"
+  },
+  {
+   "key": "Compliance Policy|2025-08-15",
+   "title": "Compliance Policy",
+   "date": "2025-08-15",
+   "url": "https://www.hexnode.com/forums/topic/compliance-gets-its-own-spotlight-with-the-new-compliance-policy/",
+   "text": "Set platform-specific rules with basic configurations and dynamic conditions to automate enforcement and ensure device compliance.\nBadge: New Feature\nPlatforms: macOS, iOS, Android, Windows, ChromeOS, Linux, Apple TV, Android TV, visionOS",
+   "hash": "63c061aa3356dea3140bcbbd9b15dd738249106527e295367a49df76f8ccaff5",
+   "windows": "medium"
+  }
+ ]
+}

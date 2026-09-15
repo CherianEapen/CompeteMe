@@ -1,0 +1,462 @@
+{
+ "id": "iru-updates",
+ "vendor": "Iru",
+ "kind": "rss",
+ "fetchedAt": "2026-09-15T07:45:47.672Z",
+ "meta": {
+  "url": "https://www.iru.com/updates/rss.xml",
+  "entries": 50
+ },
+ "items": [
+  {
+   "key": "https://www.iru.com/updates/managed-os-for-ios-and-ipados-237538ee-0169-4d4b-9485-3e4bb2a0aab7",
+   "title": "Managed OS for iOS, iPadOS, and tvOS",
+   "date": "2026-09-14",
+   "url": "https://www.iru.com/updates/managed-os-for-ios-and-ipados-237538ee-0169-4d4b-9485-3e4bb2a0aab7",
+   "text": "Managed OS support for iOS 27, iPadOS 27, and tvOS 27 has been added. The latest approved versions are now 27.0, with the following release dates:\niOS 27.0 : Sep 14, 2026\niPadOS 27.0 : Sep 14, 2026\ntvOS 27.0 : Sep 14, 2026\nAdditionally, Managed OS for iOS and iPadOS has been updated. The latest approved version is now 26.7, with the following release dates:",
+   "hash": "fbd48c785bc2286160f7d25a9950ddb51d85b4f902ae57ca65353528208dee4b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/managed-os-for-macos-9d4ba7d3-e44e-4066-8d24-394d6a544df9",
+   "title": "Managed OS for macOS",
+   "date": "2026-09-14",
+   "url": "https://www.iru.com/updates/managed-os-for-macos-9d4ba7d3-e44e-4066-8d24-394d6a544df9",
+   "text": "Managed OS for macOS Golden Gate has been added. The latest approved version is now 27.0, with the following release date:\nmacOS 27.0: Sep 14, 2026\nAdditionally, Managed OS for macOS has been updated. The latest approved version for Tahoe is now 26.7; and for Sequoia, 15.8, with the following release dates:",
+   "hash": "07a0ff8b9625d81e9d6dc38c6760a40bd01b4e1fe74a4ccd76f862f2420a63fc",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/whats-new-in-iru-september-11th",
+   "title": "What's New in Iru | September 11th",
+   "date": "2026-09-11",
+   "url": "https://www.iru.com/updates/whats-new-in-iru-september-11th",
+   "text": "Highlights we cover this week in What's New in Iru:",
+   "hash": "64df6e03537df04f2f4afcef293f310caea86f18ef41d8ba3485e291f6737290",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/09/removing-end-of-life-auto-apps",
+   "title": "Removing End-of-Life Auto Apps",
+   "date": "2026-09-09",
+   "url": "https://www.iru.com/updates/2026/09/removing-end-of-life-auto-apps",
+   "text": "As of today, Iru has removed the following Auto Apps from our catalog:",
+   "hash": "8d7fc02a80174bdf747455d7acf7faa9bb524adf37167d62274c4ca9cb7e7c08",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.32-5394",
+   "title": "Iru Agent for Mac Release 5.1.32 (5394)",
+   "date": "2026-09-09",
+   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.32-5394",
+   "text": "We’ve released Iru Agent for Mac 5.1.32 (5394).",
+   "hash": "884e1334dc2551a97bbc4da3d73e4e3e5152f214b2029cd67ba9eafc1f8d525f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/vulnerability-response-for-windows",
+   "title": "Vulnerability Response for Windows",
+   "date": "2026-09-09",
+   "url": "https://www.iru.com/updates/vulnerability-response-for-windows",
+   "text": "Vulnerability Management now supports auto remediation of CVEs for apps on Windows, when an update for the app is available from the Auto App catalog.",
+   "hash": "ce54187868ef87eeda1f0f703155c965d5ba8f7d67d4f0690468713f3301660f",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.iru.com/updates/managed-os-for-ios-and-ipados-7fa92676-bc52-4f97-a239-015e21f2e014",
+   "title": "Managed OS for iOS and iPadOS",
+   "date": "2026-09-08",
+   "url": "https://www.iru.com/updates/managed-os-for-ios-and-ipados-7fa92676-bc52-4f97-a239-015e21f2e014",
+   "text": "Managed OS for iOS and iPadOS has been updated. The latest approved version is now 26.6.2, with the following release dates:",
+   "hash": "c8ec1192e80e847787158eed33f701b55a3316f604c198f7da547aaf1ee1026a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/whats-new-in-iru-september-4th",
+   "title": "What's New in Iru | September 4th",
+   "date": "2026-09-04",
+   "url": "https://www.iru.com/updates/whats-new-in-iru-september-4th",
+   "text": "Highlights we cover this week in What's New in Iru:",
+   "hash": "5fe463437c0031a77ce33da95a5dbc57d7a9250b70180d4b6b43637f51dee252",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/choose-where-user-enrollment-invitations-are-sent",
+   "title": "Choose Where User Enrollment Invitations are Sent",
+   "date": "2026-09-03",
+   "url": "https://www.iru.com/updates/choose-where-user-enrollment-invitations-are-sent",
+   "text": "Administrators can now send a Workforce Identity enrollment invitation to a user's secondary or personal email instead of their work email. This unblocks first-time enrollment for users who need a passkey to access the work mailbox that holds the invitation.",
+   "hash": "473c32fc9ee5d428167f82aeaff05229f38c9b3909e2a183e2fa3b2e46546caf",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/automatic-retry-enrollment-for-return-to-service",
+   "title": "Automatic retry enrollment for Return to Service",
+   "date": "2026-09-03",
+   "url": "https://www.iru.com/updates/automatic-retry-enrollment-for-return-to-service",
+   "text": "Devices erased with Return to Service can now retry enrollment on their own if the initial attempt fails. In the Erase device modal, checking Use Return to Service reveals a new Retry enrollment option, checked by default, that's available for iPhone and iPad on iOS 27 or iPadOS 27 or later.",
+   "hash": "325b12081dd6d3d3b371b09d648b42c13435b91da4c6d490482bc562f1eba923",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/auto-app-teleport-connect-05be572f-80b8-4e11-8ba9-3d59e554e517",
+   "title": "Auto App: Teleport Connect",
+   "date": "2026-08-26",
+   "url": "https://www.iru.com/updates/auto-app-teleport-connect-05be572f-80b8-4e11-8ba9-3d59e554e517",
+   "text": "A new Auto App, Teleport Connect, has been added to the catalog and is now available for all customers.",
+   "hash": "a52a5125c6d77effe38411e0434ab10809607fa971922c34fd40fb01b69a0223",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/auto-app-gather-9b7f68a3-00e7-4dc5-93ef-c8747b321dbe",
+   "title": "Auto App: Gather",
+   "date": "2026-08-26",
+   "url": "https://www.iru.com/updates/auto-app-gather-9b7f68a3-00e7-4dc5-93ef-c8747b321dbe",
+   "text": "A new Auto App, Gather, has been added to the catalog and is now available for all customers.",
+   "hash": "3438b27b81492fa8885c5c797394f81862a9d9f03608f4026a2da7ee35ee7914",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/auto-app-foxit-pdf-reader-8b61bb79-c75b-4a26-a381-ff9c2163c273",
+   "title": "Auto App: Foxit PDF Reader",
+   "date": "2026-08-26",
+   "url": "https://www.iru.com/updates/auto-app-foxit-pdf-reader-8b61bb79-c75b-4a26-a381-ff9c2163c273",
+   "text": "A new Auto App, Foxit PDF Reader, has been added to the catalog and is now available for all customers.",
+   "hash": "72fb798f66917b8ad367ebb6b3d09e56caca4da3f597ce409bb2fa52d5c2058b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/auto-app-foxit-pdf-editor-e3c01589-009d-4f60-90de-1c9dce3f9a0f",
+   "title": "Auto App: Foxit PDF Editor",
+   "date": "2026-08-26",
+   "url": "https://www.iru.com/updates/auto-app-foxit-pdf-editor-e3c01589-009d-4f60-90de-1c9dce3f9a0f",
+   "text": "A new Auto App, Foxit PDF Editor, has been added to the catalog and is now available for all customers.",
+   "hash": "d01dbd9e4ec85d63c5b6390d2d6e5ab01881c95a3ba8d712c5b5f19f8a931ace",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/auto-app-dia-2c12c608-8189-4beb-a28b-2a69e1f35fd6",
+   "title": "Auto App: Dia",
+   "date": "2026-08-26",
+   "url": "https://www.iru.com/updates/auto-app-dia-2c12c608-8189-4beb-a28b-2a69e1f35fd6",
+   "text": "A new Auto App, Dia, has been added to the catalog and is now available for all customers.",
+   "hash": "087f2a843cff90606382a438b36c9393533159dab796e2cc75334673b7e7af07",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/auto-app-cavalry-6cd3f227-3596-4a9b-9dcb-00d46f06299f",
+   "title": "Auto App: Cavalry",
+   "date": "2026-08-26",
+   "url": "https://www.iru.com/updates/auto-app-cavalry-6cd3f227-3596-4a9b-9dcb-00d46f06299f",
+   "text": "A new Auto App, Cavalry, has been added to the catalog and is now available for all customers.",
+   "hash": "36f29428903359a42e680baccc89ffe1e593801415cd8838d59e6cf31044e111",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/auto-app-appcleaner-4978b372-93b8-4ec0-8229-46acb987bb99",
+   "title": "Auto App: AppCleaner",
+   "date": "2026-08-26",
+   "url": "https://www.iru.com/updates/auto-app-appcleaner-4978b372-93b8-4ec0-8229-46acb987bb99",
+   "text": "A new Auto App, AppCleaner, has been added to the catalog and is now available for all customers.",
+   "hash": "884f439a90c1b27ae62ef3f8e9160626a82f63da9166150393033b6132808c14",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/windows-auto-apps-a7bf6365-ffdf-4c74-b725-191e527de3cf",
+   "title": "New Windows Auto Apps",
+   "date": "2026-08-26",
+   "url": "https://www.iru.com/updates/windows-auto-apps-a7bf6365-ffdf-4c74-b725-191e527de3cf",
+   "text": "New Windows Auto Apps have been added to the catalog and are now available for all Iru Endpoint customers.",
+   "hash": "93c4cbe9286be596821bd248e3c8a774eb21ac01056968136c31e5e3330beedf",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.iru.com/updates/hide-or-rename-library-items-in-liftoff",
+   "title": "Hide or rename Library Items in Liftoff",
+   "date": "2026-08-26",
+   "url": "https://www.iru.com/updates/hide-or-rename-library-items-in-liftoff",
+   "text": "Mac Custom App, Custom Script, and Custom Printer Library items now support being hidden in Liftoff or displaying a \"friendly name\" to the end user instead of the Library Item name.",
+   "hash": "104e74d0f85afbb54c52cc830fff1c78f664752ab9c06c6cfe6bd17f7bdc3926",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.28-5393",
+   "title": "Iru Agent for Mac Release 5.1.28 (5393)",
+   "date": "2026-08-26",
+   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.28-5393",
+   "text": "We’ve released Iru Agent for Mac 5.1.28 (5393).",
+   "hash": "882b952a824df67a689c6cdf96d53b1181b413980a9dae33d8fea95b2ccbbbf1",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/whats-new-in-iru-august-21st",
+   "title": "What's New in Iru | August 21st",
+   "date": "2026-08-21",
+   "url": "https://www.iru.com/updates/whats-new-in-iru-august-21st",
+   "text": "Highlights we cover this week in What's New in Iru:",
+   "hash": "4f1667ebd1cf09d26844df5649e7d08adb772e5f93a904e177d15eab1ec18fea",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/clearer-answers-faster-access-in-iru-ai-chat",
+   "title": "Clearer Answers, Faster Access in Iru AI Chat",
+   "date": "2026-08-21",
+   "url": "https://www.iru.com/updates/clearer-answers-faster-access-in-iru-ai-chat",
+   "text": "Three updates make Iru AI answers easier to read and act on.",
+   "hash": "7ab00fe92e85eba8288b5775ac56bd095540a8fff058216b032d7e84dba025f0",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/device-health-statuses-for-ios-and-ipados-devices",
+   "title": "Device health statuses for iOS and iPadOS devices",
+   "date": "2026-08-19",
+   "url": "https://www.iru.com/updates/device-health-statuses-for-ios-and-ipados-devices",
+   "text": "Device system health statuses for supported hardware components (such as camera, NFC, baseband, Touch ID, etc.) are now shown in Iru on the device record for supported devices running iOS or iPadOS 27 beta.",
+   "hash": "609e87005ec75463f92fc279f1aaf25f6328585b0ca7f51acc0e25e26829202f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/iru-identity-directory-sync-enhancements",
+   "title": "Iru Identity Directory Sync Enhancements",
+   "date": "2026-08-19",
+   "url": "https://www.iru.com/updates/iru-identity-directory-sync-enhancements",
+   "text": "Now available in Iru Identity version 2026.08.19:\nSelect Sync Frequency for Directory Sync Integrations - It is now possible to choose the sync frequency interval for each directory sync integration. Choices include: Manual Only, Every 30 minutes, every hour, 2 hours, 4 hours, 8 hours, 12 hours, daily, every 2 days, or weekly.\nAdded Refresh and Sync Now - The Sync section for each directory sync integration now features refresh and sync now buttons. This section also displays the combined information previously shown in the Activity Log and Sync sections.\nSource Filter for Directory Users - Added a Source filter to the Directory Users list so you can filter users by how they were added (e.g. Manual, CSV Import).",
+   "hash": "9d4ca60ed9ada301f1f1db20da443449e046537f93eadc2671b272ac6d6a4c1b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.26-5392",
+   "title": "Iru Agent for Mac Release 5.1.26 (5392)",
+   "date": "2026-08-19",
+   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.26-5392",
+   "text": "We’ve released Iru Agent for Mac 5.1.26 (5392).",
+   "hash": "1b90f4b8746e3d78e988f9de77050714748f96f8f7044d7620c6afcd79927e60",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/require-a-managed-google-account-on-android-devices",
+   "title": "Require a managed Google Account on Android devices",
+   "date": "2026-08-19",
+   "url": "https://www.iru.com/updates/require-a-managed-google-account-on-android-devices",
+   "text": "Admins can now require company-owned Android devices with a work profile to be signed in with a managed Google Account, ensuring end users have full access to the organization's Google Workspace services.",
+   "hash": "5fbb6b1058bd8b339f5ec7e592b58c66806245cd99a6a784b093574fdbb63edf",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/control-credential-managers-on-android-devices",
+   "title": "Control credential managers on Android devices",
+   "date": "2026-08-19",
+   "url": "https://www.iru.com/updates/control-credential-managers-on-android-devices",
+   "text": "Iru admins can now control which apps are allowed to act as credential managers, such as password managers and passkey providers, in the work profile on managed Android devices. The Android Restrictions Library Item includes a new Credential managers setting that sets the default policy: block all credential managers, or allow the device's pre-loaded system credential managers. Google Play app Library Items include a new Allow as credential manager option that allows a specific app, such as an approved third-party password manager, to function as a credential manager regardless of the default policy. The default policy setting requires Android 14 or later.",
+   "hash": "b8a275853f4c3764641c29c643a8258550d988c90aebf189b0bb0c51fafdbc1a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/enforce-a-specific-version-for-mac-auto-apps",
+   "title": "Enforce a specific version for Mac Auto Apps",
+   "date": "2026-08-19",
+   "url": "https://www.iru.com/updates/enforce-a-specific-version-for-mac-auto-apps",
+   "text": "Mac Auto Apps now support enforcing a specific version, selecting from a list of Iru hosted versions.",
+   "hash": "7dc01d9f1939ccb3411793efdcd2ae4ad894707650f013dbe68627392ec54087",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/sso-app-templates",
+   "title": "Single Sign On is a Few Clicks Away with More Than 200 Application Templates",
+   "date": "2026-08-18",
+   "url": "https://www.iru.com/updates/sso-app-templates",
+   "text": "Single Sign On (SSO) pre-configuration templates are now available for 209 commonly used web applications, including Slack, Zoom, Google Workspace, and more! The templates guide Identity administrators through the steps needed to set up SAML or OIDC single sign-on and can also assist with SCIM user provisioning configuration. Iru is continuously adding new templates upon request, so stay tuned for more.",
+   "hash": "6a94733e556f70a1e77d934d968e5d8dfc97c73306bf349ba742f15add819f8f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/managed-os-for-ios-and-ipados-c6c467cf-58e0-4941-b775-09bc4fe45948",
+   "title": "Managed OS for iOS and iPadOS",
+   "date": "2026-08-17",
+   "url": "https://www.iru.com/updates/managed-os-for-ios-and-ipados-c6c467cf-58e0-4941-b775-09bc4fe45948",
+   "text": "Managed OS for iOS and iPadOS has been updated. The latest approved versions are now 26.6.1 and 18.7.10, with the following release dates:",
+   "hash": "f92d3eae02c65b4408637ccb79dab8e532df0f457b5f6049c88dc6f25713aead",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/managed-os-for-macos-93fb7db7-a08b-4f3e-a50a-9893423ced01",
+   "title": "Managed OS for macOS",
+   "date": "2026-08-17",
+   "url": "https://www.iru.com/updates/managed-os-for-macos-93fb7db7-a08b-4f3e-a50a-9893423ced01",
+   "text": "Managed OS for macOS has been updated. The latest approved version for Tahoe is now 26.6.2, with the following release date:",
+   "hash": "412b02e09ebcb241e1f456b9a39676173dfd0d39554fd0cb4fb90ccbde059614",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/whats-new-in-iru-august-14th",
+   "title": "What's New in Iru | August 14th",
+   "date": "2026-08-14",
+   "url": "https://www.iru.com/updates/whats-new-in-iru-august-14th",
+   "text": "Highlights we cover this week in What's New in Iu (Black Hat 2026 edition):",
+   "hash": "6677e7737e75482878455ae87f14763191b7f7f36dba599dd64dc775a16c0f70",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/update-windows-apps-from-the-system-tray",
+   "title": "Update Windows apps from the system tray",
+   "date": "2026-08-13",
+   "url": "https://www.iru.com/updates/update-windows-apps-from-the-system-tray",
+   "text": "Windows devices now show a list of Auto App and Custom App updates that haven't installed yet right from the new Iru system tray app. End users can install one update at a time or use Update all, closing open apps when needed to complete the install, and the list clears itself as installs succeed.",
+   "hash": "2fec1de5bc81f038937e351397277d71feffe33da28dcd50af0545c890d0fbfe",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.iru.com/updates/google-cloud-platform-is-now-available-as-a-compliance-source",
+   "title": "Google Cloud Platform is now available as a compliance source",
+   "date": "2026-08-13",
+   "url": "https://www.iru.com/updates/google-cloud-platform-is-now-available-as-a-compliance-source",
+   "text": "Google Cloud Platform is now available in the Iru Compliance connector catalog, replacing the previous coming-soon placeholder.",
+   "hash": "df1c116c22541da435a26ea35241da447999d9f0578df7341564a66f8388d1cf",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.25-5391",
+   "title": "Iru Agent for Mac Release 5.1.25 (5391)",
+   "date": "2026-08-12",
+   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.25-5391",
+   "text": "We’ve released Iru Agent for Mac 5.1.25 (5391).",
+   "hash": "ca5babd0213691f0fcd65b15a28a883ce083a0a9e189ad5bd5c0ab6142dd50e9",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/filter-actions-by-unassigned-owner-or-delegate",
+   "title": "Filter actions by unassigned owner or delegate",
+   "date": "2026-08-12",
+   "url": "https://www.iru.com/updates/filter-actions-by-unassigned-owner-or-delegate",
+   "text": "The Owner and Delegate filters on the Actions list within Compliance Automation now include an Unassigned option, so admins can find the actions nobody owns yet without scanning the table. This pairs with the separate Owner and Delegate columns added in May.",
+   "hash": "ec982d18857526e9227182672076569cf6b43b4421e23125e302b05b1feeed69",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/automated-evidence-skips-document-only-actions-and-reports-failed-source-calls",
+   "title": "Automated evidence skips document-only actions and reports failed source calls",
+   "date": "2026-08-11",
+   "url": "https://www.iru.com/updates/automated-evidence-skips-document-only-actions-and-reports-failed-source-calls",
+   "text": "Automated evidence turns itself off on actions that need a signed document. Iru now recognizes the actions that only a person can satisfy — a signed policy or agreement, for example — and turns off automated evidence for them instead of running a collection pass that comes back with \"no evidence found.\" The change is recorded in the action's activity log, and you can turn automated evidence back on at any time.",
+   "hash": "03aaeb39a7f3f9e1bc4ec726c316ae1cdf4e3ad85a31bfb45a1f32bb5236b85f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/whats-new-in-iru-august-7th",
+   "title": "What's New in Iru | August 7th",
+   "date": "2026-08-07",
+   "url": "https://www.iru.com/updates/whats-new-in-iru-august-7th",
+   "text": "Highlights we cover this week in What's New in Iru:",
+   "hash": "9786065ef592dc3e0313ac0888991542fff216c98a84dc75a8ded8dd2aaee993",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/windows-update-library-item-assistant-now-available-to-everyone",
+   "title": "Introducing Library Item Assistant for Windows Update",
+   "date": "2026-08-07",
+   "url": "https://www.iru.com/updates/windows-update-library-item-assistant-now-available-to-everyone",
+   "text": "A new way to work with Library Items in Iru AI: get a plain-language description of what the Windows Update Library Item does, a summary of how it's configured, and a breakdown of what users will experience.",
+   "hash": "5c2fbc5e2bceb9ee5813133e83122fc0d41bc34fcb58ecf79b56664c4bb548c4",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.iru.com/updates/manually-release-apple-devices-held-in-setup-assistant",
+   "title": "Manually release Apple devices held in Setup Assistant",
+   "date": "2026-08-06",
+   "url": "https://www.iru.com/updates/manually-release-apple-devices-held-in-setup-assistant",
+   "text": "Devices held in Setup Assistant while Library Items install can now be released manually. This applies to devices enrolling via Automated Device Enrollment and devices migrating into Iru with managed apps preserved. While a device is held at the Configuring screen, a banner appears at the top of the device's record in the Iru web app showing when the hold began. Selecting Release hold sends the DeviceConfigured command, releasing the device from the Configuring screen so the end user can continue through Setup Assistant and begin using the device. Selecting Check status refreshes the banner to confirm the device has been released. Devices can also be released via the Iru Enterprise API.",
+   "hash": "499d6201e4abdd6fc8a091c7681174b9e8b5432c02ed44c41ed5ca8622583084",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/managed-os-for-macos-ecb6d654-7f5f-4cdb-8f6f-b0bee9b49efb",
+   "title": "Managed OS for macOS",
+   "date": "2026-08-06",
+   "url": "https://www.iru.com/updates/managed-os-for-macos-ecb6d654-7f5f-4cdb-8f6f-b0bee9b49efb",
+   "text": "Managed OS for macOS has been updated. The latest approved version for Tahoe is now 26.6.1; for Sequoia, 15.7.9; and for Sonoma, 14.8.9, with the following release dates:",
+   "hash": "eeb6a10734ff3089f62551b26bdf200bfb4090ecdce09f787ec04c69a17bc76a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/offer-apple-beta-releases-with-the-software-update-library-item",
+   "title": "Offer Apple beta releases with the Software Update Library Item",
+   "date": "2026-08-05",
+   "url": "https://www.iru.com/updates/offer-apple-beta-releases-with-the-software-update-library-item",
+   "text": "In the Software Update Library Item, Apple beta program enrollment can now be offered to end users to opt-in, or a specific program can be enforced without needing to enforce a specific version alongside the enrollment.",
+   "hash": "ba56f267131b3401ec728b8d09a95554ce6a1e477bfcaf68d2b487ddbed06ba4",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/platform-sso-for-mac-authenticated-guest-mode",
+   "title": "Platform SSO for Mac: Authenticated guest mode",
+   "date": "2026-08-05",
+   "url": "https://www.iru.com/updates/platform-sso-for-mac-authenticated-guest-mode",
+   "text": "The Single Sign-On Extension Library Item now supports configuring Authenticated Guest Mode when using Platform SSO with macOS.",
+   "hash": "33c71c44c2c53dc3785376cf639bba68968dfd07e23e876be909c70623ec379a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/phased-rollouts-for-managed-os-for-apple-devices",
+   "title": "Phased Rollouts for Managed OS for Apple devices",
+   "date": "2026-08-05",
+   "url": "https://www.iru.com/updates/phased-rollouts-for-managed-os-for-apple-devices",
+   "text": "The new phased rollout option previously introduced for Mac Auto Apps is now available for Apple Managed OS. Phased rollouts give admins more control over how updates are introduced across their fleet.",
+   "hash": "d5725bf7123a4f65a6011978f79361496983ab7ec9a2d6621f36a87125298f3e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/auto-app-screen-studio-758f12f6-72e0-4d03-84f1-fe6766c6d7d7",
+   "title": "Auto App: Screen Studio",
+   "date": "2026-07-29",
+   "url": "https://www.iru.com/updates/auto-app-screen-studio-758f12f6-72e0-4d03-84f1-fe6766c6d7d7",
+   "text": "A new Auto App, Screen Studio, has been added to the catalog and is now available for all customers.",
+   "hash": "78b5804acc00c08d2c0fd7513e83f4c1ecae9eb1733d456228ed76bdf2fef43d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/auto-app-glean-89937e08-50fe-44cf-87f0-e89311128a64",
+   "title": "Auto App: Glean",
+   "date": "2026-07-29",
+   "url": "https://www.iru.com/updates/auto-app-glean-89937e08-50fe-44cf-87f0-e89311128a64",
+   "text": "A new Auto App, Glean, has been added to the catalog and is now available for all customers.",
+   "hash": "9fbb36437e3f752ea4f14c172f261685f0ceadedde36e17f1c2e72e0ec4e33f6",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/auto-app-elgato-stream-deck-a9e77483-26a3-4837-80b1-bc2df507b0bd",
+   "title": "Auto App: Elgato Stream Deck",
+   "date": "2026-07-29",
+   "url": "https://www.iru.com/updates/auto-app-elgato-stream-deck-a9e77483-26a3-4837-80b1-bc2df507b0bd",
+   "text": "A new Auto App, Elgato Stream Deck, has been added to the catalog and is now available for all customers.",
+   "hash": "3da325739d631039a44ddb7158748318279ebfbf3a805aaefd1914d741cb6bdd",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/auto-app-alttab-d852c8c8-3e8a-4610-a4c5-e24724c582a0",
+   "title": "Auto App: AltTab",
+   "date": "2026-07-29",
+   "url": "https://www.iru.com/updates/auto-app-alttab-d852c8c8-3e8a-4610-a4c5-e24724c582a0",
+   "text": "A new Auto App, AltTab, has been added to the catalog and is now available for all customers.",
+   "hash": "4b28ca3e410507566ffe1e4033d2148c365112ca11121a15f33da0001811184c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/windows-auto-apps-f76ea095-9d35-4c46-b1f0-22faf16654f7",
+   "title": "New Windows Auto Apps",
+   "date": "2026-07-29",
+   "url": "https://www.iru.com/updates/windows-auto-apps-f76ea095-9d35-4c46-b1f0-22faf16654f7",
+   "text": "New Windows Auto Apps have been added to the catalog and are now available for all Iru Endpoint customers.",
+   "hash": "9668191680226e7da612f4f40e25a613335687145e4d77a4281a818eddb6b524",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.22-5390",
+   "title": "Iru Agent for Mac Release 5.1.22 (5390)",
+   "date": "2026-07-29",
+   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.22-5390",
+   "text": "We’ve released Iru Agent for Mac 5.1.22 (5390).",
+   "hash": "c0509f32e41f4324039c4e3d685cc2af85f45b5a96612e5d403cc17295a1e1ac",
+   "windows": "none"
+  }
+ ]
+}

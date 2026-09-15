@@ -1,0 +1,940 @@
+{
+ "id": "42gears-press",
+ "vendor": "42Gears",
+ "kind": "link-list",
+ "fetchedAt": "2026-09-15T07:45:50.751Z",
+ "meta": {
+  "url": "https://www.42gears.com/press-releases",
+  "links": 103,
+  "fetched": 6
+ },
+ "items": [
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-sets-new-industry-benchmark-with-three-year-streak-of-outstanding-net-promoter-score-nps-solidifying-enterprise-mobility-leadership/",
+   "title": "42Gears Sets New Industry Benchmark With Three-Year streak of Outstanding Net Promoter Score (NPS), Solidifying Enterprise Mobility Leadership",
+   "date": "2026-07-20",
+   "url": "https://www.42gears.com/press-releases/42gears-sets-new-industry-benchmark-with-three-year-streak-of-outstanding-net-promoter-score-nps-solidifying-enterprise-mobility-leadership/",
+   "text": "42Gears Sets New Industry Benchmark With Three-Year streak of Outstanding Net Promoter Score (NPS), Solidifying Enterprise Mobility Leadership\nMilpitas, CA. – July 20, 2026— 42Gears, a leading provider of Unified Endpoint Management (UEM) solutions, today announced record-breaking Net Promoter Score (NPS) results over three consecutive years, reflecting consistently high levels of customer satisfaction and loyalty.\nThe company achieved an NPS of 66.20 in 2024, climbed to a record 77.20 in 2025, and has maintained an impressive score of 75.90 in 2026 (year-to-date).\nAn NPS above 50 is widely regarded as excellent, while a score above 70 is considered world-class. These results reinforce 42Gears' commitment to delivering reliable, easy-to-use endpoint management solutions that help organizations manage and secure diverse device fleets.\nThe company's consistent performance reflects its continued investment in innovation, usability, and customer success across its Unified Endpoint Management platform. 42Gears supports organizations managing Android, iOS, Windows, macOS, Linux, rugged devices, wearables, and other enterprise endpoints across industries including retail, logistics, transportation, manufacturing, healthcare, construction, and BFSI.\nThree Years of Customer Validation\nThe sustained growth in customer satisfaction demonstrates the trust organizations place in 42Gears for managing modern enterprise endpoints.\nYear Net Promoter Score (NPS) Industry Standing\n2024\n66.20\nExcellent customer satisfaction and steady brand advocacy.\n2025\n77.20\nPeak historic benchmark, solidifying world-class user loyalty.\n2026\n75.90\nSustained elite status, demonstrating long-term operational excellence.\nWhat Continues to Drive Customer Satisfaction\nThe consistently high NPS reflects 42Gears' focus on delivering value in the areas customers care about most:\nResponsive Customer Support – Global support teams that help customers resolve issues quickly and minimize operational disruptions\nContinuous Product Innovation – Regular feature enhancements that strengthen security, simplify device management, and support evolving enterprise needs.\nEase of Use – An intuitive management experience that reduces complexity for IT teams managing multiple operating systems and device types.\nGreater Visibility and Contro – Comprehensive dashboards, remote management capabilities, and real-time insights that help administrators efficiently manage their endpoint ecosystem.\nExecutive Perspective\n\"Maintaining an NPS trend of this magnitude across 2024, 2025, and into 2026 is a massive victory for our entire team.\" said Onkar Singh, Co-Founder and CEO of 42Gears. \"It signals that our core investments into our multi-OS frameworks are paying off where it matters most, with our users. Whether our clients need reliable mdm for android fleet deployment, robust mdm for windows corporate security, or seamless mdm for ios retail integration, we have focused on making every environment interactive, scalable, and remarkably simple to manage.\"\nAs organizations continue to embrace hybrid work and increasingly diverse endpoint environments, 42Gears remains committed to helping enterprises simplify device management, strengthen security, and improve operational efficiency through its Unified Endpoint Management platform.\nAbout 42Gears\n42Gears is a leader in enterprise mobility management, delivering secure digital workplace solutions built on zero trust principles. Going beyond traditional MDM, 42Gears enables frontline identity and access management to protect shared devices, applications, and enterprise data at scale. Available as cloud and on-premise deployments, 42Gears supports all major mobile and desktop operating systems. 42Gears products are used by 23,000+ customers across various industries in 170+ countries and are available for purchase through our network of 1000+ global partners. For more information, please visit https://www.42gears.com.\nMedia Contact:\n42Gears Marketing & Communications Team\npress@42gears.com",
+   "hash": "54a23cabaf0e6df6f941ec675fa6beaa88b31541df717e901eff93d0c081cd97",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-and-sato-announce-collaboration-for-advanced-printer-management-using-suremdm/",
+   "title": "42Gears and SATO Announce Collaboration for Advanced Printer Management Using SureMDM",
+   "date": "2025-07-04",
+   "url": "https://www.42gears.com/press-releases/42gears-and-sato-announce-collaboration-for-advanced-printer-management-using-suremdm/",
+   "text": "42Gears and SATO Announce Collaboration for Advanced Printer Management Using SureMDM\nBengaluru, India / Tokyo, Japan – July 4, 2025— 42Gears, a global leader in unified endpoint management, and SATO, a leading provider of automatic identification and labeling solutions, are pleased to announce a strategic collaboration to enable centralized, remote management of SATO’s industrial, desktop, and mobile printers through 42Gears’ SureMDM platform. As businesses seek efficient, scalable ways to manage mission-critical print operations, the integration of SATO printers with SureMDM offers seamless enrollment, real-time diagnostics, remote configuration, and enterprise-grade security—all from a single intuitive console. This joint solution empowers IT teams to reduce downtime, streamline printer maintenance, and ensure compliance across large-scale printer deployments without requiring physical access to the devices. Key capabilities include:\nOne-touch enrollment of SATO printers\nRemote configuration of printer speed, label properties, and sensor settings\nComprehensive diagnostics, including printhead health and label positioning\nSecurity compliance monitoring and remote command execution\nSupport for leading SATO printer models such as PW2NX, FX3, CT4, PW4NX, CLNX, S8NX, LRNX and PSim\n\"With the increasing demand for smarter operational workflows, managing non-traditional endpoints like industrial printers has become just as critical as managing mobile devices,\" said Prakash Gupta, Co-Founder and CTO of 42Gears. \"Our collaboration with SATO unlocks centralized visibility and control for their high-performance printers, helping businesses ensure uptime and operational continuity across industries.\"",
+   "hash": "e30cc058e512fc559307725ad9054baae34ee65c8e36862d8f6c79101dfbdbec",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launches-sureidp-zero-trust-identity-and-access-management-solution-for-secure-seamless-enterprise-access/",
+   "title": "42Gears Launches SureIdP — Zero Trust Identity and Access Management Solution for Secure, Seamless Enterprise Access",
+   "date": "2025-06-17",
+   "url": "https://www.42gears.com/press-releases/42gears-launches-sureidp-zero-trust-identity-and-access-management-solution-for-secure-seamless-enterprise-access/",
+   "text": "42Gears Launches SureIdP — Zero Trust Identity and Access Management Solution for Secure, Seamless Enterprise Access\nBengaluru, India – June 17, 2025 – 42Gears has launched SureIdP, a Zero Trust Identity and Access Management Solution that combines identity verification with device compliance. It enhances enterprise security while ensuring seamless, cross-platform user access.\nWhat is Zero Trust Identity and Access Management?\nA Zero Trust IAM solution verifies digital identities—usernames, passwords, biometrics, and device posture—before granting access. Acting as a central hub, it enables secure Single Sign-On (SSO). For example, logging into enterprise apps via Google Workspace credentials involves Google as the Identity Provider, but access is granted only after evaluating user location or behavior—core to Zero Trust security.\nWhy Modern Businesses Need IAMs\nWith rising digital threats, secure access control is essential. These stats show why SureIdP is crucial:\nMulti-factor Authentication (MFA) reduces identity-based attacks by 99.9%\n76% of breaches result from credential misuse or phishing\n71% increase in credential-based cyberattacks year-over-year\nInsider threats cost firms an average of $16.2 million annually\nZero Trust frameworks reduce risk by up to 50%\nMeet SureIdP\nBuilt on Zero Trust Access principles, SureIdP enforces both user and device verification before granting access. It supports Windows, macOS, Linux, iOS, and Android, and offers centralized control via a single dashboard.\nKey Features\nDevice Authentication: Access is limited to compliant devices based on location, network, and policy OS Login & Access Control: Secure desktop login for Windows, macOS, and Linux Single Sign-On (SSO): One login for multiple applications User Lifecycle Management: Easy onboarding/offboarding with group and device-user management Zero Trust Framework: Enforces least-privilege access with continuous validation External Federation: Integrates with Google Workspace, Microsoft Entra, Okta, and SAML 2.0 IdPs\nCore Benefits\nContinuous Identity Verification to stop credential misuse\nDevice-Aware Access blocks non-compliant endpoints\nReal-Time Contextual Controls for behavior-based risk assessment\nUnified Security Management with fewer third-party tools\nImproved User Experience through simplified login and control\nCompliance with GDPR, HIPAA, and more\nCost Efficiency by reducing licensing and IT load\nIndustry Applications\nFinance: Protects digital banking and ensures audit readiness\nRetail: Secures POS and third-party access\nEducation: Safeguards shared devices and remote learning\nHealthcare: Supports HIPAA and secures medical data\nGovernment: Enables compliant data access and collaboration",
+   "hash": "cfed0b0dcce1174b2dc3242aa8279f3f5211fc4c537e6d1da0d4f4fc116b4980",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launches-sureaccess-zero-trust-network-access-solution-to-transform-enterprise-security/",
+   "title": "42Gears Launches SureAccess: Zero Trust Network Access Solution to Transform Enterprise Security",
+   "date": "2024-12-03",
+   "url": "https://www.42gears.com/press-releases/42gears-launches-sureaccess-zero-trust-network-access-solution-to-transform-enterprise-security/",
+   "text": "42Gears Launches SureAccess: Zero Trust Network Access Solution to Transform Enterprise Security\nBengaluru, India, 3rd December 2024: 42Gears, a global leader in Enterprise Mobility Management, announced the launch of SureAccess, a cutting-edge Zero Trust Network Access (ZTNA) solution today. This innovative solution reinforces the company's commitment to enterprise security by ensuring that only authenticated users and verified devices can access corporate resources from anywhere, anytime. \"In today's hybrid work environment, traditional security perimeters are no longer enough,\" said Onkar Singh, Co-Founder & CEO of 42Gears. \"SureAccess represents our response to evolving security challenges, offering organizations a robust solution that verifies every access attempt, regardless of location or device.\" SureAccess (42Gears’ ZTNA solution) is designed to protect organizations from unauthorized access, data breaches, and insider threats. Key Features of SureAccess:\nSecure Protocol: SureAccess leverages Wireguard, a modern and secure protocol.\nSplit Tunnel: Enables selective internet routing through secure tunnels for specific DNS or IP addresses and bypasses the rest.\nDNS-Based Access Policy: Streamlines secure access to corporate resources by managing which domains utilize the SureAccess tunnel.\nCloud Scalable: Scales automatically to handle device traffic surges.\nAdvanced Authentication: Deploy advanced authentication methods from IdPs like MFA and passwordless authentication.\nAccess Policy Manager (APM): Enables real-time, context-aware, and conditional access to enterprise resources.\nPer App VPN: Routes specific applications through the SureAccess tunnel while excluding others.\nSureAccess offers the following benefits:\nContinuous Verification: Ensures continuous verification for all users and devices attempting to access corporate resources.\nEnhanced Security: SureAccess provides encrypted tunnel network access, safeguarding data transmission and blocking unauthorized users.\nGranular Control: SureAccess only grants network access to authorized devices and apps that meet security requirements, enhancing breach protection.\nSecure BYOD Access: SureAccess enforces security policies on personal devices accessing corporate resources through its built-in Zero Trust framework.\nData Breach Protection: Secure ZTNA tunneling protects all internet traffic, preventing data breaches and unauthorized network access.\nSelective Routing: SureAccess ensures secure routing for critical services, protecting business functions without changing existing security policies.\nThis new offering strengthens 42Gears' portfolio of enterprise mobility solutions, providing organizations with the tools they need to secure their digital assets in an increasingly complex threat landscape.",
+   "hash": "56779e2cc7ee2e45a0455ae547b42ba08df472314afc1254f64484081b65bf85",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-achieves-gold-partner-status-in-the-android-enterprise-partner-program/",
+   "title": "42Gears Achieves Gold Partner Status in the Android Enterprise Partner Program",
+   "date": "2024-06-11",
+   "url": "https://www.42gears.com/press-releases/42gears-achieves-gold-partner-status-in-the-android-enterprise-partner-program/",
+   "text": "42Gears Achieves Gold Partner Status in the Android Enterprise Partner Program\nBengaluru, India, June 11, 2024: 42Gears is excited to announce that the company has achieved Gold Partner status in the Android Enterprise Partner Program. This achievement is a key milestone for 42Gears, and solidifies the company’s commitment to delivering world-class Android Enterprise device management solutions for its enterprise partners and customers. By becoming a Android Enterprise Gold Partner, 42Gears offers the following capabilities to its customers:\nProven expertise in delivering advanced device security and management features powered by Android Enterprise\nAccess to up-to-date documentation and guides on best practices for Android device management and support\nFirm commitment to staying updated on the latest Android Enterprise features and training requirements\n“We are proud to continue our long-standing partnership with Android Enterprise by becoming an Android Enterprise Gold Partner,” said Onkar Singh, Co-Founder and CEO of 42Gears. “This recognition confirms our team’s commitment towards offering cutting-edge Android device management solutions and support to our customers. As an Android Enterprise Gold Partner, we look forward to providing world-class service and support to our customers in managing and securing their Android device ecosystem.” “We are excited to welcome 42Gears to the Android Enterprise Partner Program as a Gold partner,” said Ken Schutt, Director of Android Enterprise Partnerships. “By becoming a Gold partner, 42Gears has gone above and beyond for their customers, ensuring they receive top-tier customer service, support, and solutions to help them grow their business.” Legal Disclaimer Android is a trademark of Google LLC.",
+   "hash": "b4e5e6ff7e379da6ac2202ba1e8f874433dbb17a31f710ab2f7f524b736f23dc",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-to-unveil-suremdm-inlocate-at-nrf-2024/",
+   "title": "42Gears to Unveil SureMDM InLocate at NRF 2024",
+   "date": "2024-01-11",
+   "url": "https://www.42gears.com/press-releases/42gears-to-unveil-suremdm-inlocate-at-nrf-2024/",
+   "text": "42Gears to Unveil SureMDM InLocate at NRF 2024\nBusinesses now have a quick and easy way to find devices lost within premises\nBengaluru, 11th January, 2024 - 42Gears, a leading Enterprise Mobility Management solution provider, plans to unveil a groundbreaking feature at the upcoming NRF 2024 event for its flagship product, SureMDM - InLocate. SureMDM InLocate is an innovative indoor location tracking feature that takes the hassle out of asset management, and addresses the pervasive challenge of locating lost rugged mobile devices within facilities, enabling businesses to reclaim lost productivity, revenue, and security. What’s special about SureMDM InLocate:\nInstant Location Tracking: Designed to accurately pinpoint the location of any device on a detailed map\nNo Extra Hardware: Doesn’t need any expensive beacons and complicated installations. SureMDM leverages existing Wi-Fi infrastructure, and eliminates the need for additional hardware investment\nRemote Buzz: Provides the capability to trigger an audible alarm on a lost device, guiding users to its location quickly and efficiently\nGeofences: Enables IT teams to set virtual boundaries to restrict device movement and enforce security policies, ensuring that sensitive assets stay where they belong.\nReal-time Insights: Provides valuable data on device usage, movement patterns, and potential security risks to help optimize operations and make informed decisions based on real-time information\n“Lost devices are a productivity killer, costing businesses millions in wasted time and resources. Our new indoor location tracking solution puts an end to the search and rescue, locating lost devices with pinpoint accuracy within any building,” said Onkar Singh, CEO and co-founder of 42Gears. “In today's mobile-first world, businesses need every edge they can get. Our indoor location tracking solution gives mobile device management a whole new dimension, empowering companies to optimize workflows, improve security, and deliver exceptional employee experiences,” added Singh. How businesses can benefit by using SureMDM InLocate\nIncreased Productivity: By providing real-time visibility into device locations, SureMDM InLocate ensures that the workforce operates seamlessly, enhancing overall efficiency and output.\nReduced Costs: SureMDM InLocate eliminates the need for investing in additional hardware for asset tracking, saving time and money. This cost-effective approach to asset management improves the bottom line while streamlining operations.\nEnhanced Security: SureMDM offers robust security features, ensuring that devices are not only tracked but also protected against potential threats. This also protects business critical information, ensuring compliance with applicable laws.\nPeace of Mind: With SureMDM InLocate, devices lost within premises can be located easily. Knowing where devices are at all times and being confident of their security is critical for any business.\nSureMDM InLocate is tailored for a variety of industries, including warehouses, manufacturing facilities, hospitals, construction sites, and any business using rugged or other mobile devices indoors. To discover how SureMDM InLocate can have a positive impact on your business operations, visit us at Booth 1332, from January 14th to 16th, at the NRF Event hosted at the Jacob K. Javits Convention Center in New York City. For more information, please visit https://www.42gears.com/suremdm-inlocate/.",
+   "hash": "817b2e87174ec6d9e2c537e75578ba87b7b7459691c089a2373e91ec63974312",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-today-announced-that-their-emm-solution-suremdm-is-an-android-enterprise-recommended-solution/",
+   "title": "42Gears today announced that their EMM solution 'SureMDM' is an Android™ Enterprise Recommended solution",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-today-announced-that-their-emm-solution-suremdm-is-an-android-enterprise-recommended-solution/",
+   "text": "",
+   "hash": "d58c378c35cb1b043b7b6273243d4c0eaa961c4678f08678ebc2e0f9d8c65cd3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-introduces-astrostatus-an-intuitive-incident-communication-solution-for-keeping-customers-informed-during-downtime-and-service-failures/",
+   "title": "42Gears Introduces AstroStatus: An Intuitive Incident Communication Solution for Keeping Customers Informed During Downtime and Service Failures",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-introduces-astrostatus-an-intuitive-incident-communication-solution-for-keeping-customers-informed-during-downtime-and-service-failures/",
+   "text": "",
+   "hash": "b8b62c6389e4740f54379af7ab3ddd9ea3461413a67257fefbcbc8e4053c1fa7",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-suremdm-expands-support-to-chromeos-offering-enhanced-management-capabilities/",
+   "title": "42Gears SureMDM Expands Support to ChromeOS, Offering Enhanced Management Capabilities",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-suremdm-expands-support-to-chromeos-offering-enhanced-management-capabilities/",
+   "text": "",
+   "hash": "e2be030f23f9d62730843846740e2a2ebeb3d574a30dabc3d4a43f80f7df2be5",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-joins-the-android-enterprise-partner-program-as-a-silver-partner/",
+   "title": "42Gears Joins the Android Enterprise Partner Program as a Silver Partner",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-joins-the-android-enterprise-partner-program-as-a-silver-partner/",
+   "text": "",
+   "hash": "8deedc1bf2bb1de66a7e9cd1edcb44c6c95cbf6526188cb64a008b8cb2efa553",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-achieves-zebra-technologies-validation-of-interoperability/",
+   "title": "42Gears Achieves Zebra Technologies Validation of Interoperability",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-achieves-zebra-technologies-validation-of-interoperability/",
+   "text": "",
+   "hash": "93ae23d6b7400871bed9c13d4ab6eb12c9896ac34d91c37f49b75d3ae3674b1f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launches-chatgpt-plugin-for-suremdm-mobile-device-management-platform/",
+   "title": "42Gears Launches ChatGPT Plugin for SureMDM Mobile Device Management Platform",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-launches-chatgpt-plugin-for-suremdm-mobile-device-management-platform/",
+   "text": "",
+   "hash": "35b5d4419a4720b7e62a5ed93e3c3696daad28586e2273ee7f1033f5d674c876",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-mdm-expands-zebra-technologies-printer-and-rfid-device-management/",
+   "title": "42Gears MDM Expands Zebra Technologies’ Printer and RFID Device Management",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-mdm-expands-zebra-technologies-printer-and-rfid-device-management/",
+   "text": "",
+   "hash": "f1ec283227c5f6fa8773b25c1cb3d678dd17c8da44fc0881d941f7bd209e9331",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/bluestar-is-adding-42gears-software-to-their-solution-offering/",
+   "title": "BlueStar is adding 42Gears’ Software to their Solution Offering",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/bluestar-is-adding-42gears-software-to-their-solution-offering/",
+   "text": "",
+   "hash": "599f67fb6afe6474af29b20f39705ae59f30a4100ad1c635db07e7fbf8939fc4",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-and-newland-emea-enter-into-strategic-partnership-to-simplify-mobile-device-management-for-speedata-by-newland-product-line/",
+   "title": "42Gears and Newland EMEA Enter into Strategic Partnership to Simplify Mobile Device Management for Speedata by Newland Product Line",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-and-newland-emea-enter-into-strategic-partnership-to-simplify-mobile-device-management-for-speedata-by-newland-product-line/",
+   "text": "",
+   "hash": "dbf641dca74559b57b0e9872dd21cea34b3bf34c916c10c01ec545fd7c5824be",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launches-suremdm-hub-cloud-for-msps/",
+   "title": "42Gears Launches SureMDM Hub Cloud For MSPs",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-launches-suremdm-hub-cloud-for-msps/",
+   "text": "",
+   "hash": "6ea251d95db5952ff9e72afa9bd98ddcea96c9f7555b859881e62b44f5632ea4",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-announces-zero-day-support-for-ios-16-and-ipados-16-ahead-of-new-version-release/",
+   "title": "42Gears Announces Zero-Day support for iOS 16 and iPadOS 16 Ahead of New Version Release",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-announces-zero-day-support-for-ios-16-and-ipados-16-ahead-of-new-version-release/",
+   "text": "",
+   "hash": "8a986aa87ecad4cd97d51745ab2b6e77d0285334f53dc4715235effd3f0afa9a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/all-42gears-products-compatible-with-android-13/",
+   "title": "All 42Gears Products Compatible with Android 13",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/all-42gears-products-compatible-with-android-13/",
+   "text": "",
+   "hash": "336949b67708ce9cc612480586374e225cae01db44e8489b5fb451a83e6e8070",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-raises-the-bar-for-business-security-with-camlock/",
+   "title": "42Gears Raises the Bar for Business Security with CamLock",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-raises-the-bar-for-business-security-with-camlock/",
+   "text": "",
+   "hash": "3a28d94b6a8e19a3744b4e154897f46f58df15adc3e50c374050bedba246d2de",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-announces-zero-day-support-for-windows-11/",
+   "title": "42Gears Announces Zero-Day Support for Windows 11",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-announces-zero-day-support-for-windows-11/",
+   "text": "",
+   "hash": "7de897e28b89efe44ec485c11d4edebad46079ebf2fd02515b4d29ff42b63d07",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-announces-zero-day-support-for-ios-15-and-ipados-15/",
+   "title": "42Gears Announces Zero-Day Support for iOS 15 and iPadOS 15",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-announces-zero-day-support-for-ios-15-and-ipados-15/",
+   "text": "",
+   "hash": "a2d4cf5fe6c201f009c575f32f8a196100939cf38b3f9d222d3daa2c6f8ea237",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-announces-astrofarm-support-for-ios-and-ipados/",
+   "title": "42Gears Announces AstroFarm Support for iOS and iPadOS",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-announces-astrofarm-support-for-ios-and-ipados/",
+   "text": "",
+   "hash": "ad693d60a15ee0d0d98cc6cdb54a9a307cb5d5c1874b01896c51efa4898cbf8c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-announces-zero-day-support-for-android-12/",
+   "title": "42Gears Announces Zero-Day Support for Android 12",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-announces-zero-day-support-for-android-12/",
+   "text": "",
+   "hash": "a1718b6008e6ec93cfb1fe152150a30242704fd77409d93474aad32ca151b4a9",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-delivers-data-driven-insights-with-visibilityiqtm-foresight-on-zebra-handheld-devices/",
+   "title": "42Gears Delivers Data-Driven Insights with VisibilityIQTM Foresight on Zebra Handheld Devices",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-delivers-data-driven-insights-with-visibilityiqtm-foresight-on-zebra-handheld-devices/",
+   "text": "",
+   "hash": "be479372b72d0dfab524541fc2c65eff5ecb70d13b087423c73e5d8a6dd543c0",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-partners-with-esquared-communication-consulting/",
+   "title": "42Gears Partners with eSquared Communication Consulting",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-partners-with-esquared-communication-consulting/",
+   "text": "",
+   "hash": "652e22b91f15806e38ccc6b2e26ad2f626c70e2c0449d6a12eca2bbce476e05b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-tightens-mobile-security-with-native-mobile-threat-defense/",
+   "title": "42Gears Tightens Mobile Security With Native Mobile Threat Defense",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-tightens-mobile-security-with-native-mobile-threat-defense/",
+   "text": "",
+   "hash": "8137da60f9a65983a6400d28c09f761d6d622d5192b46623474c1c980603c26c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launches-suremdm-for-developers-portal/",
+   "title": "42Gears Launches “SureMDM for Developers” Portal",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-launches-suremdm-for-developers-portal/",
+   "text": "",
+   "hash": "9b2be93ee81c0c7a92fb35167c52cfa79edb744d503aec5a7d5a28a00349cc22",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-suremdm-simplifies-setting-up-kiosk-mode-on-linux-devices/",
+   "title": "42Gears SureMDM Simplifies Setting up Kiosk Mode on Linux Devices",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-suremdm-simplifies-setting-up-kiosk-mode-on-linux-devices/",
+   "text": "",
+   "hash": "31d4a7269b205e4cb4c290335446352d45037f2267ffd9d820d6392d84795a62",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launches-astrofarm-empowering-companies-to-rethink-remote-software-development-and-testing/",
+   "title": "42Gears Launches AstroFarm, Empowering Companies to Rethink Remote Software Development and Testing",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-launches-astrofarm-empowering-companies-to-rethink-remote-software-development-and-testing/",
+   "text": "",
+   "hash": "ca1ed745f1929887a40a4817afdcf1db283f4a3644ba92ab9e154a111a96e51e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launches-universal-snmp-management-technology/",
+   "title": "42Gears Launches Universal SNMP Management Technology",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-launches-universal-snmp-management-technology/",
+   "text": "",
+   "hash": "a04409184eb90cbf5c0390beda25aaccf6173ac52b117237850cf2c33d9187c2",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launches-suremdm-hub-for-multi-tenant-multi-tier-device-management/",
+   "title": "42Gears Launches SureMDM Hub for Multi-Tenant, Multi-Tier Device Management",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-launches-suremdm-hub-for-multi-tenant-multi-tier-device-management/",
+   "text": "",
+   "hash": "b662a78adb94679059f40811b4d37351fd3b0456d3c8ee9073ac8b1d07d80d30",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-is-now-a-samsung-knox-validated-partner/",
+   "title": "42Gears Is Now a Samsung Knox Validated Partner",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-is-now-a-samsung-knox-validated-partner/",
+   "text": "",
+   "hash": "189c298f6ea94695f3a4c14dac55dbb18f3ab701b25175c93102cd0d2eec026e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-announces-zero-day-readiness-for-android-11/",
+   "title": "42Gears Announces Zero-Day Readiness for Android 11",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-announces-zero-day-readiness-for-android-11/",
+   "text": "",
+   "hash": "44791d701a96c48e0bcf87b1bb38d4d4a02d47d6f73718127f9cacbb4e8e9dc1",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-recognized-as-an-honorable-mention-in-gartners-2020-magic-quadrant-for-unified-endpoint-management/",
+   "title": "42Gears recognized as an Honorable Mention in Gartner’s 2020 Magic Quadrant for Unified Endpoint Management",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-recognized-as-an-honorable-mention-in-gartners-2020-magic-quadrant-for-unified-endpoint-management/",
+   "text": "",
+   "hash": "d0477f9435701d50652d2d019780ab44800a6432b2811a11885a7bf0993ee41c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-suremdm-bags-the-second-prize-in-the-digital-india-aatmanirbhar-bharat-innovate-challenge/",
+   "title": "42Gears’ SureMDM Bags the Second Prize in the Digital India AatmaNirbhar Bharat Innovate Challenge",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-suremdm-bags-the-second-prize-in-the-digital-india-aatmanirbhar-bharat-innovate-challenge/",
+   "text": "",
+   "hash": "92ba2de61cf9c890fd2c5d50b405963a66efad280bc808b444dcc179bb67239c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/prakash-gupta-accepted-into-forbes-technology-council/",
+   "title": "Prakash Gupta accepted into Forbes Technology Council",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/prakash-gupta-accepted-into-forbes-technology-council/",
+   "text": "",
+   "hash": "23fbb275c4889264bd3806d133f4e4a5a9bf4dd39006a2ce88740cf1cbd2f3db",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-partners-with-isansys-to-make-remote-management-of-advanced-patient-monitoring-devices-possible/",
+   "title": "42Gears Partners With Isansys to Make Remote Management of Advanced Patient Monitoring Devices Possible",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-partners-with-isansys-to-make-remote-management-of-advanced-patient-monitoring-devices-possible/",
+   "text": "",
+   "hash": "0877ad9a1e5f3d1eb811641e4317ff88fba6e8eb9c5066a53327f02b99b57334",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-achieves-zebra-technologies-validation/",
+   "title": "42Gears Achieves Zebra Technologies Validation",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-achieves-zebra-technologies-validation/",
+   "text": "",
+   "hash": "17a2cbbdd8629c00ac7fd7fd050e6ca4a4f40a10fd50c5cc6880ed1c2068d1e3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-partners-with-posiflex-technology-india-pvt-ltd-to-enable-remote-management-of-pos-devices-and-peripherals/",
+   "title": "42Gears Partners with POSIFLEX Technology India Pvt. Ltd. to Enable Remote Management of PoS Devices and Peripherals",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-partners-with-posiflex-technology-india-pvt-ltd-to-enable-remote-management-of-pos-devices-and-peripherals/",
+   "text": "",
+   "hash": "ff9ada51acb478c3858acc6fdf4ffa6d71b4deed8e59aff70e0b2881e1cb7b53",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-introduces-a-multi-tier-multi-tenant-licensing-model-for-partners/",
+   "title": "42Gears Introduces A Multi-Tier, Multi-Tenant Licensing Model for Partners",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-introduces-a-multi-tier-multi-tenant-licensing-model-for-partners/",
+   "text": "",
+   "hash": "2926be779a288b05c351ec5c61181c58d1c41babf66b8ed7a37b6929dbd9c268",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-recognized-with-a-november-2019-gartner-peer-insights-customers-choice-for-unified-endpoint-management-tools-designation/",
+   "title": "42Gears Recognized with a November 2019 Gartner Peer Insights Customers’ Choice for Unified Endpoint Management Tools Designation",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-recognized-with-a-november-2019-gartner-peer-insights-customers-choice-for-unified-endpoint-management-tools-designation/",
+   "text": "",
+   "hash": "42e0fa6b3b885a35806a667e706516afee03232757b2e957efee49774945dc95",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-achieves-iso-270012013-certification-for-its-information-security-management-system/",
+   "title": "42Gears Achieves ISO 27001:2013 Certification for its Information Security Management System",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-achieves-iso-270012013-certification-for-its-information-security-management-system/",
+   "text": "",
+   "hash": "4271e2f7c9cf76947ec594638bd07e203b9b1acb8df6615566380dee68eb871d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-named-as-a-visionary-in-gartners-magic-quadrant-for-unified-endpoint-management-tools-2019/",
+   "title": "42Gears named as a Visionary in Gartner’s Magic Quadrant for Unified Endpoint Management Tools 2019",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-named-as-a-visionary-in-gartners-magic-quadrant-for-unified-endpoint-management-tools-2019/",
+   "text": "",
+   "hash": "ec2a79d031105b2c0fba54ac37580b308ac061b00c03dbd46ea501eb25d02198",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-secures-office-365-apps-with-enhanced-data-loss-prevention-features/",
+   "title": "Continue Reading",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-secures-office-365-apps-with-enhanced-data-loss-prevention-features/",
+   "text": "",
+   "hash": "c19d18c0f3c67b59936f243be8c4ed5ffac2830dad7f151a3c7df34fd06368f6",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launches-things-management-technology-to-manage-connected-devices/",
+   "title": "42Gears Launches Things Management Technology to Manage ‘Connected’ Devices",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-launches-things-management-technology-to-manage-connected-devices/",
+   "text": "",
+   "hash": "9862583aeff918eafb81667b1b38815e820477674e5866f3ee940a53a8c33279",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-announces-support-for-oemconfig/",
+   "title": "42Gears Announces Support for OEMConfig",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-announces-support-for-oemconfig/",
+   "text": "",
+   "hash": "9164f2d19e149bae3f67db32eee4c96d0af3d8d38987b25b636e3fcff723270a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-recognized-as-a-gartner-peer-insights-customers-choice-for-unified-endpoint-management-tools-two-times-in-a-row/",
+   "title": "42Gears recognized as a Gartner Peer Insights Customers’ Choice for Unified Endpoint Management Tools two times in a row",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-recognized-as-a-gartner-peer-insights-customers-choice-for-unified-endpoint-management-tools-two-times-in-a-row/",
+   "text": "",
+   "hash": "72b91366f8d2e53235913d0885b93b8931430375bcc601f60daa918a1ccd1ae0",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-takes-mobile-email-management-to-the-next-level/",
+   "title": "Continue Reading",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-takes-mobile-email-management-to-the-next-level/",
+   "text": "",
+   "hash": "c19d18c0f3c67b59936f243be8c4ed5ffac2830dad7f151a3c7df34fd06368f6",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/secure-mobile-office-365-applications-with-42gears-uem/",
+   "title": "Secure Mobile Office 365 Applications with 42Gears UEM",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/secure-mobile-office-365-applications-with-42gears-uem/",
+   "text": "",
+   "hash": "0f94fa71d5d8ad841fd52f466b89a696480ebaabbbd6064a802e2551796bfdb6",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/a-new-year-a-new-beginning-a-new-office-for-42gears/",
+   "title": "A New Year, A New Beginning, A New Office for 42Gears",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/a-new-year-a-new-beginning-a-new-office-for-42gears/",
+   "text": "",
+   "hash": "4de137f8c57d25354726079aac97f4e98f4b9e15ee395f7b9264622714e149b1",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-mobility-mea-partner-to-expand-business-in-middle-east-and-africa/",
+   "title": "42Gears, Mobility MEA Partner to Expand Business in Middle East and Africa",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-mobility-mea-partner-to-expand-business-in-middle-east-and-africa/",
+   "text": "",
+   "hash": "a6440da73f6c31eb350238289d6a787b1a782065ce0fa3a6eb9e0e983b49af67",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-chooses-pradeo-to-provide-next-level-mobile-threat-defense-to-its-uem-users/",
+   "title": "42Gears chooses Pradeo to provide next-level Mobile Threat Defense to its UEM users",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-chooses-pradeo-to-provide-next-level-mobile-threat-defense-to-its-uem-users/",
+   "text": "",
+   "hash": "da7c39cd96912491ca354a85efd8ff4b4d4bd565bdc09f50274db1fad65c41b8",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-unveils-virtual-reality-vr-headset-device-management/",
+   "title": "Continue Reading",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-unveils-virtual-reality-vr-headset-device-management/",
+   "text": "",
+   "hash": "c19d18c0f3c67b59936f243be8c4ed5ffac2830dad7f151a3c7df34fd06368f6",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-introduces-self-service-deepthought-chatbot/",
+   "title": "42Gears Introduces Self Service ‘DeepThought’ Chatbot",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-introduces-self-service-deepthought-chatbot/",
+   "text": "",
+   "hash": "8253bf627b8ef61704002f68f765e1604fbb8dc518f0092e4a1a4b64491551fe",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-uem-offers-support-for-apple-classroom-app/",
+   "title": "42Gears UEM Offers Support for Apple Classroom App",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-uem-offers-support-for-apple-classroom-app/",
+   "text": "",
+   "hash": "b81450ce13ebdb8b8603e6f8a9e3ffe30f49a49983c150515f29819f3781be1c",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-wins-mdm-mandate-for-lenovo-tablets/",
+   "title": "42Gears Wins MDM Mandate for Lenovo Tablets",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-wins-mdm-mandate-for-lenovo-tablets/",
+   "text": "",
+   "hash": "0b127d637beee7a147e916963dfdff8f6b8e50b0fe70e2caee2d0bdd07261b56",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launches-cosmos-partnership-program-to-facilitate-business-growth-for-partners/",
+   "title": "42Gears Launched ‘COSMOS’ Partnership Program to Facilitate Business Growth for Partners",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-launches-cosmos-partnership-program-to-facilitate-business-growth-for-partners/",
+   "text": "",
+   "hash": "6a3dcdb9a8e400f83e352b5c0f5fd6b49d1eaaf8709d3c168e4fca03e27f45dc",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-is-an-official-emm-partner-for-googles-new-zero-touch-enrollment/",
+   "title": "42Gears is an Official EMM Partner for Google’s Zero-Touch Enrollment",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-is-an-official-emm-partner-for-googles-new-zero-touch-enrollment/",
+   "text": "",
+   "hash": "9894b5cb9af04e08333320ff8a4f24e0fca3cd6ddc619ef07aa4e7e89e483b23",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-recognized-as-a-gartner-peer-insights-customers-choice-for-unified-endpoint-management-tools/",
+   "title": "42Gears Recognized as a ‘Gartner Peer Insights Customers’ Choice for Unified Endpoint Management Tools'",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-recognized-as-a-gartner-peer-insights-customers-choice-for-unified-endpoint-management-tools/",
+   "text": "",
+   "hash": "30079befb5ccf82e847df6a3935e3f4894cd58895c7dd6a7012cd8204c74dcf5",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/unistrong-is-now-a-42gears-oem-partner/",
+   "title": "UniStrong Is Now a 42Gears OEM Partner",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/unistrong-is-now-a-42gears-oem-partner/",
+   "text": "",
+   "hash": "25e22d31aefeb6bd9f63558e7407e1d7abb28c9926e4d6923bcf87633c8a100b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launches-skybase-a-community-engagement-platform/",
+   "title": "42Gears Launches ‘SkyBase’ A Community Engagement Platform",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-launches-skybase-a-community-engagement-platform/",
+   "text": "",
+   "hash": "7d3c95c3ddd69a8fa23dd360253c04655a8a8a3254d831bccc124b293fc9f0ac",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-is-now-an-official-samsung-kme-partner/",
+   "title": "42Gears is now an Official Samsung KME Partner",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-is-now-an-official-samsung-kme-partner/",
+   "text": "",
+   "hash": "73c00ab8f92917edbc6c0455d4092c6dbc44191c8204f2462ab73491f227aa01",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-positioned-as-a-visionary-in-gartners-magic-quadrant-for-uem-tools-2018/",
+   "title": "42Gears Positioned as a Visionary In Gartner’s Magic Quadrant for UEM Tools 2018",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-positioned-as-a-visionary-in-gartners-magic-quadrant-for-uem-tools-2018/",
+   "text": "",
+   "hash": "b3d84c28b9d2333dcf3afe66e3a2e20c087fc46a891af6c9e62c630fb87268fa",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-mentioned-independent-research-firms-now-tech-unified-endpoint-management-q2-2018-report/",
+   "title": "42Gears Mentioned In Independent Research Firm’s Now Tech: Unified Endpoint Management, Q2 2018 Report",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-mentioned-independent-research-firms-now-tech-unified-endpoint-management-q2-2018-report/",
+   "text": "",
+   "hash": "6e20ad5f4733659577dadc9162cde3cd6b309ef1aad0d008e96ad93658849238",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-uem-now-supports-linux-based-iot-gateway-management/",
+   "title": "42Gears UEM Now Supports Linux-based IoT Gateway Management",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-uem-now-supports-linux-based-iot-gateway-management/",
+   "text": "",
+   "hash": "4517c430e51513b1ab33c2cd8267c612c2627caea5dcbc48d70ce225f6b93031",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launches-astrocontacts-shared-contact-management-tool-teams/",
+   "title": "42Gears Launches AstroContacts – Shared Contact Management Tool for Teams",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-launches-astrocontacts-shared-contact-management-tool-teams/",
+   "text": "",
+   "hash": "0c9286e56d7ed5f5f7153267e4c579a5fe1e2d713117d41a29649d573bf47949",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-expands-wearable-app-management-horizon/",
+   "title": "42Gears Expands Wearable App Management Horizon",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-expands-wearable-app-management-horizon/",
+   "text": "",
+   "hash": "1a572650a06b75322867159a3ac0b7b57732d7bbae1434f7f205f7186341d522",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/mac-admin-42gears-uem/",
+   "title": "Be a Mac Admin with 42Gears UEM",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/mac-admin-42gears-uem/",
+   "text": "",
+   "hash": "0364169bf70b58639c1c572334331b8560771f016759a7456695719ce00ec95b",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-partners-barcotec-secure-rugged-devices-european-businesses/",
+   "title": "42Gears Partners with Barcotec to Secure Rugged Devices for European businesses",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-partners-barcotec-secure-rugged-devices-european-businesses/",
+   "text": "",
+   "hash": "498bbadcb3e0caf6c2efc4d5151d26a95af50f0c22f8509d3778572e46d80e3e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-unveils-uem-analytics-engine-business-insights-using-mobile-device-application-data/",
+   "title": "42Gears Unveils UEM Analytics Engine for Business Insights using Mobile Device and Application Data",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-unveils-uem-analytics-engine-business-insights-using-mobile-device-application-data/",
+   "text": "",
+   "hash": "d58aed38fd35e5481da80a603f538286679f7801d04f66fb4c71de9b1652f7a9",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/satin-creditcare-adopts-mobility-42gears-uem/",
+   "title": "Satin Creditcare Adopts Mobility with 42Gears UEM",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/satin-creditcare-adopts-mobility-42gears-uem/",
+   "text": "",
+   "hash": "41ba8f5dcb3a79be5bec4dfcf34a5ef26f57ab7c9072c7546511758e6201dedd",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-suremdm-best-mobile-management-software-2018/",
+   "title": "42Gears SureMDM The Best Mobile Management Software of 2018",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-suremdm-best-mobile-management-software-2018/",
+   "text": "",
+   "hash": "805ca1adb844654656c142d2f4899ccc9f6dcd39a019bb67f8618b7c18aad9f0",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launches-multi-user-profile-settings-surelock/",
+   "title": "42Gears Launches Multi User Profile Settings for SureLock",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-launches-multi-user-profile-settings-surelock/",
+   "text": "",
+   "hash": "185324dd214e4496cb3332d28e9c7ef5f57c44d5401c1100e7272f1ce9691a58",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-emm-now-supports-ios-screen-sharing/",
+   "title": "42Gears EMM Now Supports iOS Screen Sharing",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-emm-now-supports-ios-screen-sharing/",
+   "text": "",
+   "hash": "ea4550b7163a745868c9a003f1ebbb3236eeb4ed52364308be849d717985a295",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-expands-enterprise-mobility-umbrella-offer-unified-endpoint-management/",
+   "title": "42Gears Expands its Enterprise Mobility Umbrella to Offer Unified Endpoint Management (UEM)",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-expands-enterprise-mobility-umbrella-offer-unified-endpoint-management/",
+   "text": "",
+   "hash": "77fa5529d346ad2e495e9943b9de8e710cdf72a605a79d1493a44a523608048a",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-wins-mobile-star-awards-2017/",
+   "title": "42Gears Wins Mobile Star Awards 2017",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-wins-mobile-star-awards-2017/",
+   "text": "",
+   "hash": "aab96b92abaf9c0bb0a7df323879480a2dc60a4715af6a12b0c4d1b1c7e86cba",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-ranked-among-fastest-growing-companies-deloitte-technology-fast50/",
+   "title": "42Gears ranked among the Fastest Growing Companies by Deloitte Technology Fast50",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-ranked-among-fastest-growing-companies-deloitte-technology-fast50/",
+   "text": "",
+   "hash": "db70c5af1a8c4ab50f1ca372e8b5f5e0da813aa536afb7727fd00f2106064ba6",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/mrf-tyres-onboards-42gears-mobility-management-suite/",
+   "title": "MRF Tyres Onboards 42Gears Mobility Management Suite",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/mrf-tyres-onboards-42gears-mobility-management-suite/",
+   "text": "",
+   "hash": "8def37f7c91bc64c9c9956a4b1d03ca797160c8af523e8db8eccd9ff5398524c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-products-enhances-viewsonic-digital-signage-solution/",
+   "title": "42Gears Products Enhance ViewSonic Digital Signage Solution",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-products-enhances-viewsonic-digital-signage-solution/",
+   "text": "",
+   "hash": "bb5bad7df8d23704f50daa74aa021602f1f80e3da51fb5182637a9f3052d5528",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-mentioned-vendor-enterprise-mobility-management-suites-gartner-hype-cycle-ict-2017/",
+   "title": "42Gears mentioned as a vendor of Enterprise Mobility Management Suites in Gartner Hype Cycle for ICT 2017",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-mentioned-vendor-enterprise-mobility-management-suites-gartner-hype-cycle-ict-2017/",
+   "text": "",
+   "hash": "f94cab88063ee3b558689b2a6ef9f3ea4dd5be7aaf1c7401129c78e0e12d5044",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-enables-easy-one-touch-bulk-enrollment-zebra-devices/",
+   "title": "42Gears Enables Easy One-touch Bulk Enrollment for Zebra Devices",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-enables-easy-one-touch-bulk-enrollment-zebra-devices/",
+   "text": "",
+   "hash": "34f5fdbd037c72701a52633d979b22b320790a2899c6158afd9712e2c1f96230",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-pioneers-innovation-emm-launching-virtual-assistant-chatbot/",
+   "title": "42Gears Pioneers Innovation in EMM by Launching Virtual Assistant Chatbot",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-pioneers-innovation-emm-launching-virtual-assistant-chatbot/",
+   "text": "",
+   "hash": "8a0f299ee0ecb3bbd2092fb521527882ebcc031cf48d83f413852d17a0c2f1fd",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-partners-idat-manage-m-dats-fleet-dispatching-solution/",
+   "title": "42Gears Partners with IDAT to Manage M-DATS Fleet Dispatching Solution",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-partners-idat-manage-m-dats-fleet-dispatching-solution/",
+   "text": "",
+   "hash": "8f73a48d9a6c7c22f3f1692dc699e8f82a80f9015f90128a0486232ddd4ce432",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-introduces-support-for-linux-based-raspberry-pi-devices-to-enable-enterprise-iot-adoption/",
+   "title": "42Gears Introduces Support for Linux-based Raspberry Pi Devices to Enable Enterprise IoT Adoption",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-introduces-support-for-linux-based-raspberry-pi-devices-to-enable-enterprise-iot-adoption/",
+   "text": "",
+   "hash": "2ce8d94c1a1ed0b8dfc5b4590eadc5a2e1dac02d1a9b088b4d1cbfa100d314f0",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-mentioned-gartner-hype-cycle-unified-workspaces-2017-wearable-management-solution/",
+   "title": "42Gears mentioned in Gartner Hype Cycle for Unified Workspaces, 2017 for its Wearable Management Solution",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-mentioned-gartner-hype-cycle-unified-workspaces-2017-wearable-management-solution/",
+   "text": "",
+   "hash": "d740718a0e83ccedd7841121a129ba067d228272e4437743d3426b8ff7bc27b7",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-enters-uk-sets-office-manchester/",
+   "title": "42Gears Enters UK, Sets Up Office in Manchester",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-enters-uk-sets-office-manchester/",
+   "text": "",
+   "hash": "3b9f89b5b42d3c5f2f40ad4c361b90661bdab65ed5542a85ec07426fff5a06db",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-joins-scansources-s3-program/",
+   "title": "42Gears Joins ScanSource’s S3 Program",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-joins-scansources-s3-program/",
+   "text": "",
+   "hash": "937d7ec664c0b1e4b89f67b4f4e534c97492284ceae7b19dbeebafa170623bf7",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/breakthrough-in-restricting-iphone-and-ipad-data-usage-by-42gears/",
+   "title": "Breakthrough in Restricting iPhone and iPad Data Usage by 42Gears",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/breakthrough-in-restricting-iphone-and-ipad-data-usage-by-42gears/",
+   "text": "",
+   "hash": "8d0153d8a77ee579c6a8871c94e29e144b4eedbab70d788b76ab2a4549de266b",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/spectralink-joins-hands-with-42gears-as-an-oem-partner/",
+   "title": "Spectralink Joins Hands with 42Gears as an OEM Partner",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/spectralink-joins-hands-with-42gears-as-an-oem-partner/",
+   "text": "",
+   "hash": "db598b218081c8fe92b741778a86d3b12c829446a926b3925746a127d9761034",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-cited-gartner-magic-quadrant-enterprise-mobility-management-2017/",
+   "title": "42Gears Cited in Gartner Magic Quadrant for Enterprise Mobility Management 2017",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-cited-gartner-magic-quadrant-enterprise-mobility-management-2017/",
+   "text": "",
+   "hash": "e0d406bfb81d62fce91e997d2997e466a86ecb5ac5a43bff56626c2c3084a5f2",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-celebrates-8th-year-anniversary-expanding-social-responsibility-program/",
+   "title": "42Gears Celebrates 8th Year Anniversary by Expanding its Social Responsibility Program",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-celebrates-8th-year-anniversary-expanding-social-responsibility-program/",
+   "text": "",
+   "hash": "0d05a7740cae675f15cabbdcb38101d04735696b70f32ce604eb3d1b348e2c53",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launched-surevideo-windows-10-devices/",
+   "title": "42Gears Launched SureVideo For Windows 10 Devices",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-launched-surevideo-windows-10-devices/",
+   "text": "",
+   "hash": "7f2e76f45877937481e91ae79a756f88e8bcbd5705d0686253f93d2f668894ed",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-wins-india-emerging-twenty-ie20-2017/",
+   "title": "42Gears Wins India Emerging Twenty (IE20) 2017",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-wins-india-emerging-twenty-ie20-2017/",
+   "text": "",
+   "hash": "8dce72ab1ff5e80d42c116ee3d0d722d4a600c6b0304d4d0678460720b36439a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-solves-alkems-long-standing-problem-of-field-device-misuse/",
+   "title": "42Gears solves Alkem’s long-standing problem of field device misuse",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-solves-alkems-long-standing-problem-of-field-device-misuse/",
+   "text": "",
+   "hash": "91e339d375e9ba7cfb97a7df6589d821d3e3ea008ac18d05839439a87792492e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-launches-wearable-management-solution-for-enterprises/",
+   "title": "42Gears Launches Wearable Management Solution for Enterprises",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-launches-wearable-management-solution-for-enterprises/",
+   "text": "",
+   "hash": "8825da2dcb6b158f263bd78dcc770d8cb349135de97e79481e7653624f4d9444",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/onkar-singh-founder-of-42gears-wins-emerging-entrepreneur-award-by-cii/",
+   "title": "Onkar Singh, Founder of 42Gears Wins Emerging Entrepreneur Award by CII, 2016",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/onkar-singh-founder-of-42gears-wins-emerging-entrepreneur-award-by-cii/",
+   "text": "",
+   "hash": "65b6a7996cd4aad1fe07bbaaa738d2ee3ae9fe0ba1cf42012d384a4c15c373ae",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-emm-solution-provider-gartner-report-mobile-digital-business-opportunities/",
+   "title": "42Gears listed as an EMM Solution Provider in Gartner Report on Mobile Digital Business Opportunities",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-emm-solution-provider-gartner-report-mobile-digital-business-opportunities/",
+   "text": "",
+   "hash": "b0dde6ca6a5b92667a1e98697693f31e2d9acd9c0a2583d6eb6e9b8a4ba2f1da",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-and-tvs-announce-partnership/",
+   "title": "42Gears and T&VS announce partnership for Selling Enterprise Mobility Management Solution in the APAC Region",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-and-tvs-announce-partnership/",
+   "text": "",
+   "hash": "1d3e6ed3bf696bf5d59de03d63ce59e44cd0db0a68922384493db494d3a5d0cf",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-joins-googles-android-for-work-program/",
+   "title": "42Gears joins Google's Android for Work program to increase Android device adoption for businesses",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-joins-googles-android-for-work-program/",
+   "text": "",
+   "hash": "e8334de25c1e603db9e490bd4a64e43c7779ba650373bfadeb277d9a8d4539af",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-deloitte-tech-fast50-india/",
+   "title": "42Gears Ranked among the Fastest Growing Technology Companies on the Deloitte Tech Fast50 India second time in a row",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-deloitte-tech-fast50-india/",
+   "text": "",
+   "hash": "bb27208baa725ea10c9170d285e96279ee5d5bfe0732aa72a3c4da67ce2580ba",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/42gears-listed-as-sample-vendor-gartner-hype-cycle-2016/",
+   "title": "42Gears Mobility Systems listed as a \"Sample Vendor\" in Gartner Hype Cycle for ICT in India",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/42gears-listed-as-sample-vendor-gartner-hype-cycle-2016/",
+   "text": "",
+   "hash": "df6e06257ba77df0d967c88cfd6ba92756b19fa83dd265af5c7844ffb8185be0",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/education-start-up-learnpedia-uses-42gears-product-for-fun-filled-learning/",
+   "title": "Education start-up Learnpedia uses 42Gears product for fun-filled learning",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/education-start-up-learnpedia-uses-42gears-product-for-fun-filled-learning/",
+   "text": "",
+   "hash": "e485f70f09432a5c2894f6dacc73f108b5d96ae8ce20c251b33bad8667e39a8d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.42gears.com/press-releases/the-rees-hotel-queenstown-deploys-42gears-solution-to-automate-in-room-services/",
+   "title": "The Rees Hotel Queenstown Deploys 42Gears Solution to automate in-room Services",
+   "date": null,
+   "url": "https://www.42gears.com/press-releases/the-rees-hotel-queenstown-deploys-42gears-solution-to-automate-in-room-services/",
+   "text": "",
+   "hash": "fd7e1c565388fb2994c13d8ac6c4bffb168143ebe9223102c4d6550f13543dfa",
+   "windows": "none"
+  }
+ ]
+}

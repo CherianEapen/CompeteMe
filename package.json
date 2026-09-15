@@ -1,0 +1,19 @@
+{
+  "name": "mobicontrol-competitor-watch",
+  "version": "1.0.0",
+  "description": "Weekly competitor intelligence for the SOTI MobiControl Windows team",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch": "node scripts/fetch.mjs",
+    "report": "node scripts/build-docx.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module",
+  "private": "true",
+  "dependencies": {
+    "docx": "^9.7.1",
+    "node-html-parser": "^9.0.4"
+  }
+}

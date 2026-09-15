@@ -1,0 +1,617 @@
+{
+ "id": "ivanti-quarterly-releases",
+ "vendor": "Ivanti",
+ "kind": "html-blocks",
+ "fetchedAt": "2026-09-15T07:45:50.577Z",
+ "meta": {
+  "pages": [
+   "https://www.ivanti.com/releases/2026/q3",
+   "https://www.ivanti.com/releases/2026/q2"
+  ]
+ },
+ "items": [
+  {
+   "key": "2026 Q3 :: Tech Preview — MCP (Model Context Protocol) Server access",
+   "title": "Tech Preview — MCP (Model Context Protocol) Server access (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Enables natural-language interaction with operational data to improve the relevance and accuracy of AI-driven outputs. Initial capabilities focus on grounding AI insights in platform context, with broader real-time interaction and actionability evolving over time.",
+   "hash": "a298201f8c597c6ae062330e10e562ef2a0018069b3061a38c857e7d0425740d",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Tech Preview — Connected AI-Assisted Workflows",
+   "title": "Tech Preview — Connected AI-Assisted Workflows (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Brings together a set of AI-assisted capabilities that help teams investigate, automate, and take action more efficiently across the platform through assistive, opt-in, and admin-controlled AI experiences:\nAI-Powered Device Query Builder — Uses natural language to generate accurate device queries, reducing manual effort and accelerating investigation.\nAI-Powered PowerShell Stages — Enables AI-assisted script creation and execution within workflows, simplifying automation.",
+   "hash": "d94fcfa638cb23f6139ac41a011b40ab5e9fec1c6899b0647dd06f3d8c9043fd",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q3 :: Digital Experience Management",
+   "title": "Digital Experience Management (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Non-Persistent VDI support extends into the Edge Intelligence UI, ensuring a cohesive platform experience as Ivanti continues to embrace virtual desktop environments. The real-time dashboard, targeting, and device landing page behavior have all been updated to reflect non-persistent device properties, giving IT teams accurate visibility and consistent management across both physical and virtual endpoints. Whether your workforce runs on persistent or non-persistent infrastructure, Workspace now delivers the same powerful experience across the board. From group-based role assignments with SCIM support to enhanced Software Usage tracking and License Manager filtering, DEX gives modern IT teams the visibility and control they need to support distributed workforces with confidence.\nRelease Notes",
+   "hash": "4ef7ee1133b8389b4e7bb778f1a6a44e5f522184e766da6dfeeedde5c592239d",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Unified Endpoint Management",
+   "title": "Unified Endpoint Management (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "OS Provisioning eliminates the need for EPM migration SKUs and brings Windows OS reimaging natively into the Neurons platform. Powered by Vboot, the Neurons agent can now boot a system, wipe the hard drive, and deploy a fresh Windows OS, all without additional tooling or infrastructure. Partitioning, OS image deployment, and Neurons agent enrollment are consolidated into a single OSD workflow, giving IT teams a faster, simpler path to remediating compromised or degraded devices at scale.\nRelease Notes",
+   "hash": "515b9e98b64feee6e5f508a158c4429ebe145dc578f2d4001254e36b9263cee2",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q3 :: Mobile Device Management",
+   "title": "Mobile Device Management (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Administration/Platform:\nRefreshed lefthand navigation is significantly more intuitive for systems administrators to find the functions they need. This navigation makes it easier to move between workflows and discover additional capabilities.\nExpanded cloud connector support includes Hyper V and Nutanix Hypervisor.\nPhased rollout of Ivanti Neurons configuration (Tunnel/Wi-Fi).\nApple:\nDDM Application management.\nStandalone DDM restrictions for Siri, External Intelligence, and Keyboard.\nDEP token sync notification.\nSupport for forthcoming Apple OS 27 releases.\nAndroid:\nImproved end user setup for Google BeyondCorp, including device identification improvements.\nEnhancements to how errors are detected and reported when security patches are deployed, with more details for system admins.\nContinuously monitor SIM card status, alerting admins in real time if a card is removed/replaced.\nMigration experience that makes it easy to move from Managed Google Play Account to a Google Managed Domain.\nEnable admin access to settings while a device is in single-app kiosk mode.\nGlobal proxy support standardization that is consistent with management of Apple devices.\nRelease Notes",
+   "hash": "e938c29331858d93414ef3e04edb10c5a81a7b4091d8af09a66898acc6b4e18b",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q3 :: Endpoint Manager",
+   "title": "Endpoint Manager (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Security\nFixed vulnerabilities and released monthly patches to enhance product security.\nWeb Console 2.0\nIntroduced Web Console 2.0, enabling end-to-end query management within a fully web-based workflow.\nReduces context switching and improves productivity by consolidating workflows into a single, seamless interface.\nEnhances overall user experience with a streamlined, web-based design.\nRelease Notes",
+   "hash": "6a643956b3a1f68dd6771b7ca994fde27ba1c71ed2480d9d08a3b82ac041e570",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q3 :: Patch Management",
+   "title": "Patch Management (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Autonomous Patch Management delivers Oracle Linux 10 support and a variety of usability enhancements including: ring-level patch visibility, automatic retry count resets, recategorized patch statuses that eliminate false failure signals, multi-select across pages for bulk actions, large data exports up to 100,000 advisories, average compliance scoring, expanded comment fields, and clearer ring status labels.\nRelease Notes",
+   "hash": "c8916feae5293b4b5d32873ba9e8067eb0f88e1239d54053b28e8fb0249b21c6",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Predictive Remediation",
+   "title": "Predictive Remediation (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Introducing Predictive Remediation, helping teams anticipate where compliance goals will slip, uncover remediation blockers early, prioritize by real risk impact, not just CVSS, and act before deadlines close, all within a single system of record that connects asset visibility, risk signals, and patch execution.\nRelease Notes",
+   "hash": "9cc023a012e4269af155b595402957d72e906834bcbdd5ed69cff2b6784d99e0",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Endpoint Manager Mobile (EPMM)",
+   "title": "Endpoint Manager Mobile (EPMM) (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Administration/Platform:\nExpanded cloud connector support includes Hyper V and Nutanix Hypervisor.\nApple:\nToggle restrictions for easy deployment of restriction payloads.\nStandalone DDM restrictions for Siri, External Intelligence, and Keyboard.\nBeta OS version management is now easier to target and deploy to prevent mis-assignment of beta updates.\nSupport for forthcoming Apple OS 27 releases.\nAndroid:\nSerial numbers are included in admin portal, expanding ways admins can search for devices in the ecosystem.\nUnattended Help@Work enabled.\nRelease Notes",
+   "hash": "e66b4b0a7379e1306f19e94758d8b434e0b244c6ad8eefda1153fbc9f43bc2a7",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q3 :: Secure Productivity Apps",
+   "title": "Secure Productivity Apps (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "FIPS compliant cryptography across Docs@Work and Web@Work apps, AppConnect.\nEmail+: Migration from Exchange Web Services to Graph API for Office365, FIPS compliance.\nIvanti Go: Enforce approved email client and browser for opening any work-related company links or attachments. End users receive feedback on forced device check-in letting them know request is being processed. Tunnel integration into the Ivanti Go client for Android.\nSentry: Enhanced syslog for more focused analysis of events; Nutanix AHV Hypervisor support; Splunk upgrade support.\nTunnel: Integration into Ivanti Go app for Android.\nRelease Notes",
+   "hash": "a517166dd8f9a42b84f91638498897ddf8b6d74b8d912c435e2a08f5b480aaf0",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Patch Content Catalog",
+   "title": "Patch Content Catalog (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Coverage keeps growing: new products and major versions are added regularly to the patch content catalog. Have a request? Submit and vote on priorities directly in Aha! to help shape what's next.\nLearn More",
+   "hash": "36ee181a3e7947a0be3d84846ee418ec20202156550335abcde8d941d3b0ee8f",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Security Controls (ISeC)",
+   "title": "Security Controls (ISeC) (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "ISeC now supports Oracle Linux 10 patching and auto-detects Microsoft checkpoint update chains, delivering one controlled reboot for end users and faster, higher first-pass success for admins.\nRelease Notes",
+   "hash": "021340ece7ae9e644cd2bb5e86bd2659c7f2b91352f2c2e40a270bc8277e238c",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Application Control & Privilege Management",
+   "title": "Application Control & Privilege Management (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "AI Assistant (Tech Preview) brings generative AI to rule creation and dramatically reduces the time and expertise required to configure and maintain application controls. Administrators can now describe a use case in plain language and receive a draft rule item generated by AI, ready for review and approval before deployment. By streamlining one of the most resource-intensive parts of the App Control implementation process, this innovation lowers the barrier to strong security posture and accelerates time-to-value for teams of all sizes.\nRelease Notes",
+   "hash": "f1494f17fa8a17cb3c1c29beb43941ae2969e544a8bf2b67525b00c547d62c34",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: User Workspace Manager",
+   "title": "User Workspace Manager (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Configuration Management brings version control and lifecycle management to UWM configurations directly within the Neurons platform. IT teams can now delete, promote, and roll back configuration versions with ease. This eliminates the risk of unintended changes and unblocking migrations for UWM Hybrid customers. This flexible configuration management capability is a critical step forward in aligning UWM with the broader Neurons policy architecture and giving administrators the control they need to manage complex environments with confidence.\nRelease Notes",
+   "hash": "37c4622aeed928ce1842f32cef040fb5c0fe3616f94446dd22c44963509bd300",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Risk-based Vulnerability Management (RBVM)",
+   "title": "Risk-based Vulnerability Management (RBVM) (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Ivanti Neurons for RBVM brings new platform improvements, including updates to the Policy Compliance widget that make compliance posture review faster. RBVM also features updates to integrations, such as enhancements to Orca and the introduction of ITSM CMDB, which helps RBVM users prioritize and organize assets and findings.",
+   "hash": "cd2e89c10059058d164bd66b7c37bed20c83f6527ca575a6a79f73c00e247443",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Application Security Posture Management (ASPM)",
+   "title": "Application Security Posture Management (ASPM) (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Ivanti Neurons for ASPM brings new platform improvements, including updates to the Policy Compliance widget that make compliance posture review faster. ASPM also features updates to integrations, such as enhancements to Orca.",
+   "hash": "8cdb967970e7e1d909159e27741385cb29943a0e5b7f12e0da1e213941f73542",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Vulnerability Knowledge Base",
+   "title": "Vulnerability Knowledge Base (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Leverage in-depth insights into critical vulnerabilities through updated system views.",
+   "hash": "34c3d74ee34b02a95f49e49ef0d97c0b3d0914e51eb962e03bf1c485b8056204",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Connect Secure",
+   "title": "Connect Secure (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "ICS 25.1.3.0 advances the secure access foundation with expanded automation and enhanced operational visibility across deployment environments. Customers gain broader API coverage with Postman collections, REST-based diagnostics, and capabilities that simplify troubleshooting, session management, and configuration workflows. Admins can create, update, and delete multiple ACLs in a single request and run them in batches using PATCH API, enabling more scalable bulk policy management. New support for OAuth group-based role mapping and FIDO2-based authentication strengthen identity security, while ACME for automated certificate lifecycle management and HTTP/2 ingress enhance scalability and performance. Additional enhancements—including IPv6 support for Default VLAN ID, websocket proxying, and secure boot with vTPM in AWS and GCP—improve flexibility, resilience, and system integrity, helping organizations prepare for larger, more dynamic deployments.\nRelease Notes - Version 25.1.3.0",
+   "hash": "1afd840330a08865134d6f57090b6155f7540a73fde4dd7a8893b6c78382563a",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Secure Access",
+   "title": "Secure Access (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Ivanti’s cloud-based management solution continues to enhance gateway lifecycle management, scalability, and operational control across distributed environments. Improvements to gateway upgrade workflows, including CDN-based delivery and validation enhancements, streamline upgrade reliability and reduce operational risk. Expanded tenant and subtenant management, along with new licensing frameworks—including support for cloud storage—span Ivanti Neurons for Secure Access and Zero Trust Access, improving flexibility and governance across multi-tenant environments. Together, these enhancements improve flexibility and governance while supporting more consistent, policy-driven access management. New capabilities for scheduled and staged upgrades provide greater control and resilience in maintaining secure access infrastructure. Additionally, early advancements in AI-driven UEBA-based threat detection help reduce alert fatigue by improving detection precision. Together, these enhancements support service providers and distributed organizations operating at scale.\nRelease Notes",
+   "hash": "5d2f09ba37651f5ed28a6154f6d7320ce0fab58070d3d477db3e7ee2b4038e18",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: ZTA",
+   "title": "ZTA (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "ZTA Gateway 25.1.0.0 strengthens Zero Trust deployments with improved scalability, resilience, and operational control. Enhancements including dynamic IP pool support, gateway group stabilization, and ESAP package management expand deployment flexibility and simplify administration. Updates such as tenant admin auditing and the introduction of a feature licensing framework improve governance, compliance visibility, and modularity across ZTA deployments. Foundational infrastructure updates—including AAA migration to NGINX—further modernize, while real-time visibility into ISAC endpoint connection status improves operational awareness and troubleshooting, delivering a more resilient, efficient, and scalable Zero Trust environment.\nRelease Notes",
+   "hash": "9115408e775130c202bcec59925721c0371b52a73b2fcc41718f27f754cbb3c0",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Secure Access Client",
+   "title": "Secure Access Client (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "ISAC Desktop:\nISAC Desktop introduces expanded capabilities to enhance security, deployment flexibility, operational visibility, and user control across environments. Industry-first support for Microsoft Windows Hello for Business (WHFB) allows users to authenticate VPN connections using their Windows login, streamlining access to both Microsoft Entra ID and Active Directory resources while improving the sign-in experience. Native packet capture functionality enhances troubleshooting and diagnostic accuracy by eliminating reliance on third-party tools and providing built-in visibility into both L3 tunneled and non-tunneled traffic, with controls to start, pause, resume, and stop packet capture as needed.\nThis release also improves security posture and deployment flexibility through optional installation of Ivanti Secure Access Client (ISAC) helper components, such as PSAL and SetupClient, allowing organizations to maintain a lighter installation footprint while deploying updates independently. User experience enhancements, including new Connect and Disconnect controls and Split DNS enable/disable configuration options supported for Windows ISAC, provide greater usability and administrative control. Support for Linux RHEL 10 and Fedora 43 further expands compatibility across modern enterprise environments.\nRelease Notes\nISAC Mobile:\nIn the Q3 2026 release, ISAC Mobile enhances mobile access security with the addition of FIDO2 passwordless authentication and U2F support across Android and iOS, enabling phishing-resistant, standards-based authentication. These capabilities improve both security posture and user experience by reducing reliance on traditional credentials. Additional platform readiness updates—including Day Zero support for Android 17—ensure continued compatibility and performance as mobile ecosystems evolve, delivering a more secure and future-ready mobile access experience.\nRelease Notes - ISAC Mobile for iOS\nRelease Notes - ISAC Mobile for Android",
+   "hash": "12a4591265ccc1cb49d4c932060ba13f10097af56b5267023912a70e727adc1d",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q3 :: Application Delivery Controller (vADC)",
+   "title": "Application Delivery Controller (vADC) (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "vADC enhances traffic management, security, and administrative control across application delivery environments. Updates to Services Director modernize centralized management while added MFA support for Virtual Traffic Manager (vTM) administrators and stronger protections for custom scripts enhance overall security posture. A new load balancing algorithm coming soon will improve traffic efficiency and performance. These updates provide customers with more efficient traffic handling, improved governance, and stronger protection for critical application delivery infrastructure.\nRelease Notes - VTM\nRelease Notes - SD",
+   "hash": "454aa5514ca2192328029cb180d8095edab8cc1a9501bb645eb8457952e5568b",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: NAC - Policy Secure & Profiler",
+   "title": "NAC - Policy Secure & Profiler (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "NAC - Policy Secure and Profiler advances modernization with continued Oracle Linux Migration (OLM) migration and support for new ISA appliances with 25.X software, aligning network access control with the latest secure access architecture. Together, these updates strengthen compatibility with modern infrastructure while improving resilience and manageability for enterprise network access control environments.\nRelease Notes",
+   "hash": "33f9b83c59d4a896fe0783bac2961dcada25de789eb0c9f33a06ed608ba0bd7d",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Velocity Platform",
+   "title": "Velocity Platform (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Operations teams can now use location services within the Velocity client to record key info such as vehicle, delivery and service locations.\nRelease Notes",
+   "hash": "19809726ce0ccf14157ab4ddc7b4201f299b6ab6478abff7d9a7046586f60a93",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Velocity Forms",
+   "title": "Velocity Forms (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Our latest release includes routing Velocity Forms to SharePoint, and expanded conditional controls.\nRelease Notes",
+   "hash": "b4c605101dc401659a8f34a44c25844cf56349f0580eaa038698975aeea4c613",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q3 :: Ivanti Advantage Learning",
+   "title": "Ivanti Advantage Learning (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "New training releases this quarter delivered expanded learning opportunities across Connect Secure, EPM, ITSM, ITSM Developer, and RBVM, providing customers with updated resources to strengthen skills and accelerate adoption.",
+   "hash": "a9dc7027af645e02ae79b3d45794c07a038f0ca748b25a8669166632ee341d36",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q3 :: Ivanti Neurons Platform - Consultant - Certification Update",
+   "title": "Ivanti Neurons Platform - Consultant - Certification Update (2026 Q3)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q3",
+   "text": "Updating the Neurons Platform/Neurons Patch Consultant Certification training to included all the updates and changes that have been made over the last year.",
+   "hash": "0381f7549b6daf7254dd14b67deb77b78919763f8457434868461ca0dba213be",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Neurons for UEM / DEX",
+   "title": "Ivanti Neurons for UEM / DEX (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Ivanti Neurons for DEX empowers IT teams to deliver exceptional workplace experiences through AI-driven insights, proactive healing, and comprehensive device management. New powerful AI capabilities enable IT to anticipate issues before they impact productivity. From intelligent query building to proactive device healing, Neurons for DEX delivers the tools modern IT teams need to support distributed workforces at scale.\nRelease Notes",
+   "hash": "9277df414525d4d94775deb7e0cdf73e306d7a7b0edcf65c4dc39c2d7f475e6d",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Neurons for Healing",
+   "title": "Ivanti Neurons for Healing (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Healing takes automation to the next level with intelligent safeguards and expanded capabilities that protect your environment while accelerating issue resolution. New Bots Transaction safeguard on scheduled bots limits the potential blast radius when group rules change, ensuring your automated healing workflows remain safe and predictable at scale. We've enhanced the bot creation experience with improved UX and added flexibility through additional content options and workflow stages, enabling IT teams to resolve issues automatically before employees are impacted.\nRelease Notes",
+   "hash": "d864b1c163d24f74fa147b5f9f3fbd4f139ff2ce5f99de7f67a5ef89e4811a1e",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Neurons Workspace",
+   "title": "Ivanti Neurons Workspace (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Workspace puts you in command of your IT automation with enhanced transparency and control. The new Execution History feature reveals who ran which script, providing the audit trail and accountability modern IT operations demand. Enhanced inventory scanner settings give you finer control over data collection and device profiling, ensuring your team has the visibility needed to operate with confidence and maintain compliance across distributed environments.\nRelease Notes",
+   "hash": "3d7ed9cbcff61178d02a03d1ace10f25be3603bcae52677e2a5f11ae79153af9",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Neurons for MDM",
+   "title": "Ivanti Neurons for MDM (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "We’ve introduced an EU sovereign edition independently operated in sector27’s cloud data center in Germany. Check out our press release for more information about Ivanti Neurons for MDM – Sovereign Edition – EU.\nAdmins can force device check-in when switching between cellular and Wi-Fi connections, and get better visibility into device OS build versions with improved filtering. Support for IPv6 and Azure hosting cloud connectors are also introduced.\nApple:\nAdmins can set a minimum OS version level for enrollment.\nPasscode management has migrated into Apple DDM. Admin unlock macOS devices via PIN, making it easier to mitigate lockouts if an end user leaves the organization.\nWithin the IvantiGo app, a Return to Service button allows quick wipe and re-enrollment of shared devices. The BYOD environments can enable specifics for default mail and browsers clients for iOS devices.\nWe have also implemented a HotFix for Apple Business Manager migrations to the platform.\nAndroid:\neSIM installation and activation are incorporated into the device management workflow, allowing organizations to further standardize provisioning, reduce manual effort and maintain control across the mobile ecosystem.\nGoogle Beyond the Enterprise zero-touch (re)provisioning is introduced, as well as NFC lockdown control and enhanced certificate signing.\nAdmins can also remotely clear application cache to free up storage and improve app performance.\nWindows:\nGoogle BeyondCorp support is introduced.\nRelease Notes",
+   "hash": "ab4c57f467989f893e44b7f608ed21154ccd7648e1b2d089bf28a34ad68d4a51",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Endpoint Manager",
+   "title": "Ivanti Endpoint Manager (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Scheduled to be released on Patch Tuesday, May 12th.",
+   "hash": "8dc46ca073f143d25e0dee373d4a4b1f2c32aa78d485438925f22c018c8adb5c",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Endpoint Manager Mobile (EPMM)",
+   "title": "Ivanti Endpoint Manager Mobile (EPMM) (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Apple:\nOrganizations employing Apple’s Volume Purchase Program (VPP) are advised to migrate to the new VPP APIs for both the admin console and client in order to get all of the latest features and ensure compatibility.\nFor iOS26, the Neurons for MDM client now supports Apple’s Liquid Glass user interface.\nAndroid:\neSIM provisioning is now supported, making it easier to deploy or change cellular plans on managed devices.\nRelease Notes",
+   "hash": "4f93763419df114b595b470fb51c4964044c4ee54957e0367c2409fd17fec954",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Mobile Threat Defense",
+   "title": "Ivanti Mobile Threat Defense (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Admins can enable/disable Smishing (SMS-phishing) controls for iOS and Android devices through the EPMM and Neurons for MDM consoles.\nRelease Notes",
+   "hash": "b67aba453c867d597bf1e7840488a4433a0aa128756dc12d6c3267b400dc6aff",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Neurons for Patch Management",
+   "title": "Ivanti Neurons for Patch Management (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Our new Continuous Compliance feature transforms patch management from scheduled tasks to always-on security. Automatically catch devices that miss maintenance windows and deploy out-of-band to close compliance gaps, with no more manual scrambling. Ubuntu Linux moves to general release, we've added RHEL 10 support, and checkpoint cumulative updates now deploy with a single reboot. Plus: enhanced search, support for sideloaded files over 650 MB, and smarter update handling. Meet regulatory requirements with confidence while freeing your team from time-consuming manual interventions.\nRelease Notes",
+   "hash": "57f479769483a33953041023c83890caad10155371bfd3ef9bfd304d4c12232f",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q2 :: EPM Patch and Endpoint Security",
+   "title": "EPM Patch and Endpoint Security (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "EPM patching now natively supports checkpoint updates, automatically detecting and deploying them as a unified workflow. Your end users experience just one reboot instead of multiple disruptions, while you benefit from faster deployments with reduced bandwidth. All within your existing patch management process -- no additional configuration required.\nRelease Notes",
+   "hash": "8a7e101a414110bfd4b19bf5a68681c092054e0600612cc99299e2cd1a4d418c",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q2 :: Patch Content Catalog",
+   "title": "Patch Content Catalog (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "The patch content catalog remains a cornerstone of our innovation, with continuous expansion across supported products. This quarter brought substantial Adobe coverage, reflecting our commitment to the tools your teams rely on daily. We're adding new products and major versions regularly—and your voice matters. Submit and vote on requests in Aha! to shape our priorities.\nLearn More",
+   "hash": "a79a2361ce34ccef1a6b1babfef6addd190db0dc1000fa20c172eed220a8c1df",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Security Controls (ISeC)",
+   "title": "Ivanti Security Controls (ISeC) (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Coming in May: Patch Ubuntu Linux endpoints alongside Windows from a single console. With contentless scanning and patch deployment for Ubuntu 22 and 24, you can manage one of the most widely used Linux distributions across desktops, servers, and cloud without switching tools. Unified visibility, unified control, simplified operations.\nRelease Notes",
+   "hash": "2f5c8c12f8ccebdc1ab1a611951cf3104dc99a19a350a250d986495afded991d",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Neurons for App Control",
+   "title": "Ivanti Neurons for App Control (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Ivanti Neurons for App Control redefines application security with intelligent privilege management and automated protection mechanisms. New System Controls deliver sophisticated privilege management capabilities, while Signature items provide trusted application identification and Trusted Owner Modifications streamline approvals for legitimate software updates. App Control intelligently enables productivity while maintaining the security posture.\nRelease Notes",
+   "hash": "915a20866c7096e5bb582079c618624019add747a3b2eda1a4fc91b54be5cd98",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti User Workspace Manager",
+   "title": "Ivanti User Workspace Manager (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Enhancements to Ivanti User Workspace Manager include support for UWM solution agents on Windows ARM and Intel devices. Plus support in Evironment Manager for configuration of MSIX packages via a new Publish MSIX Packages action. This expanded device support and packaging capability enable teams to manage diverse hardware environments and streamline application deployments from a single console, reducing complexity and administrative overhead.\nRelease Notes",
+   "hash": "03ad0042f7cbf8b9b878b47a9e31531247b21a0830a7222d33dcf1eebd0d0907",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q2 :: Sentry",
+   "title": "Sentry (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Security improvements include introduction of SE Linux Framework.",
+   "hash": "8ce9ea06fa5284563ccec36a70a58fc52628e5c32a737e8b87269579b0e7bf9a",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Tunnel",
+   "title": "Tunnel (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Updated Mobile Threat Defense SDK for Android has been added.",
+   "hash": "46f7e8819b0dd8099454db2beca9fb9de2a9bac290f28568c5993909fb96e8c6",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Secure Productivity Apps",
+   "title": "Secure Productivity Apps (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Email+: iOS enhancements include Liquid Glass UI support, and simplified review of calendar invites. Microsoft Teams meetings can now be included in invites sent from Android devices.\nAppConnect: Support for Apple’s SwiftUI is now available.",
+   "hash": "256dad9237015d2fc7e5d794baf6ceac8e5e2de241d77fc40440ea7711af9541",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti's Agentic AI solution for ITSM",
+   "title": "Ivanti's Agentic AI solution for ITSM (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "With the controlled release of Ivanti Neurons AI self-service agent, teams move beyond conversational intake to autonomous resolution, with built-in guardrails for policy, approvals and data context. Designed to transform traditional IT service workflows, the Agentic AI solution delivers real-time insights and remediation, by enabling faster resolution, deflecting tickets and measurable improvements in efficiency, speed and user satisfaction. This feature will not be enabled automatically. Customers can request the addition of this exciting capability to their existing environment.\nRelease Notes",
+   "hash": "080af9f93f5e5c5eabe2d2d5bb5eed221b2cb21198c342357371886ca9c1632d",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Neurons for ITSM",
+   "title": "Ivanti Neurons for ITSM (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Q2 2026 brings broad UX and platform improvements designed to reduce friction and accelerate adoption. Analysts benefit from NLP-powered list view search, configurable quick filters with team sharing, and a layout migration utility that makes moving to the modern experience effortless. Self-service users get smarter forms with multi-column layouts, persistent alert banners, and configurable status tracking tailored to their workflows. On the platform side, Dashboard v2 enhancements offer greater data visualization control, while custom package rollback and workflow reuse give admins safer deployments and less redundant configuration work.\nRelease Notes",
+   "hash": "de3cdda1bb1a03a3eea8c18508482a102df150dd2c6ffb37776e6b4709ebe093",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Neurons for ITAM",
+   "title": "Ivanti Neurons for ITAM (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Updates to Ivanti Neurons for ITAM delivers focused ITAM improvements that reduce friction and sharpen visibility. Consumables management gets smarter with single line item grouping and partial PO receipt support, bringing it in line with ITSM asset workflows. And with configurable incident alerts on the CI Map, teams get richer context by surfacing open and closed incidents directly alongside configuration items.\nRelease Notes",
+   "hash": "f9341be94319f668d695a3dbbec30d945dd854fb68163b88225481c5f83aa1a8",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Connect Secure",
+   "title": "Ivanti Connect Secure (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "ICS 25.1.2.0 will deliver the secure software foundation for the new ISA6500 and ISA8500 appliances, enabling the hardware to operate with modern security protection. Running on the hardened, modernized operating system introduced for the new ISA architecture—including SELinux enforcement, enhanced kernel‑level defenses, and boot-time protection —this release will provide strong system integrity and resistance to memory‑based attacks. Paired with the enhanced DDR5‑based memory, ICS 25.1.2.0 will promote reliable operation and resilient security controls as secure access demands grow.\nRelease Notes - Version 22.7R2.11\nRelease Notes - Version 22.8R2.2\nRelease Notes - Version 25.1.1.0",
+   "hash": "59826ef2eb6651c00faa814b9537bc578c82e674b48dc9af1645432963c4fc43",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Neurons for Secure Access",
+   "title": "Ivanti Neurons for Secure Access (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Neurons for Secure Access continues to streamline gateway lifecycle management with session‑sync workflow optimizations, expanded hardware support, and infrastructure upgrades. Customers gain easier configuration management including solving use cases for RMA (Return Merchandise Authorization), reverting to healthy configurations in cases of misconfigurations, enhanced scalability for large deployments, and improved operational visibility, all delivering a more agile and resilient access environment.\nRelease Notes",
+   "hash": "bf3bdd5714de6c7b0aedde928314b13beb47989d1e300bfd3b32ffeac97db31a",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Neurons for ZTA",
+   "title": "Ivanti Neurons for ZTA (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Zero Trust Access is further strengthened with continued OS migration work, including the completed transition of the cloud AAA module to Oracle Linux and foundational progress toward Gateway OLM migration. Combined with support for TLS 1.3, as well as enhancements such as ISAC log‑upload support, a more intuitive troubleshooting page, stricter DNS validation, improved BYOD enrollment protection, and expanded security logging, these updates deliver a more secure, efficient, and scalable ZTA environment.\nRelease Notes",
+   "hash": "89b7c4e2701c9fadcde5b7919c335f8e7fb7806bd6ee3c1bb611057da0f8c549",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Secure Access Client – Desktop",
+   "title": "Ivanti Secure Access Client – Desktop (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "This release enables new use cases in customer deployments with expanded capabilities across Windows, macOS, and Linux. The VPN client now offers system‑ and user‑context support for PulseLauncher as well as Debian 13 support. With Default OS Browser support for SAML and custom sign-in on macOS ISAC, customers can now use browser extensions like 1Password and use WebAuthN features for FIDO2 U2F and passwordless authentication. ZTA brings improved flexibility and modernized security with end‑to‑end TLS 1.3 support, enhanced log upload, and support for delivering the ZTA connection profile through MDM push or JAM Command import.\nRelease Notes",
+   "hash": "17d4c405a84fda02d8ca50db51e5e3abefe34527bab1c1adbe4ad1279041de7e",
+   "windows": "medium"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Secure Access Client – Mobile",
+   "title": "Ivanti Secure Access Client – Mobile (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "The Q2 release enhances mobile access security and usability by introducing biometric authentication for credential retrieval on Android and strengthening the mobile tech stack across Android and iOS through modernization updates. These improvements provide a more intuitive, secure, and future‑ready mobile VPN experience for end users on the go.\nRelease Notes",
+   "hash": "a3c010a8ba11865666ac8c3612297d433f6d45f0c0e822dcf1602a35f82aaab3",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Application Delivery Controller (vADC)",
+   "title": "Ivanti Application Delivery Controller (vADC) (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "vADC introduces a new vWAF handler and an updated Services Director (beta on Oracle), strengthening security baselines and improving control for application delivery environments. These enhancements provide customers with improved protection, modernized management components, and greater confidence in high‑performance, secure traffic handling.\nRelease Notes",
+   "hash": "1d1e635b5711f6149a65642a3acab7d9b82559444b15222ff01675f438b3b890",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Neurons for RBVM",
+   "title": "Ivanti Neurons for RBVM (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Ivanti Neurons for RBVM now integrates with CrowdStrike Falcon Spotlight ExPRT AI rating to deliver better prioritization of vulnerabilities. RBVM also brings a new Vulnerability Risk Rating (VRR) timeline, providing additional insights into VRR scores for vulnerabilities. Ivanti Neurons for RBVM now gets an EPSS severity option, giving you more choices for which scoring method you want to use. Lastly, RBVM also gets multiple enhancements to playbooks.",
+   "hash": "b6395e0dd1111ccc9cac08cafeffa4b775d467c272769b9abcd34e3586cc9899",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Neurons for ASPM",
+   "title": "Ivanti Neurons for ASPM (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Ivanti Neurons for ASPM brings the new Vulnerability Risk Rating (VRR) timeline, providing additional insights into VRR scores for vulnerabilities. Additionally, ASPM now gets an EPSS severity option, giving you more options for which scoring method you prefer. ASPM also receives multiple enhancements to playbooks.",
+   "hash": "571eea2355a580d37d7344381a71c2ca4e0b0e0dd8efba7a0f581a47d8d3197c",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Neurons for Vulnerability Knowledge Base",
+   "title": "Ivanti Neurons for Vulnerability Knowledge Base (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Utilize extensive insights into critical vulnerabilities through updated system views.",
+   "hash": "42addc612ded55db6d5259c62f0919364c84b85a2d0a7f16f3d1aadeb307352a",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Velocity Platform",
+   "title": "Velocity Platform (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Users will receive on-device notification of upcoming Velocity license expiration beginning 30-days prior to end of the term.\nRelease Notes",
+   "hash": "da709dd5a250a0b3c04c35b9c5501431729aeb0461b896fbc88e9274483b6a0e",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Velocity Forms",
+   "title": "Velocity Forms (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Forms can now be transmitted as PDF files for expanded versatility and transferability.\nRelease Notes",
+   "hash": "2b00fc047fbb92ec96f04776d1191fb58cc67f014d7f2bd467aaecd9c527d867",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Tech Preview — MCP",
+   "title": "Tech Preview — MCP (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "This tech preview introduces MCP within the Ivanti Neurons Platform, enabling flexible natural‑language interaction with live operational data. By grounding AI interactions in reliable, continuously updated platform data, MCP helps ensure outputs are accurate, relevant, and actionable, while creating a flexible foundation for advising, assisted actions, and future autonomous workflows across IT and security operations.",
+   "hash": "a1835dbd528d956f38cea6f62a6bb270693b70156e39e1f16719d879fe666334",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Tech Preview — AI‑Powered Device Query Builder",
+   "title": "Tech Preview — AI‑Powered Device Query Builder (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Uses natural language to generate complex device queries, significantly shortening the time required to build filters and offering a preview of broader AI‑assisted productivity in the platform.",
+   "hash": "ed43bc5bdb87d309a8b31c144aaa38d215f7f48ee2905aeb0f0ccc6610f40a95",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Saved Device Views",
+   "title": "Saved Device Views (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Enables admins to save, share, and reuse their preferred device view configurations, eliminating repetitive setup and creating consistent workflows across teams.",
+   "hash": "3e89c11c5764934a982d35e1075dd7f59d0649c2c68e8e55e5d3cc1b29093378",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Dashboard Drilldown Device Hyperlinks",
+   "title": "Dashboard Drilldown Device Hyperlinks (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Introduces one‑click navigation from dashboard drilldowns directly to the device record, reducing time spent switching contexts and accelerating issue investigation.",
+   "hash": "3fc65c6b90e153b12f2637ec9591fb2c89161481e0f24827accf17ed7b8fae4b",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Remote Control Out‑of‑the‑Box Reports",
+   "title": "Remote Control Out‑of‑the‑Box Reports (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Provides two ready‑made reports with KPI tiles, giving IT leaders clear visibility into Remote Control usage, operator activity, and success rates without manual data manipulation.",
+   "hash": "a65742192b7221b3e16b43f20ae5e776418629ed4b4395eb160e06b451d3a72f",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Device Export Enhancements",
+   "title": "Device Export Enhancements (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Allows export of all visible columns in Device View, ensuring teams have complete datasets for offline analysis, reporting, and stakeholder updates.",
+   "hash": "09284d498f18b0410a8a5eaad5f11ee12e9d16125706392a9413948326bd7514",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Enterprise Support Management",
+   "title": "Enterprise Support Management (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Learn More",
+   "hash": "ac4d9205921852c4faf02ec1ccbe988c11c5e3ec0e1afdf0cafa89730ae8060d",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Value Acceleration Bundle",
+   "title": "Value Acceleration Bundle (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Learn More",
+   "hash": "e774a231076b582546132f10383c7d15bd54e5536d5601b36dedb27c46315406",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Innovators Hub",
+   "title": "Innovators Hub (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Visit Innovators Hub",
+   "hash": "466f797d3df43bdecc7e748b2606c45caca338d5602193f9b1efd5feb2982b71",
+   "windows": "none"
+  },
+  {
+   "key": "2026 Q2 :: Ivanti Advantage Learning",
+   "title": "Ivanti Advantage Learning (2026 Q2)",
+   "date": null,
+   "url": "https://www.ivanti.com/releases/2026/q2",
+   "text": "Redesigned all ITSM and MDM admin courses.\nUpdate Consultant Certification Learning Path and Exam for Ivanti Neurons Platform.\nNew Dashboard layout for Partners.\nAdded direct links to certifications from learning path and subscription pages.",
+   "hash": "758766d2c0cd4483ef9de4a14ac90f65a8fa47d7fcd82cc91180ea0edc0cabc0",
+   "windows": "none"
+  }
+ ]
+}

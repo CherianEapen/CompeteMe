@@ -1,0 +1,102 @@
+{
+ "id": "scalefusion-product-updates",
+ "vendor": "Scalefusion",
+ "kind": "rss",
+ "fetchedAt": "2026-09-15T07:45:49.700Z",
+ "meta": {
+  "url": "https://blog.scalefusion.com/category/product-updates/feed/",
+  "entries": 10
+ },
+ "items": [
+  {
+   "key": "https://blog.scalefusion.com/?p=41184",
+   "title": "Day Zero support for Apple: Scalefusion is ready for iOS 27, iPadOS 27, macOS 27 & tvOS 27",
+   "date": "2026-09-10",
+   "url": "https://blog.scalefusion.com/day-zero-support-for-apple-ios-27-ipados-27-macos-27-tvos-27/",
+   "text": "It’s that time of the year again! With iOS 27, iPadOS 27, macOS 27, and tvOS 27, Apple introduced new controls and changes across device configuration, authentication, setup, compliance, and security management. These updates reaffirm Apple’s shift toward declarative device management (DDM), bringing changes to how IT teams configure and manage enterprise devices.\nAt Scalefusion, we have been prepared for these changes to ensure your Apple devices are ready from day zero. Scalefusion applications have been tested on the latest operating systems, while new profile settings, DDM-based configurations, Automated Device Enrollment (ADE) options, and compliance support help IT teams adopt the new OS versions without disrupting existing management workflows.\nScalefusion applications, delivered at speed\nFirst things first, we’ve tested the Scalefusion applications across iOS 27, iPadOS 27, macOS 27, and tvOS 27 to make sure everything continues to work as expected. We’ve also made the necessary updates to keep device and policy management running smoothly.\nScalefusion now delivers Apple Intelligence restrictions through the DDM channel\nChanges to Device Profiles\nApple Intelligence settings move to DDM\nApple deprecated the MDM restriction keys used to control Apple Intelligence behavior starting with iOS 26.4 and macOS 26.4, moving these controls to the DDM declaration.\nScalefusion now delivers Apple Intelligence restrictions through the DDM channel on supported OS versions, while co…",
+   "hash": "97015acc36fb82410b667991e15c2b75de63b960d87d647a3ede5a695b3a044e",
+   "windows": "none"
+  },
+  {
+   "key": "https://blog.scalefusion.com/?p=36326",
+   "title": "Introducing the redesigned macOS OS update management experience",
+   "date": "2026-06-15",
+   "url": "https://blog.scalefusion.com/introducing-the-redesigned-macos-os-update-management-experience/",
+   "text": "Keeping macOS devices up to date is one of the most critical responsibilities for IT teams. Yet as environments scale, update management often becomes difficult to track, coordinate, and monitor across hundreds or thousands of devices.\nOver the years, we have worked closely with Mac admins managing macOS fleets of all sizes. While existing update workflows helped teams deploy updates efficiently, customers consistently asked for greater visibility into update progress, better reporting, more flexible deployment controls, and a simpler way to track update activity across their environments.\nAs update requirements evolved, it became clear that OS update management needed to be more than a device-level action. IT teams needed a structured way to plan, execute, monitor, and audit updates throughout their lifecycle.\nWith this in mind, we are excited to introduce the redesigned macOS OS Update Management experience in Scalefusion.\nBuilt around a new Operations-based framework, this enhancement transforms how administrators manage macOS updates by providing greater visibility and traceability from deployment to completion.\nWhy the redesigned OS update management experience\nOperating system updates are more than routine maintenance. They play a critical role in maintaining device security, regulatory compliance, and access to the latest platform capabilities.\nFor IT teams managing distributed workforces, understanding which devices have successfully updated, which require attention,…",
+   "hash": "4fd1562b72d97864a8392b704a8081f3f40b36b66bb042d91b4aed663be89667",
+   "windows": "none"
+  },
+  {
+   "key": "https://blog.scalefusion.com/?p=32710",
+   "title": "Introducing Remote Terminal for Windows: Secure remote access simplified",
+   "date": "2026-03-24",
+   "url": "https://blog.scalefusion.com/introducing-remote-terminal-for-windows/",
+   "text": "Managing Windows devices remotely is rarely straightforward. IT professionals often juggle multiple tools, spend too much time diagnosing issues, and sometimes need direct access to the device. Before long, they quickly find themselves stretched thin, and downtime starts to creep up.\nFor modern IT teams managing distributed Windows endpoints, fast and reliable troubleshooting is a necessity. But leaning too heavily on remote desktop sessions or waiting on manual intervention only slows things down further. This turns what should be a quick fix into a drawn-out process.\nWe at Scalefusion understand that real-time device management and troubleshooting is critical. Previously, we introduced a secure, command-line remote access experience for macOS and Linux devices.\nToday, we’re excited to extend this capability for the Windows fleet.\nIntroducing Remote Terminal for Windows\nWith Scalefusion’s new Remote Terminal feature, Windows devices can now be remotely accessed live, directly from the dashboard. IT teams can securely access the command line of remote devices and perform real-time troubleshooting with little to no user intervention and without disrupting end-users.\nWhile remote desktop sessions allow visual control of a device, Remote Terminal enables faster command-line access for immediate troubleshooting and efficient device management.\nUse case 1: For instance, Windows devices deployed in schools or high-traffic environments like airports often run in kiosk or restricted…",
+   "hash": "b517ebfabf1a1b8f54b73c6e1bc288661f0edc3ae3874cd833a08630f64e9be3",
+   "windows": "high"
+  },
+  {
+   "key": "https://blog.scalefusion.com/?p=32193",
+   "title": "Introducing Programmable Custom Properties (PCP)",
+   "date": "2026-02-12",
+   "url": "https://blog.scalefusion.com/introducing-programmable-custom-properties-pcp/",
+   "text": "As IT environments grow more complex, maintaining accurate device metadata becomes increasingly difficult. Custom properties play a critical role in reporting, grouping, compliance checks, and automation workflows. However, in many organizations, keeping these properties up to date still depends on manual edits, bulk uploads, or external processes.\nAt scale, this creates inconsistencies, delays, and audit challenges.\nTo address this, we are excited to introduce Programmable Custom Properties (PCP).\nWith this feature, dynamically updating devices and user custom properties during script execution across Windows, macOS, and Linux desktops and laptops is now possible.\nThis enhancement transforms custom properties from static labels into automation-driven, continuously maintained data points.\nWhy Programmable Custom Properties (PCP)\nProgrammable Custom Properties are designed to address real-world IT use cases.\nIn audit scenarios, teams can instantly filter devices based on script-updated compliance indicators without manual reconciliation. For distributed workforces, scripts can automatically update region, asset ID, or cost center details, ensuring dynamic groups always reflect operational reality.\nIn regulated environments, unauthorized software detection can trigger property updates that initiate compliance workflows. For proactive support, scripts can flag low disk space or performance thresholds before helpdesk tickets are raised.\nBy allowing scripts to maintain device met…",
+   "hash": "f23cecca817b8c21c72cf4eef2eaadaf13ddcbc64ec92a18f722498c32ef0685",
+   "windows": "medium"
+  },
+  {
+   "key": "https://blog.scalefusion.com/?p=32189",
+   "title": "Managing every screen: Scalefusion now supports Apple TV management",
+   "date": "2026-02-12",
+   "url": "https://blog.scalefusion.com/introducing-apple-tv-device-management/",
+   "text": "Scalefusion was built to manage the devices your business actually uses without forcing you into fragmented tools. We understand that as infrastructure evolves, your management platform should evolve with it.\nThat’s why we’re excited to introduce Apple TV management on Scalefusion.\nApple TV gets the management it deserves\nAs more businesses started relying on Apple TV for critical operations, we saw an opportunity. IT teams were managing these devices, but often through workarounds: separate tools, manual processes, or just making do with what was available.\nWe wanted to bring the same simplicity we’ve built for other endpoints to Apple TV. Configure your fleet from one place. Push policies remotely. Monitor what’s happening across locations without jumping between systems.\nWith Apple TV management on Scalefusion, that’s exactly what you get. It’s about extending the command and visibility you already have to every screen your business runs on.\nWith Scalefusion Apple TV management, you can:\nTurn any Apple TV into a purpose-built display: Lock Apple TVs into Single App Mode for kiosks and digital displays. Set up conference room mode for seamless presentations. Design home screens that show only the apps your team actually uses. Your screens work the way you need them to.\nRemotely make the device floor-ready: Pre-configure Wi-Fi settings and push them remotely. Decide which iOS devices can pair with each device. Your Apple TVs arrive at their destination ready to connect and…",
+   "hash": "2c95540319a4a6dfbeecf9a34d703ffba5d7e36826c3d80d2d0a1c0d86f87b78",
+   "windows": "none"
+  },
+  {
+   "key": "https://blog.scalefusion.com/?p=31917",
+   "title": "Introducing Return to Service for iOS and iPadOS",
+   "date": "2026-01-16",
+   "url": "https://blog.scalefusion.com/introducing-return-to-service-for-ios-and-ipados/",
+   "text": "As shared devices become the norm across frontline, retail, healthcare, and logistics environments, IT teams are under constant pressure to turn devices around quickly, without compromising security or user experience. Resetting a device should not feel like starting from scratch every single time.\nApple’s Return to Service, introduced with iOS and iPadOS 17, addresses this exact challenge. And we’re bringing this capability into Scalefusion to help organizations reset, prepare, and redeploy Apple devices faster and more reliably.\nWhat is Return to Service?\nReturn to Service automates the device reset workflow and prepares iOS and iPadOS devices for their next user with minimal manual intervention. Instead of sending a device back to a fully manual setup flow, IT teams can now streamline what happens after a device is erased.\nWith Return to Service, organizations can:\nAutomatically reset and re-enroll iOS and iPadOS devices to Scalefusion, including non-ADE devices. No manual setup required!\nSkip language and region selection during setup\nBypass Wi-Fi selection by pre-configuring a Wi-Fi profile\nPreserve apps for faster readiness on supported devices (available for ADE devices from OS 26)\nThe result is a cleaner reset process that gets devices back into circulation faster.\nWhy this matters for shared-device environments\nShared-device environments are common in industries like retail, healthcare, logistics, frontline operations, and education, where multiple users rely on the…",
+   "hash": "c0b9cbe1ca5231d0dc3e82b58b2a2f17552a3757f241a7ad24d196009b53b646",
+   "windows": "none"
+  },
+  {
+   "key": "https://blog.scalefusion.com/?p=31027",
+   "title": "Introducing OneIdP LAPS (Local Administrator Password Solution)",
+   "date": "2025-11-11",
+   "url": "https://blog.scalefusion.com/introducing-oneidp-laps-local-administrator-password-solution/",
+   "text": "Local admin credentials have always been a weak link in enterprise security. They are inevitably (and often) shared, rarely rotated, and easily overlooked. A single exposed local admin password can grant attackers unrestricted access to a device or, worse, an entire network.\nAt Scalefusion, our focus with OneIdP has been to close these access gaps by unifying identity, device, and endpoint controls. This is why we are excited to announce the latest addition to OneIdP – OneIdP LAPS (Local Administrator Password Solution). This new feature helps take a significant step forward in securing local accounts while simplifying how IT manages them.\nWith OneIdP LAPS, IT teams can now automatically manage and secure local administrator credentials across Windows and macOS devices. The solution ensures that every local admin password is:\nSecurely stored within OneIdP\nAutomatically rotated after use or at defined intervals\nCentrally managed with complete visibility and audit history\nAdministrators have granular control over which local accounts are managed by LAPS, how frequently passwords rotate, and what actions are taken when changes occur. In many cases, admins or field technicians need quick access to local credentials for troubleshooting. OneIdP LAPS simplifies this with a self-service option.\nIT admins can share a one-time-use code, allowing users to view the local admin password securely and temporarily. Once used, the password is automatically rotated as per the configured setti…",
+   "hash": "d97a18a56f0a623c9056f613f4268e5e32a807b9dace0c5e1f83a88b07ff3e25",
+   "windows": "medium"
+  },
+  {
+   "key": "https://blog.scalefusion.com/?p=30322",
+   "title": "Introducing Extended Access Policies and new updates to OneIdP",
+   "date": "2025-09-17",
+   "url": "https://blog.scalefusion.com/introducing-extended-access-policies-and-new-updates-to-oneidp/",
+   "text": "With OneIdP, our vision has always been simple: to make identity the backbone of unified management. Over the last few months, we’ve expanded its capabilities to close gaps, simplify admin workflows, and bring identity, devices, and apps even closer together. The latest updates build on this foundation, introducing enhancements that are not just new features, but answers to the real challenges IT teams face every day.\nIntroducing Extended Access Policies (XAP)\nTraditional SSO stops at identity: if the credentials check out, access is granted. Extended Access Policies change that equation. Every login is evaluated not only by who the user is but also by how, where, and from what environment the access attempt originates. Compliance signals from the device, its location, reported IP, and application posture are all verified in real time. This authentication adapts to context, closes blind spots, and ensures access is both seamless and uncompromisingly secure.\nThat’s why we are excited to announce Extended Access Policies (XAP) with OneIdP.\nThis release strengthens the convergence of identity and compliance.\nWith Extended Access Policies, IT teams can now enforce access conditions not just by user credentials, but also by:\nDevice compliance signals from Veltar\nDevice location\nReported IP address\nInstallation status of required applications\nAs we strengthened controls with XAP, we also saw an opportunity on the other side of the spectrum, where trust is already assured. Managed…",
+   "hash": "a2e0cb5731a490d4f45bdef6a698a098d1a61e41238a835875b67c004be8d412",
+   "windows": "none"
+  },
+  {
+   "key": "https://blog.scalefusion.com/?p=30269",
+   "title": "Day zero support for Apple: Scalefusion is ready for iOS 26, iPadOS 26 & macOS 26",
+   "date": "2025-09-15",
+   "url": "https://blog.scalefusion.com/day-zero-support-for-ios26-ipados26-macos26/",
+   "text": "With iOS 26, iPadOS 26, and macOS 26, Apple delivers updates that redefine how organizations manage devices, protect data, and empower users. From enhanced restrictions to updates in OS patching and compliance, these releases mark another step forward in Apple’s enterprise ecosystem.\nAt Scalefusion, we’ve worked to ensure your devices are ready from day zero. Our latest updates equip IT teams to manage these changes seamlessly, minimizing disruption, strengthening compliance, and keeping your Apple fleet optimized from the moment the new OS goes live.\nScalefusion applications\nAll Scalefusion applications have been tested extensively on iOS 26, iPadOS 26, and macOS 26. Updates have been applied to guarantee smooth functionality, ensuring enterprises experience uninterrupted device and policy management.\nNew restrictions\nmacOS 26\nYou can now configure:\nAllow call recording – Decide whether call recording is enabled.\nAllow live voicemail – Manage access to live voicemail.\nAllow Safari history clearing – Manage whether browsing history can be cleared.\nAllow Safari private browsing – Restrict or allow private browsing in Safari.\niOS/iPadOS 26\nAdditional restrictions include:\nApp exception list for camera use – Specify apps exempt from the “Allow camera” restriction.\nAllow live voicemail – Manage use of live voicemail.\nAllow Safari history clearing – Decide whether users can clear Safari history.\nAllow Safari private browsing – Configure access to Safari’s private browsing.\nDenied…",
+   "hash": "1c21bd8d3746d79b62695b9699a1ba487d4a1242f88e2b2b0f976e99c6257503",
+   "windows": "none"
+  },
+  {
+   "key": "https://blog.scalefusion.com/?p=30199",
+   "title": "Introducing Veltar I/O Device Access Control for Windows",
+   "date": "2025-09-10",
+   "url": "https://blog.scalefusion.com/introducing-io-device-access-control-for-windows/",
+   "text": "Data loss through USB drives, printers, and other peripheral devices continues to be one of the most overlooked yet effective attack vectors inside enterprises. Despite advances in network and cloud security, sensitive information often leaves organizations through unmanaged endpoints, whether via intentional insider actions or accidental misuse. Regulatory compliance frameworks such as GDPR, HIPAA, and PCI-DSS also mandate strict control over removable media and device access, making this challenge both a security and compliance priority for IT teams. That’s why we built Veltar to ensure I/O device access control across platforms.\nToday, we are extending the same Veltar I/O Device Access Control for Windows, enabling IT administrators to enforce data protection policies at the most critical layer: the endpoint. By providing granular, scalable controls over storage and peripheral devices, this helps organizations prevent unauthorized data transfers before they happen.\nWhy this matters\nThe purpose behind building this feature is to strike the right balance between operational flexibility and uncompromising security. We understand that storage and peripheral devices are a proven weak link in enterprise security. A single unencrypted USB stick or unsanctioned Bluetooth connection can bypass sophisticated defenses and lead to costly data loss. With Veltar’s I/O Device Access Control, IT admins gain direct control over which devices can interact with corporate data — from USB dri…",
+   "hash": "e340369be4c144966c85a16d8fafa603934e7d8cdff47de67cf88f5fe24ec0b3",
+   "windows": "high"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "hexnode-blog",
+ "vendor": "Hexnode",
+ "kind": "rss",
+ "fetchedAt": "2026-09-15T07:45:47.547Z",
+ "meta": {
+  "url": "https://www.hexnode.com/blogs/feed/",
+  "entries": 10
+ },
+ "items": [
+  {
+   "key": "https://www.hexnode.com/blogs/?p=51234",
+   "title": "HexCon26 product and feature announcements: What’s new and why it matters",
+   "date": "2026-09-11",
+   "url": "https://www.hexnode.com/blogs/hexcon26-product-feature-announcements/",
+   "text": "The HexCon26 opening keynote laid out Hexnode’s broader direction: bringing endpoint management, security, identity and employee experience closer together while using AI and automation to reduce the routine work that falls on IT teams.\nAcross HexCon26, Hexnode also introduced a new product and a wide range of capabilities spanning orchestration, endpoint management, patching, remote support, identity, migration and day-to-day administration.\nAt the center of those announcements was Hexnode Synapse.\nHexnode Synapse brings agentic orchestration across IT and security\nHexnode Synapse is an agentic orchestration layer designed to act across endpoint, identity and threat state.\nThe problem it addresses is familiar. An incident might begin with a ticket, generate an XDR alert and trigger an identity signal, but each event may still live in a different system. In that model, people become the integration layer, moving between consoles and coordinating every handoff manually.\nSynapse is designed to connect those signals and coordinate what happens next.\nSynapse is currently being opened through an invite-only beta, with initial experiences centered on agent-driven triage, onboarding and incident workflows.\nHexnode UEM Mobile Admin App takes administration beyond the desk\nNot every incident waits until an administrator is sitting in front of the UEM console.\nThe new Hexnode UEM Mobile Admin App is designed to give administrators on-the-go visibility and control over managed endpoint…",
+   "hash": "1beb56c132c0a637e99316c83398a13b8134c7c2003e762b5d196cbafcad6937",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.hexnode.com/blogs/?p=51167",
+   "title": "HexCon26 Opening Keynote: Key Announcements and Takeaways",
+   "date": "2026-09-10",
+   "url": "https://www.hexnode.com/blogs/hexcon26-keynote-recap/",
+   "text": "HexCon26 kicked off in Atlanta on September 9, with the opening keynote bringing together the event’s biggest themes and announcements.\nApu Pavithran, Founder and CEO of Hexnode, took the stage first, followed by Rachana Vijayan, EVP of Global Go-To-Market and CMO. Together, they laid out where enterprise IT is heading, what Hexnode has built over the past year, and why the company believes the industry is moving from managed devices to managed outcomes.\nHere’s a recap of everything announced.\nHexnode is moving from device management to managed outcomes\nOne of the strongest themes of the keynote was that the job of endpoint management has not fundamentally changed over the years.\nIT teams still enroll, configure, patch, secure and troubleshoot devices. What has changed is everything happening through those devices: applications, identity, data, security and increasingly AI.\nHexnode’s direction is therefore centered on autonomy: routine work should increasingly happen on its own, while IT retains control over the policies, approvals and outcomes that matter.\nThe goal is simple: less time spent on enrolling, patching, chasing and ticketing, and more time spent on the work that actually moves the business forward.\nHexnode AI is becoming the intelligence layer across the platform\nThe keynote moved beyond the idea of AI as just another assistant.\nHexnode Genie can already understand natural-language requests, while the Hexnode Context Layer uses live fleet context to route those…",
+   "hash": "715f6ff9ddfb94c50dff908670e1f9628d441cf56b2280824d225131455773ca",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.hexnode.com/blogs/?p=51122",
+   "title": "How Does Hexnode XDR Protect Windows and macOS Endpoints?",
+   "date": "2026-09-09",
+   "url": "https://www.hexnode.com/blogs/hexnode-xdr-windows-macos-protection/",
+   "text": "Why Securing Mixed Windows and macOS Fleets Is Getting Harder\nHexnode XDR Windows macOS protection becomes harder when security teams manage each operating system through separate tools. Organizations may use different security agents, policies, consoles, and investigation workflows for Windows and macOS, depending on their security stack. As a result, administrators cannot always apply consistent security controls across the entire fleet.\nThis fragmentation creates several operational problems:\nSeparate consoles force analysts to switch tools during investigations and compare data manually.\nInconsistent policy enforcement creates different security baselines for Windows and macOS endpoints.\nFragmented visibility prevents teams from viewing endpoint activity through one consistent operational lens.\nUneven response capabilities can limit how quickly analysts contain threats on each operating system.\nAttackers can exploit these gaps by targeting endpoints with weaker monitoring or slower response coverage. Moreover, they can use compromised accounts, shared applications, cloud services, or network access to move across hybrid environments. The MITRE ATT&CK Enterprise matrix reflects this reality by mapping techniques across Windows, macOS, and other platforms.\nHowever, collecting telemetry from both operating systems does not automatically provide equivalent protection. One agent may capture detailed process activity on Windows but offer fewer investigation options on macOS. S…",
+   "hash": "2c8662a9cb91fabd83ca33ff07ff8ef8a8c92e38e4ba9675c6b01bf6dff33340",
+   "windows": "high"
+  }
+ ]
+}
