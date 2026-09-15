@@ -63,13 +63,52 @@ Each item carries a `windows` relevance hint (`high` / `medium` / `none`) comput
 - 42Gears SureMDM publishes no release notes; new or updated documentation pages are used as the release signal (Windows-related pages only in the report).
 - Scalefusion's release-notes page renders client-side; the release index and per-release pages are read from the server-side state instead.
 
-## Scheduling (Claude Code cloud routine)
+## Scheduling (Windows Task Scheduler)
 
-The weekly run is a Claude Code cloud routine, not a GitHub Action:
+The weekly run happens on Cherian's Windows machine, driven by `scripts/run-weekly.ps1`:
 
-- Schedule: `30 4 * * 1` — Mondays 04:30 UTC (10:00 Asia/Kolkata).
-- Source: this repository, branch `main`, cloned fresh each run.
-- Prompt: "Run the weekly competitor update for today (`date -u +%F`). Follow CLAUDE.md in the repository root exactly: install dependencies, run the fetcher, read the diff, write runs/<today>/report.json per REPORT_SCHEMA.md, render the Word report, commit and push to main."
-- Manage or trigger it at https://claude.ai/code/routines. Run history and logs live there too.
+- Task **MobiControl Competitor Watch**, Mondays **10:00 Asia/Kolkata**, runs while logged on; if the
+  machine was off at 10:00 it runs at the next opportunity.
+- The script runs `npm ci`, the fetcher, then Claude Code headlessly for the analysis step
+  (Read/Write/Glob/Grep only — it cannot run commands or touch git), then renders the Word report,
+  commits and pushes.
+- Each run appends to `logs/<date>.log` (git-ignored). Exit codes: `2` fetch produced no diff,
+  `3` analysis failed or the CLI is not signed in, `4` every source errored, `5` render failed,
+  `6`/`7` commit or push failed.
 
-To run a week by hand instead, follow the same steps locally (see *Run locally*) and push.
+One-time prerequisite — the bundled Claude Code CLI keeps its own credentials and must be signed in once
+(`scripts/run-weekly.ps1` aborts with exit 3 until it is):
+
+```powershell
+& (Get-ChildItem "$env:APPDATA\Claude\claude-code\*\claude.exe" | Sort-Object LastWriteTime -Descending)[0].FullName auth login
+```
+
+Register, inspect or trigger the task (the helper converts the XML to the UTF-16 `schtasks`
+requires and points the task at this clone's path):
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\register-task.ps1
+```
+
+```powershell
+schtasks /query /tn "MobiControl Competitor Watch" /v /fo list
+```
+
+```powershell
+schtasks /run /tn "MobiControl Competitor Watch"
+```
+
+Run a week by hand instead:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\run-weekly.ps1
+```
+
+### Why not a cloud routine
+
+A Claude Code cloud routine (`trig_01BZSLq8sPNGVhqTJ2wAM57J`) was built first and cannot work: the cloud
+sandbox's egress proxy denies `CONNECT` to every non-allowlisted host, so all 13 vendor sites return HTTP 403
+(`api.github.com` and `registry.npmjs.org` are allowed; `example.com` is not). Declaring the URLs on the
+routine does not change it, and Claude's GitHub App has only read access, so a cloud run cannot push either.
+The routine is left enabled as a canary — if one of its runs ever fetches successfully, the cloud option is
+back on the table.

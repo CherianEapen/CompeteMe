@@ -4,19 +4,29 @@ You produce the weekly competitor update for the SOTI MobiControl **Windows** te
 MobiControl is an enterprise MDM/UEM product; its users are IT administrators managing device fleets.
 Windows is the platform in scope.
 
-## Weekly run — do these in order
+## How the weekly run works
 
-1. `npm ci`
-2. `node scripts/fetch.mjs` — fetches every source, updates `snapshots/`, writes `runs/<today>/diff.md` and `diff.json`.
-   Exit code 3 means at least one source errored: continue, and record each error in `sourceStatus`.
-3. Read `runs/<today>/diff.md` completely. Where an excerpt is cut off (`…`), read the full item text in `runs/<today>/diff.json`.
-4. Write `runs/<today>/report.json` exactly as specified in `REPORT_SCHEMA.md`.
-5. `node scripts/build-docx.mjs runs/<today>` — produces `reports/<today>-competitor-update.docx` and `.md`.
-   If validation fails, fix `report.json` and rerun.
-6. Commit `snapshots/`, `runs/<today>/` (not `raw/`), and `reports/` with the message `Weekly competitor update <today>`, then push to `main`.
-   If the push is rejected, open a pull request instead.
+`scripts/run-weekly.ps1` orchestrates the run on Cherian's Windows machine (Windows Task Scheduler,
+Mondays 10:00 Asia/Kolkata). It runs the deterministic steps itself and calls you headlessly for one step:
 
-If `fetch.mjs` itself crashes, fix the cause if it is trivial (a renamed selector, a moved URL); otherwise commit a `runs/<today>/FAILED.md` explaining what broke and stop.
+| Step | Who |
+|---|---|
+| 1. `npm ci` | script |
+| 2. `node scripts/fetch.mjs --date <date>` → `runs/<date>/diff.md` + `diff.json` | script |
+| 3. **Write `runs/<date>/report.json`** | **you** |
+| 4. `node scripts/build-docx.mjs runs/<date>` → `reports/<date>-competitor-update.docx` + `.md` | script |
+| 5. `git commit` + `git push` | script |
+
+**When invoked by the script your entire job is step 3.** You are given only Read, Write, Glob and Grep:
+read `runs/<date>/diff.md` in full (and `diff.json` for any item whose excerpt ends in an ellipsis), then
+write `runs/<date>/report.json` in the shape `REPORT_SCHEMA.md` defines. `examples/sample-report.json` is a
+filled-in example. Write that one file and nothing else. Do not render the document, commit, or push.
+
+If the script aborted and a human asks you to finish a run by hand, the same steps apply — run them in order
+and say which ones you ran.
+
+The run refuses to write a report when *every* source errored: that is an infrastructure failure, not a
+quiet week, and it needs a person. Do not work around that check.
 
 ## Analysis rules
 
