@@ -29,3 +29,4 @@ If `fetch.mjs` itself crashes, fix the cause if it is trivial (a renamed selecto
 - **Tone:** direct, factual, no marketing language. Leadership reads only the executive summary; the Windows team reads vendor detail.
 - **Vendor context:** Microsoft Intune is Windows-native and the most consequential source for Windows parity. Ivanti (Endpoint Manager, EPMM, Neurons), Hexnode, 42Gears SureMDM, Scalefusion, Miradore and Iru are UEM competitors — weigh their Windows items by depth of device management, not by announcement volume. Jamf is Apple-focused: direction signals only.
 - A 42Gears "new" item is a documentation page, not a release note — describe it as "documented" unless the text says it shipped.
+- ManageEngine Endpoint Central rows come from a per-build hotfix feed; they are Windows-centric unless the row names macOS, Linux or mobile. Group them by build when several land in one week; skip pure bug fixes unless they reveal a capability.
