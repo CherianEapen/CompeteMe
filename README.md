@@ -61,3 +61,14 @@ Each item carries a `windows` relevance hint (`high` / `medium` / `none`) comput
 - If a vendor restructures its site, that source fails; the run continues and the report's *Source status* table flags it.
 - 42Gears SureMDM publishes no release notes; new or updated documentation pages are used as the release signal (Windows-related pages only in the report).
 - Scalefusion's release-notes page renders client-side; the release index and per-release pages are read from the server-side state instead.
+
+## Scheduling (Claude Code cloud routine)
+
+The weekly run is a Claude Code cloud routine, not a GitHub Action:
+
+- Schedule: `30 4 * * 1` — Mondays 04:30 UTC (10:00 Asia/Kolkata).
+- Source: this repository, branch `main`, cloned fresh each run.
+- Prompt: "Run the weekly competitor update for today (`date -u +%F`). Follow CLAUDE.md in the repository root exactly: install dependencies, run the fetcher, read the diff, write runs/<today>/report.json per REPORT_SCHEMA.md, render the Word report, commit and push to main."
+- Manage or trigger it at https://claude.ai/code/routines. Run history and logs live there too.
+
+To run a week by hand instead, follow the same steps locally (see *Run locally*) and push.
