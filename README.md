@@ -46,6 +46,7 @@ Flags: `--only id1,id2` (subset of sources), `--date YYYY-MM-DD` (run folder nam
 | `next-data` | Items embedded in a Next.js page's `__NEXT_DATA__` | Hexnode "What's new" |
 | `d360-index` | Document360 release index, then each new release's page body | Scalefusion release notes |
 | `html-blocks` | Title/content element pairs, optionally across pages linked from a hub | Ivanti quarterly releases |
+| `csv` | A CSV of dated release-note rows behind a vendor page | ManageEngine Endpoint Central (hotfix readme feed) |
 
 Each item carries a `windows` relevance hint (`high` / `medium` / `none`) computed from keywords — a hint for the analyst, not a filter.
 

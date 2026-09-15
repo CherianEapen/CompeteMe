@@ -8,7 +8,7 @@ import fs from "node:fs";
 import path from "node:path";
 import {
   daysAgoIso, excerpt, extractDate, fetchJson, fetchText, htmlToText, mapLimit, normalizeWs, parseDate, parseFeed,
-  parseHtml, sha256, slugify, todayIso,
+  parseHtml, sha256, shortHash, slugify, todayIso,
 } from "./lib/util.mjs";
 
 const args = parseArgs(process.argv.slice(2));
@@ -31,6 +31,7 @@ const HANDLERS = {
   "next-data": nextData,
   "d360-index": d360Index,
   "html-blocks": htmlBlocks,
+  csv,
 };
 
 /** RSS / Atom feed. Optional include/exclude regex over includeFields (title, text, categories). */
@@ -297,6 +298,64 @@ async function htmlBlocks(src, ctx) {
     }
   }
   return { items: applyInclude(dedupeByKey(items), src), meta: { pages } };
+}
+
+/** CSV table where each row is one release note (ManageEngine's readme feed). Newest rows first. */
+async function csv(src, ctx) {
+  const { text, finalUrl } = await fetchText(src.url);
+  ctx.saveRaw("table.csv", text);
+  const rows = parseCsv(text.replace(/^﻿/, ""));
+  const header = (rows.shift() || []).map((h) => h.trim());
+  const col = (name) => header.indexOf(name);
+  const f = src.fields || {};
+  const ci = {
+    build: col(f.build || "Build Number"),
+    type: col(f.type || "Type"),
+    product: col(f.product || "Product"),
+    text: col(f.text || "ReleaseNotes"),
+    date: col(f.date || "Date"),
+  };
+  if (ci.text < 0) throw new Error(`CSV has no "${f.text || "ReleaseNotes"}" column; header = ${header.join(",")}`);
+  const rowInclude = Object.entries(src.rowInclude || {}).map(([name, re]) => [col(name), new RegExp(re, "i")]);
+  const items = [];
+  for (const r of rows) {
+    if (rowInclude.some(([i, re]) => i >= 0 && !re.test(r[i] || ""))) continue;
+    const note = normalizeWs(r[ci.text]);
+    if (!note) continue;
+    const build = (r[ci.build] || "").trim(), type = (r[ci.type] || "").trim(), product = (r[ci.product] || "").trim();
+    items.push({
+      key: `${build}|${shortHash(note)}`,
+      title: [build, type, product].filter(Boolean).join(" · "),
+      date: parseDate(r[ci.date]),
+      url: src.pageUrl || finalUrl,
+      text: `${note}\nType: ${type}; Products: ${product}`,
+    });
+    if (src.maxRows && items.length >= src.maxRows) break;
+  }
+  return { items: dedupeByKey(items), meta: { url: finalUrl, rows: rows.length, kept: items.length } };
+}
+
+/** RFC 4180-style CSV parser: quoted fields may contain commas, quotes ("") and newlines. */
+function parseCsv(text) {
+  const rows = [];
+  let row = [], field = "", quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (quoted) {
+      if (c === '"') {
+        if (text[i + 1] === '"') { field += '"'; i++; } else quoted = false;
+      } else field += c;
+    } else if (c === '"') quoted = true;
+    else if (c === ",") { row.push(field); field = ""; }
+    else if (c === "\n" || c === "\r") {
+      if (c === "\r" && text[i + 1] === "\n") i++;
+      row.push(field); field = "";
+      if (row.some((v) => v !== "")) rows.push(row);
+      row = [];
+    } else field += c;
+  }
+  if (field !== "" || row.length) { row.push(field); if (row.some((v) => v !== "")) rows.push(row); }
+  return rows;
 }
 
 // ------------------------------------------------------------------ helpers

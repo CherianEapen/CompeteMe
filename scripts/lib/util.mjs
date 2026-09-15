@@ -94,6 +94,7 @@ export function parseDate(v) {
   let m;
   if ((m = s.match(/^(\d{4})-(\d{2})-(\d{2})/))) return `${m[1]}-${m[2]}-${m[3]}`;
   if ((m = s.match(/^(\d{2})-(\d{2})-(\d{4})$/))) return `${m[3]}-${m[2]}-${m[1]}`;
+  if ((m = s.match(/^(\d{1,2})-([A-Za-z]{3})[a-z]*-(\d{4})$/))) return parseDate(`${m[2]} ${m[1]}, ${m[3]}`); // 10-Sep-2026
   const d = new Date(s);
   if (Number.isNaN(d.getTime())) return null;
   // Date-only strings parse as local midnight; keep the calendar date rather than the UTC instant.

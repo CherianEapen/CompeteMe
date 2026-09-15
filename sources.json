@@ -110,11 +110,13 @@
     "note": "Hub links to per-quarter pages; each product is an accordion. Latest two quarters tracked."
   },
   {
-    "id": "manageengine-release-notes",
+    "id": "manageengine-endpoint-central",
     "vendor": "ManageEngine",
-    "kind": "html-sections",
-    "url": "TBD",
-    "enabled": false,
-    "note": "Awaiting product choice: Mobile Device Manager Plus vs Endpoint Central. The URL supplied (Applications Manager) is an APM product."
+    "kind": "csv",
+    "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
+    "pageUrl": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+    "rowInclude": { "Product": "(^|:)(DC|All)(:|$)" },
+    "maxRows": 400,
+    "note": "Endpoint Central's 'Hotfix Readme' page is a shell that renders this CSV (Build Number, Type, Product, ReleaseNotes, EndpointSecurity, Date; newest first). Rows tagged DC (Endpoint Central) or All are kept; MSP/PMP/VMP-only rows are dropped. The static whats-new.html page is stale (2023)."
   }
 ]
