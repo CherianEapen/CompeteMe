@@ -1,0 +1,282 @@
+{
+  "title": "MobiControl Competitor Update — Baseline, 1–15 Sep 2026",
+  "periodStart": "2026-09-01",
+  "periodEnd": "2026-09-15",
+  "generatedAt": "2026-09-15",
+  "execSummary": [
+    "Microsoft was quiet: Intune's only Windows note this period is a Remote Help client update that adds E3/E5/E7 subscription metadata with no feature change, and the Intune blog has had no post since 27 Aug. The bundling of advanced capabilities into Microsoft 365 tiers continues.",
+    "Microsoft's change to Conditional Access baseline-scope enforcement disrupted two competitors' Entra device-compliance flows: Jamf re-engineered its registration and has an open issue with MFA-requiring policies; Scalefusion reissued its Intune partner-compliance setup guidance. MobiControl's own Intune partner-compliance integration should be verified this week.",
+    "Ivanti moved most on Windows this quarter: native Windows OS reimaging inside Neurons (Vboot), risk-based and self-correcting patch compliance (Continuous Compliance, Predictive Remediation), Windows-on-ARM agents, and a new web console for Endpoint Manager.",
+    "Apple-first vendors keep extending into Windows security: Iru now auto-remediates CVEs in Windows apps, and Hexnode is pitching UEM plus XDR for Windows and macOS alongside an agentic orchestration layer (Synapse) announced at HexCon26.",
+    "AI-assisted administration — natural-language device queries, AI-generated PowerShell, agentic triage — is now standard positioning across Hexnode, Ivanti and 42Gears. Windows Server management is appearing as a checklist item in mid-market UEMs (Hexnode in July, 42Gears documentation)."
+  ],
+  "topSignals": [
+    {
+      "headline": "Microsoft's Conditional Access baseline-scope enforcement broke Entra device-compliance flows at Jamf and Scalefusion",
+      "vendor": "Microsoft / Jamf / Scalefusion",
+      "whyItMatters": "MobiControl's Intune partner-compliance integration uses the same Microsoft registration path. If it is affected, customers relying on device compliance for Conditional Access are impacted now; if it is not, that is a talking point.",
+      "urgency": "respond"
+    },
+    {
+      "headline": "Ivanti adds native Windows OS reimaging (OS Provisioning via Vboot) to Neurons UEM",
+      "vendor": "Ivanti",
+      "whyItMatters": "Bare-metal Windows recovery from the UEM console is a capability MobiControl Windows does not offer; it matters for rugged Windows fleets where devices are reimaged in the field.",
+      "urgency": "watch"
+    },
+    {
+      "headline": "Iru auto-remediates CVEs for Windows apps from its Auto App catalog",
+      "vendor": "Iru",
+      "whyItMatters": "CVE-driven third-party app patching is becoming a UEM feature rather than a security-tool feature, and an Apple-first vendor chose Windows as its second platform for it.",
+      "urgency": "watch"
+    },
+    {
+      "headline": "AI-assisted administration is now table stakes in competitor messaging",
+      "vendor": "Hexnode, Ivanti, 42Gears",
+      "whyItMatters": "Natural-language device queries and AI-generated PowerShell (Ivanti tech preview) and agentic triage (Hexnode Synapse) set the comparison bar for whatever SOTI ships as AI for Windows administrators.",
+      "urgency": "watch"
+    },
+    {
+      "headline": "Windows Server management appearing in mid-market UEMs",
+      "vendor": "Hexnode, 42Gears",
+      "whyItMatters": "Hexnode shipped Windows Server Management in July and 42Gears documents Windows Server jobs. Sales needs a clear in-scope or out-of-scope answer for MobiControl.",
+      "urgency": "inform"
+    }
+  ],
+  "vendors": [
+    {
+      "vendor": "Microsoft Intune",
+      "summary": "One Windows item in the 'Week of September 7, 2026' section of What's new. The Intune TechCommunity blog has had no post since 27 Aug 2026; its cadence is a monthly 'What's new' recap.",
+      "items": [
+        {
+          "title": "Remote Help for Windows 5.2.1040.0 recognises E3, E5 and E7 subscriptions",
+          "date": "2026-09-07",
+          "url": "https://learn.microsoft.com/en-us/intune/whats-new/#week-of-september-7-2026",
+          "platforms": ["Windows"],
+          "windowsRelevance": "low",
+          "whatChanged": "New Remote Help for Windows client version. Microsoft states it updates subscription metadata for E3, E5 and E7 licences and that features are unchanged from 5.2.1037.0. Listed under 'Advanced capabilities (formerly Microsoft Intune Suite)'.",
+          "soWhatForMobiControl": "None functionally. Direction: remote assistance is being carried inside Microsoft 365 E3/E5/E7 entitlements, which strengthens the bundling argument SOTI Remote Control competes against. A positioning note, not a build item."
+        }
+      ]
+    },
+    {
+      "vendor": "Ivanti",
+      "summary": "Ivanti publishes quarterly release pages rather than dated notes; Q3 2026 is the current quarter and Q2 2026 is included as baseline context. Across the two, Ivanti shows more Windows movement than any other vendor tracked.",
+      "items": [
+        {
+          "title": "OS Provisioning: native Windows reimaging in Ivanti Neurons UEM (Q3 2026)",
+          "date": null,
+          "url": "https://www.ivanti.com/releases/2026/q3",
+          "platforms": ["Windows"],
+          "windowsRelevance": "high",
+          "whatChanged": "Powered by Vboot, the Neurons agent can boot a system, wipe the hard drive and deploy a fresh Windows OS without additional tooling or infrastructure. Partitioning, OS image deployment and Neurons agent enrolment are consolidated into a single OSD workflow, and Ivanti says this removes the need for EPM migration SKUs.",
+          "soWhatForMobiControl": "Potential gap. MobiControl Windows provisions through Autopilot and provisioning packages and does not reimage devices. Relevant to rugged Windows fleets where field reimaging is routine; low urgency unless it appears in deals, but sales should have an answer ready."
+        },
+        {
+          "title": "Patch management: Continuous Compliance, checkpoint cumulative updates, Predictive Remediation (Q2–Q3 2026)",
+          "date": null,
+          "url": "https://www.ivanti.com/releases/2026/q3",
+          "platforms": ["Windows", "Linux"],
+          "windowsRelevance": "high",
+          "whatChanged": "Q2: Continuous Compliance automatically catches devices that missed maintenance windows and deploys out-of-band; Endpoint Manager and Security Controls natively detect Windows checkpoint cumulative update chains and deploy them with a single reboot; sideloaded files over 650 MB are supported. Q3: Predictive Remediation forecasts where compliance goals will slip and prioritises by risk impact rather than CVSS; ring-level patch visibility, automatic retry resets, bulk actions across pages and exports up to 100,000 advisories.",
+          "soWhatForMobiControl": "Direction signal. Windows patching is being repositioned from scheduled policy to risk-based, self-correcting compliance. MobiControl's Windows Update management is policy- and schedule-based; this is a positioning gap in security-led evaluations more than a feature gap."
+        },
+        {
+          "title": "User Workspace Manager: agents on Windows ARM; MSIX package publishing (Q2 2026)",
+          "date": null,
+          "url": "https://www.ivanti.com/releases/2026/q2",
+          "platforms": ["Windows"],
+          "windowsRelevance": "medium",
+          "whatChanged": "UWM solution agents are supported on Windows ARM and Intel devices, and Environment Manager gains a Publish MSIX Packages action.",
+          "soWhatForMobiControl": "Windows on ARM (Copilot+ PCs) is becoming a checklist item. Confirm that MobiControl's Windows agent ARM64 status and MSIX deployment coverage are documented for sales."
+        },
+        {
+          "title": "Endpoint Manager Web Console 2.0 and AI-assisted workflows tech preview (Q3 2026)",
+          "date": null,
+          "url": "https://www.ivanti.com/releases/2026/q3",
+          "platforms": ["Windows"],
+          "windowsRelevance": "medium",
+          "whatChanged": "Endpoint Manager introduces Web Console 2.0 for end-to-end query management in a fully web-based workflow. Tech previews: AI-Powered Device Query Builder (natural-language device queries), AI-Powered PowerShell Stages (AI-assisted script creation and execution inside workflows) and MCP server access to operational data.",
+          "soWhatForMobiControl": "Roadmap signal. Natural-language device queries and AI-generated PowerShell are the concrete AI features Windows administrators will compare consoles on; a differentiation opportunity if MobiControl ships them well, a gap if it does not."
+        },
+        {
+          "title": "Ivanti Neurons for MDM: Google BeyondCorp on Windows; EU sovereign edition (Q2 2026)",
+          "date": null,
+          "url": "https://www.ivanti.com/releases/2026/q2",
+          "platforms": ["Windows", "iOS", "Android"],
+          "windowsRelevance": "medium",
+          "whatChanged": "Google BeyondCorp support introduced for Windows. An EU sovereign edition of Neurons for MDM is operated independently from a German data centre. Admins can force check-in when devices switch between cellular and Wi-Fi; IPv6 and Azure-hosted cloud connectors added.",
+          "soWhatForMobiControl": "Sovereign hosting is a deal factor in EU public sector regardless of platform — a positioning note. BeyondCorp on Windows is niche; none."
+        }
+      ]
+    },
+    {
+      "vendor": "Iru",
+      "summary": "Ten updates in the period; nine are Apple-focused (day-zero Managed OS for iOS, iPadOS, tvOS and macOS 27, Return to Service enrolment retry, enrolment invitations to personal email, Mac agent 5.1.32, removal of end-of-life Auto Apps). One Windows item.",
+      "items": [
+        {
+          "title": "Vulnerability Response for Windows: automatic CVE remediation for apps",
+          "date": "2026-09-09",
+          "url": "https://www.iru.com/updates/vulnerability-response-for-windows",
+          "platforms": ["Windows"],
+          "windowsRelevance": "high",
+          "whatChanged": "Vulnerability Management now supports auto-remediation of CVEs for apps on Windows when an update for the app is available from Iru's Auto App catalog.",
+          "soWhatForMobiControl": "Potential parity gap — verify. MobiControl Windows manages OS updates and deploys application packages; CVE-driven automatic third-party app remediation is a distinct capability. Iru is Apple-first, so a second Windows security feature suggests deliberate Windows expansion; watch its cadence."
+        }
+      ]
+    },
+    {
+      "vendor": "Hexnode",
+      "summary": "HexCon26 (9–11 Sep) set direction. The What's new page has no entries since July; its two most recent items were Windows Server Management (20 Jul) and File Deployment for Windows (7 Jul).",
+      "items": [
+        {
+          "title": "HexCon26: Hexnode Synapse (agentic orchestration), UEM Mobile Admin App, 'managed outcomes' positioning",
+          "date": "2026-09-11",
+          "url": "https://www.hexnode.com/blogs/hexcon26-product-feature-announcements/",
+          "platforms": ["Windows", "macOS", "iOS", "Android"],
+          "windowsRelevance": "medium",
+          "whatChanged": "Hexnode Synapse, an agentic orchestration layer designed to act across endpoint, identity and threat state, enters invite-only beta with agent-driven triage, onboarding and incident workflows. A new Hexnode UEM Mobile Admin App gives administrators on-the-go visibility and control over managed endpoints. The keynote framed Hexnode's direction as moving from managed devices to managed outcomes, with Hexnode Genie and a Context Layer as the AI layer across the platform.",
+          "soWhatForMobiControl": "Roadmap signal. Hexnode is selling autonomy (AI acts, IT approves) rather than individual features. The relevant question for MobiControl Windows is whether SOTI's AI story covers remediation workflows, not only conversational queries."
+        },
+        {
+          "title": "Hexnode XDR positioned as one agent for Windows and macOS",
+          "date": "2026-09-09",
+          "url": "https://www.hexnode.com/blogs/hexnode-xdr-windows-macos-protection/",
+          "platforms": ["Windows", "macOS"],
+          "windowsRelevance": "medium",
+          "whatChanged": "Positioning article: Hexnode XDR as a single agent, console and policy model for detection and response on Windows and macOS, mapped to MITRE ATT&CK, arguing against separate security tooling per operating system.",
+          "soWhatForMobiControl": "Direction signal: UEM vendors bundling XDR for Windows. No parity action implied for MobiControl; useful context when customers talk about consolidating endpoint tools."
+        }
+      ]
+    },
+    {
+      "vendor": "42Gears",
+      "summary": "SureMDM publishes no release notes, so documentation changes are the proxy: 134 pages changed since 1 Sep, 97 of them on 11 Sep, which looks like a documentation refresh. Windows-related pages are listed below. The press-release page carries no dates; its most recent entries (ChromeOS support, Android Enterprise Recommended, ChatGPT plugin) predate this period.",
+      "items": [
+        {
+          "title": "Windows VPN profile documents SureAccess (42Gears ZTNA) as a connection type",
+          "date": "2026-09-11",
+          "url": "https://docs.42gears.com/suremdm/windows-jobs-and-profiles/profiles-for-windows/vpn-profile",
+          "platforms": ["Windows"],
+          "windowsRelevance": "medium",
+          "whatChanged": "The Windows VPN configuration profile lists SureAccess alongside Native and Third Party connection types, with Always On, tunnelled CIDR and FQDN lists, blocked FQDNs and category-based web filtering.",
+          "soWhatForMobiControl": "Direction signal: 42Gears embeds its own zero-trust access product in the Windows profile. MobiControl Windows relies on third-party VPN and ZTNA clients; a differentiation risk in deals where the buyer wants secure access bundled with UEM."
+        },
+        {
+          "title": "Things devices enrolled through Windows host connectors: Impinj RFID readers, SNMP devices, Zebra barcode scanners",
+          "date": "2026-09-03",
+          "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/snmp-enrollment",
+          "platforms": ["Windows"],
+          "windowsRelevance": "medium",
+          "whatChanged": "Connector executables installed on a Windows 10/11 or Windows Server host discover, enrol and manage non-OS devices in SureMDM: Impinj RFID readers, SNMP-enabled printers and network devices, and Zebra barcode scanners connected through a cradle.",
+          "soWhatForMobiControl": "Competes in SOTI's rugged, retail and warehouse stronghold: peripheral and IoT management routed through Windows hosts. Compare against SOTI's peripheral coverage; a differentiation battleground rather than a gap."
+        },
+        {
+          "title": "Staging Group for Enrollment",
+          "date": "2026-09-11",
+          "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/staging-group-for-enrollment",
+          "platforms": ["Windows", "Android", "iOS"],
+          "windowsRelevance": "medium",
+          "whatChanged": "Devices enrol into a Staging group where essential profiles and jobs are applied before moving to their final device group; the move is gated by SAML authentication and a staging password, and relies on AD sync (Entra tenants sync through a Windows AD).",
+          "soWhatForMobiControl": "Likely parity through MobiControl enrolment rules and staged groups — verify the SAML-gated handoff specifically. Low urgency."
+        },
+        {
+          "title": "Autopilot, Entra-joined and Entra-registered enrolment documentation refreshed",
+          "date": "2026-09-11",
+          "url": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-device-enrollment/autopilot-enrollment/setup-windows-enrollment-settings",
+          "platforms": ["Windows"],
+          "windowsRelevance": "high",
+          "whatChanged": "Six Windows enrolment pages updated: Entra ID naming, MDM discovery URL and Windows Enrollment settings for the Autopilot, Entra join and Entra registered flows.",
+          "soWhatForMobiControl": "None — documentation refresh. Confirms SureMDM covers the same three Windows enrolment paths as MobiControl."
+        },
+        {
+          "title": "Windows Server jobs and profiles section: Dynamic Jobs page updated",
+          "date": "2026-09-03",
+          "url": "https://docs.42gears.com/suremdm/windows-server-jobs-and-profiles/jobs-for-windows-server/dynamic-jobs",
+          "platforms": ["Windows"],
+          "windowsRelevance": "medium",
+          "whatChanged": "SureMDM documentation has a Windows Server jobs and profiles section; its Dynamic Jobs page was updated on 3 Sep. The page text was not captured by the fetcher.",
+          "soWhatForMobiControl": "Signal, together with Hexnode's July release: Windows Server as a managed endpoint class in mid-market UEM. Decide whether server management is in or out of MobiControl Windows scope so sales has a consistent answer."
+        }
+      ]
+    },
+    {
+      "vendor": "Scalefusion",
+      "summary": "The 4 Sep 2026 release (Dashboard v67.6.0) headlines macOS features but includes Windows agent and Remote Support changes and a Microsoft-driven Intune partner-compliance guidance update. The product blog covered Apple OS 27 day-zero support.",
+      "items": [
+        {
+          "title": "4 Sep 2026 release: Windows MDM Agent v17.0.15 and Windows Remote Support Agent v4.15.0.0",
+          "date": "2026-09-07",
+          "url": "https://help.scalefusion.com/docs/scalefusion-september-4th-2026-release-notes",
+          "platforms": ["Windows"],
+          "windowsRelevance": "high",
+          "whatChanged": "Windows MDM Agent: installed-application detection logic reworked so the agent no longer consumes CPU or memory during application evaluation. Windows Remote Support: server selection by device location and IP for faster connections; updated to avoid being flagged by Windows SmartScreen; a Check Now button polls for pending terminal sessions where push channels are blocked. Setup guidance for Intune Partner Compliance updated following Microsoft's changes to Baseline Scope evaluation criteria affecting Conditional Access policies.",
+          "soWhatForMobiControl": "Two signals. Remote-support hardening (SmartScreen reputation, pull-based session start when push is blocked) is table stakes SOTI Remote Control should already meet — verify the push-blocked scenario. The partner-compliance guidance change makes Scalefusion the second vendor reacting to Microsoft's baseline-scope enforcement; see top signal 1."
+        }
+      ]
+    },
+    {
+      "vendor": "Miradore",
+      "summary": "The five most recent release pages (undated) are UX modernisation and Android/iOS features; no Windows capability changes.",
+      "items": [
+        {
+          "title": "Windows device page actions moved from wizards to dialogs",
+          "date": null,
+          "url": "https://www.miradore.com/knowledge/releases/start-patch-installation-now-and-retry-client-installation-action-improvements/",
+          "platforms": ["Windows", "macOS"],
+          "windowsRelevance": "low",
+          "whatChanged": "Actions > Start patch installation now and Retry client installation on Mac and Windows device pages, and Merge devices for Android and Windows, now use dialogs instead of step-by-step wizards.",
+          "soWhatForMobiControl": "None."
+        }
+      ]
+    },
+    {
+      "vendor": "Jamf",
+      "summary": "Jamf Pro 11.32.0 is Apple-only: OS 27 compatibility, inventory attributes reported without MDM queries, Platform API Gateway general availability, upcoming separate privileges for mass actions, and deprecation of non-OIDC administrator authentication for cloud instances by the second half of 2027. Direction signals are listed under cross-platform signals; there are no Windows parity items.",
+      "items": []
+    }
+  ],
+  "crossPlatformSignals": [
+    {
+      "vendor": "Jamf",
+      "signal": "Microsoft's improved enforcement for 'All resources' Conditional Access policies with resource exclusions blocked Jamf's macOS device-compliance registration; Jamf changed the registration flow and has an open issue (PI-1580) with policies that require user interaction such as MFA.",
+      "implication": "The same Microsoft change Scalefusion responded to — check MobiControl's Intune partner-compliance registration."
+    },
+    {
+      "vendor": "Jamf",
+      "signal": "Platform API Gateway is generally available: one authentication model, centrally managed credentials in Jamf Account, least-privilege scopes; separate privileges are coming for mass lock, wipe, unmanage and delete actions.",
+      "implication": "API and privilege hardening is the admin-security bar buyers will compare consoles against, MobiControl's included."
+    },
+    {
+      "vendor": "Jamf",
+      "signal": "Apple OS 27 removes the legacy MDM software-update commands; OS update management becomes declarative (DDM) only from fall 2026.",
+      "implication": "No Windows impact; a reminder that platform owners force protocol migrations — Microsoft's Windows MDM CSP deprecations deserve the same tracking."
+    },
+    {
+      "vendor": "Iru, Scalefusion, Jamf, Ivanti",
+      "signal": "All four shipped Apple OS 27 day-zero support in the same week.",
+      "implication": "Apple day-zero readiness is table stakes across the field, not a differentiator for anyone."
+    },
+    {
+      "vendor": "Ivanti",
+      "signal": "Neurons for MDM now has an EU sovereign edition operated independently from a German data centre.",
+      "implication": "Sovereign hosting will come up in EU public-sector deals regardless of platform."
+    }
+  ],
+  "noChange": [],
+  "sourceStatus": [
+    { "source": "intune-whats-new", "status": "ok", "note": "Baseline. 1 new weekly section (Week of September 7, 2026)." },
+    { "source": "intune-blog", "status": "no-change", "note": "20 posts indexed; newest is 27 Aug 2026." },
+    { "source": "iru-updates", "status": "ok", "note": "10 updates since 1 Sep." },
+    { "source": "hexnode-whats-new", "status": "no-change", "note": "23 items indexed; newest is 20 Jul 2026." },
+    { "source": "hexnode-blog", "status": "ok", "note": "3 product/feature posts since 1 Sep (marketing posts filtered out)." },
+    { "source": "miradore-releases", "status": "ok", "note": "365 release pages indexed; 5 newest captured — pages carry no dates." },
+    { "source": "42gears-press", "status": "ok", "note": "103 press releases indexed; undated, none attributable to this period." },
+    { "source": "42gears-docs", "status": "ok", "note": "928 doc pages; 134 changed since 1 Sep; 8 Windows-related pages reviewed. One (Windows Server dynamic jobs) returned no text." },
+    { "source": "jamf-pro-release-notes", "status": "ok", "note": "Jamf Pro 11.32.0, 14 topics." },
+    { "source": "scalefusion-release-notes", "status": "ok", "note": "24 releases indexed for 2026; 4 Sep release captured in full." },
+    { "source": "scalefusion-product-updates", "status": "ok", "note": "1 post since 1 Sep." },
+    { "source": "ivanti-quarterly-releases", "status": "ok", "note": "Q3 2026 (27 product blocks) and Q2 2026 (40) pages; undated." },
+    { "source": "manageengine-release-notes", "status": "error", "note": "Not configured — product choice pending (Mobile Device Manager Plus vs Endpoint Central)." }
+  ],
+  "methodology": "Baseline run of the competitor-watch agent on 15 Sep 2026 against 12 public vendor sources. With no prior snapshot, dated sources list items published 1–15 Sep 2026; undated sources (Miradore releases, 42Gears press releases, Ivanti quarterly pages, Jamf topics) list their newest entries, so Ivanti Q2 items and the 42Gears press releases predate this period and are treated as context, not news. From the next run, every item is a strict delta against these snapshots. Blind spots: 42Gears publishes no release notes, so documentation changes are the proxy and one Windows Server page returned no text; ManageEngine is not yet configured; the Intune blog and Hexnode What's new had nothing in the window; analyst content and gated portals are out of scope."
+}
