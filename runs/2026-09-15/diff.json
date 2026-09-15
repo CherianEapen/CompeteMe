@@ -1,0 +1,305 @@
+{
+  "runDate": "2026-09-15",
+  "periodStart": "2026-09-08",
+  "periodEnd": "2026-09-15",
+  "baselineDays": 14,
+  "sources": [
+    {
+      "id": "intune-whats-new",
+      "vendor": "Microsoft Intune",
+      "kind": "html-sections",
+      "url": "https://learn.microsoft.com/en-us/intune/whats-new/",
+      "mdChars": 12000,
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://learn.microsoft.com/en-us/intune/whats-new/",
+        "headings": 25
+      },
+      "counts": {
+        "total": 6,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 296
+    },
+    {
+      "id": "intune-blog",
+      "vendor": "Microsoft Intune",
+      "kind": "rss",
+      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftIntuneBlog",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftIntuneBlog",
+        "entries": 20
+      },
+      "counts": {
+        "total": 20,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 192
+    },
+    {
+      "id": "iru-updates",
+      "vendor": "Iru",
+      "kind": "rss",
+      "url": "https://www.iru.com/updates/rss.xml",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://www.iru.com/updates/rss.xml",
+        "entries": 50
+      },
+      "counts": {
+        "total": 50,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 525
+    },
+    {
+      "id": "hexnode-whats-new",
+      "vendor": "Hexnode",
+      "kind": "next-data",
+      "url": "https://www.hexnode.com/whats-new/",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://www.hexnode.com/whats-new/",
+        "found": 23
+      },
+      "counts": {
+        "total": 23,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 341
+    },
+    {
+      "id": "hexnode-blog",
+      "vendor": "Hexnode",
+      "kind": "rss",
+      "url": "https://www.hexnode.com/blogs/feed/",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://www.hexnode.com/blogs/feed/",
+        "entries": 10
+      },
+      "counts": {
+        "total": 3,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 196
+    },
+    {
+      "id": "miradore-releases",
+      "vendor": "Miradore",
+      "kind": "link-list",
+      "url": "https://www.miradore.com/knowledge/releases/",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://www.miradore.com/knowledge/releases/",
+        "links": 365,
+        "fetched": 0
+      },
+      "counts": {
+        "total": 365,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 1340
+    },
+    {
+      "id": "42gears-press",
+      "vendor": "42Gears",
+      "kind": "link-list",
+      "url": "https://www.42gears.com/press-releases",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://www.42gears.com/press-releases",
+        "links": 103,
+        "fetched": 0
+      },
+      "counts": {
+        "total": 103,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 832
+    },
+    {
+      "id": "42gears-docs",
+      "vendor": "42Gears",
+      "kind": "sitemap",
+      "url": "https://docs.42gears.com/suremdm/sitemap.xml",
+      "reportInclude": "windows|win32|msi|bitlocker|autopilot",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "urls": 928,
+        "fetched": 0,
+        "fetchCandidates": 0
+      },
+      "counts": {
+        "total": 928,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 358
+    },
+    {
+      "id": "jamf-pro-release-notes",
+      "vendor": "Jamf",
+      "kind": "jamf-khub",
+      "url": "https://learn.jamf.com",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "map": "Jamf Pro Release Notes 11.32.0",
+        "version": "11.32.0",
+        "topics": 14
+      },
+      "counts": {
+        "total": 14,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 4057
+    },
+    {
+      "id": "scalefusion-release-notes",
+      "vendor": "Scalefusion",
+      "kind": "d360-index",
+      "url": "https://help.scalefusion.com/docs/latest-release-notes-year-{year}",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://help.scalefusion.com/docs/latest-release-notes-year-2026",
+        "articleModifiedAt": "2026-09-15T10:06:30.1304234Z",
+        "articleTitle": "Latest Release Notes: Year 2026",
+        "fetched": 0
+      },
+      "counts": {
+        "total": 24,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 614
+    },
+    {
+      "id": "scalefusion-product-updates",
+      "vendor": "Scalefusion",
+      "kind": "rss",
+      "url": "https://blog.scalefusion.com/category/product-updates/feed/",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://blog.scalefusion.com/category/product-updates/feed/",
+        "entries": 10
+      },
+      "counts": {
+        "total": 10,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 139
+    },
+    {
+      "id": "ivanti-quarterly-releases",
+      "vendor": "Ivanti",
+      "kind": "html-blocks",
+      "url": "https://www.ivanti.com/releases",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "pages": [
+          "https://www.ivanti.com/releases/2026/q3",
+          "https://www.ivanti.com/releases/2026/q2"
+        ]
+      },
+      "counts": {
+        "total": 67,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 800
+    },
+    {
+      "id": "manageengine-endpoint-central",
+      "vendor": "ManageEngine",
+      "kind": "csv",
+      "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
+        "rows": 4601,
+        "kept": 400
+      },
+      "counts": {
+        "total": 399,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 403
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "MobiControl Competitor Update — pipeline verification, 15 Sep 2026",
+  "periodStart": "2026-09-15",
+  "periodEnd": "2026-09-15",
+  "generatedAt": "2026-09-15",
+  "execSummary": [
+    "This run verifies the local weekly pipeline; it is not a competitive read. All 13 sources were fetched successfully and every one returned no change against the snapshots taken earlier the same day, which is the expected result for a same-day re-run.",
+    "The competitive content for 1–15 Sep 2026 is in the baseline report, reports/2026-09-15-baseline-competitor-update.docx. The first real weekly delta lands on Monday 21 Sep."
+  ],
+  "topSignals": [],
+  "vendors": [],
+  "crossPlatformSignals": [],
+  "noChange": [
+    "Microsoft Intune",
+    "Ivanti",
+    "Iru",
+    "Hexnode",
+    "42Gears",
+    "Scalefusion",
+    "Miradore",
+    "Jamf",
+    "ManageEngine"
+  ],
+  "sourceStatus": [
+    { "source": "intune-whats-new", "status": "no-change", "note": "6 sections indexed" },
+    { "source": "intune-blog", "status": "no-change", "note": "20 posts indexed" },
+    { "source": "iru-updates", "status": "no-change", "note": "50 updates indexed" },
+    { "source": "hexnode-whats-new", "status": "no-change", "note": "23 items indexed" },
+    { "source": "hexnode-blog", "status": "no-change", "note": "3 product posts indexed" },
+    { "source": "miradore-releases", "status": "no-change", "note": "365 release pages indexed" },
+    { "source": "42gears-press", "status": "no-change", "note": "103 press releases indexed" },
+    { "source": "42gears-docs", "status": "no-change", "note": "928 doc pages indexed" },
+    { "source": "jamf-pro-release-notes", "status": "no-change", "note": "Jamf Pro 11.32.0, 14 topics" },
+    { "source": "scalefusion-release-notes", "status": "no-change", "note": "24 releases indexed for 2026" },
+    { "source": "scalefusion-product-updates", "status": "no-change", "note": "10 posts indexed" },
+    { "source": "ivanti-quarterly-releases", "status": "no-change", "note": "Q3 and Q2 2026 pages" },
+    { "source": "manageengine-endpoint-central", "status": "no-change", "note": "399 Endpoint Central rows indexed" }
+  ],
+  "methodology": "Verification run of scripts/run-weekly.ps1 on 15 Sep 2026, executed on the Windows machine after the Claude Code cloud sandbox proved unable to reach any vendor site. All 13 sources fetched without error and none had changed since the baseline snapshots taken hours earlier, so there is nothing to analyse and no findings are reported. This confirms fetch, diff, render and commit work locally; the analysis step is exercised for the first time on the next scheduled run."
+}
