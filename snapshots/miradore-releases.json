@@ -2,13 +2,22 @@
  "id": "miradore-releases",
  "vendor": "Miradore",
  "kind": "link-list",
- "fetchedAt": "2026-09-15T10:06:30.802Z",
+ "fetchedAt": "2026-09-21T04:30:09.788Z",
  "meta": {
   "url": "https://www.miradore.com/knowledge/releases/",
-  "links": 365,
-  "fetched": 0
+  "links": 366,
+  "fetched": 1
  },
  "items": [
+  {
+   "key": "https://www.miradore.com/knowledge/releases/bug-fix-android-managed-app-configuration-deployment-via-business-policy/",
+   "title": "Bug fix: Android managed app configuration deployment via business policy",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/bug-fix-android-managed-app-configuration-deployment-via-business-policy/",
+   "text": "We fixed a bug where deploying an application and its managed configuration together through a business policy could result in the managed configuration not being applied on Android devices.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
+   "hash": "8a7b8680a6666cb4398cb1605c5fca83cb2fbd3aa84b90829ef886fe38de67a2",
+   "windows": "none"
+  },
   {
    "key": "https://www.miradore.com/knowledge/releases/organization-linked-activation-lock-for-ios-configuration-profile-deployment-wizard-and-wallpaper-image-size-improvement-android-kiosk-mode-bug-fix/",
    "title": "Organization-linked Activation Lock for iOS, configuration profile deployment wizard and wallpaper image size improvement, Android kiosk mode bug fix",
@@ -71,15 +80,6 @@
    "text": "",
    "hash": "86e0b61e985e7497c50d16fed3ccc0c5da53b433b78aac6f64bf44a52c9a1a61",
    "windows": "none"
-  },
-  {
-   "key": "https://www.miradore.com/knowledge/releases/ios-support-changes-static-security-code-for-kiosk-mode-and-other-improvements/",
-   "title": "iOS support changes, static security code for kiosk mode, and other improvements",
-   "date": null,
-   "url": "https://www.miradore.com/knowledge/releases/ios-support-changes-static-security-code-for-kiosk-mode-and-other-improvements/",
-   "text": "",
-   "hash": "bd7b86694a2ec5cc47a03d3ef4d8e92e42ab76580c05f78663781560927105a5",
-   "windows": "medium"
   },
   {
    "key": "https://www.miradore.com/knowledge/releases/end-of-support-for-devices-running-ios-versions-below-ios-13/",
@@ -971,6 +971,15 @@
    "text": "",
    "hash": "d146f46b04d07d452fd9dc3c9ab141a2cf93391e3dd82196288f51515275d913",
    "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/ios-support-changes-static-security-code-for-kiosk-mode-and-other-improvements/",
+   "title": "iOS support changes, static security code for kiosk mode, and other improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/ios-support-changes-static-security-code-for-kiosk-mode-and-other-improvements/",
+   "text": "",
+   "hash": "bd7b86694a2ec5cc47a03d3ef4d8e92e42ab76580c05f78663781560927105a5",
+   "windows": "medium"
   },
   {
    "key": "https://www.miradore.com/knowledge/releases/increased-ios-version-requirement-for-location-tracking-ui-and-usability-improvements-premium-and-premium-subscriptions-no-longer-available-in-quebec/",

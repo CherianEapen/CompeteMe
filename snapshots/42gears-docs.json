@@ -2,9 +2,9 @@
  "id": "42gears-docs",
  "vendor": "42Gears",
  "kind": "sitemap",
- "fetchedAt": "2026-09-15T10:06:29.977Z",
+ "fetchedAt": "2026-09-21T04:30:09.436Z",
  "meta": {
-  "urls": 928,
+  "urls": 930,
   "fetched": 0,
   "fetchCandidates": 0
  },
@@ -5421,10 +5421,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/",
    "title": "sureidp",
-   "date": "2025-10-05",
+   "date": "2026-09-16",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/",
    "text": "",
-   "hash": "56764be3c1df120fb549623e5aeb6db5e9d0789f82be20bba60c9be74d1837a5",
+   "hash": "c596a62c6d6390b95fa6a48e4407281557a1671717b28df322747acab702e738",
    "windows": "none"
   },
   {
@@ -5457,19 +5457,19 @@
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/audit-logs",
    "title": "audit logs",
-   "date": null,
+   "date": "2026-09-16",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/audit-logs",
    "text": "",
-   "hash": "0b5731e367b8075c0f0109a27375690655437daa0ae040f745c9be04330da0e3",
+   "hash": "d2ef6435fe8670572b0a0320304ee634f068dfe6fc2e966a1f52abc9dcc2dbc1",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/authentication-and-conditional-access",
    "title": "authentication and conditional access",
-   "date": "2025-09-12",
+   "date": "2026-09-16",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/authentication-and-conditional-access",
    "text": "",
-   "hash": "7c6714aafc5c1ae343e38b47a35f20d61a9a1422ebd2537883de1e130e08a35c",
+   "hash": "35c26e13c07c8bde4f1535f72c1f6661c8d90cd1fa7ee325ac1fb88b36207611",
    "windows": "none"
   },
   {
@@ -5520,10 +5520,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/identity-providers/",
    "title": "identity providers",
-   "date": "2026-09-08",
+   "date": "2026-09-16",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/identity-providers/",
    "text": "",
-   "hash": "69af920e6e7fa950ae5789502fdde85caca3f07536eab17daccc80b9fb6b9d13",
+   "hash": "5c4ede5e92999cdb4a7d0e531f432ae4e3d5f40617ad4ec08b7620f67ee407dd",
    "windows": "none"
   },
   {
@@ -5574,10 +5574,28 @@
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/os-login-with-sureidp-authentication",
    "title": "os login with sureidp authentication",
-   "date": "2026-02-26",
+   "date": "2026-09-16",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/os-login-with-sureidp-authentication",
    "text": "",
-   "hash": "3e78ebcee52e3c68d3445e730819afee715d7422706756cbd5478ef601c08092",
+   "hash": "60ac07489c5c8cf36e39246f4a6c62bfbddd4188e55b301fc1044cde528d93d0",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/shared-device-nfc-qr-auth",
+   "title": "shared device nfc qr auth",
+   "date": "2026-09-16",
+   "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/shared-device-nfc-qr-auth",
+   "text": "",
+   "hash": "71373fa6d36288fa3907c644db77cd9a78676c8d7e3750bfcbe951b822f6467a",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/user-device-binding",
+   "title": "user device binding",
+   "date": "2026-09-16",
+   "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/user-device-binding",
+   "text": "",
+   "hash": "54df959ad7765bec3c0be75697c782f647d6ec3fc40ded3f413fc06027dff283",
    "windows": "none"
   },
   {

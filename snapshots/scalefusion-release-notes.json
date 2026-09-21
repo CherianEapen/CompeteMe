@@ -2,14 +2,23 @@
  "id": "scalefusion-release-notes",
  "vendor": "Scalefusion",
  "kind": "d360-index",
- "fetchedAt": "2026-09-15T10:06:30.591Z",
+ "fetchedAt": "2026-09-21T04:30:09.671Z",
  "meta": {
   "url": "https://help.scalefusion.com/docs/latest-release-notes-year-2026",
-  "articleModifiedAt": "2026-09-15T10:06:30.1304234Z",
+  "articleModifiedAt": "2026-09-21T04:30:08.7970496Z",
   "articleTitle": "Latest Release Notes: Year 2026",
-  "fetched": 0
+  "fetched": 1
  },
  "items": [
+  {
+   "key": "Scalefusion September 9th, 2026 Release Notes",
+   "title": "Scalefusion September 9th, 2026 Release Notes",
+   "date": "2026-09-15",
+   "url": "https://help.scalefusion.com/docs/scalefusion-september-9th-2026-release-notes",
+   "text": "Version Information\nScalefusion Dashboard: v67.7.0\nScalefusion On-Prem Connector: v2.5.5\nRelease Notes\nDay Zero Enhancements for Apple\nScalefusion applications have been tested and updated for full Day Zero compatibility with Apple's latest operating systems.\na. Apple Intelligence and Siri: On iOS 26.4+ and macOS 26.4+, Apple Intelligence and Siri restriction settings are now delivered through DDM declarations, replacing legacy MDM keys while maintaining backward compatibility for older OS versions.\nb. Apple Intelligence Controls: Added controls for Apple Intelligence Report, Visual Intelligence Summary, Safari Summary, Mail Smart Replies, Notes Transcription, and Calendar Natural Language Editing. On-device enforcement is also supported for Dictation and Translation.\nc. New iOS Restrictions: Added restrictions for Default Calling App Modification, Default Messaging App Modification, Satellite Connection, and Proximity Setup to New Device.\nd. New macOS Restrictions: Added restrictions for Force Captive Portal Connection from Lock Screen, Force WiFi Configuration on Lock Screen, and Allow Rosetta Usage Awareness.\ne. iOS OS Update Settings: OS update settings have been restructured with controls for Automatic Install and Download, Recommended Cadence, and Rapid Security Response management.\nf. ADE Profiles: Added new skip keys for OS Showcase and Liquid Glass panes, along with Auto Advance support for macOS and tvOS Setup Assistants.\nMinimum OS Support for Scalefusion Apps\nStarting November 2026, new versions of the Scalefusion apps for macOS and iOS will require macOS 12 (Monterey) or later and iOS 15 or later.\nDevices running older supported OS versions will remain enrolled and continue to enforce existing Scalefusion policies. However, they will no longer receive new Scalefusion app updates, including features, fixes, enhancements, and compatibility updates released after October 2026.\nUser Sync Enhancements for Google Workspace and Entra\nScalefusion now uses webhooks provided by Google Workspace and Entra to synchronize user changes in near real time. The synchronization tracks user deletions and updates.\na. If a webhook connection is broken, Scalefusion checks for the connection during the daily synchronization scheduled at 12:00 AM UTC and attempts to restore it.\nb. User import during enrollment is now available for Google Workspace and Entra, allowing users of user-based Desktops and Mobiles to enroll using a URL and an ORG-ID/Enrollment code instead of requiring administrators to import all users and send invitations.\nUser Sync Enhancements for On-Prem AD\nAdministrators can now map the Phone number attribute through the On-Prem Connector. The mapped phone number is synchronized during the next sync interval.\nTeam\nTeam Scalefusion",
+   "hash": "c0b4820d611c781ddd7980e4aa683737d9064348734869228670a707376aae53",
+   "windows": "none"
+  },
   {
    "key": "Scalefusion September 4th, 2026 Release Notes",
    "title": "Scalefusion September 4th, 2026 Release Notes",

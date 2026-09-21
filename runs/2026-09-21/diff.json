@@ -1,0 +1,590 @@
+{
+  "runDate": "2026-09-21",
+  "periodStart": "2026-09-15",
+  "periodEnd": "2026-09-21",
+  "baselineDays": 14,
+  "sources": [
+    {
+      "id": "intune-whats-new",
+      "vendor": "Microsoft Intune",
+      "kind": "html-sections",
+      "url": "https://learn.microsoft.com/en-us/intune/whats-new/",
+      "mdChars": 12000,
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://learn.microsoft.com/en-us/intune/whats-new/",
+        "headings": 24
+      },
+      "counts": {
+        "total": 6,
+        "new": 1,
+        "changed": 0,
+        "removed": 1,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "Week of September 14, 2026",
+          "title": "Week of September 14, 2026",
+          "date": "2026-09-14",
+          "url": "https://learn.microsoft.com/en-us/intune/whats-new/#week-of-september-14-2026",
+          "text": "Device security\nFaster compliance updates for Windows devices\nMicrosoft Intune now supports client-driven compliance evaluation for Windows devices. Supported devices can detect changes to compliance signals, including firewall, antivirus, BitLocker, Microsoft Defender status, operating system build, real-time protection, and Secure Boot, and proactively request reevaluation rather than waiting for a scheduled check-in. This provides faster compliance updates for remediation, reporting, and access decisions. Evaluation of compliance policies during check-in also occurs when a calculation is triggered.\nFor more information, see Create a compliance policy in Microsoft Intune.\nApplies to:\nWindows",
+          "hash": "32ccff7f5af9d065f41a3848737dc1f84e98836131201974cdb867cde3b72924",
+          "windows": "high"
+        }
+      ],
+      "changed": [],
+      "ms": 997
+    },
+    {
+      "id": "intune-blog",
+      "vendor": "Microsoft Intune",
+      "kind": "rss",
+      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftIntuneBlog",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftIntuneBlog",
+        "entries": 20
+      },
+      "counts": {
+        "total": 20,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 1154
+    },
+    {
+      "id": "iru-updates",
+      "vendor": "Iru",
+      "kind": "rss",
+      "url": "https://www.iru.com/updates/rss.xml",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://www.iru.com/updates/rss.xml",
+        "entries": 50
+      },
+      "counts": {
+        "total": 50,
+        "new": 7,
+        "changed": 0,
+        "removed": 7,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "https://www.iru.com/updates/introducing-msp-billing",
+          "title": "Introducing MSP Billing",
+          "date": "2026-09-18",
+          "url": "https://www.iru.com/updates/introducing-msp-billing",
+          "text": "MSP Billing gives managed services providers daily, per-tenant spend visibility, so they always know what they owe and can bill clients with confidence. MSPs can also update payment methods, billing information, and view past invoices. It's available now for U.S. customers, with self-serve setup in minutes, right in the Partner Portal.",
+          "hash": "0be0c839de3a432ac7150fc9aee4a42fd02e3b615e309b1a7bd0c56d3d843bc5",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/windows-managed-os-patch-compliance",
+          "title": "Windows Managed OS patch compliance",
+          "date": "2026-09-18",
+          "url": "https://www.iru.com/updates/windows-managed-os-patch-compliance",
+          "text": "The Managed OS Library Item for Windows now reports whether each assigned device has reached the Windows 11 build the Library Item requires. Devices show as Pass, Update past due, or Error, and expanding a device row shows its current build against the required build, plus the eligibility, install enforcement, and restart enforcement dates.",
+          "hash": "def7e92f175a59a326a60334af1501419f151bf97d1a3c0e8d8aaafde3520977",
+          "windows": "high"
+        },
+        {
+          "key": "https://www.iru.com/updates/iru-agent-for-windows-1.22.3",
+          "title": "Iru Agent for Windows 1.22.3",
+          "date": "2026-09-18",
+          "url": "https://www.iru.com/updates/iru-agent-for-windows-1.22.3",
+          "text": "We've released Iru Agent for Windows. This release fixes Custom App and Auto App detection so apps are no longer reinstalled when a version is missing or misread, corrects Auto Apps enforcement after a user closes an app, and resolves agent installation failures.",
+          "hash": "ecda751232580abdc8fbd7d6c590efe0bbf9f9f9302a2719c8d1041fc4f3dc23",
+          "windows": "high"
+        },
+        {
+          "key": "https://www.iru.com/updates/windows-update-library-item-recommendations-in-iru-ai",
+          "title": "Windows Update Library Item Recommendations in Iru AI",
+          "date": "2026-09-17",
+          "url": "https://www.iru.com/updates/windows-update-library-item-recommendations-in-iru-ai",
+          "text": "Iru AI can now recommend and implement Windows Update settings based on CIS benchmarks or Microsoft defaults, and you can ask follow-up questions to refine those settings or understand their behavior. Iru AI can also answer questions about most Library Items, settings, and best practices from any chat, even when you're not on that Library Item page.",
+          "hash": "5235a08c2ce2bf1af8f8573845856242f6da4391d2a97abfd1d1f9c3184b6974",
+          "windows": "high"
+        },
+        {
+          "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.102-5396",
+          "title": "Iru Agent for Mac Release 5.1.102 (5396)",
+          "date": "2026-09-17",
+          "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.102-5396",
+          "text": "We’ve released Iru Agent for Mac 5.1.102 (5396).",
+          "hash": "f7632feef4c1dacf334dd230bcfd3d83b9a0d4fb822a5c7b61901018f7dc3504",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/macos-laps",
+          "title": "Introducing macOS LAPS",
+          "date": "2026-09-17",
+          "url": "https://www.iru.com/updates/macos-laps",
+          "text": "Introducing macOS LAPS: Local Administrator Password Solution. The new LAPS Library Item for Mac automatically generates, rotates, securely escrows, and controls access to local administrator passwords.",
+          "hash": "86ac01d62527b804df36fd2d690044acb791e2db83249d4c00b8be827d28167a",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.101-5395",
+          "title": "Iru Agent for Mac Release 5.1.101 (5395)",
+          "date": "2026-09-15",
+          "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.101-5395",
+          "text": "We’ve released Iru Agent for Mac 5.1.101 (5395).",
+          "hash": "d22b5c3413d8f4dfa406706c9c92224891662c77da08df9471f1ed1dee4dfe23",
+          "windows": "none"
+        }
+      ],
+      "changed": [],
+      "ms": 1657
+    },
+    {
+      "id": "hexnode-whats-new",
+      "vendor": "Hexnode",
+      "kind": "next-data",
+      "url": "https://www.hexnode.com/whats-new/",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://www.hexnode.com/whats-new/",
+        "found": 23
+      },
+      "counts": {
+        "total": 23,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 421
+    },
+    {
+      "id": "hexnode-blog",
+      "vendor": "Hexnode",
+      "kind": "rss",
+      "url": "https://www.hexnode.com/blogs/feed/",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://www.hexnode.com/blogs/feed/",
+        "entries": 10
+      },
+      "counts": {
+        "total": 6,
+        "new": 6,
+        "changed": 0,
+        "removed": 3,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "https://www.hexnode.com/blogs/?p=51369",
+          "title": "Why Workflow Automation is Critical for Scaling a DaaS Operation",
+          "date": "2026-09-18",
+          "url": "https://www.hexnode.com/blogs/why-workflow-automation-is-critical-for-scaling-a-daas-operation/",
+          "text": "Why does manual device management break down as DaaS scales?\nManual device management becomes difficult to sustain as DaaS operations add more devices, customers, platforms, and lifecycle events. DaaS workflow automation becomes important because provisioning, configuration changes, app deployment, updates, compliance tasks, and device refresh activities otherwise create growing volumes of repetitive administrative work.\nScaling should increase the number of devices a team can manage, not require administrative effort to grow at the same rate.\nWhere do repetitive workflows create operational bottlenecks?\nBottlenecks emerge when IT teams repeatedly target devices, deploy configurations, schedule routine actions, track exceptions, and coordinate lifecycle tasks manually. The workload becomes harder to standardize across heterogeneous fleets, where enrollment methods, available management actions, and controls can vary by platform.\nImprove DaaS efficiency with workflow automation\nWhat does a DaaS operation risk without workflow automation?\nWithout workflow automation, Device-as-a-Service operations face higher administrative workloads, inconsistent execution, and slower routine device operations. As fleets grow, teams may need additional operational capacity simply to repeat tasks they already perform for smaller deployments.\nManual processes can make outcomes less consistent as device volumes and operational complexity increase. Similar provisioning, maintenance, or refresh ev…",
+          "hash": "7ce45602d80398788b1f86b3856af57205b7270b378f60190aa747b5198636b4",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.hexnode.com/blogs/?p=51211",
+          "title": "What is Digital Employee Experience (DEX)? – A Complete Guide",
+          "date": "2026-09-17",
+          "url": "https://www.hexnode.com/blogs/digital-employee-experience/",
+          "text": "Workplace technology can meet every availability target and still prevent employees from working efficiently. Slow devices, failed applications, fragmented support and repetitive access processes create friction that conventional infrastructure metrics may not reveal. Digital employee experience gives IT teams a broader way to understand these interactions, connect technical conditions with employee outcomes and improve how workplace technology is delivered. This guide examines what DEX includes, how it operates, how it is measured and where employee self-service fits within a broader DEX strategy.\nExplore Hexnode UEM\nWhat Is Digital Employee Experience (DEX)?\nDigital employee experience (DEX) is the quality of employees’ interactions with workplace technology and their perception of those interactions. It covers devices, applications, access systems, digital workflows, information resources and IT support throughout the employee lifecycle—from onboarding and daily work to role changes, support and offboarding.\nDEX in simple terms\nDEX evaluates whether technology enables employees to work effectively or introduces unnecessary friction. It combines objective signals, such as device health, application performance, login times and support resolution data, with subjective signals, including employee feedback and perceived ease of use.\nThis distinction matters because technical availability does not guarantee a good experience. However, a service may be operational while employe…",
+          "hash": "254e9afcbbe6d08820881c26cf14760d1d5418024c21047ec0284181d90fbe0d",
+          "windows": "medium"
+        },
+        {
+          "key": "https://www.hexnode.com/blogs/?p=51374",
+          "title": "How Can MSPs Manage Windows, macOS, iOS, and Android Clients from One Console?",
+          "date": "2026-09-16",
+          "url": "https://www.hexnode.com/blogs/manage-multiple-os-one-console/",
+          "text": "Why Is It Hard for MSPs to Manage Multiple OS from One Console?\nCross-platform endpoint management helps MSPs manage multiple OS from one console instead of separating administration by operating system. It centralizes management workflows for supported Windows, macOS, iOS, iPadOS, and Android devices within a unified management environment.\nMSPs commonly support clients with varied operating-system environments. A single client may use Windows laptops, Mac workstations, iPhones, iPads, and Android devices. Without cross-platform management, technicians may need to work across multiple platform-specific consoles.\nThat fragmentation creates immediate operational drag. Technicians constantly switch between platform-specific tools to check device status, change configurations, deploy applications, or troubleshoot issues. As a result, each task requires additional navigation and platform-specific knowledge.\nDuplicate onboarding workflows add another layer of overhead. MSP teams may repeat enrollment, application deployment, configuration, and security policy setup across different management systems. Consequently, onboarding a new client or device group can require several parallel workflows.\nPolicy management also becomes harder across operating systems. Separate tools can expose different configuration models, terminology, and administrative processes. Therefore, technicians must verify settings across multiple consoles to maintain consistent client policies.\nThese challenges…",
+          "hash": "ee1ed9d6ca77104a3057226e7171bc72417d1d4e2b9e8f2fe6a3804d079e0470",
+          "windows": "high"
+        },
+        {
+          "key": "https://www.hexnode.com/blogs/?p=51209",
+          "title": "What Role Does UEM Play in a Device-as-a-Service Model?",
+          "date": "2026-09-16",
+          "url": "https://www.hexnode.com/blogs/what-role-does-uem-play-in-a-device-as-a-service-model/",
+          "text": "A device subscription does not manage the device\nDevice as a Service (DaaS) simplifies how organizations acquire, deploy, and refresh hardware, but the device still requires ongoing management after delivery. UEM in Device as a Service provides the management layer for controlling devices throughout their active use.\nBetween deployment and retirement, IT teams still need to configure settings, manage applications and updates, enforce security policies, troubleshoot issues, maintain device visibility, and handle deprovisioning. Without a centralized approach, these activities can remain disconnected from the broader DaaS lifecycle.\nUEM connects these digital management tasks while the DaaS model handles services such as physical logistics, repair, refurbishment, and disposal.\nWhere does the DaaS model start to strain?\nDaaS becomes harder to manage as device volumes, users, locations, operating systems, replacements, and refresh cycles increase. Each addition creates more management events for IT.\nHandling these events individually can replace the efficiency of DaaS with repetitive administrative work. The challenge is therefore not simply delivering devices but maintaining a repeatable management model after deployment.\nPower DaaS operations with Hexnode UEM\nThe hardest part of DaaS is managing the handoffs\nDaaS operations are most vulnerable to friction when devices move between lifecycle stages. A device may pass from provider to employee, employee to support, replacement t…",
+          "hash": "8d3cbfa7562676d99fd4c47a1895ec2366aa11edd1fe606fd3954800ab61c9c6",
+          "windows": "medium"
+        },
+        {
+          "key": "https://www.hexnode.com/blogs/?p=51218",
+          "title": "Device Lifecycle Stages: How Devices Move from Procurement to Retirement",
+          "date": "2026-09-16",
+          "url": "https://www.hexnode.com/blogs/device-lifecycle-stages-how-devices-move-from-procurement-to-retirement/",
+          "text": "What is the device lifecycle?\nThe device lifecycle stages describe the sequence an organizational device moves through from initial planning and procurement to deployment, active use, refresh or reassignment, and eventual retirement. Each stage introduces different requirements for managing the device, its data, and its relationship with the organization.\nDevice lifecycle management connects these stages instead of treating management as something that begins only after deployment. It brings together asset ownership, configuration, security, application and update management, user support, and end-of-life decisions.\nA typical lifecycle includes planning and procurement, enrollment and provisioning, deployment, active management, maintenance and support, refresh or reassignment, and retirement. Device as a Service (DaaS) providers may deliver some of these lifecycle activities, depending on the provider and service agreement.\nStreamline device lifecycle management with Hexnode UEM\nWhy does device lifecycle management become difficult at scale?\nDevice lifecycle management becomes harder as fleets grow across operating systems, remote users, ownership models, and procurement channels. IT teams can lose visibility into device ownership, configuration, and lifecycle status.\nDisconnected procurement, inventory, endpoint management, support, and retirement processes create further gaps as devices move between users and stages. Maintaining continuity from acquisition through retirem…",
+          "hash": "248f2c848fa818c1437aeb2052c79d36aa5601b507c7835de7bc9d982664dc94",
+          "windows": "medium"
+        },
+        {
+          "key": "https://www.hexnode.com/blogs/?p=51156",
+          "title": "What Should DaaS Providers Consider When Evaluating UEM Platform ROI?",
+          "date": "2026-09-16",
+          "url": "https://www.hexnode.com/blogs/what-should-daas-providers-consider-when-evaluating-uem-platform-roi/",
+          "text": "What should DaaS providers calculate when evaluating UEM ROI?\nDaaS providers should calculate UEM ROI for DaaS across operational labor, lifecycle costs, scalability, customer experience, and risk reduction, not license cost alone. Subscription price is only one part of the cost to deliver a managed device. The key question is whether the platform reduces work, delays, and asset losses across the customer contract.\nSpreadsheets and fragmented operations can hide these costs. Separate tools for inventory, provisioning, support, and reporting make it harder to track technician time, unmanaged exceptions, and the value lost when devices are not recovered or reassigned promptly.\nThe calculation is harder across mixed fleets and multiple customers or business units. Providers need visibility into provisioning, monitoring, support, recovery, replacement, and offboarding. Measuring these connected activities reveals the actual cost of delivering DaaS.\nOptimize DaaS ROI with Hexnode UEM\nWhy does an incomplete ROI calculation hurt DaaS profitability?\nAn incomplete ROI calculation can make an apparently profitable Device-as-a-Service (DaaS) offering unprofitable by excluding the recurring operational costs that accumulate throughout a device contract. Providers should assess long-term operating margins, not just initial deployment costs.\nManual work: Repeated configuration, troubleshooting, reporting, and follow-up tasks increase technician time per device and reduce the capacity avai…",
+          "hash": "2cb753886f908d94381d78427f83652688fc94f3ec52512c0ab20ad98a88f693",
+          "windows": "medium"
+        }
+      ],
+      "changed": [],
+      "ms": 994
+    },
+    {
+      "id": "miradore-releases",
+      "vendor": "Miradore",
+      "kind": "link-list",
+      "url": "https://www.miradore.com/knowledge/releases/",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://www.miradore.com/knowledge/releases/",
+        "links": 366,
+        "fetched": 1
+      },
+      "counts": {
+        "total": 366,
+        "new": 1,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "https://www.miradore.com/knowledge/releases/bug-fix-android-managed-app-configuration-deployment-via-business-policy/",
+          "title": "Bug fix: Android managed app configuration deployment via business policy",
+          "date": null,
+          "url": "https://www.miradore.com/knowledge/releases/bug-fix-android-managed-app-configuration-deployment-via-business-policy/",
+          "text": "We fixed a bug where deploying an application and its managed configuration together through a business policy could result in the managed configuration not being applied on Android devices.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
+          "hash": "8a7b8680a6666cb4398cb1605c5fca83cb2fbd3aa84b90829ef886fe38de67a2",
+          "windows": "none"
+        }
+      ],
+      "changed": [],
+      "ms": 2727
+    },
+    {
+      "id": "42gears-press",
+      "vendor": "42Gears",
+      "kind": "link-list",
+      "url": "https://www.42gears.com/press-releases",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://www.42gears.com/press-releases",
+        "links": 103,
+        "fetched": 0
+      },
+      "counts": {
+        "total": 103,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 1143
+    },
+    {
+      "id": "42gears-docs",
+      "vendor": "42Gears",
+      "kind": "sitemap",
+      "url": "https://docs.42gears.com/suremdm/sitemap.xml",
+      "reportInclude": "windows|win32|msi|bitlocker|autopilot",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "urls": 930,
+        "fetched": 0,
+        "fetchCandidates": 0
+      },
+      "counts": {
+        "total": 930,
+        "new": 2,
+        "changed": 5,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/shared-device-nfc-qr-auth",
+          "title": "shared device nfc qr auth",
+          "date": "2026-09-16",
+          "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/shared-device-nfc-qr-auth",
+          "text": "",
+          "hash": "71373fa6d36288fa3907c644db77cd9a78676c8d7e3750bfcbe951b822f6467a",
+          "windows": "none"
+        },
+        {
+          "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/user-device-binding",
+          "title": "user device binding",
+          "date": "2026-09-16",
+          "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/user-device-binding",
+          "text": "",
+          "hash": "54df959ad7765bec3c0be75697c782f647d6ec3fc40ded3f413fc06027dff283",
+          "windows": "none"
+        }
+      ],
+      "changed": [
+        {
+          "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/",
+          "title": "sureidp",
+          "date": "2026-09-16",
+          "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/",
+          "text": "",
+          "hash": "c596a62c6d6390b95fa6a48e4407281557a1671717b28df322747acab702e738",
+          "windows": "none",
+          "addedLines": [],
+          "removedLines": [],
+          "prevDate": "2025-10-05"
+        },
+        {
+          "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/audit-logs",
+          "title": "audit logs",
+          "date": "2026-09-16",
+          "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/audit-logs",
+          "text": "",
+          "hash": "d2ef6435fe8670572b0a0320304ee634f068dfe6fc2e966a1f52abc9dcc2dbc1",
+          "windows": "none",
+          "addedLines": [],
+          "removedLines": [],
+          "prevDate": null
+        },
+        {
+          "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/authentication-and-conditional-access",
+          "title": "authentication and conditional access",
+          "date": "2026-09-16",
+          "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/authentication-and-conditional-access",
+          "text": "",
+          "hash": "35c26e13c07c8bde4f1535f72c1f6661c8d90cd1fa7ee325ac1fb88b36207611",
+          "windows": "none",
+          "addedLines": [],
+          "removedLines": [],
+          "prevDate": "2025-09-12"
+        },
+        {
+          "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/identity-providers/",
+          "title": "identity providers",
+          "date": "2026-09-16",
+          "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/identity-providers/",
+          "text": "",
+          "hash": "5c4ede5e92999cdb4a7d0e531f432ae4e3d5f40617ad4ec08b7620f67ee407dd",
+          "windows": "none",
+          "addedLines": [],
+          "removedLines": [],
+          "prevDate": "2026-09-08"
+        },
+        {
+          "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/os-login-with-sureidp-authentication",
+          "title": "os login with sureidp authentication",
+          "date": "2026-09-16",
+          "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/os-login-with-sureidp-authentication",
+          "text": "",
+          "hash": "60ac07489c5c8cf36e39246f4a6c62bfbddd4188e55b301fc1044cde528d93d0",
+          "windows": "none",
+          "addedLines": [],
+          "removedLines": [],
+          "prevDate": "2026-02-26"
+        }
+      ],
+      "ms": 1789
+    },
+    {
+      "id": "jamf-pro-release-notes",
+      "vendor": "Jamf",
+      "kind": "jamf-khub",
+      "url": "https://learn.jamf.com",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "map": "Jamf Pro Release Notes 11.32.1",
+        "version": "11.32.1",
+        "topics": 3
+      },
+      "counts": {
+        "total": 3,
+        "new": 3,
+        "changed": 0,
+        "removed": 14,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "11.32.1 :: New Features and Enhancements > Changes and Improvements",
+          "title": "New Features and Enhancements > Changes and Improvements — Jamf Pro 11.32.1",
+          "date": null,
+          "url": "https://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.32.1/Changes_and_Improvements",
+          "text": "Jamf Pro 11.32.1 includes Tomcat 10.1.59.\nJamf Remote Assist now includes compatibility for computers with macOS 27 or later.",
+          "hash": "e4df54ccd2a986159021db4aeecae38f87ccf0ae07cdcb2c47934c0788c13ab6",
+          "windows": "none"
+        },
+        {
+          "key": "11.32.1 :: New Features and Enhancements > Resolved Issues",
+          "title": "New Features and Enhancements > Resolved Issues — Jamf Pro 11.32.1",
+          "date": null,
+          "url": "https://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.32.1/Resolved_Issues",
+          "text": "Jamf Pro Server: Security Issues\nJamf provides the CVE-ID for security issues with high or critical severity when possible.\n[PI205872] FIxed: A known vulnerability in a third-party library (CVE-2026-56822, CVE-2026-55831,CVE-2026-59901)\n[PI222752] Fixed: A known vulnerability in a third-party library (CVE-2026-55858)\n[PI223203] Fixed: A known vulnerability in a third-party library (CVE-2026-73089)\n[PI-1654] [PI223696] Fixed: A known vulnerability in a third-party library (CVE-2026-41003)\nJamf Pro Server\n[PI-1519] Fixed: Jamf Pro returns a 409 error when using referential smart groups with the advanced mobile device searches API endpoint.\n[PI-1580] Fixed: The device compliance workflow with Entra ID fails to register devices if an interactive sign-in option (such as multifactor authentication) is enabled.\n[PI-1592] Fixed: Volume purchase invitations sent to users with personal Apple IDs do not display device-level prompts or appear in Self Service, preventing users from associating their account and receiving assigned content.\nImportant:\nThe change in [PI-1592] applies only to volume purchase invitations sent after you upgrade. Invitations that were already pending before the upgrade remain pending and are not resolved automatically. To resolve a pending invitation, send a new invitation to the affected user.\n[PI-1618] [PI221593] Fixed: The identity first workflow with Platform SSO fails with a 409 \"Ambiguous SSO provider\" error when the Okta profile's AppPrefixAllowList contains com.microsoft.",
+          "hash": "eb5437b2a9ef2b39575f5029a6f52d5467893f77f2f0c39217b048a5424678b9",
+          "windows": "none"
+        },
+        {
+          "key": "11.32.1 :: New Features and Enhancements > Additional Information",
+          "title": "New Features and Enhancements > Additional Information — Jamf Pro 11.32.1",
+          "date": null,
+          "url": "https://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.32.1/Additional_Information",
+          "text": "For information on new features and other resolved issues, use the version picker at the top of the page to view previous Jamf Pro release notes.",
+          "hash": "d53b98654ff0996c346c8201d309c549b4ee16236d169cb0a272fa7d95e4f35e",
+          "windows": "none"
+        }
+      ],
+      "changed": [],
+      "ms": 4788
+    },
+    {
+      "id": "scalefusion-release-notes",
+      "vendor": "Scalefusion",
+      "kind": "d360-index",
+      "url": "https://help.scalefusion.com/docs/latest-release-notes-year-{year}",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://help.scalefusion.com/docs/latest-release-notes-year-2026",
+        "articleModifiedAt": "2026-09-21T04:30:08.7970496Z",
+        "articleTitle": "Latest Release Notes: Year 2026",
+        "fetched": 1
+      },
+      "counts": {
+        "total": 25,
+        "new": 1,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "Scalefusion September 9th, 2026 Release Notes",
+          "title": "Scalefusion September 9th, 2026 Release Notes",
+          "date": "2026-09-15",
+          "url": "https://help.scalefusion.com/docs/scalefusion-september-9th-2026-release-notes",
+          "text": "Version Information\nScalefusion Dashboard: v67.7.0\nScalefusion On-Prem Connector: v2.5.5\nRelease Notes\nDay Zero Enhancements for Apple\nScalefusion applications have been tested and updated for full Day Zero compatibility with Apple's latest operating systems.\na. Apple Intelligence and Siri: On iOS 26.4+ and macOS 26.4+, Apple Intelligence and Siri restriction settings are now delivered through DDM declarations, replacing legacy MDM keys while maintaining backward compatibility for older OS versions.\nb. Apple Intelligence Controls: Added controls for Apple Intelligence Report, Visual Intelligence Summary, Safari Summary, Mail Smart Replies, Notes Transcription, and Calendar Natural Language Editing. On-device enforcement is also supported for Dictation and Translation.\nc. New iOS Restrictions: Added restrictions for Default Calling App Modification, Default Messaging App Modification, Satellite Connection, and Proximity Setup to New Device.\nd. New macOS Restrictions: Added restrictions for Force Captive Portal Connection from Lock Screen, Force WiFi Configuration on Lock Screen, and Allow Rosetta Usage Awareness.\ne. iOS OS Update Settings: OS update settings have been restructured with controls for Automatic Install and Download, Recommended Cadence, and Rapid Security Response management.\nf. ADE Profiles: Added new skip keys for OS Showcase and Liquid Glass panes, along with Auto Advance support for macOS and tvOS Setup Assistants.\nMinimum OS Support for Scalefusion Apps\nStarting November 2026, new versions of the Scalefusion apps for macOS and iOS will require macOS 12 (Monterey) or later and iOS 15 or later.\nDevices running older supported OS versions will remain enrolled and continue to enforce existing Scalefusion policies. However, they will no longer receive new Scalefusion app updates, including features, fixes, enhancements, and compatibility updates released after October 2026.\nUser Sync Enhancements for Google Workspace and Entra\nScalefusion now uses webhooks provided by Google Workspace and Entra to synchronize user changes in near real time. The synchronization tracks user deletions and updates.\na. If a webhook connection is broken, Scalefusion checks for the connection during the daily synchronization scheduled at 12:00 AM UTC and attempts to restore it.\nb. User import during enrollment is now available for Google Workspace and Entra, allowing users of user-based Desktops and Mobiles to enroll using a URL and an ORG-ID/Enrollment code instead of requiring administrators to import all users and send invitations.\nUser Sync Enhancements for On-Prem AD\nAdministrators can now map the Phone number attribute through the On-Prem Connector. The mapped phone number is synchronized during the next sync interval.\nTeam\nTeam Scalefusion",
+          "hash": "c0b4820d611c781ddd7980e4aa683737d9064348734869228670a707376aae53",
+          "windows": "none"
+        }
+      ],
+      "changed": [],
+      "ms": 1150
+    },
+    {
+      "id": "scalefusion-product-updates",
+      "vendor": "Scalefusion",
+      "kind": "rss",
+      "url": "https://blog.scalefusion.com/category/product-updates/feed/",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://blog.scalefusion.com/category/product-updates/feed/",
+        "entries": 10
+      },
+      "counts": {
+        "total": 10,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 719
+    },
+    {
+      "id": "ivanti-quarterly-releases",
+      "vendor": "Ivanti",
+      "kind": "html-blocks",
+      "url": "https://www.ivanti.com/releases",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "pages": [
+          "https://www.ivanti.com/releases/2026/q3",
+          "https://www.ivanti.com/releases/2026/q2"
+        ]
+      },
+      "counts": {
+        "total": 67,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 929
+    },
+    {
+      "id": "manageengine-endpoint-central",
+      "vendor": "ManageEngine",
+      "kind": "csv",
+      "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
+        "rows": 4605,
+        "kept": 400
+      },
+      "counts": {
+        "total": 399,
+        "new": 3,
+        "changed": 0,
+        "removed": 3,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "11.5.2622.31|7d2a0b6aeedb",
+          "title": "11.5.2622.31 · BugFixes · DC:MSP",
+          "date": "2026-09-12",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "text": "Improved file permission handling for the Self Service catalog to enhance access control.\nType: BugFixes; Products: DC:MSP",
+          "hash": "eab707c3f53542906abef1b275ee77b383afa7847e49b849cba7af95ad1c5a91",
+          "windows": "none"
+        },
+        {
+          "key": "11.5.2622.31|8ac4826914cf",
+          "title": "11.5.2622.31 · BugFixes · DC:SS",
+          "date": "2026-09-11",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "text": "Extended password protection for XLSX, PPTX, and DOCX files, providing enhanced document security in Endpoint DLP.\nType: BugFixes; Products: DC:SS",
+          "hash": "d37f1f8e91d02776e4ca9463a1e3cee10e019bc815233d56a8b0574182fa69d1",
+          "windows": "none"
+        },
+        {
+          "key": "11.5.2622.31|f3ba891fa2b8",
+          "title": "11.5.2622.31 · BugFixes · DC:SS:MSP:PMP:VMP",
+          "date": "2026-09-11",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "text": "Fixed an issue where end users received false new patch publish notifications for Self Service Portal.\nType: BugFixes; Products: DC:SS:MSP:PMP:VMP",
+          "hash": "8ed4d1fc30d460d095b6ad6f06ec48fa346fd4883b71836eb81e498b77bf4459",
+          "windows": "none"
+        }
+      ],
+      "changed": [],
+      "ms": 512
+    }
+  ]
+}

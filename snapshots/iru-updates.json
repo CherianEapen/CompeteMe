@@ -2,12 +2,75 @@
  "id": "iru-updates",
  "vendor": "Iru",
  "kind": "rss",
- "fetchedAt": "2026-09-15T10:06:29.759Z",
+ "fetchedAt": "2026-09-21T04:30:07.885Z",
  "meta": {
   "url": "https://www.iru.com/updates/rss.xml",
   "entries": 50
  },
  "items": [
+  {
+   "key": "https://www.iru.com/updates/introducing-msp-billing",
+   "title": "Introducing MSP Billing",
+   "date": "2026-09-18",
+   "url": "https://www.iru.com/updates/introducing-msp-billing",
+   "text": "MSP Billing gives managed services providers daily, per-tenant spend visibility, so they always know what they owe and can bill clients with confidence. MSPs can also update payment methods, billing information, and view past invoices. It's available now for U.S. customers, with self-serve setup in minutes, right in the Partner Portal.",
+   "hash": "0be0c839de3a432ac7150fc9aee4a42fd02e3b615e309b1a7bd0c56d3d843bc5",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/windows-managed-os-patch-compliance",
+   "title": "Windows Managed OS patch compliance",
+   "date": "2026-09-18",
+   "url": "https://www.iru.com/updates/windows-managed-os-patch-compliance",
+   "text": "The Managed OS Library Item for Windows now reports whether each assigned device has reached the Windows 11 build the Library Item requires. Devices show as Pass, Update past due, or Error, and expanding a device row shows its current build against the required build, plus the eligibility, install enforcement, and restart enforcement dates.",
+   "hash": "def7e92f175a59a326a60334af1501419f151bf97d1a3c0e8d8aaafde3520977",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.iru.com/updates/iru-agent-for-windows-1.22.3",
+   "title": "Iru Agent for Windows 1.22.3",
+   "date": "2026-09-18",
+   "url": "https://www.iru.com/updates/iru-agent-for-windows-1.22.3",
+   "text": "We've released Iru Agent for Windows. This release fixes Custom App and Auto App detection so apps are no longer reinstalled when a version is missing or misread, corrects Auto Apps enforcement after a user closes an app, and resolves agent installation failures.",
+   "hash": "ecda751232580abdc8fbd7d6c590efe0bbf9f9f9302a2719c8d1041fc4f3dc23",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.iru.com/updates/windows-update-library-item-recommendations-in-iru-ai",
+   "title": "Windows Update Library Item Recommendations in Iru AI",
+   "date": "2026-09-17",
+   "url": "https://www.iru.com/updates/windows-update-library-item-recommendations-in-iru-ai",
+   "text": "Iru AI can now recommend and implement Windows Update settings based on CIS benchmarks or Microsoft defaults, and you can ask follow-up questions to refine those settings or understand their behavior. Iru AI can also answer questions about most Library Items, settings, and best practices from any chat, even when you're not on that Library Item page.",
+   "hash": "5235a08c2ce2bf1af8f8573845856242f6da4391d2a97abfd1d1f9c3184b6974",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.102-5396",
+   "title": "Iru Agent for Mac Release 5.1.102 (5396)",
+   "date": "2026-09-17",
+   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.102-5396",
+   "text": "We’ve released Iru Agent for Mac 5.1.102 (5396).",
+   "hash": "f7632feef4c1dacf334dd230bcfd3d83b9a0d4fb822a5c7b61901018f7dc3504",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/macos-laps",
+   "title": "Introducing macOS LAPS",
+   "date": "2026-09-17",
+   "url": "https://www.iru.com/updates/macos-laps",
+   "text": "Introducing macOS LAPS: Local Administrator Password Solution. The new LAPS Library Item for Mac automatically generates, rotates, securely escrows, and controls access to local administrator passwords.",
+   "hash": "86ac01d62527b804df36fd2d690044acb791e2db83249d4c00b8be827d28167a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.101-5395",
+   "title": "Iru Agent for Mac Release 5.1.101 (5395)",
+   "date": "2026-09-15",
+   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.101-5395",
+   "text": "We’ve released Iru Agent for Mac 5.1.101 (5395).",
+   "hash": "d22b5c3413d8f4dfa406706c9c92224891662c77da08df9471f1ed1dee4dfe23",
+   "windows": "none"
+  },
   {
    "key": "https://www.iru.com/updates/managed-os-for-ios-and-ipados-237538ee-0169-4d4b-9485-3e4bb2a0aab7",
    "title": "Managed OS for iOS, iPadOS, and tvOS",
@@ -393,69 +456,6 @@
    "url": "https://www.iru.com/updates/platform-sso-for-mac-authenticated-guest-mode",
    "text": "The Single Sign-On Extension Library Item now supports configuring Authenticated Guest Mode when using Platform SSO with macOS.",
    "hash": "33c71c44c2c53dc3785376cf639bba68968dfd07e23e876be909c70623ec379a",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/phased-rollouts-for-managed-os-for-apple-devices",
-   "title": "Phased Rollouts for Managed OS for Apple devices",
-   "date": "2026-08-05",
-   "url": "https://www.iru.com/updates/phased-rollouts-for-managed-os-for-apple-devices",
-   "text": "The new phased rollout option previously introduced for Mac Auto Apps is now available for Apple Managed OS. Phased rollouts give admins more control over how updates are introduced across their fleet.",
-   "hash": "d5725bf7123a4f65a6011978f79361496983ab7ec9a2d6621f36a87125298f3e",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/auto-app-screen-studio-758f12f6-72e0-4d03-84f1-fe6766c6d7d7",
-   "title": "Auto App: Screen Studio",
-   "date": "2026-07-29",
-   "url": "https://www.iru.com/updates/auto-app-screen-studio-758f12f6-72e0-4d03-84f1-fe6766c6d7d7",
-   "text": "A new Auto App, Screen Studio, has been added to the catalog and is now available for all customers.",
-   "hash": "78b5804acc00c08d2c0fd7513e83f4c1ecae9eb1733d456228ed76bdf2fef43d",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/auto-app-glean-89937e08-50fe-44cf-87f0-e89311128a64",
-   "title": "Auto App: Glean",
-   "date": "2026-07-29",
-   "url": "https://www.iru.com/updates/auto-app-glean-89937e08-50fe-44cf-87f0-e89311128a64",
-   "text": "A new Auto App, Glean, has been added to the catalog and is now available for all customers.",
-   "hash": "9fbb36437e3f752ea4f14c172f261685f0ceadedde36e17f1c2e72e0ec4e33f6",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/auto-app-elgato-stream-deck-a9e77483-26a3-4837-80b1-bc2df507b0bd",
-   "title": "Auto App: Elgato Stream Deck",
-   "date": "2026-07-29",
-   "url": "https://www.iru.com/updates/auto-app-elgato-stream-deck-a9e77483-26a3-4837-80b1-bc2df507b0bd",
-   "text": "A new Auto App, Elgato Stream Deck, has been added to the catalog and is now available for all customers.",
-   "hash": "3da325739d631039a44ddb7158748318279ebfbf3a805aaefd1914d741cb6bdd",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/auto-app-alttab-d852c8c8-3e8a-4610-a4c5-e24724c582a0",
-   "title": "Auto App: AltTab",
-   "date": "2026-07-29",
-   "url": "https://www.iru.com/updates/auto-app-alttab-d852c8c8-3e8a-4610-a4c5-e24724c582a0",
-   "text": "A new Auto App, AltTab, has been added to the catalog and is now available for all customers.",
-   "hash": "4b28ca3e410507566ffe1e4033d2148c365112ca11121a15f33da0001811184c",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/windows-auto-apps-f76ea095-9d35-4c46-b1f0-22faf16654f7",
-   "title": "New Windows Auto Apps",
-   "date": "2026-07-29",
-   "url": "https://www.iru.com/updates/windows-auto-apps-f76ea095-9d35-4c46-b1f0-22faf16654f7",
-   "text": "New Windows Auto Apps have been added to the catalog and are now available for all Iru Endpoint customers.",
-   "hash": "9668191680226e7da612f4f40e25a613335687145e4d77a4281a818eddb6b524",
-   "windows": "high"
-  },
-  {
-   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.22-5390",
-   "title": "Iru Agent for Mac Release 5.1.22 (5390)",
-   "date": "2026-07-29",
-   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.22-5390",
-   "text": "We’ve released Iru Agent for Mac 5.1.22 (5390).",
-   "hash": "c0509f32e41f4324039c4e3d685cc2af85f45b5a96612e5d403cc17295a1e1ac",
    "windows": "none"
   }
  ]

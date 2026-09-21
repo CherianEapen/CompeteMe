@@ -2,13 +2,40 @@
  "id": "manageengine-endpoint-central",
  "vendor": "ManageEngine",
  "kind": "csv",
- "fetchedAt": "2026-09-15T10:06:30.994Z",
+ "fetchedAt": "2026-09-21T04:30:10.300Z",
  "meta": {
   "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
-  "rows": 4601,
+  "rows": 4605,
   "kept": 400
  },
  "items": [
+  {
+   "key": "11.5.2622.31|7d2a0b6aeedb",
+   "title": "11.5.2622.31 · BugFixes · DC:MSP",
+   "date": "2026-09-12",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Improved file permission handling for the Self Service catalog to enhance access control.\nType: BugFixes; Products: DC:MSP",
+   "hash": "eab707c3f53542906abef1b275ee77b383afa7847e49b849cba7af95ad1c5a91",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2622.31|8ac4826914cf",
+   "title": "11.5.2622.31 · BugFixes · DC:SS",
+   "date": "2026-09-11",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Extended password protection for XLSX, PPTX, and DOCX files, providing enhanced document security in Endpoint DLP.\nType: BugFixes; Products: DC:SS",
+   "hash": "d37f1f8e91d02776e4ca9463a1e3cee10e019bc815233d56a8b0574182fa69d1",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2622.31|f3ba891fa2b8",
+   "title": "11.5.2622.31 · BugFixes · DC:SS:MSP:PMP:VMP",
+   "date": "2026-09-11",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed an issue where end users received false new patch publish notifications for Self Service Portal.\nType: BugFixes; Products: DC:SS:MSP:PMP:VMP",
+   "hash": "8ed4d1fc30d460d095b6ad6f06ec48fa346fd4883b71836eb81e498b77bf4459",
+   "windows": "none"
+  },
   {
    "key": "11.5.2622.30|4d2e0be408c3",
    "title": "11.5.2622.30 · BugFixes · DC:SS:MSP:PMP:VMP",
@@ -3571,33 +3598,6 @@
    "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
    "text": "The commons-fileupload jar has been upgraded from version 1.5 to 1.6.0.\nType: BugFixes; Products: DC:MSP",
    "hash": "c7a7762c61b4a4491e9e56c463b3db0684b02c7e79c39f11d690d9bdf5ef9e54",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2526.01|e43ccd025a9f",
-   "title": "11.4.2526.01 · BugFixes · DC",
-   "date": "2025-07-28",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "The issue with sensitive file detection in network drives in Endpoint DLP module has been fixed.\nType: BugFixes; Products: DC",
-   "hash": "19299fa0cbd274f81900987bc46a3bbf4c8c955d37f3b30098abb9ad6cadc9ac",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2526.01|872a1c2012d1",
-   "title": "11.4.2526.01 · Enhancements · DC:MSP",
-   "date": "2025-07-28",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Software categories can now be assigned from the Inventory Software view through Probe server. binding for SCEP, enhancing client certificate security [Learn more](https://support.microsoft.com/en-us/topic/kb5014754-certificate-based-authentication-changes-on-windows-domain-controllers-ad2c23b0-15d8-4340-a468-4d4f3b188f16)\nType: Enhancements; Products: DC:MSP",
-   "hash": "2f8ea2e94702a34ea50ecbe79389ff93b4b02f71c6aa8a2c6f8362fc0a377a4e",
-   "windows": "medium"
-  },
-  {
-   "key": "11.4.2526.01|e86e97f1e2b0",
-   "title": "11.4.2526.01 · BugFixes · DC:MSP",
-   "date": "2025-07-28",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "fixed deployment failure due to wrong architecture download in yum based machine\nType: BugFixes; Products: DC:MSP",
-   "hash": "445edc4463353a9fb3b533386521cad18804ff0a8891d98280b7552a001fac66",
    "windows": "none"
   }
  ]
