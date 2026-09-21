@@ -40,6 +40,7 @@
 [CmdletBinding()]
 param(
   [string]$RunDate = (Get-Date).ToUniversalTime().ToString('yyyy-MM-dd'),
+  [switch]$ReFetch,
   [switch]$SkipAnalysis,
   [switch]$NoPush,
   [switch]$NoCommit
@@ -90,20 +91,45 @@ function Write-NativeOutput {
 }
 
 # Resolve the newest claude.exe shipped with the Claude desktop app. The version folder
-# changes as the app updates, so never hardcode it.
-function Get-ClaudeExe {
-  $found = @()
+# changes as the app updates (and old versions are deleted), so never hardcode it. The app
+# can also be mid-update when the task fires, so this retries once and logs what it saw --
+# the 21 Sep run failed here with no diagnostics and the cause could not be reconstructed.
+function Find-ClaudeExe {
+  $candidates = @()
   foreach ($root in @("$env:APPDATA\Claude\claude-code", "$env:LOCALAPPDATA\Claude\claude-code")) {
     if (Test-Path $root) {
-      $found += Get-ChildItem -Path $root -Directory -ErrorAction SilentlyContinue |
-        ForEach-Object { Join-Path $_.FullName 'claude.exe' } |
-        Where-Object { Test-Path $_ }
+      $candidates += @(Get-ChildItem -Path (Join-Path $root '*\claude.exe') -File -ErrorAction SilentlyContinue)
     }
   }
   $onPath = Get-Command claude -ErrorAction SilentlyContinue
-  if ($onPath) { $found += $onPath.Source }
-  if ($found.Count -eq 0) { return $null }
-  return ($found | Sort-Object { (Get-Item $_).LastWriteTime } -Descending)[0]
+  if ($onPath -and (Test-Path $onPath.Source)) { $candidates += @(Get-Item $onPath.Source) }
+  if ($candidates.Count -eq 0) { return $null }
+  # Prefer the highest version folder, falling back to newest on disk.
+  $best = $candidates | Sort-Object `
+    @{ Expression = { $v = $null; if ([version]::TryParse($_.Directory.Name, [ref]$v)) { $v } else { [version]'0.0.0' } }; Descending = $true }, `
+    @{ Expression = { $_.LastWriteTime }; Descending = $true }
+  return $best[0].FullName
+}
+
+function Get-ClaudeExe {
+  $exe = Find-ClaudeExe
+  if (-not $exe) {
+    Write-Log 'claude.exe not found on first look -- retrying in 10s in case the app is updating' 'WARN'
+    Start-Sleep -Seconds 10
+    $exe = Find-ClaudeExe
+  }
+  if (-not $exe) {
+    Write-Log "APPDATA=$env:APPDATA" 'ERROR'
+    foreach ($root in @("$env:APPDATA\Claude\claude-code", "$env:LOCALAPPDATA\Claude\claude-code")) {
+      if (Test-Path $root) {
+        $names = (Get-ChildItem $root -ErrorAction SilentlyContinue | ForEach-Object { $_.Name }) -join ', '
+        Write-Log "  $root exists; entries: $names" 'ERROR'
+      } else {
+        Write-Log "  $root does not exist" 'ERROR'
+      }
+    }
+  }
+  return $exe
 }
 
 Write-Log "=== Weekly competitor update: $RunDate ==="
@@ -120,17 +146,28 @@ if (-not (Test-Path (Join-Path $repo 'node_modules'))) {
 }
 
 # ---------------------------------------------------------------- 2. fetch
-Write-Log 'Fetching sources'
-$fetch = Invoke-Native 'node' @((Join-Path $repo 'scripts\fetch.mjs'), '--date', $RunDate)
-Write-NativeOutput $fetch.Output
-
+# fetch.mjs advances snapshots/ as soon as it succeeds. If a later step then fails and the
+# run is retried, a second fetch would diff against those advanced snapshots, report no
+# changes, and overwrite the real delta with an empty one -- silently losing the week.
+# So an existing diff for this date is reused by default; -ReFetch forces a new fetch.
 $runDir = Join-Path $repo "runs\$RunDate"
 $diffMd = Join-Path $runDir 'diff.md'
-if (-not (Test-Path $diffMd)) { Stop-Run "fetch.mjs produced no diff.md (exit $($fetch.ExitCode))" 2 }
-if ($fetch.ExitCode -eq 3) {
-  Write-Log 'At least one source errored (exit 3) -- continuing; the report records it' 'WARN'
-} elseif ($fetch.ExitCode -ne 0) {
-  Write-Log "fetch.mjs exited $($fetch.ExitCode) but wrote a diff -- continuing" 'WARN'
+
+if ((Test-Path $diffMd) -and -not $ReFetch) {
+  Write-Log "Reusing the existing diff for $RunDate (fetched $((Get-Item $diffMd).LastWriteTime))" 'WARN'
+  Write-Log 'Snapshots already advanced for this date; re-fetching would report an empty week.' 'WARN'
+  Write-Log 'Pass -ReFetch to fetch again anyway (this discards the existing delta).' 'WARN'
+} else {
+  if ($ReFetch -and (Test-Path $diffMd)) { Write-Log "-ReFetch: discarding the existing diff for $RunDate" 'WARN' }
+  Write-Log 'Fetching sources'
+  $fetch = Invoke-Native 'node' @((Join-Path $repo 'scripts\fetch.mjs'), '--date', $RunDate)
+  Write-NativeOutput $fetch.Output
+  if (-not (Test-Path $diffMd)) { Stop-Run "fetch.mjs produced no diff.md (exit $($fetch.ExitCode))" 2 }
+  if ($fetch.ExitCode -eq 3) {
+    Write-Log 'At least one source errored (exit 3) -- continuing; the report records it' 'WARN'
+  } elseif ($fetch.ExitCode -ne 0) {
+    Write-Log "fetch.mjs exited $($fetch.ExitCode) but wrote a diff -- continuing" 'WARN'
+  }
 }
 
 # Refuse to write a report off a diff where nothing was reachable: that is an

@@ -31,8 +31,17 @@
     "vendor": "Hexnode",
     "kind": "next-data",
     "url": "https://www.hexnode.com/whats-new/",
-    "matchKeys": ["badge", "devices", "release_date"],
-    "fields": { "title": "title", "date": "release_date", "url": "button_link", "text": "description" },
+    "matchKeys": [
+      "badge",
+      "devices",
+      "release_date"
+    ],
+    "fields": {
+      "title": "title",
+      "date": "release_date",
+      "url": "button_link",
+      "text": "description"
+    },
     "note": "Page is Next.js; items are embedded in __NEXT_DATA__."
   },
   {
@@ -41,7 +50,10 @@
     "kind": "rss",
     "url": "https://www.hexnode.com/blogs/feed/",
     "include": "windows|new feature|now available|introduc|releas|launch|update|announce|hexnode uem|product",
-    "includeFields": ["title", "categories"],
+    "includeFields": [
+      "title",
+      "categories"
+    ],
     "note": "Marketing-heavy; filtered to product/feature posts by title and category."
   },
   {
@@ -70,10 +82,10 @@
     "vendor": "42Gears",
     "kind": "sitemap",
     "url": "https://docs.42gears.com/suremdm/sitemap.xml",
-    "fetchInclude": "windows|win32|msi|kiosk|patch|bitlocker|autopilot|enroll|update",
-    "reportInclude": "windows|win32|msi|bitlocker|autopilot",
+    "fetchInclude": "windows|win32|msi|kiosk|patch|bitlocker|autopilot|enroll|update|sureidp|identity|login|authentication|conditional-access|sso",
+    "reportInclude": "windows|win32|msi|bitlocker|autopilot|sureidp|identity|login|authentication|conditional-access|sso",
     "maxFetch": 25,
-    "note": "SureMDM has no release-notes page; new or updated doc pages (sitemap lastmod) are the release signal. Report lists Windows-related pages only."
+    "note": "SureMDM has no release-notes page; new or updated doc pages (sitemap lastmod) are the release signal. Filters cover Windows terms plus identity/login pages -- the SureIdP section shipped 16 Sep 2026 was invisible to the original Windows-only filter."
   },
   {
     "id": "jamf-pro-release-notes",
@@ -81,7 +93,12 @@
     "kind": "jamf-khub",
     "base": "https://learn.jamf.com",
     "mapTitlePattern": "^Jamf Pro Release Notes (\\d+(?:\\.\\d+)*)$",
-    "sections": ["New Features and Enhancements", "Important Notices", "Deprecations and Removals", "Resolved Issues"],
+    "sections": [
+      "New Features and Enhancements",
+      "Important Notices",
+      "Deprecations and Removals",
+      "Resolved Issues"
+    ],
     "baselineUndatedMax": 100,
     "note": "Fluid Topics REST API behind https://learn.jamf.com/r/en-US/jamf-pro-release-notes-current/…; a new version shows up as a new map."
   },
@@ -103,7 +120,11 @@
     "id": "ivanti-quarterly-releases",
     "vendor": "Ivanti",
     "kind": "html-blocks",
-    "hub": { "url": "https://www.ivanti.com/releases", "linkPattern": "^https://www\\.ivanti\\.com/releases/\\d{4}/q\\d$", "latest": 2 },
+    "hub": {
+      "url": "https://www.ivanti.com/releases",
+      "linkPattern": "^https://www\\.ivanti\\.com/releases/\\d{4}/q\\d$",
+      "latest": 2
+    },
     "titleSelector": ".accordion-toggle",
     "contentSelector": ".accordion-content",
     "baselineUndatedMax": 60,
@@ -115,7 +136,9 @@
     "kind": "csv",
     "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
     "pageUrl": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-    "rowInclude": { "Product": "(^|:)(DC|All)(:|$)" },
+    "rowInclude": {
+      "Product": "(^|:)(DC|All)(:|$)"
+    },
     "maxRows": 400,
     "note": "Endpoint Central's 'Hotfix Readme' page is a shell that renders this CSV (Build Number, Type, Product, ReleaseNotes, EndpointSecurity, Date; newest first). Rows tagged DC (Endpoint Central) or All are kept; MSP/PMP/VMP-only rows are dropped. The static whats-new.html page is stale (2023)."
   }
