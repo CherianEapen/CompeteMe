@@ -2,11 +2,11 @@
  "id": "42gears-docs",
  "vendor": "42Gears",
  "kind": "sitemap",
- "fetchedAt": "2026-09-21T04:30:09.436Z",
+ "fetchedAt": "2026-09-28T04:30:08.779Z",
  "meta": {
-  "urls": 930,
-  "fetched": 0,
-  "fetchCandidates": 0
+  "urls": 931,
+  "fetched": 8,
+  "fetchCandidates": 8
  },
  "items": [
   {
@@ -327,19 +327,19 @@
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/apn-policy",
    "title": "apn policy",
-   "date": "2026-01-27",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/apn-policy",
    "text": "",
-   "hash": "3403c2520b7aa386d065805d8778aa58b6fec12df911a1e7ee084fc74ffb6540",
+   "hash": "7db37f5db088c7a8b57c8d0f48c8eedda5450b8e432e8dcbe5ee0f2319940db3",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/application-policy-profile-aep",
    "title": "application policy profile aep",
-   "date": "2026-04-01",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/application-policy-profile-aep",
    "text": "",
-   "hash": "6560cb4ea7d862315ee4d9ed93843ec7ca15a7389c835c6fba5d67b6591bcfa9",
+   "hash": "701c1fc8e39193cf78376fe272f95ace3032dbd2ea9a5962d5ab5bc4d2d9123c",
    "windows": "none"
   },
   {
@@ -354,28 +354,28 @@
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/certificate-profile-android-aep",
    "title": "certificate profile android aep",
-   "date": "2026-02-10",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/certificate-profile-android-aep",
    "text": "",
-   "hash": "d7ef1571397e798dfc78062778d5f574215ce4ac50fc27d9215eb2966ee77cb1",
+   "hash": "125374e05992d7fc6fae34a335878d70de5945966d7db3de7210ced0a79958fa",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/email-configuration-profil-aep",
    "title": "email configuration profil aep",
-   "date": "2026-04-01",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/email-configuration-profil-aep",
    "text": "",
-   "hash": "3e99d2335a22c54784148a8e54e167190e647edf8ad6476d5da825da4cf82a40",
+   "hash": "6a66a14c950f9cc5ea3170eeefe24afe173758b11e8f9a690bb2e0fe4461899d",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/file-sharing",
    "title": "file sharing",
-   "date": "2026-02-16",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/file-sharing",
    "text": "",
-   "hash": "f5d94d48ce1093e0256f17475726ca2a55a7c82b1dfdb2f05cde524889e4a9c0",
+   "hash": "1e6c493347202c13daf35f6a1d598ac143ed0cdf652ffe6f359190e991d65a45",
    "windows": "none"
   },
   {
@@ -399,37 +399,37 @@
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/network-settings-profile",
    "title": "network settings profile",
-   "date": "2026-01-30",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/network-settings-profile",
    "text": "",
-   "hash": "321c582fb793b9843cf3aa9f84726a6029321b516460f83abb9e0f1b28b42423",
+   "hash": "e5c02fa0dad1132475fb16f39077dda09e0d22074f9772fb4f306a533f7ced79",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/oem-config-policy-profile",
    "title": "oem config policy profile",
-   "date": "2026-06-01",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/oem-config-policy-profile",
    "text": "",
-   "hash": "80632b31ce5cc2dcd6a260ab59b7d09a78be9065438fcfd88b71faec81d9bc12",
+   "hash": "944175cd0c75d9c70f15b22106b7746e4742831a44a429935e83e18933ed3230",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/password-policy-profile-android",
    "title": "password policy profile android",
-   "date": "2026-02-04",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/password-policy-profile-android",
    "text": "",
-   "hash": "d11849e94c1eb891b678b6af479222de2a6d31d8fcdd4e196a4ae989fd712d77",
+   "hash": "e7502b97c8873ddb78c567d8f2954c43869cc935867b88e88059f7ac880df981",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/system-settings-profile-androidenterprise/configure-system-settings-profile",
    "title": "configure system settings profile",
-   "date": "2025-10-23",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/system-settings-profile-androidenterprise/configure-system-settings-profile",
    "text": "",
-   "hash": "7373f5fdada8201d53b18c38dc14065b79d453baf1f154acfa5f9362b013175e",
+   "hash": "b3efa429823d53b300f33659ab30ec7a065cccb44815edeaf7b119313c6ed8a1",
    "windows": "none"
   },
   {
@@ -453,19 +453,19 @@
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/vpn-config-policy-profile",
    "title": "vpn config policy profile",
-   "date": "2026-08-19",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/vpn-config-policy-profile",
    "text": "",
-   "hash": "b7a2ce29bb4f932229fe6abea927f85d0d97fda9af96cee77bcfeb1db49d982c",
+   "hash": "f4873bee04486333059f2e61cb2f251273e4b811e3c7a9ac4dfde287abf3780a",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/wifi-configuration-profile-android",
    "title": "wifi configuration profile android",
-   "date": "2026-01-30",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/wifi-configuration-profile-android",
    "text": "",
-   "hash": "52abdeaffbaa3dc95c1edc3254a21754d9ab8dbfda5009d4785e3bbf68563c7c",
+   "hash": "3ea6806013b909341a717ddbec50ce118b99c5eb91ad5520222a0c8f6d110cc0",
    "windows": "none"
   },
   {
@@ -480,10 +480,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-profiles-general/file-sharing-profile-android",
    "title": "file sharing profile android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-profiles-general/file-sharing-profile-android",
    "text": "",
-   "hash": "50a21d78de404cc8ba73b8c3f13ae876efaa2e9f09cb6b5f8d8a5658fa7f544c",
+   "hash": "dcfc2497677ebe2e1ef2c1833b4cc6ae10d6377de6182ae6a2928e2e2e731e5a",
    "windows": "none"
   },
   {
@@ -498,19 +498,19 @@
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-profiles-general/mobile-threat-defense-profile",
    "title": "mobile threat defense profile",
-   "date": "2025-12-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-profiles-general/mobile-threat-defense-profile",
    "text": "",
-   "hash": "02e2c6fe6b752a0a6e1b412d1af1cfb137d83b624436ec40cfce86236f85283e",
+   "hash": "6956659eee5f49b2377e1adc0d30c7618b7f374c267c33830e35768c28f52292",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/alert-message-android/alert-message",
    "title": "alert message",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/alert-message-android/alert-message",
    "text": "",
-   "hash": "588650cd1f57651465b02748baef94a1b3c473850a8de74d05c91f7015946b5b",
+   "hash": "72df80bf639306f68ab0e94f88df4ca124643a7878669f81ded0e46e8bc9efaa",
    "windows": "none"
   },
   {
@@ -534,208 +534,208 @@
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/application-permissions-android",
    "title": "application permissions android",
-   "date": "2026-04-01",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/application-permissions-android",
    "text": "",
-   "hash": "ba6a34fb6da540c26554234b2fe5ad7222b8449dbeceaaaff12e5e684e2f2c20",
+   "hash": "45472868e6eb75c48389ab43fe64792b572bfcd825ffcc2b831ce7e6e968aeba",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/application-settings-android",
    "title": "application settings android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/application-settings-android",
    "text": "",
-   "hash": "b25affa31a30da688c32239997f3e800964092b74dadd8c2d9ca8532f5c97297",
+   "hash": "eeebd584a222dbaee68f0152adc7e43398f73b4c44881f8f5c6c51c59c6af5dc",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/call-log-tracking-android",
    "title": "call log tracking android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/call-log-tracking-android",
    "text": "",
-   "hash": "93453acadb4a6d12500c587a62ec056036060c7941fcf8850ba4d4ab1b676d09",
+   "hash": "c238415af05384c13a30b0bfa85ec57c73af91a727144394264e21259a8e608c",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/causal-job-android",
    "title": "causal job android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/causal-job-android",
    "text": "",
-   "hash": "22f0a7bca3c843307924eee89d48af2426a98a7947c07d00f0cc59c58598fb72",
+   "hash": "2318d825aaf471eb4280b5be2549c21a5a90a30db63ab6a3aa376a8913d34e16",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/certificate-management-android",
    "title": "certificate management android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/certificate-management-android",
    "text": "",
-   "hash": "7532861203874f654878329f93dce50b8a6f2814882ae20ae044de8ee0111daf",
+   "hash": "b815c9220ce400adadb9b7776c45e4f57a8ef3c5b270d9835051fa548763b5e8",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/compliance-job-android",
    "title": "compliance job android",
-   "date": "2026-02-26",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/compliance-job-android",
    "text": "",
-   "hash": "b35096c6780e634fc31624b44e53f7dde69ef87e64d5ea9cc3abf3ce3889af9d",
+   "hash": "2e27140b803a16ce147cc8111f7de72ed9cd49e4c75695bcefafb9783f10332c",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/composite-job-android",
    "title": "composite job android",
-   "date": "2026-03-03",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/composite-job-android",
    "text": "",
-   "hash": "f825e647818462be73cc6e410a19b72ed3fb6b77e1757057bb14e0efbe49e405",
+   "hash": "cf333e52f4576bb3b79f270b25c3a5b14a5d1205048ec47ac923407421de66f0",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/device-info-config-android",
    "title": "device info config android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/device-info-config-android",
    "text": "",
-   "hash": "910b1c758b7c51e6859d0390420af3b9bc800cd31b7033bb9c7e7f42a872d699",
+   "hash": "94723284d219c7dd2acc8ed11ba353c1251a571df5f85702f74242a23e61e4ae",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/email-config-settings-android/create-email-account-android/create-an-email-account",
    "title": "create an email account",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/email-config-settings-android/create-email-account-android/create-an-email-account",
    "text": "",
-   "hash": "9b805458bd7de56ffde42b3c2d35c13ab6da8d170d18b59dba1b95d86d27a57c",
+   "hash": "9d83be5cc50b6b98307f774e2d06693cad5bc3da0db5875137b3995be60b9da3",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/email-config-settings-android/create-email-account-android/delete-an-email-account",
    "title": "delete an email account",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/email-config-settings-android/create-email-account-android/delete-an-email-account",
    "text": "",
-   "hash": "07ea5efb6a221f569fcdd62be57ee89a7d608fb841630985ebc10c0e50620770",
+   "hash": "6e29ddba0d540050ac7e6a92dead30b35f072daaacc66af52cc0c7eae761a17b",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/email-config-settings-android/email-configuration-settings",
    "title": "email configuration settings",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/email-config-settings-android/email-configuration-settings",
    "text": "",
-   "hash": "3b346ae46bb70f07c62b5990c6ded40534971c187adbfcfa2036a83311d09d44",
+   "hash": "24217c332f7368ae7a379d2da0752189408e6dd0d159d8fdaedc3fb02ebcc317",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/file-transfer-android",
    "title": "file transfer android",
-   "date": "2026-03-03",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/file-transfer-android",
    "text": "",
-   "hash": "16552783c0c1ecb34d53dbadf853aaff7d27567bfb0313ec740bcc7206da7950",
+   "hash": "f2d3b1701eba4cd0f60a4ca067e1bb605f6605e5990c86f6248b78b0e0287aa7",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/geo-fence-android",
    "title": "geo fence android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/geo-fence-android",
    "text": "",
-   "hash": "30623d90631604970a6f08f937d2b9f9080b264d0e394a1f697cfb61a541c800",
+   "hash": "f1dbfefa72795a3095fb922e57a5133547e9e3bb8827de60d97f8e31ddf6c94d",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/install-application-android",
    "title": "install application android",
-   "date": "2026-03-03",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/install-application-android",
    "text": "",
-   "hash": "fcaf8323606d940823497f34db3e54e9509f01dcadbc282dd73e1dc2bde6b79d",
+   "hash": "2c290820a35df37562f0f33a8a756b80df37f5114219949288fda8e8b7071f36",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/location-tracking-android",
    "title": "location tracking android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/location-tracking-android",
    "text": "",
-   "hash": "778b330f78e2e8e409005aa1617b1a8fcba61be39761384084ea629abe2d4d38",
+   "hash": "2028952dec933ab7c7c1460af712620dce59210fab907a0808bdf041c658684d",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/lock-screen-password-android",
    "title": "lock screen password android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/lock-screen-password-android",
    "text": "",
-   "hash": "de09b06525d9120ffb8b9b462420c4613f86b25e5ce203fea706243b929186bc",
+   "hash": "28ef5f54eead833b5a38299398921fcb7d98fafa91365417d7a9acd512359924",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/lost-mode-android",
    "title": "lost mode android",
-   "date": "2026-01-30",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/lost-mode-android",
    "text": "",
-   "hash": "380bff179b3ce8d4441bf6ceb354599fa8b9ed0301c4b45cdfde23711b5dc400",
+   "hash": "21d43140d67efdc1d20f50b4a1eeb66247cfcb298a4e5ec3263138e5e45b3f10",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/network-fence-android",
    "title": "network fence android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/network-fence-android",
    "text": "",
-   "hash": "061bc0d14667b725514088b6a2955ac91187055cc5531444d2308a7d8a4ceab1",
+   "hash": "2057447b6fbd04edde310ac38f414e371c90a781d656d9fe786ba5de07b8436b",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/notification-policy-android",
    "title": "notification policy android",
-   "date": "2026-09-11",
+   "date": "2026-09-16",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/notification-policy-android",
    "text": "",
-   "hash": "cdcd7df558e21ade34d3936d084c0e07fcf423420e4c1668ff113fbe729d88be",
+   "hash": "29855858fadd7478a6f262ce1a1f003814ce4bf28a085b7b5f119cc5089f97e8",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/os-updates-android",
    "title": "os updates android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/os-updates-android",
-   "text": "",
-   "hash": "571623bd118ae66e6ad1bcfeb2b6de4c93214cebdbe8d9689918a01ae0544d1d",
-   "windows": "none"
+   "text": "OS Update\nThe OS Update Job helps the admin remotely initiate and manage OS version upgrades on enrolled Android device(s), ensuring seamless and consistent updates across the fleet.\nTo create a OS Update job and deploy it to the enrolled device(s) or group(s) remotely, follow these steps:\n1. On the SureMDM Web Console, navigate to Jobs > New Job > Android > OS Update.\n2. Configure the OS Update and click Ok.\nSettingsDescription\nJob Name\nEnter a name for the Job\nOS Update File URL\nA Uri of the file that contains the update. Before uploading the ‘Update file URL’, ensure that the firmware package is bootable via Android Debug Bridge (ADB) sideload to avoid bricking the device.\nFile Hash\nThe file hash of the OS update file. File hash is the output of a hashing algorithm used as a checksum to verify data integrity.\nnote\nTo prevent the device from being bricked, make sure that the firmware package can be booted through the Android Debug Bridge (ADB) sideload.\nIt is recommended to apply the job when the device is connected to the Wi-Fi network.\nIf you wish to apply in a cellular connection, please note that downloading data over a cellular mobile network (including when in a roaming environment), may incur additional charges by the network provider.\nSupported from SureMDM Agent version >=27.48.00 on Fully Managed and Work Profile on Corporate Owned device enrollment on Android version 10 and above.\nThe newly created job will be listed in the Jobs List section.\n3. Go back to the Home tab and select the Android device(s) or group(s).\n4. Click Apply to launch the Apply Job/Profile To Device prompt.\n5. In the Apply Job/Profile To Device prompt, select the job(s) and click Apply.",
+   "hash": "ebb1f12000b8791819b7a857c242e24217d6f0ef64c730596cb94d5ab2858653",
+   "windows": "medium"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/relay-server-configuration-android",
    "title": "relay server configuration android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/relay-server-configuration-android",
    "text": "",
-   "hash": "70be987f2e36e172197b87e86adb4b28a874021573f05fc99712e713e35cbbfd",
+   "hash": "3f05878077b3fecec44190b4d393032e0cc8acde791b0dcec0f6ec13e4cbae80",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/remote-buzz-android",
    "title": "remote buzz android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/remote-buzz-android",
    "text": "",
-   "hash": "d6e778732530029e70db6a88533293730ff279aff63eeee1125adb502f07c167",
+   "hash": "b7bfda456c638298d7f475caa51e5d4ed6e3a00a400b23186f37ff27035884aa",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/remote-data-wipe-android",
    "title": "remote data wipe android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/remote-data-wipe-android",
    "text": "",
-   "hash": "46ca6990d4d23c4459106e88de71e8acd119398aa30fd5d7882ffa15a1803133",
+   "hash": "5f2c916fe3e910a05735ed087c712c7e2f428efc69e3416870c1ce4738faa1b4",
    "windows": "none"
   },
   {
@@ -984,127 +984,127 @@
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/security-policy-android/password-policy-android",
    "title": "password policy android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/security-policy-android/password-policy-android",
    "text": "",
-   "hash": "31a6f458153698f4adbd00d27f08db12cb6fa8f1cfc6794c044bf2b55a9cf7fa",
+   "hash": "866a36e9030068f5ac603837bd6ee090e83133f7b4a32dde9c1f6eefaa3f91d0",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/security-policy-android/peripheral-settings-android",
    "title": "peripheral settings android",
-   "date": "2026-01-30",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/security-policy-android/peripheral-settings-android",
    "text": "",
-   "hash": "d43bff495cf5e1777fc81df9b674f8f84f0a1fa9923b7a3eb53f45f33dd63d10",
+   "hash": "4f6d4f72f0f4265e6e975179700a004b2da47c54fbcfdde6edae8e919520bda1",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/security-policy-android/security-policy",
    "title": "security policy",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/security-policy-android/security-policy",
    "text": "",
-   "hash": "17f00cdd47587f6ae0c21ec126237dd0b4e90d01c1f66ed00f5784ce93f7bc88",
+   "hash": "435f94bfd0937d342ec135dbd1623fff22e9265f12e8287e4adef3e7920aa501",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/sms-log-tracking-android",
    "title": "sms log tracking android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/sms-log-tracking-android",
    "text": "",
-   "hash": "280290ad0fa0de8ff702370e4addbfb0269a201c31d0fc5f64aa8d1aec0414bd",
+   "hash": "9ffb3e321055c2da1ff8dfbd475fd3258f9001c8a193deac8b55909a179632d1",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/sure-fox-settings-android",
    "title": "sure fox settings android",
-   "date": "2025-10-23",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/sure-fox-settings-android",
    "text": "",
-   "hash": "9723b4e1cfd9077d8498cc47f9e44023a8f52f68e77a30e5e639aeb5ba5b8f35",
+   "hash": "ff7ac1d14ebd126df5225378a2e1c7204c0866b8d56b49ca0f28f6eb316d55f7",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/sure-lock-settings-android",
    "title": "sure lock settings android",
-   "date": "2025-10-23",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/sure-lock-settings-android",
    "text": "",
-   "hash": "a5df17fc257c5d28abdebdc67e91c54c6fc954069466f09aa6cb4eba5a08aa64",
+   "hash": "e201aeb6ee2b1641f08f384f75842186a6e2f969b94c1056caefb4cc84971cd7",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/sure-video-setting-android",
    "title": "sure video setting android",
-   "date": "2025-10-03",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/sure-video-setting-android",
    "text": "",
-   "hash": "a8851760cbe6a5003f03c180ef79cb4d1642b08e2c5f84b8dae2e2a9a2b2a0b7",
+   "hash": "48a02ee1147312f859069444ab0746a8e20f108ac77ba15fb4d38a456a0ced91",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/suremdm-agent-settings-android",
    "title": "suremdm agent settings android",
-   "date": "2026-04-01",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/suremdm-agent-settings-android",
    "text": "",
-   "hash": "a5fe2b96b2c01dfe2a1e9d3b513e62f9d85884e1909fa2e1881d26e6cf3de9f4",
+   "hash": "53618ceedb774538212eb5d6eb745f7e6ebf0625238f0fed7fffd780cb57d799",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/suremdm-agent-upgrade",
    "title": "suremdm agent upgrade",
-   "date": "2026-03-05",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/suremdm-agent-upgrade",
    "text": "",
-   "hash": "5ea9c61763ca8fbf622f5f2491be33be271d6b223272dd30dcdcec3c0a237579",
+   "hash": "446e565f96898fff336e31e6b8cbf309069635b52be0f49e34308b18b50a74e8",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/telecom-management-policy-android",
    "title": "telecom management policy android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/telecom-management-policy-android",
    "text": "",
-   "hash": "5a98766e5d3c8c11a6218334f023c6fc16497f2a1ffcd45062d29b1bc43bf207",
+   "hash": "55d8cdb57c51b43243fb15d35ff825851d4684800df05e2b1c878760ea5e4995",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/text-message-android",
    "title": "text message android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/text-message-android",
    "text": "",
-   "hash": "834918b046b6073ef76ec452d112a49a0121c103d9d775811198fc31f0fd3723",
+   "hash": "3b4701cecdac7a733b8b41753175a5d605a60ed5ec88be28af4dacdda13713f5",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/time-fence-android",
    "title": "time fence android",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/time-fence-android",
    "text": "",
-   "hash": "78c89b928c62a3c504b0eb0728b6a6e52a6693ab5bb46aebc56b77301cf6137e",
+   "hash": "3cd56b1530e09e7bcf8448d0a627c9f4455e0961c9cce31a21823de82740dd5b",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/wifi-hot-spot-settings-android",
    "title": "wifi hot spot settings android",
-   "date": "2026-01-30",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/wifi-hot-spot-settings-android",
    "text": "",
-   "hash": "376eddf9371a26917cf5b9d53c4142e2cd2c9ec6ec5bba91fa9edede091ab81b",
+   "hash": "cd5eb223e380300e04bec07996e9d6917f538ed80509dede1ebeb8ecba84d0a6",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/zebra-mx-config",
    "title": "zebra mx config",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/zebra-mx-config",
    "text": "",
-   "hash": "4ee1f92675600f70c9374c2bf13b0c6e12df2d758c665b180317f5f24d8bf73a",
+   "hash": "90d35b6a955a3cc9895f35a8929f5826324e3a1ab673c5098a0b336573b9df50",
    "windows": "none"
   },
   {
@@ -1119,82 +1119,82 @@
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/application-policy-android",
    "title": "application policy android",
-   "date": "2026-02-26",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/application-policy-android",
    "text": "",
-   "hash": "668bb16a3ebc19a2c8de423adfcdaeb7735ae8d75ae525bc26299b57d9312cd6",
+   "hash": "35c2521e3978ce081bd45bc429fdba39eb7430a30d8b171f709034862a1debab",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/certificate-profile-android",
    "title": "certificate profile android",
-   "date": "2026-02-10",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/certificate-profile-android",
    "text": "",
-   "hash": "c8d66a93a5b1a5f8eb08f7854e12ffbf9f9dac88fbf4a593e95246cfe13efb95",
+   "hash": "7d7e6aeea15e6916784cee78818cb0738d2e10746b428b14aeaca2b77ebe9e4a",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/compliance-policy",
    "title": "compliance policy",
-   "date": "2026-02-17",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/compliance-policy",
    "text": "",
-   "hash": "105197c9e2d7f22ffb46a2fb27bf4512f3630d53f4e5acdb52a75c032e118400",
+   "hash": "da13a432b201a775843bbe63f3a4e67e28505513fe1351b3286a672de479ae2a",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/network-settings-android",
    "title": "network settings android",
-   "date": "2026-01-30",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/network-settings-android",
    "text": "",
-   "hash": "59feb4a129b861a2162cb5d0f9b006e949a95fadf31d29722579165c077cb1c8",
+   "hash": "d3f8f1dce690bdb4f4da5ed0d0ed39cbd206008ad8d0daff2e5070fe575565f7",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/password-policy-android",
    "title": "password policy android",
-   "date": "2026-02-04",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/password-policy-android",
    "text": "",
-   "hash": "1ce741d65bc0b394624c2648fbe3a5fcb2a0eb51ff86da9f4b596771c24a2748",
+   "hash": "866a36e9030068f5ac603837bd6ee090e83133f7b4a32dde9c1f6eefaa3f91d0",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/sytem-settings-profile-an/configure-sytem-settings-profile-an",
    "title": "configure sytem settings profile an",
-   "date": "2025-09-28",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/sytem-settings-profile-an/configure-sytem-settings-profile-an",
    "text": "",
-   "hash": "a4396276fd990c2b6e13ed71a9ace80d2da4f332cc5aba6ca098a82e7177d4a8",
+   "hash": "686e68cc624dd7d7dd1c4159481d5c63638f3e07c7123a45a86bd1835a4a96cc",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/sytem-settings-profile-an/system-settings-support-android/description-of-system-settings",
    "title": "description of system settings",
-   "date": "2026-04-01",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/sytem-settings-profile-an/system-settings-support-android/description-of-system-settings",
    "text": "",
-   "hash": "a0cae165adfe2d4f4b27259217ec1111ee7b7ac28c584cc65df36f841e2fc2fd",
+   "hash": "1d0ada3ae3e1d968d34a221a52702b1320027b2bd61521e1eb1e6092359e89ff",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/sytem-settings-profile-an/system-settings-support-android/system-settings-support-android",
    "title": "system settings support android",
-   "date": "2026-04-01",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/sytem-settings-profile-an/system-settings-support-android/system-settings-support-android",
    "text": "",
-   "hash": "8f9d8d4d21cdf457dba4e51605c98c682413995af319f51eb39263b7541aefa2",
+   "hash": "6e51d675a4e7953ab5aba3112a35b1639d8a2feaefb75e8fb1c172e240aef1e5",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/wifi-configuration-android",
    "title": "wifi configuration android",
-   "date": "2026-04-01",
+   "date": "2026-09-08",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/profiles-for-android/wifi-configuration-android",
    "text": "",
-   "hash": "14d18b6f5de42a2419c10abc7a0478f1d4f5f75e0079d5d0d588a6cf67ac5b0d",
+   "hash": "c4cf355d789e3f1d6904d90576e236a55a7822a540ded4220a161b03ce2a34ed",
    "windows": "none"
   },
   {
@@ -1713,10 +1713,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/integrations/integration-guides/active-directory",
    "title": "active directory",
-   "date": "2026-09-11",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/integrations/integration-guides/active-directory",
    "text": "",
-   "hash": "3c79e76b63d77b2e2d5fe3b6413d417daecc62d5a5c0b7dc09ec2c412785744b",
+   "hash": "99b5d97308c0f21692832352a42e40873f3ab837f234a7e0c7a6e646d627edb3",
    "windows": "none"
   },
   {
@@ -2406,10 +2406,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/integrations/reports/on-demand",
    "title": "on demand",
-   "date": "2026-07-14",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/integrations/reports/on-demand",
    "text": "",
-   "hash": "848d43a544e4efdb2c83920192501615325904cc37abdf9d5c0b60866774b394",
+   "hash": "6eec0756d1d6c231aef71a1537067bd0eb5a2f46aa7ddcf70255542e43217125",
    "windows": "none"
   },
   {
@@ -2424,10 +2424,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/integrations/reports/suremdm-reports",
    "title": "suremdm reports",
-   "date": "2025-09-30",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/integrations/reports/suremdm-reports",
    "text": "",
-   "hash": "4c0afcfb5de89a3c1e01de2c69b312e3466891586551283dcb31758062448a23",
+   "hash": "e5de6fe9b7636a022bcf32dedea3be2211d210228b23ff6da12aa9781124cde0",
    "windows": "none"
   },
   {
@@ -2793,10 +2793,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/ios-jobs-and-profiles/jobs-for-ios/dynamic-jobs",
    "title": "dynamic jobs",
-   "date": "2026-07-23",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/ios-jobs-and-profiles/jobs-for-ios/dynamic-jobs",
    "text": "",
-   "hash": "15c204216d21f73120725d18795f9e0ab4a0a17e0c391cfbfc3447330d33ad8f",
+   "hash": "b319c4fc0859ee253ad2f3cd7d4e5da7499afddf3e91b3cdf2d07a787878aaeb",
    "windows": "none"
   },
   {
@@ -2937,10 +2937,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/ios-jobs-and-profiles/jobs-for-ios/ios-static-jobs/schedule-os",
    "title": "schedule os",
-   "date": "2025-09-28",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/ios-jobs-and-profiles/jobs-for-ios/ios-static-jobs/schedule-os",
    "text": "",
-   "hash": "00283d4c9d7d0be7d65bd5acaa8472c535e5dbd8c6a1ba3e86e43a657b07c774",
+   "hash": "5a7d37d25f2cb8be4fed2ad3bba5d7160c35b0fd14c32bee3c0e53686bfd32ea",
    "windows": "none"
   },
   {
@@ -3009,19 +3009,19 @@
   {
    "key": "https://docs.42gears.com/suremdm/ios-jobs-and-profiles/profiles-for-ios/ios-profiles-General/application-policy",
    "title": "application policy",
-   "date": "2026-02-27",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/ios-jobs-and-profiles/profiles-for-ios/ios-profiles-General/application-policy",
    "text": "",
-   "hash": "5202c6ec5e97376c385a0c115199ce4c5f58b89ddb457379d0ba0e360fadd262",
+   "hash": "1b4ea162a7caef7d4661b5e17b2c1c9c8c01c68404c87506267ac94acd3b9a20",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/ios-jobs-and-profiles/profiles-for-ios/ios-profiles-General/certificate-profile",
    "title": "certificate profile",
-   "date": "2026-02-27",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/ios-jobs-and-profiles/profiles-for-ios/ios-profiles-General/certificate-profile",
    "text": "",
-   "hash": "ede7739cfa5fdd608f6e5acfd0587dede78714089e21975178eef9ed4dd5da1c",
+   "hash": "92b55822b73e4d5af53ccd0aa856aaa4f24d3db3da8893c768269bbe42ec8dcb",
    "windows": "none"
   },
   {
@@ -3243,10 +3243,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/ios-jobs-and-profiles/profiles-for-ios/supervised-profiles/software-update-management-ddm",
    "title": "software update management ddm",
-   "date": "2026-02-27",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/ios-jobs-and-profiles/profiles-for-ios/supervised-profiles/software-update-management-ddm",
-   "text": "",
-   "hash": "14113392b955cd78163153a5cfdf1048f62bb3251c3e5e369d5d55bc4a99807d",
+   "text": "Software Update Management - DDM\nThe Software Update Management payload allows IT administrators to configure OS update deferral periods, manage automatic download and installation of OS and security updates, and define the update cadence based on organizational requirements using Declarative Device Management (DDM). It also supports enabling Rapid Security Responses to ensure critical security fixes are applied quickly, with an option to allow rollback if required. Supported on iOS/iPadOS 18.0 onwards.\nnote\nSupported Enrollment Types:\nDevice Enrollment and Automated Device Enrollment\nShared iPad Enrollment\nSteps to Configure Software Update Management payload\nOn the SureMDM Web Console, navigate to:\nProfiles > iOS/iPadOS > Add > Select Enrollment Type > DDM > Software Update Management (DDM) > Configure\nEnter a Profile Name\nIn the Configure Software Update Management screen, configure the required options under the available accordions.\nDeferral Management\nSettingDescription\nOS Update Deferral Period\nSpecify the number of days to defer OS software update on the device. When set, software updates only appear after the specified delay, following the release of the software update.\nNote: For devices using iOS 18.0 or later, we recommend using this payload for deferrals and disable the Force Delayed Software Updates restriction if it is configured in the Device Restrictions payload.\nAutomatic Software Update Action Management\nSettingDescription\nAutomatic Download of Available Updates\nSpecify the action type\nAllowed – The user can enable or disable automatic downloads on the device.\nAlways On – Automatic downloads are always enabled and cannot be disabled on the device.\nAlways Off – Automatic downloads are always disabled and cannot be enabled on the device.\nAutomatic Installation of OS Updates\nSpecify the action type\nAllowed – The user can enable or disable automatic installation of OS Updates on the device.\nAlways On – Automatic installations of OS Updates are always enabled and cannot be disabled on the device.\nAlways Off – Automatic installations of OS Updates are always disabled and cannot be enabled on the device.\nAutomatic Installation of Security Updates\nSpecify the action type\nAllowed – The user can enable or disable automatic installation of Security Updates on the device.\nAlways On – Automatic installations of Security Updates are always enabled and cannot be disabled on the device.\nAlways Off – Automatic installations of Security Updates are always disabled and cannot be enabled on the device.\nRapid Security Response Settings\nSettingDescription\nEnable Rapid Security Response\nIf unchecked, Rapid Security Responses aren’t offered for user installation.\nEnable Rollback\nIf unchecked, the system doesn’t offer Rapid Security Response rollbacks to the user.\nBeta Program Management\nSettingDescription\nEnable Beta Program Management\nWhen enabled, the Beta Program Management configuration options below are unlocked and become available for configuration.\nSelect ADE Server\nSelect the ADE Server to retrieve the Beta OS Updates.\nBeta Program Enrollment\nAllows users to enroll the device in any eligible beta software program associated with their signed-in Apple Account. If Available Beta Programs are configured, those programs will also be presented to the user.\nAvailable Beta Programs\nSpecify one or more beta programs that should be available for users to enroll in. The configured beta programs will be available on the target device.\nRequired Beta Program\nSpecifies the beta program into which the device should be automatically enrolled. When configured, users cannot choose another beta program.\nnote\nConfigure either Available Beta Programs or Required Beta Program, as both options cannot be configured within the same payload.\nOther Configuration\nSettingDescription\nOS Update Cadence\nSpecify the action type\nDisplay All – Shows all software update versions.\nDisplay only Oldest version – Shows only the oldest (lower numbered) software…",
+   "hash": "b661667be518afa003ad2048653f4ec9d11fae7444043c4b2c17c38be2972e57",
    "windows": "none"
   },
   {
@@ -3621,11 +3621,11 @@
   {
    "key": "https://docs.42gears.com/suremdm/linux-jobs-and-profiles/linux-jobs-profiles/profiles-for-linux/configure-kioskpolicy",
    "title": "configure kioskpolicy",
-   "date": "2025-09-28",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/linux-jobs-and-profiles/linux-jobs-profiles/profiles-for-linux/configure-kioskpolicy",
-   "text": "",
-   "hash": "46f136d1157d4b6ff19e8c4543bdb3edacf77d256c8c7f4934516de412fd483e",
-   "windows": "none"
+   "text": "Kiosk Policy\nThe Kiosk Policy profile empowers IT administrators to enforce a secure kiosk mode on Linux devices by restricting access to a predefined list of permitted applications. This ensures that the enrolled devices operate within a controlled environment, limiting user interactions to authorized applications only.\nnote\nThis feature is supported only on Ubuntu 18.04 LTS and above.\nTo lock down the enrolled devices with an allowed list of application(s), follow these steps:\n1. Navigate to the SureMDM Web Console > Profiles > Linux > Add > Kiosk Policy > Multi App Mode/Single App Mode.\n2. Enter a Profile Name and click Add.\n3. On the Multi App Mode prompt, Select the application(s) from App name drop-down list, select the required options Run at startup and Run At User Switch, and then click Add.\nThe added application(s) will be listed under the Multi App Mode section.\nor\n4. On the Single App Mode prompt, configure the following settings:\nLockdown Application - Select the desired browser application (Google Chrome, or Mozilla Firefox) from the dropdown menu to run in Single App Kiosk mode.\nnote\nSingle App Mode is supported on Google Chrome with SureMDM Agent version 7.0.1 and later.\nSupport for Mozilla Firefox, Mozilla Firefox (ARM), and Google Chrome (ARM) is available with SureMDM Agent version 7.19.15 and later.\nLanding URL - URL that needs to be opened when in Kiosk Mode.\nAuto-Login to Kiosk Mode - Enabling this option allows the device to login automatically into Kiosk mode without user interaction.\nUser name - Enter the username used to login to Kiosk mode.\nPassword - Enter the password for provided username\nNote :A new account will be created with the specified username and password if it doesn't already exist. If the account is present, the password will be updated\nEnable Admin Access - Account created above for Kiosk mode will be granted admin privileges.\nAuto-Launch Kiosk mode with restart - A device reboot is required to launch the application in Single app Kiosk mode. If unchecked, the administrator must create a run script job to initiate the device reboot for Kiosk mode.\n4. Go back to the Home tab and select Linux device(s) or group(s).\n5. Click Apply to launch the Apply Job/Profile To Device prompt.\n6. In the Apply Job/Profile To Device prompt, select the job and click Apply.",
+   "hash": "8dbaca895b5a5d4877416ff7f4ff443d2a35239717a9582f4f5a184c78a5ebf1",
+   "windows": "medium"
   },
   {
    "key": "https://docs.42gears.com/suremdm/linux-jobs-and-profiles/linux-jobs-profiles/profiles-for-linux/configure-password-policy",
@@ -3634,6 +3634,15 @@
    "url": "https://docs.42gears.com/suremdm/linux-jobs-and-profiles/linux-jobs-profiles/profiles-for-linux/configure-password-policy",
    "text": "",
    "hash": "92d8b8657eb3c5c1c749f8975254baa2a4450568fa2272e40d4d72e231bc071d",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/linux-jobs-and-profiles/linux-jobs-profiles/profiles-for-linux/configure-sureaccess",
+   "title": "configure sureaccess",
+   "date": "2026-09-18",
+   "url": "https://docs.42gears.com/suremdm/linux-jobs-and-profiles/linux-jobs-profiles/profiles-for-linux/configure-sureaccess",
+   "text": "",
+   "hash": "d56c1add2b7e348171a2cf985a1372c48c6394803942141ada1ae3551480c12c",
    "windows": "none"
   },
   {
@@ -4008,10 +4017,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/jobs-for-macos/macos-static-jobs/data-analytics-policy",
    "title": "data analytics policy",
-   "date": "2025-09-28",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/jobs-for-macos/macos-static-jobs/data-analytics-policy",
    "text": "",
-   "hash": "bd36eeeaf294c6baa3bbd117ccc44d3e3fd6b3dba096666e9d230b8d77f5d31e",
+   "hash": "f457761a70d7960e6d8d0d90a1b7ab0a23e05d3343deb83abbab8a028d558a86",
    "windows": "none"
   },
   {
@@ -4134,10 +4143,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/jobs-for-macos/macos-static-jobs/schedule-os-update",
    "title": "schedule os update",
-   "date": "2025-09-28",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/jobs-for-macos/macos-static-jobs/schedule-os-update",
-   "text": "",
-   "hash": "af4fe18ad94c5f00f557e0bce195adbb85d21ab1812bdf410ca4a7d2734ce1f5",
+   "text": "Schedule OS Update\nThe Schedule OS Update job empowers administrators to remotely initiate the installation of the latest operating system version on enrolled macOS devices. This functionality simplifies the procedure of upgrading devices to the latest version of the operating system available.\nnote\nSchedule OS Update job is supported only on DEP enrolled devices.\nTo create a job to update the OS on the enrolled device(s) or group(s) remotely, follow these steps:\n1. Navigate to SureMDM Web Console > Jobs > New Job > macOS > Schedule OS Update.\n2. Configure Schedule OS Update settings and click OK.\nSettingsDescription\nJob Name\nEnter a name for the Job.\nSelect Deployment type\nSelect the Deployment type.\n- Traditional MDM: Select this option to deploy macOS updates using legacy method. This is deprecated from macOS 26 and later.\n- Declarative Management - DDM: Select this option to deploy macOS updates starting from version 14 and later.\nTraditional MDM options\nSettingsDescription\nSelect Update Type\nSpecify the required updated type.Applicable only if Select Deployment Type is selected as Traditional MDM.\n- OS Updates\n- Security Updates\n- Other Updates\nSelect Update\nSpecify the major and minor version of the update.\nSelect Security Update Version\nSpecify the required version of the Security Update. Applicable only if Select Update Type as Security Updates.\nProduct Key\nEnter the Product Key of the OS. Applicable only if Select Update Type as Other Updates.\nInstall Action\nSelect an action for the OS update from the following options:\n- Download and Install: Download or install the update, depending on the current state. It will check the device, and if the software is already downloaded, it will install it; otherwise, it will download the software.\n- Downloads and Install the software: It will download the software update and trigger the restart countdown notification. If the device is being actively used, the user can cancel the restart.\n- Download the software update and notify: It will download the software update and notify the user that it is available.\n- Download the software update and install it later: It will download the software update and install it at a later time. Users will be periodically notified.\n- Download/Install the software update then force a restart: It will perform the default action, downloading or installing the update, depending on the current state. Then it will force a restart if the update requires it.\n- Download Only: It will download the software update without installing it.\nDeclarative Management - DDM options\nSettingsDescription\nSelect Update\nSpecify the major and minor version of the update.\nInstall Action\nDownload and Schedule to Install - DDM: Software will be downloaded and proceeded with installation on the scheduled time.\nTarget Date & Time\nSpecify the date and time at when the OS update should be installed on the target device(s). The specified time will follow the local timezone of the target device(s).\nDetails URL\nSpecify the URL containing details about the update.\nnote\nDeclarative Management (DDM) is supported on macOS 14 or later. OS Update jobs using DDM will fail on unsupported devices.\nNotifications are sent daily before the update deadline, hourly during the final 24 hours (bypassing Do Not Disturb), and every 30 & 10 minutes in the last hour.\nThe newly created job will be listed in the Jobs List section.\n3. Go back to the Home tab and select the macOS device(s) or group(s).\n4. Click Apply to launch the Apply Job/Profile To Device prompt.\n5. In the Apply Job/Profile To Device prompt, select the job and click Apply.",
+   "hash": "a95757c0f333582edc9c245d38b9603950a832a87f89836ebf2dae19f8f4a878",
    "windows": "none"
   },
   {
@@ -4224,10 +4233,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/application-policy-profile",
    "title": "application policy profile",
-   "date": "2026-02-27",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/application-policy-profile",
    "text": "",
-   "hash": "b2a733de870638f0b46dcdf1d80bb2bbea62cbc5e926bdfd22e9bf1e6f077dbb",
+   "hash": "a6d3a2c8c592139b919cd9c8445af575326e60df496510eca06bcac6a5ab27e0",
    "windows": "none"
   },
   {
@@ -4251,10 +4260,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/certificate-profile",
    "title": "certificate profile",
-   "date": "2026-02-27",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/certificate-profile",
    "text": "",
-   "hash": "ede7739cfa5fdd608f6e5acfd0587dede78714089e21975178eef9ed4dd5da1c",
+   "hash": "92b55822b73e4d5af53ccd0aa856aaa4f24d3db3da8893c768269bbe42ec8dcb",
    "windows": "none"
   },
   {
@@ -4485,10 +4494,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/software-update-management-ddm",
    "title": "software update management ddm",
-   "date": "2026-07-23",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/software-update-management-ddm",
-   "text": "",
-   "hash": "f5ff86cfad61faa5d30f3c88c2782b805b770d66973647ca476d4bb36b109620",
+   "text": "Software Update Management - DDM\nThe Software Update Management payload allows IT administrators to manage automatic download and installation of OS and security updates based on organizational requirements using Declarative Device Management (DDM). It also supports enabling Rapid Security Responses to ensure critical security fixes are applied quickly, with an option to allow rollback if required. Supported on macOS 15.0 onwards.\nnote\nSupported Enrollment Type: Device Enrollment and Automated Device Enrollment\nSupported for Device Channels.\nSteps to Configure Software Update Management payload\nOn the SureMDM Web Console, navigate to:\nProfiles > macOS > Add > Device Enrollment > Select Enrollment Type > DDM > Software Update Management (DDM) > Configure\nEnter a Profile Name\nIn the Configure Software Update Management screen, configure the required options under the available accordions.\nDeferral Management\nSettingDescription\nMajor OS Update Deferral Period\nSpecify the number of days to defer a major OS software update on the device. When set, major OS updates only appear after the specified delay, following the release of the software update.\nMinor OS Update Deferral Period\nSpecify the number of days to defer a minor OS software update on the device. When set, minor OS updates only appear after the specified delay, following the release of the software update.\nNon-OS Update Deferral Period\nSpecify the number of days to defer a Non-OS update on the device. When set, non-OS updates only appear after the specified delay, following the release of the update.\nAutomatic Software Update Action Management\nSettingDescription\nAutomatic Download of Available Updates\nSpecify the action type\nAllowed - The user can enable or disable automatic downloads on the device.\nAlways On - Automatic downloads are always enabled and cannot be disabled on the device.\nAlways Off - Automatic downloads are always disabled and cannot be enabled on the device.\nAutomatic Installation of OS Updates\nSpecify the action type\nAllowed - The user can enable or disable automatic installation of OS Updates on the device.\nAlways On - Automatic installations of OS Updates are always enabled and cannot be disabled on the device.\nAlways Off - Automatic installations of OS Updates are always disabled and cannot be enabled on the device.\nAutomatic Installation of Security Updates\nSpecify the action type\nAllowed - The user can enable or disable automatic installation of Security Updates on the device.\nAlways On - Automatic installations of Security Updates are always enabled and cannot be disabled on the device.\nAlways Off - Automatic installations of Security Updates are always disabled and cannot be enabled on the device.\nRapid Security Response Settings\nSettingDescription\nEnable Rapid Security Response\nIf unchecked, Rapid Security Responses aren’t offered for user installation.\nEnable Rollback\nIf unchecked, the system doesn’t offer Rapid Security Response rollbacks to the user.\nBeta Program Management\nSettingDescription\nEnable Beta Program Management\nWhen enabled, the Beta Program Management configuration options below are unlocked and become available for configuration.\nSelect ADE Server\nSelect the ADE Server to retrieve the Beta OS Updates.\nBeta Program Enrollment\nAllows users to enroll the device in any eligible beta software program associated with their signed-in Apple Account. If Available Beta Programs are configured, those programs will also be presented to the user.\nAvailable Beta Programs\nSpecify one or more beta programs that should be available for users to enroll in. The configured beta programs will be available on the target device.\nRequired Beta Program\nSpecifies the beta program into which the device should be automatically enrolled. When configured, users cannot choose another beta program.\nnote\n- Configure either Available Beta Programs or Required Beta Program, as both options cannot be configured within the same payload.\n- Beta Program Management is…",
+   "hash": "beec4312833ec9c4d796ece0a4fea1f78f018a234bf8990bebea3472fbb54f72",
    "windows": "none"
   },
   {
@@ -4753,93 +4762,93 @@
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/initiate-scan-on-individual-devices/initiate-scan-on-individual-device",
-   "title": "initiate scan on individual device",
-   "date": "2025-10-06",
-   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/initiate-scan-on-individual-devices/initiate-scan-on-individual-device",
-   "text": "",
-   "hash": "4baf3b265695e7ee24ca4551bd8ef5525fa5773195905eab218335c6121a8248",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/initiate-scan-on-individual-devices/mtd-for-android",
+   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/initiate-scan-on-individual-devices/mtd-for-android",
    "title": "mtd for android",
-   "date": "2025-03-19",
-   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/initiate-scan-on-individual-devices/mtd-for-android",
+   "date": "2026-09-18",
+   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/initiate-scan-on-individual-devices/mtd-for-android",
    "text": "",
-   "hash": "1f6b3ee444556eb4b56a7fc40a208ff067aad5042d7bd99d8c5df73b3cbb2c20",
+   "hash": "23da3ab7a25dd60eb382f2b0a6e7f16f796356b370b158dcbc9a2fb439ab99bf",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/initiate-scan-on-individual-devices/mtd-for-windows",
+   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/initiate-scan-on-individual-devices/mtd-for-windows",
    "title": "mtd for windows",
-   "date": "2024-03-01",
-   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/initiate-scan-on-individual-devices/mtd-for-windows",
-   "text": "",
-   "hash": "29ceb362158da901ea0010265bd8fba443c92451f252b0f43b7c04b27fab01b7",
+   "date": "2026-09-18",
+   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/initiate-scan-on-individual-devices/mtd-for-windows",
+   "text": "MTD for Windows\nPrerequisites\nThe device must have enrolled through Dual Enrollment mode.\nThe Windows device must run SureMDM Agent version 4.57 or later for this feature to work.\nInitiate Scan on Windows Devices\n1. Log into the SureMDM Console\n2. Select a Windows device.\n3. Click System Scan > Scan from the Dynamic jobs section#8202;.\nnote\nThe device must be online to initiate the scan.\n4. Select a Scan Mode.\nQuick Scan - Scan for malicious threats in the areas that are most likely to be subject to attacks.\nFull Scan - Scans every file, folder, task, and process of the device.\nThis will initiate a scan on a device. It will display a report if any threats are found or else displays No Threats Detected message on the screen.",
+   "hash": "2e198e55ccd872f09c9a8330651409524fb51d5c71a3f4d51ff7c6945eb5d1c2",
    "windows": "high"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/initiate-scan-on-multiple-devices",
+   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/initiate-scan-on-individual-devices/overview",
+   "title": "overview",
+   "date": "2026-09-18",
+   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/initiate-scan-on-individual-devices/overview",
+   "text": "",
+   "hash": "8b6b610e438a9bb46330007c3683bef908cac5a3a49ebb8241336f0ac8ea9a97",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/initiate-scan-on-multiple-devices",
    "title": "initiate scan on multiple devices",
-   "date": "2025-12-29",
-   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/initiate-scan-on-multiple-devices",
+   "date": "2026-09-18",
+   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/initiate-scan-on-multiple-devices",
    "text": "",
-   "hash": "4bc7aadedc7f9b69eef4ab4f7b8b51f7fbf628d93df7d498d64cba70ac248cb2",
+   "hash": "ad6000e20cc93bf1ea80074022ffaff08016decfe54486397d40216357b36971",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/mobile-threat-defensemtd",
-   "title": "mobile threat defensemtd",
-   "date": "2025-12-26",
-   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/mobile-threat-defensemtd",
+   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/overview",
+   "title": "overview",
+   "date": "2026-09-18",
+   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/overview",
    "text": "",
-   "hash": "69c02c3981b7eddf7a1d1b522585216321951fd03f9dbc2676f43f47b62755b9",
+   "hash": "8b6b610e438a9bb46330007c3683bef908cac5a3a49ebb8241336f0ac8ea9a97",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/supported-platforms",
+   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/supported-platforms",
    "title": "supported platforms",
-   "date": "2025-12-26",
-   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/supported-platforms",
+   "date": "2026-09-18",
+   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/supported-platforms",
    "text": "",
-   "hash": "e6179c29c6a7c34982b9baf6a71fa2ca5dc9ef0f68730316a6e716796a95ac61",
+   "hash": "47026ecbe94180ca7f24850b910bc5a81bf7a1d06453ff4090c6d1a7a563982d",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/view-mtd-dashboard/",
-   "title": "view mtd dashboard",
-   "date": "2025-12-28",
-   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/view-mtd-dashboard/",
-   "text": "",
-   "hash": "31e95def646e8f7e25790245edbd5de2bc41440dafec753cebc92a1dc2ecba5d",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/view-mtd-dashboard/create-compliance-policy-mtd",
+   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/view-mtd-dashboard/create-compliance-policy-mtd",
    "title": "create compliance policy mtd",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/view-mtd-dashboard/create-compliance-policy-mtd",
+   "date": "2026-09-18",
+   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/view-mtd-dashboard/create-compliance-policy-mtd",
    "text": "",
-   "hash": "e37c6b6866b4da62eada1f9e616cb1884b5c7f050f8663eecb1f230cfe2452b3",
+   "hash": "037771fdf401ab22e9ee17dfbaab5ee7d5be257d4303699d51aa5a0040355b37",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/view-mtd-dashboard/generate-mtd-reports",
+   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/view-mtd-dashboard/generate-mtd-reports",
    "title": "generate mtd reports",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/view-mtd-dashboard/generate-mtd-reports",
+   "date": "2026-09-18",
+   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/view-mtd-dashboard/generate-mtd-reports",
    "text": "",
-   "hash": "71aaecc20932d65902bf2f9b18648d4ced4b5e6701820aeedffb2e8116948cad",
+   "hash": "a625a8d3fa5c1738a576207c67a8ec81710c91afd1a38ca7009d4f952af63312",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/view-mtd-dashboard/view-mtd-events-and-alerts",
-   "title": "view mtd events and alerts",
-   "date": "2025-12-28",
-   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mobile-threat-defense-mtd/view-mtd-dashboard/view-mtd-events-and-alerts",
+   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/view-mtd-dashboard/overview",
+   "title": "overview",
+   "date": "2026-09-18",
+   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/view-mtd-dashboard/overview",
    "text": "",
-   "hash": "a350d20e7af47eefb59f1bb1a5da0583dbfad41c1c674f5ed5fac96c06a47c29",
+   "hash": "8b6b610e438a9bb46330007c3683bef908cac5a3a49ebb8241336f0ac8ea9a97",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/view-mtd-dashboard/view-mtd-events-and-alerts",
+   "title": "view mtd events and alerts",
+   "date": "2026-09-18",
+   "url": "https://docs.42gears.com/suremdm/mobile-threat-defense/mtd/view-mtd-dashboard/view-mtd-events-and-alerts",
+   "text": "",
+   "hash": "5f3a999e5b32eed58a0bbdc05bbb30f0ba14af449606a1b039da268190bd526a",
    "windows": "none"
   },
   {
@@ -5052,10 +5061,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/quick-help/quick-help-options/communication",
    "title": "communication",
-   "date": "2026-09-07",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/quick-help/quick-help-options/communication",
    "text": "",
-   "hash": "7cc3349ba40359b923607e49b59c13a426ca7d32188a32db3b9c7360dcdb7a0a",
+   "hash": "1627d0ac18a1a6a3044c20942cc4a5baf46a6ddf72e9ad13a2f137a46691d720",
    "windows": "none"
   },
   {
@@ -5259,10 +5268,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/android-management",
    "title": "android management",
-   "date": "2026-06-09",
+   "date": "2026-09-17",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/android-management",
    "text": "",
-   "hash": "53167683f7944c3f16f5b7dfe3a2469010a9487b6ef176f7c30b43c0aea38cfc",
+   "hash": "b1294e5561a557d1309dc87da7438f861967854c4114f4badcb9b6a41efa7497",
    "windows": "none"
   },
   {
@@ -5583,20 +5592,20 @@
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/shared-device-nfc-qr-auth",
    "title": "shared device nfc qr auth",
-   "date": "2026-09-16",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/shared-device-nfc-qr-auth",
-   "text": "",
-   "hash": "71373fa6d36288fa3907c644db77cd9a78676c8d7e3750bfcbe951b822f6467a",
+   "text": "Shared Device Mode with NFC/QR Code Authentication\nShared Device Mode with SureIdP enables users to securely access shared Android devices using NFC badges or QR codes. Users authenticate through a configured Identity Provider during their first login and set a 6-digit PIN for faster subsequent access, while user-specific device profiles and SSO-enabled applications are automatically applied.\nOverview\nShared Device Mode (SDM) allows multiple users to securely share an Android device while maintaining a personalized user session. Each user can access the applications and device configuration assigned to their profile without requiring a separate device.\nWith SureIdP integration, users can identify themselves on the shared device using an NFC badge or QR code and authenticate using a configured Identity Provider. After the initial authentication, users need to use a 6-digit PIN for faster subsequent logins.\nSureIdP can also provide the authentication context required for SSO-enabled applications, allowing applications to sign in automatically after the user successfully logs in to Shared Device Mode. The SDM policy can also use user attributes to dynamically switch the device profile based on the user's configured attributes.\nPrerequisites\nBefore configuring Shared Device Mode with SureIdP, ensure the following:\nSureIdP is configured as the Authentication method in SureLock settings.\nThe required users are available in SureIdP and can be identified through the configured External Identity Provider.\nEach user's NFC badge or QR code contains a unique identifier that can be mapped to a user attribute.\nThe corresponding identifier is available in SureIdP as Username, Email, or Unique User ID.\nIf Unique User ID is used, ensure that the value is populated for the relevant users. Unique User ID can be populated through user synchronization, JIT provisioning, manual entry, CSV import, or supported APIs.\nFor SSO, the required applications and their authentication configuration should already be set up.\nThe Android device should have Shared Device Mode configured in SureLock.\nConfigure a Shared Device Mode Policy in SureIdP\nShared Device Mode policies are managed from:\nSureMDM Console → SureIdP → Authentication Policies → Shared Device Mode\nThe Shared Device Mode page displays the configured policies along with their Policy Name, Description, and Last Updated information. Administrators can Add SDM Policy, Edit, or Delete a policy.\nStep 1: Configure Policy Details\nNavigate to SureIdP → Authentication Policies → Shared Device Mode.\nClick + Add SDM Policy.\nUnder Policy Details, enter:\nPolicy Name – Enter a unique name for the policy.\nDescription – Enter a brief description of the policy.\nClick Next.\nThe policy name is used to identify the policy when selecting it later in SureLock.\nStep 2: Configure User Invocation\nThe User Invocation section determines how users identify themselves and initiate login on the shared device.\nSelect one of the following:\nNFC Tap: Select this option if users will identify themselves using an NFC badge.\nWhen selected, the device waits for an NFC tap and displays the NFC login interface.\nQR Scan: Select this option if users will identify themselves using a QR code.\nWhen selected, the device displays the QR scanning interface.\nOnly one invocation method can be selected for a policy.\nConfigure Data Mapping\nAfter selecting NFC Tap or QR Scan, configure the Data Mapping settings.\nUser ID Key: Select the user attribute that matches the value stored in the NFC badge or the QR code.\nAvailable options:\nUsername\nEmail\nUnique User ID\nFor example, if the QR code contains an employee ID that is stored in the user's Unique User ID field in SureIdP, select Unique User ID.\nThe scanned value is used to identify the corresponding user account.\nProfile Switch Meta Tag: Select the user attribute that SureLock should use to dynamically determine the user's device profile.\nAvailable options include:\nUsername\nEmail\nFirst Name\nLast Na…",
+   "hash": "a205f870aaf0f65dd7350294a10758b0e6a9d2e9e1a46d8aed3534e7b6c1ff23",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/user-device-binding",
    "title": "user device binding",
-   "date": "2026-09-16",
+   "date": "2026-09-18",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/user-device-binding",
-   "text": "",
-   "hash": "54df959ad7765bec3c0be75697c782f647d6ec3fc40ded3f413fc06027dff283",
-   "windows": "none"
+   "text": "User-Device Binding\nOverview\nUser-device binding allows administrators to associate SureIdP users with specific managed devices and control access based on these assignments.\nWhen binding enforcement applies, SureIdP verifies the user's association with the device before granting access to supported applications and device access scenarios.\nUser-device binding helps organizations maintain user accountability, device ownership, and controlled access in environments where access needs to be restricted to specific users.\nUser-device bindings are centrally managed from the SureIdP > Users section. The configured user-device mapping serves as the central source of truth for supported access scenarios.\nA user can be bound to multiple devices, and multiple users can be bound to the same device.\nnote\nUser-device binding is currently supported on Windows, macOS, and Linux. For Android and iOS, user-device binding is not enforced. Therefore, configuring a binding does not restrict application access to the bound users on these two platforms.\nPrerequisites\nBefore configuring user-device binding:\nThe devices must be enrolled and managed through SureMDM.\nThe users must be available in SureIdP.\nThe device identifier used for binding must be supported and available for the target device.\nBind a Device to a User\nYou can assign one or more devices to a SureIdP user.\nTo bind a device:\nOpen SureMDM → Settings → Account Settings → Identity & Access Management → SureIdP → Users.\nSelect the required user.\nGo to Account Actions → Bind/Unbind Devices.\nIn the Bind/Unbind Devices window, click + Add.\nOption 1: To bind devices manually:\nSelect the Bind Devices Manually option.\nSelect the Identifier ID Type and enter the Bind Identifier Value.\nClick Save.\nMultiple devices can be assigned to the same user by clicking + Add and entering the identifier type and identifier value for each device.\nOption 2: To assign user-device bindings in bulk:\nAdministrators can import user-device binding details using a CSV file.\nSelect the Import Users Using CSV File option.\nDownload the CSV template.\nEnter the required user and device binding information in the template.\nUpload the completed CSV file.\nClick Save to complete the import.\nnote\nIf no users are selected in the SureIdP Users section and Bind/Unbind Devices is selected, only the Bulk CSV Import option is available by default.\nThe CSV file supports:\nDevice Identifier Type\nDevice Identifier Value\nUsername\nExample:\nDevice IdentifierDevice Identifier ValueUsername\nIMEI\n123456789\nABC@domain.com\nSerial Number\nR58M423ABCD\nABC@domain.com\nSerial Number\nG68N429VXYZ\nXYZ@domain.com\nnote\nThe device identifiers must match the identifiers reported by the corresponding managed devices. Supported identifier types are IMEI, MAC Address, and Serial Number and depend on the device platform and available device information.\nThe Device Bindings window displays the existing device bindings for the selected user and allows administrators to add or delete device bindings.\nBind Multiple Users to a Device\nA device can be associated with multiple users.\nFor example:\nUserDevice\nUser A\nDevice 1\nUser B\nDevice 1\nUser C\nDevice 1\nWhen binding enforcement applies, all users associated with the device are authorized to access supported scenarios on that device, subject to the applicable authentication and access policies.\nnote\nFor OS Login, the current OS-logged-in user can use passwordless authentication, while other users bound to the device can authenticate using their username and password.\nRemove a User-Device Binding\nAdministrators can remove an existing device assignment when the device is no longer associated with a user.\nTo remove a binding:\nSelect the required user in SureIdP → Directory → Users.\nClick on Account Actions → Bind/Unbind Devices.\nSelect the device binding you want to remove.\nClick on Remove.\nOnce the binding is removed, the device no longer has a user-device association through this configuration.\nHow User-Device Binding…",
+   "hash": "04fc687c75ae7e25278ff2cd46a6d57ab91c38c3eb0946ee65056f7d5e06ef0a",
+   "windows": "medium"
   },
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/things-management",

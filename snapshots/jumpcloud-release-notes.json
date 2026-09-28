@@ -1,0 +1,120 @@
+{
+ "id": "jumpcloud-release-notes",
+ "vendor": "JumpCloud",
+ "kind": "html-sections",
+ "fetchedAt": "2026-09-28T04:30:09.294Z",
+ "meta": {
+  "url": "https://jumpcloud.com/support/release-notes-2026",
+  "headings": 66
+ },
+ "items": [
+  {
+   "key": "September 25th, 2026",
+   "title": "September 25th, 2026",
+   "date": "2026-09-25",
+   "url": "https://jumpcloud.com/support/release-notes-2026#september-25th-2026",
+   "text": "Enhancement: Dormant Application Access Detection\nFeature: Access Risk\nDormant Application Access now detects when a user signs back into an SSO application after a period of inactivity that meets your configured threshold, instead of flagging first-time access. You can set the dormant application threshold in Access Risk > Configuration. First-time access to an application does not trigger this factor, which reduces noise from newly provisioned apps.\nSee Configure Access Risk Detection to learn more.",
+   "hash": "0ff4fc2a6befe4750d79c55ccc11c1d30105ff3597c6d70ded3264b470ecb2f2",
+   "windows": "none"
+  },
+  {
+   "key": "September 24th, 2026",
+   "title": "September 24th, 2026",
+   "date": "2026-09-24",
+   "url": "https://jumpcloud.com/support/release-notes-2026#september-24th-2026",
+   "text": "New: Patch Management Dashboards\nFeature: Patch Management\nJumpCloud Patch Management now includes a unified dashboard experience plus dedicated Windows and Apple views in the Admin Portal. From Device Management > Patch Management, you can monitor fleet-wide update posture, drill into KB compliance on Windows devices, and track Apple OS rollout progress against active update policies.\nUnified Patch Dashboard\nCross-platform overview: Review patch compliance for Windows and Apple devices together on the Overview tab.\nFleet update summary: See pending updates by severity, devices with pending updates, devices with update failures, and the age of missing updates.\nPlatform switcher: Move between Overview, Apple, and Windows tabs from one page.\nWindows Overview and Patch List\nPatch and device insights: View patch coverage, missing patches by severity and age, device compliance, and critical patch exposure in one dashboard.\nGlobal severity filter: Focus the dashboard and KB list on the severities that matter most.\nKB-centric control: Search and filter KBs, review CVE details, approve awaiting updates, retry failed installations, and export the KB list as CSV or JSON.\nBulk remediation: Install missing critical patches or non-compliant device updates immediately or on the policy schedule.\nApple Compliance Dashboard\nRollout visibility: Track OS deployment progress for macOS, iOS, and iPadOS devices against effective update policy targets.\nCompliance and coverage: Review missing updates by severity, device compliance, update policy coverage, and the age of missing updates.\nApple OS Version Listing: Filter by platform, release date, severity, and device status; drill into targeted, installed, pending, in-progress, or failed devices; and view associated CVE details.\nLearn More\nGet Started: Unified Patch Dashboard\nWindows Overview and Patch List\nApple Compliance Dashboard",
+   "hash": "f1f58048d5124dfe4f7e9c4c854e9186ebd9daf80c5c8bc75a8fd262a87208c3",
+   "windows": "high"
+  },
+  {
+   "key": "September 23rd, 2026",
+   "title": "September 23rd, 2026",
+   "date": "2026-09-23",
+   "url": "https://jumpcloud.com/support/release-notes-2026#september-23rd-2026",
+   "text": "New: Android Policy Expansion\nFeature: Policy Management\nJumpCloud has expanded Android policy management with new policies for display, autofill, work account authentication, and default app handling, plus enhanced Bluetooth controls. These policies help you enforce security and productivity settings on managed Android devices enrolled in JumpCloud EMM.\nNew Android Policies\nDisplay Settings — Control screen brightness and screen timeout. Choose whether end users configure display settings themselves, or enforce fixed brightness and timeout values on supported devices.\nAutofill — Control system autofill for forms in apps and websites. Allow users to choose an autofill service, or disable autofill and lock the setting on Android 8.0 and later.\nWork Account — Configure whether device management requires a Google authenticated enterprise account, and optionally require a specific Google Account email during setup.\nDefault App and Intent Handling — Set an approved managed app as the default handler for selected Android activities, such as opening web links or dialing phone numbers, so Android opens the configured app instead of the app chooser.\nEnhanced Android Policy\nBluetooth Restrictions — In addition to disabling Bluetooth, blocking Bluetooth configuration, and preventing work contact sharing, you can now control outbound Bluetooth file sharing. On company-owned devices with a work profile, you can also restrict Bluetooth sharing on the personal profile through the Work & Personal Usage policy.\nSee Configure Settings for Android Policies to learn more.",
+   "hash": "2489b2a825d8dbb24bb43ff544833247d344494a9eb9dbddbf4a4a870618389a",
+   "windows": "none"
+  },
+  {
+   "key": "September 21st, 2026",
+   "title": "September 21st, 2026",
+   "date": "2026-09-21",
+   "url": "https://jumpcloud.com/support/release-notes-2026#september-21st-2026",
+   "text": "New: Device Patch Report (Windows)\nFeature: JumpCloud Reports\nThe Device Patch Report (Windows) gives IT admins per-device visibility into Windows Knowledge Base (KB) patch installation status in the JumpCloud Admin Portal. The report is auto-populated from existing patch data.\nPer-device KB status: View Installed, Pending, and Failed status for each KB on each managed Windows device.\nPreview and export: Preview up to 500 rows in the Admin Portal, or download the complete organization result set as CSV.\nNo manual setup: Report data syncs from existing Windows patch inventory.\nSee Device Patch Report to learn more.",
+   "hash": "d1a8c19abacedc243ea5e4cbac7abe45cda26bae3a2b938a8bd9a01d705c533e",
+   "windows": "high"
+  },
+  {
+   "key": "September 18th, 2026",
+   "title": "September 18th, 2026",
+   "date": "2026-09-18",
+   "url": "https://jumpcloud.com/support/release-notes-2026#september-18th-2026",
+   "text": "Enhancement: Update Existing Application Versions in the Private Repository\nFeature: Software Management\nYou can now update the binary of an existing custom application in JumpCloud's Private Repository instead of creating a new application for every release. Upload the new file from Update Version on the application's Details tab, and JumpCloud deploys it to devices already associated with the application.\nConsistent update process: Use the same Upload File flow for new applications and version updates, on both Windows and Apple applications.\nFewer manual steps: Skip re-creating the application, reassigning devices, and rebinding device groups for each new version.\nWindows EXE updates: Enter an install success exit code before you deploy an EXE update, so JumpCloud can confirm the installation succeeded.\nSee Manage Software with the JumpCloud Private Repository to learn more.",
+   "hash": "7744d5c82724fb395f8bd209218be3704986d2e564f52f5461233696e386a7f2",
+   "windows": "medium"
+  },
+  {
+   "key": "September 16th, 2026",
+   "title": "September 16th, 2026",
+   "date": "2026-09-16",
+   "url": "https://jumpcloud.com/support/release-notes-2026#september-16th-2026",
+   "text": "New: Knowledge Base Uploads for AI Assistant\nFeature: AI Assistant\nYou can now upload internal documentation directly into a private, org-scoped knowledge base for AI Assistant. The assistant references your uploaded content to answer questions about organization-specific processes, runbooks, SOPs, and policies. Supported formats include PDF, TXT, DOCX, and MD (10 MB maximum per file, 25 files maximum per org). When a response uses your uploaded documentation, AI Assistant clearly attributes the source document in the chat.\nSee Get Started: JumpCloud AI Admin Assistant to learn more.\nEnhancement: AI Gateway Dashboard\nFeature: AI Gateway\nThe AI Gateway now includes a Dashboard tab with org-wide visibility into MCP server usage, tool call volume, and error rates. Summary cards, trend charts, and rankings for top servers, clients, and users help you monitor adoption and investigate failures. Click an MCP server to drill into server-specific metrics.\nSee Get Started: AI Gateway to learn more.\nEnhancement: Agent Client Authentication Type\nFeature: Agent Identities\nYou can now configure the client authentication type for an agent's OAuth credentials. On the agent's Authentication tab, choose how the agent platform sends the client ID and secret when requesting a token from JumpCloud:\nClient secret basic: Sends credentials in the authorization header. This is the default option.\nClient secret post: Sends credentials in the request body.\nThis ensures you can match the exact authentication method required by your external platform's OAuth configuration, such as Amazon Bedrock AgentCore.\nSee Get Started: Agents to learn more.",
+   "hash": "6372dbd71d519de43217af25c7add5059526e49b8183ecf3df1ce612bba89dfb",
+   "windows": "none"
+  },
+  {
+   "key": "September 9th, 2026",
+   "title": "September 9th, 2026",
+   "date": "2026-09-09",
+   "url": "https://jumpcloud.com/support/release-notes-2026#september-9th-2026",
+   "text": "New: Password Vault in JumpCloud Protect app\nFeature: Password Vault\nJumpCloud Protect now includes Password Vault, so users can access work credentials on mobile from the same app they already use for Push and TOTP MFA.\nAfter the user authenticates, Password Vault credentials are retrieved from JumpCloud. JumpCloud Protect TOTP codes continue to be stored locally on the device.\nWith JumpCloud Protect, users can:\nView secrets for credentials stored in Password Vault (based on their sharing permissions).\nAutofill credentials into mobile apps.\nLaunch websites and autofill credentials in the mobile browser.\nPassword Vault items that are shared with the user, including items in shared folders, appear in the Password Vault tab of JumpCloud Protect.\nSee Get Started: Password Vault to learn more.\nNew: Password Vault in Admin Portal\nFeature: Password Vault\nJumpCloud Password Vault provides a unified, cloud-first solution to secure, and manage shared company credentials. With a scalable architecture, it eliminates identity and tool sprawl and reduces the risk of credential-based attacks across the organization.\nThrough the Admin Portal, administrators can:\nEnable Password Vault and assign vault access to other users and user groups.\nEnroll user groups, manage permissions for shared resources, and revoke access.\nCreate, manage, and share organizational websites and credentials; personal credentials cannot be accessed by the Admin.\nGroup websites and credentials in personal and shared folders with Connect, View, Edit, and Manage access permissions.\nMonitor password health from a centralized Overview dashboard.\nView Password Vault audit logs in Directory Insights.\nSee Password Vault: Admins to learn more.\nNew: Password Vault in User Portal\nFeature: Password Vault\nPassword Vault enables your team to securely manage and share credentials and website applications. After logging in the JumpCloud user portal, users can find the Password Vault in the left navigation.\nThrough the User Portal, users can:\nSee an overview of password vault statistics for credentials and websites that are owned and shared by the user.\nConfigure and manage non-SSO website applications, add multiple passwords to the same website, and launch and autofill using linked credentials.\nManage and share organizational and personal passwords, keys, and other traditional credentials.\nShare credentials with Connect, View Secret, View Detail, and Manage permissions, and websites with Manage, View Detail, and Connect permissions.\nGroup websites and credentials in personal and shared folders with Connect, View, Edit, and Manage access permissions.\nBulk import credentials using a CSV or Excel file.\nSee Password Vault: Users to learn more.\nNew: Password Vault Browser Extension\nFeature: Password Vault\nPassword Vault autofill capabilities are available using the JumpCloud Go extension. The JumpCloud Go browser extension is required to use Password Vault and provides password management without requiring device registration.\nThrough the JumpCloud Go Browser extension, users can:\nLaunch and autofill Non-SSO Website application passwords and 2FA codes.\nView secret of credentials stored in Password Vault.\nSave passwords during Login/Update/Signup.\nSee Get Started: Password Vault to learn more.",
+   "hash": "26d598fe7090558a915493a0f501735a4a531bae6db001cc22ffc57d3eb42668",
+   "windows": "none"
+  },
+  {
+   "key": "September 7th, 2026",
+   "title": "September 7th, 2026",
+   "date": "2026-09-07",
+   "url": "https://jumpcloud.com/support/release-notes-2026#september-7th-2026",
+   "text": "Enhancement: Organization Profile, Security, and Features tabs in Settings\nFeature: Admin Portal\nYou'll see a refreshed look on the Organization Profile, Security, and Features tabs, with shorter labels and helper text that's easier to scan. Your settings on these tabs work exactly as before. They're just easier to find and update.\nSee Settings in the Admin Portal to learn more.\nAUGUST\nAugust",
+   "hash": "825d65db36ac31f4640ceb873071bf742dfe4ff8ec6e3ade917ee8b132fdd2e6",
+   "windows": "none"
+  },
+  {
+   "key": "August 31st, 2026",
+   "title": "August 31st, 2026",
+   "date": "2026-08-31",
+   "url": "https://jumpcloud.com/support/release-notes-2026#august-31st-2026",
+   "text": "New: Agent Identities (Public Preview)\nFeature: Identity Management\nAgent Identities introduces dedicated, non-human identity management to govern AI agents independently from employee user accounts. By establishing clear ownership, OAuth-based authentication, and group-based access control, you can precisely manage what resources an agent can access throughout its lifecycle. This ensures agent access can be continuously audited, safely updated, or fully revoked without impacting human credentials or interrupting operational workflows. With Agent Identities you can:\nRegister an agent: Go to Identity Management > Agents and click + Add. Enter the agent name, owner, and company email on the Details tab.\nConfigure authentication: On the agent’s Authentication tab, generate OAuth client credentials for the JumpCloud AI Gateway.\nAssign application access: Under Identity Management > Agent Groups, create an Agent Group, add agents to the group, and assign SSO applications. Agents inherit available applications from their group memberships.\nConnect to AI Gateway: On the agent Applications tab, use Manage connections to authorize MCP servers on behalf of the agent.\nSee Get Started: Agent Identities to learn more.",
+   "hash": "9538b627e86261831d99cc0c25c282f2d5eaab8d7794894c2ee25db55e7f1ae6",
+   "windows": "none"
+  },
+  {
+   "key": "August 28th, 2026",
+   "title": "August 28th, 2026",
+   "date": "2026-08-28",
+   "url": "https://jumpcloud.com/support/release-notes-2026#august-28th-2026",
+   "text": "New: MCP Connection Status and AI Gateway Connection\nFeature: AI & SaaS Management\nMCP servers discovered on your managed devices now appear in AI & SaaS Management with their AI Gateway status, so you manage MCP connections in the same place you manage the rest of your SaaS applications. From the Applications tab, you can see which apps have discovered MCP servers and connect them to AI Gateway without switching tools.\nSee MCP status: Go to Access > AI & SaaS Management > Applications. The MCP Connection column shows Discovered, Connected, or Not Available for each app.\nAdd a server in AI Gateway: Click the status to review the discovered MCP servers, then click Add MCP Server.\nOpen MCP details from an app: Select an application and click View next to MCP Connection in the right-hand menu.\nSee Configure AI & SaaS Management to learn more.",
+   "hash": "05acfb29f0f32ce631ce58608b4e83700396ba5093c242512be645f75d3c7b9c",
+   "windows": "none"
+  },
+  {
+   "key": "August 26th, 2026",
+   "title": "August 26th, 2026",
+   "date": "2026-08-26",
+   "url": "https://jumpcloud.com/support/release-notes-2026#august-26th-2026",
+   "text": "Enhancement: SCIM Group Management & Custom Activation Validation\nFeature: SSO Applications (SCIM)\nWe are expanding SCIM (prebuilt and custom) group management and custom activation validation to give admins granular control over downstream group structures and pre-activation testing. With a dedicated mapping UI that mirrors existing user export patterns, admins can easily configure name overrides, map extended schemas, and preview object transformations side-by-side before going live. The update also enhances custom SCIM activation validation by replacing rigid hard-coded defaults with flexible test data selection—allowing admins to specify custom group names and choose representative test users and groups—while automatically logging all sync rules and activities to Directory Insights for complete compliance visibility.\nKey Benefits\nUnlocks Complex Tech Stacks: Fits JumpCloud into any target application's unique group requirements, eliminating rigid platform constraints, custom scripts, and brittle workarounds.\nEliminates Setup Failures & Saves Admin Time: Custom validation context and live previews catch mapping errors upfront and prevent false integration test failures, ensuring smooth, predictable setups.\nStreamlines Security & Compliance Audits: Centralized Directory Insights logging gives CISOs and security teams immediate, verifiable proof of group access changes.\nSee Improved SSO and SCIM Applications Experience and Integrate with Custom SCIM to learn more.\nNew: Access Risk Detection is now generally available\nFeature: Access Risk\nJumpCloud Access Risk Detection identifies suspicious authentication activity across the Admin Portal, User Portal, managed device logins, and SSO applications by learning normal login behavior and surfacing meaningful deviations.\nKey capabilities include:\nBehavior-based risk detection: Detect unusual locations, impossible travel, unfamiliar devices or browsers, unusual applications and login times, dormant accounts, and abnormal login volumes.\nAutomatic MFA-based resolution: Automatically resolve risky activity when the user successfully verifies the login with MFA.\nIntelligent suppression: Uses contextual heuristics to recognize expected activity—such as logins through corporate VPNs and security gateways—and avoid unnecessary detections.\nCustomizable risk factors: Choose which risk factors to monitor and tune thresholds to match your organization’s environment.\nEmail, Slack, and webhook notifications: Send severity-based notifications to the appropriate channels for faster response.\nFor configuration details, see Configure Access Risk Detection.",
+   "hash": "2c525fd81f083e06ad44cf44ac058aa26395459a4f8852cd728854a6af42cd57",
+   "windows": "none"
+  },
+  {
+   "key": "August 21st, 2026",
+   "title": "August 21st, 2026",
+   "date": "2026-08-21",
+   "url": "https://jumpcloud.com/support/release-notes-2026#august-21st-2026",
+   "text": "Enhancement: Alert trigger conditions in insights rule\nFeature: Alerts\nYou can now configure alerts based on event frequency, allowing for more precise monitoring and reduced alert noise. Instead of triggering an alert for every single event, you can define specific criteria for when an alert should fire.\nSee Create an Insights Rule to learn more.\nEnhancement: MCP Server to Application Association\nFeature: AI Gateway\nAI Gateway MCP servers now require a direct association with a Single Sign-On (SSO) application or bookmark. This enables you to scope and manage MCP server access using groups. Previously, all MCP servers were available to all users without granular control. This update changes the following:\nMandatory application association: When adding a new MCP server, you must select an existing SSO application or bookmark from the App dropdown.\nStreamlined app creation: We removed the custom app creation option from the Add MCP Server dialog. To create a new application during server setup, click + New App to open the standard Add New SSO Application wizard.\nManage existing servers: If you previously created an MCP server without an associated application, you are prompted to assign one in the AI Gateway. Access is not scoped by User Groups until an application is assigned.\nSee Get Started: AI Gateway to learn more.",
+   "hash": "ca01837e4e78e46bbf64f1ec866c83a80088df9b75f39d1f8101e4e16c1d45dd",
+   "windows": "none"
+  }
+ ]
+}

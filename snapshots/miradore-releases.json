@@ -2,13 +2,22 @@
  "id": "miradore-releases",
  "vendor": "Miradore",
  "kind": "link-list",
- "fetchedAt": "2026-09-21T04:30:09.788Z",
+ "fetchedAt": "2026-09-28T04:30:07.101Z",
  "meta": {
   "url": "https://www.miradore.com/knowledge/releases/",
-  "links": 366,
+  "links": 367,
   "fetched": 1
  },
  "items": [
+  {
+   "key": "https://www.miradore.com/knowledge/releases/custom-device-attributes-in-api-v1-and-reports-dark-theme-visual-fix/",
+   "title": "Custom device attributes in API v1 and reports, dark theme visual fix",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/custom-device-attributes-in-api-v1-and-reports-dark-theme-visual-fix/",
+   "text": "In this article\nToggle\nCustom device attributes in API v1 and reports\nWe updated the Miradore API v1 with a new GET endpoint called CustomAttributeDefinition. This endpoint can be used to query the IDs and display names of custom attributes created on the Custom attributes tab of the Company > Attributes page.\nThe new endpoint also allows you to filter your devices based on their custom attributes when creating a custom report. Adding the CustomAttribute.Custom attribute name to the report columns lists all devices with that custom attribute applied. Additionally, defining a value in the filter conditions enables you to filter for specific custom attribute values in your reports.\nFor more information, see the following articles and documentation:\nCreating custom reports\nCustom device attributes\nProgrammer's guide to API v1\nDark theme visual fix\nWe fixed a visual issue where selecting filter conditions while using Miradore with the dark UI theme resulted in filters with subitems appearing in a very dark color. The fix improves visibility of those filters.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
+   "hash": "942860a1a0601d9e3afa6fdfbc42e4abc9d4f0ec114f04c1ec4e2fb5a2aed498",
+   "windows": "none"
+  },
   {
    "key": "https://www.miradore.com/knowledge/releases/bug-fix-android-managed-app-configuration-deployment-via-business-policy/",
    "title": "Bug fix: Android managed app configuration deployment via business policy",
@@ -70,15 +79,6 @@
    "url": "https://www.miradore.com/knowledge/releases/ui-theme-selector/",
    "text": "",
    "hash": "71a3156f6c1228c4667aee433be5eee1b23961156ea3a2cc61be3affe8256717",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.miradore.com/knowledge/releases/remote-action-wizard-updates-android-enrollment-device-user-allocation-flow-improvement/",
-   "title": "Remote action wizard updates, Android enrollment device user allocation flow improvement",
-   "date": null,
-   "url": "https://www.miradore.com/knowledge/releases/remote-action-wizard-updates-android-enrollment-device-user-allocation-flow-improvement/",
-   "text": "",
-   "hash": "86e0b61e985e7497c50d16fed3ccc0c5da53b433b78aac6f64bf44a52c9a1a61",
    "windows": "none"
   },
   {
@@ -970,6 +970,15 @@
    "url": "https://www.miradore.com/knowledge/releases/26-06-2014/",
    "text": "",
    "hash": "d146f46b04d07d452fd9dc3c9ab141a2cf93391e3dd82196288f51515275d913",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/remote-action-wizard-updates-android-enrollment-device-user-allocation-flow-improvement/",
+   "title": "Remote action wizard updates, Android enrollment device user allocation flow improvement",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/remote-action-wizard-updates-android-enrollment-device-user-allocation-flow-improvement/",
+   "text": "",
+   "hash": "86e0b61e985e7497c50d16fed3ccc0c5da53b433b78aac6f64bf44a52c9a1a61",
    "windows": "none"
   },
   {

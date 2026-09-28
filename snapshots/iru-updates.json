@@ -2,12 +2,48 @@
  "id": "iru-updates",
  "vendor": "Iru",
  "kind": "rss",
- "fetchedAt": "2026-09-21T04:30:07.885Z",
+ "fetchedAt": "2026-09-28T04:30:04.421Z",
  "meta": {
   "url": "https://www.iru.com/updates/rss.xml",
   "entries": 50
  },
  "items": [
+  {
+   "key": "https://www.iru.com/updates/whats-new-in-iru-september-25th",
+   "title": "What's New in Iru | September 25th",
+   "date": "2026-09-25",
+   "url": "https://www.iru.com/updates/whats-new-in-iru-september-25th",
+   "text": "Highlights we cover this week in What's New in Iru:\nMSP Billing is live, with itemized billing to increase visibility into your MSP margins\nLAPS for Mac Library Item is here\nEnhancements to Iru Compliance evidence collection\nMacOS 27 is officially live",
+   "hash": "e98f830a12d1dfa4a5c2b96e756deb805ad112530975ca00193e488cdd76f12d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.102-5397",
+   "title": "Iru Agent for Mac Release 5.1.102 (5397)",
+   "date": "2026-09-23",
+   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.1.102-5397",
+   "text": "We’ve released Iru Agent for Mac 5.1.102 (5397).",
+   "hash": "32aecf6c724494e9ed434ac481568a34b6d2b6945a743a3ed804d32f27e22b3c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/09/22/removing-end-of-life-auto-apps",
+   "title": "Removing End-of-Life Auto Apps",
+   "date": "2026-09-22",
+   "url": "https://www.iru.com/updates/2026/09/22/removing-end-of-life-auto-apps",
+   "text": "As of today, Iru has removed the following Auto App(s) from our catalog:",
+   "hash": "f5efb8314c54773227c2f9071640e7aff036a363894b3de7804203e136ec60b5",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/recommended-privacy-permissions-for-iphone-and-ipad",
+   "title": "Recommended privacy permissions for iPhone and iPad",
+   "date": "2026-09-21",
+   "url": "https://www.iru.com/updates/recommended-privacy-permissions-for-iphone-and-ipad",
+   "text": "The Privacy Library Item now includes a Recommended privacy permissions area for iPhone and iPad, letting admins recommend the app permissions and Safari website permissions that managed apps and sites will need. The end user sees a single consent prompt listing every permission the admin recommends, with the choice to Allow all at once or select Not Now. If Not Now is selected, the app continues to prompt for individual permissions as it normally would.",
+   "hash": "5a685e69737d953fcb9135681ba683674d25dee467c4a3445355ecab2a741900",
+   "windows": "none"
+  },
   {
    "key": "https://www.iru.com/updates/introducing-msp-billing",
    "title": "Introducing MSP Billing",
@@ -34,6 +70,15 @@
    "text": "We've released Iru Agent for Windows. This release fixes Custom App and Auto App detection so apps are no longer reinstalled when a version is missing or misread, corrects Auto Apps enforcement after a user closes an app, and resolves agent installation failures.",
    "hash": "ecda751232580abdc8fbd7d6c590efe0bbf9f9f9302a2719c8d1041fc4f3dc23",
    "windows": "high"
+  },
+  {
+   "key": "https://www.iru.com/updates/whats-new-in-iru-september-18th",
+   "title": "What's New in Iru | September 18th",
+   "date": "2026-09-18",
+   "url": "https://www.iru.com/updates/whats-new-in-iru-september-18th",
+   "text": "highlights we cover this week in What's New in Iru:",
+   "hash": "460a37f4c0277dfd2178498e10279bfef60ccb5540b96878709047a33a5a826e",
+   "windows": "none"
   },
   {
    "key": "https://www.iru.com/updates/windows-update-library-item-recommendations-in-iru-ai",
@@ -411,51 +456,6 @@
    "url": "https://www.iru.com/updates/whats-new-in-iru-august-7th",
    "text": "Highlights we cover this week in What's New in Iru:",
    "hash": "9786065ef592dc3e0313ac0888991542fff216c98a84dc75a8ded8dd2aaee993",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/windows-update-library-item-assistant-now-available-to-everyone",
-   "title": "Introducing Library Item Assistant for Windows Update",
-   "date": "2026-08-07",
-   "url": "https://www.iru.com/updates/windows-update-library-item-assistant-now-available-to-everyone",
-   "text": "A new way to work with Library Items in Iru AI: get a plain-language description of what the Windows Update Library Item does, a summary of how it's configured, and a breakdown of what users will experience.",
-   "hash": "5c2fbc5e2bceb9ee5813133e83122fc0d41bc34fcb58ecf79b56664c4bb548c4",
-   "windows": "high"
-  },
-  {
-   "key": "https://www.iru.com/updates/manually-release-apple-devices-held-in-setup-assistant",
-   "title": "Manually release Apple devices held in Setup Assistant",
-   "date": "2026-08-06",
-   "url": "https://www.iru.com/updates/manually-release-apple-devices-held-in-setup-assistant",
-   "text": "Devices held in Setup Assistant while Library Items install can now be released manually. This applies to devices enrolling via Automated Device Enrollment and devices migrating into Iru with managed apps preserved. While a device is held at the Configuring screen, a banner appears at the top of the device's record in the Iru web app showing when the hold began. Selecting Release hold sends the DeviceConfigured command, releasing the device from the Configuring screen so the end user can continue through Setup Assistant and begin using the device. Selecting Check status refreshes the banner to confirm the device has been released. Devices can also be released via the Iru Enterprise API.",
-   "hash": "499d6201e4abdd6fc8a091c7681174b9e8b5432c02ed44c41ed5ca8622583084",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/managed-os-for-macos-ecb6d654-7f5f-4cdb-8f6f-b0bee9b49efb",
-   "title": "Managed OS for macOS",
-   "date": "2026-08-06",
-   "url": "https://www.iru.com/updates/managed-os-for-macos-ecb6d654-7f5f-4cdb-8f6f-b0bee9b49efb",
-   "text": "Managed OS for macOS has been updated. The latest approved version for Tahoe is now 26.6.1; for Sequoia, 15.7.9; and for Sonoma, 14.8.9, with the following release dates:",
-   "hash": "eeb6a10734ff3089f62551b26bdf200bfb4090ecdce09f787ec04c69a17bc76a",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/offer-apple-beta-releases-with-the-software-update-library-item",
-   "title": "Offer Apple beta releases with the Software Update Library Item",
-   "date": "2026-08-05",
-   "url": "https://www.iru.com/updates/offer-apple-beta-releases-with-the-software-update-library-item",
-   "text": "In the Software Update Library Item, Apple beta program enrollment can now be offered to end users to opt-in, or a specific program can be enforced without needing to enforce a specific version alongside the enrollment.",
-   "hash": "ba56f267131b3401ec728b8d09a95554ce6a1e477bfcaf68d2b487ddbed06ba4",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/platform-sso-for-mac-authenticated-guest-mode",
-   "title": "Platform SSO for Mac: Authenticated guest mode",
-   "date": "2026-08-05",
-   "url": "https://www.iru.com/updates/platform-sso-for-mac-authenticated-guest-mode",
-   "text": "The Single Sign-On Extension Library Item now supports configuring Authenticated Guest Mode when using Platform SSO with macOS.",
-   "hash": "33c71c44c2c53dc3785376cf639bba68968dfd07e23e876be909c70623ec379a",
    "windows": "none"
   }
  ]
