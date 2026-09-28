@@ -39,7 +39,7 @@ Flags: `--only id1,id2` (subset of sources), `--date YYYY-MM-DD` (run folder nam
 | kind | Reads | Used for |
 |---|---|---|
 | `rss` | RSS/Atom feed; new entries by GUID | Intune blog, Iru updates, Hexnode blog, Scalefusion product updates |
-| `html-sections` | One page split by headings; new or edited sections | Intune "What's new" |
+| `html-sections` | One page split by headings; new or edited sections | Intune "What's new", JumpCloud release notes |
 | `link-list` | An index of links; new links are fetched for their text | Miradore releases, 42Gears press releases |
 | `sitemap` | `sitemap.xml`; new URLs and changed `lastmod`, matching pages fetched | 42Gears SureMDM docs |
 | `jamf-khub` | Fluid Topics API: newest "Jamf Pro Release Notes" map → topics | Jamf Pro |
