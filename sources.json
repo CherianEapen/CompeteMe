@@ -131,6 +131,18 @@
     "note": "Hub links to per-quarter pages; each product is an accordion. Latest two quarters tracked."
   },
   {
+    "id": "jumpcloud-release-notes",
+    "vendor": "JumpCloud",
+    "kind": "html-sections",
+    "urlTemplate": "https://jumpcloud.com/support/release-notes-{year}",
+    "container": ".theme-doc-markdown",
+    "sectionTag": "h3",
+    "maxSections": 12,
+    "dateFromTitle": true,
+    "mdChars": 6000,
+    "note": "Docusaurus page, server-rendered. h2 are month names, h3 are dated entries (newest first) such as \"September 25th, 2026\"; only the h3s are tracked. Year in the URL resolves automatically, falling back to the previous year in early January."
+  },
+  {
     "id": "manageengine-endpoint-central",
     "vendor": "ManageEngine",
     "kind": "csv",

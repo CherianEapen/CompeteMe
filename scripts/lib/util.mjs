@@ -55,6 +55,9 @@ export const shortHash = (s) => sha256(s).slice(0, 12);
 export function normalizeWs(s) {
   return String(s ?? "")
     .replace(/ /g, " ")
+    // Docusaurus anchor links leave a zero-width space in headings; it would ride along
+    // into titles and snapshot hashes.
+    .replace(/[​‌‍﻿]/g, "")
     .replace(/[ \t\r\f\v]+/g, " ")
     .replace(/ *\n */g, "\n")
     .replace(/\n{3,}/g, "\n\n")
