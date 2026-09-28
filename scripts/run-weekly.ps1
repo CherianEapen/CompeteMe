@@ -40,6 +40,7 @@
 [CmdletBinding()]
 param(
   [string]$RunDate = (Get-Date).ToUniversalTime().ToString('yyyy-MM-dd'),
+  [string]$ClaudeExe,
   [switch]$ReFetch,
   [switch]$SkipAnalysis,
   [switch]$NoPush,
@@ -57,7 +58,10 @@ $logFile = Join-Path $logDir "$RunDate.log"
 function Write-Log {
   param([string]$Message, [string]$Level = 'INFO')
   $line = "{0}  {1,-5}  {2}" -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $Level, $Message
-  Write-Output $line
+  # Write-Host, not Write-Output: inside a function Write-Output joins the return value,
+  # so a logging call would be returned to the caller along with (or instead of) the real
+  # result. That is exactly how Get-ClaudeExe came to "return" its own log lines.
+  Write-Host $line
   Add-Content -Path $logFile -Value $line -Encoding utf8
 }
 
@@ -94,17 +98,32 @@ function Write-NativeOutput {
 # changes as the app updates (and old versions are deleted), so never hardcode it. The app
 # can also be mid-update when the task fires, so this retries once and logs what it saw --
 # the 21 Sep run failed here with no diagnostics and the cause could not be reconstructed.
+# Preference order matters. The Claude desktop app keeps its CLI in a private, versioned
+# folder that the scheduled-task context could not see on 21 and 28 Sep (the same paths
+# resolve fine from an interactive session moments later; cause undetermined). A standalone
+# Claude Code install on PATH lives outside that tree and is the reliable option, so it
+# wins over the desktop app's copy.
 function Find-ClaudeExe {
+  # 1. Explicit override: -ClaudeExe, then the CLAUDE_EXE environment variable.
+  foreach ($explicit in @($ClaudeExe, $env:CLAUDE_EXE)) {
+    if ($explicit -and (Test-Path $explicit)) { return (Get-Item $explicit).FullName }
+  }
+  # 2. A standalone install on PATH.
+  $onPath = Get-Command claude -ErrorAction SilentlyContinue
+  if ($onPath -and $onPath.Source -and (Test-Path $onPath.Source)) { return (Get-Item $onPath.Source).FullName }
+  # 3. Common standalone install locations, which are stable across desktop-app updates.
+  foreach ($p in @(
+      "$env:LOCALAPPDATA\Programs\claude\claude.exe",
+      "$env:USERPROFILE\.local\bin\claude.exe",
+      "$env:APPDATA\npm\claude.cmd")) {
+    if (Test-Path $p) { return (Get-Item $p).FullName }
+  }
+  # 4. Last resort: the desktop app's private versioned folder.
   $candidates = @()
   foreach ($root in @("$env:APPDATA\Claude\claude-code", "$env:LOCALAPPDATA\Claude\claude-code")) {
-    if (Test-Path $root) {
-      $candidates += @(Get-ChildItem -Path (Join-Path $root '*\claude.exe') -File -ErrorAction SilentlyContinue)
-    }
+    $candidates += @(Get-ChildItem -Path (Join-Path $root '*\claude.exe') -File -ErrorAction SilentlyContinue)
   }
-  $onPath = Get-Command claude -ErrorAction SilentlyContinue
-  if ($onPath -and (Test-Path $onPath.Source)) { $candidates += @(Get-Item $onPath.Source) }
   if ($candidates.Count -eq 0) { return $null }
-  # Prefer the highest version folder, falling back to newest on disk.
   $best = $candidates | Sort-Object `
     @{ Expression = { $v = $null; if ([version]::TryParse($_.Directory.Name, [ref]$v)) { $v } else { [version]'0.0.0' } }; Descending = $true }, `
     @{ Expression = { $_.LastWriteTime }; Descending = $true }
@@ -113,12 +132,15 @@ function Find-ClaudeExe {
 
 function Get-ClaudeExe {
   $exe = Find-ClaudeExe
-  if (-not $exe) {
-    Write-Log 'claude.exe not found on first look -- retrying in 10s in case the app is updating' 'WARN'
-    Start-Sleep -Seconds 10
+  $attempt = 0
+  while (-not $exe -and $attempt -lt 3) {
+    $attempt++
+    Write-Log "claude.exe not found (attempt $attempt of 4) -- retrying in 20s" 'WARN'
+    Start-Sleep -Seconds 20
     $exe = Find-ClaudeExe
   }
   if (-not $exe) {
+    Write-Log 'Install the standalone Claude Code CLI, or pass -ClaudeExe <path> / set CLAUDE_EXE.' 'ERROR'
     Write-Log "APPDATA=$env:APPDATA" 'ERROR'
     foreach ($root in @("$env:APPDATA\Claude\claude-code", "$env:LOCALAPPDATA\Claude\claude-code")) {
       if (Test-Path $root) {
