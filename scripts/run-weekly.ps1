@@ -118,14 +118,26 @@ function Find-ClaudeExe {
       "$env:APPDATA\npm\claude.cmd")) {
     if (Test-Path $p) { return (Get-Item $p).FullName }
   }
-  # 4. Last resort: the desktop app's private versioned folder.
+  # 4. Last resort: the desktop app's private versioned folder. The layout is not stable --
+  # it was <version>\claude.exe until early Oct 2026 and is now <version>\<hash>\claude.exe --
+  # so match either depth rather than assuming one.
   $candidates = @()
   foreach ($root in @("$env:APPDATA\Claude\claude-code", "$env:LOCALAPPDATA\Claude\claude-code")) {
-    $candidates += @(Get-ChildItem -Path (Join-Path $root '*\claude.exe') -File -ErrorAction SilentlyContinue)
+    foreach ($pattern in @('*\claude.exe', '*\*\claude.exe')) {
+      $candidates += @(Get-ChildItem -Path (Join-Path $root $pattern) -File -ErrorAction SilentlyContinue)
+    }
   }
   if ($candidates.Count -eq 0) { return $null }
+  # The version is the folder named like a version, which is the parent or the grandparent
+  # depending on the layout above.
   $best = $candidates | Sort-Object `
-    @{ Expression = { $v = $null; if ([version]::TryParse($_.Directory.Name, [ref]$v)) { $v } else { [version]'0.0.0' } }; Descending = $true }, `
+    @{ Expression = {
+        $v = $null
+        foreach ($name in @($_.Directory.Name, $_.Directory.Parent.Name)) {
+          if ($name -and [version]::TryParse($name, [ref]$v)) { return $v }
+        }
+        [version]'0.0.0'
+      }; Descending = $true }, `
     @{ Expression = { $_.LastWriteTime }; Descending = $true }
   return $best[0].FullName
 }
