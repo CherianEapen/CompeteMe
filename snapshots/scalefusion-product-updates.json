@@ -2,12 +2,21 @@
  "id": "scalefusion-product-updates",
  "vendor": "Scalefusion",
  "kind": "rss",
- "fetchedAt": "2026-09-28T04:30:07.951Z",
+ "fetchedAt": "2026-10-05T06:17:12.815Z",
  "meta": {
   "url": "https://blog.scalefusion.com/category/product-updates/feed/",
   "entries": 10
  },
  "items": [
+  {
+   "key": "https://blog.scalefusion.com/?p=42227",
+   "title": "Introducing Veltar Vulnerability Management: From vulnerability detection to remediation",
+   "date": "2026-09-29",
+   "url": "https://blog.scalefusion.com/introducing-veltar-vulnerability-management/",
+   "text": "A decade ago, we started Scalefusion with a simple idea: managing endpoints should be easier. Over the years, that idea has taken us from device management to a broader view of what it takes to secure and manage the modern endpoint.\nOver the last three years, we have been building on that foundation from the security side. With Veltar, we have brought capabilities such as web security, device trust, compliance, and secure access closer to the endpoint. Each of these has been about addressing a different part of the security equation while keeping the endpoint at the center.\nVulnerability management often sits outside endpoint management. Vulnerabilities are discovered by security tools, while the endpoints affected by them are managed by IT. Between identifying a vulnerability and actually fixing it, teams often have to work across different tools, agents, and workflows. That disconnect can make it harder to maintain context and move quickly from exposure to remediation.\nWhich is why we’re excited to announce Veltar Vulnerability Management: vulnerability detection and remediation powered by Scalefusion UEM.\nWith this release, we bring vulnerability detection, risk assessment, prioritization, and remediation together across Veltar and Scalefusion UEM. IT and SecOps teams can discover vulnerabilities across managed Windows and macOS endpoints, understand their real-world risk, prioritize what needs attention, and remediate them through UEM patching.\nIt brings the vulnerabilit…",
+   "hash": "888f495441b5bf78ddcd5f824adcb3a351816796cc3aa65d3bd443edeb10ff06",
+   "windows": "medium"
+  },
   {
    "key": "https://blog.scalefusion.com/?p=41184",
    "title": "Day Zero support for Apple: Scalefusion is ready for iOS 27, iPadOS 27, macOS 27 & tvOS 27",
@@ -88,15 +97,6 @@
    "text": "With iOS 26, iPadOS 26, and macOS 26, Apple delivers updates that redefine how organizations manage devices, protect data, and empower users. From enhanced restrictions to updates in OS patching and compliance, these releases mark another step forward in Apple’s enterprise ecosystem.\nAt Scalefusion, we’ve worked to ensure your devices are ready from day zero. Our latest updates equip IT teams to manage these changes seamlessly, minimizing disruption, strengthening compliance, and keeping your Apple fleet optimized from the moment the new OS goes live.\nScalefusion applications\nAll Scalefusion applications have been tested extensively on iOS 26, iPadOS 26, and macOS 26. Updates have been applied to guarantee smooth functionality, ensuring enterprises experience uninterrupted device and policy management.\nNew restrictions\nmacOS 26\nYou can now configure:\nAllow call recording – Decide whether call recording is enabled.\nAllow live voicemail – Manage access to live voicemail.\nAllow Safari history clearing – Manage whether browsing history can be cleared.\nAllow Safari private browsing – Restrict or allow private browsing in Safari.\niOS/iPadOS 26\nAdditional restrictions include:\nApp exception list for camera use – Specify apps exempt from the “Allow camera” restriction.\nAllow live voicemail – Manage use of live voicemail.\nAllow Safari history clearing – Decide whether users can clear Safari history.\nAllow Safari private browsing – Configure access to Safari’s private browsing.\nDenied…",
    "hash": "1c21bd8d3746d79b62695b9699a1ba487d4a1242f88e2b2b0f976e99c6257503",
    "windows": "none"
-  },
-  {
-   "key": "https://blog.scalefusion.com/?p=30199",
-   "title": "Introducing Veltar I/O Device Access Control for Windows",
-   "date": "2025-09-10",
-   "url": "https://blog.scalefusion.com/introducing-io-device-access-control-for-windows/",
-   "text": "Data loss through USB drives, printers, and other peripheral devices continues to be one of the most overlooked yet effective attack vectors inside enterprises. Despite advances in network and cloud security, sensitive information often leaves organizations through unmanaged endpoints, whether via intentional insider actions or accidental misuse. Regulatory compliance frameworks such as GDPR, HIPAA, and PCI-DSS also mandate strict control over removable media and device access, making this challenge both a security and compliance priority for IT teams. That’s why we built Veltar to ensure I/O device access control across platforms.\nToday, we are extending the same Veltar I/O Device Access Control for Windows, enabling IT administrators to enforce data protection policies at the most critical layer: the endpoint. By providing granular, scalable controls over storage and peripheral devices, this helps organizations prevent unauthorized data transfers before they happen.\nWhy this matters\nThe purpose behind building this feature is to strike the right balance between operational flexibility and uncompromising security. We understand that storage and peripheral devices are a proven weak link in enterprise security. A single unencrypted USB stick or unsanctioned Bluetooth connection can bypass sophisticated defenses and lead to costly data loss. With Veltar’s I/O Device Access Control, IT admins gain direct control over which devices can interact with corporate data — from USB dri…",
-   "hash": "e340369be4c144966c85a16d8fafa603934e7d8cdff47de67cf88f5fe24ec0b3",
-   "windows": "high"
   }
  ]
 }

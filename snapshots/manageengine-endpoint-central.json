@@ -2,13 +2,22 @@
  "id": "manageengine-endpoint-central",
  "vendor": "ManageEngine",
  "kind": "csv",
- "fetchedAt": "2026-09-28T04:30:08.856Z",
+ "fetchedAt": "2026-10-05T06:17:13.915Z",
  "meta": {
   "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
-  "rows": 4642,
+  "rows": 4643,
   "kept": 400
  },
  "items": [
+  {
+   "key": "11.5.2627.55|7c1ebe92e727",
+   "title": "11.5.2627.55 · BugFixes · DC:MSP:BSP",
+   "date": "2026-09-28",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed an issue with Firefox Extension Management.\nType: BugFixes; Products: DC:MSP:BSP",
+   "hash": "fe88b301599c3aea3f4ce1567d12743302d55bec4e4293d3b6c694f5d5c681f1",
+   "windows": "none"
+  },
   {
    "key": "11.5.2627.54|6389f8a6e670",
    "title": "11.5.2627.54 · BugFixes · DC:MSP:RAP:SS",
@@ -136,12 +145,12 @@
    "windows": "none"
   },
   {
-   "key": "11.5.2627.47|403b6ca25805",
+   "key": "11.5.2627.47|05bc73164599",
    "title": "11.5.2627.47 · BugFixes · DC:MSP",
-   "date": null,
+   "date": "2026-09-07",
    "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Minor enhancements have been made to the Query Reports modules to improve functionality\nType: BugFixes; Products: DC:MSP",
-   "hash": "aa5c36ae9c6ad1ede739cf4ee17f53d18b4a5c9a71e9d62a5c60c586f354eb12",
+   "text": "Minor enhancements have been made to the Query Reports modules to improve functionality, usability, and security.\nType: BugFixes; Products: DC:MSP",
+   "hash": "d5b82532ece4735b8d4bf677305e43ecd25bb0184a5c06b08962cb00628d2df9",
    "windows": "none"
   },
   {
@@ -154,12 +163,12 @@
    "windows": "none"
   },
   {
-   "key": "11.5.2627.46|554a4c14b6ce",
+   "key": "11.5.2627.46|5b6fc36920b3",
    "title": "11.5.2627.46 · BugFixes · DC:MSP",
-   "date": null,
+   "date": "2026-09-04",
    "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Minor enhancements have been made to the App Configurations\nType: BugFixes; Products: DC:MSP",
-   "hash": "6cf83ece949b4b79d278022b7f2193b4b6021fe162eeaed63662ba12060bedb7",
+   "text": "Minor enhancements have been made to the App Configurations, Query Reports, and Role-Based Access modules to improve functionality, usability, and security.\nType: BugFixes; Products: DC:MSP",
+   "hash": "126c15a747f06fd3e71db4cd27fe1a95fc4c6f6df06628de562ed88c60782b5a",
    "windows": "none"
   },
   {
@@ -487,21 +496,21 @@
    "windows": "medium"
   },
   {
-   "key": "11.5.2627.01|2ceb1ce7494b",
+   "key": "11.5.2627.01|2920d3e82db3",
    "title": "11.5.2627.01 · Enhancements · DC:MSP",
-   "date": null,
+   "date": "2026-06-24",
    "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Drive Mapping Configuration now supports custom credentials for SMB network drives\nType: Enhancements; Products: DC:MSP",
-   "hash": "3e5125325661620c65624e346efddc9b774d4f0e6033bc11d8e2e763fe70a0c7",
+   "text": "Drive Mapping Configuration now supports custom credentials for SMB network drives, with automatic remapping at user logon for persistent access.\nType: Enhancements; Products: DC:MSP",
+   "hash": "9645a74be39de3b1a37738820b8d374c0e8433e0d0eeb01b53fc651794eca07a",
    "windows": "none"
   },
   {
-   "key": "11.5.2627.01|f64bad619817",
+   "key": "11.5.2627.01|ed1f697db1b9",
    "title": "11.5.2627.01 · Enhancements · DC:MSP",
-   "date": null,
+   "date": "2026-06-24",
    "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Software installation alerts have been enhanced to include the software installed location\nType: Enhancements; Products: DC:MSP",
-   "hash": "67fecf616db6dc5454e640b43d20f6d2a837efca79d377662065760e83537cf4",
+   "text": "Software installation alerts have been enhanced to include the software installed location, providing better visibility into where software is installed on managed devices.\nType: Enhancements; Products: DC:MSP",
+   "hash": "0d667c0a9c454bc8b2ae34edce182e3df5eccdc4d21bdf672c6babef7a8342db",
    "windows": "none"
   },
   {
@@ -3589,15 +3598,6 @@
    "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
    "text": "Fixed an issue with scheduling reboots and shutdowns from Patch Management views.\nType: BugFixes; Products: DC:MSP",
    "hash": "414572032f5e153aac0c0abf1a713ed84aa5eedf6cd29a02fc918fe628939828",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.03|fcdcca56b010",
-   "title": "11.4.2528.03 · Features · DC",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "DEX Manager add-on is now generally available.\nType: Features; Products: DC",
-   "hash": "472fece9ceb9cad12d7a56f03bf27843bcec9f5fef8dd72acfd03af6307b611d",
    "windows": "none"
   }
  ]

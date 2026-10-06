@@ -2,12 +2,21 @@
  "id": "intune-blog",
  "vendor": "Microsoft Intune",
  "kind": "rss",
- "fetchedAt": "2026-09-28T04:30:04.466Z",
+ "fetchedAt": "2026-10-05T06:17:10.389Z",
  "meta": {
   "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftIntuneBlog",
   "entries": 20
  },
  "items": [
+  {
+   "key": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-september/ba-p/4537394",
+   "title": "What’s new in Microsoft Intune – September",
+   "date": "2026-09-29",
+   "url": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-september/ba-p/4537394",
+   "text": "Planning before the first devices receive updates is an important part of managing a rollout. IT admins must regularly decide which devices go first, how quickly a rollout expands, and where to pause when the signals change. The same need for control shows up during device setup and day-to-day troubleshooting.\nSeptember’s Intune updates help more government organizations use advanced management capabilities while giving IT teams greater control over change. Admins can stage app and policy rollouts to reduce deployment risk. From a consolidated view, they can investigate devices to resolve issues faster. From setup through retirement, they can streamline Windows and Android endpoint management.\nExtend additional advanced capabilities across government environments\nGovernment IT teams need to manage applications, certificates, and device support within their accredited cloud environments. This month, Intune Enterprise Application Management, Microsoft Cloud PKI, and Intune Remote Help will be available in the Government Community Cloud with high security requirements. Enterprise Application Management is also being offered to organizations of the Department of Defense (DoD).\nThis builds on the July availability of Intune Advanced Analytics and Endpoint Privilege Management, giving government admins more ways to assess device health, strengthen security, manage apps and certificates, and support endpoints through Intune. For an overview of all these capabilities and their avail…",
+   "hash": "877ed0475b650b62e0da831eea6cea39a61f6d8165c3aa8447ec06ea9ade6752",
+   "windows": "medium"
+  },
   {
    "key": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-august/ba-p/4537393",
    "title": "What’s new in Microsoft Intune – August",
@@ -177,15 +186,6 @@
    "url": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-december-2025/ba-p/4476486",
    "text": "Following Microsoft Ignite 2025, I caught up with colleagues and Intune MVPs who made the trip to San Francisco. There was a lot to talk about, but one conversation stood out: When I asked what surprised them most about this year for Microsoft Intune, the answer wasn't a single capability. It was witnessing busy IT admin work disappear by automating work that used to consume hours of admin time.\nMicrosoft Security Copilot agents in Intune exemplify that shift, but the introduction of additional agents doesn’t address other IT challenges. Throughout 2025, the Intune engineering team has shipped capabilities for cross-platform support, security, and more that has helped to remove many areas of friction from day-to-day operations. For a more complete story about what was delivered and what’s coming soon, watch the on-demand Microsoft Ignite presentation or read the What’s new in Microsoft Intune at Ignite blog.\nToday, I'll focus on several recent capabilities worth examining in detail from November and December.\nEmpowering IT by automating and enhancing workflows\nFor many of the customers I spoke with this year, context-switching drains productivity. Switching between multiple console nodes to manage security tasks, elevation requests, and admin approvals increases friction and the chance of missing something.\nThe new Admin tasks node under Tenant Administration in the Intune admin center consolidates this workflow into a single view. Now in public preview, this centralized loc…",
    "hash": "e3f50c372b4875b3afa32a8240b67126289912dbbbad3a1ab3aae3f5861bfbf6",
-   "windows": "none"
-  },
-  {
-   "key": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/microsoft-365-adds-advanced-microsoft-intune-solutions-at-scale/ba-p/4474272",
-   "title": "Microsoft 365 adds advanced Microsoft Intune solutions at scale",
-   "date": "2026-06-18",
-   "url": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/microsoft-365-adds-advanced-microsoft-intune-solutions-at-scale/ba-p/4474272",
-   "text": "Note: New capabilities will begin to roll out CY26 Q3. Customers will receive a 30‑day notice in Message Center before the update becomes available in their tenant.\nIn the last three years, Microsoft launched multiple endpoint management solutions with advanced capabilities that enable IT professionals to unify mission critical endpoint management functionality in one cost-effective plan with the Microsoft Intune Suite. These capabilities are essential to accelerate every organization’s journey towards Zero Trust security, improving end user productivity, and empowering IT and security professionals to improve total cost of ownership (TCO).\nToday, IT teams face new challenges, as device inventories grow larger, more diverse, and are much more widely distributed and dynamic than just a few years ago. At the same time, they are still expected to keep systems protected, compliant, and operational with limited budgets. To meet evolving security needs and growing demands, organizations need more advanced security and management tools capable of transforming IT operations in ways that can safeguard against AI-enhanced attack vectors and new risks while preserving productivity on every endpoint.\nTo help organizations make this transition, Microsoft is bringing powerful capabilities of the Microsoft Intune Suite to Microsoft 365 E3 and Microsoft 365 E5. By expanding these offerings, more customers can confidently embrace transformation and stay secure in the age of AI.\n“Intune Suite…",
-   "hash": "c32ecc9296afd34e766cef19779c239bbd0368a41373b5433a1162e671f44878",
    "windows": "none"
   }
  ]

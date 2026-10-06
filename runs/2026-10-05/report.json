@@ -1,0 +1,330 @@
+{
+  "title": "MobiControl Competitor Update — week ending 5 Oct 2026",
+  "periodStart": "2026-09-28",
+  "periodEnd": "2026-10-05",
+  "generatedAt": "2026-10-06",
+  "execSummary": [
+    "Three competitors moved into endpoint security functions in the same week: 42Gears shipped Just-In-Time local admin elevation for Windows, Scalefusion launched Veltar Vulnerability Management covering Windows OS and application vulnerabilities, and Hexnode added threat intelligence and automated remediation to its XDR. With Ivanti's Predictive Remediation and ManageEngine's Patch Reliability Score from earlier reports, five of the nine tracked vendors now sell security capability alongside device management.",
+    "42Gears' JIT Admin is the sharpest item: time-bound local administrator rights on Windows with an approval workflow and pre-approved app list, Enterprise tier only. Privilege elevation is a named requirement in Windows RFPs — Microsoft sells it as Endpoint Privilege Management — so this is a comparison MobiControl will be asked to answer.",
+    "Iru now supports Windows 11 26H2 for enrollment and as a Managed OS target version. Worth confirming MobiControl's own 26H2 readiness and how quickly we state support publicly, since that claim is being made in-market now.",
+    "42Gears also connected SureIdP to Microsoft Entra as an External Authentication Method, enforcing its own MFA and device-based access policies for Entra-protected applications. Last month it looked like a replacement identity provider; this positions it as an addition to the customer's existing Entra estate, which is a far easier sale.",
+    "Microsoft was quiet: no new weekly section, only an edit to the 28 Sep one, plus the routine monthly blog recap. Jamf, Miradore and Ivanti unchanged — Ivanti's Q4 page had not appeared by 5 Oct despite the quarter ending 30 Sep."
+  ],
+  "topSignals": [
+    {
+      "headline": "42Gears ships Just-In-Time local admin elevation for Windows",
+      "vendor": "42Gears",
+      "whyItMatters": "Time-bound admin rights with an approval workflow directly addresses the least-privilege requirement that appears in Windows security reviews. Microsoft charges for the equivalent via Endpoint Privilege Management, so a UEM competitor bundling it changes the comparison.",
+      "urgency": "respond"
+    },
+    {
+      "headline": "Iru declares support for Windows 11 26H2",
+      "vendor": "Iru",
+      "whyItMatters": "Enrollment support plus a Managed OS Library Item targeting 26H2. Speed of stated support for a new Windows feature release is visible to customers and easy to compare; our own 26H2 position should be known before a prospect asks.",
+      "urgency": "respond"
+    },
+    {
+      "headline": "Scalefusion launches Veltar Vulnerability Management across Windows and macOS",
+      "vendor": "Scalefusion",
+      "whyItMatters": "Continuous vulnerability scanning tied to patch remediation inside the same console. The third vendor in six weeks to fold vulnerability or patch intelligence into UEM, which is becoming the category's expansion direction.",
+      "urgency": "watch"
+    },
+    {
+      "headline": "42Gears SureIdP becomes an Entra External Authentication Method",
+      "vendor": "42Gears",
+      "whyItMatters": "Rather than replacing Entra, SureIdP now layers its MFA and device-based access policies onto Entra-protected apps with just-in-time user provisioning. A much lower-friction route into accounts that already run Entra.",
+      "urgency": "watch"
+    },
+    {
+      "headline": "Hexnode XDR gains threat intelligence, alert prioritisation and automated remediation",
+      "vendor": "Hexnode",
+      "whyItMatters": "First product news from Hexnode since 20 July, and it is security rather than device management — consistent with the category-wide shift.",
+      "urgency": "inform"
+    }
+  ],
+  "vendors": [
+    {
+      "vendor": "42Gears",
+      "summary": "The busiest vendor this week. No press releases, but the documentation shows a Windows privilege-elevation feature, continued SureIdP expansion, and a revised Windows kiosk profile. Twelve new pages are mostly Apple migration guides and Android account settings, which are not Windows-relevant.",
+      "items": [
+        {
+          "title": "SureMDM Just-In-Time (JIT) Admin for Windows",
+          "date": "2026-09-24",
+          "url": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/suremdm-jit/suremdm-jit-admin",
+          "platforms": [
+            "Windows"
+          ],
+          "windowsRelevance": "high",
+          "whatChanged": "Grants temporary, time-bound local administrator access on managed Windows devices to enforce least privilege, instead of permanent admin rights. Configured from Security > SureMDM JIT Admin > Windows, with optional email notification to administrators holding the Approve/Deny JIT Requests permission, a Pre-Approved Apps list, and Active and Scheduled Requests tabs. Documented as Enterprise tier only, requiring SureMDM Agent 6.10.0 or later. Disabling the feature can take up to 12 hours to revoke access unless entries are removed manually first.",
+          "soWhatForMobiControl": "Likely parity gap — verify. Removing standing local admin rights is a standard Windows hardening requirement, and the usual objection to doing it is that users then cannot install anything. A UEM-native elevation workflow answers that objection. If MobiControl has no equivalent, this is a feature competitors can raise in security-led evaluations; if it does, it is not currently positioned against this."
+        },
+        {
+          "title": "SureIdP as a Microsoft Entra External Authentication Method",
+          "date": "2026-09-24",
+          "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/applications/ms-entra-id-eam",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "windowsRelevance": "medium",
+          "whatChanged": "SureIdP can act as an External Authentication Method for Microsoft Entra ID: Entra remains the primary identity provider while SureIdP performs policy-based external authentication, enforcing its own MFA, device-based access controls and authentication policies for Entra-protected applications, with just-in-time user provisioning on first authentication. Requires Entra ID Premium P1 or P2 and SureAuth enabled on the devices.",
+          "soWhatForMobiControl": "Sharpens the competitive read from two weeks ago. SureIdP is no longer only a rip-and-replace identity play that most Entra customers would reject; it can be sold as device-aware MFA layered onto the identity stack they already have. That makes 42Gears' identity expansion materially more likely to land in enterprise accounts."
+        },
+        {
+          "title": "Windows kiosk profile documented on Microsoft Assigned Access",
+          "date": "2026-09-21",
+          "url": "https://docs.42gears.com/suremdm/windows-jobs-and-profiles/profiles-for-windows/kiosk-profile",
+          "platforms": [
+            "Windows"
+          ],
+          "windowsRelevance": "high",
+          "whatChanged": "The Windows Kiosk Profile is documented as supporting Single App and Multi App kiosk modes built on Microsoft Assigned Access, with control over user logon type including auto-logon, app execution, taskbar and Start menu layouts, and File Explorer restrictions.",
+          "soWhatForMobiControl": "Kiosk lockdown on Windows is core SOTI territory, so the detail matters: 42Gears is building on Microsoft Assigned Access rather than a proprietary shell. Worth knowing whether MobiControl's Windows kiosk differentiates on capability beyond Assigned Access, because that is the comparison a technical evaluator will make."
+        },
+        {
+          "title": "Autopilot dual-enrollment guidance revised",
+          "date": "2026-09-21",
+          "url": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-device-enrollment/autopilot-enrollment/deploying-suremdm-agent-dual-enrollment",
+          "platforms": [
+            "Windows"
+          ],
+          "windowsRelevance": "high",
+          "whatChanged": "Updated guidance that devices enrolling through Autopilot via SureMDM arrive as EMM-enrolled, and that dual enrollment — deploying the SureMDM agent on top — is recommended to get full Windows management functionality.",
+          "soWhatForMobiControl": "Confirms 42Gears' Windows depth still depends on its agent rather than MDM alone, the same architecture MobiControl uses. Useful context: the agent-versus-MDM-only argument is one both vendors make against Intune, not against each other."
+        }
+      ]
+    },
+    {
+      "vendor": "Scalefusion",
+      "summary": "Release of 25 Sep (Dashboard v68.0.0, Windows MDM Agent v17.1.6) led by a new product, announced on the blog the same week.",
+      "items": [
+        {
+          "title": "Veltar Vulnerability Management",
+          "date": "2026-09-30",
+          "url": "https://help.scalefusion.com/docs/scalefusion-september-25th-2026-release-notes",
+          "platforms": [
+            "Windows",
+            "macOS"
+          ],
+          "windowsRelevance": "high",
+          "whatChanged": "Continuously scans enrolled devices for vulnerabilities based on reported OS versions and applications, with an overview dashboard by application, OS or device. For Windows OS vulnerabilities where patch availability cannot be determined, administrators are redirected to the Update & Patch screen for self-remediation; for Windows application vulnerabilities, they are directed to a matching patch in Windows App Patches where one exists, and told when none is available. macOS paths are more automated, patching directly through macOS update management or the App Catalog. Offered as a feature flag.",
+          "soWhatForMobiControl": "Watch rather than match. Note the asymmetry Scalefusion itself documents: the Windows remediation path is largely a hand-off to the existing patch screen, while macOS is end to end. The announcement is stronger than the Windows implementation, which is useful if this appears in a competitive comparison. The strategic point stands — detection and remediation in one console is where the category is heading."
+        }
+      ]
+    },
+    {
+      "vendor": "Iru",
+      "summary": "Fifteen genuine updates this week, back to a Windows cadence after a quiet week. Also a batch of catalog additions (Auto Apps including Microsoft 365 Copilot and Parallels Desktop 27), an expanded Identity activity log, and several Apple items.",
+      "items": [
+        {
+          "title": "Windows 11 26H2 support, including a Managed OS target",
+          "date": "2026-10-02",
+          "url": "https://www.iru.com/updates/iru-now-supports-windows-11-26h2",
+          "platforms": [
+            "Windows"
+          ],
+          "windowsRelevance": "high",
+          "whatChanged": "Devices running Windows 11 26H2 can be enrolled, and a new Managed OS Library Item for 26H2 lets teams set it as the target version to keep devices on a consistent supported release.",
+          "soWhatForMobiControl": "Two questions, both answerable internally rather than from this report. First, is MobiControl Windows validated on 26H2, and is that stated anywhere a customer can find it? Second, can an administrator set a target Windows build and hold devices at it, which is the capability Iru is marketing here. Assumption flagged: I do not know MobiControl's current 26H2 status, so this is a prompt to check, not a claimed gap."
+        },
+        {
+          "title": "Iru Agent for Windows 1.23.7 and new Windows Auto Apps",
+          "date": "2026-10-02",
+          "url": "https://www.iru.com/updates/iru-agent-for-windows-release-1.23.7",
+          "platforms": [
+            "Windows"
+          ],
+          "windowsRelevance": "medium",
+          "whatChanged": "Agent release 1.23.7 with bug fixes and performance improvements, and additional Windows Auto Apps added to the catalog for all Iru Endpoint customers.",
+          "soWhatForMobiControl": "None individually. Cumulatively, Iru has now shipped Windows work in four of the five weeks covered by this report — the Windows push is sustained, not opportunistic."
+        }
+      ]
+    },
+    {
+      "vendor": "Hexnode",
+      "summary": "First product news since 20 July, delivered through the blog rather than the What's new page, which remains unchanged.",
+      "items": [
+        {
+          "title": "Hexnode XDR adds threat intelligence, alert prioritisation and automated remediation",
+          "date": "2026-09-30",
+          "url": "https://www.hexnode.com/blogs/hexnode-xdr-adds-threat-intelligence-alert-prioritization-and-automated-remediation/",
+          "platforms": [
+            "Windows",
+            "macOS"
+          ],
+          "windowsRelevance": "medium",
+          "whatChanged": "Threat intelligence, prioritisation of alerts and automated remediation added to Hexnode XDR, which covers Windows and macOS endpoints.",
+          "soWhatForMobiControl": "Confirms the September reading that Hexnode's investment is going into security and MSP rather than core device management. For MobiControl the relevant question is not XDR parity but whether buyers start requiring UEM and endpoint security from one vendor."
+        },
+        {
+          "title": "Continued MSP and comparison content",
+          "date": "2026-10-01",
+          "url": "https://www.hexnode.com/blogs/5-real-world-wildcard-policy-examples-in-hexnode/",
+          "platforms": [
+            "Windows",
+            "Android",
+            "Linux",
+            "macOS"
+          ],
+          "windowsRelevance": "low",
+          "whatChanged": "Three further posts: wildcard policy examples, iOS workflow automation, and a digital signage hardware comparison across Android, Windows, Linux and Apple platforms.",
+          "soWhatForMobiControl": "The digital signage piece is worth noting only because signage and kiosk are adjacent to SOTI's strongholds, and comparison content of this kind is usually written to capture evaluation-stage search traffic."
+        }
+      ]
+    },
+    {
+      "vendor": "JumpCloud",
+      "summary": "Two entries, both mostly identity. One touches managed Windows devices.",
+      "items": [
+        {
+          "title": "Automatic device registration for JumpCloud Go",
+          "date": "2026-09-30",
+          "url": "https://jumpcloud.com/support/release-notes-2026#september-30th-2026",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "windowsRelevance": "medium",
+          "whatChanged": "Managed Windows, macOS and Linux devices bound to a user now register for JumpCloud Go automatically after user sign-in, removing manual browser registration prompts. Administrators can control eligibility with device exclusion groups, with fallback to manual registration. The same entry adds a Custom Banned Password List and user-created folders in the User Portal.",
+          "soWhatForMobiControl": "None directly — this is identity enrollment friction, not device management. Noted because it shows JumpCloud using device management as the delivery mechanism for identity, the mirror image of 42Gears using identity to extend device management."
+        }
+      ]
+    },
+    {
+      "vendor": "Microsoft Intune",
+      "summary": "No new weekly section this week; the Week of 28 Sep section was edited after publication, with the Android eSIM bulk-management item removed. The monthly blog recap covers ground already reported.",
+      "items": [
+        {
+          "title": "September monthly recap; Android eSIM item withdrawn",
+          "date": "2026-09-29",
+          "url": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-september/ba-p/4537394",
+          "platforms": [
+            "Windows",
+            "Android",
+            "iOS",
+            "macOS"
+          ],
+          "windowsRelevance": "low",
+          "whatChanged": "The September recap highlights deployment plans for staged rollout and the extension of Enterprise Application Management, Cloud PKI and Remote Help into government cloud environments, building on Advanced Analytics and Endpoint Privilege Management in July. Separately, the bulk eSIM management item for corporate-owned Android Enterprise devices was removed from the Week of 28 Sep release notes after publication.",
+          "soWhatForMobiControl": "No new capability. The withdrawn eSIM item is worth remembering only as a caution: Intune release notes are edited after the fact, so a feature seen one week may be pulled the next. Microsoft's Endpoint Privilege Management being called out alongside 42Gears' new JIT Admin underlines that privilege elevation is now an expected UEM capability."
+        }
+      ]
+    },
+    {
+      "vendor": "ManageEngine",
+      "summary": "Five minor rows, no features.",
+      "items": [
+        {
+          "title": "Drive mapping credentials and software install-location reporting",
+          "date": "2026-06-24",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "platforms": [
+            "Windows"
+          ],
+          "windowsRelevance": "low",
+          "whatChanged": "Drive Mapping Configuration supports custom credentials for SMB network drives with automatic remapping at user logon, and software installation alerts now include the install location. Plus fixes to Firefox extension management, query reports and role-based access.",
+          "soWhatForMobiControl": "None. Routine maintenance in the 11.5.2627 service pack already covered last week."
+        }
+      ]
+    }
+  ],
+  "crossPlatformSignals": [
+    {
+      "vendor": "Iru",
+      "signal": "Shipped a dynamic timeline view for Apple Managed OS showing when an update will be enforced and to which version, plus Safari extension management and new Siri and Apple Intelligence restrictions.",
+      "implication": "The timeline view is the interesting one: making update enforcement dates visible rather than inferred. That is a usability idea that applies equally to Windows update rings."
+    },
+    {
+      "vendor": "JumpCloud",
+      "signal": "Added App Settings Privacy policies for Apple MDM, recommending privacy permission defaults so users see a consolidated consent prompt — the same pattern Iru shipped for iPhone and iPad the week before.",
+      "implication": "Two vendors independently shipping consolidated privacy consent in two weeks suggests Apple's permission prompts are a recognised friction point being competed on."
+    },
+    {
+      "vendor": "42Gears",
+      "signal": "Published a set of Apple migration guides covering ADE server assignment and iOS and macOS device migration.",
+      "implication": "Migration tooling is written to take devices from an incumbent. Worth knowing whether comparable guides exist aimed at MobiControl."
+    },
+    {
+      "vendor": "Ivanti",
+      "signal": "No Q4 2026 release page as of 5 Oct, although Q3 ended on 30 September.",
+      "implication": "Ivanti publishes quarterly, so the next substantive Ivanti entry is pending rather than absent. Expect it within the next few weeks."
+    }
+  ],
+  "noChange": [
+    "Jamf",
+    "Miradore"
+  ],
+  "sourceStatus": [
+    {
+      "source": "intune-whats-new",
+      "status": "ok",
+      "note": "No new section; the Week of 28 Sep section was edited and one Android item removed"
+    },
+    {
+      "source": "intune-blog",
+      "status": "ok",
+      "note": "1 new post, the September monthly recap"
+    },
+    {
+      "source": "iru-updates",
+      "status": "ok",
+      "note": "Reported 49 new and 49 removed, but this is an artefact: Iru changed its URL scheme (for example /updates/whats-new-in-iru-september-25th became /updates/whats-new-in-iru/2026/10/02), so every item re-keyed at once. Filtering by publication date gives 15 genuinely new items, which is what this report covers"
+    },
+    {
+      "source": "hexnode-whats-new",
+      "status": "no-change",
+      "note": "newest item still 20 Jul 2026"
+    },
+    {
+      "source": "hexnode-blog",
+      "status": "ok",
+      "note": "4 new posts, one of them genuine product news"
+    },
+    {
+      "source": "miradore-releases",
+      "status": "no-change"
+    },
+    {
+      "source": "42gears-press",
+      "status": "no-change"
+    },
+    {
+      "source": "42gears-docs",
+      "status": "ok",
+      "note": "12 new and 15 changed; the Windows-relevant changes are JIT Admin, SureIdP EAM, the kiosk profile and Autopilot dual enrollment"
+    },
+    {
+      "source": "jamf-pro-release-notes",
+      "status": "no-change",
+      "note": "still Jamf Pro 11.32.1"
+    },
+    {
+      "source": "scalefusion-release-notes",
+      "status": "ok",
+      "note": "1 new release (25 Sep, Dashboard v68.0.0)"
+    },
+    {
+      "source": "scalefusion-product-updates",
+      "status": "ok",
+      "note": "1 new post announcing Veltar Vulnerability Management"
+    },
+    {
+      "source": "ivanti-quarterly-releases",
+      "status": "no-change",
+      "note": "Q4 2026 page not yet published despite the quarter ending 30 Sep"
+    },
+    {
+      "source": "jumpcloud-release-notes",
+      "status": "ok",
+      "note": "2 new entries"
+    },
+    {
+      "source": "manageengine-endpoint-central",
+      "status": "ok",
+      "note": "5 new rows, no features"
+    }
+  ],
+  "methodology": "Fourteen sources fetched by the scheduled run on 5 Oct 2026 and compared against the 28 Sep snapshots; all were reachable and none errored. One data caveat materially affects the counts: Iru changed its release-note URL scheme during the week, so all fifty items re-keyed and the fetcher reported 49 new and 49 removed. Those were filtered by publication date to the 15 entries actually published since 28 Sep, and only those are analysed here; the same filtering means no Iru item is double-reported from previous weeks. 42Gears publishes no release notes, so its documentation changes are the release signal and are described as documented rather than announced. As in the three previous weeks the scheduled run completed its fetch but could not run the analysis step, so this report was written in-session from that run's preserved diff; the underlying data is the scheduled run's, unmodified."
+}

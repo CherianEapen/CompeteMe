@@ -2,11 +2,11 @@
  "id": "42gears-docs",
  "vendor": "42Gears",
  "kind": "sitemap",
- "fetchedAt": "2026-09-28T04:30:08.779Z",
+ "fetchedAt": "2026-10-05T06:17:15.674Z",
  "meta": {
-  "urls": 931,
-  "fetched": 8,
-  "fetchCandidates": 8
+  "urls": 934,
+  "fetched": 12,
+  "fetchCandidates": 12
  },
  "items": [
   {
@@ -309,10 +309,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/remote-support-management/remote-support-on-android-devices",
    "title": "remote support on android devices",
-   "date": "2026-09-03",
+   "date": "2026-09-29",
    "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/remote-support-management/remote-support-on-android-devices",
    "text": "",
-   "hash": "d7845c9b6df12a2d24da2c31deda36166aeb38dcc70b1c3301ca76418e7f86fa",
+   "hash": "47469d95eb5a869b8769f281dd8173ea7658f91d9ed4b6cbcb57a879a1b83d4b",
    "windows": "none"
   },
   {
@@ -1281,10 +1281,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/chrome-manage/chromebook-manage/chromebook-management",
    "title": "chromebook management",
-   "date": "2025-10-05",
+   "date": "2026-09-29",
    "url": "https://docs.42gears.com/suremdm/chrome-manage/chromebook-manage/chromebook-management",
    "text": "",
-   "hash": "4d315be39e1e5329c7b2c41ebdb394104c3b94183fe1f115eaad240643f1ba95",
+   "hash": "787fe47b14c0ccc2b41840be94a132cb40e66755d5fd5d233961f0c9d80cba50",
    "windows": "none"
   },
   {
@@ -1731,10 +1731,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/integrations/integration-guides/bitdefender-management",
    "title": "bitdefender management",
-   "date": "2026-09-11",
+   "date": "2026-09-21",
    "url": "https://docs.42gears.com/suremdm/integrations/integration-guides/bitdefender-management",
    "text": "",
-   "hash": "ba2d20c97271400fac741e122f52379484b42a9c2b2c736b170b6758b73a9abc",
+   "hash": "19c3f65de96387cd93d7f3ebf35cc42b5b7a546e144aeada935a4eed4043590c",
    "windows": "none"
   },
   {
@@ -3268,12 +3268,12 @@
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/license-management/license-manage/license-managements",
-   "title": "license managements",
-   "date": "2026-05-19",
-   "url": "https://docs.42gears.com/suremdm/license-management/license-manage/license-managements",
+   "key": "https://docs.42gears.com/suremdm/license-management/license-management/license-details/overview",
+   "title": "overview",
+   "date": "2026-09-24",
+   "url": "https://docs.42gears.com/suremdm/license-management/license-management/license-details/overview",
    "text": "",
-   "hash": "1251485eb34bc0aae156f51e22101b237015a52e218f7d040c90b6c93c7c9a89",
+   "hash": "24368af49a570206d55e577687f9736962b43061a9e3f77f1f8a4da5743c1744",
    "windows": "none"
   },
   {
@@ -3639,10 +3639,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/linux-jobs-and-profiles/linux-jobs-profiles/profiles-for-linux/configure-sureaccess",
    "title": "configure sureaccess",
-   "date": "2026-09-18",
+   "date": "2026-09-21",
    "url": "https://docs.42gears.com/suremdm/linux-jobs-and-profiles/linux-jobs-profiles/profiles-for-linux/configure-sureaccess",
    "text": "",
-   "hash": "d56c1add2b7e348171a2cf985a1372c48c6394803942141ada1ae3551480c12c",
+   "hash": "2b3a3392d06a3b01e7a31d84fa281a18b4040ea1438de09d9c7e76f0818b5222",
    "windows": "none"
   },
   {
@@ -4726,39 +4726,39 @@
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/migration-to-suremdm/migration-to-suremdm/migrate/assign-devices",
-   "title": "assign devices",
-   "date": "2026-06-04",
-   "url": "https://docs.42gears.com/suremdm/migration-to-suremdm/migration-to-suremdm/migrate/assign-devices",
+   "key": "https://docs.42gears.com/suremdm/migration-to-suremdm/apple-migration/guides/assign-devices-to-ade-server",
+   "title": "assign devices to ade server",
+   "date": "2026-09-29",
+   "url": "https://docs.42gears.com/suremdm/migration-to-suremdm/apple-migration/guides/assign-devices-to-ade-server",
    "text": "",
-   "hash": "3c811aa252bc0027bc5ce8d061f799bb40bb9ffe731ccf38c99655d9fdee0ef4",
+   "hash": "62553921d30a625eff0a3a856d3fc9c85d8f7b187aede739e75b9611713fa407",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/migration-to-suremdm/migration-to-suremdm/migrate/ios-device-migration",
+   "key": "https://docs.42gears.com/suremdm/migration-to-suremdm/apple-migration/guides/ios-device-migration",
    "title": "ios device migration",
-   "date": "2026-06-04",
-   "url": "https://docs.42gears.com/suremdm/migration-to-suremdm/migration-to-suremdm/migrate/ios-device-migration",
+   "date": "2026-09-29",
+   "url": "https://docs.42gears.com/suremdm/migration-to-suremdm/apple-migration/guides/ios-device-migration",
    "text": "",
-   "hash": "99f13a883549a4a65bb4af45d62f2c1507d002f47e4ce86b3119c232ae980837",
+   "hash": "7579128039672df2f4208cc3ce0e5445d6bb1d791b0b97a07cb3dd2165059e3d",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/migration-to-suremdm/migration-to-suremdm/migrate/macos-device-migration",
+   "key": "https://docs.42gears.com/suremdm/migration-to-suremdm/apple-migration/guides/macos-device-migration",
    "title": "macos device migration",
-   "date": "2026-06-04",
-   "url": "https://docs.42gears.com/suremdm/migration-to-suremdm/migration-to-suremdm/migrate/macos-device-migration",
+   "date": "2026-09-29",
+   "url": "https://docs.42gears.com/suremdm/migration-to-suremdm/apple-migration/guides/macos-device-migration",
    "text": "",
-   "hash": "638f8b0c3577ec4edf7fe4ae7f15aa6acba5945e06286c8ec714d50e8528d59d",
+   "hash": "ab054cb13805a45f2a1569bdcecb18d183adb2f1edd183ac1ceb5de4334595a5",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/migration-to-suremdm/migration-to-suremdm/migration",
-   "title": "migration",
-   "date": "2026-06-04",
-   "url": "https://docs.42gears.com/suremdm/migration-to-suremdm/migration-to-suremdm/migration",
+   "key": "https://docs.42gears.com/suremdm/migration-to-suremdm/apple-migration/overview",
+   "title": "overview",
+   "date": "2026-09-29",
+   "url": "https://docs.42gears.com/suremdm/migration-to-suremdm/apple-migration/overview",
    "text": "",
-   "hash": "0800f22f995f0cf8e7659cd3005b4b87ffd22eb380fdec227f2f606322ef30cc",
+   "hash": "3319a10c994a974aa260f485c5ef03d0cce06b694593f4fdf6d9d388b66891fa",
    "windows": "none"
   },
   {
@@ -5059,21 +5059,21 @@
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/quick-help/quick-help-options/communication",
+   "key": "https://docs.42gears.com/suremdm/quick-help/options/communication",
    "title": "communication",
-   "date": "2026-09-18",
-   "url": "https://docs.42gears.com/suremdm/quick-help/quick-help-options/communication",
+   "date": "2026-09-29",
+   "url": "https://docs.42gears.com/suremdm/quick-help/options/communication",
    "text": "",
-   "hash": "1627d0ac18a1a6a3044c20942cc4a5baf46a6ddf72e9ad13a2f137a46691d720",
+   "hash": "88273edf85c1d414dc302c8c8551ed4e5f8287abae5436fcfe2ddcda484256df",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/quick-help/quick-help-options/quick-help-opt",
-   "title": "quick help opt",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/quick-help/quick-help-options/quick-help-opt",
+   "key": "https://docs.42gears.com/suremdm/quick-help/options/overview",
+   "title": "overview",
+   "date": "2026-09-29",
+   "url": "https://docs.42gears.com/suremdm/quick-help/options/overview",
    "text": "",
-   "hash": "88c3ba28e55041c665facff964de26f3d73d20241435b7d96e7d24c0cdf3dfbc",
+   "hash": "3319a10c994a974aa260f485c5ef03d0cce06b694593f4fdf6d9d388b66891fa",
    "windows": "none"
   },
   {
@@ -5266,12 +5266,39 @@
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/android-management",
+   "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/android-management/",
    "title": "android management",
-   "date": "2026-09-17",
-   "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/android-management",
+   "date": "2026-09-29",
+   "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/android-management/",
    "text": "",
-   "hash": "b1294e5561a557d1309dc87da7438f861967854c4114f4badcb9b6a41efa7497",
+   "hash": "ad65909327859bab08e8b619849df3e121e50ec415faa51fe1c413fca6c9eed3",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/android-management/agent-bridge-trusted-apps",
+   "title": "agent bridge trusted apps",
+   "date": "2026-09-29",
+   "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/android-management/agent-bridge-trusted-apps",
+   "text": "",
+   "hash": "11f8702e1eb88ba55d831d5f5e2d75fd8d16ec393db1ba20700b3077e9ebb125",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/android-management/android-enterprise-enrollment",
+   "title": "android enterprise enrollment",
+   "date": "2026-09-29",
+   "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/android-management/android-enterprise-enrollment",
+   "text": "Android Enterprise Enrollment\nIn this section, you can easily enroll your SureMDM account into the Android Enterprise. Click here for more information.",
+   "hash": "d16d348f8fd4b52f180d3a73713eeed75ede00b3ea675be02a63db6c3f011fa6",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/android-management/miscellaneous-settings",
+   "title": "miscellaneous settings",
+   "date": "2026-09-29",
+   "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/android-management/miscellaneous-settings",
+   "text": "",
+   "hash": "d317ed2dd7e4f42225fd723cbab6247cfd86977ec869fe6acfa49343c8718152",
    "windows": "none"
   },
   {
@@ -5448,11 +5475,11 @@
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/applications/ms-entra-id-eam",
    "title": "ms entra id eam",
-   "date": "2026-09-03",
+   "date": "2026-09-24",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/applications/ms-entra-id-eam",
-   "text": "",
-   "hash": "1133188451a3236cc6ec8a2b098180abcb79b6f48a6b964ce54c6da248a05b6f",
-   "windows": "none"
+   "text": "Microsoft Entra External Authentication Method (EAM) allows organizations to use SureIdP to perform additional authentication and enforce SureIdP authentication policies while Microsoft Entra ID remains the primary identity provider.\nUse case\nSureIdP EAM enables organizations to enforce SureIdP MFA, device-based access controls, and authentication policies for Microsoft Entra–protected applications without requiring password synchronization or password resets. Microsoft Entra ID manages primary authentication, while SureIdP performs policy-based external authentication and JIT user provisioning.\nPrerequisites\nBefore configuring SureIdP EAM, ensure that:\nYou must have an active Microsoft Entra ID Premium P1 or P2 license, or another eligible Microsoft license that includes the required External Authentication Methods and Conditional Access capabilities, for the users who will use EAM.\nYou have a Microsoft Entra administrator account with the required permissions to grant organization-wide admin consent and configure authentication methods.\nYou have administrator access to the SureMDM Console and SureIdP.\nThe users who will use SureIdP EAM already exist in Microsoft Entra ID.\nThe required user domains are already configured in SureIdP if Just-in-Time (JIT) Provisioning is enabled. Users are created in SureIdP during their first successful EAM authentication.\nIf JIT Provisioning is disabled, users must be available in SureIdP before accessing applications through EAM. Users can be added to SureIdP through Microsoft Entra ID user synchronization, CSV import, or manual user creation.\nSureAuth must be enabled on the required devices for EAM to work.\nNavigate to SureMDM → Profiles → SureIdP (OS Login) → Application SSO and select Enable SureAuth - Authenticator App. Save the profile and apply it to the required devices.\nYou have identified the users, groups, and Microsoft Entra resources to which the EAM method and Conditional Access policy will be assigned.\nYou have planned and configured the SureIdP Authentication Policy that will be applied during EAM authentication.\nThe supported SureMDM Agent versions are:\nWindows: 6.31.0 and above\nLinux: 7.19.14 and above\nnote\nSureIdP EAM is used as an external authentication method and does not replace Microsoft Entra ID as the primary identity provider.\nStep 1: Create a Microsoft Entra ID EAM application in SureIdP\nSign in to the SureMDM Console.\nNavigate to Settings > Account Settings > Identity & Access Management > SureIdP > Applications\nClick + Add Application.\nSelect OIDC as the application protocol.\nSelect the Microsoft Entra ID – EAM application.\nClick Next.\nThe Add Application (OIDC - Microsoft Entra ID – EAM) configuration page is displayed.\nStep 2: Configure the SureIdP EAM application\nEnter a unique Application Name.\nEnter a Description for the application.\nUnder Access Rules & Authentication, select the required Authentication Policy.\nThe selected Authentication Policy determines the authentication requirements that SureIdP applies when users are redirected from Microsoft Entra ID.\n⚠ IMPORTANT\nAuthentication Policies that redirect users to the same Microsoft Entra tenant cannot be selected, as they could create an authentication loop and prevent users from signing in.\nUnder Microsoft Entra ID Configuration, note the following read-only values:\nClient ID\nApplication ID\nDiscovery Endpoint\nThese values are generated by SureIdP and are required when configuring the External Authentication Method in Microsoft Entra ID.\nStep 3: Grant Microsoft Entra permissions to SureIdP\nIn the Microsoft Entra ID Configuration section, click Grant Permission.\nYou are redirected to the Microsoft sign-in page.\nSign in using a Microsoft Entra administrator account.\nReview the requested permissions.\nSelect Consent on behalf of your organization, if prompted.\nClick Accept.\nAfter the required permissions are granted, you are redirected back to SureIdP.\nSureIdP automatically retrieves the Microsoft Entra ten…",
+   "hash": "500c810e805f604e6b4ab70b4b2184df12db1396e1dd5a09ee7e7341280d27d2",
+   "windows": "medium"
   },
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/applications/ms-entra-integration",
@@ -5502,10 +5529,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/configuring-sureidp/organizational-settings",
    "title": "organizational settings",
-   "date": "2025-10-05",
+   "date": "2026-09-24",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/configuring-sureidp/organizational-settings",
-   "text": "",
-   "hash": "56b2a5e48a6df968f44ec4868c63012f734e5d81879a3c0f6122c4f8bc35bb79",
+   "text": "Use this option to configure Branding and Certificate authority for SureIdP configuration:\nBranding Configuration\nThis section allows you to customize the organization's branding. The configured branding will be applied globally to the SureIdP authentication page, visible to all users across all associated domains during their login experience.\nLogo – Upload a logo to prominently display your organization's branding on the login screen. Max Dimensions: 300 x 300, Supported file types: .png, .jpeg, .jpg.\nWelcome Message – Used to add a personalized welcome message for users, such as instructions or greetings.\nUsername Label – Used to add a personalized username label that users can relate to.\nPassword Label – Used to add a personalized password label that users can relate to.\nTrusted Root CA Section:\nThis section allows you to upload your own Trusted Root Certificate Authority (CA), which will be used to validate user certificates during application authentication.\nUpload Trusted Root Certificate Chain – Upload a valid certificate chain file (.pem, .cer, .crt) to establish trust for validating issued user certificates\nnote\nSureMDM CA will be used as the default Certificate Authority if no Trusted Root Certificate is uploaded.\nThis step is optional and only required if you wish to use your own CA instead of the default SureMDM CA.\nAfter providing the required details, click Save.",
+   "hash": "a5023bc8b47107b01643c75aa3bcedea8618f04f1d371f6bdf25312ff79577e9",
    "windows": "none"
   },
   {
@@ -5556,10 +5583,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/identity-providers/directory-integrations/microsoft-active-directory-ldap/",
    "title": "microsoft active directory ldap",
-   "date": "2026-09-11",
+   "date": "2026-09-24",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/identity-providers/directory-integrations/microsoft-active-directory-ldap/",
-   "text": "",
-   "hash": "93e7bcc400c10b8176eaae0cbe49248e851970297edb8115c96ecc40a25c8003",
+   "text": "Microsoft Active Directory LDAP\nMicrosoft Active Directory (AD) can be integrated with SureIdP using LDAP through the SureMDM AD Connector. This integration allows SureIdP to retrieve and synchronize users and groups from an organization's on-premises Active Directory.\nFor supported configurations, synchronized users can authenticate to SureIdP-enabled services using their Active Directory credentials. The integration also supports Pass-through Authentication (PTA) and Password Hash Authentication.\nPassword changes made through SureIdP can also be synchronized back to Active Directory for users synchronized through the configured on-premises AD integration.\nOverview\nThe Microsoft Active Directory integration uses the SureMDM AD Connector to establish communication between SureMDM/SureIdP and the organization's on-premises Active Directory.\nThe AD Connector runs within the customer's network and communicates with the Active Directory server. It provides the connectivity required to retrieve directory information and perform supported authentication and password-related operations.\nThe integration supports the following capabilities:\nSynchronize Active Directory users with SureIdP.\nAuthenticate users using Pass-through Authentication (PTA).\nUse Password Hash Authentication as a fallback when configured.\nSynchronize supported password changes from SureIdP back to Active Directory.\nnote\nThe capabilities available depend on the AD Connector version and the options enabled in the AD Integration and AD Connector configurations.\nPrerequisites\nBefore configuring Microsoft Active Directory LDAP, ensure that the following requirements are met:\nAn on-premises Active Directory server is available and reachable by the AD Connector.\nLDAP or LDAPS connectivity is available between the AD Connector and Active Directory.\nThe required SureIdP domain is added and verified.\nAn Active Directory service account with the permissions required for the configured synchronization and password operations is available.\nThe AD Connector is active and can communicate with the SureMDM server.\nIf Password Hash Authentication is required, Sync Password Hash is enabled in the AD Connector.\nConfigure Microsoft Active Directory LDAP\nStep 1: Add Microsoft Active Directory\nSign in to the SureMDM Console.\nNavigate to Account Settings → Identity & Access Management → SureIdP → Identity Providers.\nClick + Add.\nSelect the Microsoft Active Directory tile, and click Next.\nAlternatively, you can navigate directly to the AD Integration settings in SureMDM:\nAccount Settings → Enterprise Integrations → AD Integration\nStep 2: Enable AD Integration\nIn the AD Integration settings, click Enable AD Integration option.\nConfigure the required Active Directory settings under this section.\nStep 3: Enable User Synchronization to SureIdP\nIn the AD Integration page, navigate to the SureIdP Settings section.\nEnable Sync AD Users to SureIdP.\nEnsure the required SureIdP domain is already configured.\nimportant\nAfter enabling AD Integration, make sure Sync AD Users to SureIdP is enabled in the SureIdP Settings before starting the AD user synchronization.\nnote\nIf Sync AD Users to SureIdP is enabled after the AD Integration and user synchronization have already been configured, the AD users may not be populated in SureIdP. Enable this setting during the initial AD Integration setup to ensure users are synchronized to SureIdP.\nThe AD Connector must be active for user synchronization.\nStep 4: Configure Authentication Behavior\nUnder SureIdP Settings, configure:\nAllow Automatic Fallback to Password Hash Authentication\nWhen enabled, the authentication behavior is:\nPass-through Authentication (PTA) is the default authentication method for supported AD Connector versions v1.3.61 or later.\nSureIdP attempts PTA first when the authentication methods are available.\nIf PTA cannot be performed because the AD Connector or Active Directory is unavailable, SureIdP can fall back to Password Hash Authentication…",
+   "hash": "e360340cf0e32dc4c58be14244c1e6c43c774000f99f064bcd912ad162996f60",
    "windows": "none"
   },
   {
@@ -5574,20 +5601,20 @@
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/identity-providers/external-identity-providers/microsoft-entra-id/",
    "title": "microsoft entra id",
-   "date": "2026-09-08",
+   "date": "2026-09-24",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/identity-providers/external-identity-providers/microsoft-entra-id/",
-   "text": "",
-   "hash": "b2aa2cb8bffb411a73b5bd7a306e5f4bce314569944840e7e66e867e12cbd699",
+   "text": "Microsoft Entra ID as an External Identity Provider\nMicrosoft Entra ID can be configured as an External Identity Provider (IdP) in SureIdP. This allows organizations to use Microsoft Entra ID to authenticate users while SureIdP manages the authentication policy and access flow for applications and supported SureIdP features.\nSureIdP acts as the SAML Service Provider (SP), while Microsoft Entra ID acts as the Identity Provider (IdP). When a user authenticates through this configuration, SureIdP redirects the user to Microsoft Entra ID for authentication. After successful authentication, Microsoft Entra sends a SAML response containing a SAML assertion. SureIdP validates the assertion, identifies the user, and applies the applicable SureIdP authentication and access policies.\nThis integration allows organizations to:\nUse Microsoft Entra ID to authenticate users.\nApply SureIdP Authentication Policies after External IdP authentication.\nEnforce applicable SureIdP authentication and access controls.\nUse Microsoft Entra authentication in supported Shared Device Mode authentication flows.\nAutomatically create SureIdP users through Just-in-Time (JIT) provisioning.\nSureIdP supports Microsoft Entra ID as an External Identity Provider using SAML 2.0.\nPrerequisites\nBefore configuring Microsoft Entra ID as an External Identity Provider, ensure that the following requirements are met:\nYou have administrator access to the Microsoft Entra admin center with sufficient permissions to create and configure Enterprise Applications and SAML-based single sign-on.\nThe users who need to authenticate are available in Microsoft Entra ID.\nThe required domain is added and verified in SureIdP if JIT Provisioning is enabled.\nThe target application or service is configured to use a SureIdP Authentication Policy.\nIf JIT Provisioning is disabled, the required users should exist in SureIdP.\nimportant\nAvoid configuring an authentication flow in which the Microsoft Entra application redirects authentication back to SureIdP while the same SureIdP authentication flow redirects the user to that Microsoft Entra application. Such a circular configuration can result in an authentication loop.\nConfigure Microsoft Entra as an External Identity Provider\nStep 1: Add Microsoft Entra as an External Identity Provider\nIn the SureMDM Web Console, navigate to:\nAccount Settings → Identity & Access Management → SureIdP → Identity Providers → External Identity Providers\nClick + Add, select Microsoft Entra (SAML 2.0) and click Next.\nStep 2: Configure Provider Details\nThe Provider Information page is displayed.\nEnter the following:\nProvider Name\nEnter a unique name to identify the Microsoft Entra Identity Provider.\nFor example: Microsoft Entra\nThe provider name is displayed in the External Identity Providers list and when selecting an Authentication Provider in an Authentication Policy.\nDescription\nEnter a description for the External Identity Provider.\nFor example: Microsoft Entra SAML Identity Provider\nClick Next.\nStep 3: Configure SAML Settings\nThe SAML Configuration page contains two sections:\nSureIdP – Service Provider Details\nEntra – Identity Provider Details.\nSureIdP – Service Provider Details\nSureIdP provides the SAML information that must be configured in the Microsoft Entra Enterprise Application.\nOption 1: Download Metadata\nClick Download Metadata to download the SureIdP SAML metadata file.\nThe metadata contains the Service Provider information required to configure SAML in Microsoft Entra.\nYou can use this option to simplify the configuration where supported.\nOption 2: Configure Manually\nAlternatively, configure the Microsoft Entra SAML settings manually using the values displayed in SureIdP.\nEntity ID: The unique SAML identifier for SureIdP.\nCopy this value and configure it as the Identifier (Entity ID) in the Microsoft Entra Enterprise Application.\nACS URL: The SAML response endpoint for SureIdP.\nCopy this value and configure it as the Reply URL (Assertion Consumer Serv…",
+   "hash": "9f4251cfa70239535145de3e8c7ecd16ee936d88d2bd633f4a1125a0d89169d4",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/os-login-with-sureidp-authentication",
    "title": "os login with sureidp authentication",
-   "date": "2026-09-16",
+   "date": "2026-09-24",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/os-login-with-sureidp-authentication",
-   "text": "",
-   "hash": "60ac07489c5c8cf36e39246f4a6c62bfbddd4188e55b301fc1044cde528d93d0",
-   "windows": "none"
+   "text": "Configure OS Login profile\nThe OS Login payload empowers IT administrators to customize the operating system login experience and enforce granular access control on devices enrolled with SureMDM Agent.\nThese settings allow administrators to enforce secure login via SureIdP, manage offline credential expiry, enable user account takeover, define platform login screen branding, device-to-user binding and apply conditional access based on location, Wi‑Fi SSID, IP, time, or compliance status.\nApplicable on Windows, macOS and Linux platforms.\nSteps to Configure OS Login Profile\nOn the SureMDM Web Console, navigate to: Profiles > Windows / macOS / Linux > Add > OS Login > Configure.\nEnter a Profile Name and click Add.\nIn the Configure OS Login screen, configure the required options under the available accordions.\n3.1 SureIdP Configuration\nSettingDescription\nEnable OS login using SureIdP\nEnforce OS login through SureIdP credentials by enabling this option. If a SureIdP Account is not present on the device, the user will see an \"Add SureIdP User\" button. Click the \"Add SureIdP User\" button. Log in using your SureIdP user credentials.\nSchedule for Offline Password Expiry (days)\nSet the duration after which credentials will expire when the device is offline. Users must reset their credentials upon reconnecting to SureIdP if their offline password has expired.\nNote: Even if credentials expire while the device is offline, users can still log in until the device reconnects to the network. However they will be required to update their credentials upon reconnecting.\nEnable Existing User Account Takeover\nEnable this setting to let SureIdP take over an existing local user account on the device during the user's first login. Specify the local account name when creating the user, or SureIdP will match the account using the first name and last name. This ensures seamless integration of the user's existing profile and data into the SureIdP-managed environment.\nAllow Device-to-User Binding\nWhen this option is enabled, only the devices bound to the user in the SureIDP Users section will be permitted to log in.\n3.2 Branding\nSettingDescription\nEnable Logo\nUpload a logo to prominently display your organization's branding on the login screen. Max Dimensions: 300*300, Supported file types: .png, .jpeg, .jpg\nUpload Logo\nChoose and upload the logo image from the local drive.\nEnable Wallpaper\nEnable this option to set a custom background image. Max Dimensions: 3840*2160, Supported file types: .png, .jpeg, .jpg. Note: This option is supported only for macOS profiles.\nUpload Wallpaper\nChoose and upload the background image from the local drive. Note: This option is supported only for macOS profiles.\nLogin Screen Message\nAdd a personalized or informative message for users, such as instructions or greetings.\n3.3 Login Controls\nSettingDescription\nShut Down\nAllows the user to shut down the device from the login screen.\nRestart\nAllows the user to restart the device from the login screen.\nSleep\nAllows the user to put the device into sleep mode from the login screen.\nEnable Wi-Fi\nAllows the user to enable or disable Wi-Fi from the login screen.\n3.4 Login Restrictions\nSettingDescription\nMaximum SureIdP Users Allowed to Login\nLimit the number of SureIdP users who can log in to the device.\nHide Local Users (Except Administrator Accounts)\nPrevent local (non-SureIdP) user accounts from showing up on the login screen. Leave unchecked if both SureIdP and local login should be allowed.\n3.5 Custom Hostname / Device Name Configuration\nSettingDescription\nEnable Custom Hostname Configuration\nAllow customization of hostnames shown at login.\nEnter Custom Hostname Pattern\nUse wildcards to define dynamic hostname formats. Click View Supported Wildcards to view the supported wildcard values and its description.\nMaximum Hostname Length\nEnforce a character limit for hostnames.\nnote\nHostname changes require a device reboot.\n3.6 Conditional Access\nConditional Access allows you to enforc…",
+   "hash": "4e64950f6d57c34638cf3610c6fee6dcf7859a4a2e09b5d180b074797da7afe8",
+   "windows": "medium"
   },
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/shared-device-nfc-qr-auth",
@@ -5601,10 +5628,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/user-device-binding",
    "title": "user device binding",
-   "date": "2026-09-18",
+   "date": "2026-09-24",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/sureidp/user-device-binding",
    "text": "User-Device Binding\nOverview\nUser-device binding allows administrators to associate SureIdP users with specific managed devices and control access based on these assignments.\nWhen binding enforcement applies, SureIdP verifies the user's association with the device before granting access to supported applications and device access scenarios.\nUser-device binding helps organizations maintain user accountability, device ownership, and controlled access in environments where access needs to be restricted to specific users.\nUser-device bindings are centrally managed from the SureIdP > Users section. The configured user-device mapping serves as the central source of truth for supported access scenarios.\nA user can be bound to multiple devices, and multiple users can be bound to the same device.\nnote\nUser-device binding is currently supported on Windows, macOS, and Linux. For Android and iOS, user-device binding is not enforced. Therefore, configuring a binding does not restrict application access to the bound users on these two platforms.\nPrerequisites\nBefore configuring user-device binding:\nThe devices must be enrolled and managed through SureMDM.\nThe users must be available in SureIdP.\nThe device identifier used for binding must be supported and available for the target device.\nBind a Device to a User\nYou can assign one or more devices to a SureIdP user.\nTo bind a device:\nOpen SureMDM → Settings → Account Settings → Identity & Access Management → SureIdP → Users.\nSelect the required user.\nGo to Account Actions → Bind/Unbind Devices.\nIn the Bind/Unbind Devices window, click + Add.\nOption 1: To bind devices manually:\nSelect the Bind Devices Manually option.\nSelect the Identifier ID Type and enter the Bind Identifier Value.\nClick Save.\nMultiple devices can be assigned to the same user by clicking + Add and entering the identifier type and identifier value for each device.\nOption 2: To assign user-device bindings in bulk:\nAdministrators can import user-device binding details using a CSV file.\nSelect the Import Users Using CSV File option.\nDownload the CSV template.\nEnter the required user and device binding information in the template.\nUpload the completed CSV file.\nClick Save to complete the import.\nnote\nIf no users are selected in the SureIdP Users section and Bind/Unbind Devices is selected, only the Bulk CSV Import option is available by default.\nThe CSV file supports:\nDevice Identifier Type\nDevice Identifier Value\nUsername\nExample:\nDevice IdentifierDevice Identifier ValueUsername\nIMEI\n123456789\nABC@domain.com\nSerial Number\nR58M423ABCD\nABC@domain.com\nSerial Number\nG68N429VXYZ\nXYZ@domain.com\nnote\nThe device identifiers must match the identifiers reported by the corresponding managed devices. Supported identifier types are IMEI, MAC Address, and Serial Number and depend on the device platform and available device information.\nThe Device Bindings window displays the existing device bindings for the selected user and allows administrators to add or delete device bindings.\nBind Multiple Users to a Device\nA device can be associated with multiple users.\nFor example:\nUserDevice\nUser A\nDevice 1\nUser B\nDevice 1\nUser C\nDevice 1\nWhen binding enforcement applies, all users associated with the device are authorized to access supported scenarios on that device, subject to the applicable authentication and access policies.\nnote\nFor OS Login, the current OS-logged-in user can use passwordless authentication, while other users bound to the device can authenticate using their username and password.\nRemove a User-Device Binding\nAdministrators can remove an existing device assignment when the device is no longer associated with a user.\nTo remove a binding:\nSelect the required user in SureIdP → Directory → Users.\nClick on Account Actions → Bind/Unbind Devices.\nSelect the device binding you want to remove.\nClick on Remove.\nOnce the binding is removed, the device no longer has a user-device association through this configuration.\nHow User-Device Binding…",
-   "hash": "04fc687c75ae7e25278ff2cd46a6d57ab91c38c3eb0946ee65056f7d5e06ef0a",
+   "hash": "7aeed2ebc010c6b931668b7f53df2ff49de419933813189264ff1159575ec44d",
    "windows": "medium"
   },
   {
@@ -6031,12 +6058,12 @@
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-jobs-management/zebra-printer-jobs",
-   "title": "zebra printer jobs",
-   "date": null,
-   "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-jobs-management/zebra-printer-jobs",
+   "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-jobs-management/Zebra-printer-jobs",
+   "title": "Zebra printer jobs",
+   "date": "2026-09-03",
+   "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-jobs-management/Zebra-printer-jobs",
    "text": "",
-   "hash": "23ddcc059c5d50fedecd0d012c6b9498238f8cc21b3821d96cc22f763fdf73a0",
+   "hash": "5d0609ca32be4e11b3a60d4ff226c524eb3eb8ab8a5a165d02e01fc4e20053f1",
    "windows": "none"
   },
   {
@@ -6960,11 +6987,11 @@
   {
    "key": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/suremdm-jit/suremdm-jit-admin",
    "title": "suremdm jit admin",
-   "date": "2025-12-30",
+   "date": "2026-09-24",
    "url": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/suremdm-jit/suremdm-jit-admin",
-   "text": "",
-   "hash": "108c4b41d5a031a065a1f8e9e3b536da352f3f6d4c8ce87959ba293d2457d0e7",
-   "windows": "none"
+   "text": "SureMDM Just-In-Time (JIT) Admin – Windows\nOverview\nThe SureMDM Just-In-Time (JIT) Admin feature helps IT teams enforce the principle of least privilege by granting temporary, time-bound local administrator access to users on managed Windows devices. Instead of maintaining permanent admin rights - which increases the risk of misuse or compromise - users can be elevated only when required and for a specified duration.\nnote\nThis feature is available exclusively to Enterprise tier customers and requires Windows devices with SureMDM Agent version 6.10.0 or later.\nWhen SureMDM Just-In-Time Admin is disabled from Account Settings > Windows Management > Miscellaneous, it may take up to 12 hours for access to be revoked automatically.\nTo revoke access immediately, first remove the application from the Pre-Approved Apps section and any entries in the Active Requests or Scheduled Requests tabs under the Live Requests section, and then disable the SureMDM Just-In-Time Admin setting from Account Settings.\nEnabling JIT Admin Access\nNavigate to SureMDM Console > Security > SureMDM JIT Admin > Windows.\nClick Configure SureMDM Just-In-Time Admin.\nYou’ll be redirected to Account Settings > Windows Management > Miscellaneous.\nEnable the checkbox \"Enable SureMDM Just-In-Time Admin.\"\nEnable the checkbox \"Notify Admin via Email\" to send an email notification to the administrators upon receiving a Just-in-Time (JIT) request. The email will include request details and allow the admins to take action.\nOnce Notify Admin via Email is enabled, use the Select Admin Email Recipients field to choose one or more administrators who should receive JIT notification emails. Only users with the Approve / Deny JIT Requests permission will be listed. Use the + icon to add multiple recipients.\nChoose one of the following configurations for granting admin access to devices:\nOption 1: Use Default SureMDM JIT Account\nCheck the box: Use Default SureMDM JIT Account\nSureMDM will automatically create and manage a temporary local admin account on the device to grant JIT access.\nOption 2: Use Custom Local Admin Account\nLeave the Use Default SureMDM JIT Account box unchecked\nEnter the following fields manually:\nLocal Admin Account Name\nPassword\nSureMDM will use this specified account to elevate permissions during JIT sessions.\nClick Apply to save the changes.\nReturn to the SureMDM JIT Admin screen to access full functionality.\nOnce enabled, the Windows tab under SureMDM JIT Admin will display three key sections (accordions):\nPre-Approved Apps\nLive Requests\nPast Requests\n1. Pre-Approved Apps\nThe Pre-Approved Apps section allows administrators to define a set of trusted applications that users can launch with elevated privileges — without submitting a request or waiting for approval.\nHow to Configure:\nClick Create.\nEnter a name for the JIT access.\nClick Add App to open the Add App dialog.\nSelect the application source Type:\nApplication List: Select an application from the standard predefined list.\nCustomer Managed App Inventory: Select an application from custom apps imported using the Customer Managed App Inventory Tool.\nSelect the target App Name from the dropdown menu.\nFor Application List, select the required App Thumbprint and App Version.\nClick Add.\nReview and confirm the prompt and then Click Next.\nSelect the target device group(s).\nClick Save to deploy the configuration.\nnote\nSelect a specific Signing Certificate Thumbprint for an app, or a specific app version to enable enhanced security validation during the Just-In-Time(JIT) approval process. JIT access will be granted only if the selected thumbprint and app version match. Thumbprint validation feature requires SureMDM agent version 6.27.0 or later, and app version validation requires SureMDM agent version 6.19.0 or later.\nCustomer managed apps are a list of apps populated by administrators using the Customer Managed App Inventory Tool. Refer here for detailed instructions on how to use the tool. This feature requi…",
+   "hash": "3fe52ba77449c4e97e8deafc196842e1e5aac9707f09dfba65dc3e239bced890",
+   "windows": "high"
   },
   {
    "key": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-desktop-management",
@@ -6996,11 +7023,11 @@
   {
    "key": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-device-enrollment/app-wrapping-enrollment/wrapping-suremdm-agent",
    "title": "wrapping suremdm agent",
-   "date": "2025-10-01",
+   "date": "2026-09-21",
    "url": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-device-enrollment/app-wrapping-enrollment/wrapping-suremdm-agent",
-   "text": "",
-   "hash": "97f704ac53e949a9a7fd4f32a43164d35192ebe9359355d7398f67070ae14141",
-   "windows": "none"
+   "text": "Wrapping the SureMDM Agent for Windows\nTo wrap the SureMDM Agent application on Windows devices, follow these steps:\nNavigate to SureMDM Web Console > Settings (icon located at the top right of the screen) > Account Settings > Customize SureMDM Agent/SureLock > Windows / Windows Server.\nSelect SureMDM Agent app from the Select App drop-down menu.\nnote\nApp Download URL field is auto-populated on selecting the application.\nThere are 2 ways to configure the application under the Select option:\na. Key Settings\nEnable Nix: Enables communication between SureMDM Agent and SureMDM Account after Agent installation. Enabled by default, use Advanced settings to modify the setting.\nAccount ID: Account ID is the unique identifier for your SureMDM account. Enter the Account ID to which devices will enroll. (Click the Settings button on the top right corner of the SureMDM console to get Account ID.)\nServer Path: Enter the SureMDM console URL to which devices will be enrolled.\nSureMDM Agent Password: If configured, the user has to provide the same password to access the SureMDM Agent settings.\nSelect Device Name: Choose the type of name to be used for the devices. Devices enrolled via Autopilot/OOBE will follow their respective device name configuration.\nEnable Mailbox: Select this option to show the Mailbox option on the SureMDM Agent home screen.\nb. Advanced Settings\nApp Settings: Use this section to add the xml of the application.\nSample xml:\n<code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"><NixSettings></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <EnableNix>true</EnableNix></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <ServerPath>Enter ServerPath here</ServerPath></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <Password /></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <DeviceEntityStatus>PREAPPROVED</DeviceEntityStatus></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <DeviceID /></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <CustomerID>Enter AccountID here</CustomerID></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <NewIDType /></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <NameType>MachineName</NameType></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <IDType>SYSTEMID</IDType></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <EnableMailbox>true</EnableMailbox></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <IsApproved>true</IsApproved></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"></NixSettings></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span></code>\nnote\nPlease reach out to 42Gears support for any additional available key pairs.\nSupported on Windows SureMDM Agent version 4.39 or later and Windows Server SureMDM Agent version 6.29.0 or later.\nClick Generate to process the application.\nClick Download. An .exe file will download.",
+   "hash": "4dcf9bb368655bc796c83aa22495172c9b9ee211871d9f32b6d1f9c84bf56eb2",
+   "windows": "high"
   },
   {
    "key": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-device-enrollment/autopilot-enrollment/assign-users",
@@ -7032,11 +7059,11 @@
   {
    "key": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-device-enrollment/autopilot-enrollment/deploying-suremdm-agent-dual-enrollment",
    "title": "deploying suremdm agent dual enrollment",
-   "date": "2025-10-01",
+   "date": "2026-09-21",
    "url": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-device-enrollment/autopilot-enrollment/deploying-suremdm-agent-dual-enrollment",
-   "text": "",
-   "hash": "ffefb2ff921741dc2715e54e9a77b69ea5528c45bac3de836d71ceb406091b31",
-   "windows": "none"
+   "text": "Deploying SureMDM Agent for Dual Enrollment\nDevices enrolling in Autopilot via SureMDM by default enroll as EMM enrolled devices. To leverage complete functionality of SureMDM for managing Windows devices, Dual Enrollment is recommended. Below are steps to deploy SureMDM agent to EMM enrolled devices seamlessly\n1. Navigate to SureMDM Web Console > Settings (icon located at the top right of the screen) > Account Settings > Customize SureMDM Agent/SureLock > Windows / Windows Server..\n2. Select SureMDM Agent app from the Select App drop-down menu.\nnote\nApp Download URL field is auto-populated on selecting the application.\n3. There are 2 ways to configure the application under the Select option:\na. Key Settings\nEnable Nix: Enables communication between SureMDM Agent and SureMDM Account after Agent installation. Enabled by default, use Advanced settings to modify the setting.\nAccount ID: Account ID is the unique identifier for your SureMDM account. Enter the Account ID to which devices will enroll. (Click the Settings button on the top right corner of the SureMDM console to get Account ID.)\nServer Path: Enter the SureMDM console URL to which devices will be enrolled.\nSureMDM Agent Password: If configured, the user has to provide the same password to access the SureMDM Agent settings.\nSelect Device Name: Choose the type of name to be used for the devices. Devices enrolled via Autopilot/OOBE will follow their respective device name configuration.\nEnable Mailbox: Select this option to show the Mailbox option on the SureMDM Agent home screen.\nb. Advanced Settings\nApp Settings: Use this section to add the xml of the application.\nSample xml:\n<code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"><NixSettings></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <EnableNix>true</EnableNix></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <ServerPath>Enter ServerPath here</ServerPath></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <Password /></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <DeviceEntityStatus>PREAPPROVED</DeviceEntityStatus></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <DeviceID /></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <CustomerID>Enter AccountID here</CustomerID></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <NewIDType /></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <NameType>MachineName</NameType></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <IDType>SYSTEMID</IDType></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <EnableMailbox>true</EnableMailbox></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> <IsApproved>true</IsApproved></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"></NixSettings></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span></code>\nnote\nPlease reach out to 42Gears support for any additional available key pairs.\nSupported on Windows SureMDM Agent version 4.39 or later and Windows Server SureMDM Agent version 6.29.0 or later.\n4. Click Generate and then download the .exe of SureMDM Agent.\n5. After downloading the .exe file in Step 6, convert it to the .msi format using any suitable tool before proceeding to the next step.\nnote\nA .msi file can only be deployed on a devices enrolled in an EMM. When generating the .msi file, make sure to use the install switch /verysilent to ensure a silent installation process.\n6. Upload the .msi file to SureMDM console…",
+   "hash": "70ef56e82d3d369c328711feb1d4cdb0e622526efad75196ff2795ffeb7571d6",
+   "windows": "high"
   },
   {
    "key": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-device-enrollment/autopilot-enrollment/setup-windows-enrollment-settings",
@@ -7869,11 +7896,11 @@
   {
    "key": "https://docs.42gears.com/suremdm/windows-jobs-and-profiles/profiles-for-windows/kiosk-profile",
    "title": "kiosk profile",
-   "date": "2026-08-21",
+   "date": "2026-09-21",
    "url": "https://docs.42gears.com/suremdm/windows-jobs-and-profiles/profiles-for-windows/kiosk-profile",
-   "text": "",
-   "hash": "a4d28874e7eb0414cdf7a93d11afc846703e73b6075e657b60bf0f74430d1fa1",
-   "windows": "medium"
+   "text": "Kiosk Profile\nThe Kiosk Profile payload for Windows allows IT administrators to lock down devices into either Single App Kiosk or Multi App Kiosk mode. Using NextGen kiosk capabilities built on Microsoft Assigned Access, administrators can easily restrict user access, control app execution, manage taskbar and Start menu layouts, and restrict File Explorer access.\nTo configure kiosk profile on the enrolled device(s), follow these steps:\nNavigate to SureMDM Web Console > Profiles > Windows > Add > Kiosk Profile > Configure.\nIn the configuration window, select either Single App Kiosk or Multi App Kiosk.\nEnter a Profile Name.\nConfigure Kiosk Profile settings and click Save.\nSingle App Kiosk Mode\nSingle App Kiosk mode restricts the device to running a single application in the foreground, automatically launching it when the target user logs in.\nSettingsDescription\nUser Logon Type\nSelect the logon method used to enforce kiosk mode.\n- Auto logon- Automatically signs in to the configured kiosk account.\n- User Account - Uses an existing Windows user account to access the kiosk.\nAuto Logon\nWhen Auto logon is selected, configure the following settings:\nSettingDescription\nKiosk Account Display Name\nSpecifies the display name of the account used for the kiosk session.\nType\nSelect Application List or Custom App.\nApplication Name\nSelect the application to run from the available application list.\nShortcut/Breakout Sequence to Exit Kiosk\nSpecifies the keyboard shortcut that allows the user to exit the kiosk mode.\nUser Account\nWhen User Account is selected, configure the following settings:\nSettingDescription\nSpecify the Username\nEnter the account that will be used to access the kiosk.\nType\nSelect Application List or Custom App.\nApplication Name / AUMID\nSpecify the application that should run in kiosk mode.\nShortcut/Breakout Sequence to Exit Kiosk\nSpecify alternate keyboard shortcut or BreakoutSequence to exit Kiosk experience and reach login screen. Ctrl+Alt+Del is the default sequence of keys to exit the kiosk.\nnote\nThe Username field accepts a Local account, Domain account, or Microsoft Entra account. Use the following formats:\nLocal user: DeviceName\\User, .\\User, or User\nActive Directory User: Domain\\samAccountName (Example: contoso\\user)\nMicrosoft Entra (fka AzureAD) User: AzureAD\\user@contoso.onmicrosoft.com\nBefore deploying the profile, make sure the specified user account is available on the device, otherwise it fails. For local accounts, you can use the User Account Management job to create the required account.\nApplication Type\nFor Single App Mode, you can configure the application using either of the following options.\nApplication List\nSelect Application List to configure an application from the available application list.\nCustom App\nUse the application's AUMID to specify the application to launch.\nnote\nFor an optimal kiosk experience, use Standard User accounts in the profile configuration.\nDon't use Users or Groups in the profile that are targeted by any conditional access policies that require user interaction. e.g. MFA or T&C acceptance.\nMultiple App Mode\nMultiple App Mode allows administrators to configure several applications that users can access while the device is operating in kiosk mode.\nnote\nMultiple App Mode is supported on Windows 10 and Windows 11.\nUser Logon Type\nSelect how the kiosk user signs in:\nOptionDescription\nAuto logon\nAutomatically signs in to the configured kiosk account.\nUser Account\nUses a specified Windows user account.\nApply to All Standard Users\nApplies the kiosk configuration to all standard user accounts on the device.\nUser Group\nApplies the kiosk configuration to users belonging to a specified user group.\nWhen Auto logon is selected, specify the Kiosk Account Display Name.\nnote\nThe Group Name field accepts local groups, Active Directory groups, and Microsoft Entra groups. Use the following formats:\nLocal Group: Groupname\nActive Directory Group: Domain\\GroupName\nExample: contoso\\KioskUsers\nMicrosoft E…",
+   "hash": "3cb879d01f03d48281d21b2e80002a2c2710a7b7f7c7c88a06aa77e4331c6e4d",
+   "windows": "high"
   },
   {
    "key": "https://docs.42gears.com/suremdm/windows-jobs-and-profiles/profiles-for-windows/license-profile",
@@ -8148,11 +8175,11 @@
   {
    "key": "https://docs.42gears.com/suremdm/windows-server-jobs-and-profiles/jobs-for-windows-server/dynamic-jobs",
    "title": "dynamic jobs",
-   "date": "2026-09-03",
+   "date": "2026-09-21",
    "url": "https://docs.42gears.com/suremdm/windows-server-jobs-and-profiles/jobs-for-windows-server/dynamic-jobs",
-   "text": "",
-   "hash": "36c594f850e1449cbdd7bf25f720fcb33d757d1e9cd886a0344c0c75a01303cf",
-   "windows": "none"
+   "text": "Dynamic Job for Windows-server\nDynamic Jobs, enabling Administrators to create job assignments that adapt to the unique capabilities of each device. By tailoring tasks or actions to specific devices, the organization can maximize efficiency and achieve better results. For Windows Server devices, the following dynamic jobs are available:\nRefresh - Refresh the devices in the Device Grid. This option will sync the device’s latest information with the SureMDM console.\nRemote - This option allows you to remotely connect to an enrolled device.\nPowershell - Click PowerShell to launch the command prompt.\nApps - Displays all system and installed applications on a device. SureMDM collects all the information about the installed applications (app name, username, version, package name, app size, etc.). Admins can remotely uninstall the application(s) of a device.\nApps contain the following sections: Downloaded Apps, System Apps, All Apps. These sections display applications based on their category. The following options are available for the applications listed in each section:\nAdvanced - Displays the advanced settings prompt for further configuration.\nSecurity Code to Unlock Applications - Enter the security code which is required to unlock restricted or locked applications on the device.\nPermission - This option displays the list of permissions granted to the application.\nUninstall - This option allows you to uninstall the selected application from the device.\nClear Data - This option clears all app data and stored information for the selected application.\nRefresh - This option refreshes the application list.\nLock - Enable this option to lock the application, preventing users from accessing it.\nRun at startup - Enable this option to automatically run the application when the device starts. You can also specify the startup delay in seconds.\nSureLock - This option allows you to push and apply the settings of the SureLock\nApplication to a device.\nReboot Devices - This option allows you to reboot your device.\nLock Device - This option allows you to remotely lock the device.\nSend Message - This option allows yout to send an instant message to enrolled devices.\nWipe Devices - This option allows you to erase all the data from your device.\nData Usage - This option allows you to track data usage information remotely based on your connectivity preference (Mobile Data / Wi-Fi Data) for a specific period of time.\nOS Updates - This option lists status of all Windows Updates on the device.\nSystem Scan - This option allows you to run the scan on the selected device.\nBitLocker Encryption Status - This option can be used to rotate the BitLocker key at any time, without relying on a predefined schedule.\nTo rotate the BitLocker key, use the Rotate BitLocker option. Once the rotation is completed:\nThe updated BitLocker key will be displayed in the Recovery Keys section along with its status.\nThe previous BitLocker key will be retained in the Historical Keys section for reference.\nShut Down - This option allows you to shut down your device remotely.\nUser Accounts - Displays all the local accounts on a device and their details.\nSureMDM LAPS - This option allows retrieving latest password of admin accounts and review current LAPS configuration.\nDeploy Google Chrome - This option allows administrators to silently install the latest stable and enterprise-ready version of Google Chrome on managed Windows devices.\nProfile Insights - This option displays a summary of profiles deployed to a device, including their deployment status and the number of payloads.\nIf no profile is deployed, a prompt is shown to create and deploy a profile. Once deployed, profiles appear in the Profile Insights dynamic job, allowing administrators to view key details without opening each profile.\nAll BIOS Settings: Displays a read-only view of all BIOS settings detected directly from the device. This tab helps administrators review the current BIOS configuration and verify setting value…",
+   "hash": "e5da6d34c0bb00a6bbc7400038972c9f55d39506bf89b533cc59598ea471147f",
+   "windows": "high"
   },
   {
    "key": "https://docs.42gears.com/suremdm/windows-server-jobs-and-profiles/jobs-for-windows-server/windows-server-jobs-management",

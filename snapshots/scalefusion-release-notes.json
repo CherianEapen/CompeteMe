@@ -2,14 +2,23 @@
  "id": "scalefusion-release-notes",
  "vendor": "Scalefusion",
  "kind": "d360-index",
- "fetchedAt": "2026-09-28T04:30:07.387Z",
+ "fetchedAt": "2026-10-05T06:17:12.016Z",
  "meta": {
   "url": "https://help.scalefusion.com/docs/latest-release-notes-year-2026",
-  "articleModifiedAt": "2026-09-28T04:30:06.8530714Z",
+  "articleModifiedAt": "2026-10-05T06:17:08.7176568Z",
   "articleTitle": "Latest Release Notes: Year 2026",
-  "fetched": 0
+  "fetched": 1
  },
  "items": [
+  {
+   "key": "Scalefusion September 25th, 2026 Release Notes",
+   "title": "Scalefusion September 25th, 2026 Release Notes",
+   "date": "2026-09-30",
+   "url": "https://help.scalefusion.com/docs/scalefusion-september-25th-2026-release-notes",
+   "text": "Version Information:\nScalefusion Dashboard: v68.0.0\nScalefusion Windows MDM Agent: v17.1.6\nRelease Notes:\nVeltar Vulnerability Management (VVM)\nVeltar Vulnerability Management continuously scans enrolled devices for vulnerabilities based on their operating system versions and applications reported by the devices.\na. Vulnerability Overview: IT Administrators can use the Overview dashboard to monitor discovered vulnerabilities and view them by application, operating system, or device.\nb. macOS OS Vulnerabilities: When a patch is available for a macOS vulnerability, IT Administrators can patch it using Scalefusion’s macOS update management.\nc. Windows OS Vulnerabilities: For Windows OS vulnerabilities where patch availability cannot be determined, IT Administrators are redirected to the Update & Patch screen for self-remediation.\nd. macOS Application Vulnerabilities: When a matching application is available in the macOS App Catalog or Enterprise application source, IT Administrators can patch it from the selected source. If the application is available but not yet in the catalog, it can be added to the catalog so that a configuration can be created and the application can be patched.\ne. Windows Application Vulnerabilities: When a corresponding patch is available in Windows App Patches, IT Administrators are directed to the available patch. If no patch is available, the console communicates that the patch is unavailable.\nf. Plan Association: VVM is offered as a feature flag in Veltar. OS and application patching capabilities depend on their availability in the customer’s UEM subscription.\nFileVault Enforcement During ADE\nIT Administrators can now enforce FileVault during Automated Device Enrollment (ADE) directly from the Device Profile. This enables encryption to be enforced from the device onboarding stage.\nCIS Level 1 and Level 2 Support for macOS\nSupport for CIS Level 1 and Level 2 has been extended to macOS 27, also known as Golden Gate.\nGeneral Enhancements\nUEM\na. Developer APIs for Android App Configurations: Developer APIs are now available to manage Android Profile Owner (PfW) and Enterprise Store (ES) app configurations. IT Administrators can query the configuration schema, retrieve the configuration currently applied, and create and apply configurations to devices.\nb. Secure Web Gateway: The Linux Secure Web Gateway (SWG) feature has been updated to use the latest stack, providing improved QoS and performance.\nc. User Group Movement: Conditions for moving users between groups have been enhanced, allowing IT Administrators to move users between groups more quickly.\nOneIdP & User Management\na. CO Device Deletion During User Deletion: IT Administrators can now choose to delete corporate-owned (CO) devices when deleting users. In addition to the existing behavior for BYO devices, CO devices can be deleted when users are removed through IdP User Sync, bulk user deletion using CSV, or User Enrollment.\nb. Scoped User Management for SSO: Google Workspace and Microsoft 365 Entra SSO configurations now provide options to scope user management to users assigned to the SSO configuration instead of all users matching the domain. When configured, user creation, update, and deletion operations apply only to assigned users.\nc. Faster Windows Keycard Logins: The Windows Keycard agent, part of the MDM agent, now supports faster logins on domain-joined devices.\nd. Custom Properties for User Groups: Custom Properties created from the Devices page can now be defined for user groups. These group-based Custom Properties can be used in Application Configurations and SSO Configurations for Custom Attributes and Custom Claims.\ne. Group-Based Custom Property Identifier: Group-based Custom Properties continue to use the $group. prefix. When a device belongs to both a device group and a user group, the device group property is used; when it belongs to a user group, the user group property is used.\nTeam\nTeam Scalefusion",
+   "hash": "1d500fa531589c597cd080dd5d7058aac9705db99b16d7bf0465f201b15769ac",
+   "windows": "high"
+  },
   {
    "key": "Scalefusion September 9th, 2026 Release Notes",
    "title": "Scalefusion September 9th, 2026 Release Notes",
