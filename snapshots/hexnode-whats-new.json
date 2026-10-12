@@ -2,12 +2,75 @@
  "id": "hexnode-whats-new",
  "vendor": "Hexnode",
  "kind": "next-data",
- "fetchedAt": "2026-10-05T06:17:10.082Z",
+ "fetchedAt": "2026-10-12T04:30:07.466Z",
  "meta": {
   "url": "https://www.hexnode.com/whats-new/",
-  "found": 23
+  "found": 25
  },
  "items": [
+  {
+   "key": "Linux Patch Management|2026-10-05",
+   "title": "Linux Patch Management",
+   "date": "2026-10-05",
+   "url": "https://www.hexnode.com/forums/topic/patch-management-arrives-for-linux/",
+   "text": "Provides a single dashboard to check, track, and install software updates across Ubuntu and Fedora Linux computers.\nBadge: New Feature\nPlatforms: Linux",
+   "hash": "14ec1da042f8124c87ab848ef4107d96cd30632a2545f9e31c59bcea7b716271",
+   "windows": "none"
+  },
+  {
+   "key": "Integration with JIRA ITSM|2026-10-05",
+   "title": "Integration with JIRA ITSM",
+   "date": "2026-10-05",
+   "url": "https://www.hexnode.com/forums/topic/jira-integration/",
+   "text": "Automatically creates structured IT support tickets in Jira whenever Hexnode detects a device issue or security alert, keeping support teams informed without manual data entry.\nBadge: New Feature",
+   "hash": "68a5a3b20c79758a1bd286517df83f5d14245cf232c1427802857b86648404eb",
+   "windows": "none"
+  },
+  {
+   "key": "macOS software update via DDM|2026-10-01",
+   "title": "macOS software update via DDM",
+   "date": "2026-10-01",
+   "url": "https://www.hexnode.com/forums/topic/ddm-software-updates-now-on-macos/",
+   "text": "Upgrading macOS software update management to use Apple's Declarative Device Management (DDM) framework, replacing legacy MDM commands for more reliable and enforceable OS updates.\nBadge: New Feature\nPlatforms: macOS",
+   "hash": "e0322c50c9cbbff39a630cf8856f068ac64aa84497e1de25230747edf9e9573b",
+   "windows": "none"
+  },
+  {
+   "key": "Platform SSO|2026-09-29",
+   "title": "Platform SSO",
+   "date": "2026-09-29",
+   "url": "https://www.hexnode.com/forums/topic/platform-sso-for-macos/",
+   "text": "Allows Mac users to log into their computer using their main cloud work account (such as Entra ID or Okta) and gain seamless single sign-on access to all corporate apps without re-entering passwords.\nBadge: New Feature\nPlatforms: macOS",
+   "hash": "ceddacfc792b34c4cf3633228cf8cb037cbf1f4ddcf880dea178575e173d6adf",
+   "windows": "none"
+  },
+  {
+   "key": "Deploy e-sim on Android devices|2026-09-29",
+   "title": "Deploy e-sim on Android devices",
+   "date": "2026-09-29",
+   "url": "https://www.hexnode.com/forums/topic/remote-esim-actions-for-android/",
+   "text": "Enables IT administrators to wirelessly push cellular eSIM profiles directly to company Android devices, replacing physical SIM cards and guiding users through simple setup prompts.\nBadge: New Feature\nPlatforms: Android",
+   "hash": "3a0c67aaa9ac5a0961c3ce2dd35d07c236bf1e4872e016a3621ea68c48a6c997",
+   "windows": "none"
+  },
+  {
+   "key": "Pre-Approved enrollment for Windows devices|2026-09-25",
+   "title": "Pre-Approved enrollment for Windows devices",
+   "date": "2026-09-25",
+   "url": "https://www.hexnode.com/forums/topic/streamline-your-rollouts-pre-approved-enrollment-comes-to-windows/",
+   "text": "Enables bulk CSV pre-approval onboarding for Windows devices by enforcing a mandatory tripartite hardware match (Serial Number, Manufacturer Name, and Model Name) to prevent spoofing and streamline large-scale deployments.\nBadge: New Feature\nPlatforms: Windows",
+   "hash": "439a54be870fc9cf9232bc9c5fa9d798a4d528519c1e6d9fc5b89e1202b912a1",
+   "windows": "high"
+  },
+  {
+   "key": "Remarks for Patch Failure as a Report|2026-09-22",
+   "title": "Remarks for Patch Failure as a Report",
+   "date": "2026-09-22",
+   "url": "https://www.hexnode.com/mobile-device-management/help/patch-and-update-reports-in-hexnode-uem/",
+   "text": "Generates a consolidated report detailing the exact reasons why a software patch failed on specific devices, making troubleshooting fast and simple.\nBadge: New Feature\nPlatforms: Windows",
+   "hash": "7ab125e113ab86f987355b87a2efe01035c47bc86e4f6a1fc0b6ca3aa27a149c",
+   "windows": "medium"
+  },
   {
    "key": "Windows Server Management|2026-07-20",
    "title": "Windows Server Management",
@@ -168,51 +231,6 @@
    "url": "https://www.hexnode.com/mobile-device-management/help/how-to-use-pre-configured-policy-templates-in-hexnode-for-easy-policy-deployment/#:~:text=Standard%20DLP%20Policy-,CIS%20Benchmark%20Compliance%20Level%201%20%E2%80%93%20macOS,-CIS%20Benchmark%20Compliance",
    "text": "Quickly align macOS and Windows devices with CIS benchmarks using Hexnode’s pre-configured policy templates. These templates ensure your fleet meets essential security standards without disrupting user productivity.\nBadge: New Feature\nPlatforms: macOS, Windows",
    "hash": "1d64717fec663909cf780e8a4d57e2b86fc09a75dea96461e7f071333f1e7d95",
-   "windows": "medium"
-  },
-  {
-   "key": "Okta Device Trust|2025-10-10",
-   "title": "Okta Device Trust",
-   "date": "2025-10-10",
-   "url": "https://www.hexnode.com/forums/topic/strengthen-access-control-with-okta-device-trust-integration/",
-   "text": "Ensure secure access by allowing only trusted devices that meet your organization’s conditions, even when correct credentials are used.\nBadge: New Feature\nPlatforms: macOS, iOS, Android, Windows, ChromeOS, Linux, Apple TV, Android TV, visionOS",
-   "hash": "fc94f40c05bf99a87fa91d129ff88cda7806d9b8f4c249361e40fe55ea4212d1",
-   "windows": "medium"
-  },
-  {
-   "key": "Laps – Windows|2025-10-07",
-   "title": "Laps – Windows",
-   "date": "2025-10-07",
-   "url": "https://www.hexnode.com/forums/topic/introducing-hexnode-laps-and-local-admin-password-rotation/",
-   "text": "Automatically rotate local admin passwords on Windows devices to prevent unauthorized access and strengthen endpoint security.\nBadge: New Feature\nPlatforms: Windows",
-   "hash": "b4e74bfb4740b781a6c76e0655966ba57f7819dbd475f1e50bafe5881459e24d",
-   "windows": "high"
-  },
-  {
-   "key": "Enrollment profiles for Windows|2025-10-03",
-   "title": "Enrollment profiles for Windows",
-   "date": "2025-10-03",
-   "url": "https://www.hexnode.com/forums/topic/windows-onboarding-made-effortless-with-enrollment-profiles/",
-   "text": "Simplify and standardize device onboarding with customizable enrollment\nprofiles tailored for Windows platforms.\nBadge: New Feature\nPlatforms: Windows",
-   "hash": "d0fa7c61e302dd8fbefd128391d038f8abd9ec4f93b550816bdac6dffbfb212a",
-   "windows": "high"
-  },
-  {
-   "key": "Alert Profile|2025-08-18",
-   "title": "Alert Profile",
-   "date": "2025-08-18",
-   "url": "https://www.hexnode.com/forums/topic/notifications-redefined-say-hello-to-alert-profiles/",
-   "text": "Receive critical alerts for apps, patches, and reports, and instantly notify designated technicians to enable faster response to policy violations and device issues.\nBadge: New Feature\nPlatforms: macOS, iOS, Android, Windows, ChromeOS, Linux, Apple TV, Android TV, visionOS",
-   "hash": "31bbff59f3dd56280fe367e2f9b89864f94769cd28ababf29c446d90fe9b0d8c",
-   "windows": "medium"
-  },
-  {
-   "key": "Compliance Policy|2025-08-15",
-   "title": "Compliance Policy",
-   "date": "2025-08-15",
-   "url": "https://www.hexnode.com/forums/topic/compliance-gets-its-own-spotlight-with-the-new-compliance-policy/",
-   "text": "Set platform-specific rules with basic configurations and dynamic conditions to automate enforcement and ensure device compliance.\nBadge: New Feature\nPlatforms: macOS, iOS, Android, Windows, ChromeOS, Linux, Apple TV, Android TV, visionOS",
-   "hash": "63c061aa3356dea3140bcbbd9b15dd738249106527e295367a49df76f8ccaff5",
    "windows": "medium"
   }
  ]

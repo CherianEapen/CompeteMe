@@ -2,13 +2,58 @@
  "id": "manageengine-endpoint-central",
  "vendor": "ManageEngine",
  "kind": "csv",
- "fetchedAt": "2026-10-05T06:17:13.915Z",
+ "fetchedAt": "2026-10-12T04:30:11.574Z",
  "meta": {
   "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
-  "rows": 4643,
+  "rows": 4649,
   "kept": 400
  },
  "items": [
+  {
+   "key": "11.5.2627.56|27fab3d80255",
+   "title": "11.5.2627.56 · BugFixes · DC",
+   "date": "2026-10-07",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Issue where software deployment package replication took longer than expected has been fixed.\nType: BugFixes; Products: DC",
+   "hash": "e7fa763ed179cdf483a3369427a3593e6d17d1a958947869f9f9307e0ef07193",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.56|988fd5a545e6",
+   "title": "11.5.2627.56 · BugFixes · DC",
+   "date": "2026-10-07",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Issue of Software Deployment package installation failing with required files missing during OS deployment has been fixed.\nType: BugFixes; Products: DC",
+   "hash": "f5aa360198f7393e7f2db50b0043d9435f82f6024c6ed53af4ad11fe5a518612",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.56|c2d7fbcfb27d",
+   "title": "11.5.2627.56 · BugFixes · DC",
+   "date": "2026-10-07",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Manual computer name now takes priority over computer-specific settings during OS deployment.\nType: BugFixes; Products: DC",
+   "hash": "2a555b560714da8e86ad00604392ccab31e8fce82ab088592681587410f4d292",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.56|f711f8b2c3f9",
+   "title": "11.5.2627.56 · BugFixes · DC:MSP:RAP:SS",
+   "date": "2026-10-07",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed an issue where Remote Control was not functioning as expected on macOS and Linux devices.\nType: BugFixes; Products: DC:MSP:RAP:SS",
+   "hash": "0ca31ab16388efc4e1f51aeaba8ba2713ff836b2ee4b1c93ef3ea192f74b44dd",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.56|c566201ce513",
+   "title": "11.5.2627.56 · Enhancements · ALL",
+   "date": "2026-10-07",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "The agent executables across all modules have been signed with a new digital certificate to maintain trusted verification after the existing certificate expires.\nType: Enhancements; Products: ALL",
+   "hash": "15cf9299dfe4e6d341ef7668c0547fd84187bca8337158c4aef954c443d3adf5",
+   "windows": "none"
+  },
   {
    "key": "11.5.2627.55|7c1ebe92e727",
    "title": "11.5.2627.55 · BugFixes · DC:MSP:BSP",
@@ -3553,51 +3598,6 @@
    "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
    "text": "The issue where previously blocked peripheral devices were not allowed after policy modification in Secure USB has been fixed\nType: BugFixes; Products: DC:MSP",
    "hash": "9ef239753ff043f70cfb16cdf64b3ca9a714b42a9d3e4f60027ee3953e62d606",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.03|da47aac54854",
-   "title": "11.4.2528.03 · BugFixes · DC:MSP",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "The issue with the 'Alternatively browse for a file' option not working on the Temporary Access Portal in macOS under the Device Control module has been resolved\nType: BugFixes; Products: DC:MSP",
-   "hash": "c90df001384eb120c1ea7f7b95703a8b3a7c70dcee0b4c2838e582bda20f454b",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.03|51d78fba6faa",
-   "title": "11.4.2528.03 · Enhancements · DC:MSP",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "macOS update notification UI and workflow enhanced for OS updates.\nType: Enhancements; Products: DC:MSP",
-   "hash": "c8548c7b045004e249ad57d9b4c4805e02847c32bbc19513fc08c001d57b02db",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.03|1db779b0ba83",
-   "title": "11.4.2528.03 · BugFixes · DC",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Fixed an issue with domain-based targeting in the API-based configuration deployment.\nType: BugFixes; Products: DC",
-   "hash": "010e19ecdbccbf962839d195ef1c1c4a246382215f3353e2a4b7417507f95fd2",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.03|00fea04a0318",
-   "title": "11.4.2528.03 · BugFixes · DC",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Fixed incorrect data in Device Audit reports for disconnected macOS devices in the Device Control module.\nType: BugFixes; Products: DC",
-   "hash": "142a702554d3131c3f4c2b642a2bd4cc796cc76cad378bf1095bd79a8a0cd5d3",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.03|6b64e5841b28",
-   "title": "11.4.2528.03 · BugFixes · DC:MSP",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Fixed an issue with scheduling reboots and shutdowns from Patch Management views.\nType: BugFixes; Products: DC:MSP",
-   "hash": "414572032f5e153aac0c0abf1a713ed84aa5eedf6cd29a02fc918fe628939828",
    "windows": "none"
   }
  ]

@@ -2,14 +2,23 @@
  "id": "scalefusion-release-notes",
  "vendor": "Scalefusion",
  "kind": "d360-index",
- "fetchedAt": "2026-10-05T06:17:12.016Z",
+ "fetchedAt": "2026-10-12T04:30:10.119Z",
  "meta": {
   "url": "https://help.scalefusion.com/docs/latest-release-notes-year-2026",
-  "articleModifiedAt": "2026-10-05T06:17:08.7176568Z",
+  "articleModifiedAt": "2026-10-12T04:30:09.2096146Z",
   "articleTitle": "Latest Release Notes: Year 2026",
   "fetched": 1
  },
  "items": [
+  {
+   "key": "Scalefusion October 1st, 2026 Release Notes",
+   "title": "Scalefusion October 1st, 2026 Release Notes",
+   "date": "2026-10-06",
+   "url": "https://help.scalefusion.com/docs/scalefusion-october-1st-2026-release-notes",
+   "text": "Version Information\nScalefusion Dashboard: v68.1.0\nScalefusion Windows MDM Agent: v17.2.0\nScalefusion macOS MDM Agent: v6.5.12\nRelease Notes\nWindows Enhancements\nPlain Text Logging for Windows\nIT Administrators can enable plain text logging for all Scalefusion apps by turning on the plain text logging option from Utilities.\na. When plain text logging is turned ON or OFF, logs collected on the device up to that point are rotated.\nb. This utility is intended for advanced enterprises or enterprises where compliance requirements dictate the use of plain text logging.\nImproved Compatibility with EDR/XDR and Antivirus Applications\nScalefusion has removed the usage of psexec and other unused third-party components that could cause EDR/XDR or antivirus applications to incorrectly classify Scalefusion.\nEDR/XDR and antivirus applications may still incorrectly classify Scalefusion. Adding signature- or path-based exceptions for Scalefusion is recommended.\nBitLocker Key Access\nUsers can now view the BitLocker key in the Scalefusion agent using Entra or Domain credentials when the device is Entra/Domain joined.\nmacOS Maintenance Updates\nThis maintenance release addresses issues across UEM/MDM, Veltar Secure Web Gateway, and OneIdP.\na. UEM/MDM: Fixed an issue where devices could become unresponsive for 30–45 minutes after installing the Scalefusion Agent, regardless of the Agent version.\nb. Veltar Secure Web Gateway:\nFixed VPN internet connectivity issues when switching from Wi-Fi to mobile data networks with a lower MTU.\nFixed internet connectivity failures when IPv6 was enabled.\nOneIdP: Fixed an issue where the local password screen appeared during Keycard online login.\nGeneral Enhancements\nImproved Wi-Fi Signal Strength Labels\nWi-Fi labels are now mapped consistently across the Devices page and Device Details based on signal strength:\na. 1 → Poor\nb. 2 → Fair\nc. 3 → Good\nd. 4 → Great\ne. 5 and above → Excellent\nBulk User Deletion via CSV\nFixed an issue where bulk user deletion through CSV could time out. The bulk deletion flow has also been optimized, with a maximum limit of 1000 users per bulk deletion operation.\nDashboard Session Timeout During Enterprise Application Uploads\nFixed an issue where Dashboard session timeout settings were applied while an enterprise application upload was actively in progress.\nmacOS Application Block Logs\nFixed an issue where macOS application block logs were not synchronized to the Dashboard.\nTeam\nTeam Scalefusion",
+   "hash": "902d0049e2b3f6b58b835248fd89ce0c2bcdb61623dca49fbe1e5c1fc9b0ecda",
+   "windows": "high"
+  },
   {
    "key": "Scalefusion September 25th, 2026 Release Notes",
    "title": "Scalefusion September 25th, 2026 Release Notes",

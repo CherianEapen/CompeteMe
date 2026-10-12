@@ -2,35 +2,62 @@
  "id": "iru-updates",
  "vendor": "Iru",
  "kind": "rss",
- "fetchedAt": "2026-10-05T06:17:10.034Z",
+ "fetchedAt": "2026-10-12T04:30:08.565Z",
  "meta": {
   "url": "https://www.iru.com/updates/rss.xml",
   "entries": 50
  },
  "items": [
   {
-   "key": "https://www.iru.com/updates/whats-new-in-iru/2026/10/02",
+   "key": "https://www.iru.com/updates/process-items-after-liftoff",
+   "title": "Process items after Liftoff",
+   "date": "2026-10-08",
+   "url": "https://www.iru.com/updates/process-items-after-liftoff",
+   "text": "Custom App, Custom Printer, and Custom Script Library Items for Mac now provide an option for whether they should be processed during or after Liftoff.",
+   "hash": "0492a30790ba82d331d9b3fb92855fb18ffff6eaf3745c8f6aabc819db01aaa8",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.4-5399",
+   "title": "Iru Agent for Mac Release 5.2.4 (5399)",
+   "date": "2026-10-07",
+   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.4-5399",
+   "text": "We’ve released Iru Agent for Mac 5.2.4 (5399).",
+   "hash": "814250fed2a56c1026bc1c710efea24eec4b1a8ef0972caa7cc3ad8bca315329",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.3-5398",
+   "title": "Iru Agent for Mac Release 5.2.3 (5398)",
+   "date": "2026-10-07",
+   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.3-5398",
+   "text": "We’ve released Iru Agent for Mac 5.2.3 (5398).",
+   "hash": "2ff8c90a049edb2301e9287f640de79113747ce7fb3d0778fdb3889128b6f657",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/02/whats-new-in-iru",
    "title": "What's New in Iru | October 2nd",
    "date": "2026-10-02",
-   "url": "https://www.iru.com/updates/whats-new-in-iru/2026/10/02",
+   "url": "https://www.iru.com/updates/2026/10/02/whats-new-in-iru",
    "text": "Highlights we cover in this week in What's New in Iru:",
    "hash": "88852db37e7a1bc9d0cfafa320241bcedffac4e4c7648b7c7efd663a405ce0b6",
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/iru-agent-for-windows-release-1.23.7",
+   "key": "https://www.iru.com/updates/2026/10/02/iru-agent-for-windows-release-1.23.7",
    "title": "Iru Agent for Windows Release 1.23.7",
    "date": "2026-10-02",
-   "url": "https://www.iru.com/updates/iru-agent-for-windows-release-1.23.7",
+   "url": "https://www.iru.com/updates/2026/10/02/iru-agent-for-windows-release-1.23.7",
    "text": "We've released Iru Agent for Windows 1.23.7. This release includes miscellaneous bug fixes and performance improvements.",
    "hash": "d7099dfcea5488854c8b656529d4d7c8b73e1c9684831c5abd54f8407fac3e69",
    "windows": "high"
   },
   {
-   "key": "https://www.iru.com/updates/iru-now-supports-windows-11-26h2",
+   "key": "https://www.iru.com/updates/2026/10/02/iru-now-supports-windows-11-26h2",
    "title": "Iru now supports Windows 11 26H2",
    "date": "2026-10-02",
-   "url": "https://www.iru.com/updates/iru-now-supports-windows-11-26h2",
+   "url": "https://www.iru.com/updates/2026/10/02/iru-now-supports-windows-11-26h2",
    "text": "Windows 11 26H2 is here, and Iru is ready for it. Devices running 26H2 can now be enrolled in Iru, so your team can onboard new hardware and upgraded fleets without waiting or building workarounds.\nWe've also added a new Managed OS Library Item for Windows 11 26H2, which lets IT teams set 26H2 as the target version and keep devices on a consistent, supported release from one place. For customers, that means a smoother path to the latest Windows release with the same control and visibility they already have in Iru.",
    "hash": "5de88b0f51a1041773bc906da4d95f181ffb4240601e4b1a7c660ca319ff393f",
    "windows": "high"
@@ -45,55 +72,55 @@
    "windows": "high"
   },
   {
-   "key": "https://www.iru.com/updates/auto-app-tidal-5a2eae72-f5f8-4443-99bd-f7910a851e57",
+   "key": "https://www.iru.com/updates/2026/10/01/auto-app-tidal",
    "title": "Auto App: TIDAL",
    "date": "2026-10-01",
-   "url": "https://www.iru.com/updates/auto-app-tidal-5a2eae72-f5f8-4443-99bd-f7910a851e57",
+   "url": "https://www.iru.com/updates/2026/10/01/auto-app-tidal",
    "text": "A new Auto App, TIDAL, has been added to the catalog and is now available for all customers.",
    "hash": "62d9b4bcc5f00b735f12c061cd51ad5fadd07a660bd4a19b851c7590bc20f69f",
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/auto-app-parallels-desktop-27-5f5e8a3e-aed1-418e-baa8-6a3ccc50c3a1",
+   "key": "https://www.iru.com/updates/2026/10/01/auto-app-parallels-desktop-27",
    "title": "Auto App: Parallels Desktop 27",
    "date": "2026-10-01",
-   "url": "https://www.iru.com/updates/auto-app-parallels-desktop-27-5f5e8a3e-aed1-418e-baa8-6a3ccc50c3a1",
+   "url": "https://www.iru.com/updates/2026/10/01/auto-app-parallels-desktop-27",
    "text": "A new Auto App, Parallels Desktop 27, has been added to the catalog and is now available for all customers.",
    "hash": "c5f61a0929c67987c0928dd315d874f0445da92bf7e3c40b07dad919f4f68fe2",
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/auto-app-microsoft-365-copilot-6754d4a8-e224-46da-833d-a1042b67bb38",
+   "key": "https://www.iru.com/updates/2026/10/01/auto-app-microsoft-365",
    "title": "Auto App: Microsoft 365 Copilot",
    "date": "2026-10-01",
-   "url": "https://www.iru.com/updates/auto-app-microsoft-365-copilot-6754d4a8-e224-46da-833d-a1042b67bb38",
+   "url": "https://www.iru.com/updates/2026/10/01/auto-app-microsoft-365",
    "text": "A new Auto App, Microsoft 365 Copilot, has been added to the catalog and is now available for all customers.",
    "hash": "968887966e8aef46c7b6f322f2198640b1171fa94067edbfa2600c45f1129988",
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/auto-app-iina-2f725848-be11-4cad-98cb-e13ff8310973",
+   "key": "https://www.iru.com/updates/2026/10/01/auto-app-iina",
    "title": "Auto App: IINA",
    "date": "2026-10-01",
-   "url": "https://www.iru.com/updates/auto-app-iina-2f725848-be11-4cad-98cb-e13ff8310973",
+   "url": "https://www.iru.com/updates/2026/10/01/auto-app-iina",
    "text": "A new Auto App, IINA, has been added to the catalog and is now available for all customers.",
    "hash": "f3d3ce52fae01d0db28c5fd5a7ce8615ea7ebecebaed7277a4c6c7270c81dc6e",
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/auto-app-cmux-7d8e6dde-d45c-4f13-9520-f96fdd6bfaae",
+   "key": "https://www.iru.com/updates/2026/10/01/auto-app-cmux",
    "title": "Auto App: cmux",
    "date": "2026-10-01",
-   "url": "https://www.iru.com/updates/auto-app-cmux-7d8e6dde-d45c-4f13-9520-f96fdd6bfaae",
+   "url": "https://www.iru.com/updates/2026/10/01/auto-app-cmux",
    "text": "A new Auto App, cmux, has been added to the catalog and is now available for all customers.",
    "hash": "89854bb71ddbd2e57bf2a650cc2545d6acb718be382034bd472e5e44750fb208",
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/auto-app-audacity-4-17c68ba9-7547-4209-8b17-790a17ce308e",
+   "key": "https://www.iru.com/updates/2026/10/01/auto-app-audacity-4",
    "title": "Auto App: Audacity 4",
    "date": "2026-10-01",
-   "url": "https://www.iru.com/updates/auto-app-audacity-4-17c68ba9-7547-4209-8b17-790a17ce308e",
+   "url": "https://www.iru.com/updates/2026/10/01/auto-app-audacity-4",
    "text": "A new Auto App, Audacity 4, has been added to the catalog and is now available for all customers.",
    "hash": "22ac2092db817bb94cec89a5f4de665c3b6e4fa05442c0806166e6040bd536b0",
    "windows": "none"
@@ -108,37 +135,37 @@
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/apple-managed-os-timeline",
+   "key": "https://www.iru.com/updates/2026/09/30/apple-managed-os-timeline",
    "title": "Managed OS for Apple: Dynamic timeline view",
    "date": "2026-09-30",
-   "url": "https://www.iru.com/updates/apple-managed-os-timeline",
+   "url": "https://www.iru.com/updates/2026/09/30/apple-managed-os-timeline",
    "text": "Managed OS for Apple devices now includes a dynamic timeline view that adjusts to the settings defined in the Library Item, taking the guesswork out of when a particular update will be enforced and to which version a device will be forced to update.",
    "hash": "3818f9b50131ee09fe5450d92677643ca110108ed9ccfbab1f7e4dfc9e097962",
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/new-apple-restrictions-for-siri-and-apple-intelligence",
+   "key": "https://www.iru.com/updates/2026/09/30/new-apple-restrictions-for-siri-and-apple-intelligence",
    "title": "New Apple Restrictions for Siri and Apple Intelligence",
    "date": "2026-09-30",
-   "url": "https://www.iru.com/updates/new-apple-restrictions-for-siri-and-apple-intelligence",
+   "url": "https://www.iru.com/updates/2026/09/30/new-apple-restrictions-for-siri-and-apple-intelligence",
    "text": "The Restrictions Library Item for Apple devices now supports the following restrictions:",
    "hash": "2a6fb352230c4c33693e852d61ae890b1633706b24581e91e5364faaba236590",
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/manage-safari-extensions-for-mac",
+   "key": "https://www.iru.com/updates/2026/09/30/manage-safari-extensions-for-mac",
    "title": "Manage Safari Extensions for Mac",
    "date": "2026-09-30",
-   "url": "https://www.iru.com/updates/manage-safari-extensions-for-mac",
+   "url": "https://www.iru.com/updates/2026/09/30/manage-safari-extensions-for-mac",
    "text": "The Safari Extensions Library Item has been enhanced to support management of Safari Extensions on macOS.",
    "hash": "c9dd54d588d0b6343620c9c5fd6be91019c3ca141e628e610afd2bca533bf1d2",
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/mdm-enabled-user-reporting",
+   "key": "https://www.iru.com/updates/2026/09/30/mdm-enabled-user-reporting",
    "title": "MDM enabled user reporting for Mac",
    "date": "2026-09-30",
-   "url": "https://www.iru.com/updates/mdm-enabled-user-reporting",
+   "url": "https://www.iru.com/updates/2026/09/30/mdm-enabled-user-reporting",
    "text": "The user list shown on a Mac device record now includes whether the user is enabled for user channel MDM.",
    "hash": "26683c7418213f18ea5d08bee0aa426ade106e33520b96ca99a01335ae0db0fb",
    "windows": "none"
@@ -360,6 +387,15 @@
    "windows": "none"
   },
   {
+   "key": "https://www.iru.com/updates/2026/09/02/iru-agent-for-windows-release-1.21.1.0",
+   "title": "Iru Agent for Windows Release 1.21.1.0",
+   "date": "2026-09-02",
+   "url": "https://www.iru.com/updates/2026/09/02/iru-agent-for-windows-release-1.21.1.0",
+   "text": "We've released an update to Iru Agent for Windows. This release includes miscellaneous bug fixes and performance improvements.",
+   "hash": "991587a73357089f022d3c49ab8d9ec8ad6647343d18f810fb57930867983b4f",
+   "windows": "high"
+  },
+  {
    "key": "https://www.iru.com/updates/2026/08/26/auto-app-teleport-connect",
    "title": "Auto App: Teleport Connect",
    "date": "2026-08-26",
@@ -420,42 +456,6 @@
    "url": "https://www.iru.com/updates/2026/08/26/auto-app-appcleaner",
    "text": "A new Auto App, AppCleaner, has been added to the catalog and is now available for all customers.",
    "hash": "884f439a90c1b27ae62ef3f8e9160626a82f63da9166150393033b6132808c14",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/08/26/windows-auto-apps",
-   "title": "New Windows Auto Apps",
-   "date": "2026-08-26",
-   "url": "https://www.iru.com/updates/2026/08/26/windows-auto-apps",
-   "text": "New Windows Auto Apps have been added to the catalog and are now available for all Iru Endpoint customers.",
-   "hash": "93c4cbe9286be596821bd248e3c8a774eb21ac01056968136c31e5e3330beedf",
-   "windows": "high"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/08/26/hide-or-rename-library-items-in-liftoff",
-   "title": "Hide or rename Library Items in Liftoff",
-   "date": "2026-08-26",
-   "url": "https://www.iru.com/updates/2026/08/26/hide-or-rename-library-items-in-liftoff",
-   "text": "Mac Custom App, Custom Script, and Custom Printer Library items now support being hidden in Liftoff or displaying a \"friendly name\" to the end user instead of the Library Item name.",
-   "hash": "104e74d0f85afbb54c52cc830fff1c78f664752ab9c06c6cfe6bd17f7bdc3926",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/08/26/iru-agent-for-mac-release-5.1.28-5393",
-   "title": "Iru Agent for Mac Release 5.1.28 (5393)",
-   "date": "2026-08-26",
-   "url": "https://www.iru.com/updates/2026/08/26/iru-agent-for-mac-release-5.1.28-5393",
-   "text": "We’ve released Iru Agent for Mac 5.1.28 (5393).",
-   "hash": "882b952a824df67a689c6cdf96d53b1181b413980a9dae33d8fea95b2ccbbbf1",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/08/21/whats-new-in-iru-august-21st",
-   "title": "What's New in Iru | August 21st",
-   "date": "2026-08-21",
-   "url": "https://www.iru.com/updates/2026/08/21/whats-new-in-iru-august-21st",
-   "text": "Highlights we cover this week in What's New in Iru:",
-   "hash": "4f1667ebd1cf09d26844df5649e7d08adb772e5f93a904e177d15eab1ec18fea",
    "windows": "none"
   }
  ]

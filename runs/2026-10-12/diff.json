@@ -1,0 +1,671 @@
+{
+  "runDate": "2026-10-12",
+  "periodStart": "2026-10-05",
+  "periodEnd": "2026-10-12",
+  "baselineDays": 14,
+  "sources": [
+    {
+      "id": "intune-whats-new",
+      "vendor": "Microsoft Intune",
+      "kind": "html-sections",
+      "url": "https://learn.microsoft.com/en-us/intune/whats-new/",
+      "mdChars": 12000,
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://learn.microsoft.com/en-us/intune/whats-new/",
+        "headings": 27
+      },
+      "counts": {
+        "total": 6,
+        "new": 1,
+        "changed": 1,
+        "removed": 1,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "Week of October 5, 2026",
+          "title": "Week of October 5, 2026",
+          "date": "2026-10-05",
+          "url": "https://learn.microsoft.com/en-us/intune/whats-new/#week-of-october-5-2026",
+          "text": "Device security\nIntune security baseline for Windows 11, version 26H2\nThe Windows security baseline for Windows 11, version 26H2 is now available in Microsoft Intune. This baseline reflects current Microsoft security recommendations and is the latest available Windows security baseline in Intune.\nThe Windows 11, version 26H2 security baseline includes new settings, updated default values, and revised security guidance. Existing security baseline profiles don't automatically update to the new version.\nTo use the Windows 11, version 26H2 security baseline, Intune admins can create a new baseline profile or update an existing profile to the latest version. Review the settings before moving from a previous baseline version, especially if existing profiles include customizations.\nThe Configure NetBIOS settings policy isn't included in this baseline release because it's currently supported only on Windows Insider builds. We plan to add the setting in a future baseline update after it becomes available for supported, in-market Windows versions and through the Intune Settings Catalog. This change will be communicated when available.\nFor a detailed breakdown of setting changes, see the Windows blog post Windows 11, version 26H2 security baseline.\nTo view the default configuration of the Intune baseline for Windows 11, version 26H2, see Windows MDM baseline settings.\nApplies to:\nWindows 11",
+          "hash": "1b45486c1ce16e4335efff31b0288bdb5c3031522b342756e36100d5013f3a22",
+          "windows": "high"
+        }
+      ],
+      "changed": [
+        {
+          "key": "Week of September 28, 2026 (Service release 2609)",
+          "title": "Week of September 28, 2026 (Service release 2609)",
+          "date": "2026-09-28",
+          "url": "https://learn.microsoft.com/en-us/intune/whats-new/#week-of-september-28-2026-service-release-2609",
+          "text": "Advanced capabilities (formerly \"Microsoft Intune Suite\")\nMicrosoft Cloud PKI support for US Government GCC High\nMicrosoft Cloud PKI is now available for Microsoft Intune tenants in the Microsoft Government Community Cloud High (GCC High) environment. You can create and manage a cloud-based public key infrastructure that automates certificate issuance, renewal, and revocation for Intune-managed devices without deploying an on-premises certification authority, Network Device Enrollment Service, or Intune Certificate Connector for device certificate delivery. Use these certificates for certificate-based authentication to organizational resources such as Wi-Fi, VPN, and applications. Support includes managed Windows, Android, iOS/iPadOS, and macOS devices. Cloud PKI isn't currently supported in the Department of Defense environment.\nFor more information, see Overview of Microsoft Cloud PKI for Microsoft Intune.\nApplies to:\nWindows\nAndroid\niOS/iPadOS\nmacOS\nRemote Help support for GCCH environments\nRemote Help is now available in US Government Community Cloud High (GCCH) environments. This expansion extends the same secure, cloud-based remote assistance capabilities currently available in GCC to GCCH tenants.\nIT support staff can establish Remote Help sessions with users on enrolled devices to provide real-time troubleshooting. Remote Help uses role-based access controls through Intune, and both helpers and sharers must sign in with their organization's Microsoft Entra ID accounts. DoD environments aren't supported.\nFor more information, see Planning for Remote Help.\nApplies to:\nAndroid\nmacOS\nWindows\nApp management\nFaster delivery of Win32 apps\nMicrosoft Intune now uses push notifications for admin-initiated and service-side changes to Win32 apps. Managed devices can check in sooner after app changes, reducing delivery and refresh delays compared with waiting for normal polling intervals. This update improves Win32 app deployment responsiveness without requiring a new admin workflow.\nApplies to:\nWindows\nNewly available protected app for Intune\nMicrosoft Dragon Copilot by Microsoft Corporation is now available as a protected app for Microsoft Intune. You can apply Intune app protection policies to the app on supported Android and iOS/iPadOS devices, helping protect organizational data while clinicians use its AI-assisted documentation capabilities.\nFor more information, see Microsoft Intune protected apps.\nApplies to:\nAndroid\niOS/iPadOS\nRequire Managed Home Screen authentication for protected app activities\nMicrosoft Intune now helps prevent users from bypassing Managed Home Screen (MHS) authentication when they access protected activities in MAM-integrated apps. If MHS requires sign-in or a session PIN, the app redirects the user to MHS before allowing access to protected content. Assign an Intune app protection policy to both the app and the signed-in user; no specific app protection policy setting is required.\nFor more information, see Configure the Microsoft Managed Home Screen app for Android Enterprise.\nApplies to:\nAndroid Enterprise corporate-owned dedicated devices using Managed Home Screen with Microsoft Entra shared device mode\nFaster Win32 app delivery after Windows enrollment\nMicrosoft Intune Management Extension now checks for Windows app assignments immediately after the Enrollment Status Page (ESP) completes. This reduces the delay before required Win32 apps that weren't installed during ESP begin installing on newly enrolled devices.\nFor more information, see Intune Management Extension for Windows.\nApplies to:\nWindows\nDevice configuration\nNew Apple settings in the Settings Catalog for iOS/iPadOS and macOS\nMicrosoft Intune now includes new Apple Settings Catalog options for supported iOS/iPadOS and macOS devices. You can configure additional controls for areas such as app settings, Apple Intelligence, network and web-content filtering, and the macOS login window by using the same Settings Catalog policy workflow in the Microsoft Intune admin center.\nFor more information, see Create a policy using settings catalog.\nApplies to:\niOS/iPadOS\nmacOS\nAssignment filters for Android Settings Catalog policies\nMicrosoft Intune now supports assignment filters for Android Enterprise and Android Open Source Project (AOSP) Settings Catalog policies. You can include or exclude specific devices based on device properties, giving you more granular control over policy deployments and helping apply the right settings to the right Android devices.\nFor more information, see Use assignment filters in Microsoft Intune.\nApplies to:\nAndroid Enterprise\nAndroid (AOSP)\nWindows 11, version 26H2 Settings Catalog update\nMicrosoft Intune provides day-zero support for validated Windows policy settings introduced with Windows 11, version 26H2 in the Settings Catalog. Admins can use the new and updated settings to manage Windows endpoints with the latest 26H2 capabilities.\nFor more information, see Microsoft Intune Settings Catalog updated to support Windows 11, version 26H2.\nApplies to:\nWindows 11\nDevice enrollment\nAutomatically launch Microsoft Defender for Endpoint during Android Enterprise device setup\nMicrosoft Intune now supports automatically opening Microsoft Defender for Endpoint during out-of-box setup for supported corporate-owned Android Enterprise devices. After you configure the Defender for Endpoint connector, turn on Grant MTD role permissions, and assign the Defender app as required, enable the experience from Endpoint security > Defender for Endpoint. Intune opens Defender during enrollment so users can complete its initial configuration as part of device setup. If configuration isn't completed, the Intune setup step remains available so users can open Defender again.\nFor setup-time availability, assign Defender for Endpoint to user groups or all devices before enrollment. Assignment processing for a specific device group might not complete early enough for Defender to be available during setup.\nApplies to:\nAndroid Enterprise corporate-owned fully managed devices (COBO)\nAndroid Enterprise corporate-owned devices with a work profile (COPE)\nSkip the Device Features Tour during Apple enrollment\nMicrosoft Intune now includes the Device features tour Apple OS 27 Setup Assistant skip key in Automated Device Enrollment profiles. You can hide this pane to reduce setup interactions and provide a more streamlined enrollment experience on supported iPhone and iPad devices.\nFor more information, see Set up automated device enrollment for iOS/iPadOS.\nApplies to:\niOS/iPadOS\nUpgrade an existing Android Enterprise connection to a managed Google domain\nMicrosoft Intune now supports an optional upgrade for tenants that connected Android Enterprise with a Gmail account. You can link the enterprise to a managed Google domain and manage the Google-Intune connection with your Microsoft Entra work account instead. Start at Devices > Enrollment, select Android, and under Prerequisites, select Managed Google Play.\nFor more information, see Connect your Intune account to your managed Google Play account.\nApplies to:\nAndroid Enterprise\nDevice management\nUpdated minimum supported version for iOS and iPadOS\nMicrosoft Intune now requires iOS/iPadOS 18 or later for standard device-management, Company Portal, and app-protection scenarios. Administrators should identify and upgrade affected devices. Userless devices enrolled through Automated Device Enrollment have a separate support statement.\nApplies to:\niOS/iPadOS\nNew single device page becomes the default experience in the Intune admin center\nMicrosoft Intune now uses the new single device page as the default experience for all admins, and the previous device page is no longer available. In Devices > All devices, select a device to view details and properties, monitor activity, access tools and reports, and perform supported actions from a consistent layout across platforms. Existing device-management capabilities remain available.\nFor more information, see See device details in Microsoft Intune.\nApplies to:\nAll platforms\nDevice security\nConfigure MDE AI agent runtime protection for Windows\nMicrosoft Intune now includes Microsoft Defender for Endpoint AI agent runtime protection settings in the new endpoint security template for Windows. You can use Audit mode to detect and alert on unsafe AI agent activity without blocking it, or Block mode to stop threats before they execute. These settings support Windows devices managed through Intune or MDE security settings management.\nFor more information, see AI agent runtime protection with Microsoft Defender for Endpoint.\nApplies to:\nWindows\nOnboard MDM compliance partners with new self-service functionality\nMicrosoft Intune now supports bring-your-own connector functionality for MDM compliance partners. Partners can build, test, and onboard compliance connectors using Intune documentation, contracts, and validation hooks. As an admin, you can opt in to a partner connector by providing the vendor's information in the Microsoft Intune admin center, speeding partner onboarding and expanding the compliance solutions available to your organization.\nFor more information, see Self-service onboarding for compliance partners.\nApplies to:\nAll supported platforms",
+          "hash": "25d7ecc606c8c99b1cc5fd7578c48ac26aa386893f296a9435c5d6038ffc6188",
+          "windows": "high",
+          "addedLines": [
+            "Remote Help support for GCCH environments",
+            "Remote Help is now available in US Government Community Cloud High (GCCH) environments. This expansion extends the same secure, cloud-based remote assistance capabilities currently available in GCC to GCCH tenants.",
+            "IT support staff can establish Remote Help sessions with users on enrolled devices to provide real-time troubleshooting. Remote Help uses role-based access controls through Intune, and both helpers and sharers must sign in with their organization's Microsoft Entra ID accounts. DoD environments aren't supported.",
+            "For more information, see Planning for Remote Help.",
+            "Windows 11, version 26H2 Settings Catalog update",
+            "Microsoft Intune provides day-zero support for validated Windows policy settings introduced with Windows 11, version 26H2 in the Settings Catalog. Admins can use the new and updated settings to manage Windows endpoints with the latest 26H2 capabilities.",
+            "For more information, see Microsoft Intune Settings Catalog updated to support Windows 11, version 26H2.",
+            "Windows 11"
+          ],
+          "removedLines": [],
+          "prevDate": "2026-09-28"
+        }
+      ],
+      "ms": 817
+    },
+    {
+      "id": "intune-blog",
+      "vendor": "Microsoft Intune",
+      "kind": "rss",
+      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftIntuneBlog",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftIntuneBlog",
+        "entries": 20
+      },
+      "counts": {
+        "total": 20,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 1248
+    },
+    {
+      "id": "iru-updates",
+      "vendor": "Iru",
+      "kind": "rss",
+      "url": "https://www.iru.com/updates/rss.xml",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://www.iru.com/updates/rss.xml",
+        "entries": 50
+      },
+      "counts": {
+        "total": 50,
+        "new": 17,
+        "changed": 0,
+        "removed": 17,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "https://www.iru.com/updates/process-items-after-liftoff",
+          "title": "Process items after Liftoff",
+          "date": "2026-10-08",
+          "url": "https://www.iru.com/updates/process-items-after-liftoff",
+          "text": "Custom App, Custom Printer, and Custom Script Library Items for Mac now provide an option for whether they should be processed during or after Liftoff.",
+          "hash": "0492a30790ba82d331d9b3fb92855fb18ffff6eaf3745c8f6aabc819db01aaa8",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.4-5399",
+          "title": "Iru Agent for Mac Release 5.2.4 (5399)",
+          "date": "2026-10-07",
+          "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.4-5399",
+          "text": "We’ve released Iru Agent for Mac 5.2.4 (5399).",
+          "hash": "814250fed2a56c1026bc1c710efea24eec4b1a8ef0972caa7cc3ad8bca315329",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.3-5398",
+          "title": "Iru Agent for Mac Release 5.2.3 (5398)",
+          "date": "2026-10-07",
+          "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.3-5398",
+          "text": "We’ve released Iru Agent for Mac 5.2.3 (5398).",
+          "hash": "2ff8c90a049edb2301e9287f640de79113747ce7fb3d0778fdb3889128b6f657",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/02/whats-new-in-iru",
+          "title": "What's New in Iru | October 2nd",
+          "date": "2026-10-02",
+          "url": "https://www.iru.com/updates/2026/10/02/whats-new-in-iru",
+          "text": "Highlights we cover in this week in What's New in Iru:",
+          "hash": "88852db37e7a1bc9d0cfafa320241bcedffac4e4c7648b7c7efd663a405ce0b6",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/02/iru-agent-for-windows-release-1.23.7",
+          "title": "Iru Agent for Windows Release 1.23.7",
+          "date": "2026-10-02",
+          "url": "https://www.iru.com/updates/2026/10/02/iru-agent-for-windows-release-1.23.7",
+          "text": "We've released Iru Agent for Windows 1.23.7. This release includes miscellaneous bug fixes and performance improvements.",
+          "hash": "d7099dfcea5488854c8b656529d4d7c8b73e1c9684831c5abd54f8407fac3e69",
+          "windows": "high"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/02/iru-now-supports-windows-11-26h2",
+          "title": "Iru now supports Windows 11 26H2",
+          "date": "2026-10-02",
+          "url": "https://www.iru.com/updates/2026/10/02/iru-now-supports-windows-11-26h2",
+          "text": "Windows 11 26H2 is here, and Iru is ready for it. Devices running 26H2 can now be enrolled in Iru, so your team can onboard new hardware and upgraded fleets without waiting or building workarounds.\nWe've also added a new Managed OS Library Item for Windows 11 26H2, which lets IT teams set 26H2 as the target version and keep devices on a consistent, supported release from one place. For customers, that means a smoother path to the latest Windows release with the same control and visibility they already have in Iru.",
+          "hash": "5de88b0f51a1041773bc906da4d95f181ffb4240601e4b1a7c660ca319ff393f",
+          "windows": "high"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/01/auto-app-tidal",
+          "title": "Auto App: TIDAL",
+          "date": "2026-10-01",
+          "url": "https://www.iru.com/updates/2026/10/01/auto-app-tidal",
+          "text": "A new Auto App, TIDAL, has been added to the catalog and is now available for all customers.",
+          "hash": "62d9b4bcc5f00b735f12c061cd51ad5fadd07a660bd4a19b851c7590bc20f69f",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/01/auto-app-parallels-desktop-27",
+          "title": "Auto App: Parallels Desktop 27",
+          "date": "2026-10-01",
+          "url": "https://www.iru.com/updates/2026/10/01/auto-app-parallels-desktop-27",
+          "text": "A new Auto App, Parallels Desktop 27, has been added to the catalog and is now available for all customers.",
+          "hash": "c5f61a0929c67987c0928dd315d874f0445da92bf7e3c40b07dad919f4f68fe2",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/01/auto-app-microsoft-365",
+          "title": "Auto App: Microsoft 365 Copilot",
+          "date": "2026-10-01",
+          "url": "https://www.iru.com/updates/2026/10/01/auto-app-microsoft-365",
+          "text": "A new Auto App, Microsoft 365 Copilot, has been added to the catalog and is now available for all customers.",
+          "hash": "968887966e8aef46c7b6f322f2198640b1171fa94067edbfa2600c45f1129988",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/01/auto-app-iina",
+          "title": "Auto App: IINA",
+          "date": "2026-10-01",
+          "url": "https://www.iru.com/updates/2026/10/01/auto-app-iina",
+          "text": "A new Auto App, IINA, has been added to the catalog and is now available for all customers.",
+          "hash": "f3d3ce52fae01d0db28c5fd5a7ce8615ea7ebecebaed7277a4c6c7270c81dc6e",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/01/auto-app-cmux",
+          "title": "Auto App: cmux",
+          "date": "2026-10-01",
+          "url": "https://www.iru.com/updates/2026/10/01/auto-app-cmux",
+          "text": "A new Auto App, cmux, has been added to the catalog and is now available for all customers.",
+          "hash": "89854bb71ddbd2e57bf2a650cc2545d6acb718be382034bd472e5e44750fb208",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/01/auto-app-audacity-4",
+          "title": "Auto App: Audacity 4",
+          "date": "2026-10-01",
+          "url": "https://www.iru.com/updates/2026/10/01/auto-app-audacity-4",
+          "text": "A new Auto App, Audacity 4, has been added to the catalog and is now available for all customers.",
+          "hash": "22ac2092db817bb94cec89a5f4de665c3b6e4fa05442c0806166e6040bd536b0",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/09/30/apple-managed-os-timeline",
+          "title": "Managed OS for Apple: Dynamic timeline view",
+          "date": "2026-09-30",
+          "url": "https://www.iru.com/updates/2026/09/30/apple-managed-os-timeline",
+          "text": "Managed OS for Apple devices now includes a dynamic timeline view that adjusts to the settings defined in the Library Item, taking the guesswork out of when a particular update will be enforced and to which version a device will be forced to update.",
+          "hash": "3818f9b50131ee09fe5450d92677643ca110108ed9ccfbab1f7e4dfc9e097962",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/09/30/new-apple-restrictions-for-siri-and-apple-intelligence",
+          "title": "New Apple Restrictions for Siri and Apple Intelligence",
+          "date": "2026-09-30",
+          "url": "https://www.iru.com/updates/2026/09/30/new-apple-restrictions-for-siri-and-apple-intelligence",
+          "text": "The Restrictions Library Item for Apple devices now supports the following restrictions:",
+          "hash": "2a6fb352230c4c33693e852d61ae890b1633706b24581e91e5364faaba236590",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/09/30/manage-safari-extensions-for-mac",
+          "title": "Manage Safari Extensions for Mac",
+          "date": "2026-09-30",
+          "url": "https://www.iru.com/updates/2026/09/30/manage-safari-extensions-for-mac",
+          "text": "The Safari Extensions Library Item has been enhanced to support management of Safari Extensions on macOS.",
+          "hash": "c9dd54d588d0b6343620c9c5fd6be91019c3ca141e628e610afd2bca533bf1d2",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/09/30/mdm-enabled-user-reporting",
+          "title": "MDM enabled user reporting for Mac",
+          "date": "2026-09-30",
+          "url": "https://www.iru.com/updates/2026/09/30/mdm-enabled-user-reporting",
+          "text": "The user list shown on a Mac device record now includes whether the user is enabled for user channel MDM.",
+          "hash": "26683c7418213f18ea5d08bee0aa426ade106e33520b96ca99a01335ae0db0fb",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/09/02/iru-agent-for-windows-release-1.21.1.0",
+          "title": "Iru Agent for Windows Release 1.21.1.0",
+          "date": "2026-09-02",
+          "url": "https://www.iru.com/updates/2026/09/02/iru-agent-for-windows-release-1.21.1.0",
+          "text": "We've released an update to Iru Agent for Windows. This release includes miscellaneous bug fixes and performance improvements.",
+          "hash": "991587a73357089f022d3c49ab8d9ec8ad6647343d18f810fb57930867983b4f",
+          "windows": "high"
+        }
+      ],
+      "changed": [],
+      "ms": 1565
+    },
+    {
+      "id": "hexnode-whats-new",
+      "vendor": "Hexnode",
+      "kind": "next-data",
+      "url": "https://www.hexnode.com/whats-new/",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://www.hexnode.com/whats-new/",
+        "found": 25
+      },
+      "counts": {
+        "total": 25,
+        "new": 7,
+        "changed": 0,
+        "removed": 5,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "Linux Patch Management|2026-10-05",
+          "title": "Linux Patch Management",
+          "date": "2026-10-05",
+          "url": "https://www.hexnode.com/forums/topic/patch-management-arrives-for-linux/",
+          "text": "Provides a single dashboard to check, track, and install software updates across Ubuntu and Fedora Linux computers.\nBadge: New Feature\nPlatforms: Linux",
+          "hash": "14ec1da042f8124c87ab848ef4107d96cd30632a2545f9e31c59bcea7b716271",
+          "windows": "none"
+        },
+        {
+          "key": "Integration with JIRA ITSM|2026-10-05",
+          "title": "Integration with JIRA ITSM",
+          "date": "2026-10-05",
+          "url": "https://www.hexnode.com/forums/topic/jira-integration/",
+          "text": "Automatically creates structured IT support tickets in Jira whenever Hexnode detects a device issue or security alert, keeping support teams informed without manual data entry.\nBadge: New Feature",
+          "hash": "68a5a3b20c79758a1bd286517df83f5d14245cf232c1427802857b86648404eb",
+          "windows": "none"
+        },
+        {
+          "key": "macOS software update via DDM|2026-10-01",
+          "title": "macOS software update via DDM",
+          "date": "2026-10-01",
+          "url": "https://www.hexnode.com/forums/topic/ddm-software-updates-now-on-macos/",
+          "text": "Upgrading macOS software update management to use Apple's Declarative Device Management (DDM) framework, replacing legacy MDM commands for more reliable and enforceable OS updates.\nBadge: New Feature\nPlatforms: macOS",
+          "hash": "e0322c50c9cbbff39a630cf8856f068ac64aa84497e1de25230747edf9e9573b",
+          "windows": "none"
+        },
+        {
+          "key": "Platform SSO|2026-09-29",
+          "title": "Platform SSO",
+          "date": "2026-09-29",
+          "url": "https://www.hexnode.com/forums/topic/platform-sso-for-macos/",
+          "text": "Allows Mac users to log into their computer using their main cloud work account (such as Entra ID or Okta) and gain seamless single sign-on access to all corporate apps without re-entering passwords.\nBadge: New Feature\nPlatforms: macOS",
+          "hash": "ceddacfc792b34c4cf3633228cf8cb037cbf1f4ddcf880dea178575e173d6adf",
+          "windows": "none"
+        },
+        {
+          "key": "Deploy e-sim on Android devices|2026-09-29",
+          "title": "Deploy e-sim on Android devices",
+          "date": "2026-09-29",
+          "url": "https://www.hexnode.com/forums/topic/remote-esim-actions-for-android/",
+          "text": "Enables IT administrators to wirelessly push cellular eSIM profiles directly to company Android devices, replacing physical SIM cards and guiding users through simple setup prompts.\nBadge: New Feature\nPlatforms: Android",
+          "hash": "3a0c67aaa9ac5a0961c3ce2dd35d07c236bf1e4872e016a3621ea68c48a6c997",
+          "windows": "none"
+        },
+        {
+          "key": "Pre-Approved enrollment for Windows devices|2026-09-25",
+          "title": "Pre-Approved enrollment for Windows devices",
+          "date": "2026-09-25",
+          "url": "https://www.hexnode.com/forums/topic/streamline-your-rollouts-pre-approved-enrollment-comes-to-windows/",
+          "text": "Enables bulk CSV pre-approval onboarding for Windows devices by enforcing a mandatory tripartite hardware match (Serial Number, Manufacturer Name, and Model Name) to prevent spoofing and streamline large-scale deployments.\nBadge: New Feature\nPlatforms: Windows",
+          "hash": "439a54be870fc9cf9232bc9c5fa9d798a4d528519c1e6d9fc5b89e1202b912a1",
+          "windows": "high"
+        },
+        {
+          "key": "Remarks for Patch Failure as a Report|2026-09-22",
+          "title": "Remarks for Patch Failure as a Report",
+          "date": "2026-09-22",
+          "url": "https://www.hexnode.com/mobile-device-management/help/patch-and-update-reports-in-hexnode-uem/",
+          "text": "Generates a consolidated report detailing the exact reasons why a software patch failed on specific devices, making troubleshooting fast and simple.\nBadge: New Feature\nPlatforms: Windows",
+          "hash": "7ab125e113ab86f987355b87a2efe01035c47bc86e4f6a1fc0b6ca3aa27a149c",
+          "windows": "medium"
+        }
+      ],
+      "changed": [],
+      "ms": 462
+    },
+    {
+      "id": "hexnode-blog",
+      "vendor": "Hexnode",
+      "kind": "rss",
+      "url": "https://www.hexnode.com/blogs/feed/",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://www.hexnode.com/blogs/feed/",
+        "entries": 10
+      },
+      "counts": {
+        "total": 4,
+        "new": 4,
+        "changed": 0,
+        "removed": 4,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "https://www.hexnode.com/blogs/?p=52180",
+          "title": "DPDPA Compliance Device Management: A Guide for Indian Enterprises",
+          "date": "2026-10-12",
+          "url": "https://www.hexnode.com/blogs/dpdpa-compliance-device-management-a-guide-for-indian-enterprises/",
+          "text": "Why device visibility matters for DPDPA readiness\nA DPDPA compliance device management plan starts with knowing which endpoints access personal data, which controls protect it, and what happens when devices leave management. An asset inventory alone cannot answer those questions.\nCustomer records can sit in laptop downloads, employee information can remain in local files, and work applications can store data on BYOD phones. Knowing who owns a device does not tell IT what personal data it holds or whether that data remains accessible after offboarding.\nThis guide helps IT and endpoint administrators connect endpoint visibility with practical controls for protecting personal data across corporate and employee-owned endpoints, from active use through offboarding and reassignment.\nWhat happens when endpoint controls leave personal data exposed?\nEndpoint control gaps can expose personal data, prolong investigations, and leave IT unable to demonstrate which safeguards operated.\nUnauthorised access: Weak access controls can expose customer or employee records.\nData after departure: Former employees may retain work files on personal devices.\nInterrupted operations: Containment and recovery can disrupt access to business applications.\nInvestigation overhead: Missing logs leave IT reconstructing administrative actions manually.\nOnce the relevant provisions take effect, the Data Protection Board can impose penalties up to ₹250 crore for breaches of Section 8(5)’s reasonable-security-sa…",
+          "hash": "22895de620c7c16285956ac4f61286dac7eda7f889da0df3035a31f3fc85d22f",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.hexnode.com/blogs/?p=52163",
+          "title": "Linux Patch Management Arrives in Hexnode UEM: One Console for Ubuntu and Fedora",
+          "date": "2026-10-09",
+          "url": "https://www.hexnode.com/blogs/linux-patch-management-arrives-in-hexnode-uem-one-console-for-ubuntu-and-fedora/",
+          "text": "Linux patch management arrives in Hexnode UEM\nLinux patch management is now available in Hexnode UEM, bringing native patch monitoring and deployment into your management console. IT administrators can track missing patches, automate security updates, and manually deploy critical patches when needed.\nThe release introduces three core capabilities: Patch Metrics, Auto & Manual Patch Deployments, and an Update Preferences Policy. Together, these capabilities let administrators review patch status, choose a deployment approach, and configure update schedules and deployment windows for their Linux environment. The announcement covers remote workstations, server environments, and developer setups.\nBring Linux patching into your existing console\nIf your team relies on manual scripts or separate command-line tools for Linux updates, this release brings those patching tasks into Hexnode UEM. You can monitor missing patches and deployment status from the console while controlling when updates reach devices.\nAdministrators can also choose how they select updates. Automated deployment uses predefined conditions to identify qualifying patches. Manual deployment lets administrators select specific updates for targeted Linux devices. Both approaches use Hexnode’s automation framework to determine deployment timing and device assignments. This gives teams a documented approach for recurring update cycles, targeted deployments, and patch testing.\nMore control over patch selection, timing, a…",
+          "hash": "623c734a796de83804ff42055e6091d393ba4ddb6fc91f7c70060d1f5a7d921b",
+          "windows": "medium"
+        },
+        {
+          "key": "https://www.hexnode.com/blogs/?p=52161",
+          "title": "Live Terminal for Windows: Troubleshoot Devices Without Interrupting a Single User",
+          "date": "2026-10-09",
+          "url": "https://www.hexnode.com/blogs/live-terminal-for-windows/",
+          "text": "What is Hexnode Live Terminal for Windows?\nHexnode Live Terminal for Windows provides secure, real-time access to a managed Windows device’s PowerShell environment directly from the Hexnode UEM console. IT administrators can open the command-line interface through their web browser and troubleshoot the endpoint in the background.\nThis approach does not require a screen-sharing session or third-party remote desktop software. It also avoids taking control of the display or interrupting the user while they work.\nThrough the terminal, administrators can diagnose and resolve device issues, run diagnostic scripts, restart stopped services and query system logs. These capabilities give IT teams a direct way to investigate Windows problems remotely without relying on an interactive desktop session.\nWhy does non-disruptive Windows troubleshooting matter?\nTraditional remote troubleshooting often depends on screen sharing. Starting a session may require the user to accept a prompt, pause current work or surrender control of the display while an administrator investigates. This makes even routine checks visible and disruptive to the employee.\nBackground PowerShell access changes this workflow. With Live Terminal for Windows, an administrator can inspect logs, run diagnostics and restart stopped services from the Hexnode UEM console while the user’s desktop remains available. The user does not need to participate in the troubleshooting session, and IT can work at the command line without…",
+          "hash": "2b41e62b9226babddad3ac76a00936cb4717a9de90d897a8d03edd6163b7f2af",
+          "windows": "high"
+        },
+        {
+          "key": "https://www.hexnode.com/blogs/?p=52111",
+          "title": "Deploy eSIM on Android Devices: End-to-End Cellular Provisioning, No Physical SIM Cards Required",
+          "date": "2026-10-08",
+          "url": "https://www.hexnode.com/blogs/deploy-esim-android-devices-hexnode/",
+          "text": "Deploy eSIM on Android devices with Hexnode UEM to bring cellular provisioning into your management console. With the new Deploy eSIM and Remove eSIM remote actions, IT teams can provide cellular profiles to supported Android devices and remove them when requirements change.\nFrom onboarding remote employees to preparing devices for reassignment, these actions give administrators a way to manage cellular profiles without handling physical SIM cards.\nTwo new actions for Android cellular management\nHexnode UEM now supports remote deployment and removal of Android eSIM profiles. Each action addresses a different part of the profile’s lifecycle.\nDeploy eSIM – Provisions an eSIM profile remotely and supports activation on the device. Administrators can initiate the process from the console without having the device in hand.\nRemove eSIM – Deletes profiles that Hexnode deployed to the device. Administrators can use it when an employee leaves, hardware changes hands, or the organization moves to a different carrier plan.\nTogether, these actions cover adding a cellular profile and removing it when it no longer serves the device’s intended use.\nKeep cellular provisioning connected to device management\nPhysical SIM management can add logistical work to remote deployments and device refreshes. Hexnode’s eSIM actions move profile provisioning and removal into the console, giving administrators a remote way to handle those tasks.\nThe practical value extends beyond the first deployment. Cel…",
+          "hash": "30762a977deb3856aa148bd72c8bd091faa3c364fa746db7d049ee15e5061d47",
+          "windows": "medium"
+        }
+      ],
+      "changed": [],
+      "ms": 1414
+    },
+    {
+      "id": "miradore-releases",
+      "vendor": "Miradore",
+      "kind": "link-list",
+      "url": "https://www.miradore.com/knowledge/releases/",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://www.miradore.com/knowledge/releases/",
+        "links": 367,
+        "fetched": 0
+      },
+      "counts": {
+        "total": 367,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 1326
+    },
+    {
+      "id": "42gears-press",
+      "vendor": "42Gears",
+      "kind": "link-list",
+      "url": "https://www.42gears.com/press-releases",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://www.42gears.com/press-releases",
+        "links": 103,
+        "fetched": 0
+      },
+      "counts": {
+        "total": 103,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 1624
+    },
+    {
+      "id": "42gears-docs",
+      "vendor": "42Gears",
+      "kind": "sitemap",
+      "url": "https://docs.42gears.com/suremdm/sitemap.xml",
+      "reportInclude": "windows|win32|msi|bitlocker|autopilot|sureidp|identity|login|authentication|conditional-access|sso",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "urls": 934,
+        "fetched": 0,
+        "fetchCandidates": 0
+      },
+      "counts": {
+        "total": 934,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 1810
+    },
+    {
+      "id": "jamf-pro-release-notes",
+      "vendor": "Jamf",
+      "kind": "jamf-khub",
+      "url": "https://learn.jamf.com",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "map": "Jamf Pro Release Notes 11.32.1",
+        "version": "11.32.1",
+        "topics": 3
+      },
+      "counts": {
+        "total": 3,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 3864
+    },
+    {
+      "id": "scalefusion-release-notes",
+      "vendor": "Scalefusion",
+      "kind": "d360-index",
+      "url": "https://help.scalefusion.com/docs/latest-release-notes-year-{year}",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://help.scalefusion.com/docs/latest-release-notes-year-2026",
+        "articleModifiedAt": "2026-10-12T04:30:09.2096146Z",
+        "articleTitle": "Latest Release Notes: Year 2026",
+        "fetched": 1
+      },
+      "counts": {
+        "total": 27,
+        "new": 1,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "Scalefusion October 1st, 2026 Release Notes",
+          "title": "Scalefusion October 1st, 2026 Release Notes",
+          "date": "2026-10-06",
+          "url": "https://help.scalefusion.com/docs/scalefusion-october-1st-2026-release-notes",
+          "text": "Version Information\nScalefusion Dashboard: v68.1.0\nScalefusion Windows MDM Agent: v17.2.0\nScalefusion macOS MDM Agent: v6.5.12\nRelease Notes\nWindows Enhancements\nPlain Text Logging for Windows\nIT Administrators can enable plain text logging for all Scalefusion apps by turning on the plain text logging option from Utilities.\na. When plain text logging is turned ON or OFF, logs collected on the device up to that point are rotated.\nb. This utility is intended for advanced enterprises or enterprises where compliance requirements dictate the use of plain text logging.\nImproved Compatibility with EDR/XDR and Antivirus Applications\nScalefusion has removed the usage of psexec and other unused third-party components that could cause EDR/XDR or antivirus applications to incorrectly classify Scalefusion.\nEDR/XDR and antivirus applications may still incorrectly classify Scalefusion. Adding signature- or path-based exceptions for Scalefusion is recommended.\nBitLocker Key Access\nUsers can now view the BitLocker key in the Scalefusion agent using Entra or Domain credentials when the device is Entra/Domain joined.\nmacOS Maintenance Updates\nThis maintenance release addresses issues across UEM/MDM, Veltar Secure Web Gateway, and OneIdP.\na. UEM/MDM: Fixed an issue where devices could become unresponsive for 30–45 minutes after installing the Scalefusion Agent, regardless of the Agent version.\nb. Veltar Secure Web Gateway:\nFixed VPN internet connectivity issues when switching from Wi-Fi to mobile data networks with a lower MTU.\nFixed internet connectivity failures when IPv6 was enabled.\nOneIdP: Fixed an issue where the local password screen appeared during Keycard online login.\nGeneral Enhancements\nImproved Wi-Fi Signal Strength Labels\nWi-Fi labels are now mapped consistently across the Devices page and Device Details based on signal strength:\na. 1 → Poor\nb. 2 → Fair\nc. 3 → Good\nd. 4 → Great\ne. 5 and above → Excellent\nBulk User Deletion via CSV\nFixed an issue where bulk user deletion through CSV could time out. The bulk deletion flow has also been optimized, with a maximum limit of 1000 users per bulk deletion operation.\nDashboard Session Timeout During Enterprise Application Uploads\nFixed an issue where Dashboard session timeout settings were applied while an enterprise application upload was actively in progress.\nmacOS Application Block Logs\nFixed an issue where macOS application block logs were not synchronized to the Dashboard.\nTeam\nTeam Scalefusion",
+          "hash": "902d0049e2b3f6b58b835248fd89ce0c2bcdb61623dca49fbe1e5c1fc9b0ecda",
+          "windows": "high"
+        }
+      ],
+      "changed": [],
+      "ms": 1123
+    },
+    {
+      "id": "scalefusion-product-updates",
+      "vendor": "Scalefusion",
+      "kind": "rss",
+      "url": "https://blog.scalefusion.com/category/product-updates/feed/",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://blog.scalefusion.com/category/product-updates/feed/",
+        "entries": 10
+      },
+      "counts": {
+        "total": 10,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 740
+    },
+    {
+      "id": "ivanti-quarterly-releases",
+      "vendor": "Ivanti",
+      "kind": "html-blocks",
+      "url": "https://www.ivanti.com/releases",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "pages": [
+          "https://www.ivanti.com/releases/2026/q3",
+          "https://www.ivanti.com/releases/2026/q2"
+        ]
+      },
+      "counts": {
+        "total": 67,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 1322
+    },
+    {
+      "id": "jumpcloud-release-notes",
+      "vendor": "JumpCloud",
+      "kind": "html-sections",
+      "url": "https://jumpcloud.com/support/release-notes-{year}",
+      "mdChars": 6000,
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://jumpcloud.com/support/release-notes-2026",
+        "headings": 67
+      },
+      "counts": {
+        "total": 12,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 1242
+    },
+    {
+      "id": "manageengine-endpoint-central",
+      "vendor": "ManageEngine",
+      "kind": "csv",
+      "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
+        "rows": 4649,
+        "kept": 400
+      },
+      "counts": {
+        "total": 399,
+        "new": 5,
+        "changed": 0,
+        "removed": 5,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "11.5.2627.56|27fab3d80255",
+          "title": "11.5.2627.56 · BugFixes · DC",
+          "date": "2026-10-07",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "text": "Issue where software deployment package replication took longer than expected has been fixed.\nType: BugFixes; Products: DC",
+          "hash": "e7fa763ed179cdf483a3369427a3593e6d17d1a958947869f9f9307e0ef07193",
+          "windows": "none"
+        },
+        {
+          "key": "11.5.2627.56|988fd5a545e6",
+          "title": "11.5.2627.56 · BugFixes · DC",
+          "date": "2026-10-07",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "text": "Issue of Software Deployment package installation failing with required files missing during OS deployment has been fixed.\nType: BugFixes; Products: DC",
+          "hash": "f5aa360198f7393e7f2db50b0043d9435f82f6024c6ed53af4ad11fe5a518612",
+          "windows": "none"
+        },
+        {
+          "key": "11.5.2627.56|c2d7fbcfb27d",
+          "title": "11.5.2627.56 · BugFixes · DC",
+          "date": "2026-10-07",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "text": "Manual computer name now takes priority over computer-specific settings during OS deployment.\nType: BugFixes; Products: DC",
+          "hash": "2a555b560714da8e86ad00604392ccab31e8fce82ab088592681587410f4d292",
+          "windows": "none"
+        },
+        {
+          "key": "11.5.2627.56|f711f8b2c3f9",
+          "title": "11.5.2627.56 · BugFixes · DC:MSP:RAP:SS",
+          "date": "2026-10-07",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "text": "Fixed an issue where Remote Control was not functioning as expected on macOS and Linux devices.\nType: BugFixes; Products: DC:MSP:RAP:SS",
+          "hash": "0ca31ab16388efc4e1f51aeaba8ba2713ff836b2ee4b1c93ef3ea192f74b44dd",
+          "windows": "none"
+        },
+        {
+          "key": "11.5.2627.56|c566201ce513",
+          "title": "11.5.2627.56 · Enhancements · ALL",
+          "date": "2026-10-07",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "text": "The agent executables across all modules have been signed with a new digital certificate to maintain trusted verification after the existing certificate expires.\nType: Enhancements; Products: ALL",
+          "hash": "15cf9299dfe4e6d341ef7668c0547fd84187bca8337158c4aef954c443d3adf5",
+          "windows": "none"
+        }
+      ],
+      "changed": [],
+      "ms": 967
+    }
+  ]
+}
