@@ -118,11 +118,25 @@ function Find-ClaudeExe {
       "$env:APPDATA\npm\claude.cmd")) {
     if (Test-Path $p) { return (Get-Item $p).FullName }
   }
-  # 4. Last resort: the desktop app's private versioned folder. The layout is not stable --
-  # it was <version>\claude.exe until early Oct 2026 and is now <version>\<hash>\claude.exe --
-  # so match either depth rather than assuming one.
+  # 4. Last resort: the desktop app's private versioned folder.
+  #
+  # Two traps here. First, the layout is not stable: it was <version>\claude.exe until early
+  # Oct 2026 and is now <version>\<hash>\claude.exe, so match either depth.
+  #
+  # Second, and the reason four scheduled runs failed to find it: the Claude desktop app is
+  # an MSIX-packaged app, so %APPDATA%\Claude is redirected into its package container. A
+  # process running inside the app (and anything it launches) sees the folder; a scheduled
+  # task, which has no package identity, sees the real %APPDATA%\Claude and finds nothing
+  # there. So search the package LocalCache path directly as well -- that one is a plain
+  # directory every process can read.
+  $packageRoots = @()
+  $packages = Join-Path $env:LOCALAPPDATA 'Packages'
+  if (Test-Path $packages) {
+    $packageRoots = @(Get-ChildItem -Path $packages -Directory -Filter 'Claude_*' -ErrorAction SilentlyContinue |
+      ForEach-Object { Join-Path $_.FullName 'LocalCache\Roaming\Claude\claude-code' })
+  }
   $candidates = @()
-  foreach ($root in @("$env:APPDATA\Claude\claude-code", "$env:LOCALAPPDATA\Claude\claude-code")) {
+  foreach ($root in (@("$env:APPDATA\Claude\claude-code", "$env:LOCALAPPDATA\Claude\claude-code") + $packageRoots)) {
     foreach ($pattern in @('*\claude.exe', '*\*\claude.exe')) {
       $candidates += @(Get-ChildItem -Path (Join-Path $root $pattern) -File -ErrorAction SilentlyContinue)
     }
