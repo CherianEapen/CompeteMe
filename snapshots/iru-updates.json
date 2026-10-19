@@ -2,12 +2,84 @@
  "id": "iru-updates",
  "vendor": "Iru",
  "kind": "rss",
- "fetchedAt": "2026-10-12T04:30:08.565Z",
+ "fetchedAt": "2026-10-19T04:36:05.527Z",
  "meta": {
   "url": "https://www.iru.com/updates/rss.xml",
   "entries": 50
  },
  "items": [
+  {
+   "key": "https://www.iru.com/updates/2026/10/16/iru-agent-for-windows-release-1.24.6.0",
+   "title": "Iru Agent for Windows Release 1.24.6.0",
+   "date": "2026-10-16",
+   "url": "https://www.iru.com/updates/2026/10/16/iru-agent-for-windows-release-1.24.6.0",
+   "text": "We've released Iru Agent for Windows 1.24.6.0. This release fixes apps missing from device inventory, stops apps reinstalling repeatedly when an installer leaves an older entry in Add/Remove Programs, and stops the Self Service updater creating a system restore point that some endpoint security tools flagged.",
+   "hash": "868f8f5c2a6c514d9fb904b2fbf4712c6e7ab97a25d4ff7e358c72054d993f00",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/15/iru-ai-assistant-for-bitlocker-and-android-restrictions",
+   "title": "Iru AI assistant for BitLocker and Android Restrictions",
+   "date": "2026-10-15",
+   "url": "https://www.iru.com/updates/2026/10/15/iru-ai-assistant-for-bitlocker-and-android-restrictions",
+   "text": "Iru AI now builds Library Items for BitLocker on Windows and Android Restrictions from a plain-language description. Describe the disk encryption policy or device restrictions you need, and Iru AI sets up the Library Item for you.",
+   "hash": "84df210a08ed6fff837bdb3858dc1bf775dee0e03aedfd005016ea205b4d6e07",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/15/target-os-version-for-automated-device-enrollment",
+   "title": "Target OS version for Automated Device Enrollment",
+   "date": "2026-10-15",
+   "url": "https://www.iru.com/updates/2026/10/15/target-os-version-for-automated-device-enrollment",
+   "text": "Automated Device Enrollment now has an update to setting in addition to the minimum required OS version, so you can set a floor for enrollment and a separate version that devices update to. Devices below the minimum update to that version before they enroll, and devices already at or above the minimum enroll without updating. This works for macOS, iOS, and iPadOS, and existing configurations keep their current behavior.",
+   "hash": "722805e4135d0551d590087d2676fcd38f959ae91dc83f093949f773acd24d4e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/15/automatically-rotate-filevault-recovery-keys-after-viewing",
+   "title": "Automatically rotate FileVault recovery keys after viewing",
+   "date": "2026-10-15",
+   "url": "https://www.iru.com/updates/2026/10/15/automatically-rotate-filevault-recovery-keys-after-viewing",
+   "text": "FileVault recovery keys can now rotate automatically after an administrator views the current key. Turn on Automatically rotate keys after viewing in the FileVault Library Item and set when the rotation happens. Key views continue to be recorded in the device activity timeline.",
+   "hash": "bfb72abfee74570ce20a5393530bb87d44c3ddb1d638fd538c0a2131b92542cb",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/15/platform-sso-openid-and-web-login-settings-for-macos-27",
+   "title": "Platform SSO OpenID and web login settings for macOS 27",
+   "date": "2026-10-15",
+   "url": "https://www.iru.com/updates/2026/10/15/platform-sso-openid-and-web-login-settings-for-macos-27",
+   "text": "The Single Sign-On Library Item now supports OpenID sign-in on macOS 27 and later, so users can sign in through identity provider web sign-in pages, including multi-factor authentication, at the login window, Lock Screen, and FileVault unlock. New settings let you sync the web login password to the local account and set a web login URL allow list. These settings apply only to Macs running macOS 27 or later, and OpenID depends on the identity provider supporting it.",
+   "hash": "a9b392497c3bbedb46f05579c2e84ab1734378691b619888263d0df681466af7",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/16/upgrade-your-android-enterprise-integration-to-a-managed-google-domain",
+   "title": "Upgrade your Android Enterprise integration to a managed Google domain",
+   "date": "2026-10-15",
+   "url": "https://www.iru.com/updates/2026/10/16/upgrade-your-android-enterprise-integration-to-a-managed-google-domain",
+   "text": "Admins can now upgrade an Android Enterprise integration from a managed Google Play account to their organization's managed Google domain, directly from the Iru web app and without re-enrolling any devices.",
+   "hash": "be3e25d5659df8802907eb4491dc4611b0817f4e0df9eca2023a8242d1dc8879",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/recommended-privacy-permissions-for-mac",
+   "title": "Recommended privacy permissions for Mac",
+   "date": "2026-10-14",
+   "url": "https://www.iru.com/updates/recommended-privacy-permissions-for-mac",
+   "text": "The Privacy Library Item's Recommended privacy permissions area now supports Mac, in addition to iPhone and iPad. Admins can recommend app permissions for macOS apps and website permissions for Safari, so end users see a single consent prompt listing everything an app or site needs instead of being prompted one permission at a time. The user can select Allow to grant every recommended permission at once, or Not Now, in which case the app continues to prompt for individual permissions as it normally would.\nSupported Mac app permissions include Bluetooth, Camera, Dictation, Local Network, Location, and Microphone. Mac apps are identified by bundle ID and code requirement, and a recommendation applies only when the installed app's code signature matches. Website rules use the same specific and wildcard domains as iPhone and iPad. This requires Macs on macOS 27 or later.\nFor more details, see Configure the Privacy Library Item.",
+   "hash": "0bdddeaa0016497058dc527b7d9e0dc36aa0e886740eb40ec005c8beab04dce6",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.7-5400",
+   "title": "Iru Agent for Mac Release 5.2.7 (5400)",
+   "date": "2026-10-13",
+   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.7-5400",
+   "text": "We’ve released Iru Agent for Mac 5.2.7 (5400).",
+   "hash": "ffd2c4e5cdaf598f550397c1482803720a2cfbf14cfab1142606324a1d3879e2",
+   "windows": "none"
+  },
   {
    "key": "https://www.iru.com/updates/process-items-after-liftoff",
    "title": "Process items after Liftoff",
@@ -384,78 +456,6 @@
    "url": "https://www.iru.com/updates/2026/09/03/automatic-retry-enrollment-for-return-to-service",
    "text": "Devices erased with Return to Service can now retry enrollment on their own if the initial attempt fails. In the Erase device modal, checking Use Return to Service reveals a new Retry enrollment option, checked by default, that's available for iPhone and iPad on iOS 27 or iPadOS 27 or later.",
    "hash": "325b12081dd6d3d3b371b09d648b42c13435b91da4c6d490482bc562f1eba923",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/02/iru-agent-for-windows-release-1.21.1.0",
-   "title": "Iru Agent for Windows Release 1.21.1.0",
-   "date": "2026-09-02",
-   "url": "https://www.iru.com/updates/2026/09/02/iru-agent-for-windows-release-1.21.1.0",
-   "text": "We've released an update to Iru Agent for Windows. This release includes miscellaneous bug fixes and performance improvements.",
-   "hash": "991587a73357089f022d3c49ab8d9ec8ad6647343d18f810fb57930867983b4f",
-   "windows": "high"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/08/26/auto-app-teleport-connect",
-   "title": "Auto App: Teleport Connect",
-   "date": "2026-08-26",
-   "url": "https://www.iru.com/updates/2026/08/26/auto-app-teleport-connect",
-   "text": "A new Auto App, Teleport Connect, has been added to the catalog and is now available for all customers.",
-   "hash": "a52a5125c6d77effe38411e0434ab10809607fa971922c34fd40fb01b69a0223",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/08/26/auto-app-gather",
-   "title": "Auto App: Gather",
-   "date": "2026-08-26",
-   "url": "https://www.iru.com/updates/2026/08/26/auto-app-gather",
-   "text": "A new Auto App, Gather, has been added to the catalog and is now available for all customers.",
-   "hash": "3438b27b81492fa8885c5c797394f81862a9d9f03608f4026a2da7ee35ee7914",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/08/26/auto-app-foxit-pdf-reader",
-   "title": "Auto App: Foxit PDF Reader",
-   "date": "2026-08-26",
-   "url": "https://www.iru.com/updates/2026/08/26/auto-app-foxit-pdf-reader",
-   "text": "A new Auto App, Foxit PDF Reader, has been added to the catalog and is now available for all customers.",
-   "hash": "72fb798f66917b8ad367ebb6b3d09e56caca4da3f597ce409bb2fa52d5c2058b",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/08/26/auto-app-foxit-pdf-editor",
-   "title": "Auto App: Foxit PDF Editor",
-   "date": "2026-08-26",
-   "url": "https://www.iru.com/updates/2026/08/26/auto-app-foxit-pdf-editor",
-   "text": "A new Auto App, Foxit PDF Editor, has been added to the catalog and is now available for all customers.",
-   "hash": "d01dbd9e4ec85d63c5b6390d2d6e5ab01881c95a3ba8d712c5b5f19f8a931ace",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/08/26/auto-app-dia",
-   "title": "Auto App: Dia",
-   "date": "2026-08-26",
-   "url": "https://www.iru.com/updates/2026/08/26/auto-app-dia",
-   "text": "A new Auto App, Dia, has been added to the catalog and is now available for all customers.",
-   "hash": "087f2a843cff90606382a438b36c9393533159dab796e2cc75334673b7e7af07",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/08/26/auto-app-cavalry",
-   "title": "Auto App: Cavalry",
-   "date": "2026-08-26",
-   "url": "https://www.iru.com/updates/2026/08/26/auto-app-cavalry",
-   "text": "A new Auto App, Cavalry, has been added to the catalog and is now available for all customers.",
-   "hash": "36f29428903359a42e680baccc89ffe1e593801415cd8838d59e6cf31044e111",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/08/26/auto-app-appcleaner",
-   "title": "Auto App: AppCleaner",
-   "date": "2026-08-26",
-   "url": "https://www.iru.com/updates/2026/08/26/auto-app-appcleaner",
-   "text": "A new Auto App, AppCleaner, has been added to the catalog and is now available for all customers.",
-   "hash": "884f439a90c1b27ae62ef3f8e9160626a82f63da9166150393033b6132808c14",
    "windows": "none"
   }
  ]

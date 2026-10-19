@@ -2,14 +2,23 @@
  "id": "scalefusion-release-notes",
  "vendor": "Scalefusion",
  "kind": "d360-index",
- "fetchedAt": "2026-10-12T04:30:10.119Z",
+ "fetchedAt": "2026-10-19T04:36:09.506Z",
  "meta": {
   "url": "https://help.scalefusion.com/docs/latest-release-notes-year-2026",
-  "articleModifiedAt": "2026-10-12T04:30:09.2096146Z",
+  "articleModifiedAt": "2026-10-19T04:36:08.7294664Z",
   "articleTitle": "Latest Release Notes: Year 2026",
   "fetched": 1
  },
  "items": [
+  {
+   "key": "Scalefusion October 9th, 2026 Release Notes",
+   "title": "Scalefusion October 9th, 2026 Release Notes",
+   "date": "2026-10-12",
+   "url": "https://help.scalefusion.com/docs/scalefusion-october-9th-2026-release-notes",
+   "text": "Version Information\nScalefusion Dashboard: v68.3.0\nRelease Notes\n1. Remote Cast and Control for Linux Devices\nScalefusion now supports remote viewing and control for Linux devices through the RCV2 platform. This release includes the following capabilities:\na. Multi-admin support: Allows multiple administrators to participate in remote sessions.\nb. Unmute to call: Supports unmuting audio during a remote session.\nc. Annotations: Enables administrators to use annotation tools during remote sessions.\nNote: Remote access requires end-user participation. The end user must grant permission to inject key events and select the screen to share. File transfer is not supported.\n2. Webhooks Support for SIEM Events\nWebhooks have been extended to support SIEM-related events, including the events available through Splunk and QRadar integrations. Organizations can configure Webhooks to send these events to their SIEM tools, provided the tools support Webhook consumption. The enhancement includes the following:\na. Header-based authentication: Configure Webhooks with a Bearer token, an Authorization header, or other custom key-value headers to authenticate requests received by the SIEM tool.\nb. Firewall configuration: If the SIEM tool is behind a firewall, the applicable Scalefusion Smokescreen IP address for the organization's instance must be allowlisted.\n3. Private Splunk Integration\nScalefusion now supports integration with private Splunk instances hosted behind a firewall that cannot be exposed to the internet.\na. Splunk extension: Install the Scalefusion-provided extension in Splunk to establish communication with the Scalefusion cloud instance. The extension initiates outbound calls from Splunk, eliminating the need to allowlist incoming connections from Scalefusion.\nb. Developer API: Organizations can also configure private Splunk using the Developer API and a Developer API key, without using the extension.\nNote: Support for Splunk integration through the Developer API is not provided. Support is available only for integrations using the Scalefusion-provided Splunk extension.\n4.Windows OS Upgrade Support for Windows 11, Version 26H2\nWindows OS Upgrade now supports upgrading eligible devices to Windows 11, version 26H2.\n5. iOS App Configuration APIs\nScalefusion Developer APIs for creating, editing, deleting, and querying app configurations have been extended to iOS. These APIs enable IT administrators to manage iOS app configurations dynamically through their developer tools and systems.\nTeam\nTeam Scalefusion",
+   "hash": "35f456bd40c9173e9ceb3ea0cc1ca75293574fdf65bad92d67640fd01907e507",
+   "windows": "medium"
+  },
   {
    "key": "Scalefusion October 1st, 2026 Release Notes",
    "title": "Scalefusion October 1st, 2026 Release Notes",

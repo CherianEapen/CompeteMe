@@ -2,11 +2,11 @@
  "id": "42gears-docs",
  "vendor": "42Gears",
  "kind": "sitemap",
- "fetchedAt": "2026-10-12T04:30:10.375Z",
+ "fetchedAt": "2026-10-19T04:36:09.339Z",
  "meta": {
-  "urls": 934,
-  "fetched": 0,
-  "fetchCandidates": 0
+  "urls": 952,
+  "fetched": 25,
+  "fetchCandidates": 30
  },
  "items": [
   {
@@ -300,10 +300,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/remote-support-management/remote-support-features-and-its-description",
    "title": "remote support features and its description",
-   "date": "2026-09-03",
+   "date": "2026-09-22",
    "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/remote-support-management/remote-support-features-and-its-description",
    "text": "",
-   "hash": "151b3955cda1695dcf5118710ab7219f895a29445244da3bb21226dbe5926644",
+   "hash": "9a89dfdc67976cd011bc739b00a36ad9e1a3ada4c36c6fcd3c3e83f0ff2baa9d",
    "windows": "none"
   },
   {
@@ -345,10 +345,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/branding",
    "title": "branding",
-   "date": "2026-02-13",
+   "date": "2026-10-06",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/branding",
    "text": "",
-   "hash": "0a7a449b3bf9fec14d595856286231971630acff1e634d01a1982a99e6466743",
+   "hash": "cf191db9e86335423d62d2eba01fd007304050d18af8146d18d6abacc506a18f",
    "windows": "none"
   },
   {
@@ -367,6 +367,15 @@
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/email-configuration-profil-aep",
    "text": "",
    "hash": "6a66a14c950f9cc5ea3170eeefe24afe173758b11e8f9a690bb2e0fe4461899d",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/esim-configuration",
+   "title": "esim configuration",
+   "date": "2026-10-06",
+   "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/android-enterprise-profiles/esim-configuration",
+   "text": "",
+   "hash": "d8ea13fa1b0711117314778ecf62fcca8e3c1d3dff188b9df213083b1589cc19",
    "windows": "none"
   },
   {
@@ -631,6 +640,15 @@
    "windows": "none"
   },
   {
+   "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/esim-configuration",
+   "title": "esim configuration",
+   "date": "2026-10-06",
+   "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/esim-configuration",
+   "text": "",
+   "hash": "d8ea13fa1b0711117314778ecf62fcca8e3c1d3dff188b9df213083b1589cc19",
+   "windows": "none"
+  },
+  {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/file-transfer-android",
    "title": "file transfer android",
    "date": "2026-09-08",
@@ -705,10 +723,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/os-updates-android",
    "title": "os updates android",
-   "date": "2026-09-08",
+   "date": "2026-10-15",
    "url": "https://docs.42gears.com/suremdm/android-jobs-and-profiles/android-jobs-profiles-manage/jobs-for-android/os-updates-android",
-   "text": "OS Update\nThe OS Update Job helps the admin remotely initiate and manage OS version upgrades on enrolled Android device(s), ensuring seamless and consistent updates across the fleet.\nTo create a OS Update job and deploy it to the enrolled device(s) or group(s) remotely, follow these steps:\n1. On the SureMDM Web Console, navigate to Jobs > New Job > Android > OS Update.\n2. Configure the OS Update and click Ok.\nSettingsDescription\nJob Name\nEnter a name for the Job\nOS Update File URL\nA Uri of the file that contains the update. Before uploading the ‘Update file URL’, ensure that the firmware package is bootable via Android Debug Bridge (ADB) sideload to avoid bricking the device.\nFile Hash\nThe file hash of the OS update file. File hash is the output of a hashing algorithm used as a checksum to verify data integrity.\nnote\nTo prevent the device from being bricked, make sure that the firmware package can be booted through the Android Debug Bridge (ADB) sideload.\nIt is recommended to apply the job when the device is connected to the Wi-Fi network.\nIf you wish to apply in a cellular connection, please note that downloading data over a cellular mobile network (including when in a roaming environment), may incur additional charges by the network provider.\nSupported from SureMDM Agent version >=27.48.00 on Fully Managed and Work Profile on Corporate Owned device enrollment on Android version 10 and above.\nThe newly created job will be listed in the Jobs List section.\n3. Go back to the Home tab and select the Android device(s) or group(s).\n4. Click Apply to launch the Apply Job/Profile To Device prompt.\n5. In the Apply Job/Profile To Device prompt, select the job(s) and click Apply.",
-   "hash": "ebb1f12000b8791819b7a857c242e24217d6f0ef64c730596cb94d5ab2858653",
+   "text": "OS Update\nThe OS Update Job helps the admin remotely initiate and manage OS version upgrades on enrolled Android device(s), ensuring seamless and consistent updates across the fleet.\nTo create a OS Update job and deploy it to the enrolled device(s) or group(s) remotely, follow these steps:\n1. On the SureMDM Web Console, navigate to Jobs > New Job > Android > OS Update.\n2. Configure the OS Update and click Ok.\nSettingsDescription\nJob Name\nEnter a name for the Job\nOS Update File URL\nA Uri of the file that contains the update. Before uploading the ‘Update file URL’, ensure that the firmware package is bootable via Android Debug Bridge (ADB) sideload to avoid bricking the device.\nFile Hash\nThe file hash of the OS update file. File hash is the output of a hashing algorithm used as a checksum to verify data integrity.\nnote\nTo prevent the device from being bricked, make sure that the firmware package can be booted through the Android Debug Bridge (ADB) sideload.\nIt is recommended to apply the job when the device is connected to the Wi-Fi network.\nIf you wish to apply in a cellular connection, please note that downloading data over a cellular mobile network (including when in a roaming environment), may incur additional charges by the network provider.\nSupported from SureMDM Agent version >=27.48.00 on Fully Managed and Work Profile on Corporate Owned device enrollment on Android version 10 and above.\nThe OS update file and its corresponding file hash must be obtained from the device OEM. SureMDM does not generate or provide these files or hashes. For example, Google Pixel OS images and their corresponding checksums are available at Google Pixel Factory Images.\nThe newly created job will be listed in the Jobs List section.\n3. Go back to the Home tab and select the Android device(s) or group(s).\n4. Click Apply to launch the Apply Job/Profile To Device prompt.\n5. In the Apply Job/Profile To Device prompt, select the job(s) and click Apply.",
+   "hash": "ce6b4fa847a9768cda244090d278d5542dc5afacc6fd87a5fd3c3595580413a1",
    "windows": "medium"
   },
   {
@@ -1731,10 +1749,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/integrations/integration-guides/bitdefender-management",
    "title": "bitdefender management",
-   "date": "2026-09-21",
+   "date": "2026-10-06",
    "url": "https://docs.42gears.com/suremdm/integrations/integration-guides/bitdefender-management",
    "text": "",
-   "hash": "19c3f65de96387cd93d7f3ebf35cc42b5b7a546e144aeada935a4eed4043590c",
+   "hash": "57583a7c8dd8abee0f4ebf0e41cc1e6b324ff2d9cdae5591b9262a1eb93a0395",
    "windows": "none"
   },
   {
@@ -2377,6 +2395,15 @@
    "windows": "none"
   },
   {
+   "key": "https://docs.42gears.com/suremdm/integrations/integration-guides/sureaccess/sureaccess-profile-configuration/profile-windows",
+   "title": "profile windows",
+   "date": "2026-10-15",
+   "url": "https://docs.42gears.com/suremdm/integrations/integration-guides/sureaccess/sureaccess-profile-configuration/profile-windows",
+   "text": "SureAccess Configuration Guide for macOS and Windows\n1. Overview\nUse this guide to configure SureAccess in SureMDM for macOS and Windows devices. You can configure the VPN connection, control website access, block specific URLs, and manage data uploads through Domain-Based and Application-Based DLP policies.\n2. Configuration Flow\n3. Configure the SureAccess Payload\nStep 1: Open the Profile Configuration\nSign in to the SureMDM console.\nNavigate to Profiles.\nSelect the platform for which you want to configure SureAccess: macOS or Windows.\nSelect the Enrollment Type if macOS is selected\nLocate the SureAccess payload and click Configure.\nImportant for Windows: A profile containing a VPN Configuration payload cannot also be configured with the SureAccess payload. Remove the conflicting payload before proceeding, if required.\nStep 2: Configure VPN Settings\nIn the SureAccess payload, open the VPN section and configure the available settings according to your organization's requirements.\nSettingAdministrator Action\nEnable SureAccess\nWhen enabled, deploys the SureAccess agent and applies secure remote access settings. When disabled, removes the configuration.\nConnection Name\nEnter the name to identify the connection.\nAlways On\nKeeps the SureAccess connection active at all times.\nTunnelled CIDR List\nSelect the IP ranges (CIDR blocks) that should be accessed through SureAccess. DNS Resolutions are skipped for this IP range and are accessible over IP addresses only.\nTunnelled FQDN List\nSelect the FQDNs that will be routed through the SureAccess tunnel.\nEnable Authentication\nEnables user authentication during SureAccess setup.\nReview the connection settings before moving to Web & Data Protection.\n4. Configure Web & Data Protection\nExpand Web & Data Protection in the SureAccess payload.\nEnable Enable Protection Policies.\nConfigure the required protection modules:\nWeb Content Filtering\nBlocked URLs\nDLP Configuration\n5. Configure Web Content Filtering\nUse Web Content Filtering to control website access based on website categories.\nSteps\nUnder Web & Data Protection, open Web Content Filtering.\nEnable Enable Protection Policies, if it is not already enabled.\nSelect the required Filtering Mode:\nAllow Websites — allow websites in the selected categories and restrict others.\nBlock Websites — block websites in the selected categories.\nSelect the required categories, such as:\nOnline Ads\nPornography / Sexually Explicit / Adult Content\nSocial Networking\nPopup Ads\nUnknown\nIf you need to identify a website's category, use the AskDeepthought lookup option, where available.\nReview the selected mode and categories.\nNote: Select the filtering mode carefully. The selected mode determines how the category selection is applied.\n6. Configure Blocked URLs\nUse this section to block specific websites or domains regardless of the category-filtering configuration.\nSteps\nExpand Blocked URLs.\nClick Add.\nSelect the required input method:\nEnter Manually — enter the URLs or domains to block.\nChoose from FQDN List — select entries from the available FQDN resources.\nImport CSV — import a supported file containing the URLs.\nEnter or select the required entries, or upload the file.\nReview the entries and resolve any invalid or duplicate values as indicated by the console.\nSave the entries.\nTo maintain the list later, use the available Edit, Delete, and Search options. Multiple entries can be selected for deletion.\nTo manage reusable FQDN resources, navigate to:\nSettings → Account Settings → Enterprise Integration → SureAccess → SureAccess Configurations → FQDN Resources\nImportant: Blocked URLs take precedence over the other configured filtering rules.\n7. Configure Domain-Based Upload Control\nUse Domain-Based Upload Control to define which domains users can upload data to.\nSteps\nUnder DLP, enable Enable DLP Configuration. This option is unchecked by default.\nIn Domain-Based Upload Control, select an Upload Policy:\nAllow only specified domains, blocks rest — allow uploads onl…",
+   "hash": "b21bf3327967f01c6c451cf0598fb3b8478515849f0085efc4543bb2f60fcf6a",
+   "windows": "high"
+  },
+  {
    "key": "https://docs.42gears.com/suremdm/integrations/integration-guides/webhooks",
    "title": "webhooks",
    "date": "2026-09-11",
@@ -2406,19 +2433,19 @@
   {
    "key": "https://docs.42gears.com/suremdm/integrations/reports/on-demand",
    "title": "on demand",
-   "date": "2026-09-18",
+   "date": "2026-10-01",
    "url": "https://docs.42gears.com/suremdm/integrations/reports/on-demand",
    "text": "",
-   "hash": "6eec0756d1d6c231aef71a1537067bd0eb5a2f46aa7ddcf70255542e43217125",
+   "hash": "cf9ca5395e353537bcd5bd84d128d4027e05ab536e8b31bc8d40dc0b0cabe022",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/integrations/reports/schedule",
    "title": "schedule",
-   "date": "2026-07-14",
+   "date": "2026-10-01",
    "url": "https://docs.42gears.com/suremdm/integrations/reports/schedule",
    "text": "",
-   "hash": "6047ef17060c50a097857aa5d221dceaf89f5f3980bb62bba2f1e97ad5256415",
+   "hash": "6f65a5a8537593da4e40da45a7d4b1ff5d95dbc7721f00bc3349857c4bb80b7f",
    "windows": "none"
   },
   {
@@ -2541,10 +2568,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/enroll-ios-devices/enrollment-methods-types/apple-business-manager/link-abm",
    "title": "link abm",
-   "date": "2026-06-22",
+   "date": "2026-10-14",
    "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/enroll-ios-devices/enrollment-methods-types/apple-business-manager/link-abm",
-   "text": "",
-   "hash": "05fb1a9759a16488ac0b4fc1d42fa1355e09156044d5833745c2925549ce83cc",
+   "text": "Link ABM with SureMDM\nIn order to perform MDM functions on enrolled iPads, iPhones and Mac OS, the ABM account has to be linked with SureMDM. For linking, a certificate is required which ensures a secure and trusted relationship between ABM and SureMDM. The following are the steps to get successful ABM linking:\nADE Profile and Server Creation\n1. Navigate to SureMDM Settings > Account Settings > Apple Platform Management > ADE > ADE Profiles > Add.\n2. Click Add. The ADE Profile creation popup screen appears.\nProfile creation is categorized into three steps\nProfile Details\nSetup Assistant Configurations\nOther Configurations\n2.1 Profile Details\nIn the Profile Details section, configure the below options and click Next\nSettingsDescription\nProfile Name\nEnter the name of the ADE profile\nPlatform\nSelect the platform as iOS/iPadOS\nSupervision\nEnable this option to enforce supervision during ADE enrollment. For iOS 13.0 and later, devices are supervised by default, so disabling this option will have no effect.\nMDM Profile Removable\nDisable to ensure that end users cannot remove the MDM profile installed on the device. Users can always remove the MDM profile for up to 30 days on devices enrolled in ABM, via Apple Configurator setting, regardless of this setting.\nMDM Profile Mandatory\nEnable this option to enforce user to apply MDM profile. On iOS 13.0 and above, devices enforce enrollment by default, so disabling this option will have no effect.\nWait for Configuration to Complete\nIf enabled, keeps the device in Setup Assistant mode until all resources are deployed from the SureMDM server.\nEnable Shared iPad\nIf enabled, shared iPad configurations are available to manage.\nShared iPad Property\nSelect the required Shared iPad Property to configure.\n- Number of Users: Enter the maximum number of users’ data that can be stored in a Shared iPad.\n- Storage (in Megabytes): Enter the storage space, in megabytes, to be allocated for each user in a Shared iPad.\nMinimum OS version\nConfigure the minimum OS version which should be enforced during the ADE Enrollment.\n- Not Configured: No Enforcement will be made during enrollment.\n- Latest Major Version: Devices will be updated to the latest available major OS version. If the latest major OS version is not compatible with the device, enforcement will be skipped.\n- Latest Minimum Version: Devices will be updated to the latest available minimum OS version. If the latest minimum OS version is not compatible with the device, enforcement will be skipped.\n- Latest Version based on device eligibility: Device will be updated to the latest OS version released for the desired devices.\nSelect Group\nSelect the desired group in which the device should get enrolled.\n\n2.2 Setup Assistant Configurations\nIn the Setup Assistant Configurations section, select the necessary setup assistant keys and click Next\nSetup Assistant KeysDescription\nSkip Passcode Setup\nIf disabled, iOS Setup Assistant prompts user to set a passcode during enrollment. Available in iOS 7 and later.\nSkip Location Services Setup\nIf disabled, iOS Setup Assistant prompts the user to enable or disable Location Services during enrollment. Available in iOS 7 and later.\nSkip Restoring From Backup Pane\nIf disabled, iOS Setup Assistant prompts user to restore from backup during enrollment. Available in iOS 7 and later.\nSkip Login with Apple ID & iCloud\nIf disabled, iOS Setup Assistant prompt user to sign in with an Apple ID and iCloud account during enrollment.\nSkip Terms & Conditions Pane\nIf disabled, iOS Setup Assistant prompts user to read and accept the Terms of Use and Conditions during enrollment. Available in iOS 7 and later.\nSkip TouchID Setup\nIf disabled, iOS Setup Assistant prompts user to set up an TouchID/FaceID during enrollment. Available for Touch ID on iOS 8.1 and later, and for Face ID on iOS 11.0/iPadOS 12.0 and later.\nSkip Apple Pay Setup\nIf disabled, iOS Setup Assistant prompts user to set up an Apple Pay account during enrollment. Availa…",
+   "hash": "28dc9bb83fe61c9a7890586827d75557b636af6a6f5a87898c101d4abd22165e",
    "windows": "none"
   },
   {
@@ -2674,39 +2701,75 @@
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/apply-updates",
+   "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/advanced-software-updates/apply-updates",
    "title": "apply updates",
-   "date": "2025-12-30",
-   "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/apply-updates",
-   "text": "",
-   "hash": "ab3012089cdf4995dfb69a5e86a91a4d95e0ead4abb158dfa84ca1c416d0966c",
+   "date": "2026-10-14",
+   "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/advanced-software-updates/apply-updates",
+   "text": "Apply Updates to iOS/iPadOS Devices\nFollow these steps to directly select updates from the table list, and apply them to the required devices:\nOn the SureMDM Web Console, navigate to OS Updates > select the Platform as iOS > Scroll down to view the table list.\nSelect the Updates from the table list.\nClick Install and you will have below options which can be selected.\nInstall ActionDescription\nDownload the Software and Install\nThis action will download the OS update onto the device and notify the user with a 60-second countdown before initiating a restart to complete installation.\nDownload and Schedule to Install - DDM\nThis action will provide the ability to schedule the OS update on specific date and time. Based on the scheduled timestamp, OS update will be installed on the target device.\nTarget Date & Time: Specify the date and time at when the OS update should be installed on the target device(s). The specified time will follow the local timezone of the target device(s).\nDetails URL:Specify the URL containing details about the update.\nNote:\n- Notification will be triggered daily before the update deadline. Notifications will appear hourly during the last 24hrs and bypass Do Not Disturb. In the final hour, alerts are shown at 30 minutes and every 10 minutes.\n- If the device is offline at the scheduled date and time, the update will install 60 minutes after it comes online.\n- The OS update will install automatically once the deadline is reached, even on devices that have a passcode.\n- Declarative Management (DDM) is supported only on devices with iOS/iPadOS 17.0 and above\nAlternatively:\nClick Eligible Device count to open the eligible device list.\nSelect the required Device using checkbox.\nClick Install and choose the appropriate Install Action to update the OS on the selected devices:\nDownload the Software and Install\nDownload and Schedule to Install - DDM\nBased on the OS Update progress on the device, the status would be updated in the SureMDM Console\nStatusDescription\nScheduled\nDisplayed when the OS update is scheduled using *Download and Schedule to Install - DDM** as Install Action type\nDownload In Progress\nDisplayed when the OS update software is downloading.\nPrepared for Installation\nDisplayed when the OS update is downloaded and is about to be installed.\nInstall In Progress\nDisplayed when the OS update is currently in progress of installation.\nN/A\nDisplayed when the OS update is yet to be initiated with downloading the respective update due to device offline or other cases.\nApplicable only for Download the software and install & Download/Install the software update then force a restart Install Action types.\nEdit and Delete Scheduled OS Update Entries\nSureMDM allows admins to edit or delete scheduled iOS/iPadOS OS update entries where the install action type is set to Download and Schedule to Install - DDM. These actions are available in the Pending Devices listing page.\nSteps to Access Edit/Delete Options\nTo access Edit or Delete for a scheduled OS update entry:\nNavigate to SureMDM Console > OS Updates.\nSelect the platform as iOS/iPadOS.\nUnder the Overview section, go to the OS Update Listing Table.\nClick on the Pending Devices count for a specific update.\nIn the Pending Devices popup, select the device entry with Install Action type as Download and Schedule to Install - DDM.\nTwo options will be available: Edit and Delete.\nEdit Behavior\nSteps to Edit a Scheduled OS Update Entry\nIn the Pending Devices listing, select the device with install action:\nDownload and Schedule to Install - DDM.\nClick Edit.\nThis action reopens the Edit Scheduled Date & Time popup, where the following fields can be modified:\nFieldEdit Behavior\nTarget Date & Time\nEditable, unless the scheduled time is within the next 24 hours.\nDetails URL\nAlways editable\nInstall Action\nDisabled (grayed out); cannot be modified using edit.\nTo change the Install Action type, use the Install option and select the desired action.\nNote: Devices with Install Action se…",
+   "hash": "404431c802818ae4f67d4dfae52351df654c67de41766e97761861d86756a494",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/iosipad-os-update",
-   "title": "iosipad os update",
-   "date": "2026-01-20",
-   "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/iosipad-os-update",
-   "text": "",
-   "hash": "62d31c6368a77ead84825765aa0095147ba70886947d6cb45d3cefd2c9e43367",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/new-job-installing-ios-updates",
+   "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/advanced-software-updates/new-job-installing-ios-updates",
    "title": "new job installing ios updates",
-   "date": "2025-09-30",
-   "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/new-job-installing-ios-updates",
-   "text": "",
-   "hash": "cc4d2c228c59dd39d131bbb3379f16d9f165b77ad39e7f8dd5151e10d6ad2fed",
+   "date": "2026-10-14",
+   "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/advanced-software-updates/new-job-installing-ios-updates",
+   "text": "Create and Apply a New Job for Installing iOS Updates\nTo create and apply a new job for updating devices , follow these steps:\nOn the SureMDM Web Console, navigate to OS Updates > Create New Job > Enter Job Name.\nSelect the required Update Type with the following settings:\nOS Update: Use this option to install specific major or minor updates.\nSecurity Updates: Use this option to install OS, app, or security updates.\nOther Update: Use this option to install updates based on the entered Product Key.\nSelect Update: This option appears when OS Updates is chosen. From the dropdown, select the required major or minor version for installation.\nSelect Security Update Version: This option appears when Security Updates is chosen. From the dropdown, select the desired update, which includes OS updates, security updates, and app updates.\nProduct Key: This option appears when Other Update is chosen. Manually enter the product key to install the update.\nClick Save. The job is saved under the default folder, and the user is redirected to the default iOS/iPadOS OS updates job folder. You can apply updates to the necessary devices.\nor\nClick Save & Apply, then choose the desired Device Group or Tag group to install the specific update on the selected group.",
+   "hash": "3ff224e94a0e5f567983ef7bfd34e51098a1609551d4c463912e7a367679aa7b",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/overview",
+   "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/advanced-software-updates/overview",
    "title": "overview",
-   "date": "2025-09-30",
-   "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/overview",
-   "text": "",
-   "hash": "116293b03ffa692f6aba64a6995bfdee52a6be0768f75b05f015052f89763193",
+   "date": "2026-10-14",
+   "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/advanced-software-updates/overview",
+   "text": "Overview\nThe Overview section provides a snapshot of critical metrics for effective update management. It consists of three main components:\nDashboard\nA centralized display presenting key update management data and insights:\nUpdates Status:\nThis bar chart provides a comprehensive view of the overall update status across all devices, helping to quickly identify the gap between Eligible, Installed, Pending, and Failed updates. The chart uses different colors for each bar: Green for Eligible Updates, Dark Green for Installed Updates, Yellow for Pending Updates, and Dark Red for Failed Updates. It visually represents the following:\nEligible Updates: This represents the overall eligible update count. Hovering over this bar displays the count of eligible updates.\nInstalled Updates: Represents the overall installed update count. Hovering over this bar displays the count of installed updates.\nPending Updates: Represents the count of (Deployed + Pending Updates) that are not installed. Hovering over this bar displays the count of pending updates.\nFailed Updates: Represents the count of updates which did not succeed on devices. Hovering over this bar displays the count of failed updates.\nUpdates Distribution: This nested donut chart displays the distribution of OS updates.\nUpdates Pending: This line chart illustrates the trend of updates pending installation on devices over the past 30 days, highlighting patterns and daily milestones. The X-axis represents the time split over the last 7 days, while the Y-axis shows the cumulative count of updates deployed during this period. The chart includes three lines for Installed Updates, Pending Updates, and Failed Updates, with daily milestones indicated. Hovering over these milestones displays the update count with pending updates. Chart controls allow for maximizing the view and refreshing the data to show only the most recent 30 days.\nOverview Tiles\nVisual elements summarizing essential metrics and statuses:\nEligible Updates: The total count of eligible updates for installation\nInstalled Updates: The total count of successfully installed updates.\nPending Updates: The count of updates that are pending for installation.\nFailed Updates: The count of updates that have failed installation.\nTable List Details\nFollowing are the updates identified by the device as available but have not yet been installed:\nPublished Date: Represents the date when the update was published.\nDetails: Provides additional details about the update.\nClassification: Provides information about the OS Updates.\nInstalled Devices: Displays the count of devices where the update is installed.\nEligible Devices: Displays the count of devices that are eligible for the update.\nPending Devices: Displays the count of devices where the update has been applied but is still awaiting installation.\nFailed Devices: Shows the count of devices where the update failed to install after retries.\nnote\nUsers can click on the Eligible Devices Count, Installed Devices, Pending Devices, and Failed Devices hyperlinks to view detailed information.\nThe following are the other options available on the overview page:\nSet as default: Users can select a default platform (iOS, Windows, Linux, or macOS) by checking the 'Set as default' option. Once a platform is set as the default, the checkbox will be selected and disabled. To change the default, users can navigate to another platform from the dropdown menu, where the 'Set Default Platform' checkbox can be enabled.\nExport: Exports the table data to be saved locally in CSV format.\nSearch Box: Allows users to search for specific information.\nRefresh Icon: Updates the table with real-time data.",
+   "hash": "463e6d251b8aa94a70cc6303b5bb763a82c475917f49f7b77fbba11183e0a2db",
+   "windows": "medium"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/automated-software-updates/",
+   "title": "automated software updates",
+   "date": "2026-10-14",
+   "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/automated-software-updates/",
+   "text": "Automated Software Updates is an advanced software update management capability in SureMDM for iOS/iPadOS that enables organizations to manage and deploy iOS/iPadOS updates across devices in a controlled and automated manner. This feature helps IT administrators streamline update management, maintain device security, minimize disruptions, and ensure iOS/iPadOS devices remain up to date with the latest supported software versions.\nnote\nThis feature is applicable to iOS 18.0 and later and is available to Premium-tier customers and above.\nEnabling Automated Software Updates\nWhen accessing the Automated Software Updates section for the first time, the feature is disabled by default.\nNavigate to SureMDM Console > OS Updates > iOS/iPadOS > Automated Software Updates.\nClick Enable Automated Software Updates.\nOnce enabled:\nAutomated Software Updates becomes active which has the following two sections:\nOverview\nConfiguration\nThe system automatically creates the following four default deployment rings and five charts:\nCanary Ring\nEarly Adopters Ring\nBroad Rollout Ring\nGeneral Availability Ring\nDevice with No Ring Assigned - (Available only as chart)\nThese default rings can be reviewed and configured from the Configuration tab.",
+   "hash": "db4cc04d9363c7be080f6d99db689d4e5ee9721daed12d803a3dd4e30eab8e80",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/automated-software-updates/add-new-ring",
+   "title": "add new ring",
+   "date": "2026-10-16",
+   "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/automated-software-updates/add-new-ring",
+   "text": "Administrators can create custom deployment rings to control how and when iOS updates are rolled out across devices. In addition to the four system-defined default rings, administrators can create up to 15 custom rings, resulting in a maximum of 19 rings (default + custom).\nAccessing the Add New Ring Flow\nNavigate to SureMDM Console > OS Updates > iOS/iPadOS > Automated Software Updates > Configuration.\nClick Add New Ring.\nThe Add New Ring configuration screen opens.\nAdd New Ring – Configuration Sections\nThe Add New Ring screen is organized into multiple sections. Each section must be reviewed and configured before saving the ring.\n1. Ring Details\nThis section defines the identity and purpose of the ring.\nFieldDescription\nRing Name\nEnter a unique name for the ring. This name is used across the Configuration table, Overview charts, and reports.\nDescription\nOptional. Provide a brief description explaining the intent or target audience of the ring (for example, pilot users or specific departments).\n2. Configuration Details\nUpdate Settings\nThis section determines which iOS updates are eligible for deployment through the ring.\nOptionDescription\nAutomatic Software Update Action Management\nAutomatic Download of Available Updates\nAllows administrators to enable or disable automatic downloading of available updates on the device. Select from the following options:\nAllowed (Default)\nAlways On\nAlways Off\nAutomatic Installation of OS Updates\nAllows administrators to enable or disable automatic installation of OS updates on the device. Select from the following options:\nAllowed\nAlways On\nAlways Off\nNote: If Automatic Download of Available Updates is set to Always Off, this option will be disabled. If Automatic Installation of OS Updates is set to Always On, both Automatic Download of Available Updates and Automatic Installation of Security Updates are disabled.\nAutomatic Installation of Security Updates\nAllows administrators to enable or disable automatic installation of security updates on the device. Select from the following options:\nAllowed\nAlways On\nAlways Off\nRapid Security Response Settings\nEnable Rapid Security Response\nIf unchecked, Rapid Security Responses aren’t offered for user installation. Supported on iOS 18.4 and later.\nEnable Rollback\nIf unchecked, the system doesn’t offer Rapid Security Response rollbacks to the user. Supported on iOS 18.4 and later.\nOther Configurations\nOS Update Cadence\nDetermines how software updates are displayed to users when multiple updates are available. Select from the following options:\nNot Configured\nDisplay All\nDisplay only Oldest version\nDisplay only Newest version\nDeferral Settings\nDeferral settings control when updates are offered to devices after Apple releases them.\nSettingDescription\nOS Update Deferral Period\nSpecifies the number of days to defer OS software updates on the device. When configured, software updates appear only after the specified delay following their release. Enter a value between 1 and 90 days.\n[Important Considerations]\nDo not configure the same iOS/iPadOS Software Update settings in both Automated Software Updates and Profiles, as these methods control overlapping update behaviors and may conflict. It is recommended to manage each setting exclusively through one method to ensure consistent and predictable update behavior. If a conflict does occur, the most recently deployed configuration will take precedence and override previous settings.\nCanary rings have zero deferral.\nRings with longer deferral periods may not show installation activity immediately after software update release.\nUpdate Enforcement\nThis section defines how updates are installed on devices.\nSettingDescription\nEnable Update Enforcement\nEnables automatic enforcement of iOS updates based on the configured update settings.\nTarget Version Strategy\nDefines how the target iOS version is determined for enforcement. This field is mandatory. Select from the following options:\nLatest Available Update: Automat…",
+   "hash": "eb9df17a8d39bec0e98408999927e252b4fb694108e9bc50b235d2c95afb7235",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/automated-software-updates/configuration",
+   "title": "configuration",
+   "date": "2026-10-15",
+   "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/automated-software-updates/configuration",
+   "text": "The Configuration tab is used to define, manage, and control update rings for Automated Software Updates. Rings determine what, when and how updates are deployed to devices, enabling staged and risk-controlled rollouts across the organization.\nDeployment Rings Overview\nWhen Automated Software Updates is enabled for the first time, SureMDM automatically creates four default rings:\nCanary Ring\nEarly Adopters Ring\nBroad Rollout Ring\nGeneral Availability Ring\nIn addition to these, administrators can create up to 15 custom rings, allowing a maximum of 19 rings (default + custom) per tenant.\nThe Configuration tab provides a centralized table view of all rings along with controls to manage their lifecycle.\nRings Table\nThe rings table lists all default and custom rings configured in the system.\nTable Columns\nColumn NameDescription\nRing Name\nDisplays the name of the deployment ring. Default rings are clearly marked as Default.\nAssigned Devices\nShows the total number of devices currently assigned to the ring.\nDeferral Period (days)\nIndicates the deferral duration configured for the ring, displayed separately for Major and Minor updates.\nLast Modified\nDisplays the date and time when the ring configuration was last updated.\nRing Details\nProvides a View Details link to open the detailed ring information view.\nRing Table - Action and Controls\nThe following controls are available for each ring based on its type and current state:\nAdd New Ring - Creates a new custom deployment ring. Administrators can define rollout behavior, deferral settings, and device assignments.\nView/Modify - Opens the selected Ring configuration for viewing and editing.\nClone - Creates a copy of an existing ring along with its configuration.\nAssign Devices - Assigns devices or device groups to the selected ring.\nDelete - Removes a custom ring (default rings cannot be deleted).\nSearch - Allows searching rings using keywords such as ring name.\nRefresh - Refreshes the table to display the latest ring status and configuration changes.\nAssign Devices\nThe Assign Devices action allows administrators to associate devices with a ring.\nOnly DDM-enabled devices from the selected groups are eligible for assignment.\nGroups already assigned to the ring appear pre-selected, and administrators can modify group selections as needed.\nA device can belong to only one ring at a time. Reassigning a device overrides its existing ring assignment.\nAdministrators can view devices already assigned to a ring using the View Assigned Devices option.\nAssignment changes are saved after confirmation and reflected in the ring configuration.\nClone Ring\nThe Clone option allows administrators to quickly create a new custom ring using an existing ring’s configuration.\nAll settings except the ring name are copied.\nDevice assignments are not copied.\nCloned rings count toward the 15 custom ring limit.\nRing Details Column (View Details)\nSelecting the View Details hyperlink under the Ring Details column opens a popup that provides comprehensive visibility into the selected ring. The Ring Details popup is organized into the following tabs:\nRing Details Tab\nDisplays the complete configuration summary of the ring, including:\nRing name and Summary\nUpdate Settings\nDeferral Settings\nUpdate Enforcement\nDevice Details Tab\nLists all devices assigned to the ring in a tabular format with the following columns:\nDevice name\nDevice model\nDevice group\nOS Version\nRing Status\nAssignment Time\nActivity Tab\nProvides an audit trail of ring-related actions, including:\nAction - (Ring creation,modification, device assignment, etc)\nPerformed By - Admin username/email\nPerformed On - Timestamp",
+   "hash": "f807038d2672a3c65565631aa0d1fa918d3daf8ef7765c70b1f401969c3852b8",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/automated-software-updates/overview",
+   "title": "overview",
+   "date": "2026-10-15",
+   "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/automated-software-updates/overview",
+   "text": "The Overview section provides an interactive, visual summary of update rollout status across deployment rings. It uses ring-based pie charts to help administrators quickly assess update adoption and device coverage. By default, up to five charts can be displayed at a time. Administrators can use the chart filter to select or deselect rings as needed. If custom rings are configured, one of the existing charts must be deselected to display the custom ring chart.\nDefault Ring Charts\nThe following charts are available by default:\nCanary Ring: Displays devices that receive updates immediately on release day with no deferral. This ring is typically used for early validation and testing.\nEarly Adopters Ring: Displays devices that receive updates after a 3-day deferral period, allowing limited rollout after initial validation.\nBroad Rollout Ring: Displays devices that receive updates after a 7-day deferral period, enabling wider deployment once updates are deemed stable.\nGeneral Availability Ring: Displays devices that receive updates after a 14-day deferral period, representing full-scale deployment across the organization.\nDevices With No Ring Assigned: Displays all devices that are not currently assigned to any update ring, or whose ring assignment is pending or has failed. Unlike other charts, this chart reflects ring assignment status rather than update installation status.\nChart Status and Update Lifecycle\nAll default and custom ring charts display device update status using the following states:\nInstalled – Devices where the update was successfully installed.\nScheduled – Devices that are assigned the update but for which the update process has not yet started.\nDownload In-Progress – Devices that are currently downloading the update package.\nPrepared for Installation – Devices where the update has been downloaded and prepared and is ready for installation.\nInstall In-Progress – Devices that are currently installing the update.\nFailed – Devices where the update installation failed.\nThe Devices With No Ring Assigned chart uses a different set of status values to reflect ring assignment state:\nNot Assigned – Devices that are not associated with any update ring.\nPending – Devices for which ring assignment is in progress..\nUpdate Flow Across Rings\nWhen devices are assigned to the Canary Ring and a new iOS update becomes available for the selected month:\nDevices transition to the Scheduled state when they are assigned an update but the update process has not yet started.\nAs the update deployment progresses, devices move through the following states based on their update status:\nDownload In-Progress – The update package is being downloaded to the device.\nPrepared for Installation – The update has been downloaded and prepared for installation.\nInstall In-Progress – The update is currently being installed on the device.\nInstalled – The update has been successfully installed on the device.\nFailed – The update installation failed.\nThe displayed status reflects the current stage of the update lifecycle on each device.\nnote\nFor the Early Adopters, Broad Rollout, General Availability, and any custom rings, devices may not immediately appear as Pending even when an iOS update is available. This is expected behavior, as these rings follow their configured deferral periods. Devices in these rings remain in an awaiting scheduled installation state until their deferral window elapses.\nDevices With No Ring Assigned\nThe Devices With No Ring Assigned chart provides administrators with a consolidated, high-level view of devices that are not part of any update strategy. The Not Assigned status highlights devices that have no ring configuration applied, enabling administrators to quickly identify unmanaged or overlooked endpoints and take corrective action.\nInteractive Chart Behavior\nAll charts in the Overview section are interactive. Clicking on any chart against any category (Installed, Pending, Failed) opens a detailed view that displays a device-le…",
+   "hash": "02d9566a6e2f762d013b59f25c2b6ba8fdc0c6fae16d97c71be4f721e6256327",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/introduction",
+   "title": "introduction",
+   "date": "2026-10-14",
+   "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/ios-ipados-update/introduction",
+   "text": "The OS Update section is a centralized platform for managing iOS/iPadOS software updates. It provides Administrator with a user-friendly dashboard, offering a comprehensive view of all updates, including missing, pending, and installed ones. This section allows users to review available OS updates and take necessary actions to update devices. By consolidating update management into one location, it enhances efficiency and simplifies the update process. The aim is to ensure OS updates are streamlined and Admins have complete control over the managing OS updates\nnote\nOS Updates are only offered to Premium and above tier customers.\nAdvanced Software Updates\nAutomated Software Updates",
+   "hash": "a57b6d90c5a41ff653f0c49ddacfafaa413debdbef966f89b6b4dfb562c150cc",
    "windows": "none"
   },
   {
@@ -2748,10 +2811,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/enabling-shared-device-mode/",
    "title": "enabling shared device mode",
-   "date": "2026-08-19",
+   "date": "2026-10-15",
    "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/enabling-shared-device-mode/",
    "text": "",
-   "hash": "04943ed40db4db111f69dcfd845a0b4a7f299bd9bde310bd6ba191967b85df69",
+   "hash": "df2c2144c6a2c5f877298653aa3eafe10b68988e2e22f9b2083f3125d180a3b3",
    "windows": "none"
   },
   {
@@ -2896,6 +2959,15 @@
    "url": "https://docs.42gears.com/suremdm/ios-jobs-and-profiles/jobs-for-ios/ios-static-jobs/location-tracking",
    "text": "",
    "hash": "4862f769258f97bc12dd35e779736522a41fb5ea99951faea10270c94e6afee6",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/ios-jobs-and-profiles/jobs-for-ios/ios-static-jobs/network-fence-ios",
+   "title": "network fence ios",
+   "date": "2026-10-14",
+   "url": "https://docs.42gears.com/suremdm/ios-jobs-and-profiles/jobs-for-ios/ios-static-jobs/network-fence-ios",
+   "text": "",
+   "hash": "0508bb4fd02abe355f9958f523665dbe264090e8a986e56a2b30a1458b792bc6",
    "windows": "none"
   },
   {
@@ -3268,12 +3340,12 @@
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/license-management/license-management/license-details/overview",
+   "key": "https://docs.42gears.com/suremdm/license-management/license-details/overview",
    "title": "overview",
-   "date": "2026-09-24",
-   "url": "https://docs.42gears.com/suremdm/license-management/license-management/license-details/overview",
+   "date": "2026-10-13",
+   "url": "https://docs.42gears.com/suremdm/license-management/license-details/overview",
    "text": "",
-   "hash": "24368af49a570206d55e577687f9736962b43061a9e3f77f1f8a4da5743c1744",
+   "hash": "782c7f710d08594aab5fd322dbd7ceb638f8637b5a06eddc23e78c2b33dad48c",
    "windows": "none"
   },
   {
@@ -3756,10 +3828,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/mac-os-enrollment/apple-business-manager-macos/link-abm",
    "title": "link abm",
-   "date": "2026-08-19",
+   "date": "2026-10-14",
    "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/mac-os-enrollment/apple-business-manager-macos/link-abm",
-   "text": "",
-   "hash": "103ff3c2237b55e4f0dd467cc9093c4a1f761ac075fa6dd0b2292a1ed7a7f805",
+   "text": "Link ABM with SureMDM\nIn order to perform MDM functions on enrolled iPads, iPhones and Mac OS, the ABM account has to be linked with SureMDM. For linking, a certificate is required which ensures a secure and trusted relationship between ABM and SureMDM. The following are the steps to get successful ABM linking:\nADE Profile and Server Creation\n1. Navigate to SureMDM Settings > Account Settings > Apple Platform Management > ADE > ADE Profiles > Add.\nClick Add. The ADE Profile creation popup screen appears.\nProfile creation is categorized into three steps:\nEnrollment Setup\nSetup Assistant Configurations\nPost Enrollment Configurations\n2.1 Enrollment Setup\nIn the Profile Details section, configure the below options and click Next\nSettingsDescription\nProfile Name\nEnter the name of the ADE profile\nPlatform\nSelect the platform as macOS\nSupervision\nEnable this option to enforce supervision during ADE enrollment. For macOS 10.15 and later, devices are supervised by default, so disabling this option will have no effect.\nMDM Profile Removable\nDisable to ensure that end users cannot remove the MDM profile installed on the device. Users can always remove the MDM profile for up to 30 days on devices enrolled in ABM, via Apple Configurator setting, regardless of this setting.\nMDM Profile Mandatory\nEnable this option to enforce user to apply MDM profile.\nWait for Configuration to Complete\nIf enabled, keeps the device in Setup Assistant mode until all resources are deployed from the SureMDM server.\nEnable Platform SSO prior to enrollment\nSelect a macOS profile to configure Platform SSO. Only profiles with the Microsoft Entra configuration will be available for selection.\nSelect Profile\nSelect a macOS profile that contains an Extensible SSO payload with Platform SSO Configuration enabled and Enable Registration During Setup enabled. Only profiles meeting these requirements will be available for selection and applied during device setup for Platform Single Sign-On registration. [Applicable only if Enable Platform SSO During Setup is enabled]\nForce enable FileVault\nIf enabled, FileVault will be enabled on the device.\nShow Personal Recovery Key\nIf enabled, personal key would be displayed.\nMinimum OS version\nConfigure the minimum OS version which should be enforced during the ADE Enrollment.\n- Not Configured: No Enforcement will be made during enrollment.\n- Latest Major Version: Devices will be updated to the latest available major OS version. If the latest major OS version is not compatible with the device, enforcement will be skipped.\n- Latest Minimum Version: Devices will be updated to the latest available minimum OS version. If the latest minimum OS version is not compatible with the device, enforcement will be skipped.\n- Latest Version based on device eligibility: Device will be updated to the latest OS version released for the desired devices\nSelect Group\nSelect the desired group in which the device should get enrolled.\n2.2 Setup Assistant Configurations\nIn the Setup Assistant Configurations section, select the necessary setup assistant keys and click Next\nSetup Assistant KeysDescription\nSkip Location Services Setup\nIf disabled, macOS Setup Assistant prompts the user to enable or disable Location Services during enrollment. Available in macOS 10.11 and later.\nSkip Restoring From Backup Pane\nIf disabled, macOS Setup Assistant prompts user to restore from backup during enrollment. Available in macOS 10.9 and later.\nSkip Login with Apple ID & iCloud\nIf disabled, macOS Setup Assistant prompt user to sign in with an Apple ID and iCloud account during enrollment.\nSkip Terms & Conditions Pane\nIf disabled, macOS Setup Assistant prompts user to read and accept the Terms of Use and Conditions during enrollment. Available in macOS 10.9 and later.\nSkip TouchID Setup\nIf disabled, macOS Setup Assistant prompts user to configure Touch ID during enrollment. Available in macOS 10.12.4 and later.\nSkip Apple Pay Setup\nIf disabled, macOS Setup Assistant prompts…",
+   "hash": "52155af4e3be4e94b8d5b3ba076607a77074a59f563aef745063cbac3f342379",
    "windows": "none"
   },
   {
@@ -3835,40 +3907,103 @@
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/apply-updates-macos",
+   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/advanced-software-updates/apply-updates-macos",
    "title": "apply updates macos",
-   "date": "2025-09-30",
-   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/apply-updates-macos",
-   "text": "",
-   "hash": "1e4837434b88df40307060e360c65045c7bc6af7f35ad7c3ddc83df63336e788",
+   "date": "2026-10-14",
+   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/advanced-software-updates/apply-updates-macos",
+   "text": "Apply Updates to macOS Devices\nFollow these steps to directly select updates from the table listand apply them to the required devices:\nOn the SureMDM Web Console, navigate to OS Updates > select the Platform > Scroll down to view the table list.\nSelect the Updates from the table list.\nClick Install and you will have below options which can be selected.\nInstall ActionDescription\nDownload the Software and Install\nThis action will download the OS update onto the device and notify the user with a 60-second countdown before initiating a restart to complete installation.\nDownload/Install the software update then a force restart\nThis action will download the OS update and, if necessary, initiates an automatic restart without user consent. Please note, this may result in potential data loss if unsaved work is present.\nDownload and Schedule to Install - DDM\nThis action will provide the ability to schedule the OS update on specific date and time. Based on the scheduled timestamp, OS update will be installed on the target device.\nTarget Date & Time: Specify the date and time at when the OS update should be installed on the target device(s). The specified time will follow the local timezone of the target device(s).\nDetails URL:Specify the URL containing details about the update.\nNote: Notification will be triggered daily before the update deadline. Notifications will appear hourly during the last 24hrs and bypass Do Not Disturb. In the final hour, alerts are shown at 30 minutes and every 10 minutes. If the device is offline at the scheduled date and time, the update will install 60 minutes after it comes online.\nApplicable only on macOS 14 and above.\nAlternatively:\nClick Eligible Device count to open the eligible device list.\nSelect the required Device using checkbox.\nClick Install and choose the appropriate Install Action to update the OS on the selected devices:\nDownload the Software and Install\nDownload/Install the software update then a forced restart\nDownload and Schedule to Install - DDM\nBased on the OS Update progress on the device, the status would be updated in the SureMDM Console\nStatusDescription\nScheduled\nDisplayed when the OS update is scheduled using *Download and Schedule to Install - DDM** as Install Action type\nDownload In Progress\nDisplayed when the OS update software is downloading.\nPrepared for Installation\nDisplayed when the OS update is downloaded and is about to be installed.\nInstall In Progress\nDisplayed when the OS update is currently in progress of installation.\nN/A\nDisplayed when the OS update is yet to be initiated with downloading the respective update due to device offline or other cases.\nApplicable only for Download the software and install & Download/Install the software update then force a restart Install Action types.\nEdit and Delete Scheduled OS Update Entries\nSureMDM allows admins to edit or delete scheduled macOS OS update entries where the install action type is set to Download and Schedule to Install - DDM. These actions are available in the Pending Devices listing page.\nSteps to Access Edit/Delete Options\nTo access Edit or Delete for a scheduled OS update entry:\nNavigate to SureMDM Console > OS Updates.\nSelect the platform as macOS.\nUnder the Overview section, go to the OS Update Listing Table.\nClick on the Pending Devices count for a specific update.\nIn the Pending Devices popup, select the device entry with Install Action type as Download and Schedule to Install - DDM.\nTwo options will be available: Edit and Delete.\nEdit Behavior\nSteps to Edit a Scheduled OS Update Entry\nIn the Pending Devices listing, select the device with install action:\nDownload and Schedule to Install - DDM.\nClick Edit.\nThis action reopens the Edit Scheduled Date & Time popup, where the following fields can be modified:\nFieldEdit Behavior\nTarget Date & Time\nEditable, unless the scheduled time is within the next 24 hours.\nDetails URL\nAlways editable\nInstall Action\nDisabled (grayed out); cannot be modified using edit.\nTo chan…",
+   "hash": "df797aca5bf66f080b86cf222c17825258ff379c5552f1d611df3caf750dff97",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/macos-update",
+   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/advanced-software-updates/macos-update",
    "title": "macos update",
-   "date": "2025-09-30",
-   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/macos-update",
-   "text": "",
-   "hash": "e49b4de7e3da9b7b392e0e488283a1d4431b6b9810d94a06e0e4fb98bfe32348",
+   "date": "2026-10-14",
+   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/advanced-software-updates/macos-update",
+   "text": "macOS Update\nThe OS Update section is a centralized platform for managing macOS software updates. It provides Administrator with a user-friendly dashboard, offering a comprehensive view of all updates, including missing, pending, and installed ones. This section allows users to access detailed reports on each update and take necessary actions to keep their devices up-to-date. By consolidating update management into one location, it enhances efficiency and simplifies the update process. The aim is to ensure macOS devices are consistently maintained and secure.\nnote\nOS Updates are only offered to Premium and above tier customers.",
+   "hash": "0b32a610851d6ebca1ac3e008c494f9539a15982fca4cb06397cedb33a6df215",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/newjob-for-installing-macos-updates",
+   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/advanced-software-updates/newjob-for-installing-macos-updates",
    "title": "newjob for installing macos updates",
-   "date": "2025-09-30",
-   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/newjob-for-installing-macos-updates",
-   "text": "",
-   "hash": "4359073dc67335473b66a8d8c0bce3ed447cd1598ce2b974e1384360dbdeac27",
+   "date": "2026-10-14",
+   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/advanced-software-updates/newjob-for-installing-macos-updates",
+   "text": "Create and Apply a New Job for Installing macOS updates\nTo create and apply a new job for updating devices with macOS Updates in SureMDM, follow these steps:\nOn the SureMDM Web Console, navigate to OS Updates > Create New Job > Enter Job Name.\nSelect the required Update Type:\nOS Update: Use this option to install specific major or minor updates\nSecurity Updates: Use this option to install OS, app, or security updates.\nOther Update: Use this option to install updates based on the entered Product Key.\nSelect Update: This option appears when OS Updates is chosen. From the dropdown, select the required major or minor version for installation.\nSelect Security Update Version: This option appears when Security Updates is chosen. From the dropdown, select the desired update, which includes OS updates, security updates, and app updates.\nProduct Key: This option appears when Other Update is chosen. Manually enter the product key to install the update.\nInstall Action: Select the Install action as per requirement.\nClick Save. The job is saved under the default folder, and the user is redirected to the default macOS OS updates job folder. You can apply updates to the necessary devices.\nor\nClick Save & Apply and select the required Devices Group or Tags group to install the specific update from the selected device.",
+   "hash": "246b804e48c86ef67e200f269dc51b6cd4c69a63ae75c7bc94ca6143934f1b72",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/overview-section",
-   "title": "overview section",
-   "date": "2025-09-30",
-   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/overview-section",
-   "text": "",
-   "hash": "ae5112030c4efca531380043010aace635cb426cd4c9acf0b4e2efb001eed68b",
+   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/advanced-software-updates/overview",
+   "title": "overview",
+   "date": "2026-10-14",
+   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/advanced-software-updates/overview",
+   "text": "Overview\nThe Overview section provides a snapshot of critical metrics for effective update management. It consists of three main components:\nDashboard\nA centralized display presenting key update management data and insights:\nUpdates Status:\nThis bar chart provides a comprehensive view of the overall update status across all devices, helping to quickly identify the gap between Eligible, Installed, Pending, and Failed updates. The chart uses different colors for each bar: Green for Eligible Updates, Dark Green for Installed Updates, Yellow for Pending Updates, and Dark Red for Failed Updates. It visually represents the following:\nEligible Updates: This represents the overall eligible update count. Hovering over this bar displays the count of eligible updates.\nInstalled Updates: Represents the overall installed update count. Hovering over this bar displays the count of installed updates.\nPending Updates: Represents the count of (Deployed + Pending Updates) that are not installed. Hovering over this bar displays the count of pending updates.\nFailed Updates: Represents the count of updates which did not succeed on devices. Hovering over this bar displays the count of failed updates.\nUpdates Distribution: This nested donut chart displays the distribution of OS updates.\nUpdates Pending: This line chart illustrates the trend of updates pending installation on devices over the past 30 days, highlighting patterns and daily milestones. The X-axis represents the time split over the last 30 days, while the Y-axis shows the cumulative count of updates deployed during this period. The chart includes three lines for Installed Updates, Pending Updates, and Failed Updates, with daily milestones indicated. Hovering over these milestones displays the device count with pending updates. Chart controls allow for maximizing the view and refreshing the data to show only the most recent 30 days.\nOverview Tiles\nVisual elements summarizing essential metrics and statuses:\nEligible Updates: The total count of eligible updates for installation.\nInstalled Updates: The total count of successfully installed updates.\nPending Updates: The count of updates that are pending for installation.\nFailed Updates: The count of updates that have failed installation.\nTable List Details\nFollowing are the updates identified by the device as available but have not yet been installed:\nPublished Date: Represents the date when the update was published.\nDetails: Provide additional details about the update.\nClassification: Provides information about the OS Updates.\nInstalled Devices: Displays the count of devices where the update is installed.\nEligible Devices: Displays the count of devices that are eligible for the update.\nPending Devices: Displays the count of devices where the update has been applied but is still awaiting installation.\nFailed Devices: Shows the count of devices where the update failed to install after retries.\nnote\nUsers can click on the Eligible Devices Count, Installed Devices, Pending Devices, and Failed Devices hyperlinks to view detailed information.\nThe following are the other options available on the overview page:\nSet as default: Users can select a default platform (iOS, Windows, Linux, or macOS) by checking the 'Set as default' option. Once a platform is set as the default, the checkbox will be selected and disabled. To change the default, users can navigate to another platform from the dropdown menu, where the 'Set Default Platform' checkbox can be enabled.\nExport: Exports the table data to be saved locally in CSV format.\nSearch Box: Allows users to search for specific information.\nRefresh Icon: Updates the table with real-time data.",
+   "hash": "95e96b0cf664e7a746c89678ea6215ea80f1cb8b1fffa979d00307bd225edbe3",
+   "windows": "medium"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/automated-software-updates/",
+   "title": "automated software updates",
+   "date": "2026-10-14",
+   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/automated-software-updates/",
+   "text": "Automated Software Updates\nAutomated Software Updates is an advanced software update management capability in SureMDM for macOS that enables organizations to manage and deploy macOS updates across devices in a controlled and automated manner. This feature helps IT administrators streamline update management, maintain device security, minimize disruptions, and ensure macOS devices remain up to date with the latest supported software versions.\nnote\nThis feature is applicable to macOS 15.0 and later and is available to Premium-tier customers and above.\nEnabling Automated Software Updates\nWhen accessing the Automated Software Updates section for the first time, the feature is disabled by default.\nNavigate to SureMDM Console > OS Updates > macOS > Automated Software Updates.\nClick Enable Automated Software Updates.\nOnce enabled:\nAutomated Software Updates becomes active which has the following two sections:\nOverview\nConfiguration\nThe system automatically creates the following four default deployment rings and five charts:\nCanary Ring\nEarly Adopters Ring\nBroad Rollout Ring\nGeneral Availability Ring\nDevice with No Ring Assigned - (Available only as chart)\nThese default rings can be reviewed and configured from the Configuration tab.",
+   "hash": "4f65a85a24a711c602709e2e91e9c726954dc01e80a242f71a5470bdfff6cab2",
    "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/automated-software-updates/add-new-ring",
+   "title": "add new ring",
+   "date": "2026-10-16",
+   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/automated-software-updates/add-new-ring",
+   "text": "Administrators can create custom deployment rings to control how and when macOS updates are rolled out across devices. In addition to the four system-defined default rings, administrators can create up to 15 custom rings, resulting in a maximum of 19 rings (default + custom).\nAccessing the Add New Ring Flow\nNavigate to SureMDM Console > OS Updates > macOS > Automated Software Updates > Configuration.\nClick Add New Ring.\nThe Add New Ring configuration screen opens.\nAdd New Ring – Configuration Sections\nThe Add New Ring screen is organized into multiple sections. Each section must be reviewed and configured before saving the ring.\n1. Ring Details\nThis section defines the identity and purpose of the ring.\nFieldDescription\nRing Name\nEnter a unique name for the ring. This name is used across the Configuration table, Overview charts, and reports.\nDescription\nOptional. Provide a brief description explaining the intent or target audience of the ring (for example, pilot users or specific departments).\n2. Configuration Details\nUpdate Settings\nThis section determines which macOS updates are eligible for deployment through the ring.\nOptionDescription\nAutomatic Software Update Action Management\nAutomatic Download of Available Updates\nAllows administrators to enable or disable automatic downloading of available updates on the device. Select from the following options:\nAllowed\nAlways On\nAlways Off\nAutomatic Installation of OS Updates\nAllows administrators to enable or disable automatic installation of OS updates on the device. Select from the following options:\nAllowed\nAlways On\nAlways Off\nNote: If Automatic Download of Available Updates is set to Always Off, this option will be disabled. If Automatic Installation of OS Updates is set to Always On, both Automatic Download of Available Updates and Automatic Installation of Security Updates are disabled.\nAutomatic Installation of Security Updates\nAllows administrators to enable or disable automatic installation of security updates on the device. Select from the following options:\nAllowed\nAlways On\nAlways Off\nRapid Security Response Settings\nEnable Rapid Security Response\nIf enabled, Rapid Security Responses can be offered for user installation. If unchecked, Rapid Security Responses are not offered for user installation. Note: Supported on macOS 15 and later.\nEnable Rollback\nIf enabled, users can be offered the option to roll back Rapid Security Responses. If unchecked, the system does not offer Rapid Security Response rollbacks to users. Note: Supported on macOS 15 and later.\nOther Configurations\nAllow OS Updates for Standard Users\nIf unchecked, only administrators can perform major and minor software updates.\nDeferral Settings\nDeferral settings control when updates are offered to devices after Apple releases them.\nSettingDescription\nDefer Major OS Update\nPrevents devices from automatically installing major OS updates for up to 90 days after release. When enabled, the Number of days to defer Major OS updates field is displayed. Specify the number of days to defer major OS updates. The field is mandatory and accepts values from 0 to 90.\nNumber of days to defer Major OS updates\nSpecify the number of days to defer a major OS software update on the device. When set, major OS updates only appear after the specified delay, following the release of the software update.\nDefer Minor OS Update\nPrevents devices from automatically installing minor OS updates for up to 90 days after release.\nNumber of days to defer Minor OS updates\nSpecify the number of days to defer a minor OS software update on the device. When set, minor OS updates only appear after the specified delay, following the release of the software update.\nDefer Non-OS System Update\nPrevents devices from automatically installing Apple system updates for up to 90 days after release.\n[Important Considerations]\nDo not configure the same macOS Software Update settings in both Automated Software Updates and Profiles, as these methods control overl…",
+   "hash": "e7fc9f62dc5e236e0d842f53c36d5466c4a1e1a34db3ed6fb6fde8b26b4bacc5",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/automated-software-updates/configuration",
+   "title": "configuration",
+   "date": "2026-10-15",
+   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/automated-software-updates/configuration",
+   "text": "The Configuration tab is used to define, manage, and control update rings for Automated Software Updates. Rings determine what, when and how updates are deployed to devices, enabling staged and risk-controlled rollouts across the organization.\nDeployment Rings Overview\nWhen Automated Software Updates is enabled for the first time, SureMDM automatically creates four default rings:\nCanary Ring\nEarly Adopters Ring\nBroad Rollout Ring\nGeneral Availability Ring\nIn addition to these, administrators can create up to 15 custom rings, allowing a maximum of 19 rings (default + custom) per tenant.\nThe Configuration tab provides a centralized table view of all rings along with controls to manage their lifecycle.\nRings Table\nThe rings table lists all default and custom rings configured in the system.\nTable Columns\nColumn NameDescription\nRing Name\nDisplays the name of the deployment ring. Default rings are clearly marked as Default.\nAssigned Devices\nShows the total number of devices currently assigned to the ring.\nDeferral Period (days)\nIndicates the deferral duration configured for the ring, displayed separately for Major and Minor updates.\nLast Modified\nDisplays the date and time when the ring configuration was last updated.\nRing Details\nProvides a View Details link to open the detailed ring information view.\nRing Table - Action and Controls\nThe following controls are available for each ring based on its type and current state:\nAdd New Ring - Creates a new custom deployment ring. Administrators can define rollout behavior, deferral settings, and device assignments.\nView/Modify - Opens the selected Ring configuration for viewing and editing.\nClone - Creates a copy of an existing ring along with its configuration.\nAssign Devices - Assigns devices or device groups to the selected ring.\nDelete - Removes a custom ring (default rings cannot be deleted).\nSearch - Allows searching rings using keywords such as ring name.\nRefresh - Refreshes the table to display the latest ring status and configuration changes.\nAssign Devices\nThe Assign Devices action allows administrators to associate devices with a ring.\nOnly DDM-enabled devices from the selected groups are eligible for assignment.\nGroups already assigned to the ring appear pre-selected, and administrators can modify group selections as needed.\nA device can belong to only one ring at a time. Reassigning a device overrides its existing ring assignment.\nAdministrators can view devices already assigned to a ring using the View Assigned Devices option.\nAssignment changes are saved after confirmation and reflected in the ring configuration.\nClone Ring\nThe Clone option allows administrators to quickly create a new custom ring using an existing ring’s configuration.\nAll settings except the ring name are copied.\nDevice assignments are not copied.\nCloned rings count toward the 15 custom ring limit.\nRing Details Column (View Details)\nSelecting the View Details hyperlink under the Ring Details column opens a popup that provides comprehensive visibility into the selected ring. The Ring Details popup is organized into the following tabs:\nRing Details Tab\nDisplays the complete configuration summary of the ring, including:\nRing name and Summary\nUpdate Settings\nDeferral Settings\nUpdate Enforcement\nDevice Details Tab\nLists all devices assigned to the ring in a tabular format with the following columns:\nDevice name\nDevice model\nDevice group\nOS Version\nRing Status\nAssignment Time\nActivity Tab\nProvides an audit trail of ring-related actions, including:\nAction - (Ring creation,modification, device assignment, etc)\nPerformed By - Admin username/email\nPerformed On - Timestamp",
+   "hash": "f807038d2672a3c65565631aa0d1fa918d3daf8ef7765c70b1f401969c3852b8",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/automated-software-updates/overview",
+   "title": "overview",
+   "date": "2026-10-14",
+   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/automated-software-updates/overview",
+   "text": "The Overview section provides an interactive, visual summary of update rollout status across deployment rings. It uses ring-based pie charts to help administrators quickly assess update adoption and device coverage. By default, up to five charts can be displayed at a time. Administrators can use the chart filter to select or deselect rings as needed. If custom rings are configured, one of the existing charts must be deselected to display the custom ring chart.\nDefault Ring Charts\nThe following charts are available by default:\nCanary Ring: Displays devices that receive updates immediately on release day with no deferral. This ring is typically used for early validation and testing.\nEarly Adopters Ring: Displays devices that receive updates after a 3-day deferral period, allowing limited rollout after initial validation.\nBroad Rollout Ring: Displays devices that receive updates after a 7-day deferral period, enabling wider deployment once updates are deemed stable.\nGeneral Availability Ring: Displays devices that receive updates after a 14-day deferral period, representing full-scale deployment across the organization.\nDevices With No Ring Assigned: Displays all devices that are not currently assigned to any update ring, or whose ring assignment is pending or has failed. Unlike other charts, this chart reflects ring assignment status rather than update installation status.\nChart Status and Update Lifecycle\nAll default and custom ring charts display device update status using the following states:\nInstalled – Devices where the update was successfully installed.\nScheduled – Devices that are assigned the update but for which the update process has not yet started.\nDownload In-Progress – Devices that are currently downloading the update package.\nPrepared for Installation – Devices where the update has been downloaded and prepared and is ready for installation.\nInstall In-Progress – Devices that are currently installing the update.\nFailed – Devices where the update installation failed.\nThe Devices With No Ring Assigned chart uses a different set of status values to reflect ring assignment state:\nNot Assigned – Devices that are not associated with any update ring.\nPending – Devices for which ring assignment is in progress..\nUpdate Flow Across Rings\nWhen devices are assigned to the Canary Ring and a new macOS update becomes available for the selected month:\nDevices transition to the Scheduled state when they are assigned an update but the update process has not yet started.\nAs the update deployment progresses, devices move through the following states based on their update status:\nDownload In-Progress – The update package is being downloaded to the device.\nPrepared for Installation – The update has been downloaded and prepared for installation.\nInstall In-Progress – The update is currently being installed on the device.\nInstalled – The update has been successfully installed on the device.\nFailed – The update installation failed.\nThe displayed status reflects the current stage of the update lifecycle on each device.\nnote\nFor the Early Adopters, Broad Rollout, General Availability, and any custom rings, devices may not immediately appear as Pending even when a macOS update is available. This is expected behavior, as these rings follow their configured deferral periods. Devices in these rings remain in an awaiting scheduled installation state until their deferral window elapses.\nDevices With No Ring Assigned\nThe Devices With No Ring Assigned chart provides administrators with a consolidated, high-level view of devices that are not part of any update strategy. The Not Assigned status highlights devices that have no ring configuration applied, enabling administrators to quickly identify unmanaged or overlooked endpoints and take corrective action.\nInteractive Chart Behavior\nAll charts in the Overview section are interactive. Clicking on any chart against any category (Installed, Pending, Failed) opens a detailed view that displays a device…",
+   "hash": "245b357535f860c1184af1bdefc5ae8ee648b764db255b8d0cc93658cc0385c9",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/introduction",
+   "title": "introduction",
+   "date": "2026-10-14",
+   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/macos-update/introduction",
+   "text": "The OS Update section is a centralized platform for managing macOS software updates. It provides Administrator with a user-friendly dashboard, offering a comprehensive view of all updates, including missing, pending, and installed ones. This section allows users to access detailed reports on each update and take necessary actions to keep their devices up-to-date. By consolidating update management into one location, it enhances efficiency and simplifies the update process. The aim is to ensure macOS devices are consistently maintained and secure.\nnote\nOS Updates are only offered to Premium and above tier customers.\nAdvanced Software Updates\nAutomated Software Updates",
+   "hash": "36079446ddb92abc03dbeda27d399fcd89aad7f57878f1b71d7ca2b69c703d37",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/platform-sso-microsoft-entra/overview",
+   "title": "overview",
+   "date": "2026-10-16",
+   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/platform-sso-microsoft-entra/overview",
+   "text": "Platform SSO is a macOS capability that integrates local Mac sign-in with Microsoft Entra ID and enables single sign-on to supported organizational applications and websites. Depending on the selected authentication method, it can use a Secure Enclave-backed key, a smart card, or the user's Microsoft Entra password.\nSureMDM provides two configuration areas for setting up this integration:\nExtensible SSO Configuration: Configures the Microsoft Enterprise SSO plug-in, including its extension identifier, Team Identifier, authentication type, and associated URLs.\nPlatform SSO Configuration: Enables Platform SSO and defines the authentication method and user registration behavior.\nBoth configurations are important to the overall setup. The Extensible SSO configuration uses Microsoft's Company Portal SSO extension, while the Platform SSO configuration controls how users register and authenticate with Microsoft Entra ID.",
+   "hash": "a255e9864fd5c686c8fa0a78ce25f417c400ac6051498b3e2bff06e0feeb73cd",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/platform-sso-microsoft-entra/post-enrollment",
+   "title": "post enrollment",
+   "date": "2026-10-16",
+   "url": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/platform-sso-microsoft-entra/post-enrollment",
+   "text": "Post-enrollment registration allows administrators to configure Microsoft Entra Platform Single Sign-On (Platform SSO) on macOS devices that are already enrolled and managed through SureMDM. This approach enables organizations to extend Platform SSO capabilities to existing devices without requiring them to be re-enrolled.\nAdministrators can configure the required Extensible SSO and Platform SSO settings in a macOS profile and deploy it to the enrolled devices through the SureMDM console. Once the profile is installed, users can complete the Microsoft Entra registration process directly on their Macs.\nPrerequisites\nBefore configuring Platform SSO in SureMDM, ensure that the following requirements are met.\nSupported macOS version: macOS 14 Sonoma or later is recommended for Platform SSO.\nMicrosoft Company Portal: Install a compatible version of the Microsoft Company Portal app. Microsoft specifies version 5.2404.0 or later for Platform SSO.\nMicrosoft Entra ID permissions: Users must have the necessary permissions to register or join devices to Microsoft Entra ID.\nMicrosoft Authenticator: Ensure it is available and configured as required by your organization's authentication and multifactor authentication policies.\nNetwork access: Ensure that the device can reach the required Microsoft Entra authentication endpoints.\nRefer to the Microsoft Platform SSO prerequisites for the latest requirements.\nSteps to Configure Extensible SSO in SureMDM\nNavigate to Profiles → macOS → Select Enrollment Type → Access Identity & Access Management → Extensible SSO → Configure.\nStep 1: SSO Configuration tab\nIn this section, configure the options as mentioned below:\nSettingsDescription\nSSO Provider\nSelect Microsoft Enterprise SSO via Company Portal App. Based on the Microsoft Enterprise SSO, below configurations will be automatically pre-populated on this section.\nExtension Identifier\nTeam Identifier\nSSO Type\nURLs\nExtension Identifier\ncom.microsoft.CompanyPortalMac.ssoextension\nTeam Identifier\nUBF8T346G9\nSSO Type\nSelect Redirect.\nURLs\nhttps://login.microsoftonline.com\nhttps://login.microsoft.com\nhttps://sts.windows.net\nhttps://login.partner.microsoftonline.cn\nhttps://login.chinacloudapi.cn\nhttps://login.microsoftonline.us\nhttps://login-us.microsoftonline.com\nDenied Bundle Identifiers\nSpecify the bundle identifiers of applications that should be excluded from SSO behavior, if applicable.\nScreen Locked Behavior\nSelect the appropriate behavior for authentication when the screen is locked.\nExtensionData\nAdd additional extension-specific settings only when required by your organization's configuration.\nThese values identify the Microsoft Enterprise SSO extension and configure redirect-based SSO.\nStep 2: Platform SSO Configuration tab\nAfter configuring the SSO section, now navigate to the Platform SSO Configuration tab and configure the settings below.\nSettingRecommended guidance\nEnable Platform SSO\nEnable this option to activate Platform SSO configuration.\nAuthentication Method\nSelect the authentication method approved for your organization.\nPassword: Synchronizes the Microsoft Entra password with the local Mac account. This is useful when the organization wants the local account password to align with the user's organizational password.\nUse Secure Enclave Key: Uses a hardware-backed cryptographic key for authentication. The local Mac account password remains separate. Microsoft recommends this method for many deployments.\nLogin Frequency\nEnter the duration, in hours, until the system requires a full login instead of a refresh. The minimum value is 1 hour and the default value is 18 hours.\nConfigure according to your authentication requirements\nUse Shared Device Keys\nIf checked, the system uses the same signing and encryption keys for all users. Only supported on the device channel.\nEnable Registration During Setup\nUncheck this option to deploy the platform sso configuration on already enrolled devices.\nEnable Create First User During Setup\nUncheck this…",
+   "hash": "d585a4a14ba72fc1377071eba0c63715c521209c993d17418f7e16ff74dd7053",
+   "windows": "medium"
   },
   {
    "key": "https://docs.42gears.com/suremdm/mac-os-device/mac-os-manage/remote-support-management/remote-support-features-descriptions",
@@ -4098,10 +4233,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/jobs-for-macos/macos-static-jobs/network-fence-macos",
    "title": "network fence macos",
-   "date": "2026-08-19",
+   "date": "2026-10-14",
    "url": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/jobs-for-macos/macos-static-jobs/network-fence-macos",
    "text": "",
-   "hash": "8ec41e758f8574b217ac9e4af84105b9392f0df85c930cd12f03ab36254f366b",
+   "hash": "f14c09a71f5e844fecee96b6b46a511db9378c182821ad12091c88da132f83b8",
    "windows": "none"
   },
   {
@@ -4170,10 +4305,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/jobs-for-macos/macos-static-jobs/text-message",
    "title": "text message",
-   "date": "2025-09-28",
+   "date": "2026-10-14",
    "url": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/jobs-for-macos/macos-static-jobs/text-message",
    "text": "",
-   "hash": "2b0fe1399bc432b451624c50e63052d706b1e12b02e9a617372d895bf489a2a3",
+   "hash": "c5c54bbcd32f21542f86b816f6db66c1f9c2691e1e6e97e0080a2ca359fac414",
    "windows": "none"
   },
   {
@@ -4357,6 +4492,15 @@
    "windows": "none"
   },
   {
+   "key": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/finder",
+   "title": "finder",
+   "date": "2026-10-14",
+   "url": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/finder",
+   "text": "",
+   "hash": "aa28dd7e1a58bbe0bc1cfef1dfced51384982de10c65081e0adb72189dfca3af",
+   "windows": "none"
+  },
+  {
    "key": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/firewall-settings",
    "title": "firewall settings",
    "date": "2026-02-27",
@@ -4449,10 +4593,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/safari-bookmarks",
    "title": "safari bookmarks",
-   "date": "2026-02-27",
+   "date": "2026-10-15",
    "url": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/safari-bookmarks",
    "text": "",
-   "hash": "19ce7d1ed157cf4b09bab0db28d59ffbfc11750b2422ee3e7c3a64aac355b85d",
+   "hash": "9e6cd8669ed88ccc24a3bb70684108a38c9866144c7f53dbcf89fc68b5ecdca2",
    "windows": "none"
   },
   {
@@ -4501,6 +4645,15 @@
    "windows": "none"
   },
   {
+   "key": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/sureaccess-profile",
+   "title": "sureaccess profile",
+   "date": "2026-10-15",
+   "url": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/sureaccess-profile",
+   "text": "",
+   "hash": "d04337b242e78ac74bf5039aa83b3dac4b141716683123c0c2334cf5169b9a20",
+   "windows": "none"
+  },
+  {
    "key": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/system-extensions",
    "title": "system extensions",
    "date": "2026-02-27",
@@ -4512,10 +4665,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/vpn",
    "title": "vpn",
-   "date": "2026-09-11",
+   "date": "2026-10-15",
    "url": "https://docs.42gears.com/suremdm/macos-jobs-and-profiles/macos-jobs-profiles-manage/profiles-for-macos/vpn",
    "text": "",
-   "hash": "4d971523f53c69bd45323d16868e71cc9d0d029b80fb393645664cfdca95753a",
+   "hash": "6837ab2e10217c15dcef90dadcee7c821b4412d0d94ddb7e5af8b7f6450796f4",
    "windows": "none"
   },
   {
@@ -4647,10 +4800,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/manage-devices-suremdm/device-grid/device-toolbar",
    "title": "device toolbar",
-   "date": "2026-04-01",
+   "date": "2026-09-29",
    "url": "https://docs.42gears.com/suremdm/manage-devices-suremdm/device-grid/device-toolbar",
    "text": "",
-   "hash": "fa6db50f145b58e6db4d2c6c92783b1a0aeb19c9b48f797ae2d457050a731a5c",
+   "hash": "cf31b369ec552c590ebd919d4001fa486339b9419dee6dcd42762245f51dff46",
    "windows": "none"
   },
   {
@@ -4719,10 +4872,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/mesh-delivery/overview",
    "title": "overview",
-   "date": "2026-09-03",
+   "date": "2026-09-22",
    "url": "https://docs.42gears.com/suremdm/mesh-delivery/overview",
    "text": "",
-   "hash": "3b1baef8afb8924b54d2e987e71779b9917284b97fbeb0031cb1e619a20948d3",
+   "hash": "f874138fce8c936631a3258d3605870c23cfa71d2498cbd0ba33846716631c64",
    "windows": "none"
   },
   {
@@ -5061,10 +5214,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/quick-help/options/communication",
    "title": "communication",
-   "date": "2026-09-29",
+   "date": "2026-10-16",
    "url": "https://docs.42gears.com/suremdm/quick-help/options/communication",
    "text": "",
-   "hash": "88273edf85c1d414dc302c8c8551ed4e5f8287abae5436fcfe2ddcda484256df",
+   "hash": "af5b22804839c83d00f1656dd49dc8bd17b32f4fcabd87b57bebc79935f0b57c",
    "windows": "none"
   },
   {
@@ -5286,10 +5439,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/android-management/android-enterprise-enrollment",
    "title": "android enterprise enrollment",
-   "date": "2026-09-29",
+   "date": "2026-10-01",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/android-management/android-enterprise-enrollment",
    "text": "Android Enterprise Enrollment\nIn this section, you can easily enroll your SureMDM account into the Android Enterprise. Click here for more information.",
-   "hash": "d16d348f8fd4b52f180d3a73713eeed75ede00b3ea675be02a63db6c3f011fa6",
+   "hash": "9eb829849bb5649b46af253083da11884e19514f340c6730d09430c389d30106",
    "windows": "none"
   },
   {
@@ -5376,10 +5529,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/global-settings",
    "title": "global settings",
-   "date": "2026-07-15",
+   "date": "2026-10-01",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/global-settings",
    "text": "",
-   "hash": "5d3a2a4f18319ffdf28c33979b66b63405a4ac0bb0eff066fa0bd2f72f848e12",
+   "hash": "7e39dbb7ea88423dbad1e62e98e66e6bd40f4573b2a557997c65bd43c4ae6df2",
    "windows": "none"
   },
   {
@@ -5394,19 +5547,19 @@
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/indoor-location-tracking-v2",
    "title": "indoor location tracking v2",
-   "date": "2026-08-27",
+   "date": "2026-10-13",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/indoor-location-tracking-v2",
    "text": "",
-   "hash": "035d79cb0a3ced37dc836771790792651397b823a7f9df1061baf57f924866c9",
+   "hash": "56411deebd6b7b3c3cf4df04d52bb206e5ce1cf1ad3ee5c9511bb3ed9be9fef8",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/ios-management",
    "title": "ios management",
-   "date": "2026-06-09",
+   "date": "2026-10-14",
    "url": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/ios-management",
    "text": "",
-   "hash": "286a54d892c040154b5e1ac3d361fd56d69cb00d0fc43709596814e099672e39",
+   "hash": "7cb6369f2331aca44a3807a65472638eae3d067309d94730e23e3a2783df331d",
    "windows": "none"
   },
   {
@@ -6798,11 +6951,11 @@
   {
    "key": "https://docs.42gears.com/suremdm/windows-application-management/windows-application-manage/windows-appstore/create-app",
    "title": "create app",
-   "date": "2026-07-24",
+   "date": "2026-10-01",
    "url": "https://docs.42gears.com/suremdm/windows-application-management/windows-application-manage/windows-appstore/create-app",
-   "text": "",
-   "hash": "c5595fee1921d9b44255091521bb0a7bd7144fcf83d59a57563a677c8a361022",
-   "windows": "none"
+   "text": "Create an Enterprise App Store (Windows)\nTo create an enterprise App Store, follow these steps:\nNavigate to SureMDM Web Console > App Store > Windows > Add New App.\nIn the Select Options prompt, select the desired option from the following to add the application:\nSettingsDescription\nAdd Application (LOB Apps)\nAdd Line-of-Business (LOB) applications by uploading a file or providing a hosted URL.\nThird Party Apps\nAdd wide-range of Third-party applications from a repository.\nWeb Apps\nAdd Web Apps (shortcuts/bookmarks) that reference web resources and display as icons on devices.\nMSI Apps for EMM\nAdd MSI installer links designed specifically for agentless Windows EMM deployments.\nAdd Application (LOB Applications)\nUse this option to upload custom Windows installers directly or link to an externally hosted file\nSelect Add Application\nChoose one of the following package source options:\nUpload File: Upload the application package by dragging and dropping the file into the designated area or by selecting Browse File. Only .msi and .exe application packages are supported.\nURL: Add an application hosted on a remote server.\nIf URL is selected, provide the following information and click Add:\nFieldDescription\nName\nEnter the name of the application.\nVersion\nEnter the version of the application.\nURL\nEnter the URL of the application where it is hosted. The URL must be accessible on enrolled devices.\nApp Icon URL\nEnter the Application Icon URL to be displayed in the App Store.\nCategory\nProvide the App Category for the Application.\nDescription\nEnter the description for the application.\nFinally added application will be seen in the Add Application section in App Store.\nThird Party Apps\nSelect Third Party Apps to open the curated SureMDM repository.\nSwitch between the Featured Apps and All Apps tabs:\nFeatured Apps: Browse a curated list of over 150 widely used applications that can be added with a few clicks.\nAll Apps: Search the complete application catalog by application name or publisher to find and add any supported app.\nClick View Details to review app information.\nSelect the target application and click Add.\nOnce selected, you’ll see a mandatory acknowledgment popup, as the app ownership and licensing stay with the original provider. Check I understand the risk and wish to continue and click Ok.\nnote\nThe application can be added only after the acknowledgement has been accepted.\nAuto-update of apps can be controlled under Account Settings > Windows Management > Miscellaneous > Third-Party App Management. However, apps that support in-app updates may bypass this setting and update independently. Consider disabling auto-update of such apps where available.\nWeb Apps\nSelect Web Apps.\nConfigure the following fields and click Add.\nFieldDescription\nName\nEnter the display name of the Web App.\nURL\nEnter the full web address.\nCategory\nProvide the App Category for the Application.\nDescription\nEnter the description for the application.\nAdded web applications will be seen in the Web Apps section of the App Store tab in the SureMDM Agent.\nMSI Apps for EMM\nUse this option to configure agentless .msi application installations via Windows native MDM/EMM protocol.\nSelect MSI apps for EMM.\nEnter the download link into the URL field and click search.\nIn the expanded configuration window, fill in the following details and click Add.\nFieldDescription\nApp Title\nEnter the display name for the application.\nCategory\nSpecify an application category.\nURL\nDisplays the hosted direct web URL for the .msi package.\nDescription\nDescription summary of the Application.\nFile Hash\nThe cryptographic file hash (SHA-256) calculated for package integrity and security verification.\nApplication ID\nEnter the unique Application ID associated with the .msi package.\nDescription\nEnter the description for the application.\nnote\nMSI applications deployed using this option, work on devices enrolled purely via Windows EMM and have no dependency on the SureMDM Agent. For advanced functionality…",
+   "hash": "c991441d76da90f23945904fb7cbe378095eee32b6538a914df6f94074f4e6c5",
+   "windows": "high"
   },
   {
    "key": "https://docs.42gears.com/suremdm/windows-application-management/windows-application-manage/windows-appstore/create-deploy",
@@ -6870,10 +7023,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/os-update/advanced-patching/advanced-patching",
    "title": "advanced patching",
-   "date": "2026-08-10",
+   "date": "2026-10-15",
    "url": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/os-update/advanced-patching/advanced-patching",
    "text": "",
-   "hash": "739f49570a67a85411fa55b7ec21809f60259a3a0b1b730f9386e8d6bbc9db21",
+   "hash": "d260764c63c70f05300f5e48973beb698e895a72c42eb3d7e4e67e46e4ad960d",
    "windows": "none"
   },
   {
@@ -7167,10 +7320,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-device-enrollment/provisioning-package/windows-provisioning",
    "title": "windows provisioning",
-   "date": "2026-08-04",
+   "date": "2026-10-05",
    "url": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-device-enrollment/provisioning-package/windows-provisioning",
    "text": "",
-   "hash": "0cfbeb4e42ff06960a528eacb4ce722714c77e58150ecf3ece6e224427d148be",
+   "hash": "566d932e5e3c91de6bf97202021214a5e52353e60d1a332cc6e978b5ee55f3e2",
    "windows": "high"
   },
   {
@@ -7608,10 +7761,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/windows-jobs-and-profiles/jobs-for-windows/windows-static-jobs/location-tracking",
    "title": "location tracking",
-   "date": "2025-09-28",
+   "date": "2026-09-28",
    "url": "https://docs.42gears.com/suremdm/windows-jobs-and-profiles/jobs-for-windows/windows-static-jobs/location-tracking",
    "text": "",
-   "hash": "4862f769258f97bc12dd35e779736522a41fb5ea99951faea10270c94e6afee6",
+   "hash": "515e5315a49ad66bed0add14e1e114284757b0e30c732af138623c3962a5e473",
    "windows": "none"
   },
   {
@@ -7948,6 +8101,15 @@
    "windows": "none"
   },
   {
+   "key": "https://docs.42gears.com/suremdm/windows-jobs-and-profiles/profiles-for-windows/sureaccess-profile",
+   "title": "sureaccess profile",
+   "date": "2026-10-15",
+   "url": "https://docs.42gears.com/suremdm/windows-jobs-and-profiles/profiles-for-windows/sureaccess-profile",
+   "text": "",
+   "hash": "d04337b242e78ac74bf5039aa83b3dac4b141716683123c0c2334cf5169b9a20",
+   "windows": "none"
+  },
+  {
    "key": "https://docs.42gears.com/suremdm/windows-jobs-and-profiles/profiles-for-windows/usb-media-control",
    "title": "usb media control",
    "date": "2025-09-28",
@@ -7959,11 +8121,11 @@
   {
    "key": "https://docs.42gears.com/suremdm/windows-jobs-and-profiles/profiles-for-windows/vpn-profile",
    "title": "vpn profile",
-   "date": "2026-09-11",
+   "date": "2026-10-15",
    "url": "https://docs.42gears.com/suremdm/windows-jobs-and-profiles/profiles-for-windows/vpn-profile",
-   "text": "VPN Configuration Profile\nThe VPN profile enables administrators to effectively set up enrolled devices, allowing them to establish a secure connection to a wireless network using a VPN. By configuring a VPN profile, administrators gain the ability to remotely manage the network connectivity of enrolled devices.\nTo configure VPN settings, follow these steps:\nNavigate to SureMDM Web Console > Profiles > Windows > Add > VPN > Configure.\nEnter a Profile Name.\nConfigure the following VPN settings and click Save:\nSettingsDescription\nConnection Type\nChoose the network connection method from the drop-down menu:\n- SureAccess\n- Native\n- Third Party\nSureAccess Configuration\nConnection Name\nName of the connection to be displayed on the device.\nEnable SureAccess\nCheck this option to enable SureAccess\nAlways On\nCheck this option to keep the VPN connection persistent at all times. This ensures that all device traffic routes through the VPN automatically, providing continuous security.\nTunnelled CIDR List\nSpecify the Classless Inter-Domain Routing (CIDR) ranges allowed to access the VPN.\nTunnelled FQDN List\nList the Fully Qualified Domain Names (FQDNs) allowed to access the VPN.\nBlocked FQDN List\nSelect from the pre-configured FQDNs to explicitly deny access through the secure tunnel.\nEnable Web Filtering\nCheck this option to block user access to websites based on selected content categories.\nBlocked Category List\nChoose the categories of websites (e.g., Social Media, Gaming) that will be blocked when Enable Web Filtering is active.\nEnable Authentication\nCheck this option to enforce user authentication during the initial SureAccess setup process on the device. Uncheck to bypass authentication.\nOther VPN Configuration\nIf Native is selected as Connection Type\nSet the following configurations:\n- Native Protocol Type\n- Server\n- Routing Policy Type\nIf Third Party is selected as Connection Type\nSet the following configurations:\n- Plugin Profile Package Family Name\n- Plugin Profile Server URL List\n- Plugin Profile Custom Configuration\nSupported Third-Party VPNs:\n- Pulse Secure VPN\n- F5 VPN Client\n- SonicWALL Mobile Connect\n- Cisco AnyConnect\n- Check Point Capsule VPN\n- GlobalProtect\nApplication Trigger List\nSpecify a list of applications, separated by commas, that will trigger the VPN connection when launched. If any of the listed applications are opened while the associated VPN profile is active, the VPN profile will automatically route all app connections via VPN.\nRemember Credentials\nCheck this option to save credentials for automatic login on future connections. If unchecked, credentials must be entered each time a connection is made.\nAlways On\nCheck this option to keep the VPN always ON.\nLock Down\nCheck this option to prevent users from stopping or disabling the Secure Client services.\nDNS Suffix\nSpecify a list of DNS Suffix for VPN Interface.\nTrusted Network Detection\nSpecify one or more trusted networks, separated by commas where the VPN will not connect automatically and protected resources are directly accessible to the device over a connected network.\nProxy Auto Config URL\nSpecifies how the VPN client retrieves proxy settings: If Selected:\n- Not Configured: No proxy settings are applied\n- Auto: Enter the Proxy Auto Config URL\n- Manual: Enter the Proxy Server name where all the devices are connected\nnote\nThe above settings vary depending on the Connection Type chosen.\nThe newly created profile will be listed in the Profiles section.\nGo back to the Home tab and select the Windows device(s) or group(s).\nClick Apply to launch the Apply Job/Profile To Device prompt.\nSelect the profile under All Jobs/Profiles.\nClick Apply in the Apply/Profile To Device prompt.",
-   "hash": "cb521c3c2c39cba2d89c4d97e7aac69dda760d4e5ffb384f008bf89e5ebe8212",
-   "windows": "medium"
+   "text": "",
+   "hash": "976ed27c908643acfb31c7d9daea5fa058cd73dc41123f2d7e126cba377ffb2c",
+   "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/windows-jobs-and-profiles/profiles-for-windows/wifi-configuration",

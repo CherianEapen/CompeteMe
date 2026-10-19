@@ -2,13 +2,67 @@
  "id": "manageengine-endpoint-central",
  "vendor": "ManageEngine",
  "kind": "csv",
- "fetchedAt": "2026-10-12T04:30:11.574Z",
+ "fetchedAt": "2026-10-19T04:36:11.497Z",
  "meta": {
   "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
-  "rows": 4649,
+  "rows": 4656,
   "kept": 400
  },
  "items": [
+  {
+   "key": "11.5.2627.59|6ad41def31df",
+   "title": "11.5.2627.59 · BugFixes · DC:SS:MSP:PMP:VMP",
+   "date": "2026-10-14",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "New UI information messages have been added to communicate APD Feature Pack migration as part of the latest enhancements.\nType: BugFixes; Products: DC:SS:MSP:PMP:VMP",
+   "hash": "eacb1103cc9764b230cef82c108aba1da5ff7b49eb7a45784397e296b4fa7401",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.59|25711f598cb1",
+   "title": "11.5.2627.59 · BugFixes · ALL",
+   "date": "2026-10-14",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Tomcat has been upgraded from 9.0.120 to 9.0.122.\nType: BugFixes; Products: ALL",
+   "hash": "9d5f73f1eaa3d46972185062a32a813d1a47eee9adc8a0dddfe6c283ad6dc6bd",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.59|7e4af0c2c7df",
+   "title": "11.5.2627.59 · BugFixes · DC:MSP:RAP:SS",
+   "date": "2026-10-13",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed a security issue in Configurations to improve access control over uploaded configuration files.\nType: BugFixes; Products: DC:MSP:RAP:SS",
+   "hash": "c87edd59d492d230e3630158169041c4c7e96606d898e2165bd7cd32b98b6dd5",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.58|aec3e39ce5bd",
+   "title": "11.5.2627.58 · BugFixes · All",
+   "date": "2026-10-12",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed an issue with restricted column handling in Query Reports.\nType: BugFixes; Products: All",
+   "hash": "b88b6ce66fa617fc9a812c21b1a450390dc161c1ff3b306874e59d2cd69964a7",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.57|ebada93deb1d",
+   "title": "11.5.2627.57 · BugFixes · DC:MSP:BSP",
+   "date": "2026-10-10",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "The issue with Google Credential Provider for Windows sign-up has been fixed.\nType: BugFixes; Products: DC:MSP:BSP",
+   "hash": "6db417b944a4f2ac8dbb2679d00c6818051b70862ffd85bb9d57fee2940d03c1",
+   "windows": "medium"
+  },
+  {
+   "key": "11.5.2627.57|fc9beca026cf",
+   "title": "11.5.2627.57 · BugFixes · DC:SS:MSP:PMP:VMP",
+   "date": "2026-10-10",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed an issue where, with the N-1 setting configured, a Linux patch could be wrongly marked as installed when a lower or superseded version of the same package was deployed in the same task.\nType: BugFixes; Products: DC:SS:MSP:PMP:VMP",
+   "hash": "01a1f16ab583aa83942ecc40f7204bfc61a7a1907921890b16c28ec8220f2553",
+   "windows": "none"
+  },
   {
    "key": "11.5.2627.56|27fab3d80255",
    "title": "11.5.2627.56 · BugFixes · DC",
@@ -3545,60 +3599,6 @@
    "text": "Multi-App kiosk mode is now supported for Windows 11 devices.\nType: BugFixes; Products: DC:MSP",
    "hash": "69124f771bd4ceec2f1c43b094e1a8ee854e6596cf7caa86b3d69a9d18e3bac6",
    "windows": "medium"
-  },
-  {
-   "key": "11.4.2528.03|e44e6ffe014f",
-   "title": "11.4.2528.03 · BugFixes · DC:MSP",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Removed duplicate entries in the Discovered Store Applications report of the Application Control module.\nType: BugFixes; Products: DC:MSP",
-   "hash": "228a177cea0fa5435e259f57af2f256494003b3612c53bcdbeba6d13a2f5bdc1",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.03|3cb50242161d",
-   "title": "11.4.2528.03 · BugFixes · DC:MSP",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Resolved an issue with 'Do Not Show Again' option in Application Control.\nType: BugFixes; Products: DC:MSP",
-   "hash": "706fc74d43b2e1e1daff4bb5b93cb351dffd89d9bf24058361dd4e21c7e58be8",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.03|0c8fc97de62c",
-   "title": "11.4.2528.03 · BugFixes · DC:MSP",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Resolved printing issue with trusted printers in Endpoint DLP.\nType: BugFixes; Products: DC:MSP",
-   "hash": "beae068d7694155f8caceb5fe27ad30f57edb6e83f004a64f2548b2419ea63fb",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.03|3cdba1980a97",
-   "title": "11.4.2528.03 · BugFixes · DC:MSP",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "TPM with PIN and TPM with enhanced PIN detection have been improved in the BitLocker module\nType: BugFixes; Products: DC:MSP",
-   "hash": "b408479dac290858aaff49755d964f52ac647fb46f8e1885fe709d1346e15e0f",
-   "windows": "medium"
-  },
-  {
-   "key": "11.4.2528.03|c1c6effae680",
-   "title": "11.4.2528.03 · BugFixes · DC:MSP",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "The issue where existing agents were not being added when retrial was enabled for Endpoint Security has been fixed\nType: BugFixes; Products: DC:MSP",
-   "hash": "0ad7fe2a1964b973c304c2df827ca0ec4545c001f8a9e2354510518ba7bf8f04",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.03|1393fd1b678b",
-   "title": "11.4.2528.03 · BugFixes · DC:MSP",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "The issue where previously blocked peripheral devices were not allowed after policy modification in Secure USB has been fixed\nType: BugFixes; Products: DC:MSP",
-   "hash": "9ef239753ff043f70cfb16cdf64b3ca9a714b42a9d3e4f60027ee3953e62d606",
-   "windows": "none"
   }
  ]
 }

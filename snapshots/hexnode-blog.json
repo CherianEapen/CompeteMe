@@ -2,47 +2,38 @@
  "id": "hexnode-blog",
  "vendor": "Hexnode",
  "kind": "rss",
- "fetchedAt": "2026-10-12T04:30:08.880Z",
+ "fetchedAt": "2026-10-19T04:36:05.798Z",
  "meta": {
   "url": "https://www.hexnode.com/blogs/feed/",
   "entries": 10
  },
  "items": [
   {
-   "key": "https://www.hexnode.com/blogs/?p=52180",
-   "title": "DPDPA Compliance Device Management: A Guide for Indian Enterprises",
-   "date": "2026-10-12",
-   "url": "https://www.hexnode.com/blogs/dpdpa-compliance-device-management-a-guide-for-indian-enterprises/",
-   "text": "Why device visibility matters for DPDPA readiness\nA DPDPA compliance device management plan starts with knowing which endpoints access personal data, which controls protect it, and what happens when devices leave management. An asset inventory alone cannot answer those questions.\nCustomer records can sit in laptop downloads, employee information can remain in local files, and work applications can store data on BYOD phones. Knowing who owns a device does not tell IT what personal data it holds or whether that data remains accessible after offboarding.\nThis guide helps IT and endpoint administrators connect endpoint visibility with practical controls for protecting personal data across corporate and employee-owned endpoints, from active use through offboarding and reassignment.\nWhat happens when endpoint controls leave personal data exposed?\nEndpoint control gaps can expose personal data, prolong investigations, and leave IT unable to demonstrate which safeguards operated.\nUnauthorised access: Weak access controls can expose customer or employee records.\nData after departure: Former employees may retain work files on personal devices.\nInterrupted operations: Containment and recovery can disrupt access to business applications.\nInvestigation overhead: Missing logs leave IT reconstructing administrative actions manually.\nOnce the relevant provisions take effect, the Data Protection Board can impose penalties up to ₹250 crore for breaches of Section 8(5)’s reasonable-security-sa…",
-   "hash": "22895de620c7c16285956ac4f61286dac7eda7f889da0df3035a31f3fc85d22f",
+   "key": "https://www.hexnode.com/blogs/?p=52465",
+   "title": "Hexnode Work Essentials: Centralizing Email, Calendar, and Contacts on Managed Devices",
+   "date": "2026-10-15",
+   "url": "https://www.hexnode.com/blogs/hexnode-work-essentials/",
+   "text": "Why is managing work email, calendars, and contacts difficult across devices?\nManual account setup and inconsistent device configurations create recurring work for IT administrators. Each operating system, application, and service provider introduces requirements that administrators must address before employees can use their work accounts.\nConsider a new employee who can receive email but cannot access team calendars or essential contacts. The mailbox works, yet the employee still needs separate support requests to complete their setup. Repeating this process across departments makes onboarding harder to standardize.\nEffective email, calendar, and contact management requires a defined configuration for each device environment. IT teams need to distribute the appropriate settings centrally while accounting for corporate and personal ownership, enrollment methods, and the services employees already use.\nWhat happens when work account configurations remain inconsistent?\nInconsistent configurations delay onboarding, increase troubleshooting, and leave employees with unpredictable access to business communications. Administrators must investigate individual devices instead of applying a repeatable configuration.\nAccount and sharing settings also affect where employees can use business information. An inappropriate configuration may permit account use or data sharing beyond organizational requirements. The exposure depends on the application, its permissions, and the controls adm…",
+   "hash": "c3689528c6978d9fbcf0db517f81a032a281b9876467a8c4cd798678ba99348f",
    "windows": "none"
   },
   {
-   "key": "https://www.hexnode.com/blogs/?p=52163",
-   "title": "Linux Patch Management Arrives in Hexnode UEM: One Console for Ubuntu and Fedora",
-   "date": "2026-10-09",
-   "url": "https://www.hexnode.com/blogs/linux-patch-management-arrives-in-hexnode-uem-one-console-for-ubuntu-and-fedora/",
-   "text": "Linux patch management arrives in Hexnode UEM\nLinux patch management is now available in Hexnode UEM, bringing native patch monitoring and deployment into your management console. IT administrators can track missing patches, automate security updates, and manually deploy critical patches when needed.\nThe release introduces three core capabilities: Patch Metrics, Auto & Manual Patch Deployments, and an Update Preferences Policy. Together, these capabilities let administrators review patch status, choose a deployment approach, and configure update schedules and deployment windows for their Linux environment. The announcement covers remote workstations, server environments, and developer setups.\nBring Linux patching into your existing console\nIf your team relies on manual scripts or separate command-line tools for Linux updates, this release brings those patching tasks into Hexnode UEM. You can monitor missing patches and deployment status from the console while controlling when updates reach devices.\nAdministrators can also choose how they select updates. Automated deployment uses predefined conditions to identify qualifying patches. Manual deployment lets administrators select specific updates for targeted Linux devices. Both approaches use Hexnode’s automation framework to determine deployment timing and device assignments. This gives teams a documented approach for recurring update cycles, targeted deployments, and patch testing.\nMore control over patch selection, timing, a…",
-   "hash": "623c734a796de83804ff42055e6091d393ba4ddb6fc91f7c70060d1f5a7d921b",
+   "key": "https://www.hexnode.com/blogs/?p=52470",
+   "title": "App Catalogs vs. App Groups: Structuring App Distribution in Hexnode UEM",
+   "date": "2026-10-15",
+   "url": "https://www.hexnode.com/blogs/app-catalog-vs-app-group-hexnode-uem/",
+   "text": "Why does app distribution become difficult as device fleets grow?\nThe app catalog vs app group distinction helps IT teams separate application discovery from application organization. As device fleets grow, overlapping requirements make it harder to decide which apps belong together, how employees receive them, and who needs them. A clear distribution structure lets administrators reuse application sets while distinguishing mandatory installations from optional tools.\nApp distribution becomes difficult when IT teams manage overlapping application requirements without separating app organization, deployment behavior, and target audiences. Administrators must determine which apps belong together, how installation should happen, and who needs them.\nConsider an administrator selecting applications for new hires, adjusting software after department transfers, and handling optional installation requests. Across Windows, macOS, Android, and iOS, these tasks involve different application packages and installation requirements. Rebuilding similar selections for each request creates repetitive work and makes omissions easier.\nThe app catalog vs app group discussion starts with a practical question: how should IT organize reusable application sets while giving employees appropriate installation options? Answering it requires distinguishing the applications employees must have from those they can choose.\nWhat happens when app distribution lacks a clear structure?\nPoorly structured app d…",
+   "hash": "182d23f7edd83866d94a409b98152cd6e1300b0c7df58a47520b7b5c1022d78d",
    "windows": "medium"
   },
   {
-   "key": "https://www.hexnode.com/blogs/?p=52161",
-   "title": "Live Terminal for Windows: Troubleshoot Devices Without Interrupting a Single User",
-   "date": "2026-10-09",
-   "url": "https://www.hexnode.com/blogs/live-terminal-for-windows/",
-   "text": "What is Hexnode Live Terminal for Windows?\nHexnode Live Terminal for Windows provides secure, real-time access to a managed Windows device’s PowerShell environment directly from the Hexnode UEM console. IT administrators can open the command-line interface through their web browser and troubleshoot the endpoint in the background.\nThis approach does not require a screen-sharing session or third-party remote desktop software. It also avoids taking control of the display or interrupting the user while they work.\nThrough the terminal, administrators can diagnose and resolve device issues, run diagnostic scripts, restart stopped services and query system logs. These capabilities give IT teams a direct way to investigate Windows problems remotely without relying on an interactive desktop session.\nWhy does non-disruptive Windows troubleshooting matter?\nTraditional remote troubleshooting often depends on screen sharing. Starting a session may require the user to accept a prompt, pause current work or surrender control of the display while an administrator investigates. This makes even routine checks visible and disruptive to the employee.\nBackground PowerShell access changes this workflow. With Live Terminal for Windows, an administrator can inspect logs, run diagnostics and restart stopped services from the Hexnode UEM console while the user’s desktop remains available. The user does not need to participate in the troubleshooting session, and IT can work at the command line without…",
-   "hash": "2b41e62b9226babddad3ac76a00936cb4717a9de90d897a8d03edd6163b7f2af",
-   "windows": "high"
-  },
-  {
-   "key": "https://www.hexnode.com/blogs/?p=52111",
-   "title": "Deploy eSIM on Android Devices: End-to-End Cellular Provisioning, No Physical SIM Cards Required",
-   "date": "2026-10-08",
-   "url": "https://www.hexnode.com/blogs/deploy-esim-android-devices-hexnode/",
-   "text": "Deploy eSIM on Android devices with Hexnode UEM to bring cellular provisioning into your management console. With the new Deploy eSIM and Remove eSIM remote actions, IT teams can provide cellular profiles to supported Android devices and remove them when requirements change.\nFrom onboarding remote employees to preparing devices for reassignment, these actions give administrators a way to manage cellular profiles without handling physical SIM cards.\nTwo new actions for Android cellular management\nHexnode UEM now supports remote deployment and removal of Android eSIM profiles. Each action addresses a different part of the profile’s lifecycle.\nDeploy eSIM – Provisions an eSIM profile remotely and supports activation on the device. Administrators can initiate the process from the console without having the device in hand.\nRemove eSIM – Deletes profiles that Hexnode deployed to the device. Administrators can use it when an employee leaves, hardware changes hands, or the organization moves to a different carrier plan.\nTogether, these actions cover adding a cellular profile and removing it when it no longer serves the device’s intended use.\nKeep cellular provisioning connected to device management\nPhysical SIM management can add logistical work to remote deployments and device refreshes. Hexnode’s eSIM actions move profile provisioning and removal into the console, giving administrators a remote way to handle those tasks.\nThe practical value extends beyond the first deployment. Cel…",
-   "hash": "30762a977deb3856aa148bd72c8bd091faa3c364fa746db7d049ee15e5061d47",
-   "windows": "medium"
+   "key": "https://www.hexnode.com/blogs/?p=52414",
+   "title": "How to introduce AI agents into IT operations with human oversight?",
+   "date": "2026-10-15",
+   "url": "https://www.hexnode.com/blogs/ai-agents-it-operations-human-oversight/",
+   "text": "AI agents in IT operations can interpret requests, determine next steps, and execute authorized actions across endpoint, identity, and ticketing systems. However, a single incorrect action can affect multiple systems before an administrator intervenes.\nHuman-in-the-loop oversight involves human participation in an AI-driven workflow through activities such as supervision, feedback, intervention, or approval at appropriate decision points. To introduce AI agents safely, IT teams must define permissions, establish approval checkpoints, monitor execution, handle failures, and expand autonomy gradually.\nWhat Are the Risks of AI Agents in IT Operations?\nAI agents in IT operations introduce four key risks: excessive permissions, unapproved actions, incomplete audit trails, and unclear failure ownership. These gaps can leave administrators unable to contain changes, reconstruct events, or determine who must resolve a failed workflow.\nExcessive permissions: An LLM-based agent receives administrator-level access when its task only requires reading device inventory. OWASP classifies excessive permissions, functionality, and autonomy as contributing causes of the Excessive Agency vulnerability.\nUnapproved high-impact actions: An agent isolates a production endpoint without human approval, disrupting critical business operations.\nIncomplete audit trails: An agent modifies security policies without recording the initiating request, approval decision, or execution outcome.\nUnclear failure…",
+   "hash": "b9e2ee01c515b66e573129ad22c230d8baa04bb76f52b3478876f203572c0232",
+   "windows": "none"
   }
  ]
 }
