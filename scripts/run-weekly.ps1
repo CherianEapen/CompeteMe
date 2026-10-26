@@ -118,37 +118,40 @@ function Find-ClaudeExe {
       "$env:APPDATA\npm\claude.cmd")) {
     if (Test-Path $p) { return (Get-Item $p).FullName }
   }
-  # 4. Last resort: the desktop app's private versioned folder.
+  # 4. Last resort: the desktop app's private CLI store.
   #
-  # Two traps here. First, the layout is not stable: it was <version>\claude.exe until early
-  # Oct 2026 and is now <version>\<hash>\claude.exe, so match either depth.
-  #
-  # Second, and the reason four scheduled runs failed to find it: the Claude desktop app is
-  # an MSIX-packaged app, so %APPDATA%\Claude is redirected into its package container. A
-  # process running inside the app (and anything it launches) sees the folder; a scheduled
-  # task, which has no package identity, sees the real %APPDATA%\Claude and finds nothing
-  # there. So search the package LocalCache path directly as well -- that one is a plain
-  # directory every process can read.
-  $packageRoots = @()
+  # This location is NOT stable and should not be relied on. Since Sept 2026 it has been, in
+  # order: %APPDATA%\Claude\claude-code\<version>\claude.exe; the same with an extra <hash>
+  # level; the MSIX package redirect under %LOCALAPPDATA%\Packages\Claude_*\LocalCache
+  # (invisible to a scheduled task, which has no package identity, though the app's own
+  # child processes see it); and now %LOCALAPPDATA%\Claude-Data\claude_<pkg>\claude-code\...
+  # Rather than hardcode a fifth shape, search a few plausible roots for any claude.exe.
+  $searchRoots = @(
+    "$env:LOCALAPPDATA\Claude-Data",
+    "$env:APPDATA\Claude",
+    "$env:LOCALAPPDATA\Claude"
+  )
   $packages = Join-Path $env:LOCALAPPDATA 'Packages'
   if (Test-Path $packages) {
-    $packageRoots = @(Get-ChildItem -Path $packages -Directory -Filter 'Claude_*' -ErrorAction SilentlyContinue |
-      ForEach-Object { Join-Path $_.FullName 'LocalCache\Roaming\Claude\claude-code' })
+    $searchRoots += @(Get-ChildItem -Path $packages -Directory -Filter 'Claude_*' -ErrorAction SilentlyContinue |
+      ForEach-Object { Join-Path $_.FullName 'LocalCache\Roaming\Claude' })
   }
   $candidates = @()
-  foreach ($root in (@("$env:APPDATA\Claude\claude-code", "$env:LOCALAPPDATA\Claude\claude-code") + $packageRoots)) {
-    foreach ($pattern in @('*\claude.exe', '*\*\claude.exe')) {
-      $candidates += @(Get-ChildItem -Path (Join-Path $root $pattern) -File -ErrorAction SilentlyContinue)
-    }
+  foreach ($root in $searchRoots) {
+    if (-not (Test-Path $root)) { continue }
+    # Bounded depth: deep enough for <store>\claude-code\<version>\<hash>\claude.exe,
+    # shallow enough to stay fast.
+    $candidates += @(Get-ChildItem -Path $root -Filter 'claude.exe' -File -Recurse -Depth 4 -ErrorAction SilentlyContinue)
   }
   if ($candidates.Count -eq 0) { return $null }
-  # The version is the folder named like a version, which is the parent or the grandparent
-  # depending on the layout above.
+  # The version is whichever ancestor folder is named like a version, at whatever depth.
   $best = $candidates | Sort-Object `
     @{ Expression = {
         $v = $null
-        foreach ($name in @($_.Directory.Name, $_.Directory.Parent.Name)) {
-          if ($name -and [version]::TryParse($name, [ref]$v)) { return $v }
+        $dir = $_.Directory
+        for ($i = 0; $i -lt 4 -and $dir; $i++) {
+          if ([version]::TryParse($dir.Name, [ref]$v)) { return $v }
+          $dir = $dir.Parent
         }
         [version]'0.0.0'
       }; Descending = $true }, `
