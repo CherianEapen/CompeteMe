@@ -2,14 +2,23 @@
  "id": "scalefusion-release-notes",
  "vendor": "Scalefusion",
  "kind": "d360-index",
- "fetchedAt": "2026-10-19T04:36:09.506Z",
+ "fetchedAt": "2026-10-26T04:30:07.690Z",
  "meta": {
   "url": "https://help.scalefusion.com/docs/latest-release-notes-year-2026",
-  "articleModifiedAt": "2026-10-19T04:36:08.7294664Z",
+  "articleModifiedAt": "2026-10-26T04:30:07.0591327Z",
   "articleTitle": "Latest Release Notes: Year 2026",
   "fetched": 1
  },
  "items": [
+  {
+   "key": "Scalefusion October 16th, 2026 Release Notes",
+   "title": "Scalefusion October 16th, 2026 Release Notes",
+   "date": "2026-10-20",
+   "url": "https://help.scalefusion.com/docs/scalefusion-october-16th-2026-release-notes",
+   "text": "Version Information\nScalefusion Dashboard: v68.3.0\nRelease Notes\n1. Compliance Reports\nCompliance Reports have been enhanced and are now available to customers based on their plan. IT Administrators can generate reports based on OS version, application version, and encryption status to evaluate device compliance against defined conditions. Supported compliance criteria include:\na. OS Version: Generate compliance reports for Android, iOS, Windows, and macOS devices. For Windows, administrators can create condition groups using multiple conditions based on revision and build number. For Android, iOS, and macOS, compliance is evaluated by comparing the device OS version against a specified version using a selected operator.\nb. Application Version: Generate reports for single or multiple applications across Android, iOS, Windows, and macOS. Administrators can group up to five application conditions in a single report.\nc. Encryption Status: Generate compliance reports for Windows and macOS devices based on their encryption status.\nd. Saved Compliance Reports: Save compliance report configurations as reusable filters to avoid repeatedly defining the same conditions. Up to 25 reports can be saved and shared across administrators.\ne. Role-Based Access Control (RBAC): Compliance Reports now have dedicated RBAC permissions. Administrators with read/write access can save, edit, and delete reports, while other administrators can view reports and use saved filters.\nf. DeepDive Integration: A new Compliance Overview section in DeepDive displays saved compliance reports graphically when enabled. Compliance is evaluated daily based on the conditions defined in each report, and the corresponding graphs are displayed.\n2. OneIdP Conditional Access Enhancement for ChromeOS\nConditional Access settings in OneIdP now allow IT Administrators to block access to the service from ChromeOS devices.\nTeam\nTeam Scalefusion",
+   "hash": "409b52d3c17e352038d65a533b8700890aee65c008ef70a9408724ca0019bd50",
+   "windows": "medium"
+  },
   {
    "key": "Scalefusion October 9th, 2026 Release Notes",
    "title": "Scalefusion October 9th, 2026 Release Notes",

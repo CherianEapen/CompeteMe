@@ -2,12 +2,21 @@
  "id": "intune-whats-new",
  "vendor": "Microsoft Intune",
  "kind": "html-sections",
- "fetchedAt": "2026-10-19T04:36:04.024Z",
+ "fetchedAt": "2026-10-26T04:30:05.259Z",
  "meta": {
   "url": "https://learn.microsoft.com/en-us/intune/whats-new/",
-  "headings": 28
+  "headings": 29
  },
  "items": [
+  {
+   "key": "Week of October 19, 2026",
+   "title": "Week of October 19, 2026",
+   "date": "2026-10-19",
+   "url": "https://learn.microsoft.com/en-us/intune/whats-new/#week-of-october-19-2026",
+   "text": "App management\nUnlimited licenses for Apple volume purchase program (VPP) apps\nYou can now assign VPP apps with unlimited licenses from Apple Business and Apple School Manager, making it easier to deploy apps across your organization without managing license quantities.\nApplies to:\niOS/iPadOS\nmacOS",
+   "hash": "32ebf80405968139c11f28fb45622052ed14f0093d3c86c95ec5d1ead954593b",
+   "windows": "none"
+  },
   {
    "key": "Week of October 12, 2026",
    "title": "Week of October 12, 2026",
@@ -52,15 +61,6 @@
    "text": "Device security\nFaster compliance updates for Windows devices\nMicrosoft Intune now supports client-driven compliance evaluation for Windows devices. Supported devices can detect changes to compliance signals, including firewall, antivirus, BitLocker, Microsoft Defender status, operating system build, real-time protection, and Secure Boot, and proactively request reevaluation rather than waiting for a scheduled check-in. This provides faster compliance updates for remediation, reporting, and access decisions. Evaluation of compliance policies during check-in also occurs when a calculation is triggered.\nFor more information, see Create a compliance policy in Microsoft Intune.\nApplies to:\nWindows",
    "hash": "32ccff7f5af9d065f41a3848737dc1f84e98836131201974cdb867cde3b72924",
    "windows": "high"
-  },
-  {
-   "key": "Week of September 7, 2026",
-   "title": "Week of September 7, 2026",
-   "date": "2026-09-07",
-   "url": "https://learn.microsoft.com/en-us/intune/whats-new/#week-of-september-7-2026",
-   "text": "Advanced capabilities (formerly \"Microsoft Intune Suite\")\nNew Remote Help for Windows version available\nRemote Help for Windows version 5.2.1040.0 is now available. This release updates subscription metadata for E3, E5, and E7 licenses. Remote Help features are unchanged from version 5.2.1037.0.\nApplies to:\nWindows",
-   "hash": "fed5bc4068db37d5d4f42b4cfa0d6480f8df2023efdf8b02b57148e190737636",
-   "windows": "medium"
   }
  ]
 }

@@ -2,13 +2,31 @@
  "id": "miradore-releases",
  "vendor": "Miradore",
  "kind": "link-list",
- "fetchedAt": "2026-10-19T04:36:07.860Z",
+ "fetchedAt": "2026-10-26T04:30:08.199Z",
  "meta": {
   "url": "https://www.miradore.com/knowledge/releases/",
-  "links": 370,
-  "fetched": 3
+  "links": 372,
+  "fetched": 2
  },
  "items": [
+  {
+   "key": "https://www.miradore.com/knowledge/releases/bug-fix-for-home-screen-kiosk-mode-and-unlimited-vpp-licenses-for-free-apps/",
+   "title": "Bug fix for Home screen & kiosk mode and \"Unlimited\" VPP licenses for free apps",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/bug-fix-for-home-screen-kiosk-mode-and-unlimited-vpp-licenses-for-free-apps/",
+   "text": "In this article\nToggle\nHome screen & kiosk mode fix (Android)\nWe fixed an issue where deploying a Home screen & kiosk mode configuration profile with the Kiosk mode with 1 app configuration type could cause some Android devices to flash repeatedly and briefly exit kiosk lockdown. Kiosk mode with 1 app now starts reliably and stays active, including after a device reboot.\nThe fix is delivered via a Miradore client update. We recommend updating the Miradore client app on all your managed Android devices to version 2.18.12 (Build 475), even if you have not seen this issue. Keeping the client up to date ensures you have the latest fixes and improvements.\n“Unlimited” shown for free VPP apps and books (iOS and iPadOS)\nFrom October 22, 2026, Apple moves free apps and books in Apple Business Manager and Apple School Manager to an unlimited license model. Miradore now shows \"Unlimited\" for these apps and books instead of a very large number (2147483647).\nWhat changes in the Miradore UI:\nThe VPP licenses column is renamed \"Used VPP licenses\" and now shows used / total instead of available / total. For free apps, the total shows \"Unlimited\" (for example, \"5 / Unlimited\"). This applies to the application list (Management > Applications), the Assign VPP license wizard on the user page, and the Assign VPP license dialog on the device page.\nOn the application version page, the Assign VPP license dialog and its confirmation step show \"Unlimited\" as the available license count.\nOn the application version page, the License status section shows the number of assigned licenses and \"Unlimited\" available for free apps, instead of the pie chart. Paid apps keep the pie chart.\nSorting and filtering by license count still work. Unlimited sorts as the highest value, and filtering with \"Unlimited\" finds free apps.\nLicense availability checks never block assigning an unlimited app or book.\nPaid apps and books keep their numeric license counts and behave as before, apart from the column change to used / total.\nNotice that this is a UI change only. The Miradore API v1 and reporting data continue to return the raw value provided by Apple (2147483647) for unlimited licenses.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
+   "hash": "6459c2cb2ee0624111747485236aea6fda022061ba6517a2502cbba1d5b1bc5b",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/bug-fix-for-file-uploads/",
+   "title": "Bug fix for file uploads",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/bug-fix-for-file-uploads/",
+   "text": "We fixed an issue where, in some cases, file uploads in Miradore failed and displayed an error. This affected, for example:\nCertificate uploads\nApple Push Certificate, Apple Business Manager (ADE), and VPP token uploads and renewals\nCSV imports\nConfiguration profile imports\nImages and files in configuration profiles, such as Web Clip icons, wallpapers, Android contacts, and Apple custom configurations\nUploads in the Getting started wizard\nThis is now fixed, and uploads work reliably. You don't need to do anything. If you have experienced a failed upload before, try it again.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
+   "hash": "09405ab2ed89cd5bfe9947102e1234a96e5233ba72da404a02f20ff6dfec6dee",
+   "windows": "none"
+  },
   {
    "key": "https://www.miradore.com/knowledge/releases/known-issue-os-update-information-and-os-update-installation-on-ios-ipados-and-macos-27/",
    "title": "Known issue: OS update information and OS update installation on iOS, iPadOS, and macOS 27",
@@ -30,10 +48,10 @@
   {
    "key": "https://www.miradore.com/knowledge/releases/end-of-support-for-devices-running-macos-versions-below-macos-12-monterey/",
    "title": "End of support for devices running macOS versions below macOS 12 (Monterey)",
-   "date": "2026-10-14",
+   "date": null,
    "url": "https://www.miradore.com/knowledge/releases/end-of-support-for-devices-running-macos-versions-below-macos-12-monterey/",
    "text": "As of 14 October, 2026, we no longer provide support for devices running OS versions below macOS 12.\nThe change does not affect currently enrolled devices and some functionalities remain operational on lower macOS versions. However, only devices running macOS 12 or later can be enrolled in Miradore.\nIn this article\nToggle\nWhy are we raising the official minimum supported macOS version?\nTo keep Miradore up to date with the latest platform requirements and security standards, we are raising our official support for macOS devices from version 10.7 (OS X Lion) to 12 (Monterey).\nThis change is the result of our updating the .NET framework, which affects the Miradore client and is needed to keep it secure. With the new .NET version, we can no longer support devices running OS versions below macOS 12.\nFor increased security and the best user experience, we always recommend using the latest operating system available.\nMiradore client update (version 1.6.8)\nAs part of this change, we are releasing Miradore client version 1.6.8 (Build 147) for macOS devices. This is a maintenance release required for future platform compatibility — it does not introduce new features.\nThe update is delivered through the App Store and does not require any admin action. The timing depends on each device's settings:\nIf automatic app updates are enabled and the device is connected to a Wi-Fi network, the update typically installs within a few hours or overnight.\nIf automatic app updates are enabled and the device uses cellular data, it might wait to connect to a Wi-Fi network before installing the update within a few hours or overnight.\nIf automatic app updates are disabled, device users must update the Miradore client from the App Store manually.\nDevices running macOS versions older than macOS 12 that already have the client installed will continue to work, but they will not receive this or future client updates.\nWhat does this mean for devices running older macOS versions?\nNothing is being actively blocked at this time, and existing device management functionality may continue to work on older versions.\nDevices running versions older than macOS 12 are no longer officially supported by Miradore, which means we cannot guarantee that all features will work as expected on those devices.\nMiradore client version 1.6.8 (Build 147) cannot be installed on devices running versions older than macOS 12. Devices that already have an older version of the client installed will continue to work but will not receive future updates. This may impact features that depend on the macOS client, such as app and patch management.\nWe strongly recommend upgrading older devices to macOS 12 or newer whenever possible.\nWhich platforms are supported?\nMiradore continues to support the following operating system platforms:\nAndroid 7 and later\niOS 13 and later\niPadOS 13 and later\nmacOS 12 and later\nWindows 7, 8, 10, and 11\nIf you have any questions or concerns, don't hesitate to reach out to your Account Manager or our Support team.\nRelated Articles\n(Mostly) Android Improvements on December 19th, 2017\nRelease Notes on June 16th, 2015\nEnding support for Android 4, Windows Phone, and Android 5 enrollment\nDEP Automation and Other Improvements on December 14th, 2018\nAndroid Wi-Fi configuration profile update\nRelease Notes on March 27th, 2014\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
-   "hash": "07768e56c86a9a561f952cf2fdac12b915396416f99b0e338aecff0cda809d24",
+   "hash": "26996aa39d8e593eb95fc3c6031180a0f7c947f8dc926a5ebc289c6b355085b5",
    "windows": "medium"
   },
   {
@@ -61,24 +79,6 @@
    "url": "https://www.miradore.com/knowledge/releases/organization-linked-activation-lock-for-ios-configuration-profile-deployment-wizard-and-wallpaper-image-size-improvement-android-kiosk-mode-bug-fix/",
    "text": "In this article\nToggle\nOrganization-linked Activation Lock for iOS\nWe implemented support for organization-linked Activation Lock for iPhone and iPad devices. You can now enable and disable organization-linked Activation lock remotely using Miradore.\nFor detailed information on organization-linked Activation Lock, see Activation Lock for iOS devices.\nConfiguration profile deployment wizard improvement\nWe replaced the step-by-step wizard for the Deploy configuration profile action available from the Management > Devices page and individual device pages with a modern dialog. The new dialog only appears on the Management > Devices page if a single device is selected. If multiple devices are selected, the previous wizard is used.\nWallpaper image size increase for iOS and Android\nWe increased the image file size limit from 1 MB to 2 MB for the Set wallpaper action for iOS and Android devices.\nFor instructions on setting a wallpaper on your devices remotely, see Set or change wallpaper on Android devices and Set a custom wallpaper on iOS devices.\nBug fix for exiting kiosk mode on Android devices during remote sessions\nWe fixed a bug where remotely viewing the screen of an Android device in kiosk mode showed a black screen when trying to enter the security code to exit kiosk mode. With the fix, the security code input field remains masked to hide the characters, but the screen is no longer entirely hidden.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
    "hash": "8539c3517ba41ba2e7959fe9aa5c3c7557ffcac80d918dcbf055a9ae7a5a089e",
-   "windows": "medium"
-  },
-  {
-   "key": "https://www.miradore.com/knowledge/releases/start-patch-installation-now-and-retry-client-installation-action-improvements/",
-   "title": "Start patch installation now and Retry client installation action improvements",
-   "date": null,
-   "url": "https://www.miradore.com/knowledge/releases/start-patch-installation-now-and-retry-client-installation-action-improvements/",
-   "text": "The Actions > Start patch installation now and Actions > Retry client installation options, available on Mac and Windows device pages, now use modern dialogs instead of step-by-step wizards, streamlining the experience.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
-   "hash": "ef62bf3ac5e509f00bf705e298b3521963fc5bcfd4d01fa24dab22fae832e009",
-   "windows": "medium"
-  },
-  {
-   "key": "https://www.miradore.com/knowledge/releases/credential-manager-policy-configuration-profile-for-android-set-wallpaper-and-merge-devices-dialog-improvement-bug-fix-for-wi-fi-configuration-profile-for-ios-and-macos/",
-   "title": "Credential manager policy configuration profile for Android, Set wallpaper and Merge devices dialog improvement, bug fix for Wi-Fi configuration profile for iOS and macOS",
-   "date": null,
-   "url": "https://www.miradore.com/knowledge/releases/credential-manager-policy-configuration-profile-for-android-set-wallpaper-and-merge-devices-dialog-improvement-bug-fix-for-wi-fi-configuration-profile-for-ios-and-macos/",
-   "text": "In this article\nToggle\nCredential manager policy configuration profile for Android\nWe added a new Credential manager policy configuration profile for Android devices. This configuration profile allows you to control which credential provider apps device users can use. For detailed information and instructions, see Create a Credential manager policy configuration profile for Android devices.\nSet wallpaper and Merge devices dialog improvement\nWe replaced the step-by-step wizards of the Set wallpaper (iOS and Android) and Merge devices (Android and Windows) actions with modern dialogs.\nBug fix for Wi-Fi configuration profile for iOS and macOS\nWe fixed a bug where defining a Minimum TLS version and Maximum TLS version for the WPA/WPA2 (Enterprise) and WPA3 (Enterprise) security modes for the iOS and macOS Wi-Fi configuration profile resulted in the TLS version values not being saved. With the fix, the configuration profile correctly saves and loads the minimum and maximum TLS version settings and applies them to the devices.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
-   "hash": "206ccbef2946269fb401dbf770134a4c2b0ec6b795f85f95e809e8c4e214b39b",
    "windows": "medium"
   },
   {
@@ -971,6 +971,24 @@
    "text": "",
    "hash": "d146f46b04d07d452fd9dc3c9ab141a2cf93391e3dd82196288f51515275d913",
    "windows": "none"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/start-patch-installation-now-and-retry-client-installation-action-improvements/",
+   "title": "Start patch installation now and Retry client installation action improvements",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/start-patch-installation-now-and-retry-client-installation-action-improvements/",
+   "text": "The Actions > Start patch installation now and Actions > Retry client installation options, available on Mac and Windows device pages, now use modern dialogs instead of step-by-step wizards, streamlining the experience.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
+   "hash": "ef62bf3ac5e509f00bf705e298b3521963fc5bcfd4d01fa24dab22fae832e009",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.miradore.com/knowledge/releases/credential-manager-policy-configuration-profile-for-android-set-wallpaper-and-merge-devices-dialog-improvement-bug-fix-for-wi-fi-configuration-profile-for-ios-and-macos/",
+   "title": "Credential manager policy configuration profile for Android, Set wallpaper and Merge devices dialog improvement, bug fix for Wi-Fi configuration profile for iOS and macOS",
+   "date": null,
+   "url": "https://www.miradore.com/knowledge/releases/credential-manager-policy-configuration-profile-for-android-set-wallpaper-and-merge-devices-dialog-improvement-bug-fix-for-wi-fi-configuration-profile-for-ios-and-macos/",
+   "text": "In this article\nToggle\nCredential manager policy configuration profile for Android\nWe added a new Credential manager policy configuration profile for Android devices. This configuration profile allows you to control which credential provider apps device users can use. For detailed information and instructions, see Create a Credential manager policy configuration profile for Android devices.\nSet wallpaper and Merge devices dialog improvement\nWe replaced the step-by-step wizards of the Set wallpaper (iOS and Android) and Merge devices (Android and Windows) actions with modern dialogs.\nBug fix for Wi-Fi configuration profile for iOS and macOS\nWe fixed a bug where defining a Minimum TLS version and Maximum TLS version for the WPA/WPA2 (Enterprise) and WPA3 (Enterprise) security modes for the iOS and macOS Wi-Fi configuration profile resulted in the TLS version values not being saved. With the fix, the configuration profile correctly saves and loads the minimum and maximum TLS version settings and applies them to the devices.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
+   "hash": "206ccbef2946269fb401dbf770134a4c2b0ec6b795f85f95e809e8c4e214b39b",
+   "windows": "medium"
   },
   {
    "key": "https://www.miradore.com/knowledge/releases/ui-theme-selector-in-the-msp-portal/",

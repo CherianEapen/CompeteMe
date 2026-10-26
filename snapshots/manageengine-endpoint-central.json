@@ -2,13 +2,58 @@
  "id": "manageengine-endpoint-central",
  "vendor": "ManageEngine",
  "kind": "csv",
- "fetchedAt": "2026-10-19T04:36:11.497Z",
+ "fetchedAt": "2026-10-26T04:30:08.856Z",
  "meta": {
   "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
-  "rows": 4656,
+  "rows": 4662,
   "kept": 400
  },
  "items": [
+  {
+   "key": "11.5.2627.61|211700ade31c",
+   "title": "11.5.2627.61 · BugFixes · DC:SS:MSP:PMP:VMP",
+   "date": "2026-10-23",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed a vulnerability in sanitizing agent data\nType: BugFixes; Products: DC:SS:MSP:PMP:VMP",
+   "hash": "a967309ce290dfa1f94f6af72c287278b440fd1b1bc6ee2702eede6328d8775e",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.61|2da45112a31d",
+   "title": "11.5.2627.61 · BugFixes · DC:SS:MSP:PMP:VMP",
+   "date": "2026-10-23",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed an issue where feature packs bypassed exclusion rules in specific scenarios.\nType: BugFixes; Products: DC:SS:MSP:PMP:VMP",
+   "hash": "891f58600e645e4fa45d8b398a6bd30767917c207ba41f857e03c99572093de6",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.60|271346c658c2",
+   "title": "11.5.2627.60 · BugFixes · DC:ACP:SS:MSP",
+   "date": "2026-10-16",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed an issue where the Application Control elevation prompt was not displayed during the installation of certain Microsoft Store applications.\nType: BugFixes; Products: DC:ACP:SS:MSP",
+   "hash": "f2a7fb72b0f08dac3463d3510e5b8c439c0745a55f811b3747a8d33e4db18cd6",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.60|9a30f5211aae",
+   "title": "11.5.2627.60 · BugFixes · DC:DCP:SS:MSP",
+   "date": "2026-10-16",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "File Audit timestamps now account for Daylight Saving Time.\nType: BugFixes; Products: DC:DCP:SS:MSP",
+   "hash": "a161156f88ebd856da8c92db13cec34ae2b8c71f63c2f3a74f3f0e91257ef2fc",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.60|2049665b8ae4",
+   "title": "11.5.2627.60 · BugFixes · DC:SS:MSP:PMP:VMP",
+   "date": "2026-10-16",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed an issue on Linux where the 'Configuration in Progress' pop-up stayed on screen in a specific scenario, causing multiple pop-ups to pile up over time.\nType: BugFixes; Products: DC:SS:MSP:PMP:VMP",
+   "hash": "c1ac1ed4f7dbcc77da1620ee4f4a53aea00a399232c1ca6fe0c565a89f4e2d6f",
+   "windows": "none"
+  },
   {
    "key": "11.5.2627.59|6ad41def31df",
    "title": "11.5.2627.59 · BugFixes · DC:SS:MSP:PMP:VMP",
@@ -3554,51 +3599,6 @@
    "text": "Endpoint Central MSP now supports macOS 26 Tahoe.\nType: Enhancements; Products: DC:MSP",
    "hash": "16029de5e7544db1acd20ffb51efa77a07a74e6c2ca3096af5b8329f3a2aaac7",
    "windows": "none"
-  },
-  {
-   "key": "11.4.2528.05|e28a37520cd9",
-   "title": "11.4.2528.05 · Enhancements · DC",
-   "date": "2025-09-13",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Endpoint Central now supports macOS 26 Tahoe.\nType: Enhancements; Products: DC",
-   "hash": "277f4b88d33eec608b40ba45b4d1026c82fc302bd4984a16299e386dabbce191",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.05|a381c0dc4eae",
-   "title": "11.4.2528.05 · Enhancements · DC:MSP",
-   "date": "2025-09-13",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Introducing Export and Import functionality for the Application Group in the Application Control module.\nType: Enhancements; Products: DC:MSP",
-   "hash": "515168339a11fc20b114b2bdfe4602f4b79a5e6ca50866c528b9fde4c0881ab8",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.03|73b67b807a01",
-   "title": "11.4.2528.03 · BugFixes · DC:MSP",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Resolved an issue with the uninstallation of Windows cumulative updates views.\nType: BugFixes; Products: DC:MSP",
-   "hash": "f15641d891025ebe5d651d23ed429dcaa7d36c38ca6f3425de3e86b29d12cfb9",
-   "windows": "medium"
-  },
-  {
-   "key": "11.4.2528.03|d4f7bb844b66",
-   "title": "11.4.2528.03 · BugFixes · DC:MSP",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Fixed incorrect system listings in the Automate Patch Deployment feature.\nType: BugFixes; Products: DC:MSP",
-   "hash": "ff10f8692d8d174adc93fe46f83c1dd77ff9b2302f05f5e70f6b73faf43a9e08",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.03|a6450d8d1e7d",
-   "title": "11.4.2528.03 · BugFixes · DC:MSP",
-   "date": "2025-09-04",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Multi-App kiosk mode is now supported for Windows 11 devices.\nType: BugFixes; Products: DC:MSP",
-   "hash": "69124f771bd4ceec2f1c43b094e1a8ee854e6596cf7caa86b3d69a9d18e3bac6",
-   "windows": "medium"
   }
  ]
 }

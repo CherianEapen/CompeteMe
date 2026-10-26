@@ -2,12 +2,21 @@
  "id": "intune-blog",
  "vendor": "Microsoft Intune",
  "kind": "rss",
- "fetchedAt": "2026-10-19T04:36:04.895Z",
+ "fetchedAt": "2026-10-26T04:30:05.928Z",
  "meta": {
   "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftIntuneBlog",
   "entries": 20
  },
  "items": [
+  {
+   "key": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/your-guide-to-intune-at-microsoft-ignite-2026/ba-p/4564556",
+   "title": "Your guide to Intune at Microsoft Ignite 2026",
+   "date": "2026-10-21",
+   "url": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/your-guide-to-intune-at-microsoft-ignite-2026/ba-p/4564556",
+   "text": "If you manage and secure endpoints, you are already on the front line of your organization’s AI transformation. Trusted, cloud native endpoint management and protection across Windows, macOS, and mobile devices are essential to preparing for AI, securing data and AI, and using AI to strengthen defense. This guide makes it easy to find the Microsoft Ignite 2026 sessions featuring the latest Microsoft Intune management and security innovations, no AI required.\nUse this guide to find Ignite sessions and labs, meet the teams behind each, and start thinking about the organizational questions you want to bring to the conference. Bookmark this post at aka.ms/IntuneAtIgnite so you can find it again.\nFeatured sessions\nStart with these three sessions for the clearest view of what’s new in Intune and what's coming next.\nAI ready endpoints: secure, manage and scale (BRK404)\nDon’t miss the Intune strategy session for the week. See how Intune turns insights across your digital estate into policy and action—and verifies that each change keeps devices healthy and secure. Learn how IT can gain fleet-wide visibility and control, reduce exposure, and use AI-powered tools to scale its impact.\nSpeakers: Jason Roszak, VP, Product Management, Microsoft Intune and Eugenie Burrage, Director, Product Marketing, Microsoft Intune\nBuild a trusted device and app foundation for AI at scale (BRK328)\nIT’s endpoint estate continues to expand, and deploying a new device is only the beginning. Once deployed, t…",
+   "hash": "a7f9b62906e9b396cc661e662ad0a24ffe5bf0d819c23716bab5a1b931965f5d",
+   "windows": "medium"
+  },
   {
    "key": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-september/ba-p/4537394",
    "title": "What’s new in Microsoft Intune – September",
@@ -178,15 +187,6 @@
    "text": "This isn’t your typical webinar. It’s an interactive event packed with four Ask Microsoft Anything (AMA) sessions, where you can bring your toughest questions and get real answers from the experts. Here’s what’s on the agenda (all times in PST):\n8:00 AM – Secure your endpoints with policy and Microsoft Defender\n9:00 AM – Manage apps like a pro with Microsoft Intune\n10:00 AM – Best practices for applying Zero Trust using Intune\n10:30 AM – Copilot and agentic-centered endpoint management\nWhy Tech Community Live?\nEndpoint management is evolving fast—and so are the challenges. This event gives you direct access to the Microsoft engineering teams creating new features and capabilities in Intune. It’s your chance to:\nGet answers to real-world questions straight from the experts.\nLearn best practices you can apply immediately.\nInfluence the future by sharing your feedback with the people who build the product.\nWhether you’re looking to strengthen compliance, streamline app deployment, or embrace Zero Trust strategies, you’ll walk away with actionable insights to keep your organization secure and efficient.\nHow to join the fun\nBrowse the session topics above.\nHit Add to calendar on the session pages to save them, well, to your calendar.\nSign in to the Tech Community (top right corner of the site) then click Attend to receive event reminders.\nPost your questions in the Comments section at the bottom of each session page early and often. We’ll be ready to tackle them live! Don’t miss…",
    "hash": "d0264de2514b69be42cad1c06b888e00e388dcae367d0fe73b98c6899b9ceaa3",
    "windows": "medium"
-  },
-  {
-   "key": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-december-2025/ba-p/4476486",
-   "title": "What's new in Microsoft Intune: December 2025",
-   "date": "2025-12-11",
-   "url": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-december-2025/ba-p/4476486",
-   "text": "Following Microsoft Ignite 2025, I caught up with colleagues and Intune MVPs who made the trip to San Francisco. There was a lot to talk about, but one conversation stood out: When I asked what surprised them most about this year for Microsoft Intune, the answer wasn't a single capability. It was witnessing busy IT admin work disappear by automating work that used to consume hours of admin time.\nMicrosoft Security Copilot agents in Intune exemplify that shift, but the introduction of additional agents doesn’t address other IT challenges. Throughout 2025, the Intune engineering team has shipped capabilities for cross-platform support, security, and more that has helped to remove many areas of friction from day-to-day operations. For a more complete story about what was delivered and what’s coming soon, watch the on-demand Microsoft Ignite presentation or read the What’s new in Microsoft Intune at Ignite blog.\nToday, I'll focus on several recent capabilities worth examining in detail from November and December.\nEmpowering IT by automating and enhancing workflows\nFor many of the customers I spoke with this year, context-switching drains productivity. Switching between multiple console nodes to manage security tasks, elevation requests, and admin approvals increases friction and the chance of missing something.\nThe new Admin tasks node under Tenant Administration in the Intune admin center consolidates this workflow into a single view. Now in public preview, this centralized loc…",
-   "hash": "e3f50c372b4875b3afa32a8240b67126289912dbbbad3a1ab3aae3f5861bfbf6",
-   "windows": "none"
   }
  ]
 }

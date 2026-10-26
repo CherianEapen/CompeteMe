@@ -2,12 +2,21 @@
  "id": "hexnode-blog",
  "vendor": "Hexnode",
  "kind": "rss",
- "fetchedAt": "2026-10-19T04:36:05.798Z",
+ "fetchedAt": "2026-10-26T04:30:06.733Z",
  "meta": {
   "url": "https://www.hexnode.com/blogs/feed/",
   "entries": 10
  },
  "items": [
+  {
+   "key": "https://www.hexnode.com/blogs/?p=52554",
+   "title": "Windows Local Account Management in Hexnode UEM: A Step-by-Step Guide",
+   "date": "2026-10-26",
+   "url": "https://www.hexnode.com/blogs/windows-local-account-management-hexnode-uem/",
+   "text": "What Is Windows Local Account Management?\nWindows local account management is the process of creating, configuring, securing, and removing user accounts stored directly on individual Windows devices.\nOn shared workstations and kiosk-style devices, manual account administration can create inconsistent privileges and leave orphaned accounts after employee offboarding. With Windows unified endpoint management (UEM), IT admins can manage local accounts remotely across multiple devices instead of configuring each device individually.\nA local account is defined on an individual Windows device, which acts as its security authority. A domain account normally authenticates against an organizational directory service and may have permissions to access local and domain resources.\nWindows can allow offline sign-in when a domain controller is unavailable. This requires valid cached domain credentials and enabled credential caching. However, users cannot access network resources that require domain validation until the domain controller becomes available.\nAn administrator account can perform privileged system tasks, change settings, and manage other users. In contrast, a standard account supports routine activities with fewer privileges, reducing unnecessary administrative access.\nManual account management can create recurring operational challenges:\nTask\nPotential operational challenge\nCreate account\nRepeating account setup across devices can delay provisioning and increase the risk of i…",
+   "hash": "17e5a4aca971fdb04071bafb3c681d7b3ada83731a466117435ec62d5eb49ca9",
+   "windows": "high"
+  },
   {
    "key": "https://www.hexnode.com/blogs/?p=52465",
    "title": "Hexnode Work Essentials: Centralizing Email, Calendar, and Contacts on Managed Devices",

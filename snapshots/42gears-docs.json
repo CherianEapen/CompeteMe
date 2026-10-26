@@ -2,11 +2,11 @@
  "id": "42gears-docs",
  "vendor": "42Gears",
  "kind": "sitemap",
- "fetchedAt": "2026-10-19T04:36:09.339Z",
+ "fetchedAt": "2026-10-26T04:30:08.046Z",
  "meta": {
   "urls": 952,
-  "fetched": 25,
-  "fetchCandidates": 30
+  "fetched": 2,
+  "fetchCandidates": 2
  },
  "items": [
   {
@@ -2397,10 +2397,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/integrations/integration-guides/sureaccess/sureaccess-profile-configuration/profile-windows",
    "title": "profile windows",
-   "date": "2026-10-15",
+   "date": "2026-10-21",
    "url": "https://docs.42gears.com/suremdm/integrations/integration-guides/sureaccess/sureaccess-profile-configuration/profile-windows",
-   "text": "SureAccess Configuration Guide for macOS and Windows\n1. Overview\nUse this guide to configure SureAccess in SureMDM for macOS and Windows devices. You can configure the VPN connection, control website access, block specific URLs, and manage data uploads through Domain-Based and Application-Based DLP policies.\n2. Configuration Flow\n3. Configure the SureAccess Payload\nStep 1: Open the Profile Configuration\nSign in to the SureMDM console.\nNavigate to Profiles.\nSelect the platform for which you want to configure SureAccess: macOS or Windows.\nSelect the Enrollment Type if macOS is selected\nLocate the SureAccess payload and click Configure.\nImportant for Windows: A profile containing a VPN Configuration payload cannot also be configured with the SureAccess payload. Remove the conflicting payload before proceeding, if required.\nStep 2: Configure VPN Settings\nIn the SureAccess payload, open the VPN section and configure the available settings according to your organization's requirements.\nSettingAdministrator Action\nEnable SureAccess\nWhen enabled, deploys the SureAccess agent and applies secure remote access settings. When disabled, removes the configuration.\nConnection Name\nEnter the name to identify the connection.\nAlways On\nKeeps the SureAccess connection active at all times.\nTunnelled CIDR List\nSelect the IP ranges (CIDR blocks) that should be accessed through SureAccess. DNS Resolutions are skipped for this IP range and are accessible over IP addresses only.\nTunnelled FQDN List\nSelect the FQDNs that will be routed through the SureAccess tunnel.\nEnable Authentication\nEnables user authentication during SureAccess setup.\nReview the connection settings before moving to Web & Data Protection.\n4. Configure Web & Data Protection\nExpand Web & Data Protection in the SureAccess payload.\nEnable Enable Protection Policies.\nConfigure the required protection modules:\nWeb Content Filtering\nBlocked URLs\nDLP Configuration\n5. Configure Web Content Filtering\nUse Web Content Filtering to control website access based on website categories.\nSteps\nUnder Web & Data Protection, open Web Content Filtering.\nEnable Enable Protection Policies, if it is not already enabled.\nSelect the required Filtering Mode:\nAllow Websites — allow websites in the selected categories and restrict others.\nBlock Websites — block websites in the selected categories.\nSelect the required categories, such as:\nOnline Ads\nPornography / Sexually Explicit / Adult Content\nSocial Networking\nPopup Ads\nUnknown\nIf you need to identify a website's category, use the AskDeepthought lookup option, where available.\nReview the selected mode and categories.\nNote: Select the filtering mode carefully. The selected mode determines how the category selection is applied.\n6. Configure Blocked URLs\nUse this section to block specific websites or domains regardless of the category-filtering configuration.\nSteps\nExpand Blocked URLs.\nClick Add.\nSelect the required input method:\nEnter Manually — enter the URLs or domains to block.\nChoose from FQDN List — select entries from the available FQDN resources.\nImport CSV — import a supported file containing the URLs.\nEnter or select the required entries, or upload the file.\nReview the entries and resolve any invalid or duplicate values as indicated by the console.\nSave the entries.\nTo maintain the list later, use the available Edit, Delete, and Search options. Multiple entries can be selected for deletion.\nTo manage reusable FQDN resources, navigate to:\nSettings → Account Settings → Enterprise Integration → SureAccess → SureAccess Configurations → FQDN Resources\nImportant: Blocked URLs take precedence over the other configured filtering rules.\n7. Configure Domain-Based Upload Control\nUse Domain-Based Upload Control to define which domains users can upload data to.\nSteps\nUnder DLP, enable Enable DLP Configuration. This option is unchecked by default.\nIn Domain-Based Upload Control, select an Upload Policy:\nAllow only specified domains, blocks rest — allow uploads onl…",
-   "hash": "b21bf3327967f01c6c451cf0598fb3b8478515849f0085efc4543bb2f60fcf6a",
+   "text": "SureAccess Configuration Guide for macOS and Windows\n1. Overview\nUse this guide to configure SureAccess in SureMDM for macOS and Windows devices. You can configure the VPN connection, control website access, block specific URLs, and manage data uploads through Domain-Based and Application-Based DLP policies.\nSupported Agent Versions\nWeb Protection and Data Protection settings in SureAccess are supported on devices running the following minimum agent versions. Ensure that the installed agent meets or exceeds the specified version to access and use these settings.\nWindows: Agent version 2.6.3 or later\nmacOS: Agent version 3.0.9 or later\n2. Configuration Flow\n3. Configure the SureAccess Payload\nStep 1: Open the Profile Configuration\nSign in to the SureMDM console.\nNavigate to Profiles.\nSelect the platform for which you want to configure SureAccess: macOS or Windows.\nSelect the Enrollment Type if macOS is selected\nLocate the SureAccess payload and click Configure.\nImportant for Windows: A profile containing a VPN Configuration payload cannot also be configured with the SureAccess payload. Remove the conflicting payload before proceeding, if required.\nStep 2: Configure VPN Settings\nIn the SureAccess payload, open the VPN section and configure the available settings according to your organization's requirements.\nSettingAdministrator Action\nEnable SureAccess\nWhen enabled, deploys the SureAccess agent and applies secure remote access settings. When disabled, removes the configuration.\nConnection Name\nEnter the name to identify the connection.\nAlways On\nKeeps the SureAccess connection active at all times.\nTunnelled CIDR List\nSelect the IP ranges (CIDR blocks) that should be accessed through SureAccess. DNS Resolutions are skipped for this IP range and are accessible over IP addresses only.\nTunnelled FQDN List\nSelect the FQDNs that will be routed through the SureAccess tunnel.\nEnable Authentication\nEnables user authentication during SureAccess setup.\nReview the connection settings before moving to Web & Data Protection.\n4. Configure Web & Data Protection\nExpand Web & Data Protection in the SureAccess payload.\nEnable Enable Protection Policies.\nConfigure the required protection modules:\nWeb Content Filtering\nBlocked URLs\nDLP Configuration\n5. Configure Web Content Filtering\nUse Web Content Filtering to control website access based on website categories.\nSteps\nUnder Web & Data Protection, open Web Content Filtering.\nEnable Enable Protection Policies, if it is not already enabled.\nSelect the required Filtering Mode:\nAllow Websites — allow websites in the selected categories and restrict others.\nBlock Websites — block websites in the selected categories.\nSelect the required categories, such as:\nOnline Ads\nPornography / Sexually Explicit / Adult Content\nSocial Networking\nPopup Ads\nUnknown\nIf you need to identify a website's category, use the AskDeepthought lookup option, where available.\nReview the selected mode and categories.\nNote: Select the filtering mode carefully. The selected mode determines how the category selection is applied.\n6. Configure Blocked URLs\nUse this section to block specific websites or domains regardless of the category-filtering configuration.\nSteps\nExpand Blocked URLs.\nClick Add.\nSelect the required input method:\nEnter Manually — enter the URLs or domains to block.\nChoose from FQDN List — select entries from the available FQDN resources.\nImport CSV — import a supported file containing the URLs.\nEnter or select the required entries, or upload the file.\nReview the entries and resolve any invalid or duplicate values as indicated by the console.\nSave the entries.\nTo maintain the list later, use the available Edit, Delete, and Search options. Multiple entries can be selected for deletion.\nTo manage reusable FQDN resources, navigate to:\nSettings → Account Settings → Enterprise Integration → SureAccess → SureAccess Configurations → FQDN Resources\nImportant: Blocked URLs take precedence over the other configured filtering ru…",
+   "hash": "edccad9bdb233683d2e27fe1bc8e3cf212578b55176cdc2d03c990fa6fe718fa",
    "windows": "high"
   },
   {
@@ -2802,28 +2802,28 @@
   {
    "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/deploy-sdm-job",
    "title": "deploy sdm job",
-   "date": "2026-04-07",
+   "date": "2026-10-21",
    "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/deploy-sdm-job",
    "text": "",
-   "hash": "77f14b43bd76bfc7ab35def463fe251338d6e3310fd4e0eced5b5f2328605f70",
+   "hash": "740e7941f77ecf63fdce333bf8dbd6a0486dd43f406c99ba9b5291e4c41c1d58",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/enabling-shared-device-mode/",
    "title": "enabling shared device mode",
-   "date": "2026-10-15",
+   "date": "2026-10-21",
    "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/enabling-shared-device-mode/",
    "text": "",
-   "hash": "df2c2144c6a2c5f877298653aa3eafe10b68988e2e22f9b2083f3125d180a3b3",
+   "hash": "9de62d4df0da97a5adcc31539def118ebaf61f7d04441ad8f9a166d36e005eab",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/enabling-shared-device-mode/profile-configuration",
    "title": "profile configuration",
-   "date": "2026-08-19",
+   "date": "2026-10-21",
    "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/enabling-shared-device-mode/profile-configuration",
    "text": "",
-   "hash": "a0388444446d2fdd391ab283137634bab1d3aedea99943697c33db01e136fa0f",
+   "hash": "c92d691ea54fbf50ec3a9779f7a620c400cf961696638ad2147ef0f0da217e81",
    "windows": "none"
   },
   {
@@ -2838,10 +2838,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/sdm-ios",
    "title": "sdm ios",
-   "date": "2026-04-08",
+   "date": "2026-10-21",
    "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/sdm-ios",
    "text": "",
-   "hash": "bfa19dde173ec7b1e03152ea8818fe95d89d311b599592d5689bf080a84f819f",
+   "hash": "21b29314eebf562d3b9fa8e0128b2eb82a7233abe2aedcdd9a4e54eb99bc9b65",
    "windows": "none"
   },
   {
@@ -7356,10 +7356,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-device-enrollment/windows-cli-enrollment",
    "title": "windows cli enrollment",
-   "date": "2026-07-23",
+   "date": "2026-10-19",
    "url": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-device-enrollment/windows-cli-enrollment",
-   "text": "",
-   "hash": "ff3a9ee95cea53cb4105c345fd9a6be4ed31c4ba973c567bca574968120b1b11",
+   "text": "Windows CLI Based Enrollment\nWindows CLI (Command Line Interface)–based enrollment enables administrators to onboard Windows devices into SureMDM using command-line instructions. This method supports automated and standardized enrollment by allowing administrators to deploy enrollment commands through scripts or enterprise deployment mechanisms such as Group Policy Objects (GPO), device management tools, or other MDM solutions.\nCLI-based enrollment supports bulk device onboarding and migration scenarios while enabling a zero-touch setup experience. This ensures consistent device configuration and reduces manual intervention during the enrollment process.\nSupported Versions\nWindows 10\nWindows 11\nPrerequisites\n‘CLI Based Enrollment’ is supported on Windows devices with SureMDM Agent Version 6.22.0 and later.\nTo enroll Windows devices using CLI, follow the steps below:\nStep 1: Navigate to Windows Enrollment\nLogin to the SureMDM Web Console.\nNavigate to: Enrollment > Manual Enrollment > Windows > CLI Based Enrollment\nStep 2: Configure Enrollment Settings\nClick Configure to customize enrollment settings.\nThe Enrollment Configuration window appears.\nEnter the required configuration details:\nEnrollment ConfigurationDescription\nEnrollment Group Path\nSpecifies the group in the SureMDM console where the device will be enrolled.\nDevice Name Type\nSelect the naming method for Windows devices. The selected option will be used as the device's assigned name. Select from one of the following options:\nUse Mac Address\nUse System Generated BIOS Name\nUse Device Host Name\nUse Product Serial Number\nSureMDM Agent URL\nSelect the source for the SureMDM Agent. Choose ‘Latest SureMDM Agent’ to use the most recent version, or ‘Custom’ to specify your own agent URL.\nCustom SureMDM Agent URL\nEnter the complete URL where SureMDM Agent is hosted, This option appears when ‘Custom’ is selected as an option in ‘SureMDM Agent URL’ dropdown.\nDownload Path\nEnter the complete UNC path where the file will be downloaded. Ensure to include the full folder path, file name, and file extension.\nStep 3: Apply Configuration\nAfter entering the required details, click Apply.\nOnce the configuration is applied, the CLI enrollment command will be generated and displayed in an encoded format.\nClick Copy Command to copy the generated command.\nStep 4: Execute CLI Command on Windows Device\nOpen Command Prompt or PowerShell on the target Windows device.\nPaste the copied enrollment command and press Enter to start the enrollment process.\nThe SureMDM Agent will be downloaded, installed, and configured automatically.\nnote\nUpon running above CLI command, the enrollment process will be zero-touch for Users with Admin privileges, while Standard users will be prompted to enter admin credentials to install the SureMDM agent.\nIf Enrollment Authentication Type is set to Require Password under Account Settings > Device Enrollment Rules, the generated CLI command includes the configured password, so end users won't be prompted to enter it during enrollment. To enforce password authentication during CLI-based enrollment, we recommend you to contact our Support for removing the password parameter from the CLI command.\nStep 5: Verify Enrollment Status\nOnce the command execution completes:\nThe device will appear in the Device Grid in the SureMDM Web Console.\nThe device status will change to Online once the SureMDM Agent establishes communication with the server.\nnote\nNetwork restrictions or proxy configurations may impact agent download and installation.\nIf using automation tools or scripts, verify that the command is executed in a silent or unattended mode as required.",
+   "hash": "039518833ad10b44b0147663c9cd247e4f4ac352b880368de255c6c65011831f",
    "windows": "high"
   },
   {

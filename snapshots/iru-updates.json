@@ -2,12 +2,39 @@
  "id": "iru-updates",
  "vendor": "Iru",
  "kind": "rss",
- "fetchedAt": "2026-10-19T04:36:05.527Z",
+ "fetchedAt": "2026-10-26T04:30:05.219Z",
  "meta": {
   "url": "https://www.iru.com/updates/rss.xml",
   "entries": 50
  },
  "items": [
+  {
+   "key": "https://www.iru.com/updates/2026/10/23/whats-new-in-iru-october-23rd",
+   "title": "What's New in Iru | October 23rd",
+   "date": "2026-10-23",
+   "url": "https://www.iru.com/updates/2026/10/23/whats-new-in-iru-october-23rd",
+   "text": "Highlights this week in What’s New in Iru:",
+   "hash": "484b2131cbda0fdffd0882f4c8d0a70c743ad7fc9deea1200e8c0e9562f69e4a",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/21/iru-agent-for-mac-release-5-2-7-5401/",
+   "title": "Iru Agent for Mac Release 5.2.7 (5401)",
+   "date": "2026-10-21",
+   "url": "https://www.iru.com/updates/2026/10/21/iru-agent-for-mac-release-5-2-7-5401/",
+   "text": "We’ve released Iru Agent for Mac 5.2.7 (5401).\nThis release adds Korean localization to Passport, Self Service, Liftoff, and the Iru menu bar app.",
+   "hash": "cfb88d4c686c3a9849cff5cffdefd378a0f047c05186630e7031af7998527a30",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/20/mac-custom-apps-now-with-support-for-30gb-installers",
+   "title": "Mac Custom Apps: Now with support for 30 GB installers",
+   "date": "2026-10-20",
+   "url": "https://www.iru.com/updates/2026/10/20/mac-custom-apps-now-with-support-for-30gb-installers",
+   "text": "Mac Custom App Library Items now support installers up to 30 GB in size. Downloads happen in the background in the Iru Agent as to not hold up processing of other Library Items, and downloads auto resume when possible if they are interrupted by network hiccups or devices sleeping.",
+   "hash": "dfac2151f6feedaa587d7126f9483ddbc68bf82ce51c2d0f636a55cd36524192",
+   "windows": "none"
+  },
   {
    "key": "https://www.iru.com/updates/2026/10/16/iru-agent-for-windows-release-1.24.6.0",
    "title": "Iru Agent for Windows Release 1.24.6.0",
@@ -16,6 +43,15 @@
    "text": "We've released Iru Agent for Windows 1.24.6.0. This release fixes apps missing from device inventory, stops apps reinstalling repeatedly when an installer leaves an older entry in Add/Remove Programs, and stops the Self Service updater creating a system restore point that some endpoint security tools flagged.",
    "hash": "868f8f5c2a6c514d9fb904b2fbf4712c6e7ab97a25d4ff7e358c72054d993f00",
    "windows": "high"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/16/whats-new-in-iru-october-16th",
+   "title": "What's New in Iru | October 16th",
+   "date": "2026-10-16",
+   "url": "https://www.iru.com/updates/2026/10/16/whats-new-in-iru-october-16th",
+   "text": "Highlights we cover this week in What's New in Iru:",
+   "hash": "2370d16c1f3f613ab2240c049d268d8ebc8cbde8a7ed29efd6e41c79118edea8",
+   "windows": "none"
   },
   {
    "key": "https://www.iru.com/updates/2026/10/15/iru-ai-assistant-for-bitlocker-and-android-restrictions",
@@ -63,46 +99,55 @@
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/recommended-privacy-permissions-for-mac",
+   "key": "https://www.iru.com/updates/2026/10/16/recommended-privacy-permissions-for-mac",
    "title": "Recommended privacy permissions for Mac",
    "date": "2026-10-14",
-   "url": "https://www.iru.com/updates/recommended-privacy-permissions-for-mac",
+   "url": "https://www.iru.com/updates/2026/10/16/recommended-privacy-permissions-for-mac",
    "text": "The Privacy Library Item's Recommended privacy permissions area now supports Mac, in addition to iPhone and iPad. Admins can recommend app permissions for macOS apps and website permissions for Safari, so end users see a single consent prompt listing everything an app or site needs instead of being prompted one permission at a time. The user can select Allow to grant every recommended permission at once, or Not Now, in which case the app continues to prompt for individual permissions as it normally would.\nSupported Mac app permissions include Bluetooth, Camera, Dictation, Local Network, Location, and Microphone. Mac apps are identified by bundle ID and code requirement, and a recommendation applies only when the installed app's code signature matches. Website rules use the same specific and wildcard domains as iPhone and iPad. This requires Macs on macOS 27 or later.\nFor more details, see Configure the Privacy Library Item.",
    "hash": "0bdddeaa0016497058dc527b7d9e0dc36aa0e886740eb40ec005c8beab04dce6",
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.7-5400",
+   "key": "https://www.iru.com/updates/2026/10/13/iru-agent-for-mac-release-5.2.7-5400",
    "title": "Iru Agent for Mac Release 5.2.7 (5400)",
    "date": "2026-10-13",
-   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.7-5400",
+   "url": "https://www.iru.com/updates/2026/10/13/iru-agent-for-mac-release-5.2.7-5400",
    "text": "We’ve released Iru Agent for Mac 5.2.7 (5400).",
    "hash": "ffd2c4e5cdaf598f550397c1482803720a2cfbf14cfab1142606324a1d3879e2",
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/process-items-after-liftoff",
+   "key": "https://www.iru.com/updates/2026/10/09/whats-new-in-iru-october-9th",
+   "title": "What's New in Iru | October 9th",
+   "date": "2026-10-09",
+   "url": "https://www.iru.com/updates/2026/10/09/whats-new-in-iru-october-9th",
+   "text": "Highlights we cover this week in What's New in Iru:",
+   "hash": "ac0976741808e0ad92034eeeffdef2fde9ae7b63b8ebce78205724f02ef49ca2",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/08/process-items-after-liftoff",
    "title": "Process items after Liftoff",
    "date": "2026-10-08",
-   "url": "https://www.iru.com/updates/process-items-after-liftoff",
+   "url": "https://www.iru.com/updates/2026/10/08/process-items-after-liftoff",
    "text": "Custom App, Custom Printer, and Custom Script Library Items for Mac now provide an option for whether they should be processed during or after Liftoff.",
    "hash": "0492a30790ba82d331d9b3fb92855fb18ffff6eaf3745c8f6aabc819db01aaa8",
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.4-5399",
+   "key": "https://www.iru.com/updates/2026/10/07/iru-agent-for-mac-release-5.2.4-5399",
    "title": "Iru Agent for Mac Release 5.2.4 (5399)",
    "date": "2026-10-07",
-   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.4-5399",
+   "url": "https://www.iru.com/updates/2026/10/07/iru-agent-for-mac-release-5.2.4-5399",
    "text": "We’ve released Iru Agent for Mac 5.2.4 (5399).",
    "hash": "814250fed2a56c1026bc1c710efea24eec4b1a8ef0972caa7cc3ad8bca315329",
    "windows": "none"
   },
   {
-   "key": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.3-5398",
+   "key": "https://www.iru.com/updates/2026/10/07/iru-agent-for-mac-release-5.2.3-5398",
    "title": "Iru Agent for Mac Release 5.2.3 (5398)",
    "date": "2026-10-07",
-   "url": "https://www.iru.com/updates/iru-agent-for-mac-release-5.2.3-5398",
+   "url": "https://www.iru.com/updates/2026/10/07/iru-agent-for-mac-release-5.2.3-5398",
    "text": "We’ve released Iru Agent for Mac 5.2.3 (5398).",
    "hash": "2ff8c90a049edb2301e9287f640de79113747ce7fb3d0778fdb3889128b6f657",
    "windows": "none"
@@ -411,51 +456,6 @@
    "url": "https://www.iru.com/updates/2026/09/09/iru-agent-for-mac-release-5.1.32-5394",
    "text": "We’ve released Iru Agent for Mac 5.1.32 (5394).",
    "hash": "884e1334dc2551a97bbc4da3d73e4e3e5152f214b2029cd67ba9eafc1f8d525f",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/09/vulnerability-response-for-windows",
-   "title": "Vulnerability Response for Windows",
-   "date": "2026-09-09",
-   "url": "https://www.iru.com/updates/2026/09/09/vulnerability-response-for-windows",
-   "text": "Vulnerability Management now supports auto remediation of CVEs for apps on Windows, when an update for the app is available from the Auto App catalog.",
-   "hash": "ce54187868ef87eeda1f0f703155c965d5ba8f7d67d4f0690468713f3301660f",
-   "windows": "high"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/08/managed-os-for-ios-and-ipados",
-   "title": "Managed OS for iOS and iPadOS",
-   "date": "2026-09-08",
-   "url": "https://www.iru.com/updates/2026/09/08/managed-os-for-ios-and-ipados",
-   "text": "Managed OS for iOS and iPadOS has been updated. The latest approved version is now 26.6.2, with the following release dates:",
-   "hash": "c8ec1192e80e847787158eed33f701b55a3316f604c198f7da547aaf1ee1026a",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/04/whats-new-in-iru-september-4th",
-   "title": "What's New in Iru | September 4th",
-   "date": "2026-09-04",
-   "url": "https://www.iru.com/updates/2026/09/04/whats-new-in-iru-september-4th",
-   "text": "Highlights we cover this week in What's New in Iru:",
-   "hash": "5fe463437c0031a77ce33da95a5dbc57d7a9250b70180d4b6b43637f51dee252",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/03/choose-where-user-enrollment-invitations-are-sent",
-   "title": "Choose Where User Enrollment Invitations are Sent",
-   "date": "2026-09-03",
-   "url": "https://www.iru.com/updates/2026/09/03/choose-where-user-enrollment-invitations-are-sent",
-   "text": "Administrators can now send a Workforce Identity enrollment invitation to a user's secondary or personal email instead of their work email. This unblocks first-time enrollment for users who need a passkey to access the work mailbox that holds the invitation.",
-   "hash": "473c32fc9ee5d428167f82aeaff05229f38c9b3909e2a183e2fa3b2e46546caf",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/03/automatic-retry-enrollment-for-return-to-service",
-   "title": "Automatic retry enrollment for Return to Service",
-   "date": "2026-09-03",
-   "url": "https://www.iru.com/updates/2026/09/03/automatic-retry-enrollment-for-return-to-service",
-   "text": "Devices erased with Return to Service can now retry enrollment on their own if the initial attempt fails. In the Erase device modal, checking Use Return to Service reveals a new Retry enrollment option, checked by default, that's available for iPhone and iPad on iOS 27 or iPadOS 27 or later.",
-   "hash": "325b12081dd6d3d3b371b09d648b42c13435b91da4c6d490482bc562f1eba923",
    "windows": "none"
   }
  ]

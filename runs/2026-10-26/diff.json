@@ -1,0 +1,715 @@
+{
+  "runDate": "2026-10-26",
+  "periodStart": "2026-10-19",
+  "periodEnd": "2026-10-26",
+  "baselineDays": 14,
+  "sources": [
+    {
+      "id": "intune-whats-new",
+      "vendor": "Microsoft Intune",
+      "kind": "html-sections",
+      "url": "https://learn.microsoft.com/en-us/intune/whats-new/",
+      "mdChars": 12000,
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://learn.microsoft.com/en-us/intune/whats-new/",
+        "headings": 29
+      },
+      "counts": {
+        "total": 6,
+        "new": 1,
+        "changed": 0,
+        "removed": 1,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "Week of October 19, 2026",
+          "title": "Week of October 19, 2026",
+          "date": "2026-10-19",
+          "url": "https://learn.microsoft.com/en-us/intune/whats-new/#week-of-october-19-2026",
+          "text": "App management\nUnlimited licenses for Apple volume purchase program (VPP) apps\nYou can now assign VPP apps with unlimited licenses from Apple Business and Apple School Manager, making it easier to deploy apps across your organization without managing license quantities.\nApplies to:\niOS/iPadOS\nmacOS",
+          "hash": "32ebf80405968139c11f28fb45622052ed14f0093d3c86c95ec5d1ead954593b",
+          "windows": "none"
+        }
+      ],
+      "changed": [],
+      "ms": 671
+    },
+    {
+      "id": "intune-blog",
+      "vendor": "Microsoft Intune",
+      "kind": "rss",
+      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftIntuneBlog",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftIntuneBlog",
+        "entries": 20
+      },
+      "counts": {
+        "total": 20,
+        "new": 1,
+        "changed": 0,
+        "removed": 1,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/your-guide-to-intune-at-microsoft-ignite-2026/ba-p/4564556",
+          "title": "Your guide to Intune at Microsoft Ignite 2026",
+          "date": "2026-10-21",
+          "url": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/your-guide-to-intune-at-microsoft-ignite-2026/ba-p/4564556",
+          "text": "If you manage and secure endpoints, you are already on the front line of your organization’s AI transformation. Trusted, cloud native endpoint management and protection across Windows, macOS, and mobile devices are essential to preparing for AI, securing data and AI, and using AI to strengthen defense. This guide makes it easy to find the Microsoft Ignite 2026 sessions featuring the latest Microsoft Intune management and security innovations, no AI required.\nUse this guide to find Ignite sessions and labs, meet the teams behind each, and start thinking about the organizational questions you want to bring to the conference. Bookmark this post at aka.ms/IntuneAtIgnite so you can find it again.\nFeatured sessions\nStart with these three sessions for the clearest view of what’s new in Intune and what's coming next.\nAI ready endpoints: secure, manage and scale (BRK404)\nDon’t miss the Intune strategy session for the week. See how Intune turns insights across your digital estate into policy and action—and verifies that each change keeps devices healthy and secure. Learn how IT can gain fleet-wide visibility and control, reduce exposure, and use AI-powered tools to scale its impact.\nSpeakers: Jason Roszak, VP, Product Management, Microsoft Intune and Eugenie Burrage, Director, Product Marketing, Microsoft Intune\nBuild a trusted device and app foundation for AI at scale (BRK328)\nIT’s endpoint estate continues to expand, and deploying a new device is only the beginning. Once deployed, t…",
+          "hash": "a7f9b62906e9b396cc661e662ad0a24ffe5bf0d819c23716bab5a1b931965f5d",
+          "windows": "medium"
+        }
+      ],
+      "changed": [],
+      "ms": 1290
+    },
+    {
+      "id": "iru-updates",
+      "vendor": "Iru",
+      "kind": "rss",
+      "url": "https://www.iru.com/updates/rss.xml",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://www.iru.com/updates/rss.xml",
+        "entries": 50
+      },
+      "counts": {
+        "total": 50,
+        "new": 10,
+        "changed": 0,
+        "removed": 10,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "https://www.iru.com/updates/2026/10/23/whats-new-in-iru-october-23rd",
+          "title": "What's New in Iru | October 23rd",
+          "date": "2026-10-23",
+          "url": "https://www.iru.com/updates/2026/10/23/whats-new-in-iru-october-23rd",
+          "text": "Highlights this week in What’s New in Iru:",
+          "hash": "484b2131cbda0fdffd0882f4c8d0a70c743ad7fc9deea1200e8c0e9562f69e4a",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/21/iru-agent-for-mac-release-5-2-7-5401/",
+          "title": "Iru Agent for Mac Release 5.2.7 (5401)",
+          "date": "2026-10-21",
+          "url": "https://www.iru.com/updates/2026/10/21/iru-agent-for-mac-release-5-2-7-5401/",
+          "text": "We’ve released Iru Agent for Mac 5.2.7 (5401).\nThis release adds Korean localization to Passport, Self Service, Liftoff, and the Iru menu bar app.",
+          "hash": "cfb88d4c686c3a9849cff5cffdefd378a0f047c05186630e7031af7998527a30",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/20/mac-custom-apps-now-with-support-for-30gb-installers",
+          "title": "Mac Custom Apps: Now with support for 30 GB installers",
+          "date": "2026-10-20",
+          "url": "https://www.iru.com/updates/2026/10/20/mac-custom-apps-now-with-support-for-30gb-installers",
+          "text": "Mac Custom App Library Items now support installers up to 30 GB in size. Downloads happen in the background in the Iru Agent as to not hold up processing of other Library Items, and downloads auto resume when possible if they are interrupted by network hiccups or devices sleeping.",
+          "hash": "dfac2151f6feedaa587d7126f9483ddbc68bf82ce51c2d0f636a55cd36524192",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/16/whats-new-in-iru-october-16th",
+          "title": "What's New in Iru | October 16th",
+          "date": "2026-10-16",
+          "url": "https://www.iru.com/updates/2026/10/16/whats-new-in-iru-october-16th",
+          "text": "Highlights we cover this week in What's New in Iru:",
+          "hash": "2370d16c1f3f613ab2240c049d268d8ebc8cbde8a7ed29efd6e41c79118edea8",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/16/recommended-privacy-permissions-for-mac",
+          "title": "Recommended privacy permissions for Mac",
+          "date": "2026-10-14",
+          "url": "https://www.iru.com/updates/2026/10/16/recommended-privacy-permissions-for-mac",
+          "text": "The Privacy Library Item's Recommended privacy permissions area now supports Mac, in addition to iPhone and iPad. Admins can recommend app permissions for macOS apps and website permissions for Safari, so end users see a single consent prompt listing everything an app or site needs instead of being prompted one permission at a time. The user can select Allow to grant every recommended permission at once, or Not Now, in which case the app continues to prompt for individual permissions as it normally would.\nSupported Mac app permissions include Bluetooth, Camera, Dictation, Local Network, Location, and Microphone. Mac apps are identified by bundle ID and code requirement, and a recommendation applies only when the installed app's code signature matches. Website rules use the same specific and wildcard domains as iPhone and iPad. This requires Macs on macOS 27 or later.\nFor more details, see Configure the Privacy Library Item.",
+          "hash": "0bdddeaa0016497058dc527b7d9e0dc36aa0e886740eb40ec005c8beab04dce6",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/13/iru-agent-for-mac-release-5.2.7-5400",
+          "title": "Iru Agent for Mac Release 5.2.7 (5400)",
+          "date": "2026-10-13",
+          "url": "https://www.iru.com/updates/2026/10/13/iru-agent-for-mac-release-5.2.7-5400",
+          "text": "We’ve released Iru Agent for Mac 5.2.7 (5400).",
+          "hash": "ffd2c4e5cdaf598f550397c1482803720a2cfbf14cfab1142606324a1d3879e2",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/09/whats-new-in-iru-october-9th",
+          "title": "What's New in Iru | October 9th",
+          "date": "2026-10-09",
+          "url": "https://www.iru.com/updates/2026/10/09/whats-new-in-iru-october-9th",
+          "text": "Highlights we cover this week in What's New in Iru:",
+          "hash": "ac0976741808e0ad92034eeeffdef2fde9ae7b63b8ebce78205724f02ef49ca2",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/08/process-items-after-liftoff",
+          "title": "Process items after Liftoff",
+          "date": "2026-10-08",
+          "url": "https://www.iru.com/updates/2026/10/08/process-items-after-liftoff",
+          "text": "Custom App, Custom Printer, and Custom Script Library Items for Mac now provide an option for whether they should be processed during or after Liftoff.",
+          "hash": "0492a30790ba82d331d9b3fb92855fb18ffff6eaf3745c8f6aabc819db01aaa8",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/07/iru-agent-for-mac-release-5.2.4-5399",
+          "title": "Iru Agent for Mac Release 5.2.4 (5399)",
+          "date": "2026-10-07",
+          "url": "https://www.iru.com/updates/2026/10/07/iru-agent-for-mac-release-5.2.4-5399",
+          "text": "We’ve released Iru Agent for Mac 5.2.4 (5399).",
+          "hash": "814250fed2a56c1026bc1c710efea24eec4b1a8ef0972caa7cc3ad8bca315329",
+          "windows": "none"
+        },
+        {
+          "key": "https://www.iru.com/updates/2026/10/07/iru-agent-for-mac-release-5.2.3-5398",
+          "title": "Iru Agent for Mac Release 5.2.3 (5398)",
+          "date": "2026-10-07",
+          "url": "https://www.iru.com/updates/2026/10/07/iru-agent-for-mac-release-5.2.3-5398",
+          "text": "We’ve released Iru Agent for Mac 5.2.3 (5398).",
+          "hash": "2ff8c90a049edb2301e9287f640de79113747ce7fb3d0778fdb3889128b6f657",
+          "windows": "none"
+        }
+      ],
+      "changed": [],
+      "ms": 569
+    },
+    {
+      "id": "hexnode-whats-new",
+      "vendor": "Hexnode",
+      "kind": "next-data",
+      "url": "https://www.hexnode.com/whats-new/",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://www.hexnode.com/whats-new/",
+        "found": 25
+      },
+      "counts": {
+        "total": 25,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 1493
+    },
+    {
+      "id": "hexnode-blog",
+      "vendor": "Hexnode",
+      "kind": "rss",
+      "url": "https://www.hexnode.com/blogs/feed/",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://www.hexnode.com/blogs/feed/",
+        "entries": 10
+      },
+      "counts": {
+        "total": 4,
+        "new": 1,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "https://www.hexnode.com/blogs/?p=52554",
+          "title": "Windows Local Account Management in Hexnode UEM: A Step-by-Step Guide",
+          "date": "2026-10-26",
+          "url": "https://www.hexnode.com/blogs/windows-local-account-management-hexnode-uem/",
+          "text": "What Is Windows Local Account Management?\nWindows local account management is the process of creating, configuring, securing, and removing user accounts stored directly on individual Windows devices.\nOn shared workstations and kiosk-style devices, manual account administration can create inconsistent privileges and leave orphaned accounts after employee offboarding. With Windows unified endpoint management (UEM), IT admins can manage local accounts remotely across multiple devices instead of configuring each device individually.\nA local account is defined on an individual Windows device, which acts as its security authority. A domain account normally authenticates against an organizational directory service and may have permissions to access local and domain resources.\nWindows can allow offline sign-in when a domain controller is unavailable. This requires valid cached domain credentials and enabled credential caching. However, users cannot access network resources that require domain validation until the domain controller becomes available.\nAn administrator account can perform privileged system tasks, change settings, and manage other users. In contrast, a standard account supports routine activities with fewer privileges, reducing unnecessary administrative access.\nManual account management can create recurring operational challenges:\nTask\nPotential operational challenge\nCreate account\nRepeating account setup across devices can delay provisioning and increase the risk of i…",
+          "hash": "17e5a4aca971fdb04071bafb3c681d7b3ada83731a466117435ec62d5eb49ca9",
+          "windows": "high"
+        }
+      ],
+      "changed": [],
+      "ms": 1514
+    },
+    {
+      "id": "miradore-releases",
+      "vendor": "Miradore",
+      "kind": "link-list",
+      "url": "https://www.miradore.com/knowledge/releases/",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://www.miradore.com/knowledge/releases/",
+        "links": 372,
+        "fetched": 2
+      },
+      "counts": {
+        "total": 372,
+        "new": 2,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "https://www.miradore.com/knowledge/releases/bug-fix-for-home-screen-kiosk-mode-and-unlimited-vpp-licenses-for-free-apps/",
+          "title": "Bug fix for Home screen & kiosk mode and \"Unlimited\" VPP licenses for free apps",
+          "date": null,
+          "url": "https://www.miradore.com/knowledge/releases/bug-fix-for-home-screen-kiosk-mode-and-unlimited-vpp-licenses-for-free-apps/",
+          "text": "In this article\nToggle\nHome screen & kiosk mode fix (Android)\nWe fixed an issue where deploying a Home screen & kiosk mode configuration profile with the Kiosk mode with 1 app configuration type could cause some Android devices to flash repeatedly and briefly exit kiosk lockdown. Kiosk mode with 1 app now starts reliably and stays active, including after a device reboot.\nThe fix is delivered via a Miradore client update. We recommend updating the Miradore client app on all your managed Android devices to version 2.18.12 (Build 475), even if you have not seen this issue. Keeping the client up to date ensures you have the latest fixes and improvements.\n“Unlimited” shown for free VPP apps and books (iOS and iPadOS)\nFrom October 22, 2026, Apple moves free apps and books in Apple Business Manager and Apple School Manager to an unlimited license model. Miradore now shows \"Unlimited\" for these apps and books instead of a very large number (2147483647).\nWhat changes in the Miradore UI:\nThe VPP licenses column is renamed \"Used VPP licenses\" and now shows used / total instead of available / total. For free apps, the total shows \"Unlimited\" (for example, \"5 / Unlimited\"). This applies to the application list (Management > Applications), the Assign VPP license wizard on the user page, and the Assign VPP license dialog on the device page.\nOn the application version page, the Assign VPP license dialog and its confirmation step show \"Unlimited\" as the available license count.\nOn the application version page, the License status section shows the number of assigned licenses and \"Unlimited\" available for free apps, instead of the pie chart. Paid apps keep the pie chart.\nSorting and filtering by license count still work. Unlimited sorts as the highest value, and filtering with \"Unlimited\" finds free apps.\nLicense availability checks never block assigning an unlimited app or book.\nPaid apps and books keep their numeric license counts and behave as before, apart from the column change to used / total.\nNotice that this is a UI change only. The Miradore API v1 and reporting data continue to return the raw value provided by Apple (2147483647) for unlimited licenses.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
+          "hash": "6459c2cb2ee0624111747485236aea6fda022061ba6517a2502cbba1d5b1bc5b",
+          "windows": "medium"
+        },
+        {
+          "key": "https://www.miradore.com/knowledge/releases/bug-fix-for-file-uploads/",
+          "title": "Bug fix for file uploads",
+          "date": null,
+          "url": "https://www.miradore.com/knowledge/releases/bug-fix-for-file-uploads/",
+          "text": "We fixed an issue where, in some cases, file uploads in Miradore failed and displayed an error. This affected, for example:\nCertificate uploads\nApple Push Certificate, Apple Business Manager (ADE), and VPP token uploads and renewals\nCSV imports\nConfiguration profile imports\nImages and files in configuration profiles, such as Web Clip icons, wallpapers, Android contacts, and Apple custom configurations\nUploads in the Getting started wizard\nThis is now fixed, and uploads work reliably. You don't need to do anything. If you have experienced a failed upload before, try it again.\nHave you already subscribed to our newsletter?\nFill in your email address to get the latest Miradore news and articles delivered directly to your inbox!\nTo view our Privacy Policy, click here",
+          "hash": "09405ab2ed89cd5bfe9947102e1234a96e5233ba72da404a02f20ff6dfec6dee",
+          "windows": "none"
+        }
+      ],
+      "changed": [],
+      "ms": 2940
+    },
+    {
+      "id": "42gears-press",
+      "vendor": "42Gears",
+      "kind": "link-list",
+      "url": "https://www.42gears.com/press-releases",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://www.42gears.com/press-releases",
+        "links": 103,
+        "fetched": 0
+      },
+      "counts": {
+        "total": 103,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 894
+    },
+    {
+      "id": "42gears-docs",
+      "vendor": "42Gears",
+      "kind": "sitemap",
+      "url": "https://docs.42gears.com/suremdm/sitemap.xml",
+      "reportInclude": "windows|win32|msi|bitlocker|autopilot|sureidp|identity|login|authentication|conditional-access|sso",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "urls": 952,
+        "fetched": 2,
+        "fetchCandidates": 2
+      },
+      "counts": {
+        "total": 952,
+        "new": 0,
+        "changed": 6,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [
+        {
+          "key": "https://docs.42gears.com/suremdm/integrations/integration-guides/sureaccess/sureaccess-profile-configuration/profile-windows",
+          "title": "profile windows",
+          "date": "2026-10-21",
+          "url": "https://docs.42gears.com/suremdm/integrations/integration-guides/sureaccess/sureaccess-profile-configuration/profile-windows",
+          "text": "SureAccess Configuration Guide for macOS and Windows\n1. Overview\nUse this guide to configure SureAccess in SureMDM for macOS and Windows devices. You can configure the VPN connection, control website access, block specific URLs, and manage data uploads through Domain-Based and Application-Based DLP policies.\nSupported Agent Versions\nWeb Protection and Data Protection settings in SureAccess are supported on devices running the following minimum agent versions. Ensure that the installed agent meets or exceeds the specified version to access and use these settings.\nWindows: Agent version 2.6.3 or later\nmacOS: Agent version 3.0.9 or later\n2. Configuration Flow\n3. Configure the SureAccess Payload\nStep 1: Open the Profile Configuration\nSign in to the SureMDM console.\nNavigate to Profiles.\nSelect the platform for which you want to configure SureAccess: macOS or Windows.\nSelect the Enrollment Type if macOS is selected\nLocate the SureAccess payload and click Configure.\nImportant for Windows: A profile containing a VPN Configuration payload cannot also be configured with the SureAccess payload. Remove the conflicting payload before proceeding, if required.\nStep 2: Configure VPN Settings\nIn the SureAccess payload, open the VPN section and configure the available settings according to your organization's requirements.\nSettingAdministrator Action\nEnable SureAccess\nWhen enabled, deploys the SureAccess agent and applies secure remote access settings. When disabled, removes the configuration.\nConnection Name\nEnter the name to identify the connection.\nAlways On\nKeeps the SureAccess connection active at all times.\nTunnelled CIDR List\nSelect the IP ranges (CIDR blocks) that should be accessed through SureAccess. DNS Resolutions are skipped for this IP range and are accessible over IP addresses only.\nTunnelled FQDN List\nSelect the FQDNs that will be routed through the SureAccess tunnel.\nEnable Authentication\nEnables user authentication during SureAccess setup.\nReview the connection settings before moving to Web & Data Protection.\n4. Configure Web & Data Protection\nExpand Web & Data Protection in the SureAccess payload.\nEnable Enable Protection Policies.\nConfigure the required protection modules:\nWeb Content Filtering\nBlocked URLs\nDLP Configuration\n5. Configure Web Content Filtering\nUse Web Content Filtering to control website access based on website categories.\nSteps\nUnder Web & Data Protection, open Web Content Filtering.\nEnable Enable Protection Policies, if it is not already enabled.\nSelect the required Filtering Mode:\nAllow Websites — allow websites in the selected categories and restrict others.\nBlock Websites — block websites in the selected categories.\nSelect the required categories, such as:\nOnline Ads\nPornography / Sexually Explicit / Adult Content\nSocial Networking\nPopup Ads\nUnknown\nIf you need to identify a website's category, use the AskDeepthought lookup option, where available.\nReview the selected mode and categories.\nNote: Select the filtering mode carefully. The selected mode determines how the category selection is applied.\n6. Configure Blocked URLs\nUse this section to block specific websites or domains regardless of the category-filtering configuration.\nSteps\nExpand Blocked URLs.\nClick Add.\nSelect the required input method:\nEnter Manually — enter the URLs or domains to block.\nChoose from FQDN List — select entries from the available FQDN resources.\nImport CSV — import a supported file containing the URLs.\nEnter or select the required entries, or upload the file.\nReview the entries and resolve any invalid or duplicate values as indicated by the console.\nSave the entries.\nTo maintain the list later, use the available Edit, Delete, and Search options. Multiple entries can be selected for deletion.\nTo manage reusable FQDN resources, navigate to:\nSettings → Account Settings → Enterprise Integration → SureAccess → SureAccess Configurations → FQDN Resources\nImportant: Blocked URLs take precedence over the other configured filtering ru…",
+          "hash": "edccad9bdb233683d2e27fe1bc8e3cf212578b55176cdc2d03c990fa6fe718fa",
+          "windows": "high",
+          "addedLines": [
+            "Supported Agent Versions",
+            "Web Protection and Data Protection settings in SureAccess are supported on devices running the following minimum agent versions. Ensure that the installed agent meets or exceeds the specified version to access and use these settings.",
+            "Windows: Agent version 2.6.3 or later",
+            "macOS: Agent version 3.0.9 or later",
+            "Important: Blocked URLs take precedence over the other configured filtering ru…"
+          ],
+          "removedLines": [
+            "Important: Blocked URLs take precedence over the other configured filtering rules.",
+            "7. Configure Domain-Based Upload Control",
+            "Use Domain-Based Upload Control to define which domains users can upload data to.",
+            "Under DLP, enable Enable DLP Configuration. This option is unchecked by default.",
+            "In Domain-Based Upload Control, select an Upload Policy:",
+            "Allow only specified domains, blocks rest — allow uploads onl…"
+          ],
+          "prevDate": "2026-10-15"
+        },
+        {
+          "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/deploy-sdm-job",
+          "title": "deploy sdm job",
+          "date": "2026-10-21",
+          "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/deploy-sdm-job",
+          "text": "",
+          "hash": "740e7941f77ecf63fdce333bf8dbd6a0486dd43f406c99ba9b5291e4c41c1d58",
+          "windows": "none",
+          "addedLines": [],
+          "removedLines": [],
+          "prevDate": "2026-04-07"
+        },
+        {
+          "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/enabling-shared-device-mode/",
+          "title": "enabling shared device mode",
+          "date": "2026-10-21",
+          "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/enabling-shared-device-mode/",
+          "text": "",
+          "hash": "9de62d4df0da97a5adcc31539def118ebaf61f7d04441ad8f9a166d36e005eab",
+          "windows": "none",
+          "addedLines": [],
+          "removedLines": [],
+          "prevDate": "2026-10-15"
+        },
+        {
+          "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/enabling-shared-device-mode/profile-configuration",
+          "title": "profile configuration",
+          "date": "2026-10-21",
+          "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/enabling-shared-device-mode/profile-configuration",
+          "text": "",
+          "hash": "c92d691ea54fbf50ec3a9779f7a620c400cf961696638ad2147ef0f0da217e81",
+          "windows": "none",
+          "addedLines": [],
+          "removedLines": [],
+          "prevDate": "2026-08-19"
+        },
+        {
+          "key": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/sdm-ios",
+          "title": "sdm ios",
+          "date": "2026-10-21",
+          "url": "https://docs.42gears.com/suremdm/ios-device/ios-device-manage/shared-device-mode/sdm-ios",
+          "text": "",
+          "hash": "21b29314eebf562d3b9fa8e0128b2eb82a7233abe2aedcdd9a4e54eb99bc9b65",
+          "windows": "none",
+          "addedLines": [],
+          "removedLines": [],
+          "prevDate": "2026-04-08"
+        },
+        {
+          "key": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-device-enrollment/windows-cli-enrollment",
+          "title": "windows cli enrollment",
+          "date": "2026-10-19",
+          "url": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/windows-device-enrollment/windows-cli-enrollment",
+          "text": "Windows CLI Based Enrollment\nWindows CLI (Command Line Interface)–based enrollment enables administrators to onboard Windows devices into SureMDM using command-line instructions. This method supports automated and standardized enrollment by allowing administrators to deploy enrollment commands through scripts or enterprise deployment mechanisms such as Group Policy Objects (GPO), device management tools, or other MDM solutions.\nCLI-based enrollment supports bulk device onboarding and migration scenarios while enabling a zero-touch setup experience. This ensures consistent device configuration and reduces manual intervention during the enrollment process.\nSupported Versions\nWindows 10\nWindows 11\nPrerequisites\n‘CLI Based Enrollment’ is supported on Windows devices with SureMDM Agent Version 6.22.0 and later.\nTo enroll Windows devices using CLI, follow the steps below:\nStep 1: Navigate to Windows Enrollment\nLogin to the SureMDM Web Console.\nNavigate to: Enrollment > Manual Enrollment > Windows > CLI Based Enrollment\nStep 2: Configure Enrollment Settings\nClick Configure to customize enrollment settings.\nThe Enrollment Configuration window appears.\nEnter the required configuration details:\nEnrollment ConfigurationDescription\nEnrollment Group Path\nSpecifies the group in the SureMDM console where the device will be enrolled.\nDevice Name Type\nSelect the naming method for Windows devices. The selected option will be used as the device's assigned name. Select from one of the following options:\nUse Mac Address\nUse System Generated BIOS Name\nUse Device Host Name\nUse Product Serial Number\nSureMDM Agent URL\nSelect the source for the SureMDM Agent. Choose ‘Latest SureMDM Agent’ to use the most recent version, or ‘Custom’ to specify your own agent URL.\nCustom SureMDM Agent URL\nEnter the complete URL where SureMDM Agent is hosted, This option appears when ‘Custom’ is selected as an option in ‘SureMDM Agent URL’ dropdown.\nDownload Path\nEnter the complete UNC path where the file will be downloaded. Ensure to include the full folder path, file name, and file extension.\nStep 3: Apply Configuration\nAfter entering the required details, click Apply.\nOnce the configuration is applied, the CLI enrollment command will be generated and displayed in an encoded format.\nClick Copy Command to copy the generated command.\nStep 4: Execute CLI Command on Windows Device\nOpen Command Prompt or PowerShell on the target Windows device.\nPaste the copied enrollment command and press Enter to start the enrollment process.\nThe SureMDM Agent will be downloaded, installed, and configured automatically.\nnote\nUpon running above CLI command, the enrollment process will be zero-touch for Users with Admin privileges, while Standard users will be prompted to enter admin credentials to install the SureMDM agent.\nIf Enrollment Authentication Type is set to Require Password under Account Settings > Device Enrollment Rules, the generated CLI command includes the configured password, so end users won't be prompted to enter it during enrollment. To enforce password authentication during CLI-based enrollment, we recommend you to contact our Support for removing the password parameter from the CLI command.\nStep 5: Verify Enrollment Status\nOnce the command execution completes:\nThe device will appear in the Device Grid in the SureMDM Web Console.\nThe device status will change to Online once the SureMDM Agent establishes communication with the server.\nnote\nNetwork restrictions or proxy configurations may impact agent download and installation.\nIf using automation tools or scripts, verify that the command is executed in a silent or unattended mode as required.",
+          "hash": "039518833ad10b44b0147663c9cd247e4f4ac352b880368de255c6c65011831f",
+          "windows": "high",
+          "addedLines": [
+            "Windows CLI Based Enrollment",
+            "Windows CLI (Command Line Interface)–based enrollment enables administrators to onboard Windows devices into SureMDM using command-line instructions. This method supports automated and standardized enrollment by allowing administrators to deploy enrollment commands through scripts or enterprise deployment mechanisms such as Group Policy Objects (GPO), device management tools, or other MDM solutions.",
+            "CLI-based enrollment supports bulk device onboarding and migration scenarios while enabling a zero-touch setup experience. This ensures consistent device configuration and reduces manual intervention during the enrollment process.",
+            "Supported Versions",
+            "Windows 10",
+            "Windows 11",
+            "Prerequisites",
+            "‘CLI Based Enrollment’ is supported on Windows devices with SureMDM Agent Version 6.22.0 and later.",
+            "To enroll Windows devices using CLI, follow the steps below:",
+            "Step 1: Navigate to Windows Enrollment",
+            "Login to the SureMDM Web Console.",
+            "Navigate to: Enrollment > Manual Enrollment > Windows > CLI Based Enrollment",
+            "Step 2: Configure Enrollment Settings",
+            "Click Configure to customize enrollment settings.",
+            "The Enrollment Configuration window appears.",
+            "Enter the required configuration details:",
+            "Enrollment ConfigurationDescription",
+            "Enrollment Group Path",
+            "Specifies the group in the SureMDM console where the device will be enrolled.",
+            "Device Name Type",
+            "Select the naming method for Windows devices. The selected option will be used as the device's assigned name. Select from one of the following options:",
+            "Use Mac Address",
+            "Use System Generated BIOS Name",
+            "Use Device Host Name",
+            "Use Product Serial Number",
+            "SureMDM Agent URL",
+            "Select the source for the SureMDM Agent. Choose ‘Latest SureMDM Agent’ to use the most recent version, or ‘Custom’ to specify your own agent URL.",
+            "Custom SureMDM Agent URL",
+            "Enter the complete URL where SureMDM Agent is hosted, This option appears when ‘Custom’ is selected as an option in ‘SureMDM Agent URL’ dropdown.",
+            "Download Path",
+            "Enter the complete UNC path where the file will be downloaded. Ensure to include the full folder path, file name, and file extension.",
+            "Step 3: Apply Configuration",
+            "After entering the required details, click Apply.",
+            "Once the configuration is applied, the CLI enrollment command will be generated and displayed in an encoded format.",
+            "Click Copy Command to copy the generated command.",
+            "Step 4: Execute CLI Command on Windows Device",
+            "Open Command Prompt or PowerShell on the target Windows device.",
+            "Paste the copied enrollment command and press Enter to start the enrollment process.",
+            "The SureMDM Agent will be downloaded, installed, and configured automatically.",
+            "note",
+            "Upon running above CLI command, the enrollment process will be zero-touch for Users with Admin privileges, while Standard users will be prompted to enter admin credentials to install the SureMDM agent.",
+            "If Enrollment Authentication Type is set to Require Password under Account Settings > Device Enrollment Rules, the generated CLI command includes the configured password, so end users won't be prompted to enter it during enrollment. To enforce password authentication during CLI-based enrollment, we recommend you to contact our Support for removing the password parameter from the CLI command.",
+            "Step 5: Verify Enrollment Status",
+            "Once the command execution completes:",
+            "The device will appear in the Device Grid in the SureMDM Web Console.",
+            "The device status will change to Online once the SureMDM Agent establishes communication with the server.",
+            "Network restrictions or proxy configurations may impact agent download and installation.",
+            "If using automation tools or scripts, verify that the command is executed in a silent or unattended mode as required."
+          ],
+          "removedLines": [],
+          "prevDate": "2026-07-23"
+        }
+      ],
+      "ms": 1875
+    },
+    {
+      "id": "jamf-pro-release-notes",
+      "vendor": "Jamf",
+      "kind": "jamf-khub",
+      "url": "https://learn.jamf.com",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "map": "Jamf Pro Release Notes 11.33.1",
+        "version": "11.33.1",
+        "topics": 3
+      },
+      "counts": {
+        "total": 3,
+        "new": 3,
+        "changed": 0,
+        "removed": 9,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "11.33.1 :: New Features and Enhancements > Changes and Improvements",
+          "title": "New Features and Enhancements > Changes and Improvements — Jamf Pro 11.33.1",
+          "date": null,
+          "url": "https://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.33.1/Changes_and_Improvements",
+          "text": "Jamf Pro 11.33.1 includes Tomcat 10.1.60.",
+          "hash": "0d533a4d16ca30966c8b5e4cf589ee60523553ec1e709e9c793236ab5e8e73a1",
+          "windows": "none"
+        },
+        {
+          "key": "11.33.1 :: New Features and Enhancements > Resolved Issues",
+          "title": "New Features and Enhancements > Resolved Issues — Jamf Pro 11.33.1",
+          "date": null,
+          "url": "https://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.33.1/Resolved_Issues",
+          "text": "Jamf Pro Server: Security Issues\nJamf provides the CVE-ID for security issues with high or critical severity when possible.\n[PI209200] Fixed: A known vulnerability in a third-party library (CVE-2026-41715).\n[PI214500] Fixed: A cross-site scripting (XSS) issue.\n[PI228082] Fixed: A broken access control issue.\n[PI230883] Fixed: A known vulnerability in a third-party library (CVE-2026-84939).\n[PI209383] Fixed: A known vulnerability in a third-party library (CVE-2018-14040, CVE-2018-14041, CVE-2018-14042, CVE-2016-10735).\n[PI232915] Fixed: A known vulnerability in a third-party library (CVE-2026-97687).\n[PI232918] Fixed: A known vulnerability in a third-party library (CVE-2026-101896).\n[PI232922] Fixed: A known vulnerability in a third-party library (CVE-2026-91777).\nJamf Pro Server\n[PI-1577] Fixed: Inventory submissions may cause high database load when smart computer groups or advanced computer searches use patch reporting criteria.\n[PI-1610] Fixed: The mobileDeviceEnrolled event may fail to generate a webhook when Apple TV devices are enrolled.\n[PI-1613] Fixed: Adding devices to the scope of an in-house app with a manually edited version may cause the app to reinstall on devices that already have it.\n[PI-1723] Fixed: On new installations, Jamf Pro may bypass the configured HTTP proxy and log errors when connecting to external services until Jamf Pro is restarted.\n[PI-1961] Fixed: Renewing the MDM profile on Apple TV devices may return an HTTP 401 error.\n[PI-1962] Fixed: Configuration profiles with Entrust SCEP dynamic challenges fail to deploy, and repeated \"Error obtaining SCEP challenge from Entrust\" messages appear in the logs.\n[PI-1967] Fixed: Jamf Pro cannot create or renew the built-in certificate authority (CA) or its related certificates if the organization name is longer than 29 characters.",
+          "hash": "a403c7871a70bed8288adc17ae7a3c509811f8fab9a5a2e057e0d2f9aa8af33d",
+          "windows": "none"
+        },
+        {
+          "key": "11.33.1 :: New Features and Enhancements > Additional Information",
+          "title": "New Features and Enhancements > Additional Information — Jamf Pro 11.33.1",
+          "date": null,
+          "url": "https://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.33.1/Additional_Information",
+          "text": "For information on new features and other resolved issues, use the version picker at the top of the page to view previous Jamf Pro release notes.",
+          "hash": "3f558c9e2ea4b7304d908613d572db0fa88a6340ad16a08f805a623fe92954b0",
+          "windows": "none"
+        }
+      ],
+      "changed": [],
+      "ms": 3067
+    },
+    {
+      "id": "scalefusion-release-notes",
+      "vendor": "Scalefusion",
+      "kind": "d360-index",
+      "url": "https://help.scalefusion.com/docs/latest-release-notes-year-{year}",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://help.scalefusion.com/docs/latest-release-notes-year-2026",
+        "articleModifiedAt": "2026-10-26T04:30:07.0591327Z",
+        "articleTitle": "Latest Release Notes: Year 2026",
+        "fetched": 1
+      },
+      "counts": {
+        "total": 29,
+        "new": 1,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "Scalefusion October 16th, 2026 Release Notes",
+          "title": "Scalefusion October 16th, 2026 Release Notes",
+          "date": "2026-10-20",
+          "url": "https://help.scalefusion.com/docs/scalefusion-october-16th-2026-release-notes",
+          "text": "Version Information\nScalefusion Dashboard: v68.3.0\nRelease Notes\n1. Compliance Reports\nCompliance Reports have been enhanced and are now available to customers based on their plan. IT Administrators can generate reports based on OS version, application version, and encryption status to evaluate device compliance against defined conditions. Supported compliance criteria include:\na. OS Version: Generate compliance reports for Android, iOS, Windows, and macOS devices. For Windows, administrators can create condition groups using multiple conditions based on revision and build number. For Android, iOS, and macOS, compliance is evaluated by comparing the device OS version against a specified version using a selected operator.\nb. Application Version: Generate reports for single or multiple applications across Android, iOS, Windows, and macOS. Administrators can group up to five application conditions in a single report.\nc. Encryption Status: Generate compliance reports for Windows and macOS devices based on their encryption status.\nd. Saved Compliance Reports: Save compliance report configurations as reusable filters to avoid repeatedly defining the same conditions. Up to 25 reports can be saved and shared across administrators.\ne. Role-Based Access Control (RBAC): Compliance Reports now have dedicated RBAC permissions. Administrators with read/write access can save, edit, and delete reports, while other administrators can view reports and use saved filters.\nf. DeepDive Integration: A new Compliance Overview section in DeepDive displays saved compliance reports graphically when enabled. Compliance is evaluated daily based on the conditions defined in each report, and the corresponding graphs are displayed.\n2. OneIdP Conditional Access Enhancement for ChromeOS\nConditional Access settings in OneIdP now allow IT Administrators to block access to the service from ChromeOS devices.\nTeam\nTeam Scalefusion",
+          "hash": "409b52d3c17e352038d65a533b8700890aee65c008ef70a9408724ca0019bd50",
+          "windows": "medium"
+        }
+      ],
+      "changed": [],
+      "ms": 868
+    },
+    {
+      "id": "scalefusion-product-updates",
+      "vendor": "Scalefusion",
+      "kind": "rss",
+      "url": "https://blog.scalefusion.com/category/product-updates/feed/",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "url": "https://blog.scalefusion.com/category/product-updates/feed/",
+        "entries": 10
+      },
+      "counts": {
+        "total": 10,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 652
+    },
+    {
+      "id": "ivanti-quarterly-releases",
+      "vendor": "Ivanti",
+      "kind": "html-blocks",
+      "url": "https://www.ivanti.com/releases",
+      "baseline": false,
+      "status": "no-change",
+      "meta": {
+        "pages": [
+          "https://www.ivanti.com/releases/2026/q3",
+          "https://www.ivanti.com/releases/2026/q2"
+        ]
+      },
+      "counts": {
+        "total": 67,
+        "new": 0,
+        "changed": 0,
+        "removed": 0,
+        "hiddenNew": 0
+      },
+      "new": [],
+      "changed": [],
+      "ms": 903
+    },
+    {
+      "id": "jumpcloud-release-notes",
+      "vendor": "JumpCloud",
+      "kind": "html-sections",
+      "url": "https://jumpcloud.com/support/release-notes-{year}",
+      "mdChars": 6000,
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://jumpcloud.com/support/release-notes-2026",
+        "headings": 72
+      },
+      "counts": {
+        "total": 12,
+        "new": 1,
+        "changed": 1,
+        "removed": 1,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "October 21st, 2026",
+          "title": "October 21st, 2026",
+          "date": "2026-10-21",
+          "url": "https://jumpcloud.com/support/release-notes-2026#october-21st-2026",
+          "text": "Enhancement: Start Browser Discovery from Managed Devices or Third-Party MDM\nFeature: AI & SaaS Management\nBrowser discovery in AI & SaaS Management can now start when a user signs in to a JumpCloud-managed device associated with them, or when you deploy the JumpCloud Go extension through a third-party MDM provider.\nUse the path that matches how you manage devices and identity:\nJumpCloud-managed devices: Tracking can start after a user signs in to a JumpCloud-managed device associated with them.\nThird-party MDM: Copy the Client ID and Client secret from Settings, add them to the JumpCloud Go extension distribution policy, and deploy that policy. Discovery can start after the extension is installed. Discovery data is associated with a user after they sign in to the User Portal or a JumpCloud SSO application, or after they sign in to a JumpCloud-managed device associated with them.\nSee Get Started: AI & SaaS Management and Deploy JumpCloud Go Extension for SaaS Discovery with Third-Party MDM to learn more.",
+          "hash": "708a593bf67ad2b4141014cd2202ec9d4e33c9dc21c088a31b107b1982887e91",
+          "windows": "none"
+        }
+      ],
+      "changed": [
+        {
+          "key": "October 14th, 2026",
+          "title": "October 14th, 2026",
+          "date": "2026-10-14",
+          "url": "https://jumpcloud.com/support/release-notes-2026#october-14th-2026",
+          "text": "New: Agent Uninstall Protection\nFeature: Device Management\nPrevent unauthorized removal of the JumpCloud agent so your devices stay managed. Agent Uninstall Protection is on by default for all devices running JumpCloud agent v2.179.2 or later. Uninstalling the agent with standard methods on macOS, Windows, and Linux now requires a per-device maintenance token.\nDirectory Insights Events: Directory Insights logs failed uninstall attempts, successful uninstalls, and exemption policy changes, identifying the device and the user.\nMaintenance Tokens: Admins with Manager role permissions or higher can view a device's maintenance token from the device details. Tokens work without network connectivity and automatically rotate 60 minutes after they're viewed if the agent remains installed.\nExemption Policies: Use the Disable Agent Uninstall Protection policy for macOS, Windows, or Linux to remove the token requirement from specific devices during agent maintenance, troubleshooting, or imaging.\nProtection Status: View each device's protection status (On, Off, or Failed) from the device details or the Devices list.\nDeleting an active device from the Admin Portal or the JumpCloud API still removes the agent without a maintenance token.\nAvailable in the Admin Portal: Go to Device Management > Devices > Settings > Agent Uninstall Protection.\nLearn More\nGet Started: Agent Uninstall Protection\nCreate a Device Level macOS Disable Agent Uninstall Protection Policy\nCreate a Device Level Windows Disable Agent Uninstall Protection Policy\nCreate a Device Level Linux Disable Agent Uninstall Protection Policy\nInstall or Uninstall the JumpCloud Agent\nEnhancement: Customize Email and Automation Variables tabs in Settings\nFeature: Admin Portal\nYou'll see a refreshed look on the Customize Email and Automation Variables tabs, with shorter labels and helper text that's easier to scan. Your settings work exactly as before. They're just easier to find and update.\nSee Settings in the Admin Portal to learn more.",
+          "hash": "1510a056aa9649cc5f56de0a097663448bbfff16e580393371fdfc37725d0717",
+          "windows": "medium",
+          "addedLines": [
+            "Enhancement: Customize Email and Automation Variables tabs in Settings",
+            "Feature: Admin Portal",
+            "You'll see a refreshed look on the Customize Email and Automation Variables tabs, with shorter labels and helper text that's easier to scan. Your settings work exactly as before. They're just easier to find and update.",
+            "See Settings in the Admin Portal to learn more."
+          ],
+          "removedLines": [],
+          "prevDate": "2026-10-14"
+        }
+      ],
+      "ms": 1207
+    },
+    {
+      "id": "manageengine-endpoint-central",
+      "vendor": "ManageEngine",
+      "kind": "csv",
+      "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
+      "baseline": false,
+      "status": "ok",
+      "meta": {
+        "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
+        "rows": 4662,
+        "kept": 400
+      },
+      "counts": {
+        "total": 399,
+        "new": 5,
+        "changed": 0,
+        "removed": 5,
+        "hiddenNew": 0
+      },
+      "new": [
+        {
+          "key": "11.5.2627.61|211700ade31c",
+          "title": "11.5.2627.61 · BugFixes · DC:SS:MSP:PMP:VMP",
+          "date": "2026-10-23",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "text": "Fixed a vulnerability in sanitizing agent data\nType: BugFixes; Products: DC:SS:MSP:PMP:VMP",
+          "hash": "a967309ce290dfa1f94f6af72c287278b440fd1b1bc6ee2702eede6328d8775e",
+          "windows": "none"
+        },
+        {
+          "key": "11.5.2627.61|2da45112a31d",
+          "title": "11.5.2627.61 · BugFixes · DC:SS:MSP:PMP:VMP",
+          "date": "2026-10-23",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "text": "Fixed an issue where feature packs bypassed exclusion rules in specific scenarios.\nType: BugFixes; Products: DC:SS:MSP:PMP:VMP",
+          "hash": "891f58600e645e4fa45d8b398a6bd30767917c207ba41f857e03c99572093de6",
+          "windows": "none"
+        },
+        {
+          "key": "11.5.2627.60|271346c658c2",
+          "title": "11.5.2627.60 · BugFixes · DC:ACP:SS:MSP",
+          "date": "2026-10-16",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "text": "Fixed an issue where the Application Control elevation prompt was not displayed during the installation of certain Microsoft Store applications.\nType: BugFixes; Products: DC:ACP:SS:MSP",
+          "hash": "f2a7fb72b0f08dac3463d3510e5b8c439c0745a55f811b3747a8d33e4db18cd6",
+          "windows": "none"
+        },
+        {
+          "key": "11.5.2627.60|9a30f5211aae",
+          "title": "11.5.2627.60 · BugFixes · DC:DCP:SS:MSP",
+          "date": "2026-10-16",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "text": "File Audit timestamps now account for Daylight Saving Time.\nType: BugFixes; Products: DC:DCP:SS:MSP",
+          "hash": "a161156f88ebd856da8c92db13cec34ae2b8c71f63c2f3a74f3f0e91257ef2fc",
+          "windows": "none"
+        },
+        {
+          "key": "11.5.2627.60|2049665b8ae4",
+          "title": "11.5.2627.60 · BugFixes · DC:SS:MSP:PMP:VMP",
+          "date": "2026-10-16",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "text": "Fixed an issue on Linux where the 'Configuration in Progress' pop-up stayed on screen in a specific scenario, causing multiple pop-ups to pile up over time.\nType: BugFixes; Products: DC:SS:MSP:PMP:VMP",
+          "hash": "c1ac1ed4f7dbcc77da1620ee4f4a53aea00a399232c1ca6fe0c565a89f4e2d6f",
+          "windows": "none"
+        }
+      ],
+      "changed": [],
+      "ms": 514
+    }
+  ]
+}
