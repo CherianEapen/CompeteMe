@@ -2,11 +2,11 @@
  "id": "42gears-docs",
  "vendor": "42Gears",
  "kind": "sitemap",
- "fetchedAt": "2026-10-26T04:30:08.046Z",
+ "fetchedAt": "2026-11-02T04:30:07.405Z",
  "meta": {
-  "urls": 952,
-  "fetched": 2,
-  "fetchCandidates": 2
+  "urls": 953,
+  "fetched": 25,
+  "fetchCandidates": 40
  },
  "items": [
   {
@@ -73,246 +73,246 @@
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/",
-   "title": "android enterprise",
-   "date": "2025-03-24",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/",
-   "text": "",
-   "hash": "6b98898d4bee60280a7b54044b1f6eea5d933a1304db1ee092fad83cc9bf5d4e",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-admin/",
-   "title": "android device admin",
-   "date": "2026-02-23",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-admin/",
-   "text": "",
-   "hash": "c4eef8188462bb97d93a9960dd6780e6d916f49febe129cd161145e5cdf830ec",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-admin/android-device-administrator",
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/android-device-admin/android-device-administrator",
    "title": "android device administrator",
-   "date": "2026-02-23",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-admin/android-device-administrator",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/android-device-admin/android-device-administrator",
    "text": "",
-   "hash": "0f744a10cd7f9e09259192e7b7094f3f47bd7eb39eb529c426fa3a03914c773a",
+   "hash": "27fd5b215e8ea6aec8c6a99164ded8b2b5bfbcfe759cfbef10ff31d6fc0ce63c",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-admin/configure-suremdm-agent/",
-   "title": "configure suremdm agent",
-   "date": "2026-02-23",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-admin/configure-suremdm-agent/",
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/android-device-admin/configure-suremdm-agent/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/android-device-admin/configure-suremdm-agent/overview",
    "text": "",
-   "hash": "6b3ddb5ac1eda70cf41e694103c759cbf7a4218070470bbc89dc57bf1f81cc44",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-admin/configure-suremdm-agent/suremdm-agent-permissions",
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/android-device-admin/configure-suremdm-agent/suremdm-agent-permissions",
    "title": "suremdm agent permissions",
-   "date": "2026-02-23",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-admin/configure-suremdm-agent/suremdm-agent-permissions",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/android-device-admin/configure-suremdm-agent/suremdm-agent-permissions",
    "text": "",
-   "hash": "7805894db4801316281b9874797940dcffa57f73344a295811eabda8b82467ca",
+   "hash": "2f1a28eda61a62b07608dfde0c899a14aaafe27396a83982a45ab440e6eb16a5",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-admin/device-admin-management",
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/android-device-admin/device-admin-management",
    "title": "device admin management",
-   "date": "2026-02-23",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-admin/device-admin-management",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/android-device-admin/device-admin-management",
    "text": "",
-   "hash": "b50c7a1ea7e02819c249200cb07dfb0786dfd3428605a250fe510204fcda3091",
+   "hash": "1cbd5424e62cbb338265fc23b546f2d9131b027f07510699ca606011f97658de",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-management/",
-   "title": "android device management",
-   "date": "2024-01-12",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-management/",
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/android-device-admin/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/android-device-admin/overview",
    "text": "",
-   "hash": "a3f6fc52b078b3879600ed3db38ce993e5d81d957bdf32cc2a3cc2f19e4d5fe2",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/",
-   "title": "android enterprise enrollment",
-   "date": "2026-01-15",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/",
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/android-device-management/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/android-device-management/overview",
    "text": "",
-   "hash": "ae15de8e02868430d3d520d6f1aebed33180f66fce8928e642ea29017f89723d",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/",
-   "title": "enroll devices",
-   "date": "2025-03-24",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/",
-   "text": "",
-   "hash": "32a047ca7096cd40ae64e8d5258583438a8edd3dc661b489810d1d903f3ac4bb",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/fully-managed/",
-   "title": "fully managed",
-   "date": "2024-01-18",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/fully-managed/",
-   "text": "",
-   "hash": "cbef2a96c3204db7af87eec9fbc58aea8acc71c287c13364cb8dd9cadd365933",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/fully-managed/using-gmail-account",
-   "title": "using gmail account",
-   "date": "2024-01-16",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/fully-managed/using-gmail-account",
-   "text": "",
-   "hash": "c84272bf9dc4451add605afca2a2de3141543c101b0b203d088397142d437293",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/fully-managed/using-managed-google-account",
-   "title": "using managed google account",
-   "date": "2024-01-16",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/fully-managed/using-managed-google-account",
-   "text": "",
-   "hash": "f7777ea01fe6664cc812396940653030d15b31a53824c7b5946f3e072964e8af",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/work-profile/profile-owner",
-   "title": "profile owner",
-   "date": "2026-07-28",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/work-profile/profile-owner",
-   "text": "",
-   "hash": "777ac86d10faec2c7c30b828ad0b7ce82395c59b8ac99e7d28143f66a92b1a0d",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/work-profile/using-gmail-po",
-   "title": "using gmail po",
-   "date": "2025-03-24",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/work-profile/using-gmail-po",
-   "text": "",
-   "hash": "8e412341ce3d1c338f8c07f1c2c05c32ed7e57877669e4604aee1c5fa8a62954",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/work-profile/using-managed-account",
-   "title": "using managed account",
-   "date": "2024-01-16",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/work-profile/using-managed-account",
-   "text": "",
-   "hash": "3d4d3409d8aca03d23979e2c8a0eff105b556b0debfdfeb6656af30e42d1e608",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/wpco/",
-   "title": "wpco",
-   "date": "2026-07-28",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/wpco/",
-   "text": "",
-   "hash": "6643c17c22ed8cf18f89f647180657a27d09a2ee457f971277a7c0b38dcab7ae",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/zero-touch-enrollment/android-zero-touch",
-   "title": "android zero touch",
-   "date": "2025-03-24",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-devices/zero-touch-enrollment/android-zero-touch",
-   "text": "",
-   "hash": "a45554c28abf7fee7eaa6cf721b44d5e41310691545cfe594bf1607b016c307b",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-nfc-tags",
-   "title": "enroll nfc tags",
-   "date": "2026-05-19",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-nfc-tags",
-   "text": "",
-   "hash": "4cd24f8c04f1837d4d2916d083f018f53a2fbd34e248b790d762c4b6fc52fe39",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-suremdm/enroll-suremdm-with-android-enterprise",
-   "title": "enroll suremdm with android enterprise",
-   "date": "2026-08-20",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-enterprise-enrollment/enroll-suremdm/enroll-suremdm-with-android-enterprise",
-   "text": "",
-   "hash": "957727312d21a75725f427405c24e9843c9ce0d795419c23b184ca0c357cee4e",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-management-api/difference-between-android-management-api-google-play-emmapi",
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/android-management-api/difference-between-android-management-api-google-play-emmapi",
    "title": "difference between android management api google play emmapi",
-   "date": "2026-01-28",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-management-api/difference-between-android-management-api-google-play-emmapi",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/android-management-api/difference-between-android-management-api-google-play-emmapi",
    "text": "",
-   "hash": "eb89b82124423782a393797fd7e39644f751c1fd7bbb97d145f1f050b91a787f",
+   "hash": "745c8309b4544e4cf4fb18c8a1920ae83f69ccb0f1446e87eaa271717912e0e0",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/managed-device-config/",
-   "title": "managed device config",
-   "date": "2024-01-18",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/managed-device-config/",
-   "text": "",
-   "hash": "01a849bf489d855e50c191f48da3a3d880025f97aedb82d705c78f77fff418da",
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/fully-managed/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/fully-managed/overview",
+   "text": "Fully Managed Devices Enrollment\nThere are two ways to enroll devices in SureMDM using Device Owner:\nUsing Gmail Account\nUsing Managed Google Account\nIn order to proceed, ensure that your SureMDM account is enrolled with Android Enterprise. Refer to the Enroll SureMDM with Android Enterprise section for detailed instructions.",
+   "hash": "b66c9f41094d2464869e284eabaecdbfc51b3d457fb1cbe98550a89b2a0c578a",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/managed-device-config/manage-app-config-using-profile",
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/fully-managed/using-gmail-account",
+   "title": "using gmail account",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/fully-managed/using-gmail-account",
+   "text": "Using Gmail Account\nTake a new device or factory reset the existing device.\nOn the Language page, select the desired Language and tap Start.\nConnect the device with Wi-Fi network.\nNext, on Add your account screen, enter Email as afw#sureMDM and tap Next.\nNext, go through Google services and Accept to go to the next screen.\nOn the SureMDM Agent, select Fully Managed Device.\nnote\nThis screen will be visible only on Android 12 and above devices.\nThe device will get enrolled directly as Device Owner for devices running below Android 12.\nOn the Android for Work screen, SureMDM Agent will be listed, tap Install.\nSureMDM Agent will start downloading.\nOn the Android Enterprise Configuration, select Skip Encryption and tap Next.\nOn the Set up your profile screen, tap Set Up.\nThe device will be enrolled into fully managed mode with the SureMDM Agent application",
+   "hash": "44b3f47cc0275f8b472ce6406ebf961f23aadbef8fcf907effc0326dec8fa85c",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/fully-managed/using-managed-google-account",
+   "title": "using managed google account",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/fully-managed/using-managed-google-account",
+   "text": "Using Managed Google Account\nTo configure SureMDM account with Android Enterprise, follow these steps:\nTake a new device or factory reset the existing device.\nOn the Language page, select the desired Language and tap Start.\nConnect the device with Wi-Fi network.\nTap Accept and Continue to use the same settings.\nEnter domain details: User Name, Password and tap Next.\nGo through the Terms of Service and agree to it.\nOn the Google Services screen, select the required options and tap Next.\nOn the next screen, SureMDM Agent application will be listed and tap Install.\nSureMDM Agent will start downloading and on the next screen tap Install.\nOn Android Enterprise Configuration, select Skip Encryption and tap Next.\nIn the Set up your profile screen, tap Set Up. After setting the device owner, the device will turn into kiosk mode with SureMDM Agent application.",
+   "hash": "d8f039a2129b7ea567a3086a4c5b570f41743e71046cc05a64831eb674336bfa",
+   "windows": "medium"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/overview",
+   "text": "Enroll devices in PO/DO/WPCO\nEnrolling Android devices in SureMDM is an important step in managing and securing your organization's mobile devices. Following the SureMDM enrollment with Android Enterprise, you can begin enrolling devices in the following modes:\nProfile Owner\nFully Managed Devices - Single dedicated purpose\nWork Profile on Company Owned - WPCO",
+   "hash": "0a8264ee72cc5f935ba8d0c0b679b9099e27bc83c6dd40459bb1be76fe76f8bd",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/work-profile/profile-owner",
+   "title": "profile owner",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/work-profile/profile-owner",
+   "text": "Profile Owner\nWith the adoption of Profile Owner (Personally Owned Devices), businesses are offering their employees freedom to use their mobile devices for both personal as well as official use. Personally Owned Devices enables personal devices to have ready access to business data anytime, from anywhere.\nSureMDM integration with Android Enterprise provides a flexible and effective solution to enable employee personal phones for work and counter security risks that come with it.\nThere are two ways to enroll devices in SureMDM using Work Profile:\nUsing Gmail Account\nUsing Managed Google Account\nIn order to proceed, ensure that your SureMDM account is enrolled with Android Enterprise. Refer to the Enroll SureMDM with Android Enterprise section for detailed instructions.\nnote\nFor devices enrolled in Profile Owner mode, all configurations applied from SureMDM are enforced on the managed device profile. These configurations will not affect the device's personal profile or personal data.",
+   "hash": "5f5819447b003515121cfdf3bbefd1e7b74bce89b3da421df992e67e5f89b653",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/work-profile/using-gmail-po",
+   "title": "using gmail po",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/work-profile/using-gmail-po",
+   "text": "Using Gmail Account (PO)\nIn order to proceed, ensure that your SureMDM account is enrolled with Android Enterprise. Refer to the Enroll SureMDM with Android Enterprise section for detailed instructions.\nOnce the SureMDM account is enrolled with Android Enterprise, the device also needs to get enrolled with the Android Enterprise account. This process gets started with configuring the SureMDM Agent with Android Enterprise.\nTo enroll Android devices in SureMDM using Android Work Profile Enrollment, follow the below-mentioned steps:\nnote\nWork Profile Enrollment will be supported only on Android 6 and above devices.\nDownload SureMDM Agent app on the device from the following sources:\nGoogle Play\n42Gears Website\nOpen the SureMDM Agent app and tap Get Started.\nTap Work Profile Enrollment.\nSelect one of the following options on the next screen:\nA. SureMDM Account ID - Use this option to register the device manually.\nEnter the SureMDM Account ID and tap Next.\nnote\nAccount ID is the unique identification number of the SureMDM account. It can be copied from the SureMDM Console, i.e., Navigate to Settings on the top right corner in SureMDM console to get Account ID.\nServer Path is the SureMDM console URL to which the devices will be enrolled.\nEnter the Server Path and tap Next.\nSelect one of the following options to set the device name on the Configure Device Name screen and tap Register.\nSet Device Name Manually\nUse MAC Address\nUse System Generated Name\nTap Accept \\& continue to create a work profile on the device.\nOnce done, tap Next to complete the enrollment process.\nB. Scan QR - Use this option if you are already logged into the SureMDM Web Console and want to enroll the device into SureMDM.\nNavigate to the Enrollment menu > QR Code Enrollment on the SureMDM Web Console.\nCreate a QR code for QR code for Work Profile Enrollment.\nScan the QR code on the device to enroll.\nWhen the device is enrolled , admins will notice the following:\nOn the device side, a Work Container will be created, and the SureMDM Agent will be visible in the workspace with briefcase icon.\nOn the SureMDM console, under the Device Info panel > Android Enterprise, the Profile Owner tag will be shown.",
+   "hash": "3e0b04649b597a3baa49378d83c8348e9d210c2ed46302a3d174a8e9f47e7040",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/work-profile/using-managed-account",
+   "title": "using managed account",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/work-profile/using-managed-account",
+   "text": "Using Managed Google Account\nTo configure SureMDM Agent with Android Enterprise on the device, follow these steps:\nOn the device, navigate to Settings > Users and accounts > Add Account.\nEnter domain UserName and Password.\nThese are the credentials that are registered for Android Enterprise.\nGo through the Terms of Service and tap I agree to continue.\nSureMDM Agent app will be displayed for Google account.\nTap Install.\nSureMDM Agent app will start downloading.\nGo through the terms and conditions and tap Accept \\& Continue.\nOnce you accept and continue, setting up of Work Profile will be in progress.\nOnce done, SureMDM will create a secured Android Enterprise container on the device. The device user can verify this with a small orange briefcase badge appearing on SureMDM Agent.\nOnce these setup steps are taken care of, business apps and data in the enrolled device are secured without compromising on employees’ productivity, privacy and satisfaction.",
+   "hash": "ffe1bd69b7ceacef569e34d986ff6cb3b79075d4d93eeb05e0e59d6a1435c8bd",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/wpco/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/wpco/overview",
+   "text": "Work Profile on Company Owned\nWPCO (Work Profile on Company Owned) represents a business model where organizations equip employees with devices, granting them the freedom to use these devices for both personal and professional needs. This approach facilitates a seamless integration of personal and work-related activities on the provided devices. The integration of SureMDM with Android Enterprise offers a versatile and efficient solution, enabling personal use on company-owned devices while maintaining effective management.\nnote\nThis enrollment method will be supported only on Android 12 and above devices.\nIn order to proceed, ensure that your SureMDM account is enrolled with Android Enterprise. Refer to the Enroll SureMDM with Android Enterprise section for detailed instructions.\nEnroll Devices in WPCO using Gmail Account\nnote\nIf an existing device is being enrolled as Work Profile Managed Device, it has to be factory reset.\nTake a new device or factory reset the existing device.\nOn the Language page, select the desired Language and tap Start.\nConnect the device with Wi-Fi network.\nNext, on Add your account screen, enter Email as afw#sureMDM and tap Next.\nNext, go through Google services and Accept to go to the next screen.\nOn the SureMDM Agent, select Work Profile Managed Device.\nAdd your personal email account and accept all the Google Services.\nOn the Set up your profile screen, tap Set Up.\nOn the device side, a Work Container will be created, and the SureMDM Agent will be visible in the workspace with the container symbol.\nnote\nAll configurations applied from SureMDM to devices with a Work Profile will be enforced only within the Work Profile (Work Container). These configurations will not affect the device's personal profile or personal data.",
+   "hash": "e66a5b31e0a7a01d334166221583c5085867ec05739a5bc0a973c67a6aa51bff",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/zero-touch-enrollment/android-zero-touch",
+   "title": "android zero touch",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-devices/zero-touch-enrollment/android-zero-touch",
+   "text": "Android Zero Touch Enrollment\nAndroid Zero Touch Enrollment eliminates the need for manual device setup by automating the provisioning process. IT administrators can preconfigure device settings, apply security policies, and install necessary applications remotely, ensuring that devices are ready for use immediately. With SureMDM, you can easily manage and control the entire provisioning process through a centralized console, saving time and reducing the risk of errors.\nnote\nZTE is supported on the devices running Android version Oreo (8.0) or later.\nConfigure SureMDM Agent in Zero Touch Enrollment Portal\nPurchase devices from carrier partners and resellers who support Android Zero‑Touch enrollment. After the purchase, carrier partners and resellers will create a customer account for you on Zero Touch Enrollment Portal, upload the purchased device details like IMEI/Serial number and share the login credentials.\nTo get started, follow these steps:\nLogin to Zero Touch Enrollment Portal.\nOn Zero Touch Home, click Configurations to create a new configuration.\nGive a name to the configuration.\nFrom EMM DPC drop down menu, select MDM App by 42Gears-SureMDM.\nIn DPC extras, add the following content which has details about account id, server path and initial setup permissions.\nWith Password\n<code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">{ &nbsp;</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">\"android.app.extra.PROVISIONING\\_LEAVE\\_ALL\\_SYSTEM\\_APPS\\_ENABLED\":true, &nbsp;</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">\"android.app.extra.PROVISIONING\\_ADMIN\\_EXTRAS\\_BUNDLE\": {</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">\"AccountId\":\"<SureMDM Account ID>\",</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">\"ServerPath\":\"<SureMDM Server URL>\",</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">\"HttpHeader\":\"https://\",</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">\"EnrollmentType\":\"1\",</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">\"EnrollmentMode\":\"0\",</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">\"GroupPath\":\"Home\",</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">\"DeviceNameType\":\"UseSystemGenerated\",</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">\"ShowCheckListScreen\":\"True/False\",</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"displ…",
+   "hash": "e1475121db12b3c9f5bbe64a11beb4d173cc6cc10ef032ac121ed251361d2acb",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-nfc-tags",
+   "title": "enroll nfc tags",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-nfc-tags",
+   "text": "Near Field Communication (NFC) enrollment enables administrators to quickly provision and enroll Android devices by simply tapping an NFC tag on a factory reset device. This method simplifies large-scale device deployment by automatically configuring Wi-Fi settings, downloading the required management application, verifying the application package, and enrolling the device into the SureMDM console without manual configuration.\nUsing NFC-based provisioning helps reduce setup time, minimize configuration errors, and streamline the enrollment process for enterprise deployments. The NFC tag contains all the required provisioning details, allowing devices to be configured automatically during the initial setup process.\nWrite Data to NFC Tag\nNFC provisioning simplifies Android device enrollment by allowing administrators to configure devices using a pre-written NFC tag.\nFollow the steps below to write provisioning data to an NFC tag:\nOpen any NFC configuration application to write the NFC tag.\nNavigate to the Write tab.\nTap on Add a Record and select Data.\nIn the Text field, enter: application\nIn the Plain field, enter: com.android.managedprovisioning\nIn the Data field, enter the provisioning data using the format given below:\n<code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION=[Add NFC Tool Link Here]</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM=[Add Checksum Here]</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME=com.nix/com.nix.NixDeviceAdmin</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">android.app.extra.PROVISIONING_WIFI_SSID=\"[Enter Wi-Fi SSID]\"</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE=[Enter Security Type]</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">android.app.extra.PROVISIONING_WIFI_PASSWORD=[Enter Wi-Fi Password]</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE=nfc_data: </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">AccountId:[Enter Account ID]; ServerPath:[Enter Server Path]; </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">HttpHeader:https://; EnrollmentType:1; </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">EnrollmentMode:0;GroupPath:[Enter Group Path]</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span></code>\nClick OK to save the record.\nnote\nEnsure all data fields are accurate and accessible to avoid provisioning failure.\nNFC Provisioning – Device Enrollment Flow\nThe NFC provisioning process enables quick and automated device enrollment with minimal manual intervention.\nFollow the steps below to provision a device using an NFC tag:\nEnsure the device is in factory reset mode.\nTap the NFC tag at the appropriate location on the target device.\nThe device confirms NFC detection with a short vibration and sound.\nThe device automatically proceeds to the next screen.\nThe device connects to the Wi-Fi network specified in the NFC tag data:\nPROVISIONING_WIFI_SSID\nPROVISIONING_WIFI_SECURITY_TYPE\nPROVISIONING_WIFI_PASSWORD\nThe device downloads the application (SureMDM Agent) from the provided URL:\nPROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION\nThe device verifies the application using the checksum:\nPROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM\nUpon successful verification, the device is enrolled into the SureMDM…",
+   "hash": "1508195cb0e4787806092488f53fc81e3e0aa38ff909656fe1c983789e8cea68",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-suremdm/enroll-suremdm-with-android-enterprise",
+   "title": "enroll suremdm with android enterprise",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/enroll-suremdm/enroll-suremdm-with-android-enterprise",
+   "text": "Enroll SureMDM with Android Enterprise\nTo use the full potential of Android Enterprise's robust device management features, it is necessary to enroll your SureMDM account with Android Enterprise. By doing so, you gain access to a wide array of capabilities to efficiently manage and control your Android devices. There are two methods through which SureMDM can be enrolled with Android Enterprise:\nUsing Gmail Account\nUsing Managed Google Account\nUsing Gmail Account\nTo enroll SureMDM account with Android Enterprise, follow these steps:\nOn the SureMDM Web Console, navigate to Settings > Account Settings > Android Management > Android Enterprise Enrollment.\nOn Android Enterprise Enrollment page, click Enroll Android Enterprise.\nSelect Google Play EMM API.\nSelect Enroll Using Your Gmail Account and click Enroll.\nOn the Google Play page, click Get Started to login with the Gmail account.\nEnter organization's name in the Business Name field and click Next.\nEnter EU Representative details: Name, Email, Phone, select Terms and Conditions checkbox, and click Confirm.\nA message will be displayed on completion of the Android Enterprise setup.\nClick Complete Registration.\nOnce Android Enterprise enrolled to the SureMDM account, the following options are available in Account Settings > Android Management > Android Enterprise Enrollment:\nManaged Google Play Account Information: Displays details about the linked managed Google Play account\nStore Layout - Admin can use the basic layout or create a new page to display all Enterprise Approved Apps.\nApplication Licenses - This option provides summary of your application licenses.\nZero-touch iframe - This option allows you to set up your devices using zero-touch accounts.\nUnenroll - Allows to Unenroll your existing Google Managed Domain.\nUsing Managed Google Account\nTo enroll the SureMDM account with Android Enterprise, follow these steps:\nOn the SureMDM Web Console, navigate to Settings > Account Settings > Android Management > Android Enterprise Enrollment.\nOn Android Enterprise Enrollment page, click Enroll Android Enterprise.\nSelect Google Play EMM API.\nSelect Enroll Using Your Managed Google Account.\nEnter Google Managed Domain and EMM Token and click Enroll.\nnote\nTo generate Token ID, follow these steps:\nBrowse to admin.google.com in a browser.\nEnter Google Workspace (formerly G Suite) admin domain ID and Password,\nClick Login. Google Admin console will appear.\nIn Google admin console, click Security option.\nIn Security window, click Show more.*\nClick Manage EMM provider for Android > Generate Token.\nThe Token will be generated.\nCopy the generated token and paste it in Token ID field in 42Gears Web Console.\nOnce Android Enterprise enrolled to the SureMDM account, the following options are available in Account Settings > Android Management > Android Enterprise Enrollment:\nStore Layout - Admin can use the basic layout or create a new page to display all Enterprise Approved Apps.\nApplication Licenses - This option provides a summary of your application licenses.\nZero-touch iframe - This option allows you to set up your devices using zero-touch accounts.\nUnenroll - Allows to Unenroll your existing Google Managed Domain.",
+   "hash": "b27e6a39b280b532a82027043393ed23a88456bf3d4e0cfc6cf1f1e9f6ccf99b",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/enrollment/overview",
+   "text": "Android Enterprise Enrollment\nAndroid Enterprise, a program by Google, facilitates companies in providing secure access to business apps and data on both employee and company-owned devices. It ensures a seamless experience by creating a secure, isolated container at the operating system level, effectively separating business data from personal data without compromising the user's privacy. Android Enterprise empowers administrators to efficiently manage both employee and company-owned devices, ensuring a robust and secure mobile environment.\nThere are two scenario's through which SureMDM can be enrolled with Android Enterprise:\nEnroll SureMDM With Android Enterprise\nEnroll devices in PO/DO/WPCO\nFollowing the SureMDM enrollment with Android Enterprise, you can begin enrolling devices in the following modes:\nProfile Owner - In this mode, employees use their personal devices for work purposes while maintaining a distinct work profile on their devices.\nFully Managed Devices (Formerly known as COSU) - Single dedicated purpose - Fully Managed Devices, formerly known as Corporate-Owned, Single-Use (COSU), involve deploying devices that are exclusively dedicated to a single specific purpose within the organization.\nWork Profile on Company Owned - WPCO/COPE - In this mode, employees use company-owned devices that have a dedicated work profile alongside the personal profile.",
+   "hash": "27d203219882609dc63ec4e5d6115ec897d1c0e7562739e7e47e6c3e4bf3df60",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/managed-device-config/manage-app-config-using-profile",
    "title": "manage app config using profile",
-   "date": "2024-01-12",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/managed-device-config/manage-app-config-using-profile",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/managed-device-config/manage-app-config-using-profile",
    "text": "",
-   "hash": "78b48b5acc4f0a1a7e55b3620c374011b31510182fb051e8d39301a5d002beef",
+   "hash": "4a5479f4c85c514c99cdb8743e1bbf0f93f0040a2755b750d87e93a1d7d5272c",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/managed-device-config/manage-the-app-config-using-job",
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/managed-device-config/manage-the-app-config-using-job",
    "title": "manage the app config using job",
-   "date": "2024-01-12",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/managed-device-config/manage-the-app-config-using-job",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/managed-device-config/manage-the-app-config-using-job",
    "text": "",
-   "hash": "43b916a1fd8e700dcebef524379f1ddf2943bd698d98822021d8958b0b80f027",
+   "hash": "0c7a0751933925b927cc392f2ad49884d773c10fecb70adb77a8520c51d30a03",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/managed-device-config/upload-apk-to-app-store",
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/managed-device-config/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/managed-device-config/overview",
+   "text": "",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/managed-device-config/upload-apk-to-app-store",
    "title": "upload apk to app store",
-   "date": "2024-01-12",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/managed-device-config/upload-apk-to-app-store",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/managed-device-config/upload-apk-to-app-store",
    "text": "",
-   "hash": "47cc82be19e53c90c3ddd7ec838e730a392c879cf3f7c39f4cc6f5128d6948ff",
+   "hash": "c6efdb899ebf15c1595520091adf016837aad5f5d65cef09eaad404a4cb04c75",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/remote-support-management/",
-   "title": "remote support management",
-   "date": "2026-04-09",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/remote-support-management/",
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/overview",
    "text": "",
-   "hash": "1c76add8187621ceb68cddf97d703582222486188b1f9d5da8255884a9110a25",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/remote-support-management/remote-support-features-and-its-description",
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/remote-support-management/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/remote-support-management/overview",
+   "text": "",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/remote-support-management/remote-support-features-and-its-description",
    "title": "remote support features and its description",
-   "date": "2026-09-22",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/remote-support-management/remote-support-features-and-its-description",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/remote-support-management/remote-support-features-and-its-description",
    "text": "",
-   "hash": "9a89dfdc67976cd011bc739b00a36ad9e1a3ada4c36c6fcd3c3e83f0ff2baa9d",
+   "hash": "698a9f6c23c70acef57cdb5fbe9a62cbbb9c7bc9a7998c0faede12856628cb4c",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/remote-support-management/remote-support-on-android-devices",
+   "key": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/remote-support-management/remote-support-on-android-devices",
    "title": "remote support on android devices",
-   "date": "2026-09-29",
-   "url": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/remote-support-management/remote-support-on-android-devices",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/android-enterprise/enterprise/remote-support-management/remote-support-on-android-devices",
    "text": "",
-   "hash": "47469d95eb5a869b8769f281dd8173ea7658f91d9ed4b6cbcb57a879a1b83d4b",
+   "hash": "e618cf2c0cd3859140c3ea4867e8dbdb9f927b0c95f7db16e0760aa71cd877ef",
    "windows": "none"
   },
   {
@@ -1603,30 +1603,21 @@
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/device-administrator/android-device-admin/",
-   "title": "android device admin",
-   "date": "2026-02-16",
-   "url": "https://docs.42gears.com/suremdm/device-administrator/android-device-admin/",
+   "key": "https://docs.42gears.com/suremdm/device-administrator/android-device-admin/administrator",
+   "title": "administrator",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/device-administrator/android-device-admin/administrator",
    "text": "",
-   "hash": "11f4ac07e113f6da5d7f36deb9c097d2cac51c0ec4942c6c85b9381161bf12b9",
+   "hash": "8d237c95f88f5c37975f322845e6eb21515fca001ca110fcf3f79177b1866120",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/device-administrator/android-device-admin/android-device-administrator",
-   "title": "android device administrator",
-   "date": "2026-02-23",
-   "url": "https://docs.42gears.com/suremdm/device-administrator/android-device-admin/android-device-administrator",
+   "key": "https://docs.42gears.com/suremdm/device-administrator/android-device-admin/configure-suremdm-agent/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/device-administrator/android-device-admin/configure-suremdm-agent/overview",
    "text": "",
-   "hash": "0f744a10cd7f9e09259192e7b7094f3f47bd7eb39eb529c426fa3a03914c773a",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/device-administrator/android-device-admin/configure-suremdm-agent/",
-   "title": "configure suremdm agent",
-   "date": "2026-02-09",
-   "url": "https://docs.42gears.com/suremdm/device-administrator/android-device-admin/configure-suremdm-agent/",
-   "text": "",
-   "hash": "45f2ca248a5396d4cf3a0f6436d9a348ee2acd074166ef4567309cae4d9bb08a",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
    "windows": "none"
   },
   {
@@ -1645,6 +1636,15 @@
    "url": "https://docs.42gears.com/suremdm/device-administrator/android-device-admin/device-admin-management",
    "text": "",
    "hash": "65de402a26401e01789cb617504f04bdffd0bb28b3a59ba5f2d43a06a0fbeca7",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/device-administrator/android-device-admin/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/device-administrator/android-device-admin/overview",
+   "text": "",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
    "windows": "none"
   },
   {
@@ -2037,10 +2037,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/integrations/integration-guides/samsung",
    "title": "samsung",
-   "date": "2026-09-11",
+   "date": "2026-10-22",
    "url": "https://docs.42gears.com/suremdm/integrations/integration-guides/samsung",
    "text": "",
-   "hash": "3d5841ef7bb9cf416cef8e1e0d314847b9b6bcce4026ce97a769b1d917e4832b",
+   "hash": "b96993a9aaa9326c61c9eb7757986ca4008f6f7613767dd0bb777c3a918dd0d5",
    "windows": "none"
   },
   {
@@ -2298,10 +2298,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/integrations/integration-guides/sso/okta-sso",
    "title": "okta sso",
-   "date": "2026-09-11",
+   "date": "2026-10-26",
    "url": "https://docs.42gears.com/suremdm/integrations/integration-guides/sso/okta-sso",
-   "text": "",
-   "hash": "57b473b1c471de3d683422ba3a46a8b5d52d21c063b9aee3739df0bd9be8f31b",
+   "text": "Okta SSO\nSureMDM's seamless integration with Okta Single Sign-On (SSO) provides your organization with a streamlined and secure authentication experience. With Okta SSO, you can leverage a centralized identity management solution that enhances user convenience and bolsters data protection. Users can access SureMDM and other connected applications using a single set of login credentials. This eliminates the need to remember multiple passwords and simplifies the login process.\nThere are two ways to configure Okta SSO in SureMDM:\nConfigurationSelect Identity Provider (IdP)How permissions are assigned\nStandard Okta SSO\nOkta\nThe same Role, Device Group Set and Jobs/Profiles Folder Set apply to every user who signs in through Okta.\nDynamic Permission Assignment\nGeneric\nPermissions are assigned per user based on the value of a SAML attribute, for example a group, department, or title. The attribute must first be configured as an attribute statement on Okta, and the attribute name entered in SureMDM must match the name configured in Okta exactly.\nIMPORTANT\nCurrently Dynamic Permission Assignment is available only with the Generic option. If you select Okta in the Select Identity Provider (IdP) drop-down, Static permissions can be assigned.\nPrerequisites\nAn Okta account with admin access to the Okta Admin Console.\nA SureMDM account with permission to change Account Settings.\nYour SureMDM server path.\nFor Dynamic Permission Assignment setting up Attribute Statements by Adding Expressions is required.\nStep 1: Create the app integration in Okta\nLog in to the Okta Admin Console.\nNavigate to Applications and resources > Applications and click Create App Integration.\nSelect SAML 2.0 and click Next.\nOn the General Settings tab, enter an App name and click Next.\nOn the Configure SAML tab, enter the following values:\nFieldValue\nSingle sign-on URL\nhttps://<SureMDM Server Path>/console/ssoconsumer/<Encrypted Account ID>\nAudience URI (SP Entity ID)\nurn:42gears:suremdm:SAML2ServiceProvider\nnote\nThe Encrypted Account ID is generated by SureMDM only after the SAML Single Sign-On settings are saved (Step 2). For now, enter a placeholder value for the Encrypted Account ID so that Okta lets you save the app. You will replace it with the actual URL in Step 3.\nYou can either update attribute statements now or leave the Attribute Statements section in the wizard empty, it can be added later as well from the Sign On tab (please refer to the section Add attribute statements in Okta).\nClick Next. and then click Finish.\nOn the app's Sign On tab, click View SAML setup instructions and copy the following values:\nIdentity Provider Single Sign-On URL\nIdentity Provider Issuer\nIdentity Provider Single Logout URL (if available)\nDownload the X.509 Certificate (.cer file).\nNavigate to the Assignments tab and assign the users or groups who should sign in to SureMDM through Okta SSO.\nVerification: The app is saved in Okta, you have copied the Identity values, and you have downloaded the .cer certificate.\nStep 2: Configure SAML Single Sign-On in the SureMDM console\nUse this procedure for standard Okta SSO, where all Okta users get the same permissions. For Dynamic Permissions Assignment please skip to the Dynamic Permission Assignment section.\nLog in to the SureMDM Web Console.\nNavigate to Settings (gear icon at the top right) > Account Settings > Enterprise Integrations > SAML Single Sign-On.\nClick Add.\nConfigure the following settings:\nSettingDescription\nSelect Identity Provider (IdP)\nSelect Okta.\nService Identifier\nPaste the Identity Provider Issuer copied from Okta.\nSign On Service Url\nPaste the Identity Provider Single Sign-On URL copied from Okta.\nLogout Service Url\nPaste the Identity Provider Single Logout URL copied from Okta.\nUpload Certificate\nUpload the .cer certificate downloaded from Okta. Leave the password field empty.\nRoles\nSelect the role to assign to the users. See Configure Permissions for Role-Based Admin.\nDevice Group Set\nSelect the device group set…",
+   "hash": "f22056775c0f988b9fea1e4f58b1a5befaa1f2f41297e5ccc27e352183c129fc",
    "windows": "none"
   },
   {
@@ -5214,10 +5214,10 @@
   {
    "key": "https://docs.42gears.com/suremdm/quick-help/options/communication",
    "title": "communication",
-   "date": "2026-10-16",
+   "date": "2026-10-22",
    "url": "https://docs.42gears.com/suremdm/quick-help/options/communication",
    "text": "",
-   "hash": "af5b22804839c83d00f1656dd49dc8bd17b32f4fcabd87b57bebc79935f0b57c",
+   "hash": "72a54c66824bc849b1467a178d36ce1f5f03b71f624a7b9a58a0326bc8e4c8d3",
    "windows": "none"
   },
   {
@@ -5230,48 +5230,48 @@
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/samsungknox-device/samsungknox-management/configure-profile/configure-a-profile",
-   "title": "configure a profile",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/samsungknox-device/samsungknox-management/configure-profile/configure-a-profile",
+   "key": "https://docs.42gears.com/suremdm/samsungknox-device/management/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/samsungknox-device/management/overview",
    "text": "",
-   "hash": "e1ad36db0f88343a9c334a3b9fb61eb9b7bf3daf0a35a64ca39ba1da09a07476",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/samsungknox-device/samsungknox-management/configure-profile/configure-androidenterprise-profile/config-android-enterprise",
-   "title": "config android enterprise",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/samsungknox-device/samsungknox-management/configure-profile/configure-androidenterprise-profile/config-android-enterprise",
-   "text": "",
-   "hash": "568e86853f784f7b80b4b6e420c9cabd734e2f3eb9c05dc51f324b788ef52030",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/samsungknox-device/samsungknox-management/configure-profile/unenroll-devices/unenroll",
-   "title": "unenroll",
-   "date": "2025-10-06",
-   "url": "https://docs.42gears.com/suremdm/samsungknox-device/samsungknox-management/configure-profile/unenroll-devices/unenroll",
-   "text": "",
-   "hash": "53bd36b66baacfcc0cd59e3e9135761b4a6257889cefa98608fe31dfd6d264a8",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/samsungknox-device/samsungknox-management/prerequisites/prerequisites-samsung-knox",
+   "key": "https://docs.42gears.com/suremdm/samsungknox-device/management/prerequisites/prerequisites-samsung-knox",
    "title": "prerequisites samsung knox",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/samsungknox-device/samsungknox-management/prerequisites/prerequisites-samsung-knox",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/samsungknox-device/management/prerequisites/prerequisites-samsung-knox",
    "text": "",
-   "hash": "d3251482c0deb3c20cacd9e2cf245243b71e597f1c42120c43cdbb7e5ea365a3",
+   "hash": "22bf4c6e7fba227d77d5b89c4f6287f8e9ebf2800e8cfef2e9824ff8dfb09860",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/samsungknox-device/samsungknox-management/samsung-knox",
-   "title": "samsung knox",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/samsungknox-device/samsungknox-management/samsung-knox",
+   "key": "https://docs.42gears.com/suremdm/samsungknox-device/management/profiles/android-enterprise/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/samsungknox-device/management/profiles/android-enterprise/overview",
    "text": "",
-   "hash": "a2579349f442c342a7127b44f18cbc69661a61c58a73dbbbeb776c70d4b0e977",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/samsungknox-device/management/profiles/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/samsungknox-device/management/profiles/overview",
+   "text": "",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/samsungknox-device/management/profiles/unenrollment/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/samsungknox-device/management/profiles/unenrollment/overview",
+   "text": "Unenroll Devices\nThere are two different processes to be followed for unenrolling devices from the KME portal and SureMDM based on the profile type:\nFully Managed profile\nTo unenroll a device from the KME portal and SureMDM, follow these steps:\nRemove IMEI from the Knox Mobile Enrollment portal.\nFactory reset the device.\nDevice Admin profile\nTo unenroll a device from the KME portal and SureMDM, follow these steps:\nRemove IMEI from the Knox Mobile Enrollment portal.\nApply the following custom run script on the device. Refer to the steps here:\n<code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">**\\!#suremdm**</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">**setAdminRemovable(true,com.nix)**</span><br></span></code>\nUninstall SureMDM Agent from the device.",
+   "hash": "3481a348353e7340123d2d9ffee6d7a37fb37b7635f8025d17e7d2b8ef47b1b8",
    "windows": "none"
   },
   {
@@ -5862,100 +5862,100 @@
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/bixolon-printer-enrollment",
    "title": "bixolon printer enrollment",
-   "date": "2026-09-01",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/bixolon-printer-enrollment",
-   "text": "Bixolon Printer Enrollment\n42Gears has enabled seamless integration of Bixolon printers with the SureMDM console to simplify device management and improve operational efficiency. Through this integration, administrators can remotely enroll, configure, and monitor Bixolon printers from a single centralized platform. It provides enhanced visibility and control, helping reduce manual effort and maintain consistent printer performance across deployments. By managing Bixolon printers via SureMDM, organizations can streamline operations, reduce maintenance overhead, and ensure smooth and reliable printing processes.\nEnroll Bixolon Printer to SureMDM​\nTo enroll the Bixolon Printers in SureMDM Console, follow these steps:\nPrerequisites​\nEnable Things Gateway in the SureMDM Console.\nConfigure No Authentication in the SureMDM Console.\nThe host machine and Bixolon printer should be connected to the same network.\nSteps:\nObtain the Printer’s IP address from the Bixolon printer display.\nRun this IP address in the browser to open the Bixolon tool and Log in using the credentials\nnote\nThe default username “admin” and the password should be set by the user.\nClick on the Configure tab in the Menu bar and Navigate to the Protocol Configuration Settings and enable MQTT.\nNavigate to the MQTT Configuration settings to set up the MQTT by entering the following details:\na. MQTT Broker Address - It is the host address or URL of the MQTT broker to connect to.\nThe values vary based on the region as follows:\nIf your SureMDM URL is dns.suremdm.io (US), then use the server mqttbrokerusdns.suremdm.io\nIf your SureMDM URL is dns.eu.suremdm.io (EU), then use the server mqttbrokereu.eu.suremdm.io\nIf your SureMDM URL is dns.in.suremdm.io (IN), then use the server mqttbrokerin.in.suremdm.io\nIf your SureMDM URL is dns.eu2.suremdm.io (EU2), then use the server mqttbrokereu.eu2.suremdm.io\nIf your SureMDM URL is dns.me.suremdm.io (ME), then use the server mqttbrokerme.me.suremdm.io\nIf your SureMDM URL is suremdm.42gears.com (US Master), then use the server mqttbrokerusmaster.42gears.com\nb. MQTT Port - It is the network port used to establish communication between the device and the MQTT broker.\nThe values are the same for all the regions, i.e., 8883\nc. MQTT Authentication - It is the process of verifying the identity of a client before allowing it to connect to an MQTT broker.\nSelect Enable from the dropdown.\nd. CA Certificate - It is a digital certificate used to verify whether a server or client certificate can be trusted.\nEnable the CA certificate checkbox and upload the certificate by choosing the file from the system.\ne. MQTT User name - Username for authenticating with the MQTT broker. The value here is the SureMDM account ID where the device should be enrolled.\nnote\nNavigate to Settings on the top right corner of the SureMDM console to get the Account ID.\nf. MQTT User Password - Password for MQTT broker authentication. Value here is the MQTT Gateway password.\nnote\nThe Gateway Password can be copied from the Enable Things Gateway section.\ng. MQTT Tenant ID - Identifier used to associate the device with a specific tenant/environment. Value here is the SureMDM account ID.\nnote\nNavigate to Settings on the top right corner of the SureMDM console to get the Account ID.\nh. MQTT QoS - Defines the message delivery guarantee level.\nnote\nEnter value as 2.\nnote\nCheckbox should be enabled for MQTT User name, MQTT Password and MQTT Tenant ID to enter the values.\nClick on the Configure button.\nIf valid values are entered, the Bixolon printers should get successfully enrolled to the SureMDM Console.",
-   "hash": "d6bc2d00c620b9424918f14e2f4973f316e6548a96fb25b7cf4c0be765656057",
+   "text": "Bixolon Printer Enrollment\n42Gears has enabled seamless integration of Bixolon printers with the SureMDM console to simplify device management and improve operational efficiency. Through this integration, administrators can remotely enroll, configure, and monitor Bixolon printers from a single centralized platform. It provides enhanced visibility and control, helping reduce manual effort and maintain consistent printer performance across deployments. By managing Bixolon printers via SureMDM, organizations can streamline operations, reduce maintenance overhead, and ensure smooth and reliable printing processes.\nEnroll Bixolon Printer to SureMDM\nTo enroll the Bixolon Printers in SureMDM Console, follow these steps:\nPrerequisites\nEnable Things Gateway in the SureMDM Console.\nThe host machine and Bixolon printer should be connected to the same network.\nSteps:\nObtain the Printer’s IP address from the Bixolon printer display.\nRun this IP address in the browser to open the Bixolon tool and Log in using the credentials\nnote\nThe default username “admin” and the password should be set by the user.\nClick on the Configure tab in the Menu bar and Navigate to the Protocol Configuration Settings and enable MQTT.\nNavigate to the MQTT Configuration settings to set up the MQTT by entering the following details:\na. MQTT Broker Address - It is the host address or URL of the MQTT broker to connect to.\nThe values vary based on the region as follows:\nIf your SureMDM URL is dns.suremdm.io (US), then use the server mqttbrokerusdns.suremdm.io\nIf your SureMDM URL is dns.eu.suremdm.io (EU), then use the server mqttbrokereu.eu.suremdm.io\nIf your SureMDM URL is dns.in.suremdm.io (IN), then use the server mqttbrokerin.in.suremdm.io\nIf your SureMDM URL is dns.eu2.suremdm.io (EU2), then use the server mqttbrokereu.eu2.suremdm.io\nIf your SureMDM URL is dns.me.suremdm.io (ME), then use the server mqttbrokerme.me.suremdm.io\nIf your SureMDM URL is suremdm.42gears.com (US Master), then use the server mqttbrokerusmaster.42gears.com\nb. MQTT Port - It is the network port used to establish communication between the device and the MQTT broker.\nThe values are the same for all the regions, i.e., 8883\nc. MQTT Authentication - It is the process of verifying the identity of a client before allowing it to connect to an MQTT broker.\nSelect Enable from the dropdown.\nd. CA Certificate - It is a digital certificate used to verify whether a server or client certificate can be trusted.\nEnable the CA certificate checkbox and upload the certificate by choosing the file from the system.\ne. MQTT User name - Username for authenticating with the MQTT broker. The value here is the SureMDM account ID where the device should be enrolled.\nnote\nNavigate to Settings on the top right corner of the SureMDM console to get the Account ID.\nf. MQTT User Password - Password for MQTT broker authentication. Value here is the MQTT Gateway password.\nnote\nThe Gateway Password can be copied from the Enable Things Gateway section.\ng. MQTT Tenant ID - Identifier used to associate the device with a specific tenant/environment. Value here is the SureMDM account ID.\nnote\nNavigate to Settings on the top right corner of the SureMDM console to get the Account ID.\nh. MQTT QoS - Defines the message delivery guarantee level.\nnote\nEnter value as 2.\nnote\nCheckbox should be enabled for MQTT User name, MQTT Password and MQTT Tenant ID to enter the values.\nClick on the Configure button.\nIf valid values are entered, the Bixolon printers should get successfully enrolled to the SureMDM Console.",
+   "hash": "28f3ff207c4d9553dfc5407f9c079f9b7e492f177202e1800b9dd5a496ac29ac",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/bluetooth-connector",
    "title": "bluetooth connector",
-   "date": "2026-06-10",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/bluetooth-connector",
-   "text": "",
-   "hash": "5807e1f03db0a633a9837f6c0d1b5b175d72510f477ed5b724719abd69a85567",
+   "text": "Bluetooth Device Enrollment\nSureMDM provides the capability to enroll Bluetooth peripherals like headsets and speakers through the Android Bluetooth Connector, facilitating their management remotely.\nPrerequisite\nEnable Things Gateway in the SureMDM Console.\nSteps:\nFollow the below steps to enroll the Bluetooth devices in the SureMDM console:\nDownload and install the Bluetooth Connector application on your Android device (The host device).\nConnect the Bluetooth Peripherals like headsets, speakers, etc., to your Android device via Bluetooth.\nOpen the application from Step 1 to begin the enrollment process.\nThe application main screen presents the following information:\nDevice Name - Shows the name of the Bluetooth device.\nConnection Status - Indicates whether the device is enrolled or not.\nSettings - Allows you to add and modify details for the SureMDM console.\nSync Now - This enables you to synchronize the Bluetooth device with the SureMDM console.\nFrom the main screen, select Settings.\nInput the following information:\nAccount ID: Enter the SureMDM Account ID and click OK.\nnote\nNavigate to Settings on the top right corner of the SureMDM console to get the Account ID.\nGateway Password - Enter the Things Gateway Password.\nnote\nThe Gateway Password can be copied from the Enable Things Gateway section.\nServer Path - Enter the SureMDM Server URL.\nnote\nThe server path can be copied from the SureMDM URL.\nReturn to the home screen to complete the enrollment process.\nOnce completed, you’ll see the connection status displayed on the home screen.\nThe Bluetooth device is now successfully enrolled in the SureMDM Web Console.",
+   "hash": "a21779885ba7412405068c66d2d58810b20b9a772d773ff038100ab7cf1921f8",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/citizen-printer-enrollment",
    "title": "citizen printer enrollment",
-   "date": "2026-06-10",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/citizen-printer-enrollment",
-   "text": "",
-   "hash": "f229145e61dffec94c4b3ad11abe511b88968e95c735c88f97bae43c3c15c27b",
+   "text": "Citizen Printer Enrollment\n42Gears has integrated Citizen printers with SureMDM to simplify device management and enhance operational efficiency. This integration enables remote management and configuration of Citizen printers, reducing manual effort and ensuring seamless operation. SureMDM facilitates easy enrollment and monitoring of multiple Citizen printers through a centralized console, improving visibility and control.\nEnroll Citizen Printer to SureMDM\nTo enroll the Citizen Printer to SureMDM Console, follow these steps:\nPrerequisites\nEnable Things Gateway in the SureMDM Console.\nThe host machine and printer should be connected to the same network.\nSureMDM Console Steps:\nNavigate to Enrollment > Manual Enrollment > Expand the Things accordion and click on the Citizen Printer title on the left panel.\nOn the center screen, click the Request Citizen Printer Management button to start the configuration process. Once the request is submitted, the button becomes grayed out to prevent multiple requests from being triggered.\nOnce the process is completed and the key is received, a success message is prompted on the screen and on the Notification section of the SureMDM Console.\nA new API Key section becomes visible under the Citizen Printer section in Manual Enrollment, displaying the generated API key.\nnote\nThe masked API key can be revealed using the visibility icon, and once unmasked, it can be copied using the copy icon.\nThis API key must be entered in the Citizen Tool, along with the remaining configuration details, to complete the enrollment successfully.\nCitizen Tool steps:\nObtain the Citizen Printer’s IP address from the physical device or the Citizen Utility Tool.\nRun the obtained IP address in a browser to open the Citizen tool.\nNavigate to the Config tab and login using your credentials.\nNavigate to the Request Print tab, Enter the following details and click Submit.\nUsername: It is your SureMDM console’s Account ID.\nnote\nNavigate to Settings on the top right corner of the SureMDM console to get the Account ID.\nPassword: It is the API Key.\nnote\nThe API Key can be copied from the SureMDM’s Manual Enrollment section for the Citizen Printer.\nNavigate to the Maintenance tab and click on Save and Reboot.\nThe request is sent to the Citizen server, and if the provided details are valid, the Citizen printers will be successfully enrolled in the SureMDM console after they reboot.",
+   "hash": "ccba021ac5867f04a65fe71292f1e95c034d0b2507ec04218f77c4e09183e36a",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/datalogic-gryphon-scanner",
    "title": "datalogic gryphon scanner",
-   "date": "2026-06-10",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/datalogic-gryphon-scanner",
-   "text": "",
-   "hash": "a6d789f8ba5201b2d0da8be29f830165e05dd99e16e9fffbd01f2d9255faf42a",
-   "windows": "none"
+   "text": "Datalogic Gryphon Scanner Enrollment\nThe integration of Datalogic Gryphon scanners into SureMDM marks a significant advancement in device management capabilities. This enhancement allows organizations to streamline their operations by effectively managing and monitoring these scanners from a centralized console. With SureMDM, administrators gain greater control over their scanner fleet, ensuring optimal performance and reliability.\nPrerequisites\nEnable Things Gateway in the SureMDM Console.\nJava 1.8 or above is required.\nDot net 4 or above is required.\nInstall the latest version of DatalogicOPOS driver from https://www.datalogic.com/prt/suporte-servi%C3%A7o/downloads-dw-4023.html?cat=17\nnote\nThe host machine type supported is Windows device.\nEnroll Datalogic Gryphon Scanner to SureMDM\nTo enroll the Datalogic Gryphon Scanner to SureMDM Console, follow these steps:\nPrecondition: Device should be connected to the host machine via USB.\nThe file DatalogicScannerConnector.exe is sent to the host machine.\nDouble-click on the .exe file to start the installation process. Automatically, all the dependencies are installed, and the file contents are extracted to \"C:\\Program Files(x86)\\42GearsDSC\".\nEdit the \"DSC.conf\" file found in \"C:\\Program Files(x86)\\42GearsDSC\" and update the Account ID, Gateway Password, and Domain URL in the following format:\n<code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">serverDomain=<Domain_URL></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">accountID=<Account_ID></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">gatewayPassword=<Gateway_Password></span><br></span></code>\nRight-click on the \"start.bat\" file in the \"C:\\Program Files(x86)\\42GearsDSC\" directory and select \"Run as Administrator\". This will start the application as a Windows service, running in the background.\nThe application will automatically retrieve the connected devices and enroll them in the configured account.",
+   "hash": "22743dddd7e04aef230c2238f91bd398b0cc96129a181341d093f6107aecea88",
+   "windows": "high"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/epson-device-enrollment",
    "title": "epson device enrollment",
-   "date": "2026-06-10",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/epson-device-enrollment",
-   "text": "",
-   "hash": "e8a90b9a9f7241ae921f262674fe021185ddc4aaa5b1ea3c8f6536954b9f32c3",
-   "windows": "none"
+   "text": "Epson Printer Enrollment\nSureMDM offers Epson printer enrollment and manages them remotely.\nPrerequisite\nEnable Things Gateway in the SureMDM Console.\nSteps to Enroll Epson Printers\nTo enroll Epson Printers in SureMDM, follow these steps:\nDownload the Epson Printer Connector application on the Windows device.\nStart the installation by running the .exe file.\nInstall the application by following the on-screen instructions.\nDuring installation, you will be instructed to install the following:\nMicrosoft .NET Framework\nRead and agree to the terms and conditions.\nClick Install to complete the .NET installation\nEpson SDK\nSelect the preferred language and click Next.\nRead and agree to the terms and conditions.\nSelect Custom as a Setup Type.\nOn the next screen, select USB and Ethernet under Communication Interfaces.\nClick Install to complete the Epson SDK installation.\nnote\nDuring the Epson SDK installation, Microsoft POS for.NET will be installed.\nOnce done, launch the Epson Printer Connector.\nOn the home screen, you can see the following options:\nSettings - Using this option, you can add printers.\nSync Now - Using this option, you troubleshoot the problems and sync the printer models.\nClick Settings.\nEnter the following details:\nAccount ID - Enter the SureMDM Account ID.\nGateway Password - Enter the Things Gateway Password.\nServer Path - Enter the SureMDM Server URL.\nClick Printer Settings to add a printer.\nClick Add Printer.\nOn the Add Printer prompt, configure the following option and click Connect.\nSettingsDescription\nModel\nSelect the Printer Model from the dropdown menu.\nInterface\nSelect one of the interface types from the following: USB Wi-FI LAN\nIP Address\nEnter the IP address of the printer while selecting Wi-Fi or LAN as an interface type.\nOnce done, the user can see the printer details and connection status.\nThe Epson printer is now enrolled in the SureMDM Console.",
+   "hash": "b335629046c66b5abec9ddf27996b07a21156bb0de22c858592fe5203b9732da",
+   "windows": "medium"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/honeywell-printer-enrollment",
    "title": "honeywell printer enrollment",
-   "date": "2026-09-07",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/honeywell-printer-enrollment",
-   "text": "Honeywell Printer Enrollment\n42Gears has integrated Honeywell printers with SureMDM to simplify printer enrollment and management. This integration enables IT administrators to centrally enroll, monitor, and manage Honeywell printers through the SureMDM console. By providing visibility into printer status and key device information, SureMDM helps organizations streamline printer operations, reduce manual intervention, and maintain reliable printing across distributed environments.\nEnroll Honeywell Printer in SureMDM​\nTo enroll the Honeywell Printers in the SureMDM Console, follow these steps:\nPrerequisite:\nEnable Things Gateway in the SureMDM Console.\nConfigure No Authentication in the SureMDM Console.\nThe host machine and Honeywell printer should be connected to the same network (LAN/Wifi)\nSteps:\nObtain the Honeywell Printer’s IP address from the Printset6tool.\nEnter the IP address in a web browser with \"https://\" prefixed (e.g., https://1.2.3.4) to open the Honeywell printer’s web page, and log in using the provided credentials.\nnote\nThe default username is “itadmin” and the password is “pass”.\nClick on the Configure tab on the left panel and navigate to System Settings > General, and set the Printer’s sleep timer to 0 or the disabled state, and also set the printer time to the current time.\nClick on Manage and navigate to the MQTT certificates section to upload the Root Certificate from the File Manager\nnote\nEnsure the file is named MQTT_CA.pem.\nClick on the Configure tab on the left panel and navigate to Network Services, and select the MQTT Agent settings to set up MQTT by entering the following details:\na. MQTT Broker hostname - It is the domain name or IP address of the MQTT broker that client devices use to establish a connection and exchange MQTT messages.\n<code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * The values vary based on the region as follows:</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * If your SureMDM URL is [dns.suremdm.io](http://dns.suremdm.io/) (US), then use the server [mqttbrokerusdns.suremdm.io](http://mqttbrokerusdns.suremdm.io/) </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * If your SureMDM URL is [dns.eu.suremdm.io](http://dns.eu.suremdm.io/) (EU), then use the server [mqttbrokereu.eu.suremdm.io](http://mqttbrokereu.eu.suremdm.io/) </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * If your SureMDM URL is [dns.in.suremdm.io](http://dns.in.suremdm.io/) (IN), then use the server [mqttbrokerin.in.suremdm.io](http://mqttbrokerin.in.suremdm.io/) </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * If your SureMDM URL is [dns.eu2.suremdm.io](http://dns.eu2.suremdm.io/) (EU2), then use the server [mqttbrokereu.eu2.suremdm.io](http://mqttbrokereu.eu2.suremdm.io/) </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * If your SureMDM URL is [dns.me.suremdm.io](http://dns.me.suremdm.io/) (ME), then use the server [mqttbrokerme.me.suremdm.io](http://mqttbrokerme.me.suremdm.io/) </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * If your SureMDM URL is [suremdm.42gears.com](http://suremdm.42gears.com/) (US Master), then use the server [mqttbrokerusmaster.42gears.com](http://mqttbrokerusmaster.42gears.com/)</span><br></span></code>\nb. MQTT Port- It is the network port used to establish communication between the device and the MQTT broker.\n<code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * The values are the same for all regions, i.e., 8883</span><br></span></code>\nc. MQTT Tenant ID- Identifier used to associate the devic…",
-   "hash": "44e4d3dd5bbe63e81d35039766aeb258b5ce2947581db30ebfc85016b0b451f3",
+   "text": "Honeywell Printer Enrollment\n42Gears has integrated Honeywell printers with SureMDM to simplify printer enrollment and management. This integration enables IT administrators to centrally enroll, monitor, and manage Honeywell printers through the SureMDM console. By providing visibility into printer status and key device information, SureMDM helps organizations streamline printer operations, reduce manual intervention, and maintain reliable printing across distributed environments.\nEnroll Honeywell Printer in SureMDM\nTo enroll the Honeywell Printers in the SureMDM Console, follow these steps:\nPrerequisites\nEnable Things Gateway in the SureMDM Console.\nThe host machine and Honeywell printer should be connected to the same network (LAN/Wifi)\nSteps:\nObtain the Honeywell Printer’s IP address from the Printset6tool.\nEnter the IP address in a web browser with \"https://\" prefixed (e.g., https://1.2.3.4) to open the Honeywell printer’s web page, and log in using the provided credentials.\nnote\nThe default username is “itadmin” and the password is “pass”.\nClick on the Configure tab on the left panel and navigate to System Settings > General, and set the Printer’s sleep timer to 0 or the disabled state, and also set the printer time to the current time.\nClick on Manage and navigate to the MQTT certificates section to upload the Root Certificate from the File Manager\nnote\nEnsure the file is named MQTT_CA.pem.\nClick on the Configure tab on the left panel and navigate to Network Services, and select the MQTT Agent settings to set up MQTT by entering the following details:\na. MQTT Broker hostname - It is the domain name or IP address of the MQTT broker that client devices use to establish a connection and exchange MQTT messages.\n<code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * The values vary based on the region as follows:</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * If your SureMDM URL is [dns.suremdm.io](http://dns.suremdm.io/) (US), then use the server [mqttbrokerusdns.suremdm.io](http://mqttbrokerusdns.suremdm.io/) </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * If your SureMDM URL is [dns.eu.suremdm.io](http://dns.eu.suremdm.io/) (EU), then use the server [mqttbrokereu.eu.suremdm.io](http://mqttbrokereu.eu.suremdm.io/) </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * If your SureMDM URL is [dns.in.suremdm.io](http://dns.in.suremdm.io/) (IN), then use the server [mqttbrokerin.in.suremdm.io](http://mqttbrokerin.in.suremdm.io/) </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * If your SureMDM URL is [dns.eu2.suremdm.io](http://dns.eu2.suremdm.io/) (EU2), then use the server [mqttbrokereu.eu2.suremdm.io](http://mqttbrokereu.eu2.suremdm.io/) </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * If your SureMDM URL is [dns.me.suremdm.io](http://dns.me.suremdm.io/) (ME), then use the server [mqttbrokerme.me.suremdm.io](http://mqttbrokerme.me.suremdm.io/) </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * If your SureMDM URL is [suremdm.42gears.com](http://suremdm.42gears.com/) (US Master), then use the server [mqttbrokerusmaster.42gears.com](http://mqttbrokerusmaster.42gears.com/)</span><br></span></code>\nb. MQTT Port- It is the network port used to establish communication between the device and the MQTT broker.\n<code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\"> * The values are the same for all regions, i.e., 8883</span><br></span></code>\nc. MQTT Tenant ID- Identifier used to associate the device with a specific tenant/environment.\n<code class=\"co…",
+   "hash": "18c18af8d7e273b78c603188c5489a8437ff569b66487c9b8d3ac75156da5b13",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/impinj-rfid-enrollment",
    "title": "impinj rfid enrollment",
-   "date": "2026-09-03",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/impinj-rfid-enrollment",
-   "text": "Impinj RFID Reader Enrollment\n42Gears has integrated Impinj RFID readers with SureMDM, enhancing the management of RFID-based solutions through a centralized platform. This integration allows seamless remote configuration, monitoring, and enrollment of Impinj readers, reducing manual interventions and operational complexities.\nEnroll Impinj RFID Reader to SureMDM​\nTo enroll the Impinj RFID Readers in the SureMDM Console, follow these steps:\nPrerequisites​\nEnable Things Gateway in the SureMDM Console.\nConfigure No Authentication in the SureMDM Console.\nThe Impinj RFID readers and the host machine (Windows) should be connected to the same network.\nDownload the Java JDK version 11 or above from the following link to ensure proper functionality.\nSteps:\nSend the executable file named SureMDMImpinjConnector.exe to the host machine.\nDouble-click the .exe file to begin the installation process.\nThis will install all necessary dependencies and extract the file contents to the following path: C:\\Program Files\\42Gears\\SureMDMImpinjConnector\nAfter extraction, the lib folder, SureMDMsettings.conf file and a SureMDMimpinj.jar file should be available at this location.\nOpen the SureMDMsettings.conf file, fill in the following details, and save the changes.\nServer Path: The URL of the SureMDM console used for enrolling the Impinj RFID Reader.\nnote\nThe server path can be copied from the SureMDM URL.\nAccount ID: The Unique identifier for your SureMDM account.\nnote\nNavigate to Settings on the top right corner of the SureMDM console to get the Account ID.\nGateway Password: Secure password required for connecting the RFID reader to SureMDM\nnote\nThe Gateway Password can be copied from the Enable Things Gateway section.\nCredentials: The RFID reader credentials used for API communication with the device.\n<code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">Format : **Credentials=[ {\"IP_Address\":\"<please enter your password>\"} ]**</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span></code>\nWhere, IP Address: Impinj RFID Reader’s IP Address\nPassword: Impinj RFID Reader’s Password\nnote\nThe default password for the Impinj RFID Reader is used above. If changed through the Impinj web interface, the updated password must be added to the config file.\nThe Credentials key is optional if the default password remains unchanged; it will be added automatically once the device is discovered.\nRestart the service by navigating to Windows > Services, selecting SureMDM Impinj Connector, and clicking Restart Service.\nOnce restarted, the connector should automatically detect devices on the same network and enroll them into the SureMDM Console.\nnote\nIf preferred, the service can also be restarted using the Command Prompt with the following command:\n**net stop SuremdmImpinjConnector && net start SuremdmImpinjConnector**\nnote\nAfter the configuration file is successfully executed, the Gateway\nPassword and the Credentials Password is securely stored in the backend and appears masked in the configuration file.\nIf the password is changed after enrollment, the device will go offline.\nWhen a device is deleted from the SureMDM Console, a deleted device key with single or multiple comma separated values are automatically added to the configuration file in the format: deleted_devices=<Serial_number>. This prevents the device from being auto-discovered and re-enrolled into the network.\nTo re-enroll the device to the same SureMDM console, simply re-execute the same file without changing the password. However, if you are enrolling the device to a different console, you must remove the masked password and update the configuration file with the new password along with any other required details. Additionally, make sure to delete the deleted_devices key from the configuration file before running the file.",
-   "hash": "90580b192b0fba52c91aa263e85517e9266c3ba3fc232e65b96f8dbf24a4230b",
+   "text": "Impinj RFID Reader Enrollment\n42Gears has integrated Impinj RFID readers with SureMDM, enhancing the management of RFID-based solutions through a centralized platform. This integration allows seamless remote configuration, monitoring, and enrollment of Impinj readers, reducing manual interventions and operational complexities.\nEnroll Impinj RFID Reader to SureMDM\nTo enroll the Impinj RFID Readers in the SureMDM Console, follow these steps:\nPrerequisites\nEnable Things Gateway in the SureMDM Console.\nThe Impinj RFID readers and the host machine (Windows) should be connected to the same network.\nDownload the Java JDK version 11 or above from the following link to ensure proper functionality.\nSteps:\nSend the executable file named SureMDMImpinjConnector.exe to the host machine.\nDouble-click the .exe file to begin the installation process.\nThis will install all necessary dependencies and extract the file contents to the following path: C:\\Program Files\\42Gears\\SureMDMImpinjConnector\nAfter extraction, the lib folder, SureMDMsettings.conf file and a SureMDMimpinj.jar file should be available at this location.\nOpen the SureMDMsettings.conf file, fill in the following details, and save the changes.\nServer Path: The URL of the SureMDM console used for enrolling the Impinj RFID Reader.\nnote\nThe server path can be copied from the SureMDM URL.\nAccount ID: The Unique identifier for your SureMDM account.\nnote\nNavigate to Settings on the top right corner of the SureMDM console to get the Account ID.\nGateway Password: Secure password required for connecting the RFID reader to SureMDM\nnote\nThe Gateway Password can be copied from the Enable Things Gateway section.\nCredentials: The RFID reader credentials used for API communication with the device.\n<code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">Format : **Credentials=[ {\"IP_Address\":\"<please enter your password>\"} ]**</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span></code>\nWhere, IP Address: Impinj RFID Reader’s IP Address\nPassword: Impinj RFID Reader’s Password\nnote\nThe default password for the Impinj RFID Reader is used above. If changed through the Impinj web interface, the updated password must be added to the config file.\nThe Credentials key is optional if the default password remains unchanged; it will be added automatically once the device is discovered.\nRestart the service by navigating to Windows > Services, selecting SureMDM Impinj Connector, and clicking Restart Service.\nOnce restarted, the connector should automatically detect devices on the same network and enroll them into the SureMDM Console.\nnote\nIf preferred, the service can also be restarted using the Command Prompt with the following command:\n**net stop SuremdmImpinjConnector && net start SuremdmImpinjConnector**\nnote\nAfter the configuration file is successfully executed, the Gateway\nPassword and the Credentials Password is securely stored in the backend and appears masked in the configuration file.\nIf the password is changed after enrollment, the device will go offline.\nWhen a device is deleted from the SureMDM Console, a deleted device key with single or multiple comma separated values are automatically added to the configuration file in the format: deleted_devices=<Serial_number>. This prevents the device from being auto-discovered and re-enrolled into the network.\nTo re-enroll the device to the same SureMDM console, simply re-execute the same file without changing the password. However, if you are enrolling the device to a different console, you must remove the masked password and update the configuration file with the new password along with any other required details. Additionally, make sure to delete the deleted_devices key from the configuration file before running the file.",
+   "hash": "a7cd4a4618af8480f24f8e988fe9bf649c9c8357544c65b7987dcaf260316e5c",
    "windows": "medium"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/printronix-printer-enrollment",
    "title": "printronix printer enrollment",
-   "date": "2026-09-03",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/printronix-printer-enrollment",
-   "text": "Printronix Auto ID Printer Enrollment\n42Gears has integrated Printronix Auto ID Printers with SureMDM to streamline printer management and boost operational efficiency. This integration allows IT administrators to remotely enroll, configure, and monitor Printronix Auto ID Printers through a centralized SureMDM console. With enhanced visibility and control, businesses can reduce manual intervention, ensure consistent printer performance, and simplify large-scale deployment.\nEnroll Printronix Auto ID Printer in SureMDM​\nTo enroll the Printronix Auto ID Printer in the SureMDM Console, follow these steps:\nPrerequisite​​\nConfigure No Authentication in the SureMDM Console.\nConfigure Enable Things Gateway in the SureMDM Console.\nThe host machine and printer should be connected to the same local network via Ethernet or Wi-Fi.\nSteps:\nObtain the IP address from the printer display or by navigating to Settings > Network > Ethernet > IP Address.\nRun this IP address in a browser to open the Printronix tool.\nnote\nOmit any leading zeros in the IP address.\nLogin with your previously entered credentials or with the default credentials(if asked).\nnote\nThe default Username is \"root\" and password is not required.\nIn the Administration page, navigate to the System Administration section and enable the NTP and MQTT checkboxes, and click on the Submit button at the bottom of the page.\nBack in the displayed menu, choose Network to configure the printer to synchronize with a network time server by scrolling down to the NTP section and entering either the URL or IP address of the time server you wish to use in the “Static NTP server 1”.\nExample: time.google.com\nConfigure a second or third server, if desired. Enter the appropriate time zone offset from UTC and click on the Submit button at the bottom of the page.\nNavigate back to the Configuration page, click on MQTT and enter the below configuration details and click on Submit to save the settings.\na. Connect - Option to initiate the connection to the MQTT broker.\nEnable the TLS and Autoconnect checkbox.\nb. Server - It is the Broker URL that allows the printer to communicate with SureMDM for centralized control, configuration sync, or data exchange. For the values, refer to the SureMDM account URLs below based on the regions as follows:\nIf your SureMDM URL is dns.suremdm.io (US), then use the server mqttbrokerusdns.suremdm.io\nIf your SureMDM URL is dns.eu.suremdm.io (EU), then use the server mqttbrokereu.eu.suremdm.io\nIf your SureMDM URL is dns.in.suremdm.io (IN), then use the server mqttbrokerin.in.suremdm.io\nIf your SureMDM URL is dns.eu2.suremdm.io (EU2), then use the server mqttbrokereu.eu2.suremdm.io\nIf your SureMDM URL is dns.me.suremdm.io (ME), then use the server mqttbrokerme.me.suremdm.io\nIf your SureMDM URL is suremdm.42gears.com (US Master), then use the server mqttbrokerusmaster.42gears.com\nc. Topic - It is the communication channel or subject identifier used in messaging protocols like MQTT. The values are the same for all the regions, i.e., printronix (all lowercase).\nd. Port - It is the specific network port used by the Printronix Auto ID printers to communicate with the MQTT broker.\nThe values are the same for all the regions, i.e., 8883.\ne. Tenant ID - It is the SureMDM Account ID where the device has to be enrolled.\nnote\nNavigate to Settings on the top right corner of the SureMDM console to get the Account ID.\nf. MQTT Username - It is the authentication credential used by the printer to connect securely to an MQTT broker or server.\nFormat: iot-\\<Account_id>\nFor example, if your SureMDM account ID is 1234554321, your MQTT username is: iot-1234554321\nnote\nNavigate to Settings in the top right corner of the SureMDM console to get the Account ID.\ng. MQTT Password - It is the secure Gateway password for connecting the Printronix Auto ID printers to the SureMDM console.\nnote\nThe Gateway Password can be copied from the Enable Things Gateway section under the Account Settings >> Things Manag…",
-   "hash": "c334660b149b9c0b73aba03a39c899d6d59f8e1cc4c00ab256ca5113c747cffc",
+   "text": "Printronix Auto ID Printer Enrollment\n42Gears has integrated Printronix Auto ID Printers with SureMDM to streamline printer management and boost operational efficiency. This integration allows IT administrators to remotely enroll, configure, and monitor Printronix Auto ID Printers through a centralized SureMDM console. With enhanced visibility and control, businesses can reduce manual intervention, ensure consistent printer performance, and simplify large-scale deployment.\nEnroll Printronix Auto ID Printer in SureMDM\nTo enroll the Printronix Auto ID Printer in the SureMDM Console, follow these steps:\nPrerequisites\nConfigure Enable Things Gateway in the SureMDM Console.\nThe host machine and printer should be connected to the same local network via Ethernet or Wi-Fi.\nSteps:\nObtain the IP address from the printer display or by navigating to Settings > Network > Ethernet > IP Address.\nRun this IP address in a browser to open the Printronix tool.\nnote\nOmit any leading zeros in the IP address.\nLogin with your previously entered credentials or with the default credentials(if asked).\nnote\nThe default Username is \"root\" and password is not required.\nIn the Administration page, navigate to the System Administration section and enable the NTP and MQTT checkboxes, and click on the Submit button at the bottom of the page.\nBack in the displayed menu, choose Network to configure the printer to synchronize with a network time server by scrolling down to the NTP section and entering either the URL or IP address of the time server you wish to use in the “Static NTP server 1”.\nExample: time.google.com\nConfigure a second or third server, if desired. Enter the appropriate time zone offset from UTC and click on the Submit button at the bottom of the page.\nNavigate back to the Configuration page, click on MQTT and enter the below configuration details and click on Submit to save the settings.\na. Connect - Option to initiate the connection to the MQTT broker.\nEnable the TLS and Autoconnect checkbox.\nb. Server - It is the Broker URL that allows the printer to communicate with SureMDM for centralized control, configuration sync, or data exchange. For the values, refer to the SureMDM account URLs below based on the regions as follows:\nIf your SureMDM URL is dns.suremdm.io (US), then use the server mqttbrokerusdns.suremdm.io\nIf your SureMDM URL is dns.eu.suremdm.io (EU), then use the server mqttbrokereu.eu.suremdm.io\nIf your SureMDM URL is dns.in.suremdm.io (IN), then use the server mqttbrokerin.in.suremdm.io\nIf your SureMDM URL is dns.eu2.suremdm.io (EU2), then use the server mqttbrokereu.eu2.suremdm.io\nIf your SureMDM URL is dns.me.suremdm.io (ME), then use the server mqttbrokerme.me.suremdm.io\nIf your SureMDM URL is suremdm.42gears.com (US Master), then use the server mqttbrokerusmaster.42gears.com\nc. Topic - It is the communication channel or subject identifier used in messaging protocols like MQTT. The values are the same for all the regions, i.e., printronix (all lowercase).\nd. Port - It is the specific network port used by the Printronix Auto ID printers to communicate with the MQTT broker.\nThe values are the same for all the regions, i.e., 8883.\ne. Tenant ID - It is the SureMDM Account ID where the device has to be enrolled.\nnote\nNavigate to Settings on the top right corner of the SureMDM console to get the Account ID.\nf. MQTT Username - It is the authentication credential used by the printer to connect securely to an MQTT broker or server.\nFormat: iot-\\<Account_id>\nFor example, if your SureMDM account ID is 1234554321, your MQTT username is: iot-1234554321\nnote\nNavigate to Settings in the top right corner of the SureMDM console to get the Account ID.\ng. MQTT Password - It is the secure Gateway password for connecting the Printronix Auto ID printers to the SureMDM console.\nnote\nThe Gateway Password can be copied from the Enable Things Gateway section under the Account Settings >> Things Management.\nnote\ni) Leave both File Store Password and Priv…",
+   "hash": "59263ab735c0cdce8d62baebe0018992133aa4963aaa60e840022cf15cf9426c",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/proglove-scanner-enrollment",
    "title": "proglove scanner enrollment",
-   "date": "2026-09-03",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/proglove-scanner-enrollment",
-   "text": "ProGlove Scanner Enrollment\n42Gears has integrated ProGlove scanners with the SureMDM console to enable centralized device management and enhance operational efficiency. This integration allows administrators to remotely enroll, configure, and monitor ProGlove scanners from a single platform, ensuring better visibility and control over deployed devices. By reducing manual intervention and simplifying scanner management, organizations can maintain consistent device performance, optimize workflows, and ensure reliable scanning operations across industrial and warehouse environments.\nEnroll ProGlove Scanner to SureMDM​\nTo enroll the ProGlove Scanner in SureMDM Console, follow these steps:\nPrerequisites\nEnable Things Gateway in the SureMDM Console.\nConfigure No Authentication in the SureMDM Console.\nInstall the ProGlove Insights Mobile application on an Android device. Refer to the link.\nSteps:\nNavigate to Enrollment > Manual Enrollment, expand the Things accordion, and select ProGlove Scanner from the left pane.\nEnter the following ProGlove account details:\nProGlove Customer ID – The unique identifier associated with your ProGlove account. To find your ProGlove Customer ID refer to the link.\nProGlove Username – The username associated with your ProGlove account.\nProGlove Password – The password associated with the configured ProGlove account.\nClick Save to validate and save the ProGlove configuration.\nUpon successful validation, a QR code is generated in the SureMDM console.\nnote\nThe QR code is automatically regenerated every 5 minutes or whenever the ProGlove configuration is updated.\nOpen the ProGlove Insights Mobile application installed on the Android device.\nScan the QR code generated in the SureMDM console (step 4) using the ProGlove Insights Mobile application.\nThe Android device is registered as the gateway device for the configured ProGlove account.\nUpon successful registration, an enrollment QR code is generated within the ProGlove Insights Mobile application.\nUse the ProGlove scanner to scan the enrollment QR code (step 7)\nWait for the pairing process to complete.\nOnce the pairing is complete, the ProGlove scanner is enrolled and available in the SureMDM console.",
-   "hash": "24ec1439690de4f9527e4d5cedf4bddcaec02095e09cf7a0c86bcb64a491494d",
+   "text": "ProGlove Scanner Enrollment\n42Gears has integrated ProGlove scanners with the SureMDM console to enable centralized device management and enhance operational efficiency. This integration allows administrators to remotely enroll, configure, and monitor ProGlove scanners from a single platform, ensuring better visibility and control over deployed devices. By reducing manual intervention and simplifying scanner management, organizations can maintain consistent device performance, optimize workflows, and ensure reliable scanning operations across industrial and warehouse environments.\nEnroll ProGlove Scanner to SureMDM\nTo enroll the ProGlove Scanner in SureMDM Console, follow these steps:\nPrerequisites\nEnable Things Gateway in the SureMDM Console.\nInstall the ProGlove Insights Mobile application on an Android device. Refer to the link.\nSteps:\nNavigate to Enrollment > Manual Enrollment, expand the Things accordion, and select ProGlove Scanner from the left pane.\nEnter the following ProGlove account details:\nProGlove Customer ID – The unique identifier associated with your ProGlove account. To find your ProGlove Customer ID refer to the link.\nProGlove Username – The username associated with your ProGlove account.\nProGlove Password – The password associated with the configured ProGlove account.\nClick Save to validate and save the ProGlove configuration.\nUpon successful validation, a QR code is generated in the SureMDM console.\nnote\nThe QR code is automatically regenerated every 5 minutes or whenever the ProGlove configuration is updated.\nOpen the ProGlove Insights Mobile application installed on the Android device.\nScan the QR code generated in the SureMDM console (step 4) using the ProGlove Insights Mobile application.\nThe Android device is registered as the gateway device for the configured ProGlove account.\nUpon successful registration, an enrollment QR code is generated within the ProGlove Insights Mobile application.\nUse the ProGlove scanner to scan the enrollment QR code (step 7)\nWait for the pairing process to complete.\nOnce the pairing is complete, the ProGlove scanner is enrolled and available in the SureMDM console.",
+   "hash": "3d32240a941dd69af0055b0ce83583d334a01bfaa9a2abcf3d23aa9c68935ed0",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/sato-printer-enrollment",
    "title": "sato printer enrollment",
-   "date": "2026-09-03",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/sato-printer-enrollment",
-   "text": "SATO Printer Enrollment\n42Gears has extended its device management capabilities by integrating Sato printers into SureMDM, enabling seamless enrollment and remote management. This integration enhances operational efficiency by allowing administrators to configure, monitor, and control Sato printers from a centralized console. The SureMDM console provides improved visibility and control, ensuring smooth printing operations across multiple devices. By enrolling Sato printers in SureMDM, businesses can streamline workflows, minimize maintenance efforts, and enhance overall productivity.\nEnroll Sato Printer to SureMDM​\nTo enroll the Sato Printer to SureMDM Console, follow these steps:\nPrerequisites​\nEnable Things Gateway in the SureMDM Console.\nConfigure No Authentication in the SureMDM Console.\nPrinter Setup​\nConnect the printer to the internet using a LAN cable or WiFi.\nDownload and install the Sato All-In-One Tool and the AEP Cloud Service (.pkg) file.\nClick on Add Printer in the Sato All-In-One Tool and Enter the following details:\nInterface Type: USB\nUSB Port: Auto-fetched\nPrinter Series: Select from dropdown\nPrinter Name: Enter manually\nClick Submit to complete the setup.\nNavigate to Tools under the Others dropdown, select the downloaded AEP Cloud Service (.pkg) file, and click Install.\nThe printer will restart automatically after installation.\nConfigure the printer settings. Once setup is complete, the Access Code will be displayed on the printer screen as follows:\nSureMDM Console Setup​\nNavigate to Enrollment > Manual Enrollment, expand the Things accordion, and click on SATO Printer.\nClick Add, enter the Access Code and relevant comments, then click Add again.\nThis will establish the connection between the printer and the SureMDM Console.\nOnce done, the printer will be successfully connected and enrolled in SureMDM.",
-   "hash": "512e93bcededf32f5c3d867c1a4483604fad13437ccc415c0abe8f26f6f511d4",
+   "text": "SATO Printer Enrollment\n42Gears has extended its device management capabilities by integrating Sato printers into SureMDM, enabling seamless enrollment and remote management. This integration enhances operational efficiency by allowing administrators to configure, monitor, and control Sato printers from a centralized console. The SureMDM console provides improved visibility and control, ensuring smooth printing operations across multiple devices. By enrolling Sato printers in SureMDM, businesses can streamline workflows, minimize maintenance efforts, and enhance overall productivity.\nEnroll Sato Printer to SureMDM\nTo enroll the Sato Printer to SureMDM Console, follow these steps:\nPrerequisite\nEnable Things Gateway in the SureMDM Console.\nPrinter Setup\nConnect the printer to the internet using a LAN cable or WiFi.\nDownload and install the Sato All-In-One Tool and the AEP Cloud Service (.pkg) file.\nClick on Add Printer in the Sato All-In-One Tool and Enter the following details:\nInterface Type: USB\nUSB Port: Auto-fetched\nPrinter Series: Select from dropdown\nPrinter Name: Enter manually\nClick Submit to complete the setup.\nNavigate to Tools under the Others dropdown, select the downloaded AEP Cloud Service (.pkg) file, and click Install.\nThe printer will restart automatically after installation.\nConfigure the printer settings. Once setup is complete, the Access Code will be displayed on the printer screen as follows:\nSureMDM Console Setup\nNavigate to Enrollment > Manual Enrollment, expand the Things accordion, and click on SATO Printer.\nClick Add, enter the Access Code and relevant comments, then click Add again.\nThis will establish the connection between the printer and the SureMDM Console.\nOnce done, the printer will be successfully connected and enrolled in SureMDM.",
+   "hash": "f21a1e5dd17e9103d7d510da4d6f7add1926fbcaecd22c4d7df5be7abe33d44f",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/snmp-enrollment",
    "title": "snmp enrollment",
-   "date": "2026-09-03",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/snmp-enrollment",
-   "text": "SNMP Device Enrollment\nThe SNMP Connector enables the enrollment and management of SNMP-enabled devices, such as printers and network devices, in the SureMDM console. After successful configuration, the connector scans the network, discovers SNMP devices, and automatically enrolls them into the configured SureMDM console.\nEnroll SNMP-Enabled Things Devices to SureMDM​\nTo enroll the SNMP-enabled Things devices into the SureMDM console, follow these steps:\nPre-requisites​\nEnable Things Gateway in the SureMDM Console.\nConfigure No Authentication in the SureMDM Console.\nSupported Operating Systems:\nWindows 10 / 11\nWindows Server 2016 or later\nNetwork access to:\nSNMP devices\nSureMDM MQTT Broker\nSNMP must be enabled on the devices that need to be enrolled through SNMP Connector.\nSteps:​\nSend the SureMDMSNMPConnector.exe file to the host machine.\nDouble-click the .exe file to initiate the installation process.\nComplete the installation by following the on-screen instructions.\nAll required dependencies are installed, and the SureMDMSNMPConnector directory is created at the following location: C:\\Program Files (x86)\\SureMDMSNMPConnector\nThe directory contains the following files and folders:\nwwwroot – Web root files\nappsettings.json – Configuration file\nSureMDMSNMPConnector.exe – Application executable\nunins000.dat – Uninstaller data\nunins000.exe – Uninstaller executable\nAfter the installation is completed, the SureMDM SNMP Connector tool is automatically launched in the default web browser via the local host: http://localhost:4242\nOn the SureMDM SNMP Connector tool, click the Settings icon to open the SureMDM Account Configuration section and enter the following required information:\nAccount ID - The Unique identifier for your SureMDM account.\nnote\nNavigate to the Settings in the top right corner of the SureMDM console to obtain the Account ID.\nServer URL - It is the SureMDM’s Server Path.\nnote\nThe server URL can be copied from the SureMDM URL.\nGateway password - A secure password required for connecting the Things devices to SureMDM\nnote\nThe Gateway Password can be copied from the Enable Things Gateway section.\nClick the Validate and Save button to save the SureMDM Configuration.\nnote\nA quick overview of total, enrolled, pending, failed, and offline devices is displayed below the SureMDM Account Configuration section.\nClick Scan Network to manually scan the subnet and discover SNMP-enabled devices.\nThe devices discovered after the scan are displayed in the Discovered Devices list.\nnote\nUse the Search text field available in the Discovered Devices section to search for the required device. Enter the device name or IP address to find matching devices.\nClick the Add to Managed button available for each device row to move the device to the Managed List.\nnote\nThe Managed List displays the Device IP, Model/Type, Serial Number, and enrollment status of the device.\nOnce the devices are added to the Managed List, select one or more devices and click the Enroll button, or select all devices and click the Enroll Selection button to enroll the devices into the SureMDM console.\nThe SNMP-enabled devices are successfully enrolled in the specified SureMDM console.\nnote\nTo remove the devices, select one or more devices and click the Remove button, or select all devices and click the Remove Selection button\nAdditional Advanced Configurations​\nConfigure Auto Scan​\nThe Configure Auto Scan feature is used for scheduling automatic scans at defined intervals and subnets to discover SNMP-enabled devices.\nSteps to configure Auto Scan:\n1. In the Configure Auto Scan pop-up, enable the Auto Scan checkbox\n2. Set the Scan Interval in minutes (minimum is 5 mins)\n3. Enter your subnet range (optional)\n4. Click Save Configuration.\nIt automatically discovers devices at defined intervals, ensuring that the newly added devices in the network are detected and displayed in the Discovered Devices list at the specified interval.\nTroubleshoot​\nThe Troubleshoot option provid…",
-   "hash": "236efb863740700b8ec3fa64a76635d8312a92257229c6cf4b8bc0bdcbb1c388",
+   "text": "SNMP Device Enrollment\nThe SNMP Connector enables the enrollment and management of SNMP-enabled devices, such as printers and network devices, in the SureMDM console. After successful configuration, the connector scans the network, discovers SNMP devices, and automatically enrolls them into the configured SureMDM console.\nEnroll SNMP-Enabled Things Devices to SureMDM\nTo enroll the SNMP-enabled Things devices into the SureMDM console, follow these steps:\nPrerequisites\nEnable Things Gateway in the SureMDM Console.\nSupported Operating Systems:\nWindows 10 / 11\nWindows Server 2016 or later\nNetwork access to:\nSNMP devices\nSureMDM MQTT Broker\nSNMP must be enabled on the devices that need to be enrolled through SNMP Connector.\nSteps:\nSend the SureMDMSNMPConnector.exe file to the host machine.\nDouble-click the .exe file to initiate the installation process.\nComplete the installation by following the on-screen instructions.\nAll required dependencies are installed, and the SureMDMSNMPConnector directory is created at the following location: C:\\Program Files (x86)\\SureMDMSNMPConnector\nThe directory contains the following files and folders:\nwwwroot – Web root files\nappsettings.json – Configuration file\nSureMDMSNMPConnector.exe – Application executable\nunins000.dat – Uninstaller data\nunins000.exe – Uninstaller executable\nAfter the installation is completed, the SureMDM SNMP Connector tool is automatically launched in the default web browser via the local host: http://localhost:4242\nOn the SureMDM SNMP Connector tool, click the Settings icon to open the SureMDM Account Configuration section and enter the following required information:\nAccount ID - The Unique identifier for your SureMDM account.\nnote\nNavigate to the Settings in the top right corner of the SureMDM console to obtain the Account ID.\nServer URL - It is the SureMDM’s Server Path.\nnote\nThe server URL can be copied from the SureMDM URL.\nGateway password - A secure password required for connecting the Things devices to SureMDM\nnote\nThe Gateway Password can be copied from the Enable Things Gateway section.\nClick the Validate and Save button to save the SureMDM Configuration.\nnote\nA quick overview of total, enrolled, pending, failed, and offline devices is displayed below the SureMDM Account Configuration section.\nClick Scan Network to manually scan the subnet and discover SNMP-enabled devices.\nThe devices discovered after the scan are displayed in the Discovered Devices list.\nnote\nUse the Search text field available in the Discovered Devices section to search for the required device. Enter the device name or IP address to find matching devices.\nClick the Add to Managed button available for each device row to move the device to the Managed List.\nnote\nThe Managed List displays the Device IP, Model/Type, Serial Number, and enrollment status of the device.\nOnce the devices are added to the Managed List, select one or more devices and click the Enroll button, or select all devices and click the Enroll Selection button to enroll the devices into the SureMDM console.\nThe SNMP-enabled devices are successfully enrolled in the specified SureMDM console.\nnote\nTo remove the devices, select one or more devices and click the Remove button, or select all devices and click the Remove Selection button\nAdditional Advanced Configurations\nConfigure Auto Scan\nThe Configure Auto Scan feature is used for scheduling automatic scans at defined intervals and subnets to discover SNMP-enabled devices.\nSteps to configure Auto Scan:\n1. In the Configure Auto Scan pop-up, enable the Auto Scan checkbox\n2. Set the Scan Interval in minutes (minimum is 5 mins)\n3. Enter your subnet range (optional)\n4. Click Save Configuration.\nIt automatically discovers devices at defined intervals, ensuring that the newly added devices in the network are detected and displayed in the Discovered Devices list at the specified interval.\nTroubleshoot\nThe Troubleshoot option provides access to system-generated encrypted log files for troub…",
+   "hash": "7fc5e2225bf3f5fc4e75e97e2fceb3d444df2506c3565e42bcfd6f872956e7eb",
    "windows": "medium"
   },
   {
@@ -5970,64 +5970,73 @@
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/tsc-printer-enrollment",
    "title": "tsc printer enrollment",
-   "date": "2026-09-03",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/tsc-printer-enrollment",
-   "text": "TSC Auto ID Printer Enrollment\n42Gears has integrated TSC Auto ID printers with SureMDM to simplify device management and improve operational efficiency. Through this integration, IT teams can centrally enroll, configure, and monitor TSC printers from the SureMDM console. By enabling streamlined control and real-time visibility, enterprises can minimize manual effort, ensure reliable performance, and optimize printer deployment across varied business environments.\nEnroll TSC Auto ID Printer to SureMDM​\nTo enroll the TSC Auto ID Printers in SureMDM Console, follow these steps:\nPrerequisites​\nEnable Things Gateway in the SureMDM Console.\nConfigure No Authentication in the SureMDM Console.\nThe host machine and TSC Auto ID printer should be connected to the same network.\nSteps:\nObtain the IP address from the printer by navigating to Menu > Interface > Ethernet > Status > IP Address\nRun this IP address in a browser to open the TSC tool and Login with the credentials.\nnote\nThe credentials vary for each printer and has to be configured by the customer at the initial setup.\nOn the TSC web page, Click on Tool and navigate to File Manager. In the Upload file dropdown select Flash and choose the CA Certificate file from the system and click on Upload.\nClick on Function and navigate to the MQTT Settings and enter the below configuration details and click on Set.\na. Server - It is the URL that allows the printer to communicate with external systems for centralized control, configuration sync, or data exchange.\nThe values vary based on the region as follows:\nIf your SureMDM URL is dns.suremdm.io (US), then use the server mqttbrokerusdns.suremdm.io\nIf your SureMDM URL is dns.eu.suremdm.io (EU), then use the server mqttbrokereu.eu.suremdm.io\nIf your SureMDM URL is dns.in.suremdm.io (IN), then use the server mqttbrokerin.in.suremdm.io\nIf your SureMDM URL is dns.eu2.suremdm.io (EU2), then use the server mqttbrokereu.eu2.suremdm.io\nIf your SureMDM URL is dns.me.suremdm.io (ME), then use the server mqttbrokerme.me.suremdm.io\nIf your SureMDM URL is suremdm.42gears.com (US Master), then use the server mqttbrokerusmaster.42gears.com\nb. MQTT Server Port - It is the specific network port used by the TSC printers to communicate with the MQTT broker.\nThe values are the same for all the regions, i.e., 8883\nc. MQTT Username - It is the authentication credential used by the printer to connect securely to an MQTT broker or server.\nFormat: iot-<Account_id>\nnote\nNavigate to Settings on the top right corner of the SureMDM console to get the Account ID.\nd. MQTT Password - It is the secure password for connecting the TSC printers to the SureMDM console.\nnote\nThe Gateway Password can be copied from the Enable Things Gateway section.\ne. MQTT Secured - It means that the MQTT connection is protected using TLS\nSelect TLS\nf. MQTT CA - It is the Certificate Authority (CA) certificate used to verify the MQTT broker's certificate when establishing a secure TLS connection.\nEnter the CA certificate name exactly as it was uploaded in Step 3\ng. File Store CA - It is the CA certificate that is stored in a local certificate/file store that can be referenced by the MQTT client for certificate validation.\nEnter the following value: 42gcert.pem\nh. TenantId - It is the SureMDM Account ID where the device has to be enrolled.\nnote\nNavigate to Settings on the top right corner of the SureMDM console to get the Account ID.\ni. Topic Prefix - It is the communication channel or subject identifier used in messaging protocols like MQTT.\nThe values are the same for all the regions, i.e., tsc\nIf valid details are entered, the TSC Auto ID printers will be successfully enrolled in the SureMDM console.",
-   "hash": "3f67e3b84920c0ad89e56e13787d303823edaae28fb1d621e4aa11c8b8cd750f",
+   "text": "",
+   "hash": "9ab919ee58b5da8153b3a4dd457562d747ec8aac9cfd8495c2f3adffdccb7602",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/zebra-barcode",
    "title": "zebra barcode",
-   "date": "2026-09-03",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/zebra-barcode",
-   "text": "Zebra Barcode Scanner Enrollment\nSureMDM offers Zebra Barcode Scanner enrollment and manages it remotely.\nPrerequisites:​\nEnable Things Gateway in the SureMDM Console.\nConfigure No Authentication in the SureMDM Console.\nThe host machine type supported is a Windows device\nConnect Zebra Barcode Scanners to the Host Machine\nTo connect Zebra Barcode Scanners to the host machine, follow these steps:\nThe scanners are linked to the cradle, which, in turn, is connected to the Host machine.\nNow, scan any of the required barcodes using the Zebra Barcode Scanner:\nOnce you have completed these steps, the Zebra Barcode Scanners should be successfully connected to the host machine.\nSteps to Enroll the Zebra Barcode Scanner​\nTo enroll the Zebra Barcode Scanner in the SureMDM Console, follow these steps:\nDownload the Zebra Barcode Scanner Connector application on your Windows device.\nDouble-click the ZebraConnector.exe file to initiate installation. Upon execution, the installation process will begin.\nThe installer will automatically install all the required dependencies and extract the file contents to the directory C:\\Program Files (x86)\\42GearsZebraConnector on the host machine.\nEdit the settings.json file located in the C:\\Program Files (x86)\\42GearsZebraConnector directory.\nIn the settings.json file, configure the Account ID, Gateway Password and Domain. This information is necessary for the Zebra Barcode Scanner to communicate and enroll in the SureMDM Console.\nThe JSON file format should resemble the following:\n<code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">{</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">\"accountId\": \"ACCOUNT_ID\", </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">\"gatewayPassword\": \"PASSWORD\", </span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">\"domain\": \"DOMAIN_URL\"</span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\" style=\"display:inline-block\"></span><br></span><span class=\"token-line\" style=\"color:#bfc7d5\"><span class=\"token plain\">}</span><br></span></code>\nAfter saving the above configuration, right-click on the \"start.bat\" file in the C:\\Program Files (x86)\\42GearsZebraConnector directory.\nSelect Run as Administrator. The application will start as a Windows service, running in the background.\nOnce done, the user can see the Zebra Barcode Scanner details and connection status.\nThe Zebra Barcode Scanner is now enrolled in the SureMDM Console.",
-   "hash": "d6808ceec05a88b7bdc327c7c58c04aacf1f14741e3f48801aae4d1dc4829456",
-   "windows": "medium"
+   "text": "",
+   "hash": "4e99da56bbabac8e471fdcce224dd0fecaab278e474d82d41794f734f3416671",
+   "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/zebra-handheld-rfid-readers-enrollment",
    "title": "zebra handheld rfid readers enrollment",
-   "date": "2026-09-03",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/zebra-handheld-rfid-readers-enrollment",
-   "text": "Zebra Handheld RFID Readers Enrollment\nThe enrollment of Zebra Handheld RFID Readers in SureMDM offers streamlined and centralized management for these advanced RFID readers. This integration simplifies device configuration and monitoring, allowing administrators to manage multiple Zebra Handheld RFID Readers from a single console. By leveraging SureMDM's powerful features, organizations can enhance operational efficiency, reduce manual intervention, and improve device performance. The centralized control ensures better visibility and tracking, saving time and resources while maintaining optimal device functionality.\nEnroll the Zebra Handheld RFID Readers in the Console​\nTo enroll the Zebra Handheld RFID Readers in the SureMDM Console, follow these steps:\nPrerequisite:\nEnable Things Gateway in the SureMDM Console.\nConfigure No Authentication in the SureMDM Console.\nThe host machine and the device should be connected to the same network.\nRFD40/90 devices must be updated to firmware version SAAFKS00-008-R00 or later to ensure functionality.\nDownload the HandheldRFID.jar file on the host machine and place it in a dedicated folder.\nOpen the command prompt in the directory containing the jar file, then execute the following command: java -jar handheldrfid.jar\nUpon successfully executing the command, you will be prompted to provide the following information:\na. RFID broker URL: It is the HiveMQ broker URL, i.e., an address used to connect RFID devices to a HiveMQ MQTT broker.\nThe values vary based on the region as follows:\nUS Master region: zebra-rfid.42gears.com\nUS DNS region: zebra-rfid.suremdm.io\nIN region: zebra-rfid.in.suremdm.io\nEU region: zebra-rfid.eu.suremdm.io\nEU2 region: zebra-rfid.eu2.suremdm.io\nME region: zebra-rfid.me.suremdm.io\nb. Broker port: It is the specific network port used by the Zebra Handheld RFID Readers to communicate with the MQTT broker, i.e., HiveMQ.\nThe values are the same for all the regions, i.e.,1884\nc. Account ID: It is the SureMDM Account ID where the device has to be enrolled.\nnote\nNavigate to Settings on the top right corner of the SureMDM console to get the Account ID.\nd. Gateway Password: It is the secure password for connecting the Zebra Handheld RFID Readers to the SureMDM console.\nnote\nThe Gateway Password can be copied from the Enable Things Gateway section.\ne. Wi-Fi SSID: It is the name of the wireless network used to connect the device.\nf. Wi-Fi Password: It is the password set for the wireless network to connect the device.\nPress Enter after entering all the valid details to verify the final configuration details, which will be displayed as follows:\nnote\nOnce the data is entered, a file named HandheldRFID.conf will be automatically created in the same folder. This file can be used to modify configuration data and enroll additional devices.\nIf all the data in the final configuration is correct, type \"yes\" and press Enter.\nnote\nIf the data in the final configuration is incorrect, type \"no\" and press Enter. This will allow the user to modify the required data.\nThe connection will be established with the device to configure the endpoint and Wi-Fi settings based on the entered values and the following success messages will be displayed:\nOnce all the above processes are completed, the device will be successfully enrolled in the console.",
-   "hash": "04184693418d88b3978569aa0a02067d9747e0357e09ebf4b0d29b914776e806",
-   "windows": "medium"
+   "text": "",
+   "hash": "a6958d9d435f3d94a3ef6488cf3715d324c55176951cbf26ee3946ad8e70b4a7",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/zebra-link-os-printer-enrollment-via-network-printer-discovery",
+   "title": "zebra link os printer enrollment via network printer discovery",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/zebra-link-os-printer-enrollment-via-network-printer-discovery",
+   "text": "",
+   "hash": "3e0f0c7f45f143a47ff54b9e808e35654ab4d8c256a36e6bd539ec5da0e890c7",
+   "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/zebra-printer-enrollment",
    "title": "zebra printer enrollment",
-   "date": "2026-09-03",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/zebra-printer-enrollment",
-   "text": "Zebra Printer Enrollment (via Bluetooth)\nThe Zebra Printer Connector enables Bluetooth-based enrollment, facilitating the management of Zebra Printers and enhancing control and visibility within the SureMDM console. It allows seamless management and enrollment of multiple Zebra printers through the SureMDM console.\nPrerequisite\nThings management must be enabled in SureMDM. Check out the steps here.\nThe android device must be paired with the Zebra Printer. Check out the steps here.\nSteps to Enroll the Printer to the Console\nDownload the Zebra Printer Connector application on an Android device and Launch the application.\nOn the Welcome screen, tap on the Get Started button.\nEnable all the permissions (Runtime Permissions, Display over other apps, Notification Access, Location Service) and tap Continue.\nOn the Enrollment screen, enter the following details and tap Continue:\nServer Path: URL of the SureMDM console for enrolling the Zebra printer.\nnote\nThe server path can be copied from the SureMDM URL.\nAccount ID: Unique identifier for the SureMDM account.\nnote\nNavigate to Settings on the top right corner of the SureMDM console to get the Account ID.\nGateway Password: Secure password for connecting the Zebra printer to SureMDM.\nnote\nThe Gateway Password can be copied from the Enable Things Gateway section.\nOnce the server connection is successful, the device gets enrolled to the SureMDM console displaying Online status on the console as well on the connector’s Home screen.\nnote\nIn case the connector still remains offline, you can tap on the Sync Now button to connect the device.\nTap the Printers button on the Home screen to view the list of available printers.\nTap the Settings button to access:\nAccount ID: Unique identifier for the SureMDM account managing the printer.\nServer Path: URL of the SureMDM console for printer connection.\nGateway Password: Secure password for connecting the printer to the SureMDM console.\nDevice Status: Shows if the printer is online or offline.\nZebra Printer Connector Permission Checklist: Displays granted or not granted status of the required permissions for the connector.\nAbout Zebra Printer Connector: Provides version details and privacy policy information.",
-   "hash": "3a9cb64a1f09faa16a154822acb31e52eb2dd946515d924c7b9fbb971a333e56",
+   "text": "",
+   "hash": "e4e33ad54b84154e965defeadc5148d74e45f41e26ea1040072351712061fd6a",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/zebra-rfid-enrolllment",
    "title": "zebra rfid enrolllment",
-   "date": "2026-09-03",
+   "date": "2026-10-23",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/zebra-rfid-enrolllment",
-   "text": "Zebra RFID Enrollment\nSureMDM offers enrollment of Zebra RFID reader devices and manages them remotely.\nPrerequisite​\nEnable Things Gateway in the SureMDM Console.\nConfigure No Authentication in the SureMDM Console.\nConfiguring Zebra RFID Reader​\nTo configure the Zebra RFID reader, follow these steps:\nTurn on the Zebra RFID reader.\nnote\nIt is recommended to connect both RFID and the laptop to the same network.\nOpen a browser and enter the following URL in the format below:\nhttp://<Model_Name_of_Zebra_RFID><Last_6_digits_of_mac>\nFor example: http://fx75008036bd\nFX7500 - Model name of the Zebra RFID\n8036bd - Last 6 digits of mac\nEnter the username and password to login into the RFID reader console.\nnote\nThe default username is admin and the password is change.\nNavigate to the Communication tab and expand the Zebra IoT Connector.\nClick Configuration.\nUnder Configuration, click Add Endpoint and enter the following details:\nEndpoint Type - Select the endpoint type as MQTT from the dropdown\nEnpoint Name - Enter the unique endpoint name\nEndpoint Description - Enter the endpoint description\nUpdate the following details:\nTabsDetails\nConnections\nServer URL - The server URL varies depending on where the SureMDM account is hosted. Below are the SureMDM URLs based on the region.\nIf your SureMDM URL/server path is suremdm.42gears.com, add the following server URL:\nzebra-rfid.42gears.com\nIf your SureMDM URL/server path is dns.suremdm.io, add the following server URL:\nzebra-rfid.suremdm.io\nIf your SureMDM URL/server path is dns.eu.suremdm.io, add the following server URL:\nzebra-rfid.eu.suremdm.io\nIf your SureMDM URL/server path is dns.in.suremdm.io, add the following server URL:\nzebra-rfid.in.suremdm.io\nIf your SureMDM URL/server path is dns.eu2.suremdm.io, add the following server URL:\nzebra-rfid.eu2.suremdm.io\nIf your SureMDM URL/server path is dns.me.suremdm.io, add the following server URL:\nzebra-rfid.me.suremdm.io\nPort - Enter 1884.\nProtocol - Enter TCP.\nClient ID -Enter the UID or Serial Number of the RFID reader.\nClean Session - Check this option.\nDebug - Uncheck this option.\nBasic Authentication - Check this option.\nUsername - Enter the SureMDM Account ID.\nPassword - Enter the Things Gateway password.\nKeep Alive - Time interval for PINGREQ messages(default is 60 seconds)\nTopics\nUpdate the values for Management Events and Tag Data events as shown below:\n- Topic - MQTT\n- Qos - 0\n- Retain - True\nUpdate the values for Management and Control as shown below:\nUnder Command\n- Topic - CONNECTORTODEVICE/<Client_ID>/<SureMDM_Account_ID>\nUnder Response\n- Topic - DEVICETOCONNECTOR\n- Qos - 0\n- Retain - True\nCertificates\nCertificates are optional and can be skipped\nOnce done, click Update.\nNavigate to Configurations > Interface Configuration and ensure all options are auto-filled with the value(EndPoint Names).\nManagement Interface\nControl Interface\nTag Data Interface\nManagement Event Interface\nnote\nIf the value (Endpoint Name) is not auto-populated, choose the same manually from the dropdown and click Update.\nNavigate to Connections and click Connect.\nThe RFID reader's connection status will be displayed as connected.\nThe Zebra RFID Reader device will appear on the SureMDM console.",
-   "hash": "c9058ec9b59487edbeedeaf350cae992c4068670998e4f9c727e2052f54db5bc",
+   "text": "",
+   "hash": "fba69b320effd8a207cc6e540c6a3d4471aa52746b991a75e82bab514ff82dec",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/zebralink-osprinter-enrollment",
    "title": "zebralink osprinter enrollment",
-   "date": "2026-09-03",
+   "date": "2026-10-26",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/zebralink-osprinter-enrollment",
-   "text": "Zebra Link-OS Printer Enrollment (via NRD File)\n42Gears has collaborated with Zebra Technologies to make Things management simpler and more efficient. SureMDM allows you to remotely manage and configure Zebra Link-OS printers, saving time, energy, and other resources.\nEnroll Zebra Link-OS Printer to SureMDM using the NRD File​\nTo enroll the Zebra Printer to SureMDM Console using the NRD File, follow these steps:\nPrerequisite​​\nEnable Things Gateway in the SureMDM Console.\nConfigure No Authentication in the SureMDM Console.\nSteps:\nNavigate to Enrollment > Manual Enrollment, then expand the Things accordion, and select the Zebra Printer.\nChoose the IP Address Type as either Dynamic or Static.\nClick on Download NRD button to download the file consisting of all the commands and pre configured values.\nnote\nIf Things Gateway is not configured on the account, then the user gets prompted asking to enable the Things Gateway in the account settings.\nDownload the JAR file using the link below and save it in an accessible location.\nJAR File\nOnce the file is downloaded, open the command prompt and execute the following command:\njava -jar ZebraPrinter42GearsUtility.jar <IP_of_Printer>\nEnter 1 to transfer the NRD file to the Zebra printer.\nEnter the NRD file path and click Enter.\nOnce the NRD file is successfully transferred to the printer, the user can see the success message as follows: “WEBLINK1_CA.NRD sent successfully”.\nEnter 2 to send the same NRD file to the printer again.\nEnter the NRD file path and click Enter.\nOnce the NRD file is successfully transferred to the Printer, the user can see the success message as follows: “Commands sent successfully”.\nThe Zebra printer will be successfully enrolled in the SureMDM console.",
-   "hash": "4c2e0cf760a8ce1a8a984a76017ff4dee204ca400f59ca3ac3592fba28ca2e9e",
+   "text": "",
+   "hash": "1d0c0be4b904922294f73a46a01a0d97eb992af212fb3ed50c307234219f2b0f",
    "windows": "none"
   },
   {
    "key": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/zebralink-osprintertool-enrollment",
    "title": "zebralink osprintertool enrollment",
-   "date": "2026-09-03",
+   "date": "2026-10-26",
    "url": "https://docs.42gears.com/suremdm/things-device/things-manage/things-device-enrollment/zebralink-osprintertool-enrollment",
-   "text": "Zebra Link-OS Printer Enrollment (via Printer Enrollment Tool)\n42Gears has collaborated with Zebra Technologies to make Things management simpler and more efficient. SureMDM allows you to remotely manage and configure Zebra Link-OS printers, saving time, energy, and other resources.\nEnroll Zebra Link-OS Printer to SureMDM using the Printer Enrollment Tool​\nTo enroll the Zebra Printer to SureMDM Console using the Printer Enrollment tool, follow these steps:\nPrerequisite​​\nEnable Things Gateway in the SureMDM Console.\nConfigure No Authentication in the SureMDM Console.\nSteps:\nNavigate to Enrollment > Manual Enrollment, then expand the Things accordion, and select the Zebra Printer.\nChoose the IP Address Type as either Dynamic or Static.\nEnter one or more printer IP addresses or specify a range.\nClick on the Launch Enrollment Tool button, confirm when prompted and proceed to the Download page.\nOn the Download page, Click Download to get the Zebra Printer Enrollment Tool, then install it on your host machine.\nOnce installed, Click on Launch Enrollment Tool button again to open the Printer Enrollment Tool.\nThe tool establishes communication between the printer and the SureMDM Console, initiates a connection request, updates the enrollment information, and completes the device enrollment process.",
-   "hash": "38abfb85707571831ed016c7215c7b270992610dae487cd1f29eea6f3df62bc4",
+   "text": "",
+   "hash": "c54fe5ee17a06edcefa59634893e3334c139d9e2a575eae8814b7990aebbc2e5",
    "windows": "none"
   },
   {
@@ -6517,417 +6526,417 @@
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/remote-support-management/remote-support-features",
-   "title": "remote support features",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/remote-support-management/remote-support-features",
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/device-configuration/agent-settings/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/device-configuration/agent-settings/overview",
    "text": "",
-   "hash": "4abec0f903f6c663e91f2f98ff6531ec294579e504322c8f25a94bc38c0366ff",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/remote-support-management/remote-support-management",
-   "title": "remote support management",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/remote-support-management/remote-support-management",
-   "text": "",
-   "hash": "0d78278cb65b529a5f34d7b4a1fe2c37ee20f6d111ab4faf0771b1981cce0ce8",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/remote-support-management/remote-support-on-vr-devices",
-   "title": "remote support on vr devices",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/remote-support-management/remote-support-on-vr-devices",
-   "text": "",
-   "hash": "348e7daa8239fc279d02745054514a8cff1c1ab815f30f2decb80088077d0352",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vr-device-enrollment/getting-started-with-vr-device",
-   "title": "getting started with vr device",
-   "date": "2025-10-06",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vr-device-enrollment/getting-started-with-vr-device",
-   "text": "",
-   "hash": "48eebdeed11dd46782aa016dea7a6edef42b691444baded0321e2d02d93c1255",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vr-device-enrollment/supported-devices",
-   "title": "supported devices",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vr-device-enrollment/supported-devices",
-   "text": "",
-   "hash": "1f3775393ae61957082fc6fe1b569199067f361ae99a73980f8fcca6cdfc350c",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vr-device-enrollment/vrdevice-enrollment",
-   "title": "vrdevice enrollment",
-   "date": "2025-10-06",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vr-device-enrollment/vrdevice-enrollment",
-   "text": "",
-   "hash": "56399428f9bdf012ebb276fef403df67506a3f0190a35809469241a26b94d1d2",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vr-device-management",
-   "title": "vr device management",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vr-device-management",
-   "text": "",
-   "hash": "df667ff7f154e46d8c081ee74e72dcc0f5cda2b51d211ae96158d39c2b4e1238",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/android-vr-device-jobs-profile",
-   "title": "android vr device jobs profile",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/android-vr-device-jobs-profile",
-   "text": "",
-   "hash": "21ef15a5b3a0919e7d9b137e687ac4b16c53da8da79a151b0bc0d8a5e9700cb0",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/configure-profiles",
-   "title": "configure profiles",
-   "date": "2025-10-06",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/configure-profiles",
-   "text": "",
-   "hash": "d101f498965d56880a35a95ab7826910b141b5f15ff6ea316ce0529915a6016c",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/dynamic-jobs-for-android-vr-devices",
-   "title": "dynamic jobs for android vr devices",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/dynamic-jobs-for-android-vr-devices",
-   "text": "",
-   "hash": "1e1278f6e9660a0260ace76dc40ac6f86a1474a669bf389bf032539cc7bce464",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/composite-job-android-vr",
-   "title": "composite job android vr",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/composite-job-android-vr",
-   "text": "",
-   "hash": "c15883ef2af4de8d6d48136e683f5c79db595f6d973b83452e286bde5acd4efe",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/file-transfer",
-   "title": "file transfer",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/file-transfer",
-   "text": "",
-   "hash": "1dd4dcf744433952b915c4a20842e5e6844fbe1c94367c2ae668d3f6f51cf8be",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/install-application-android-vr-device",
-   "title": "install application android vr device",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/install-application-android-vr-device",
-   "text": "",
-   "hash": "210f58f490d2593fc46f0fc55504aa34b5810001e84316122133efe2bc266a73",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/remote-data-wipe-android-vr",
-   "title": "remote data wipe android vr",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/remote-data-wipe-android-vr",
-   "text": "",
-   "hash": "a0cd77180aa0aba718fac9f6e3842ee7f88385d624d8a1bb3720bc6321ad5c7a",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/run-script-android-vr-device",
-   "title": "run script android vr device",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/run-script-android-vr-device",
-   "text": "",
-   "hash": "aead6c21dc443e35e39f1a358959c49878c57d819b09948a6663611fde5acacf",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/static-jobs-for-android-vr-devices",
-   "title": "static jobs for android vr devices",
-   "date": "2025-10-06",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/static-jobs-for-android-vr-devices",
-   "text": "",
-   "hash": "f008912d6c8020f42ddebe5d622bc9d853330e4b1e2a18d368b571a2ddeb28e3",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/sure-lock-settings-android-vr-device",
-   "title": "sure lock settings android vr device",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/sure-lock-settings-android-vr-device",
-   "text": "",
-   "hash": "037d87d5cb290576300e39b0091754dd68a12cbe16d7b996f0ec6819908a33aa",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/time-fence-android-vr-device",
-   "title": "time fence android vr device",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/time-fence-android-vr-device",
-   "text": "",
-   "hash": "ad8c92e076c6ae9a3b0ebf14afeabe7c698a9439f291c57301d2f6ee89beb789",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/wifi-hotspot-settings-android-vr",
-   "title": "wifi hotspot settings android vr",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-jobs-profile/static-jobs-android/wifi-hotspot-settings-android-vr",
-   "text": "",
-   "hash": "96431c0df7f99b0d94cb3fbf5708dc8469a6bb2f1c782d188cb2afada96c216d",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-manage/enable-single-application-mode",
-   "title": "enable single application mode",
-   "date": "2025-10-06",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-manage/enable-single-application-mode",
-   "text": "",
-   "hash": "404852499e9b4e9803f23a4e6b8306f22e7b04050235201399fbdf5ab3131d36",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-manage/suremdm-agent-settings/configure-suremdm-agent-settings",
-   "title": "configure suremdm agent settings",
-   "date": "2025-10-06",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-manage/suremdm-agent-settings/configure-suremdm-agent-settings",
-   "text": "",
-   "hash": "c0e25588f6543111dbe1620eeeb006b3a66759207f9948677b08f821aa58a726",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-manage/suremdm-agent-settings/using-runscript-job",
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/device-configuration/agent-settings/using-runscript-job",
    "title": "using runscript job",
-   "date": "2025-10-06",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-manage/suremdm-agent-settings/using-runscript-job",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/device-configuration/agent-settings/using-runscript-job",
    "text": "",
-   "hash": "dd5ca90fdf2f2dca29dba69051f41d9a55bfc85bca159cfdbf31c8ae5fc880c3",
+   "hash": "b43a626564407fac801c5c5a544fecf4908266bb899c372e8c68d8ee37e935f6",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-manage/suremdm-agent-settings/using-suremdm-agent-settings",
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/device-configuration/agent-settings/using-suremdm-agent-settings",
    "title": "using suremdm agent settings",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-manage/suremdm-agent-settings/using-suremdm-agent-settings",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/device-configuration/agent-settings/using-suremdm-agent-settings",
    "text": "",
-   "hash": "eac505d644f53859c557c1e910df2c3b6634613b99005d627341828321b44ae1",
+   "hash": "d7e1852d58fb589bb0cdeb5b9c51102ec0b616831dad4c81ee7692f74fc81bbb",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-manage/vr-device-management",
-   "title": "vr device management",
-   "date": "2025-10-06",
-   "url": "https://docs.42gears.com/suremdm/vr-devices/vr-device-manage/vrdevice-manage/vr-device-management",
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/device-configuration/enable-single-application-mode",
+   "title": "enable single application mode",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/device-configuration/enable-single-application-mode",
    "text": "",
-   "hash": "c1ee2dc0805da10b02e8ed0ad353922772aaf4563b76df148535d6d56b672dc5",
+   "hash": "e324a35aab7c436d3e8f5dbe7cb5ecb11106271f39764b5bd2eab2bf77dde924",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/android-wear-os/android-wear-wearos-enrollment",
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/device-configuration/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/device-configuration/overview",
+   "text": "",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/enrollment/getting-started-with-vr-device",
+   "title": "getting started with vr device",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/enrollment/getting-started-with-vr-device",
+   "text": "",
+   "hash": "cbbb7996bdd1a30724cd15239b6b0c7045fd2dec26bc8ddd7242f56041285bbf",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/enrollment/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/enrollment/overview",
+   "text": "",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/enrollment/supported-devices",
+   "title": "supported devices",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/enrollment/supported-devices",
+   "text": "",
+   "hash": "98ce114bd66d84d8ae0453a8edc8a108bb99b320173d3d31116b1288b849a4e6",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/configure-profiles",
+   "title": "configure profiles",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/configure-profiles",
+   "text": "",
+   "hash": "ff691b1d6d5375556900c589f3bb4f987e6576a795e2b909fecc232e221eebbd",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/dynamic-jobs-for-android-vr-devices",
+   "title": "dynamic jobs for android vr devices",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/dynamic-jobs-for-android-vr-devices",
+   "text": "",
+   "hash": "37e07c8be22a8caf46703b9df74e8eb9cfa58400e32428074a70940d059dfa60",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/overview",
+   "text": "",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/composite-job-android-vr",
+   "title": "composite job android vr",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/composite-job-android-vr",
+   "text": "",
+   "hash": "3c71e0d0c7f090483e250b15c47ce7073e077b4b16554803cf75d404b60f0c73",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/file-transfer",
+   "title": "file transfer",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/file-transfer",
+   "text": "",
+   "hash": "3c2fc2fc7007ede8d4baae60397cfd110669e0f08ef711a5002ccf4c6e97bfb9",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/install-application-android-vr-device",
+   "title": "install application android vr device",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/install-application-android-vr-device",
+   "text": "",
+   "hash": "12ee9fde31a87bb3b21da16eda3135dbbfab713dbd29ac1c84a745639edf1e9d",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/overview",
+   "text": "",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/remote-data-wipe-android-vr",
+   "title": "remote data wipe android vr",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/remote-data-wipe-android-vr",
+   "text": "",
+   "hash": "1bc07d762c0093be0c19069b37e8f64aece913912dfc3c9af67cba2b859c79fb",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/run-script-android-vr-device",
+   "title": "run script android vr device",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/run-script-android-vr-device",
+   "text": "",
+   "hash": "04d7d7140ba33e91a452d38f98fe651e4dda72b618d2662c52ee62eaee02307f",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/sure-lock-settings-android-vr-device",
+   "title": "sure lock settings android vr device",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/sure-lock-settings-android-vr-device",
+   "text": "",
+   "hash": "4fdbef216a3fb5a71603359ce103871c57a176b82b7a8185d7594180ec6f00fe",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/time-fence-android-vr-device",
+   "title": "time fence android vr device",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/time-fence-android-vr-device",
+   "text": "",
+   "hash": "81f262dee3e0a250ec70969b72b0a2327dd13bc99c10ee4d71c5eff513f0da45",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/wifi-hotspot-settings-android-vr",
+   "title": "wifi hotspot settings android vr",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/jobs-profiles/static-jobs/wifi-hotspot-settings-android-vr",
+   "text": "",
+   "hash": "e37811935af31a9b98e04d10cdbb57987414e6100f96c2d209d7cf70b332ee1a",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/overview",
+   "text": "",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/support/on-vr-devices",
+   "title": "on vr devices",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/support/on-vr-devices",
+   "text": "",
+   "hash": "0e8a366d69b203d9dd990a895cc2037c4d7cdbf13742742d42a2cbebcd3e3e85",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/support/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/support/overview",
+   "text": "",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/vr-devices/management/support/remote-support-features",
+   "title": "remote support features",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/vr-devices/management/support/remote-support-features",
+   "text": "",
+   "hash": "e3b5e52467dbd00f50d8283d391121749cb06b79eab2162290ba1ccc05f7cc9c",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/wearos/management/android-wear-os/android-wear-wearos-enrollment",
    "title": "android wear wearos enrollment",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/android-wear-os/android-wear-wearos-enrollment",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/android-wear-os/android-wear-wearos-enrollment",
    "text": "",
-   "hash": "d6f6b860c6d5f6fb76361ddd722708541952e060561e8cc4ab9d01b5dc80f401",
+   "hash": "c263b1076d99fa2faa355d588d06631680dc647094e75731a498041bc6adb984",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/android-wear-os/enroll-devices-android-wear-os/configure-suremdm-agent-settings-wear",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/android-wear-os/enroll-devices/configure-suremdm-agent-settings-wear",
    "title": "configure suremdm agent settings wear",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/android-wear-os/enroll-devices-android-wear-os/configure-suremdm-agent-settings-wear",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/android-wear-os/enroll-devices/configure-suremdm-agent-settings-wear",
    "text": "",
-   "hash": "682228ee59548c9012277c8ddb88306cb21c53fdf82a8edcb08d18974e74707d",
+   "hash": "2426ad0ba5601d6b1d94dcdcb4ca1bf9777e8365fc9aeb7ee223c81070adcc55",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/android-wear-os/enroll-devices-android-wear-os/enroll-devices-android-wear-wearos",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/android-wear-os/enroll-devices/enroll-devices-android-wear-wearos",
    "title": "enroll devices android wear wearos",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/android-wear-os/enroll-devices-android-wear-os/enroll-devices-android-wear-wearos",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/android-wear-os/enroll-devices/enroll-devices-android-wear-wearos",
    "text": "",
-   "hash": "7e9ca11ee243e27e524781a8c29a8aa9e47dcfae67feaf3e1fe84e4fac3b6280",
+   "hash": "7552d7be252f021d0f1ec7c8a50ad9d18460e5ff988d1f8ddd5a767b7d62befe",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/android-wear-os/enrolling-wearos-device-via-companion-app",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/android-wear-os/enrolling-wearos-device-via-companion-app",
    "title": "enrolling wearos device via companion app",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/android-wear-os/enrolling-wearos-device-via-companion-app",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/android-wear-os/enrolling-wearos-device-via-companion-app",
    "text": "",
-   "hash": "fee6327b41fa4ee4c83129ae74afe164f0579cb0e9a675bc478e14396ca6f966",
+   "hash": "e720ee8e8d594248ab551f545880fb89177e5d6e0b5b769b5c68c5c016feb6a3",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/android-wear-os/install-launch-suremdm-agent",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/android-wear-os/install-launch-suremdm-agent",
    "title": "install launch suremdm agent",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/android-wear-os/install-launch-suremdm-agent",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/android-wear-os/install-launch-suremdm-agent",
    "text": "",
-   "hash": "21580a496cd461291dc20fd19058510ee5559fe6e939f9634ea733d283896601",
+   "hash": "f1e106b2dba1d8841df5cec380497263ada4a7e4a6375538caf68f282d6742ed",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/android-wearos-management",
-   "title": "android wearos management",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/android-wearos-management",
-   "text": "",
-   "hash": "c80b6a2b2b447e531c4d3ed4e6d7dcc46eaa6e6a6586d0532cfeb75ef500581b",
-   "windows": "none"
-  },
-  {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/dynamic-jobs-wearos",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/dynamic-jobs-wearos",
    "title": "dynamic jobs wearos",
-   "date": "2026-02-18",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/dynamic-jobs-wearos",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/dynamic-jobs-wearos",
    "text": "",
-   "hash": "4445260eadfacd04fbfe95ea1870c8ca0989481af30036ddca0e5447a4b8d5c8",
+   "hash": "685b7b7b4a027af61ac2a5d6acb771255883c9937f4db89aa12a3e1b315ce28a",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/call-log-tracking-wear-os",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/call-log-tracking-wear-os",
    "title": "call log tracking wear os",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/call-log-tracking-wear-os",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/call-log-tracking-wear-os",
    "text": "",
-   "hash": "0d47f353f77fb9ddbc9f8fe33f6238acdc280aa2eda41c87f49b634fa58c7ac7",
+   "hash": "eded40ca5e5a9dae482793586ddb2c6b56d77ffa3b0f3b649fb3639e02bbf9bd",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/composite-job",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/composite-job",
    "title": "composite job",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/composite-job",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/composite-job",
    "text": "",
-   "hash": "52f7413b7fd70a9ddde1f97c51f243e137043d12baf6d9173e78448d2fe6ee48",
+   "hash": "277a2892e8fc5a451490276428e08df575abbcec1f789d29d5c64a80f9b0fca1",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/file-transfer-wear-os",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/file-transfer-wear-os",
    "title": "file transfer wear os",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/file-transfer-wear-os",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/file-transfer-wear-os",
    "text": "",
-   "hash": "fdc061e580040a8253a63ab3ce7cc6ab06435dd8a68834fb0bf2e7486b41d065",
+   "hash": "7c06244a2f0f074b107167a53cb4ce1051516258ae50a90bd82470c38383e6b9",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/jobs-for-wear-os",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/jobs-for-wear-os",
    "title": "jobs for wear os",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/jobs-for-wear-os",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/jobs-for-wear-os",
    "text": "",
-   "hash": "e89ac68e4849b495a1a97f84d68315641283a0629bf1349dfdacd165ae5c0aa8",
+   "hash": "069ce743e83cd58e54486edc7c4880985a354d88b31cf170f2e87671c3d26e95",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/location-tracking-wear-os",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/location-tracking-wear-os",
    "title": "location tracking wear os",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/location-tracking-wear-os",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/location-tracking-wear-os",
    "text": "",
-   "hash": "d2396a4baddfa96589074d59145d9df37c005b48da47c295b14938c99fb6ce72",
+   "hash": "e5e39102bb6b3c7e2d75884627bdf19e0950d80c00e48c7a0b73ad0955c8f335",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/notification-policy-wear-os",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/notification-policy-wear-os",
    "title": "notification policy wear os",
-   "date": "2026-09-11",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/notification-policy-wear-os",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/notification-policy-wear-os",
    "text": "",
-   "hash": "4e7a996fdcdfd16283b04669c9f3bc9820828bf37e930190ec52121cbd9bdd1b",
+   "hash": "9fa2e039e6cda8f6dbf0926a0f86c0847aa586a0eca36da24176c04b983a30a4",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/remote-buzz-wear-os",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/remote-buzz-wear-os",
    "title": "remote buzz wear os",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/remote-buzz-wear-os",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/remote-buzz-wear-os",
    "text": "",
-   "hash": "1baade609a958e063c6953964ca3eef4677846fde2234c25d8e99b3cd95933cb",
+   "hash": "25ae112176d5e9bd968a667aa7796b13bf6651e2a4046d0e1cb166fd27d60c1b",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/remote-data-wipe-wear-os",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/remote-data-wipe-wear-os",
    "title": "remote data wipe wear os",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/remote-data-wipe-wear-os",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/remote-data-wipe-wear-os",
    "text": "",
-   "hash": "0f8128615c1fd6f4e052ed1efec40e47ff760f880f4cbdc42cdeb9bc2a9dabc9",
+   "hash": "6347ff26c3a1ee070dd9371f5aba3c0183506c17320a52b24456b1218ce83915",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/run-script-wear-os",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/run-script-wear-os",
    "title": "run script wear os",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/run-script-wear-os",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/run-script-wear-os",
    "text": "",
-   "hash": "445cf9adaac93027ac250126bd7f6220f08a27cad9b3daddc35c66d29d231a79",
+   "hash": "4e809f46927650699482d2962c0fc1a7acd7b89e1dc79d82bfc8df83bedc2761",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/sms-log-tracking-wear-os",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/sms-log-tracking-wear-os",
    "title": "sms log tracking wear os",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/sms-log-tracking-wear-os",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/sms-log-tracking-wear-os",
    "text": "",
-   "hash": "62d472472fb55fa234f0d2e5aba9a9345bdb457678f259a581097f826438d9a1",
+   "hash": "f85cf3f3e5f269f6d5688e588350a243a8452a26bcd396348324d0caedece910",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/sure-lock-settings-wear-os",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/sure-lock-settings-wear-os",
    "title": "sure lock settings wear os",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/sure-lock-settings-wear-os",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/sure-lock-settings-wear-os",
    "text": "",
-   "hash": "284919af7e5fc9836ab5f8b7351b492dc9ed61b2bf8cd515d9c037600f87b1b7",
+   "hash": "f1e8baeb35c5494f4ab58878e4da2786b828e720a976d9a48815d6d86a5b9aea",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/suremdm-agent-settings-wear-os",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/suremdm-agent-settings-wear-os",
    "title": "suremdm agent settings wear os",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/suremdm-agent-settings-wear-os",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/suremdm-agent-settings-wear-os",
    "text": "",
-   "hash": "8aaf370b0512670adb8544a32cb4498f4b109fd8fd5014817c27ae39df7b98b6",
+   "hash": "53932850c3d6e699fe1619e7235851e0a98f2bb2b19826a3ccddb5be7082e25f",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/telecom-management-policy-wear-os",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/telecom-management-policy-wear-os",
    "title": "telecom management policy wear os",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/telecom-management-policy-wear-os",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/telecom-management-policy-wear-os",
    "text": "",
-   "hash": "42621c7e7aaf0a48ce04472a2835c3e95fd9c10e471c170a2545cea0f40d63d7",
+   "hash": "8e4d57d3c51b2363fd9dae1e62841f8ea4b316b4f93271ddbd686cb843437f29",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/text-message-wear-os",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/text-message-wear-os",
    "title": "text message wear os",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/text-message-wear-os",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/text-message-wear-os",
    "text": "",
-   "hash": "6dee65c541205f1355ab7931faad217475a16cd9ff3fc826fec382c843bd90ea",
+   "hash": "af4053d2e63f2d28a5cb2b33a48927c16f17317721ddb869f1a12cbca89268d1",
    "windows": "none"
   },
   {
-   "key": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/wi-fi-settings-wear-os",
+   "key": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/wi-fi-settings-wear-os",
    "title": "wi fi settings wear os",
-   "date": "2025-10-05",
-   "url": "https://docs.42gears.com/suremdm/wearos/wearos-management/jobs-for-wear-os/wi-fi-settings-wear-os",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/jobs-for-wear-os/wi-fi-settings-wear-os",
    "text": "",
-   "hash": "89ab4950cf8d24266dc694521cd8bb5275cbd04bda3ce737432ad83618e1bbcf",
+   "hash": "971aacec94a5f9879480f2a356b4e2385b19a79fb837c3441299ba3d9949aa37",
+   "windows": "none"
+  },
+  {
+   "key": "https://docs.42gears.com/suremdm/wearos/management/overview",
+   "title": "overview",
+   "date": null,
+   "url": "https://docs.42gears.com/suremdm/wearos/management/overview",
+   "text": "",
+   "hash": "1ef2baeb5413d0e7e279b0e2d0f0e93fd9d1ae9868e343004ee59581c5485940",
    "windows": "none"
   },
   {

@@ -2,46 +2,28 @@
  "id": "hexnode-blog",
  "vendor": "Hexnode",
  "kind": "rss",
- "fetchedAt": "2026-10-26T04:30:06.733Z",
+ "fetchedAt": "2026-11-02T04:30:03.586Z",
  "meta": {
   "url": "https://www.hexnode.com/blogs/feed/",
   "entries": 10
  },
  "items": [
   {
-   "key": "https://www.hexnode.com/blogs/?p=52554",
-   "title": "Windows Local Account Management in Hexnode UEM: A Step-by-Step Guide",
-   "date": "2026-10-26",
-   "url": "https://www.hexnode.com/blogs/windows-local-account-management-hexnode-uem/",
-   "text": "What Is Windows Local Account Management?\nWindows local account management is the process of creating, configuring, securing, and removing user accounts stored directly on individual Windows devices.\nOn shared workstations and kiosk-style devices, manual account administration can create inconsistent privileges and leave orphaned accounts after employee offboarding. With Windows unified endpoint management (UEM), IT admins can manage local accounts remotely across multiple devices instead of configuring each device individually.\nA local account is defined on an individual Windows device, which acts as its security authority. A domain account normally authenticates against an organizational directory service and may have permissions to access local and domain resources.\nWindows can allow offline sign-in when a domain controller is unavailable. This requires valid cached domain credentials and enabled credential caching. However, users cannot access network resources that require domain validation until the domain controller becomes available.\nAn administrator account can perform privileged system tasks, change settings, and manage other users. In contrast, a standard account supports routine activities with fewer privileges, reducing unnecessary administrative access.\nManual account management can create recurring operational challenges:\nTask\nPotential operational challenge\nCreate account\nRepeating account setup across devices can delay provisioning and increase the risk of i…",
-   "hash": "17e5a4aca971fdb04071bafb3c681d7b3ada83731a466117435ec62d5eb49ca9",
+   "key": "https://www.hexnode.com/blogs/?p=52967",
+   "title": "ThreatLocker Rollouts on Windows: The GroupKey and Validation Checks That Matter",
+   "date": "2026-10-28",
+   "url": "https://www.hexnode.com/blogs/threatlocker-windows-groupkey-deployment/",
+   "text": "Why can a ThreatLocker rollout leave administrators uncertain?\nInitiating an installation does not provide all the evidence administrators need to approve a rollout. Before marking a Windows device complete, IT teams need to verify the installation inputs, examine execution results, and confirm the intended destination group.\nFor a ThreatLocker Windows GroupKey deployment, that creates a practical challenge: connecting the configuration you prepared with the outcome you can verify. An administrator may know which devices received the deployment action but still need to establish whether each device reached the expected state.\nThe central question is therefore specific: what must the team validate before marking a device complete and expanding deployment? Answering it requires clear acceptance criteria and evidence that another administrator can review without reconstructing the entire installation attempt.\nWhat happens when teams scale an unverified installation?\nExpanding an unverified deployment can multiply troubleshooting work and delay rollout acceptance. Each additional device can become another case to investigate when teams carry an unresolved installation issue into subsequent batches.\nConsider a pilot whose registration remains unconfirmed. The administrator proceeds with the same installation inputs across several departments. When reviewers later find discrepancies, they must identify affected devices, inspect execution results, and determine which installations…",
+   "hash": "8a21f009bf8a983c8a722437fb1238c087beb9ce685fca153d88a4cf72a3648d",
    "windows": "high"
   },
   {
-   "key": "https://www.hexnode.com/blogs/?p=52465",
-   "title": "Hexnode Work Essentials: Centralizing Email, Calendar, and Contacts on Managed Devices",
-   "date": "2026-10-15",
-   "url": "https://www.hexnode.com/blogs/hexnode-work-essentials/",
-   "text": "Why is managing work email, calendars, and contacts difficult across devices?\nManual account setup and inconsistent device configurations create recurring work for IT administrators. Each operating system, application, and service provider introduces requirements that administrators must address before employees can use their work accounts.\nConsider a new employee who can receive email but cannot access team calendars or essential contacts. The mailbox works, yet the employee still needs separate support requests to complete their setup. Repeating this process across departments makes onboarding harder to standardize.\nEffective email, calendar, and contact management requires a defined configuration for each device environment. IT teams need to distribute the appropriate settings centrally while accounting for corporate and personal ownership, enrollment methods, and the services employees already use.\nWhat happens when work account configurations remain inconsistent?\nInconsistent configurations delay onboarding, increase troubleshooting, and leave employees with unpredictable access to business communications. Administrators must investigate individual devices instead of applying a repeatable configuration.\nAccount and sharing settings also affect where employees can use business information. An inappropriate configuration may permit account use or data sharing beyond organizational requirements. The exposure depends on the application, its permissions, and the controls adm…",
-   "hash": "c3689528c6978d9fbcf0db517f81a032a281b9876467a8c4cd798678ba99348f",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.hexnode.com/blogs/?p=52470",
-   "title": "App Catalogs vs. App Groups: Structuring App Distribution in Hexnode UEM",
-   "date": "2026-10-15",
-   "url": "https://www.hexnode.com/blogs/app-catalog-vs-app-group-hexnode-uem/",
-   "text": "Why does app distribution become difficult as device fleets grow?\nThe app catalog vs app group distinction helps IT teams separate application discovery from application organization. As device fleets grow, overlapping requirements make it harder to decide which apps belong together, how employees receive them, and who needs them. A clear distribution structure lets administrators reuse application sets while distinguishing mandatory installations from optional tools.\nApp distribution becomes difficult when IT teams manage overlapping application requirements without separating app organization, deployment behavior, and target audiences. Administrators must determine which apps belong together, how installation should happen, and who needs them.\nConsider an administrator selecting applications for new hires, adjusting software after department transfers, and handling optional installation requests. Across Windows, macOS, Android, and iOS, these tasks involve different application packages and installation requirements. Rebuilding similar selections for each request creates repetitive work and makes omissions easier.\nThe app catalog vs app group discussion starts with a practical question: how should IT organize reusable application sets while giving employees appropriate installation options? Answering it requires distinguishing the applications employees must have from those they can choose.\nWhat happens when app distribution lacks a clear structure?\nPoorly structured app d…",
-   "hash": "182d23f7edd83866d94a409b98152cd6e1300b0c7df58a47520b7b5c1022d78d",
-   "windows": "medium"
-  },
-  {
-   "key": "https://www.hexnode.com/blogs/?p=52414",
-   "title": "How to introduce AI agents into IT operations with human oversight?",
-   "date": "2026-10-15",
-   "url": "https://www.hexnode.com/blogs/ai-agents-it-operations-human-oversight/",
-   "text": "AI agents in IT operations can interpret requests, determine next steps, and execute authorized actions across endpoint, identity, and ticketing systems. However, a single incorrect action can affect multiple systems before an administrator intervenes.\nHuman-in-the-loop oversight involves human participation in an AI-driven workflow through activities such as supervision, feedback, intervention, or approval at appropriate decision points. To introduce AI agents safely, IT teams must define permissions, establish approval checkpoints, monitor execution, handle failures, and expand autonomy gradually.\nWhat Are the Risks of AI Agents in IT Operations?\nAI agents in IT operations introduce four key risks: excessive permissions, unapproved actions, incomplete audit trails, and unclear failure ownership. These gaps can leave administrators unable to contain changes, reconstruct events, or determine who must resolve a failed workflow.\nExcessive permissions: An LLM-based agent receives administrator-level access when its task only requires reading device inventory. OWASP classifies excessive permissions, functionality, and autonomy as contributing causes of the Excessive Agency vulnerability.\nUnapproved high-impact actions: An agent isolates a production endpoint without human approval, disrupting critical business operations.\nIncomplete audit trails: An agent modifies security policies without recording the initiating request, approval decision, or execution outcome.\nUnclear failure…",
-   "hash": "b9e2ee01c515b66e573129ad22c230d8baa04bb76f52b3478876f203572c0232",
+   "key": "https://www.hexnode.com/blogs/?p=52948",
+   "title": "A Security Technician Joins or Leaves: Who Updates Their XDR Access?",
+   "date": "2026-10-28",
+   "url": "https://www.hexnode.com/blogs/hexnode-xdr-technician-access-management/",
+   "text": "Who owns XDR access when a security technician joins or leaves?\nOrganizations should assign a security access owner to approve changes and an authorized portal administrator to execute them as part of Hexnode XDR technician access management. A new analyst waiting for access before a shift and an overlooked departing technician’s account expose the same gap: nobody clearly owns the transition.\nFor security administrators, SOC leads, and CISOs, Hexnode XDR technician access management starts with explicit responsibilities.\nWho requests access?\nWho approves the role?\nWho makes the portal change, and who verifies completion?\nA hiring manager may communicate the start date, while a SOC lead defines operational needs. Neither action confirms that someone has updated access. Every request needs a named approver, an executing administrator, and a person responsible for checking the result before the team closes the request.\nExplore access management with Hexnode XDR\nWhat happens when nobody owns technician access changes?\nUnowned access changes can leave analysts unable to investigate and former team members with permissions they no longer need. Delayed onboarding can reduce investigation coverage or force colleagues to absorb additional work. Unnecessary privileges can also expose security operations to unauthorized changes.\nThe accountability gap grows when requests remain unresolved and teams assume another administrator completed the handoff. A manager may approve a departure w…",
+   "hash": "544d2cedeb949a911b18486f9a465e145ef7d6a6153d57e182c5c9db93973aea",
    "windows": "none"
   }
  ]

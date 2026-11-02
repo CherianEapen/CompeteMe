@@ -2,17 +2,143 @@
  "id": "iru-updates",
  "vendor": "Iru",
  "kind": "rss",
- "fetchedAt": "2026-10-26T04:30:05.219Z",
+ "fetchedAt": "2026-11-02T04:30:03.535Z",
  "meta": {
   "url": "https://www.iru.com/updates/rss.xml",
   "entries": 50
  },
  "items": [
   {
-   "key": "https://www.iru.com/updates/2026/10/23/whats-new-in-iru-october-23rd",
+   "key": "https://www.iru.com/updates/2026/10/30/whats-new-in-iru-october-30th",
+   "title": "What's New in Iru | October 30th",
+   "date": "2026-10-30",
+   "url": "https://www.iru.com/updates/2026/10/30/whats-new-in-iru-october-30th",
+   "text": "Highlights this week in What’s New in Iru:",
+   "hash": "146908ffcf7880fee20dba455712f2026333afc724d6c3c8991337beeb9e941d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/windows-1.25.7-/2026/10/28/iru-agent-for-windows-1-25-7/",
+   "title": "Iru Agent for Windows 1.25.7",
+   "date": "2026-10-29",
+   "url": "https://www.iru.com/updates/windows-1.25.7-/2026/10/28/iru-agent-for-windows-1-25-7/",
+   "text": "We've released Iru Agent for Windows 1.25.7. Endpoint Agent",
+   "hash": "541316c7073119d120b891ffa05c68569330b788821f77bc6f1cedc91a3e13fc",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/28/windows-auto-apps",
+   "title": "New Windows Auto Apps",
+   "date": "2026-10-28",
+   "url": "https://www.iru.com/updates/2026/10/28/windows-auto-apps",
+   "text": "New Windows Auto Apps have been added to the catalog and are now available for all Iru Endpoint customers.",
+   "hash": "589d2d1997ec8dbbe593878cd70be46ed0625fcb3a3898ec3740edb73e291f0a",
+   "windows": "high"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/28/macos-auto-app-xquartz",
+   "title": "New macOS Auto App: XQuartz",
+   "date": "2026-10-28",
+   "url": "https://www.iru.com/updates/2026/10/28/macos-auto-app-xquartz",
+   "text": "A new Auto App, XQuartz, has been added to the catalog and is now available for all customers.",
+   "hash": "0c6657717abfc4f979d0fe797d6633cc5778799d79797700852d6ae50325a1f3",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/28/macos-auto-app-termius",
+   "title": "New macOS Auto App: Termius",
+   "date": "2026-10-28",
+   "url": "https://www.iru.com/updates/2026/10/28/macos-auto-app-termius",
+   "text": "A new Auto App, Termius, has been added to the catalog and is now available for all customers.",
+   "hash": "80b6ef1fabf10eaf9dd913b3fd7170d9a0d95ecfb55cd1700b852e2b9b1abaea",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/28/macos-auto-app-superhuman",
+   "title": "New macOS Auto App: Superhuman",
+   "date": "2026-10-28",
+   "url": "https://www.iru.com/updates/2026/10/28/macos-auto-app-superhuman",
+   "text": "A new Auto App, Superhuman, has been added to the catalog and is now available for all customers.",
+   "hash": "c3aa5c4a6f0b5e02aaaf2bae6e9d804d1e547a3d6103cdad0cd43e8760e0db41",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/28/macos-auto-app-rustdesk",
+   "title": "New macOS Auto App: RustDesk",
+   "date": "2026-10-28",
+   "url": "https://www.iru.com/updates/2026/10/28/macos-auto-app-rustdesk",
+   "text": "A new Auto App, RustDesk, has been added to the catalog and is now available for all customers.",
+   "hash": "6841d3ab8cd196bb4100a7341230d02c01d4741c544a81b09f78ec9d190e119f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/28/macos-auto-app-proxyman",
+   "title": "New macOS Auto App: Proxyman",
+   "date": "2026-10-28",
+   "url": "https://www.iru.com/updates/2026/10/28/macos-auto-app-proxyman",
+   "text": "A new Auto App, Proxyman, has been added to the catalog and is now available for all customers.",
+   "hash": "6a7c7b4ade3e61eabf8013d6ffa3a11f16f1fcfc25ef69a8895e28f3bbc90568",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/28/macos-auto-app-github-copilot",
+   "title": "New macOS Auto App: GitHub Copilot",
+   "date": "2026-10-28",
+   "url": "https://www.iru.com/updates/2026/10/28/macos-auto-app-github-copilot",
+   "text": "A new Auto App, GitHub Copilot, has been added to the catalog and is now available for all customers.",
+   "hash": "3a0e7c11230dabbb9d644b703505d8752d954644f90cb081a0a282c0f4156158",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/28/macos-auto-app-grok-bot",
+   "title": "New macOS Auto App: Grok Bot",
+   "date": "2026-10-28",
+   "url": "https://www.iru.com/updates/2026/10/28/macos-auto-app-grok-bot",
+   "text": "A new Auto App, Grok Bot, has been added to the catalog and is now available for all customers.",
+   "hash": "d47c83ad9ada517fc6b0eef9b751e39bba5bf0b0da2189023e384e9304fc445c",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/remote-shell",
+   "title": "Remote Shell",
+   "date": "2026-10-28",
+   "url": "https://www.iru.com/updates/remote-shell",
+   "text": "Remote Shell gives you a root command line on a managed Mac, right from a detection or the device record. It stays connected while the Mac is in Partial Isolation, so you can contain a threat and investigate it at the same time.",
+   "hash": "d8a2b1c1e50b6f7a97526b040be65cf8ec7e028b12ad7133ef34f8e7656a28d7",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/26/managed-os-for-ios-and-ipados",
+   "title": "Managed OS for iOS and iPadOS",
+   "date": "2026-10-26",
+   "url": "https://www.iru.com/updates/2026/10/26/managed-os-for-ios-and-ipados",
+   "text": "Managed OS for iOS and iPadOS has been updated. The latest approved versions are now 27.2, 26.7.2, and 18.7.11, with the following release dates:",
+   "hash": "b4be9b9c9b06b7b3d96f5a427f46a5129e652646ae82cec7852510fa7a0bd685",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/26/managed-os-for-tvos",
+   "title": "Managed OS for tvOS",
+   "date": "2026-10-26",
+   "url": "https://www.iru.com/updates/2026/10/26/managed-os-for-tvos",
+   "text": "Managed OS for tvOS has been updated. The latest approved versions are now 27.2 and 26.6.1, with the following release dates:",
+   "hash": "fdbd2b46525e8b40e1516ef6eb51718e626e208118a891cb7c08081962bb192f",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/26/managed-os-for-macos",
+   "title": "Managed OS for macOS",
+   "date": "2026-10-26",
+   "url": "https://www.iru.com/updates/2026/10/26/managed-os-for-macos",
+   "text": "Managed OS for macOS has been updated. The latest approved version for Golden Gate is now 27.2; for Tahoe, 26.7.2; and for Sequoia, 15.8.2, with the following release dates:",
+   "hash": "e3e934164b5569fb6241ea2e5634d1b3aaadf97b627bc632dbd5d006aee272e4",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/10/23/whats-new-in-iru",
    "title": "What's New in Iru | October 23rd",
    "date": "2026-10-23",
-   "url": "https://www.iru.com/updates/2026/10/23/whats-new-in-iru-october-23rd",
+   "url": "https://www.iru.com/updates/2026/10/23/whats-new-in-iru",
    "text": "Highlights this week in What’s New in Iru:",
    "hash": "484b2131cbda0fdffd0882f4c8d0a70c743ad7fc9deea1200e8c0e9562f69e4a",
    "windows": "none"
@@ -330,132 +456,6 @@
    "url": "https://www.iru.com/updates/2026/09/22/removing-end-of-life-auto-apps",
    "text": "As of today, Iru has removed the following Auto App(s) from our catalog:",
    "hash": "f5efb8314c54773227c2f9071640e7aff036a363894b3de7804203e136ec60b5",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/21/recommended-privacy-permissions-for-iphone-and-ipad",
-   "title": "Recommended privacy permissions for iPhone and iPad",
-   "date": "2026-09-21",
-   "url": "https://www.iru.com/updates/2026/09/21/recommended-privacy-permissions-for-iphone-and-ipad",
-   "text": "The Privacy Library Item now includes a Recommended privacy permissions area for iPhone and iPad, letting admins recommend the app permissions and Safari website permissions that managed apps and sites will need. The end user sees a single consent prompt listing every permission the admin recommends, with the choice to Allow all at once or select Not Now. If Not Now is selected, the app continues to prompt for individual permissions as it normally would.",
-   "hash": "5a685e69737d953fcb9135681ba683674d25dee467c4a3445355ecab2a741900",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/18/introducing-msp-billing",
-   "title": "Introducing MSP Billing",
-   "date": "2026-09-18",
-   "url": "https://www.iru.com/updates/2026/09/18/introducing-msp-billing",
-   "text": "MSP Billing gives managed services providers daily, per-tenant spend visibility, so they always know what they owe and can bill clients with confidence. MSPs can also update payment methods, billing information, and view past invoices. It's available now for U.S. customers, with self-serve setup in minutes, right in the Partner Portal.",
-   "hash": "0be0c839de3a432ac7150fc9aee4a42fd02e3b615e309b1a7bd0c56d3d843bc5",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/18/windows-managed-os-patch-compliance",
-   "title": "Windows Managed OS patch compliance",
-   "date": "2026-09-18",
-   "url": "https://www.iru.com/updates/2026/09/18/windows-managed-os-patch-compliance",
-   "text": "The Managed OS Library Item for Windows now reports whether each assigned device has reached the Windows 11 build the Library Item requires. Devices show as Pass, Update past due, or Error, and expanding a device row shows its current build against the required build, plus the eligibility, install enforcement, and restart enforcement dates.",
-   "hash": "def7e92f175a59a326a60334af1501419f151bf97d1a3c0e8d8aaafde3520977",
-   "windows": "high"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/18/iru-agent-for-windows-1.22.3",
-   "title": "Iru Agent for Windows 1.22.3",
-   "date": "2026-09-18",
-   "url": "https://www.iru.com/updates/2026/09/18/iru-agent-for-windows-1.22.3",
-   "text": "We've released Iru Agent for Windows. This release fixes Custom App and Auto App detection so apps are no longer reinstalled when a version is missing or misread, corrects Auto Apps enforcement after a user closes an app, and resolves agent installation failures.",
-   "hash": "ecda751232580abdc8fbd7d6c590efe0bbf9f9f9302a2719c8d1041fc4f3dc23",
-   "windows": "high"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/18/whats-new-in-iru-september-18th",
-   "title": "What's New in Iru | September 18th",
-   "date": "2026-09-18",
-   "url": "https://www.iru.com/updates/2026/09/18/whats-new-in-iru-september-18th",
-   "text": "highlights we cover this week in What's New in Iru:",
-   "hash": "460a37f4c0277dfd2178498e10279bfef60ccb5540b96878709047a33a5a826e",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/17/windows-update-library-item-recommendations-in-iru-ai",
-   "title": "Windows Update Library Item Recommendations in Iru AI",
-   "date": "2026-09-17",
-   "url": "https://www.iru.com/updates/2026/09/17/windows-update-library-item-recommendations-in-iru-ai",
-   "text": "Iru AI can now recommend and implement Windows Update settings based on CIS benchmarks or Microsoft defaults, and you can ask follow-up questions to refine those settings or understand their behavior. Iru AI can also answer questions about most Library Items, settings, and best practices from any chat, even when you're not on that Library Item page.",
-   "hash": "5235a08c2ce2bf1af8f8573845856242f6da4391d2a97abfd1d1f9c3184b6974",
-   "windows": "high"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/17/iru-agent-for-mac-release-5.1.102-5396",
-   "title": "Iru Agent for Mac Release 5.1.102 (5396)",
-   "date": "2026-09-17",
-   "url": "https://www.iru.com/updates/2026/09/17/iru-agent-for-mac-release-5.1.102-5396",
-   "text": "We’ve released Iru Agent for Mac 5.1.102 (5396).",
-   "hash": "f7632feef4c1dacf334dd230bcfd3d83b9a0d4fb822a5c7b61901018f7dc3504",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/17/macos-laps",
-   "title": "Introducing macOS LAPS",
-   "date": "2026-09-17",
-   "url": "https://www.iru.com/updates/2026/09/17/macos-laps",
-   "text": "Introducing macOS LAPS: Local Administrator Password Solution. The new LAPS Library Item for Mac automatically generates, rotates, securely escrows, and controls access to local administrator passwords.",
-   "hash": "86ac01d62527b804df36fd2d690044acb791e2db83249d4c00b8be827d28167a",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/15/iru-agent-for-mac-release-5.1.101-5395",
-   "title": "Iru Agent for Mac Release 5.1.101 (5395)",
-   "date": "2026-09-15",
-   "url": "https://www.iru.com/updates/2026/09/15/iru-agent-for-mac-release-5.1.101-5395",
-   "text": "We’ve released Iru Agent for Mac 5.1.101 (5395).",
-   "hash": "d22b5c3413d8f4dfa406706c9c92224891662c77da08df9471f1ed1dee4dfe23",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/14/managed-os-for-ios-and-ipados",
-   "title": "Managed OS for iOS, iPadOS, and tvOS",
-   "date": "2026-09-14",
-   "url": "https://www.iru.com/updates/2026/09/14/managed-os-for-ios-and-ipados",
-   "text": "Managed OS support for iOS 27, iPadOS 27, and tvOS 27 has been added. The latest approved versions are now 27.0, with the following release dates:\niOS 27.0 : Sep 14, 2026\niPadOS 27.0 : Sep 14, 2026\ntvOS 27.0 : Sep 14, 2026\nAdditionally, Managed OS for iOS and iPadOS has been updated. The latest approved version is now 26.7, with the following release dates:",
-   "hash": "fbd48c785bc2286160f7d25a9950ddb51d85b4f902ae57ca65353528208dee4b",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/14/managed-os-for-macos",
-   "title": "Managed OS for macOS",
-   "date": "2026-09-14",
-   "url": "https://www.iru.com/updates/2026/09/14/managed-os-for-macos",
-   "text": "Managed OS for macOS Golden Gate has been added. The latest approved version is now 27.0, with the following release date:\nmacOS 27.0: Sep 14, 2026\nAdditionally, Managed OS for macOS has been updated. The latest approved version for Tahoe is now 26.7; and for Sequoia, 15.8, with the following release dates:",
-   "hash": "07a0ff8b9625d81e9d6dc38c6760a40bd01b4e1fe74a4ccd76f862f2420a63fc",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/11/whats-new-in-iru-september-11th",
-   "title": "What's New in Iru | September 11th",
-   "date": "2026-09-11",
-   "url": "https://www.iru.com/updates/2026/09/11/whats-new-in-iru-september-11th",
-   "text": "Highlights we cover this week in What's New in Iru:",
-   "hash": "64df6e03537df04f2f4afcef293f310caea86f18ef41d8ba3485e291f6737290",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/09/removing-end-of-life-auto-apps",
-   "title": "Removing End-of-Life Auto Apps",
-   "date": "2026-09-09",
-   "url": "https://www.iru.com/updates/2026/09/09/removing-end-of-life-auto-apps",
-   "text": "As of today, Iru has removed the following Auto Apps from our catalog:",
-   "hash": "8d7fc02a80174bdf747455d7acf7faa9bb524adf37167d62274c4ca9cb7e7c08",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/09/iru-agent-for-mac-release-5.1.32-5394",
-   "title": "Iru Agent for Mac Release 5.1.32 (5394)",
-   "date": "2026-09-09",
-   "url": "https://www.iru.com/updates/2026/09/09/iru-agent-for-mac-release-5.1.32-5394",
-   "text": "We’ve released Iru Agent for Mac 5.1.32 (5394).",
-   "hash": "884e1334dc2551a97bbc4da3d73e4e3e5152f214b2029cd67ba9eafc1f8d525f",
    "windows": "none"
   }
  ]

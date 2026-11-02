@@ -2,19 +2,28 @@
  "id": "intune-blog",
  "vendor": "Microsoft Intune",
  "kind": "rss",
- "fetchedAt": "2026-10-26T04:30:05.928Z",
+ "fetchedAt": "2026-11-02T04:30:04.538Z",
  "meta": {
   "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftIntuneBlog",
   "entries": 20
  },
  "items": [
   {
+   "key": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-october/ba-p/4537396",
+   "title": "What’s new in Microsoft Intune – October",
+   "date": "2026-10-29",
+   "url": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-october/ba-p/4537396",
+   "text": "Most changes to a device happen without the admin watching. A user turns off BitLocker to troubleshoot something. Patch Tuesday arrives. An agent starts working on a Cloud PC from an admin-configured pool. October’s new capabilities give admins more say over who can change what, and when updates land.\nStrengthen compliance with security baselines\nA Cloud PC that an agent may use needs security configurations in place before the first task runs. Intune now includes a security baseline for Windows 365 for Agents Cloud PCs. Admins can deploy recommended device settings for Windows 11, Microsoft Edge, and Microsoft Defender for Endpoint to set up a consistent security posture for agentic workloads that meet your organization’s compliance needs, then customize only what those workloads need.\nFor organizations that use Security Technical Implementation Guides (STIGs) as part of their security and compliance requirements, Intune’s STIG baseline is now available in Intune for commercial customers, extending its previous government-cloud availability. This allows organizations to audit supported Windows device configurations against recommendations from the Defense Information Systems Agency (DISA), and help them identify settings that don’t meet those recommendations without changing any device settings. Learn more: Manage security baseline profiles in Microsoft Intune and What is Windows 365 for Agents?.\nEnable network changes without granting admin rights\nChanging an IP address sh…",
+   "hash": "0f0bbe2d33c1df405ad7e501af8c55901a6790bdb8b2450de0466945ab71c76d",
+   "windows": "high"
+  },
+  {
    "key": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/your-guide-to-intune-at-microsoft-ignite-2026/ba-p/4564556",
    "title": "Your guide to Intune at Microsoft Ignite 2026",
-   "date": "2026-10-21",
+   "date": "2026-10-29",
    "url": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/your-guide-to-intune-at-microsoft-ignite-2026/ba-p/4564556",
-   "text": "If you manage and secure endpoints, you are already on the front line of your organization’s AI transformation. Trusted, cloud native endpoint management and protection across Windows, macOS, and mobile devices are essential to preparing for AI, securing data and AI, and using AI to strengthen defense. This guide makes it easy to find the Microsoft Ignite 2026 sessions featuring the latest Microsoft Intune management and security innovations, no AI required.\nUse this guide to find Ignite sessions and labs, meet the teams behind each, and start thinking about the organizational questions you want to bring to the conference. Bookmark this post at aka.ms/IntuneAtIgnite so you can find it again.\nFeatured sessions\nStart with these three sessions for the clearest view of what’s new in Intune and what's coming next.\nAI ready endpoints: secure, manage and scale (BRK404)\nDon’t miss the Intune strategy session for the week. See how Intune turns insights across your digital estate into policy and action—and verifies that each change keeps devices healthy and secure. Learn how IT can gain fleet-wide visibility and control, reduce exposure, and use AI-powered tools to scale its impact.\nSpeakers: Jason Roszak, VP, Product Management, Microsoft Intune and Eugenie Burrage, Director, Product Marketing, Microsoft Intune\nBuild a trusted device and app foundation for AI at scale (BRK328)\nIT’s endpoint estate continues to expand, and deploying a new device is only the beginning. Once deployed, t…",
-   "hash": "a7f9b62906e9b396cc661e662ad0a24ffe5bf0d819c23716bab5a1b931965f5d",
+   "text": "If you manage and secure endpoints, you are already on the front line of your organization’s AI transformation. Trusted, cloud native endpoint management and protection across Windows, macOS, and mobile devices are essential to preparing for AI, securing data and AI, and using AI to strengthen defense. This guide makes it easy to find the Microsoft Ignite 2026 sessions featuring the latest Microsoft Intune management and security innovations, no AI required.\nUse this guide to find Ignite sessions and labs, meet the teams behind each, and start thinking about the organizational questions you want to bring to the conference. Bookmark this post at aka.ms/IntuneAtIgnite so you can find it again.\nFeatured sessions\nStart with these three sessions for the clearest view of what’s new in Intune and what's coming next.\nAI ready endpoints: secure, manage and scale (BRK404)\nTuesday, November 17th, 2:00pm-2:45pm PT\nDon’t miss the Intune strategy session for the week. See how Intune turns insights across your digital estate into policy and action—and verifies that each change keeps devices healthy and secure. Learn how IT can gain fleet-wide visibility and control, reduce exposure, and use AI-powered tools to scale its impact.\nSpeakers: Jason Roszak, VP, Product Management, Microsoft Intune and Eugenie Burrage, Director, Product Marketing, Microsoft Intune\nBuild a trusted device and app foundation for AI at scale (BRK328)\nWednesday, November 18th, 10:15am-11:00am PT\nIT’s endpoint estate c…",
+   "hash": "75dc241c8d074b671a229f68d69348851d6cd1826d9dee11d3e40a09101a9e42",
    "windows": "medium"
   },
   {
@@ -177,15 +186,6 @@
    "url": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-in-store-for-intune-at-microsoft-technical-takeoff-2026/ba-p/4489457",
    "text": "It’s almost time for Microsoft Technical Takeoff, our month‑long digital skilling event designed to help IT admins and technical decision-makers go deeper with Windows, Microsoft Intune, and Windows 365. Every Monday in March, you’ll get fresh technical content, hands‑on guidance, and direct engagement with the engineering teams who build the products you use every day.\nThis year’s event brings together technical deep dives, Ask Microsoft Anything (AMA) sessions, and feedback‑gathering sessions—all streamed live on the Microsoft Tech Community. Expect deep, scenario‑driven guidance spanning security, automation, cloud management, and cross‑platform device administration. You’ll also be able to engage directly with the product engineering teams with live Q&A during the sessions.\nStart your Technical Takeoff experience right\nAs you explore the full agenda, make sure you tune in to our annual kickoff panel, Let’s Talk Windows & Intune, Monday, March 2 at 7:00 AM PT. Engineering leaders Sangeetha Visweswaran, John Cable, and Bhavya Chopra will share what they’re learning from IT admins around the world, as well as what’s shaping the future of device management, security, and cloud‑powered productivity.\nExplore Intune sessions at Technical Takeoff\nYou can bookmark and watch the full event at https://aka.ms/TechnicalTakeoff. All the sessions are also listed day-by-day below. From each session page, you can:\n“Add to Calendar” to save the date.\nClick “Attend” to hold your spot and r…",
    "hash": "398a6620a419bb7d03d03ef46ee430ac52c8c8b152efe971ae1c7417479dad05",
-   "windows": "medium"
-  },
-  {
-   "key": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/save-the-date-intune-tech-community-live-january-26/ba-p/4486086",
-   "title": "Save the date: Intune Tech Community Live – January 26",
-   "date": "2026-01-30",
-   "url": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/save-the-date-intune-tech-community-live-january-26/ba-p/4486086",
-   "text": "This isn’t your typical webinar. It’s an interactive event packed with four Ask Microsoft Anything (AMA) sessions, where you can bring your toughest questions and get real answers from the experts. Here’s what’s on the agenda (all times in PST):\n8:00 AM – Secure your endpoints with policy and Microsoft Defender\n9:00 AM – Manage apps like a pro with Microsoft Intune\n10:00 AM – Best practices for applying Zero Trust using Intune\n10:30 AM – Copilot and agentic-centered endpoint management\nWhy Tech Community Live?\nEndpoint management is evolving fast—and so are the challenges. This event gives you direct access to the Microsoft engineering teams creating new features and capabilities in Intune. It’s your chance to:\nGet answers to real-world questions straight from the experts.\nLearn best practices you can apply immediately.\nInfluence the future by sharing your feedback with the people who build the product.\nWhether you’re looking to strengthen compliance, streamline app deployment, or embrace Zero Trust strategies, you’ll walk away with actionable insights to keep your organization secure and efficient.\nHow to join the fun\nBrowse the session topics above.\nHit Add to calendar on the session pages to save them, well, to your calendar.\nSign in to the Tech Community (top right corner of the site) then click Attend to receive event reminders.\nPost your questions in the Comments section at the bottom of each session page early and often. We’ll be ready to tackle them live! Don’t miss…",
-   "hash": "d0264de2514b69be42cad1c06b888e00e388dcae367d0fe73b98c6899b9ceaa3",
    "windows": "medium"
   }
  ]

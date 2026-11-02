@@ -2,38 +2,38 @@
  "id": "jamf-pro-release-notes",
  "vendor": "Jamf",
  "kind": "jamf-khub",
- "fetchedAt": "2026-10-26T04:30:09.800Z",
+ "fetchedAt": "2026-11-02T04:30:08.157Z",
  "meta": {
-  "map": "Jamf Pro Release Notes 11.33.1",
-  "version": "11.33.1",
+  "map": "Jamf Pro Release Notes 11.33.3",
+  "version": "11.33.3",
   "topics": 3
  },
  "items": [
   {
-   "key": "11.33.1 :: New Features and Enhancements > Changes and Improvements",
-   "title": "New Features and Enhancements > Changes and Improvements — Jamf Pro 11.33.1",
+   "key": "11.33.3 :: New Features and Enhancements > PreStage Enrollment Settings",
+   "title": "New Features and Enhancements > PreStage Enrollment Settings — Jamf Pro 11.33.3",
    "date": null,
-   "url": "https://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.33.1/Changes_and_Improvements",
-   "text": "Jamf Pro 11.33.1 includes Tomcat 10.1.60.",
-   "hash": "0d533a4d16ca30966c8b5e4cf589ee60523553ec1e709e9c793236ab5e8e73a1",
+   "url": "https://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.33.3/PreStage_Enrollment_Settings",
+   "text": "Computer PreStage Enrollment Settings\nSettingKeyRequirementsNotes\nThe following setting was added to the General pane in computer PreStage enrollments. When selected, the screen can be skipped in Setup Assistant during Automated Device Enrollment.\nLiquid Glass\nLiquidGlass\nmacOS 27 or later\nSkips the Liquid Glass screen\nMobile Device PreStage Enrollment Settings\nSettingKeyRequirementsNotes\nThe following settings were added to the General pane in mobile device PreStage enrollments. When selected, the screens can be skipped in Setup Assistant during Automated Device Enrollment.\nDevice Features Tour\nDeviceFeaturesTour\niOS 27 or later\niPadOS 27 or later\nSkips the Device Features Tour screen\nLiquid Glass\nLiquidGlass\niOS 27 or later\niPadOS 27 or later\nSkips the Liquid Glass screen",
+   "hash": "231b72bceef02585e83a95103701ece2a436d9fb398801e75acb6cde00ec3033",
    "windows": "none"
   },
   {
-   "key": "11.33.1 :: New Features and Enhancements > Resolved Issues",
-   "title": "New Features and Enhancements > Resolved Issues — Jamf Pro 11.33.1",
+   "key": "11.33.3 :: New Features and Enhancements > Resolved Issues",
+   "title": "New Features and Enhancements > Resolved Issues — Jamf Pro 11.33.3",
    "date": null,
-   "url": "https://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.33.1/Resolved_Issues",
-   "text": "Jamf Pro Server: Security Issues\nJamf provides the CVE-ID for security issues with high or critical severity when possible.\n[PI209200] Fixed: A known vulnerability in a third-party library (CVE-2026-41715).\n[PI214500] Fixed: A cross-site scripting (XSS) issue.\n[PI228082] Fixed: A broken access control issue.\n[PI230883] Fixed: A known vulnerability in a third-party library (CVE-2026-84939).\n[PI209383] Fixed: A known vulnerability in a third-party library (CVE-2018-14040, CVE-2018-14041, CVE-2018-14042, CVE-2016-10735).\n[PI232915] Fixed: A known vulnerability in a third-party library (CVE-2026-97687).\n[PI232918] Fixed: A known vulnerability in a third-party library (CVE-2026-101896).\n[PI232922] Fixed: A known vulnerability in a third-party library (CVE-2026-91777).\nJamf Pro Server\n[PI-1577] Fixed: Inventory submissions may cause high database load when smart computer groups or advanced computer searches use patch reporting criteria.\n[PI-1610] Fixed: The mobileDeviceEnrolled event may fail to generate a webhook when Apple TV devices are enrolled.\n[PI-1613] Fixed: Adding devices to the scope of an in-house app with a manually edited version may cause the app to reinstall on devices that already have it.\n[PI-1723] Fixed: On new installations, Jamf Pro may bypass the configured HTTP proxy and log errors when connecting to external services until Jamf Pro is restarted.\n[PI-1961] Fixed: Renewing the MDM profile on Apple TV devices may return an HTTP 401 error.\n[PI-1962] Fixed: Configuration profiles with Entrust SCEP dynamic challenges fail to deploy, and repeated \"Error obtaining SCEP challenge from Entrust\" messages appear in the logs.\n[PI-1967] Fixed: Jamf Pro cannot create or renew the built-in certificate authority (CA) or its related certificates if the organization name is longer than 29 characters.",
-   "hash": "a403c7871a70bed8288adc17ae7a3c509811f8fab9a5a2e057e0d2f9aa8af33d",
+   "url": "https://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.33.3/Resolved_Issues",
+   "text": "Jamf Pro Server\n[PI-2740] The following resolved issue in Jamf Pro 11.33.0 was reverted due to database degradation:\n[PI-79] [PI102023] [PI-007813] Viewing the full list of configuration profiles in the Configuration Profiles overview or the Jamf Pro Dashboard may cause performance issues.\nIn Jamf Pro 11.33.3 or later, the Jamf Pro Dashboard returns to displaying all configuration profiles at once. It no longer displays the first 100 configuration profiles with a Load all button. Viewing the full list of configuration profiles in the Configuration Profiles overview or the Jamf Pro Dashboard may again cause performance issues.\n[PI228088] Fixed: Jamf Pro uses excessive CPU resources when reading certain information from the Jamf Pro database (e.g., scripts, extension attribute scripts, and printer details), causing degraded performance.",
+   "hash": "fea54aed23b03815833b49e9b7dee2d130e60c694beb02233d2eb92bb6588195",
    "windows": "none"
   },
   {
-   "key": "11.33.1 :: New Features and Enhancements > Additional Information",
-   "title": "New Features and Enhancements > Additional Information — Jamf Pro 11.33.1",
+   "key": "11.33.3 :: New Features and Enhancements > Additional Information",
+   "title": "New Features and Enhancements > Additional Information — Jamf Pro 11.33.3",
    "date": null,
-   "url": "https://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.33.1/Additional_Information",
+   "url": "https://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.33.3/Additional_Information",
    "text": "For information on new features and other resolved issues, use the version picker at the top of the page to view previous Jamf Pro release notes.",
-   "hash": "3f558c9e2ea4b7304d908613d572db0fa88a6340ad16a08f805a623fe92954b0",
+   "hash": "38020e5f971c4796f0f552ebe910fcaa570ee799f1c9160b0450326eb7b5d423",
    "windows": "none"
   }
  ]

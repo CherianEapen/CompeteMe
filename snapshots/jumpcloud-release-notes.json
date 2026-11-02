@@ -2,12 +2,39 @@
  "id": "jumpcloud-release-notes",
  "vendor": "JumpCloud",
  "kind": "html-sections",
- "fetchedAt": "2026-10-26T04:30:09.406Z",
+ "fetchedAt": "2026-11-02T04:30:08.612Z",
  "meta": {
   "url": "https://jumpcloud.com/support/release-notes-2026",
-  "headings": 72
+  "headings": 75
  },
  "items": [
+  {
+   "key": "October 30th, 2026",
+   "title": "October 30th, 2026",
+   "date": "2026-10-30",
+   "url": "https://jumpcloud.com/support/release-notes-2026#october-30th-2026",
+   "text": "Enhancement: Workflows Support in the JumpCloud MCP Server for Admins\nFeature: Workflows\nYou can now create, modify, duplicate, and troubleshoot JumpCloud Workflows from a connected MCP-enabled AI client using natural language. Inspect workflow definitions and run history, manually trigger workflows where supported, and review per-node outcomes and error details in the same conversation.\nWorkflows tools are available through your existing JumpCloud MCP Server connection, with no additional connection or credentials required.\nSee Get Started: Workflows and Get Started: JumpCloud MCP Server for Admins to learn more.\nEnhancement: Expanded Workflow Template Library\nFeature: Workflows\nThe Workflows template library now includes additional ready-to-use templates for high-demand IT automation scenarios. Start from a validated pattern instead of a blank canvas, then customize triggers, conditions, and actions to match your environment.\nNew templates include:\nAuto-Suspend Users on Inactivity Alert: Automatically suspend users when an inactivity alert fires.\nAuto-Block Newly Discovered Generative AI Apps: Block newly discovered generative AI applications as they appear in your environment.\nMac Enrollment - Auto-Revoke Admin Privileges: Revoke local admin privileges when a Mac enrolls with JumpCloud.\nSensitive Software Install Detection - Email Notification: Notify admins by email when sensitive software is installed on a device.\nUser Group Added - Send Member Email: Email a user when they are added to a group.\nUser Activated - Add to Pre-Hire Holding Group If Before Start Date: Place activated users into a pre-hire holding group when their start date is still in the future.\nAgent Enrollment - Add Device Custom Attribute: Set a custom attribute on a device when the JumpCloud agent enrolls.\nBrowse and use these templates from the Workflow Builder template library in the Admin Portal.\nSee Creating Workflows and Use Workflow Templates to learn more.\nEnhancement: OAuth 2.0 Support for Workflow Connectors\nFeature: Workflows\nWorkflow connectors now support OAuth 2.0 authentication, including Client Credentials and Authorization Code with PKCE. Admins can authorize connectors directly from the Admin Portal, with credentials stored in Secrets Manager and access tokens refreshed automatically during workflow runs.\nSee Manage Connectors in Settings to learn more.",
+   "hash": "6c6c8aa31e77887b7ba1671411c71c0f1da71684d8f2fe84f033868d357bf3cc",
+   "windows": "none"
+  },
+  {
+   "key": "October 28th, 2026",
+   "title": "October 28th, 2026",
+   "date": "2026-10-28",
+   "url": "https://jumpcloud.com/support/release-notes-2026#october-28th-2026",
+   "text": "Enhancement: Device Lock for Apple MDM\nFeature: Device Management\nWe’ve enhanced the Device Lock MDM command for macOS, iOS, and iPadOS, letting you secure Apple devices with automatic PIN generation and escrow, improved lock status visibility, and support for Lock Screen content.\nAutomatic PIN escrow (macOS): JumpCloud generates and stores the lock PIN when you lock a Mac, and you can retrieve it later from the Admin Portal under Highlights > Device Lock > View PIN.\nLock Screen contact details: Optionally show a message and phone number on the Lock Screen for Mac computers, iPhone, and iPad.\nmacOS Lock Status: Track whether a Mac is locked or unlocked from the Devices list using the macOS Lock Status column.\niOS and iPadOS unlock: These devices still unlock with the existing device passcode. JumpCloud does not generate or store a PIN for them.\nSee MDM Commands to learn more.",
+   "hash": "f7762040b37501fa286c6fb2ff3f9c167978a9a4633a2d3026b0a197a3bbb631",
+   "windows": "none"
+  },
+  {
+   "key": "October 26th, 2026",
+   "title": "October 26th, 2026",
+   "date": "2026-10-26",
+   "url": "https://jumpcloud.com/support/release-notes-2026#october-26th-2026",
+   "text": "New: SIEM integration\nFeature: Directory Insights\nWe are excited to introduce SIEM Integration in Directory Insights, giving IT Admins a supported and SIEM-agnostic way to continuously ingest JumpCloud identity events into external Security Information and Event Management (SIEM) platforms, as well as export historical event logs for compliance and investigation.\nKey Features:\nContinuous Events API Pull: Ingest JumpCloud identity events into your SIEM collector using an existing API key, supporting RAW and OCSF-normalized formats.\nHistorical Data Export UI: Run asynchronous export jobs for up to 7-day windows across a 13-month retention lookback directly from Directory Insights.\nExport Schema & Format Options: Choose RAW or OCSF schemas delivered as JSON or CSV files with email notification upon completion.\nPublic Event Catalog: Access public support documentation for field definitions, JumpCloud-to-OCSF mappings, and sample payloads.\nSee SIEM Integration in Directory Insights to learn more.",
+   "hash": "87ea8086c96ba56589bc089505d8c682522ab07302f0725318941aa3bac52a1a",
+   "windows": "medium"
+  },
   {
    "key": "October 21st, 2026",
    "title": "October 21st, 2026",
@@ -18,12 +45,12 @@
    "windows": "none"
   },
   {
-   "key": "October 16, 2026",
-   "title": "October 16, 2026",
+   "key": "October 16th, 2026",
+   "title": "October 16th, 2026",
    "date": "2026-10-16",
-   "url": "https://jumpcloud.com/support/release-notes-2026#october-16-2026",
+   "url": "https://jumpcloud.com/support/release-notes-2026#october-16th-2026",
    "text": "Enhancement: App Catalog Update Experience Enhancements\nFeature: Software Management\nControl App Catalog update notifications and let users start available updates from the Self Service App Catalog.\nUpdate notification control: Select Disable end user update notifications when adding or editing an application. This setting applies to Auto and Self Service delivery. Existing applications keep notifications enabled. With Auto-Update enabled, updates are still forced after seven days, even when notifications are off.\nRequired app updates: Users can start available updates for Required applications from Updates in the Self Service App Catalog. Required applications remain visible regardless of the Auto-Update setting.\nSee Use the JumpCloud App Catalog for macOS, Use the JumpCloud App Catalog for Windows, and Get Started: Self Service App Catalog to learn more.",
-   "hash": "dc39bc901a93246bc8babe235ae0a0ff0791a52de9408e49c641dc032259dc8e",
+   "hash": "0dec2f6ad4a256c8ada4f0909c9b2ce0e82e24be3d8752346d960c35292371d1",
    "windows": "medium"
   },
   {
@@ -88,33 +115,6 @@
    "text": "New: Device Patch Report (Windows)\nFeature: JumpCloud Reports\nThe Device Patch Report (Windows) gives IT admins per-device visibility into Windows Knowledge Base (KB) patch installation status in the JumpCloud Admin Portal. The report is auto-populated from existing patch data.\nPer-device KB status: View Installed, Pending, and Failed status for each KB on each managed Windows device.\nPreview and export: Preview up to 500 rows in the Admin Portal, or download the complete organization result set as CSV.\nNo manual setup: Report data syncs from existing Windows patch inventory.\nSee Device Patch Report to learn more.",
    "hash": "d1a8c19abacedc243ea5e4cbac7abe45cda26bae3a2b938a8bd9a01d705c533e",
    "windows": "high"
-  },
-  {
-   "key": "September 18th, 2026",
-   "title": "September 18th, 2026",
-   "date": "2026-09-18",
-   "url": "https://jumpcloud.com/support/release-notes-2026#september-18th-2026",
-   "text": "Enhancement: Update Existing Application Versions in the Private Repository\nFeature: Software Management\nYou can now update the binary of an existing custom application in JumpCloud's Private Repository instead of creating a new application for every release. Upload the new file from Update Version on the application's Details tab, and JumpCloud deploys it to devices already associated with the application.\nConsistent update process: Use the same Upload File flow for new applications and version updates, on both Windows and Apple applications.\nFewer manual steps: Skip re-creating the application, reassigning devices, and rebinding device groups for each new version.\nWindows EXE updates: Enter an install success exit code before you deploy an EXE update, so JumpCloud can confirm the installation succeeded.\nSee Manage Software with the JumpCloud Private Repository to learn more.",
-   "hash": "7744d5c82724fb395f8bd209218be3704986d2e564f52f5461233696e386a7f2",
-   "windows": "medium"
-  },
-  {
-   "key": "September 16th, 2026",
-   "title": "September 16th, 2026",
-   "date": "2026-09-16",
-   "url": "https://jumpcloud.com/support/release-notes-2026#september-16th-2026",
-   "text": "New: Knowledge Base Uploads for AI Assistant\nFeature: AI Assistant\nYou can now upload internal documentation directly into a private, org-scoped knowledge base for AI Assistant. The assistant references your uploaded content to answer questions about organization-specific processes, runbooks, SOPs, and policies. Supported formats include PDF, TXT, DOCX, and MD (10 MB maximum per file, 25 files maximum per org). When a response uses your uploaded documentation, AI Assistant clearly attributes the source document in the chat.\nSee Get Started: JumpCloud AI Admin Assistant to learn more.\nEnhancement: AI Gateway Dashboard\nFeature: AI Gateway\nThe AI Gateway now includes a Dashboard tab with org-wide visibility into MCP server usage, tool call volume, and error rates. Summary cards, trend charts, and rankings for top servers, clients, and users help you monitor adoption and investigate failures. Click an MCP server to drill into server-specific metrics.\nSee Get Started: AI Gateway to learn more.\nEnhancement: Agent Client Authentication Type\nFeature: Agent Identities\nYou can now configure the client authentication type for an agent's OAuth credentials. On the agent's Authentication tab, choose how the agent platform sends the client ID and secret when requesting a token from JumpCloud:\nClient secret basic: Sends credentials in the authorization header. This is the default option.\nClient secret post: Sends credentials in the request body.\nThis ensures you can match the exact authentication method required by your external platform's OAuth configuration, such as Amazon Bedrock AgentCore.\nSee Get Started: Agents to learn more.",
-   "hash": "6372dbd71d519de43217af25c7add5059526e49b8183ecf3df1ce612bba89dfb",
-   "windows": "none"
-  },
-  {
-   "key": "September 14th, 2026",
-   "title": "September 14th, 2026",
-   "date": "2026-09-14",
-   "url": "https://jumpcloud.com/support/release-notes-2026#september-14th-2026",
-   "text": "New: Block macOS Golden Gate Installer Policy\nFeature: Policy Management\nUse the Block macOS Golden Gate Installer policy to prevent the macOS 27 Golden Gate installer from launching on MDM-enrolled Mac computers. If users download the installer from the App Store or another source, the installer is automatically terminated when they try to launch it. To also keep macOS 27 Golden Gate from appearing in Software Update, defer major OS upgrades in your Patch Management policies for up to 90 days.\nAvailable in the Admin Portal: Go to Device Management > Policy Management, click + Add New > Device Policy, and select the macOS tab.\nSee Create a Mac Policy to Delay or Block Golden Gate to learn more.",
-   "hash": "47542462c9f7f3fab60062052deceabda7602e35b975f4dd1d5e0c323beafd78",
-   "windows": "none"
   }
  ]
 }

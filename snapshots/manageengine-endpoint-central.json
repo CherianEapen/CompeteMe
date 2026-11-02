@@ -2,13 +2,130 @@
  "id": "manageengine-endpoint-central",
  "vendor": "ManageEngine",
  "kind": "csv",
- "fetchedAt": "2026-10-26T04:30:08.856Z",
+ "fetchedAt": "2026-11-02T04:30:08.063Z",
  "meta": {
   "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
-  "rows": 4662,
+  "rows": 4680,
   "kept": 400
  },
  "items": [
+  {
+   "key": "11.5.2627.65|76171e418bf0",
+   "title": "11.5.2627.65 · BugFixes · DC:SS:MSP:PMP:VMP",
+   "date": "2026-10-31",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Improved the handling of cloned feature packs to ensure Automated Patch Deployment and Test and Approve groups are appropriately suspended, helping prevent unintended deployments.\nType: BugFixes; Products: DC:SS:MSP:PMP:VMP",
+   "hash": "c126add7ddd74a918c7f29068aabaa9db87ef752eb067aef97221823e41ccf2e",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.64|26be3912ca58",
+   "title": "11.5.2627.64 · BugFixes · DC",
+   "date": "2026-10-30",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "The issue with automatic extraction of ZIP files and unspecified error during software deployment package installation in OS deployment has been fixed.\nType: BugFixes; Products: DC",
+   "hash": "5723ccb58d0913a20333e084482ac44ce22beae063023e5026741a32bcebef90",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.64|c38e480607fc",
+   "title": "11.5.2627.64 · BugFixes · DC",
+   "date": "2026-10-30",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "The issue with automatic publishing of PXE media after an upgrade has been fixed.\nType: BugFixes; Products: DC",
+   "hash": "467eac12b32b12f7ed14d17217ec9112277e909738dfa0473c56855582cab909",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.64|3f34ce038341",
+   "title": "11.5.2627.64 · BugFixes · DC",
+   "date": "2026-10-30",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "The issue where the media could not be mounted during a media update has been fixed.\nType: BugFixes; Products: DC",
+   "hash": "64074c663ef5261cd931e87846781452bf804e2ebfea1b05ba7c79632e4a4cbb",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.64|1c256f04203a",
+   "title": "11.5.2627.64 · BugFixes · DC",
+   "date": "2026-10-30",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "The issue with encryption and decryption in certain scenarios under OS Deployment has been fixed.\nType: BugFixes; Products: DC",
+   "hash": "6f26883093407d8a03a73db666ae9c20bc66f0f2a7471aeb7d3a3bb16373aa79",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.64|ea41b4e88a62",
+   "title": "11.5.2627.64 · BugFixes · DC",
+   "date": "2026-10-30",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "The issue where the domain join failed during post-deployment has been fixed.\nType: BugFixes; Products: DC",
+   "hash": "31b1bdd405aa18af7db8332a74f040ba87e653c31c076c5b1555dd33aeb96c21",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.64|21772243802f",
+   "title": "11.5.2627.64 · BugFixes · DC",
+   "date": "2026-10-30",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "The issue where OS deployment applications froze during deployment and post-deployment has been fixed.\nType: BugFixes; Products: DC",
+   "hash": "17fb442de6c1b0a2abe069a8c6b726e70edf44fe1dab95159cea8f050b2d6758",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.64|dbc29c826651",
+   "title": "11.5.2627.64 · BugFixes · DC",
+   "date": "2026-10-30",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "The issue where connections to the server failed due to an invalid CA certificate in certain scenarios has been fixed.\nType: BugFixes; Products: DC",
+   "hash": "0e291cb0367fbbf50eff28699ba1e5d9bc39be4f0ffa2cafbed9733a3b7b0f66",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.63|ecc7efc4be65",
+   "title": "11.5.2627.63 · BugFixes · ALL",
+   "date": "2026-10-28",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed an issue that caused Distribution Server replication failures during file downloads.\nType: BugFixes; Products: ALL",
+   "hash": "0111a6e439f768378a00c9be5233f924dd35e19db325dccc24af1c332169b142",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.63|15e6ef16598c",
+   "title": "11.5.2627.63 · BugFixes · DC",
+   "date": "2026-10-27",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Issues related to backup protection have been fixed.\nType: BugFixes; Products: DC",
+   "hash": "eb7b4177a0a580bdae4a5a44a1cdd2efb84ccdfa1b5ef2a25aa867f63e7b02b0",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.62|2da45112a31d",
+   "title": "11.5.2627.62 · BugFixes · DC:SS:MSP:PMP:VMP",
+   "date": "2026-10-23",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed an issue where feature packs bypassed exclusion rules in specific scenarios.\nType: BugFixes; Products: DC:SS:MSP:PMP:VMP",
+   "hash": "eb7a0fca2efa0f2b1eca9b7d3c46fc4669b507bc95a6ed61a894fe0c87c72cd3",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.61|7364d0c49298",
+   "title": "11.5.2627.61 · BugFixes · DC:SS",
+   "date": "2026-10-23",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed an issue where web upload policy changes were not applied to active browsers until restart in Endpoint DLP module.\nType: BugFixes; Products: DC:SS",
+   "hash": "a0c5d88ec9ff7d29d25b8938cbf98d4e854732afea8bf09b9f4e4c626d1d8b1c",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.61|3a29aacf24e6",
+   "title": "11.5.2627.61 · BugFixes · All",
+   "date": "2026-10-23",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "PPM installation failure in mssql setup due to SQL Server certificate validation error after the MSSQL JDBC driver upgrade has been fixed.\nType: BugFixes; Products: All",
+   "hash": "84e4f714b3900ae6e33414bc8eb11500508489e5c4b20decd67c060e6780af44",
+   "windows": "medium"
+  },
   {
    "key": "11.5.2627.61|211700ade31c",
    "title": "11.5.2627.61 · BugFixes · DC:SS:MSP:PMP:VMP",
@@ -3481,123 +3598,6 @@
    "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
    "text": "Increased the device exclusion limit to support up to 2000 devices in Secure USB configuration.\nType: Enhancements; Products: DC:MSP",
    "hash": "cdeca4883c26cfa5ec79e7038ab0a79a094cab9c729d98dd5757fe42b6c4c33c",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.10|b1bfd71025a2",
-   "title": "11.4.2528.10 · BugFixes · DC:MSP",
-   "date": "2025-10-09",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Issue with group assignment during self-enrollment for iOS and MacOS platform have been been fixed.\nType: BugFixes; Products: DC:MSP",
-   "hash": "ed9fb0b573f72d7a150d4fbcc42f2f802e9bc00efdb68df61aecf84e23e39154",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.10|0b63bee392c6",
-   "title": "11.4.2528.10 · BugFixes · DC:MSP",
-   "date": "2025-10-09",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Issue in loading the restriction profile while modifying has been fixed.\nType: BugFixes; Products: DC:MSP",
-   "hash": "223d704abe0a9416c40af7fbb72092680eb640e0b60c0e4526c4315a56705699",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.10|ef830359fd17",
-   "title": "11.4.2528.10 · BugFixes · DC:MSP",
-   "date": "2025-10-09",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Fixed delay in patch deployment status updates caused by redundant processing of Linux dependency packages.\nType: BugFixes; Products: DC:MSP",
-   "hash": "dc9136e76311e21b5470ef901258966fbcffd649d490d65d65daa0b535245688",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.10|dbc941d7afb1",
-   "title": "11.4.2528.10 · BugFixes · DC:MSP",
-   "date": "2025-10-09",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Fixed an issue where admins could not modify or delete announcements and system tools tasks created by other technicians.\nType: BugFixes; Products: DC:MSP",
-   "hash": "60e0fa73cc4a05417cdc46d3da75263334712b724956ca3ec9ba11c62f9f6fb9",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.10|8acebf517b72",
-   "title": "11.4.2528.10 · BugFixes · DC:MSP",
-   "date": "2025-10-09",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Fixed a schedule time mismatch between the System Tools Task Summary and Task Details views..\nType: BugFixes; Products: DC:MSP",
-   "hash": "41dcbc9ca7e05fb960cdbf6e0245b89499af9d713c9c2f6ee6ff4119bff5bb42",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.09|15d99964a625",
-   "title": "11.4.2528.09 · BugFixes · DC:MSP",
-   "date": "2025-10-08",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Issue in showing agent live status has been fixed.\nType: BugFixes; Products: DC:MSP",
-   "hash": "c455d8145ce53135780fb28ad3f8fa7135dbc123dd1ecf0b43ff4f745bc5371b",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.08|ccdad21d4dd3",
-   "title": "11.4.2528.08 · BugFixes · DC:MSP",
-   "date": "2025-10-06",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Applied a fix to retain valid System Quarantine Policy records while cleaning up dump data.\nType: BugFixes; Products: DC:MSP",
-   "hash": "fc6c9bf6d939e478c747cad3efe61b8849a455f89b63a575276641713e26a89a",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.07|61240985147c",
-   "title": "11.4.2528.07 · BugFixes · DC",
-   "date": "2025-10-08",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Resolved freezing issues in native apps when deploying Endpoint DLP policy.\nType: BugFixes; Products: DC",
-   "hash": "5b45721fdce6c8c11f393e562ea9987a6538f5ed204eb995670019e86e7fb437",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.07|7677a611b882",
-   "title": "11.4.2528.07 · BugFixes · DC",
-   "date": "2025-10-08",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Issue with usb blocking in macOS devices has been resolved in the Device Control Module.\nType: BugFixes; Products: DC",
-   "hash": "db1060528db1cd4c66baec4c18f95ef8c433f66b1edc606730f3ac9a26009f7f",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.07|b49d5cd436a5",
-   "title": "11.4.2528.07 · BugFixes · DC:MSP",
-   "date": "2025-10-08",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Issue with Bitlocker recovery key rotation has been resolved\nType: BugFixes; Products: DC:MSP",
-   "hash": "78b141374732d7f095d9e3e550948566b03cee46b9c5762ff0f72605b6d813dc",
-   "windows": "medium"
-  },
-  {
-   "key": "11.4.2528.07|9cd135e7d51c",
-   "title": "11.4.2528.07 · BugFixes · DC:MSP",
-   "date": "2025-10-08",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Fixed an issue where post-deployment reboots were not disabled on Linux endpoints after the associated task was suspended or deleted.\nType: BugFixes; Products: DC:MSP",
-   "hash": "d93f3cd7160cfc7363799c9c4510007dfe880a5367c101467afbfc466327db4c",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.05|4d1647e700f1",
-   "title": "11.4.2528.05 · BugFixes · DC:MSP",
-   "date": "2025-09-13",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Issue with retaining recovery keys of unmanaged computers has been fixed in the BitLocker module.\nType: BugFixes; Products: DC:MSP",
-   "hash": "1ccdc9c0d4552c06473c56172cb80a235fa0709394bb959a7a1eb4e2d57a85a6",
-   "windows": "medium"
-  },
-  {
-   "key": "11.4.2528.05|7683d03eedb9",
-   "title": "11.4.2528.05 · Enhancements · DC:MSP",
-   "date": "2025-09-13",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Endpoint Central MSP now supports macOS 26 Tahoe.\nType: Enhancements; Products: DC:MSP",
-   "hash": "16029de5e7544db1acd20ffb51efa77a07a74e6c2ca3096af5b8329f3a2aaac7",
    "windows": "none"
   }
  ]
