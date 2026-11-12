@@ -2,29 +2,10 @@
  "id": "hexnode-blog",
  "vendor": "Hexnode",
  "kind": "rss",
- "fetchedAt": "2026-11-02T04:30:03.586Z",
+ "fetchedAt": "2026-11-10T09:26:14.484Z",
  "meta": {
   "url": "https://www.hexnode.com/blogs/feed/",
   "entries": 10
  },
- "items": [
-  {
-   "key": "https://www.hexnode.com/blogs/?p=52967",
-   "title": "ThreatLocker Rollouts on Windows: The GroupKey and Validation Checks That Matter",
-   "date": "2026-10-28",
-   "url": "https://www.hexnode.com/blogs/threatlocker-windows-groupkey-deployment/",
-   "text": "Why can a ThreatLocker rollout leave administrators uncertain?\nInitiating an installation does not provide all the evidence administrators need to approve a rollout. Before marking a Windows device complete, IT teams need to verify the installation inputs, examine execution results, and confirm the intended destination group.\nFor a ThreatLocker Windows GroupKey deployment, that creates a practical challenge: connecting the configuration you prepared with the outcome you can verify. An administrator may know which devices received the deployment action but still need to establish whether each device reached the expected state.\nThe central question is therefore specific: what must the team validate before marking a device complete and expanding deployment? Answering it requires clear acceptance criteria and evidence that another administrator can review without reconstructing the entire installation attempt.\nWhat happens when teams scale an unverified installation?\nExpanding an unverified deployment can multiply troubleshooting work and delay rollout acceptance. Each additional device can become another case to investigate when teams carry an unresolved installation issue into subsequent batches.\nConsider a pilot whose registration remains unconfirmed. The administrator proceeds with the same installation inputs across several departments. When reviewers later find discrepancies, they must identify affected devices, inspect execution results, and determine which installations…",
-   "hash": "8a21f009bf8a983c8a722437fb1238c087beb9ce685fca153d88a4cf72a3648d",
-   "windows": "high"
-  },
-  {
-   "key": "https://www.hexnode.com/blogs/?p=52948",
-   "title": "A Security Technician Joins or Leaves: Who Updates Their XDR Access?",
-   "date": "2026-10-28",
-   "url": "https://www.hexnode.com/blogs/hexnode-xdr-technician-access-management/",
-   "text": "Who owns XDR access when a security technician joins or leaves?\nOrganizations should assign a security access owner to approve changes and an authorized portal administrator to execute them as part of Hexnode XDR technician access management. A new analyst waiting for access before a shift and an overlooked departing technician’s account expose the same gap: nobody clearly owns the transition.\nFor security administrators, SOC leads, and CISOs, Hexnode XDR technician access management starts with explicit responsibilities.\nWho requests access?\nWho approves the role?\nWho makes the portal change, and who verifies completion?\nA hiring manager may communicate the start date, while a SOC lead defines operational needs. Neither action confirms that someone has updated access. Every request needs a named approver, an executing administrator, and a person responsible for checking the result before the team closes the request.\nExplore access management with Hexnode XDR\nWhat happens when nobody owns technician access changes?\nUnowned access changes can leave analysts unable to investigate and former team members with permissions they no longer need. Delayed onboarding can reduce investigation coverage or force colleagues to absorb additional work. Unnecessary privileges can also expose security operations to unauthorized changes.\nThe accountability gap grows when requests remain unresolved and teams assume another administrator completed the handoff. A manager may approve a departure w…",
-   "hash": "544d2cedeb949a911b18486f9a465e145ef7d6a6153d57e182c5c9db93973aea",
-   "windows": "none"
-  }
- ]
+ "items": []
 }

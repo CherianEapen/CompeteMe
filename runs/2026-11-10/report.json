@@ -1,0 +1,232 @@
+{
+  "title": "MobiControl Competitor Update — week ending 10 Nov 2026",
+  "periodStart": "2026-11-02",
+  "periodEnd": "2026-11-10",
+  "generatedAt": "2026-11-12",
+  "execSummary": [
+    "42Gears has shipped Shared Device Mode for Windows: a baseline device profile that holds while no one is signed in, and a user profile applied dynamically on sign-in, with mapping rules evaluated in order. It requires SureIdP as the enrollment authentication type, which means the identity product 42Gears launched in September is now a dependency for its shared-Windows story rather than a side bet.",
+    "Hexnode's content has turned toward rugged frontline operations — rugged fleet onboarding and bulk-provisioning validation, and troubleshooting remote actions on Zebra printers. That is written for SOTI's heartland, not for the MSP and DaaS audience Hexnode spent September and October addressing.",
+    "Taken together, two competitors moved on shared and rugged frontline Windows in the same week. That is the segment MobiControl is strongest in, and it is the first week in this report's run where the main activity is aimed squarely there rather than at general Windows management.",
+    "JumpCloud launched Access Certification, a full identity governance review capability with multi-stage approvals and automated revocation, and put Agent Delegated Access into private preview so an AI agent can authenticate with its own identity while acting on behalf of a user. That is its third consecutive week of AI-identity work.",
+    "Scalefusion extended Self-Service to Windows App Catalog apps. Microsoft was quiet ahead of Ignite — the only release-note change was a withdrawal, so the Ignite announcement wave has not landed in these sources yet."
+  ],
+  "topSignals": [
+    {
+      "headline": "42Gears ships Shared Device Mode for Windows, gated on its own identity product",
+      "vendor": "42Gears",
+      "whyItMatters": "Device-level baseline when logged out, per-user profile on sign-in, deployed by job. This is shared-device Windows management — SOTI's core use case — and it only works with SureIdP as the enrollment authentication type, so it also pulls customers onto 42Gears' identity stack.",
+      "urgency": "respond"
+    },
+    {
+      "headline": "Hexnode begins publishing rugged frontline and Zebra printer content",
+      "vendor": "Hexnode",
+      "whyItMatters": "Rugged fleet onboarding, bulk-provisioning validation and Zebra printer remote-action troubleshooting in one week. Vendors write operational content for segments they intend to sell into, and this is SOTI's heartland.",
+      "urgency": "respond"
+    },
+    {
+      "headline": "JumpCloud launches Access Certification for identity governance",
+      "vendor": "JumpCloud",
+      "whyItMatters": "Recurring access review campaigns, multi-stage approval chains and automated revocation of access or suspension of inactive identities. JumpCloud is moving from directory services into IGA, widening the gap between its scope and a device-management-only product.",
+      "urgency": "watch"
+    },
+    {
+      "headline": "JumpCloud previews AI agents acting on behalf of users",
+      "vendor": "JumpCloud",
+      "whyItMatters": "Token exchange so an agent authenticates with its own managed identity while acting for a named user, with admin control over which resources it may request tokens for. Third consecutive week of agent-identity work; the governance model for AI agents is being defined now.",
+      "urgency": "watch"
+    },
+    {
+      "headline": "Scalefusion adds Self-Service for Windows App Catalog applications",
+      "vendor": "Scalefusion",
+      "whyItMatters": "Users can install, update and uninstall catalogue apps themselves, including recovering from a failed silent install. Self-service app recovery removes a common helpdesk ticket class on Windows.",
+      "urgency": "watch"
+    }
+  ],
+  "vendors": [
+    {
+      "vendor": "42Gears",
+      "summary": "Fourteen new pages and 107 changed. Most of the change is the tail of the Android, Wear OS and VR restructure from last week, but four new pages under windows-desktop are a significant new Windows capability.",
+      "items": [
+        {
+          "title": "Shared Device Mode for Windows",
+          "date": "2026-11-06",
+          "url": "https://docs.42gears.com/suremdm/windows-desktop/windows-desktop-manage/shared-device-mode/enabling-shared-device-mode",
+          "platforms": ["Windows"],
+          "windowsRelevance": "high",
+          "whatChanged": "Enabled from Account Settings > Shared Device Mode > Windows, with a documented four-step setup sequence. Administrators create two profile scopes under Profiles > Windows: a Device Management Profile with access to all Windows payloads, or a Shared Device Mode Profile with an SDM Device Profile toggle that separates global baseline policies persisting regardless of sign-in status from per-session user policies. Profile Mapping then defines which profile applies when SDM is enabled, when a user logs out, and when a user logs in; on authentication through SureIdP the system evaluates mapping rules top to bottom to assign the SDM User Profile. The configuration is enforced by deploying a Shared Device Mode static or dynamic job from the device grid, with Enable and Disable actions. Requires Enrollment Authentication Type set to SureIdP; the option to create SDM profiles is locked until that is configured.",
+          "soWhatForMobiControl": "The most directly competitive item in ten weeks of this report. Shared Windows devices with per-user policy on sign-in is a MobiControl core scenario, and 42Gears has now documented a complete implementation. Two things are worth separating. The capability itself needs an honest side-by-side — particularly how MobiControl handles the logged-out baseline versus per-session policy, and how quickly profiles swap at sign-in. The architecture is the strategic part: SDM does not work without SureIdP, so 42Gears has made its identity product a prerequisite for its frontline Windows story. That is a deliberate lock-in design, and it explains the SureIdP, SureAccess, MTD and JIT Admin build-out as one plan rather than four features."
+        },
+        {
+          "title": "SureAccess Windows profile revised again",
+          "date": "2026-11-06",
+          "url": "https://docs.42gears.com/suremdm/integrations/integration-guides/sureaccess/sureaccess-profile-configuration/profile-windows",
+          "platforms": ["Windows"],
+          "windowsRelevance": "high",
+          "whatChanged": "Third revision of the Windows SureAccess configuration page in four weeks, alongside a new UUID sub-page under the same section.",
+          "soWhatForMobiControl": "Continued active development rather than a documentation tidy-up. Consistent with SureAccess being in live rollout."
+        }
+      ]
+    },
+    {
+      "vendor": "Hexnode",
+      "summary": "No product releases. Eight blog posts, and the subject matter has shifted. Note that this week's Hexnode coverage was recovered manually — the source's keyword filter had gone stale and matched only one of ten posts; it has been removed.",
+      "items": [
+        {
+          "title": "Rugged fleet onboarding and bulk-provisioning validation",
+          "date": "2026-11-09",
+          "url": "https://www.hexnode.com/blogs/rugged-device-rollout-planning/",
+          "platforms": ["Android", "Windows"],
+          "windowsRelevance": "medium",
+          "whatChanged": "Guidance arguing that successful enrollment alone does not prove a rugged device can complete its intended operational tasks, and that rollout planning must validate both provisioning and real workflows — using the example of handhelds that complete setup at an IT staging desk but fail in use.",
+          "soWhatForMobiControl": "Read this as market intent, not a feature. The argument it makes — that staging-desk success is not operational success — is the argument SOTI has owned in rugged deployments for years. Hexnode writing it signals they are competing for those evaluations."
+        },
+        {
+          "title": "Troubleshooting pending and failed remote actions on Zebra printers",
+          "date": "2026-11-10",
+          "url": "https://www.hexnode.com/blogs/zebra-printer-commands-pending/",
+          "platforms": ["Android"],
+          "windowsRelevance": "none",
+          "whatChanged": "Operational guidance on diagnosing Zebra printer commands stuck in pending state, covering printer availability, communication with the management service, and readiness to process requests.",
+          "soWhatForMobiControl": "Zebra peripheral management is a SOTI stronghold, and content this specific is usually written because customers are asking. Combined with the rugged onboarding post and 42Gears' recent Zebra, Datalogic and Impinj enrollment work, peripheral and rugged management is getting attention from two competitors at once. Worth knowing whether SOTI's published troubleshooting material for the same scenarios is as easy to find."
+        },
+        {
+          "title": "Hexnode Genie compares device policies; XDR endpoint targeting and identity reviews",
+          "date": "2026-11-10",
+          "url": "https://www.hexnode.com/blogs/ai-device-policy-comparison/",
+          "platforms": ["Windows", "macOS", "Android"],
+          "windowsRelevance": "medium",
+          "whatChanged": "Hexnode Genie's policy and configuration agent inspects configurations and identifies differences between policy versions. Other posts cover grouping XDR endpoints by device criteria to stop policy targeting drifting, identity session inactivity timeouts, reviewing administrator access after role changes, MSP pooled license allocation, and choosing between remote screen access and Live Terminal for Linux troubleshooting.",
+          "soWhatForMobiControl": "The Genie policy-comparison use case is a good one: diffing policy versions is a real administrative chore and an obvious, low-risk application of AI in a UEM console — more defensible than AI that writes security policy. Worth noting as a candidate pattern if SOTI is scoping AI features for MobiControl."
+        }
+      ]
+    },
+    {
+      "vendor": "JumpCloud",
+      "summary": "Two entries, both expanding scope beyond device management.",
+      "items": [
+        {
+          "title": "Access Certification for identity governance",
+          "date": "2026-11-02",
+          "url": "https://jumpcloud.com/support/release-notes-2026#november-2nd-2026",
+          "platforms": ["Windows", "macOS", "Linux"],
+          "windowsRelevance": "medium",
+          "whatChanged": "One-time or recurring access review campaigns for SSO applications or directory user groups; multi-stage approval chains involving administrators, managers, resource owners or designated user groups; automated remediation that revokes access or suspends inactive identities when a decision is finalised or a deadline expires; and a centralised admin queue.",
+          "soWhatForMobiControl": "Not a MobiControl parity item — this is identity governance, a different product category. It matters as scope context: JumpCloud now spans directory, device management, patching, SIEM export and IGA. When a buyer compares platforms rather than capabilities, breadth of that kind is the argument. The counter-argument is depth in device management, which is where SOTI should keep the comparison."
+        },
+        {
+          "title": "Agent Delegated Access in private preview",
+          "date": "2026-11-04",
+          "url": "https://jumpcloud.com/support/release-notes-2026#november-4th-2026",
+          "platforms": ["Windows", "macOS", "Linux"],
+          "windowsRelevance": "medium",
+          "whatChanged": "Extends Agent Identities so an AI agent authenticates with its own JumpCloud-managed identity while acting on behalf of an end user. A trusted user identity token is exchanged for a signed token representing the agent acting for that user; administrators enable delegation, select a trusted OIDC application and configure allowed audiences. Aimed initially at customers building their own agent applications and internal APIs.",
+          "soWhatForMobiControl": "Direction signal, and the most concrete one yet on agent governance. The design question it answers — how do you attribute an action to both the human who asked and the agent that did it — is the question every organisation deploying agents will face. Three weeks running JumpCloud has shipped something in this area. Worth a considered SOTI position on AI agents and managed endpoints before a customer asks, even if the answer is that it is out of scope today."
+        }
+      ]
+    },
+    {
+      "vendor": "Scalefusion",
+      "summary": "Release of 30 Oct, Dashboard v68.5.0, Windows MDM Agent v17.4.0 and Linux agent v5.3.0. One Windows item, with the rest Linux.",
+      "items": [
+        {
+          "title": "Self-Service for Windows App Catalog applications",
+          "date": "2026-11-02",
+          "url": "https://help.scalefusion.com/docs/scalefusion-october-30th-2026-release-notes",
+          "platforms": ["Windows"],
+          "windowsRelevance": "high",
+          "whatChanged": "Windows App Catalog applications can be published to Self-Service so users install, update and uninstall them. Administrators can silently install an application and also make it available in Self-Service, letting a user reinstall it if the silent install failed, or take an available update immediately rather than waiting for the automatic cycle. Users can also uninstall Enterprise Store applications offered through Self-Service.",
+          "soWhatForMobiControl": "The useful detail is the failure-recovery path: letting a user reinstall an application whose silent install failed converts a helpdesk ticket into a self-service action. That is a small, specific, demonstrable win and the kind of thing that shows well in evaluations. Worth checking whether MobiControl's Windows app catalogue offers user-initiated reinstall and uninstall, not just install."
+        },
+        {
+          "title": "Linux SUSE support and global admin account creation",
+          "date": "2026-11-02",
+          "url": "https://help.scalefusion.com/docs/scalefusion-october-30th-2026-release-notes",
+          "platforms": ["Linux"],
+          "windowsRelevance": "none",
+          "whatChanged": "Enrollment and management of SUSE-based Linux devices, plus the ability to create a global admin account for Linux devices from Utilities, matching existing Windows and macOS functionality.",
+          "soWhatForMobiControl": "None for Windows. Noted as continued Linux breadth-building, alongside Hexnode's Linux patch management in October — Linux parity is quietly becoming a checklist item in mixed-fleet evaluations."
+        }
+      ]
+    },
+    {
+      "vendor": "Iru",
+      "summary": "Six genuine updates, none touching Windows for the second time in three weeks. Managed OS version approvals for iOS, iPadOS and macOS; app preservation through Return to Service; delegated certificate management for Google Play apps on Android; a Mac agent release; and Remote Shell reaching general availability for all Iru EDR customers.",
+      "items": []
+    },
+    {
+      "vendor": "ManageEngine",
+      "summary": "Six rows on builds .66 and .67, all defects and concentrated in Endpoint DLP.",
+      "items": [
+        {
+          "title": "Endpoint DLP defects and reboot status fix",
+          "date": "2026-11-06",
+          "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+          "platforms": ["Windows"],
+          "windowsRelevance": "medium",
+          "whatChanged": "Fixed a screen capture restriction failure in Adobe Acrobat and random DLL loading failures in Google Chrome, both in the Endpoint DLP module; an access denied error when viewing a report; a case where Reboot Pending status was reported after a reboot had occurred; and two display defects in remote assistance announcements.",
+          "soWhatForMobiControl": "Two DLP enforcement failures in one build — a screen-capture restriction not applying in Acrobat, and DLL loading failures in Chrome — are the kind of defect that undermines confidence in a data-protection control. Relevant mainly as evidence for the argument that bundled security modules carry their own reliability risk, which is the counter to the suite pitch 42Gears and Scalefusion are making."
+        }
+      ]
+    },
+    {
+      "vendor": "Miradore",
+      "summary": "One release focused on compliance visibility.",
+      "items": [
+        {
+          "title": "Business policy compliance column and custom views",
+          "date": null,
+          "url": "https://www.miradore.com/knowledge/releases/improved-visibility-of-business-policy-compliance-updates-to-user-change-flow-for-android-devices-new-dialog-for-the-remove-application-action/",
+          "platforms": ["Windows", "macOS", "Android", "iOS"],
+          "windowsRelevance": "medium",
+          "whatChanged": "A Business policy compliance column on the Management > Devices page showing each device's compliance with assigned business policies, with custom views available. Also changes to the Android user change flow and a new dialog for the Remove application action.",
+          "soWhatForMobiControl": "Even Miradore, the lightest-weight vendor tracked here, has now shipped compliance visibility. That makes six vendors in nine weeks. The consistency of this across price tiers is the signal worth carrying into roadmap discussions."
+        }
+      ]
+    },
+    {
+      "vendor": "Microsoft Intune",
+      "summary": "Nothing new. The only change was a withdrawal from the already-published service release 2610 section, with no added content.",
+      "items": []
+    }
+  ],
+  "crossPlatformSignals": [
+    {
+      "vendor": "Iru",
+      "signal": "Return to Service can now preserve managed apps through an erase, so a redeployed device is ready for its next user without re-downloading every application.",
+      "implication": "Directly relevant to shared and frontline device turnover, which is the same problem space as 42Gears' Shared Device Mode work. Re-provisioning time between users is becoming a competed-on metric."
+    },
+    {
+      "vendor": "Iru",
+      "signal": "Remote Shell, which provides a root command line that stays connected while a Mac is in Partial Isolation, is now generally available to all Iru EDR customers.",
+      "implication": "Moved from announcement to general availability in two weeks. The contain-and-investigate-simultaneously pattern is worth considering for Windows remote support."
+    },
+    {
+      "vendor": "Hexnode",
+      "signal": "Published guidance on choosing between remote screen access and Live Terminal for Linux troubleshooting, and on MSP pooled license allocation.",
+      "implication": "Linux troubleshooting depth and MSP licensing mechanics continue in parallel with the new rugged content; Hexnode is widening on several fronts at once rather than choosing."
+    },
+    {
+      "vendor": "Microsoft Intune",
+      "signal": "Microsoft Ignite 2026 has not yet produced release-note or blog content in these sources.",
+      "implication": "The announcement wave flagged two weeks ago is still pending. Expect it in the next one or two reports."
+    }
+  ],
+  "noChange": ["Jamf", "Ivanti"],
+  "sourceStatus": [
+    { "source": "intune-whats-new", "status": "ok", "note": "0 new; 1 edit to the service release 2610 section, a removal with no new content" },
+    { "source": "intune-blog", "status": "no-change" },
+    { "source": "iru-updates", "status": "ok", "note": "10 reported new, 6 dated after 2 Nov; the rest were previously reported items re-presented by the feed" },
+    { "source": "hexnode-whats-new", "status": "no-change" },
+    { "source": "hexnode-blog", "status": "error", "note": "Returned 0 items: the keyword include filter had gone stale and matched only 1 of 10 live posts, hiding product and rugged content. Filter removed on 12 Nov and this week's 8 posts recovered manually for this report; coverage is automatic again from the next run" },
+    { "source": "miradore-releases", "status": "ok", "note": "1 new release page" },
+    { "source": "42gears-press", "status": "no-change" },
+    { "source": "42gears-docs", "status": "ok", "note": "14 new and 107 changed. The four new Windows Shared Device Mode pages arrived with no text because the 25-page fetch cap was consumed by the Android, Wear OS and VR restructure; they were fetched manually for this report and the fetcher now prioritises report-relevant pages before the cap" },
+    { "source": "jamf-pro-release-notes", "status": "no-change", "note": "still Jamf Pro 11.33.3" },
+    { "source": "scalefusion-release-notes", "status": "ok", "note": "1 new release (30 Oct, Dashboard v68.5.0, Windows agent v17.4.0)" },
+    { "source": "scalefusion-product-updates", "status": "no-change" },
+    { "source": "ivanti-quarterly-releases", "status": "no-change", "note": "Nothing published since Q3; the quarterly page appears discontinued and this source still needs re-pointing" },
+    { "source": "jumpcloud-release-notes", "status": "ok", "note": "2 new entries" },
+    { "source": "manageengine-endpoint-central", "status": "ok", "note": "6 new rows on builds .66 and .67" }
+  ],
+  "methodology": "The scheduled run fired late, on Tuesday 10 Nov at 14:55 rather than Monday 9 Nov, because the machine was unavailable at the scheduled time; the run folder and this report are dated 10 Nov and the period covered is 2-10 November. Fourteen sources were fetched and compared against the 2 Nov snapshots; all were reachable and none errored, though two produced incomplete data that was recovered by hand and corrected in the fetcher. Hexnode's blog returned nothing because its keyword filter no longer matches their topic-led titles, so its eight posts were fetched manually and the filter was removed. 42Gears' four new Windows Shared Device Mode pages exceeded the per-run page-fetch cap during a 121-page documentation restructure and arrived without text, so they were fetched manually and the fetcher now orders report-relevant pages ahead of the cap. Iru's feed again re-presented four previously reported items, which were filtered out by publication date. The scheduled run stopped before its analysis step, so this report was written in-session from that run's preserved diff, with the fetched data unmodified and the two manual recoveries noted above."
+}

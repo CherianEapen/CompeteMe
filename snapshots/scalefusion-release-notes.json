@@ -2,10 +2,10 @@
  "id": "scalefusion-release-notes",
  "vendor": "Scalefusion",
  "kind": "d360-index",
- "fetchedAt": "2026-11-02T04:30:06.599Z",
+ "fetchedAt": "2026-11-10T09:26:18.152Z",
  "meta": {
   "url": "https://help.scalefusion.com/docs/latest-release-notes-year-2026",
-  "articleModifiedAt": "2026-11-02T04:30:02.9206065Z",
+  "articleModifiedAt": "2026-11-10T09:26:12.6321246Z",
   "articleTitle": "Latest Release Notes: Year 2026",
   "fetched": 1
  },
@@ -279,6 +279,15 @@
    "text": "Version Information: Scalefusion Dashboard: v64.4.0 Scalefusion iOS Agent: v4.17.0 Scalefusion Android Agent: v20.1.7 Scalefusion macOS Agent: v5.6.16 Release Notes: Intune Partner Compliance Integration with Scalefusion ...",
    "hash": "bb1c036b52f1598293d4bf1f87afb3a498e4f00dcad0d807c329044930a82fba",
    "windows": "none"
+  },
+  {
+   "key": "Scalefusion October 30th, 2026 Release Notes",
+   "title": "Scalefusion October 30th, 2026 Release Notes",
+   "date": "2026-11-02",
+   "url": "https://help.scalefusion.com/docs/scalefusion-october-30th-2026-release-notes",
+   "text": "Version Information:\nScalefusion Dashboard: v68.5.0\nScalefusion Windows MDM Agent: v17.4.0\nScalefusion Linux MDM Agent: v5.3.0\nRelease Notes:\nWindows Self-Service for App Catalog Apps\nScalefusion now extends Self-Service capabilities to Windows App Catalog applications, allowing IT Administrators to make applications available for end users to install, update, and uninstall.\nAdministrators can silently install applications while also making them available in the Self-Service catalog. This allows users to reinstall an application if a silent installation encounters an error or install an available update immediately instead of waiting for the automatic update process.\nWhen an application is added to Self-Service, users can also update it whenever the agent detects that a newer version is available.\nAdditionally, users can now uninstall Enterprise Store applications that are made available through Self-Service.\nLinux SUSE Support\nScalefusion now supports the enrollment and management of SUSE-based Linux devices, extending Linux device management support to additional Linux distributions.\nLinux Device Management Enhancements\nSeveral enhancements have been introduced to simplify Linux device administration and provide IT Administrators with additional management capabilities:\na. Global Admin Account Creation: IT Administrators can now create a global admin account for Linux devices from the Utilities section, similar to the existing functionality for Windows and macOS.\nb. Shutdown Configuration Settings: Administrators can configure a grace period and a warning message displayed to users when a device is shut down remotely through Device Details or Developer APIs.\nc. User Account Group Management: IT Administrators can now switch Linux user accounts between Standard and Admin groups from the User Access Management (UAM) section.\nd. Bulk Device Renaming: Bulk renaming from the Devices page now supports Linux devices. Administrators can rename Linux devices using either a Rule or a CSV file.\ne. Enhanced Location Capturing Options: Linux location tracking now includes IP-based location as an explicit option, and Browser-based location capturing is available again. IP-based location uses a known database to map locations but may not provide accurate results. Browser-based location capturing can consume significant CPU and memory resources and is not recommended unless location accuracy is a critical requirement.\nBug Fixes:\nVeltar Secure Web Gateway Compatibility: Resolved interoperability issues between Veltar Secure Web Gateway (SWG) and Cisco VPN, as well as applications that use localhost traffic.\nTeam\nTeam Scalefusion",
+   "hash": "4972b8b0e55e3610aa6e3c3dc2e4661a58b5800fd7e527da27c5d18dd4977da4",
+   "windows": "medium"
   }
  ]
 }

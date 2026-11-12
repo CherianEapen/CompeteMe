@@ -2,13 +2,67 @@
  "id": "manageengine-endpoint-central",
  "vendor": "ManageEngine",
  "kind": "csv",
- "fetchedAt": "2026-11-02T04:30:08.063Z",
+ "fetchedAt": "2026-11-10T09:26:19.440Z",
  "meta": {
   "url": "https://www.manageengine.com/sites/meweb/images/ems/readme/largenl_readme.csv",
-  "rows": 4680,
+  "rows": 4688,
   "kept": 400
  },
  "items": [
+  {
+   "key": "11.5.2627.67|edfa8d82381f",
+   "title": "11.5.2627.67 · BugFixes · DC:SS",
+   "date": "2026-11-06",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed a screen capture restriction failure in Adobe Acrobat in EndpointDLP module\nType: BugFixes; Products: DC:SS",
+   "hash": "e1e3dfc0195081bab0280e3caee0d1c527c2761c8da3aa37ebe5989cb2c846cc",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.67|16eb2c1329e0",
+   "title": "11.5.2627.67 · BugFixes · DC:SS",
+   "date": "2026-11-06",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed random DLL loading failures in the Google Chrome browser in EndpointDLP module\nType: BugFixes; Products: DC:SS",
+   "hash": "51d0487694cacc0c752bb72cd7a2bacd2142879d3a04a44932433363dc2ed3dc",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.67|0164ce12e186",
+   "title": "11.5.2627.67 · BugFixes · DC:SS:MSP:PMP",
+   "date": "2026-11-06",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Resolved an issue where viewing a report failed with an access denied error.\nType: BugFixes; Products: DC:SS:MSP:PMP",
+   "hash": "7838ccf45fffbfd0d82c6ca4dd0a191c8812fc21f78ee827119098097eeffbc2",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.66|e414da775200",
+   "title": "11.5.2627.66 · BugFixes · DC:SS:MSP:PMP:VMP",
+   "date": "2026-11-02",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed an issue where, in certain cases, the 'Reboot Pending' status was sent even after the 'Reboot'.\nType: BugFixes; Products: DC:SS:MSP:PMP:VMP",
+   "hash": "01f80bfd13d1d483f3a8cac5228024492256612ce99ae29d9506b12f8de84c1b",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.66|52d056d2dddd",
+   "title": "11.5.2627.66 · BugFixes · DC:MSP:RAP",
+   "date": "2026-11-02",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed an issue where non-English text in image announcements displayed special characters incorrectly.\nType: BugFixes; Products: DC:MSP:RAP",
+   "hash": "4ffa1b60eece6d638ae9d92eb63bccc95ed05bd76850a49a5672beac20df350e",
+   "windows": "none"
+  },
+  {
+   "key": "11.5.2627.66|78e63d4c4fcd",
+   "title": "11.5.2627.66 · BugFixes · DC:MSP:RAP",
+   "date": "2026-11-02",
+   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
+   "text": "Fixed an issue where the user confirmation helper message displayed incorrect information.\nType: BugFixes; Products: DC:MSP:RAP",
+   "hash": "b8ea3b4afa1082375bad70f744c7b2aec7a91a97704639b5938f88b225cb9dbf",
+   "windows": "none"
+  },
   {
    "key": "11.5.2627.65|76171e418bf0",
    "title": "11.5.2627.65 · BugFixes · DC:SS:MSP:PMP:VMP",
@@ -3544,60 +3598,6 @@
    "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
    "text": "Fixed issue with adding network paths, ensuring smooth application path configuration in the Application Control module.\nType: BugFixes; Products: DC:MSP",
    "hash": "9d799324928d054679c0a37e81a6fa418e08285f5fef05668dea8989d2a8a2ec",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.13|b6da0b125f9f",
-   "title": "11.4.2528.13 · BugFixes · DC",
-   "date": "2025-10-21",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Issue with updating deployment status in Endpoint DLP has been fixed in Endpoint DLP.\nType: BugFixes; Products: DC",
-   "hash": "d40420f572d948872b15876dea8c4c471faf524e693ae620601cf6b8252c45da",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.13|cc2c91bcb9b8",
-   "title": "11.4.2528.13 · BugFixes · DC:MSP",
-   "date": "2025-10-21",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Fixed an issue where Fully Qualified Domain Name (FQDN) server URLs were not resolving correctly in application access requests in the Application Control module.\nType: BugFixes; Products: DC:MSP",
-   "hash": "e11dd974a83b9415992d8d03a0ef90412425e03b39b408f2f2740ae0a067b136",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.13|9960ef0e516e",
-   "title": "11.4.2528.13 · BugFixes · DC:MSP",
-   "date": "2025-10-21",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Fixed an issue preventing the download of Linux dependency packages.\nType: BugFixes; Products: DC:MSP",
-   "hash": "50600d66a5b1099d330114b8e216ef1ff3523d611b32ed487d6088d0f5837c53",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.13|3edc171c229e",
-   "title": "11.4.2528.13 · BugFixes · DC",
-   "date": "2025-10-21",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Resolved issue with blocking file read during encryption, ensuring normal operations continue without disruption in the Device Control Module.\nType: BugFixes; Products: DC",
-   "hash": "aa8d8e9dd24924c59c232faa143bddf89557a9dcdfddfbb0bb0257756fe5b219",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.13|fe4b562d79a7",
-   "title": "11.4.2528.13 · Enhancements · DC",
-   "date": "2025-10-21",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Added Duration of Access field in mail templates, providing admins clearer context on temporary access approvals in the Device Control Module.\nType: Enhancements; Products: DC",
-   "hash": "f4d5b026558c7a633612baedeefc9c5dc0cef383d073d45d9e51d9c1c822ed64",
-   "windows": "none"
-  },
-  {
-   "key": "11.4.2528.13|2d0f32aeb4c5",
-   "title": "11.4.2528.13 · Enhancements · DC:MSP",
-   "date": "2025-10-21",
-   "url": "https://www.manageengine.com/products/desktop-central/hotfix-readme.html",
-   "text": "Increased the device exclusion limit to support up to 2000 devices in Secure USB configuration.\nType: Enhancements; Products: DC:MSP",
-   "hash": "cdeca4883c26cfa5ec79e7038ab0a79a094cab9c729d98dd5757fe42b6c4c33c",
    "windows": "none"
   }
  ]
