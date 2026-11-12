@@ -130,6 +130,11 @@ async function sitemap(src, ctx) {
     if (ctx.baseline && it.date && it.date < ctx.baselineCutoff) continue;
     if (!inc || inc.test(it.url)) candidates.push(it);
   }
+  // maxFetch truncates, so order matters: pages the report actually cares about must be
+  // fetched first. On 10 Nov 2026 a 121-page 42Gears restructure pushed four new Windows
+  // Shared Device Mode pages past the cap and they reached the diff with no text at all.
+  const rep = src.reportInclude ? new RegExp(src.reportInclude, "i") : null;
+  if (rep) candidates.sort((a, b) => (rep.test(b.url) ? 1 : 0) - (rep.test(a.url) ? 1 : 0));
   const toFetch = candidates.slice(0, src.maxFetch ?? 20);
   await mapLimit(toFetch, 4, async (it) => {
     try {

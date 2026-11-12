@@ -49,12 +49,7 @@
     "vendor": "Hexnode",
     "kind": "rss",
     "url": "https://www.hexnode.com/blogs/feed/",
-    "include": "windows|new feature|now available|introduc|releas|launch|update|announce|hexnode uem|product",
-    "includeFields": [
-      "title",
-      "categories"
-    ],
-    "note": "Marketing-heavy; filtered to product/feature posts by title and category."
+    "note": "Hexnode posts ~10/week. The original keyword include filter was dropped on 2026-11-12: their titles moved to topic-led (\"Technical deep dives\", \"Best practices\") and the filter matched only 1 of 10 posts, hiding product content including XDR, Genie and Zebra material. Volume is low enough to triage on the Windows relevance hint instead."
   },
   {
     "id": "miradore-releases",
