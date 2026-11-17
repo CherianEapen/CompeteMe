@@ -2,12 +2,39 @@
  "id": "iru-updates",
  "vendor": "Iru",
  "kind": "rss",
- "fetchedAt": "2026-11-10T09:26:12.369Z",
+ "fetchedAt": "2026-11-16T04:30:07.138Z",
  "meta": {
   "url": "https://www.iru.com/updates/rss.xml",
   "entries": 50
  },
  "items": [
+  {
+   "key": "https://www.iru.com/updates/2026/11/13/managed-os-for-tvos",
+   "title": "Managed OS for tvOS",
+   "date": "2026-11-13",
+   "url": "https://www.iru.com/updates/2026/11/13/managed-os-for-tvos",
+   "text": "Managed OS for tvOS has been updated. The latest approved version is now 27.2.1, with the following release date:",
+   "hash": "8bcbca04494789fd848667eceb7fca0c9213dca9b8da7055ce9d1ade29cc9bce",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/2026/11/11/deploy-apple-declarations-with-custom-declarations",
+   "title": "Deploy Apple declarations with Custom Declarations",
+   "date": "2026-11-12",
+   "url": "https://www.iru.com/updates/2026/11/11/deploy-apple-declarations-with-custom-declarations",
+   "text": "Use Apple declarative device management (DDM) configurations right away, even before there’s a dedicated Library Item for them. Paste or upload your declaration JSON in the new Custom Declarations Library Item, and Iru checks each declaration against Apple’s schemas as you type, flagging issues on the exact line. If a built-in Library Item already covers what you’re configuring, Iru points you to it. Once the item is assigned, you see the status of every declaration on every device, with Apple’s error text when one fails. Available for macOS, iOS, iPadOS, tvOS, and visionOS.",
+   "hash": "ea6a886c42dc05ae7a2858d140f0b0f2b2c91ea95a4825b367dee7700f7630d5",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.iru.com/updates/windows-endpoint-agent-1-26-15",
+   "title": "Iru Agent for Windows Endpoint Agent 1.26.15",
+   "date": "2026-11-11",
+   "url": "https://www.iru.com/updates/windows-endpoint-agent-1-26-15",
+   "text": "We've released Iru Agent for Windows Endpoint Agent 1.26.15",
+   "hash": "e6ac67060850f27bc4f376fe47fc48c45429d180a9206dcb5efdaabf68e461a7",
+   "windows": "high"
+  },
   {
    "key": "https://www.iru.com/updates/2026/11/09/managed-os-for-ios-and-ipados",
    "title": "Managed OS for iOS and iPadOS",
@@ -28,11 +55,11 @@
   },
   {
    "key": "https://www.iru.com/updates/2026/11/06/whats-new-in-iru",
-   "title": "What's New in Iru | November 6th",
+   "title": "What's New in Iru: Korean, Remote Shell, and Auto App Digests",
    "date": "2026-11-06",
    "url": "https://www.iru.com/updates/2026/11/06/whats-new-in-iru",
    "text": "Korean is now a live language in Iru across every product\nRemote Shell is now available to all customers using Iru EDR.\nAuto Apps update notifications now roll into a single daily digest.",
-   "hash": "2c4786da501da2c9d86a4b788e6a36f205e579567b072689c08661c3029e2014",
+   "hash": "2a5bce2d5616d2fa604d4d1f6b6065626aec45ebab514036f8426f0f4d17167f",
    "windows": "none"
   },
   {
@@ -429,33 +456,6 @@
    "url": "https://www.iru.com/updates/2026/10/01/new-identity-activity-log",
    "text": "The Iru Identity activity log now shows a new, more detailed view of activities, including user sign-ins, application management, account lifecycle events, and group management. You can filter the table by activity time, activity type, outcome, user, actor, and application. Multiple filter conditions at once are also supported.",
    "hash": "608a143e8e9966460074d200dcf5a0b8d89bbec39b33a4f681e0e338518f862d",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/30/apple-managed-os-timeline",
-   "title": "Managed OS for Apple: Dynamic timeline view",
-   "date": "2026-09-30",
-   "url": "https://www.iru.com/updates/2026/09/30/apple-managed-os-timeline",
-   "text": "Managed OS for Apple devices now includes a dynamic timeline view that adjusts to the settings defined in the Library Item, taking the guesswork out of when a particular update will be enforced and to which version a device will be forced to update.",
-   "hash": "3818f9b50131ee09fe5450d92677643ca110108ed9ccfbab1f7e4dfc9e097962",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/30/new-apple-restrictions-for-siri-and-apple-intelligence",
-   "title": "New Apple Restrictions for Siri and Apple Intelligence",
-   "date": "2026-09-30",
-   "url": "https://www.iru.com/updates/2026/09/30/new-apple-restrictions-for-siri-and-apple-intelligence",
-   "text": "The Restrictions Library Item for Apple devices now supports the following restrictions:",
-   "hash": "2a6fb352230c4c33693e852d61ae890b1633706b24581e91e5364faaba236590",
-   "windows": "none"
-  },
-  {
-   "key": "https://www.iru.com/updates/2026/09/30/manage-safari-extensions-for-mac",
-   "title": "Manage Safari Extensions for Mac",
-   "date": "2026-09-30",
-   "url": "https://www.iru.com/updates/2026/09/30/manage-safari-extensions-for-mac",
-   "text": "The Safari Extensions Library Item has been enhanced to support management of Safari Extensions on macOS.",
-   "hash": "c9dd54d588d0b6343620c9c5fd6be91019c3ca141e628e610afd2bca533bf1d2",
    "windows": "none"
   }
  ]

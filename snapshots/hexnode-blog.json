@@ -2,10 +2,101 @@
  "id": "hexnode-blog",
  "vendor": "Hexnode",
  "kind": "rss",
- "fetchedAt": "2026-11-10T09:26:14.484Z",
+ "fetchedAt": "2026-11-16T04:30:07.892Z",
  "meta": {
   "url": "https://www.hexnode.com/blogs/feed/",
   "entries": 10
  },
- "items": []
+ "items": [
+  {
+   "key": "https://www.hexnode.com/blogs/?p=53798",
+   "title": "Enterprise Wearable Network Security: Managing Certificates and Trusted Networks",
+   "date": "2026-11-16",
+   "url": "https://www.hexnode.com/blogs/enterprise-wearable-network-security/",
+   "text": "Why Does Enterprise Wearable Network Security Create an Endpoint-Planning Gap?\nEnterprise wearable network security becomes an endpoint-planning concern when organizations overlook device connectivity, authentication, and certificate requirements. Enterprise wearables include devices such as smart glasses and mixed-reality headsets used for business operations.\nCommon operational gaps include:\nDifficult credential entry: Entering long Wi-Fi passphrases through a headset’s virtual or gesture-based input methods can slow setup. Input speed and accuracy vary depending on the interaction method and device.\nNetwork access before enrollment: A headset may need network connectivity to enroll. However, an 802.1X network using EAP-TLS client-certificate authentication requires a client certificate. IT therefore needs a validated first-connect path.\nDevices outside IT inventory: A business unit may purchase wearables independently. Consequently, IT may not know these devices exist before users connect them.\nSee our Vision Pro network access pilot guide for an example of how to address first-connect requirements during deployment.\nWhat Is Enterprise Wearable Network Security?\nEnterprise wearable network security controls which networks wearable devices can join and how they authenticate. A trusted network is an organization-approved network with defined access rules. A certificate is a digital credential that helps verify an identity through public-key cryptography.\nA VPN establishes a…",
+   "hash": "5987a1b78aa89714e30682fbac8cc515fceac096372a1127627804dd173ac6ff",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.hexnode.com/blogs/?p=53842",
+   "title": "Android Work Profile Creation Problems: What to Check Before Retrying",
+   "date": "2026-11-13",
+   "url": "https://www.hexnode.com/blogs/android-work-profile-creation-problems/",
+   "text": "Why does Android Work Profile creation fail during enrollment?\nAn employee begins setting up an Android Work Profile, but enrollment stops before the managed workspace becomes available. These android work profile creation problems can occur during device eligibility checks, account authentication, profile provisioning, or final enrollment confirmation.\nHowever, an enrollment error rarely tells the whole story. Incompatible devices, existing management configurations, outdated Google services, or interrupted provisioning can prevent successful setup.\nBefore retrying, IT administrators must identify the enrollment model and exact failure stage. Repeating enrollment without addressing the underlying issue often reproduces the same error, delaying resolution and complicating troubleshooting.\nWhat happens when Android Work Profile failures remain unresolved?\nUnresolved Work Profile failures delay employee onboarding, prevent managed application deployment, and interrupt access to corporate resources. Repeated enrollment failures also increase help desk workloads and extend device provisioning timelines.\nFrom a security perspective, incomplete enrollment may leave devices without required management configurations, application controls, or work-data separation. However, failed provisioning does not automatically indicate corporate data exposure.\nIndiscriminate retries introduce additional risks. Unnecessary factory resets can erase locally stored information, while repeated authe…",
+   "hash": "1bf8916ffe02ad30f2deb108210adfef1f308f4e784c100286d1720edfe30c19",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.hexnode.com/blogs/?p=53827",
+   "title": "MSSP Endpoint Security Baselines: Management and Detection",
+   "date": "2026-11-13",
+   "url": "https://www.hexnode.com/blogs/mssp-endpoint-security-baseline/",
+   "text": "Why do MSSPs need a defined endpoint security baseline?\nMSSPs need consistent endpoint security requirements to manage diverse client environments without creating service-delivery gaps. Without one, MSSPs struggle to deliver consistent protection across different operating systems, device ownership models, existing security tools, and contractual requirements.\nEach client may have different encryption policies, patching schedules, monitoring capabilities, and security priorities. Applying identical controls across every environment may be impractical, while excessive customization makes service delivery difficult to standardize.\nA documented baseline helps MSSPs:\nEstablish common security requirements while accommodating client-specific exceptions.\nDefine minimum management controls and detection visibility.\nClarify provider responsibilities and monitoring expectations before expanding security services.\nWhat are the risks of operating without an MSSP endpoint security baseline?\nWithout a defined endpoint security baseline, MSSPs risk inconsistent protection, delayed incident response, and gaps in service accountability across client environments.\nAccording to Gatepoint Research’s 2025 endpoint management survey, only 18% of respondents reported complete visibility into all network endpoints. This highlights why MSSPs should verify endpoint coverage and monitoring gaps before committing to security service deliverables.\nSecurity exposure: Inconsistent encryption, delayed pa…",
+   "hash": "5ada8a71985042580d4d835399756726ce2389c90a0956b05c16be0b7a124eda",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.hexnode.com/blogs/?p=53824",
+   "title": "iOS Website Allowlist Troubleshooting: Fixing Broken Workflows",
+   "date": "2026-11-13",
+   "url": "https://www.hexnode.com/blogs/ios-web-allowlist-dependencies/",
+   "text": "Why do approved websites fail under iOS web allowlists?\nApproved websites can fail under iOS web allowlists when essential redirects or supporting domains remain restricted.\nConsider an IT administrator who approves a business portal on supervised iPhones or iPads. The landing page loads, but authentication redirects fail, embedded resources disappear, or subsequent pages become inaccessible.\nThese iOS web allowlist dependencies extend beyond the primary website. Enterprise workflows may rely on external identity providers, redirected URLs, content delivery networks (CDNs), and application endpoints.\nThe problem arises when administrators validate only the initial URL instead of the complete workflow. Troubleshooting requires identifying legitimate dependencies without unnecessarily expanding browsing permissions.\nWhat happens when iOS allowlist dependencies remain unresolved?\nUnresolved allowlist dependencies disrupt business workflows, increase support requests, and complicate endpoint management.\nFrontline employees using shared or dedicated iOS devices may encounter failed authentication, inaccessible portals, broken embedded content, or interrupted form submissions. These failures generate repeated helpdesk tickets and delay operational tasks.\nAdministrators may respond by broadly approving additional domains, potentially weakening browsing restrictions without verifying their necessity.\nRepeated trial-and-error changes also consume IT resources, create inconsistent dev…",
+   "hash": "890f9d52cab7b58da2a4635b696e48359c1b03e95a9beb1ef6dfa47f7a9e5b85",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.hexnode.com/blogs/?p=53819",
+   "title": "Android Web Filtering: Understanding URL Rules and Restrictions",
+   "date": "2026-11-13",
+   "url": "https://www.hexnode.com/blogs/android-web-filtering-understanding-url-rules-and-restrictions/",
+   "text": "Why do Android web filtering rules block more than administrators expect?\nAndroid web filtering rules may block more than intended because some filtering implementations evaluate entire hostnames rather than individual URL paths.\nAn IT administrator blocks a specific webpage on a managed Android device, only to discover that the entire website becomes inaccessible. Meanwhile, blocking one subdomain may leave the parent website and sibling subdomains accessible.\nThis creates uncertainty when configuring Android web filtering url rules, particularly when administrators expect webpage-level precision.\nBefore deploying restrictions across a Samsung Knox fleet, IT teams must answer three questions:\nHow are URL paths interpreted?\nDo subdomain restrictions affect parent domains?\nHow can administrators verify actual filtering behavior?\nWhat happens when Android URL filtering rules are configured incorrectly?\nIncorrect URL filtering rules can cause overblocking or underblocking, disrupting legitimate access or leaving intended restrictions unenforced.\nOverblocking occurs when a restriction targeting one webpage blocks an entire hostname. Employees may lose access to business portals, technical documentation, or authentication-related resources.\nUnderblocking occurs when administrators assume a parent-domain restriction automatically covers associated subdomains. Separately hosted destinations may remain accessible despite the intended restriction.\nBoth outcomes create operational cha…",
+   "hash": "4ba3f882c5150e9e5ec67dfa7b189f41198ca681e86ba2cab07116355afc75c1",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.hexnode.com/blogs/?p=53802",
+   "title": "Android APK Update Conflicts: Common Causes and Fixes",
+   "date": "2026-11-13",
+   "url": "https://www.hexnode.com/blogs/android-apk-update-conflicts/",
+   "text": "Why do Android APK updates fail with package conflicts?\nAndroid APK update conflicts occur when a replacement APK fails installation checks, even after being successfully uploaded to an enterprise app inventory. Android validates the package against the existing application before accepting an update.\nCommon causes include:\nSigning certificate mismatches: The replacement APK uses a signing identity incompatible with the installed application.\nVersion downgrades: The replacement APK has a lower versionCode than the installed version.\nPackage identity differences: A different application ID prevents Android from recognizing the APK as an update.\nCorrupted APK files: Damaged, incomplete, or improperly signed packages fail installation validation.\nSuccessful APK upload only confirms repository acceptance, not installation compatibility. Android performs additional checks on each device, meaning an APK may deploy successfully to some endpoints while failing on others.\nHow do APK update conflicts affect enterprise app management?\nAPK update conflicts can disrupt enterprise app management in several ways:\nOutdated applications: Failed updates delay security patches, bug fixes, and feature improvements.\nVersion inconsistencies: Different app versions complicate deployment tracking and maintenance.\nIncreased IT workload: Repeated installation failures require additional troubleshooting.\nPotential data loss: Uninstalling applications to resolve conflicts may remove locally stored data…",
+   "hash": "95b04d2187e9e74dda8d2d9dacb43c6fd2852ee239be10b50dd9ab3ba1890c1e",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.hexnode.com/blogs/?p=53767",
+   "title": "Android Kiosk Background Apps: Balancing Access and App Visibility",
+   "date": "2026-11-12",
+   "url": "https://www.hexnode.com/blogs/android-kiosk-background-services/",
+   "text": "Why do Android kiosk apps fail when supporting apps are hidden?\nAndroid kiosk apps can fail when required supporting applications are unavailable within the restricted kiosk environment. For example, a warehouse inventory app may launch successfully but fail to process scans because a dependent utility cannot operate.\nNative Android Screen Pinning differs from MDM-managed kiosk lockdown. Screen Pinning keeps users within a selected app but does not provide centralized control over supporting application access, launcher visibility, or persistent kiosk configuration across restarts. It does not inherently block all background inter-app communication.\nMDM-managed kiosk policies offer more granular control over permitted applications. Managing android kiosk background services requires keeping essential dependencies accessible without exposing unnecessary launch icons or guaranteeing uninterrupted execution.\nWhat happens when Android kiosk app dependencies are overlooked?\nOverlooked dependencies can disrupt critical kiosk functions. Depending on application architecture, unavailable supporting packages may interrupt barcode scanning, payment integrations, calling workflows, or peripheral communication.\nRepeated failures can increase helpdesk workloads, prolong device downtime, and require on-site troubleshooting across distributed deployments. Diagnosing these issues becomes harder when the primary kiosk application appears functional.\nHowever, exposing every supporting applica…",
+   "hash": "eed8ff0611716970d0fbe48be8e8160c9a4b9c496d2e14682135fdbfa260b1e0",
+   "windows": "medium"
+  },
+  {
+   "key": "https://www.hexnode.com/blogs/?p=53762",
+   "title": "Preparing app-deployment requests through Genie chat",
+   "date": "2026-11-12",
+   "url": "https://www.hexnode.com/blogs/natural-language-app-deployment/",
+   "text": "Why do app-deployment requests need more than a simple chat command?\nAn IT administrator needs to deploy a business application to the Sales team’s managed devices. Before proceeding, they must identify the correct application, confirm the target group, and verify deployment requirements.\nNatural language app deployment simplifies request preparation by allowing administrators to describe deployment intent conversationally. However, instructions such as “Deploy Slack to Sales devices” leave critical details unclear, including application versions, operating systems, and deployment scope.\nHexnode Genie AI provides a conversational interface for preparing application deployment workflows. However, interpreting a request does not automatically make it ready for execution. Administrators must validate the application, targets, and intended action.\nWhat can go wrong when deployment intent is not validated?\nUnvalidated deployment requests can distribute incorrect applications, target unintended devices, or trigger installation failures. These mistakes disrupt users, increase troubleshooting workloads, and delay application availability.\nAmbiguous instructions also introduce security and compliance risks. Deploying applications to unauthorized endpoints or overlooking installation prerequisites can violate organizational policies and expose devices to unnecessary risks.\nA conversational request must therefore translate into a reviewable deployment action with clearly identified app…",
+   "hash": "980a219286b7453f28d7f584693100a19c025a0c0226b7f4cab75d3338be8f06",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.hexnode.com/blogs/?p=53756",
+   "title": "Planning federation between Hexnode IdP and existing identity providers",
+   "date": "2026-11-12",
+   "url": "https://www.hexnode.com/blogs/identity-federation-migration-planning/",
+   "text": "Why can adding an identity provider disrupt existing access?\nAdding an identity provider changes the trust relationships behind sign-in, so existing access requires validation. Identity federation migration planning establishes how those changes will affect users and applications.\nConsider an IAM administrator connecting another identity platform while employees continue using business applications. The administrator must determine which system validates credentials, where MFA applies, and how identities match existing application accounts. Unclear responsibilities make authentication failures harder to diagnose.\nBefore changing the configuration, answer four questions:\nAre the providers compatible?\nWho authenticates users?\nWhich applications depend on the existing configuration?\nWhat must user testing prove across affected user groups and workflows?\nWhat happens when federation changes are poorly planned?\nPoorly planned federation changes can lock employees out, grant incorrect access, and delay business operations. These failures can affect both the users changing sign-in methods and teams relying on their work.\nIncorrect identity matching can create duplicate accounts, separating users from existing records or permissions. Unexpected MFA prompts increase support demand, especially when employees cannot identify which system requires authentication. Disrupted access to customer management or support applications can delay responses and service delivery.\nUnclear ownership a…",
+   "hash": "d6b15ddcc941f71afd1f463da024ca9ddd25e9a2857f221a21c4bb12e66ddf8d",
+   "windows": "none"
+  },
+  {
+   "key": "https://www.hexnode.com/blogs/?p=53774",
+   "title": "MSP Pooled License Allocation: How to Plan and Allocate Licenses to Client Portals",
+   "date": "2026-11-12",
+   "url": "https://www.hexnode.com/blogs/msp-pooled-license-allocation/",
+   "text": "What Is MSP Pooled License Allocation?\nMSP pooled license allocation lets a managed service provider (MSP) purchase licenses at the account level. The MSP holds them in a shared pool and allocates them to individual client UEM portals.\nUEM (Unified Endpoint Management) enables IT teams to centrally monitor, manage, and secure endpoints through a unified platform. Each client UEM portal provides a separate management environment for one customer.\nPer-client purchasing can delay onboarding because the MSP must arrange a purchase before managing a new client’s devices.\nWithout a pool: An MSP may need to arrange a separate license purchase for each new client. Procurement lead times can delay device management.\nWith a pool: The MSP uses existing capacity. It allocates compatible licenses when creating a client UEM portal.\nHexnode announced platform-based licensing for Hexnode UEM MSP in its release notes on September 22, 2026. Licenses belong to the MSP account, not an individual client portal. The MSP purchases them by platform and tier, then allocates them across client portals.\nWho Owns the License Pool in an MSP Model?\nIn Hexnode UEM MSP platform-based licensing, the MSP account owns the license pool, not an individual client UEM portal. The MSP account holds licenses purchased by platform and tier. It allocates compatible licenses to client portals.\nThis ownership model changes three aspects of license administration:\nPurchase timing: The MSP manages purchasing centrally an…",
+   "hash": "91938c15ceb55f9a563451d975d4d6c14e94151285c32e479ee3dec33fc61ebd",
+   "windows": "medium"
+  }
+ ]
 }

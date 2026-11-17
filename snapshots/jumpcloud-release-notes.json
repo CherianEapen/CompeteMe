@@ -2,12 +2,21 @@
  "id": "jumpcloud-release-notes",
  "vendor": "JumpCloud",
  "kind": "html-sections",
- "fetchedAt": "2026-11-10T09:26:19.516Z",
+ "fetchedAt": "2026-11-16T04:30:10.923Z",
  "meta": {
   "url": "https://jumpcloud.com/support/release-notes-2026",
-  "headings": 76
+  "headings": 77
  },
  "items": [
+  {
+   "key": "November 12th, 2026",
+   "title": "November 12th, 2026",
+   "date": "2026-11-12",
+   "url": "https://jumpcloud.com/support/release-notes-2026#november-12th-2026",
+   "text": "Enhancement: Name override for SCIM groups\nFeature: SSO Applications (SCIM)\nYou can keep your JumpCloud group names for internal standards and send the group name each application expects. On the application’s User Groups and Agent Groups tab, use Show In App As to set a name override when provisioning is active and group management is enabled.\nSet a different group name per application without changing the JumpCloud group name.\nUse Save to store the override in JumpCloud, or Save and sync to update the application right away.\nShow In App As value takes priority over Group Export Attribute Mapping when both define a group display name for the same group.\nSee Improved SSO and SCIM Applications Experience and Integrate with Custom SCIM to learn more. For a specific application, see that application’s article in the JumpCloud Help Center.",
+   "hash": "a9aaefe4b22da6e219e936112b8ba63e90f69664b4fb886f50e6e05f046f8aae",
+   "windows": "none"
+  },
   {
    "key": "November 4th, 2026",
    "title": "November 4th, 2026",
@@ -106,15 +115,6 @@
    "text": "Enhancement: Dormant Application Access Detection\nFeature: Access Risk\nDormant Application Access now detects when a user signs back into an SSO application after a period of inactivity that meets your configured threshold, instead of flagging first-time access. You can set the dormant application threshold in Access Risk > Configuration. First-time access to an application does not trigger this factor, which reduces noise from newly provisioned apps.\nSee Configure Access Risk Detection to learn more.",
    "hash": "0ff4fc2a6befe4750d79c55ccc11c1d30105ff3597c6d70ded3264b470ecb2f2",
    "windows": "none"
-  },
-  {
-   "key": "September 24th, 2026",
-   "title": "September 24th, 2026",
-   "date": "2026-09-24",
-   "url": "https://jumpcloud.com/support/release-notes-2026#september-24th-2026",
-   "text": "New: Patch Management Dashboards\nFeature: Patch Management\nJumpCloud Patch Management now includes a unified dashboard experience plus dedicated Windows and Apple views in the Admin Portal. From Device Management > Patch Management, you can monitor fleet-wide update posture, drill into KB compliance on Windows devices, and track Apple OS rollout progress against active update policies.\nUnified Patch Dashboard\nCross-platform overview: Review patch compliance for Windows and Apple devices together on the Overview tab.\nFleet update summary: See pending updates by severity, devices with pending updates, devices with update failures, and the age of missing updates.\nPlatform switcher: Move between Overview, Apple, and Windows tabs from one page.\nWindows Overview and Patch List\nPatch and device insights: View patch coverage, missing patches by severity and age, device compliance, and critical patch exposure in one dashboard.\nGlobal severity filter: Focus the dashboard and KB list on the severities that matter most.\nKB-centric control: Search and filter KBs, review CVE details, approve awaiting updates, retry failed installations, and export the KB list as CSV or JSON.\nBulk remediation: Install missing critical patches or non-compliant device updates immediately or on the policy schedule.\nApple Compliance Dashboard\nRollout visibility: Track OS deployment progress for macOS, iOS, and iPadOS devices against effective update policy targets.\nCompliance and coverage: Review missing updates by severity, device compliance, update policy coverage, and the age of missing updates.\nApple OS Version Listing: Filter by platform, release date, severity, and device status; drill into targeted, installed, pending, in-progress, or failed devices; and view associated CVE details.\nLearn More\nGet Started: Unified Patch Dashboard\nWindows Overview and Patch List\nApple Compliance Dashboard",
-   "hash": "f1f58048d5124dfe4f7e9c4c854e9186ebd9daf80c5c8bc75a8fd262a87208c3",
-   "windows": "high"
   }
  ]
 }
